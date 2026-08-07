@@ -1,0 +1,58 @@
+{
+  "/docs-ac3": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/docs-c18": {
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
+  },
+  "/docs-7ad": {
+    "__comp": "a94703ab"
+  },
+  "/docs/contributing-0cf": {
+    "__comp": "17896441",
+    "content": "4d54d076"
+  },
+  "/docs/frameworks/-82d": {
+    "__comp": "17896441",
+    "content": "7054f32e"
+  },
+  "/docs/frameworks/gtm-channels-bullseye-abc": {
+    "__comp": "17896441",
+    "content": "16f7da9a"
+  },
+  "/docs/frameworks/gtm-strategy-framework-e6b": {
+    "__comp": "17896441",
+    "content": "cd35a1c1"
+  },
+  "/docs/intro-61d": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/docs/playbooks/-fa3": {
+    "__comp": "17896441",
+    "content": "913f85e0"
+  },
+  "/docs/playbooks/outbound-from-zero-6c1": {
+    "__comp": "17896441",
+    "content": "b1a466df"
+  },
+  "/docs/roles/founders/-cb8": {
+    "__comp": "17896441",
+    "content": "944cd1fe"
+  },
+  "/docs/roles/head-of-platforms/-bc3": {
+    "__comp": "17896441",
+    "content": "140fac3e"
+  },
+  "/-2e1": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

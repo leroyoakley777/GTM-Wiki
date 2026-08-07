@@ -1,0 +1,32 @@
+/**
+ * Open GTM Wiki — theme overrides.
+ * Infratech-meets-maritime: deep ink, seafoam accent, clean type.
+ */
+
+:root {
+  --ifm-color-primary: #1f6f6a;
+  --ifm-color-primary-dark: #1c645f;
+  --ifm-color-primary-darker: #1a5f5a;
+  --ifm-color-primary-darkest: #154e4a;
+  --ifm-color-primary-light: #227a74;
+  --ifm-color-primary-lighter: #247f79;
+  --ifm-color-primary-lightest: #2a938c;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #6fd3cb;
+  --ifm-color-primary-dark: #55cbc2;
+  --ifm-color-primary-darker: #48c7bd;
+  --ifm-color-primary-darkest: #35a89f;
+  --ifm-color-primary-light: #89dbd4;
+  --ifm-color-primary-lighter: #96dfd9;
+  --ifm-color-primary-lightest: #bceae6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title { font-weight: 800; letter-spacing: 0.5px; }
+.markdown table { display: table; width: 100%; }
+.markdown h1 { letter-spacing: -0.5px; }

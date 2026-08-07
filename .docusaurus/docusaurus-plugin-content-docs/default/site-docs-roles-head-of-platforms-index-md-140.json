@@ -1,0 +1,24 @@
+{
+  "id": "roles/head-of-platforms/index",
+  "title": "Head of Platforms",
+  "description": "The rarest and most misunderstood role in modern GTM. Part seller, part",
+  "source": "@site/docs/roles/head-of-platforms/index.md",
+  "sourceDirName": "roles/head-of-platforms",
+  "slug": "/roles/head-of-platforms/",
+  "permalink": "/docs/roles/head-of-platforms/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/roles/head-of-platforms/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Head of Platforms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Founders",
+    "permalink": "/docs/roles/founders/"
+  }
+}

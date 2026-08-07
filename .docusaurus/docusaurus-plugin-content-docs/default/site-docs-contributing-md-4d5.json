@@ -1,0 +1,19 @@
+{
+  "id": "contributing",
+  "title": "Contributing",
+  "description": "The Open GTM Wiki is open source and community-driven. High-signal",
+  "source": "@site/docs/contributing.md",
+  "sourceDirName": ".",
+  "slug": "/contributing",
+  "permalink": "/docs/contributing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/contributing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99,
+    "title": "Contributing"
+  }
+}

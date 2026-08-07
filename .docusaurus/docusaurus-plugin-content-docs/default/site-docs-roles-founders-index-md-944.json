@@ -1,0 +1,28 @@
+{
+  "id": "roles/founders/index",
+  "title": "Founders",
+  "description": "GTM guidance specifically for early-stage founders — how to find your",
+  "source": "@site/docs/roles/founders/index.md",
+  "sourceDirName": "roles/founders",
+  "slug": "/roles/founders/",
+  "permalink": "/docs/roles/founders/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/roles/founders/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Founders"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outbound from Zero",
+    "permalink": "/docs/playbooks/outbound-from-zero"
+  },
+  "next": {
+    "title": "Head of Platforms",
+    "permalink": "/docs/roles/head-of-platforms/"
+  }
+}

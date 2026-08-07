@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Welcome to the Open GTM Wiki",
+  "description": "The highest-signal, open-source Go-to-Market resource for founders, VCs, SDRs, AEs, RevOps, and builders of all kinds.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "00 — GTM Strategy Framework (Universal)",
+    "permalink": "/docs/frameworks/gtm-strategy-framework"
+  }
+}

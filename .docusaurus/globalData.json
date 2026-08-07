@@ -1,0 +1,71 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "contributing",
+              "path": "/docs/contributing"
+            },
+            {
+              "id": "frameworks/gtm-channels-bullseye",
+              "path": "/docs/frameworks/gtm-channels-bullseye",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frameworks/gtm-strategy-framework",
+              "path": "/docs/frameworks/gtm-strategy-framework",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "frameworks/index",
+              "path": "/docs/frameworks/"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "playbooks/index",
+              "path": "/docs/playbooks/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "playbooks/outbound-from-zero",
+              "path": "/docs/playbooks/outbound-from-zero",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/founders/index",
+              "path": "/docs/roles/founders/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roles/head-of-platforms/index",
+              "path": "/docs/roles/head-of-platforms/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

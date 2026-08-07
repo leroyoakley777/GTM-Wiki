@@ -1,0 +1,27 @@
+{
+  "id": "frameworks/gtm-strategy-framework",
+  "title": "00 — GTM Strategy Framework (Universal)",
+  "description": "This is the foundational framework that every other section in this wiki builds upon.",
+  "source": "@site/docs/frameworks/00-gtm-strategy-framework.md",
+  "sourceDirName": "frameworks",
+  "slug": "/frameworks/gtm-strategy-framework",
+  "permalink": "/docs/frameworks/gtm-strategy-framework",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/frameworks/00-gtm-strategy-framework.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to the Open GTM Wiki",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "01 — GTM Channels Bullseye Framework",
+    "permalink": "/docs/frameworks/gtm-channels-bullseye"
+  }
+}
