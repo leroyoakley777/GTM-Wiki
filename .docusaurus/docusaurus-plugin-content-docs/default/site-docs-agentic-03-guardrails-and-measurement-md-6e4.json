@@ -1,0 +1,28 @@
+{
+  "id": "agentic/guardrails-and-measurement",
+  "title": "Guardrails & Measurement",
+  "description": "Goal: keep the harness honest — the checks that stop it from",
+  "source": "@site/docs/agentic/03-guardrails-and-measurement.md",
+  "sourceDirName": "agentic",
+  "slug": "/agentic/guardrails-and-measurement",
+  "permalink": "/docs/agentic/guardrails-and-measurement",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/agentic/03-guardrails-and-measurement.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Guardrails & Measurement"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Agentic Outbound",
+    "permalink": "/docs/agentic/agentic-outbound"
+  },
+  "next": {
+    "title": "Founders",
+    "permalink": "/docs/roles/founders/"
+  }
+}

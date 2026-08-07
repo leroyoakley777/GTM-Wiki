@@ -28,6 +28,17 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Agentic GTM',
+      collapsed: false,
+      items: [
+        'agentic/index',
+        'agentic/agentic-stack',
+        'agentic/agentic-outbound',
+        'agentic/guardrails-and-measurement',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Roles',
       collapsed: false,
       items: [

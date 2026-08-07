@@ -11,6 +11,26 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "agentic/agentic-outbound",
+              "path": "/docs/agentic/agentic-outbound",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "agentic/agentic-stack",
+              "path": "/docs/agentic/agentic-stack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "agentic/guardrails-and-measurement",
+              "path": "/docs/agentic/guardrails-and-measurement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "agentic/index",
+              "path": "/docs/agentic/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "contributing",
               "path": "/docs/contributing"
             },

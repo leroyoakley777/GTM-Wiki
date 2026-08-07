@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Outbound from Zero",
-    "permalink": "/docs/playbooks/outbound-from-zero"
+    "title": "Guardrails & Measurement",
+    "permalink": "/docs/agentic/guardrails-and-measurement"
   },
   "next": {
     "title": "Head of Platforms",

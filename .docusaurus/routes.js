@@ -4,16 +4,40 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ac3'),
+    component: ComponentCreator('/docs', '257'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'c18'),
+        component: ComponentCreator('/docs', '2ce'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '7ad'),
+            component: ComponentCreator('/docs', '088'),
             routes: [
+              {
+                path: '/docs/agentic/',
+                component: ComponentCreator('/docs/agentic/', '7c7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/agentic/agentic-outbound',
+                component: ComponentCreator('/docs/agentic/agentic-outbound', '7eb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/agentic/agentic-stack',
+                component: ComponentCreator('/docs/agentic/agentic-stack', 'fff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/agentic/guardrails-and-measurement',
+                component: ComponentCreator('/docs/agentic/guardrails-and-measurement', '9e3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/contributing',
                 component: ComponentCreator('/docs/contributing', '0cf'),

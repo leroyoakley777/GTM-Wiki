@@ -1,0 +1,28 @@
+{
+  "id": "agentic/index",
+  "title": "Agentic GTM",
+  "description": "Frameworks don't change. Execution does.",
+  "source": "@site/docs/agentic/index.md",
+  "sourceDirName": "agentic",
+  "slug": "/agentic/",
+  "permalink": "/docs/agentic/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/agentic/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Agentic GTM"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Outbound from Zero",
+    "permalink": "/docs/playbooks/outbound-from-zero"
+  },
+  "next": {
+    "title": "The Agentic Stack",
+    "permalink": "/docs/agentic/agentic-stack"
+  }
+}

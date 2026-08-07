@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Welcome to the Open GTM Wiki",
-  "description": "The highest-signal, open-source Go-to-Market resource for founders, VCs, SDRs, AEs, RevOps, and builders of all kinds.",
+  "description": "The highest-signal, open-source Go-to-Market resource for founders, VCs,",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

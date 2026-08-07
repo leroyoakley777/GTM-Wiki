@@ -4,10 +4,13 @@ export default {
   "140fac3e": [() => import(/* webpackChunkName: "140fac3e" */ "@site/docs/roles/head-of-platforms/index.md"), "@site/docs/roles/head-of-platforms/index.md", require.resolveWeak("@site/docs/roles/head-of-platforms/index.md")],
   "16f7da9a": [() => import(/* webpackChunkName: "16f7da9a" */ "@site/docs/frameworks/01-gtm-channels-bullseye.md"), "@site/docs/frameworks/01-gtm-channels-bullseye.md", require.resolveWeak("@site/docs/frameworks/01-gtm-channels-bullseye.md")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
+  "4d02393b": [() => import(/* webpackChunkName: "4d02393b" */ "@site/docs/agentic/02-agentic-outbound.md"), "@site/docs/agentic/02-agentic-outbound.md", require.resolveWeak("@site/docs/agentic/02-agentic-outbound.md")],
   "4d54d076": [() => import(/* webpackChunkName: "4d54d076" */ "@site/docs/contributing.md"), "@site/docs/contributing.md", require.resolveWeak("@site/docs/contributing.md")],
   "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
+  "6e4844e5": [() => import(/* webpackChunkName: "6e4844e5" */ "@site/docs/agentic/03-guardrails-and-measurement.md"), "@site/docs/agentic/03-guardrails-and-measurement.md", require.resolveWeak("@site/docs/agentic/03-guardrails-and-measurement.md")],
   "7054f32e": [() => import(/* webpackChunkName: "7054f32e" */ "@site/docs/frameworks/index.md"), "@site/docs/frameworks/index.md", require.resolveWeak("@site/docs/frameworks/index.md")],
+  "857a21b4": [() => import(/* webpackChunkName: "857a21b4" */ "@site/docs/agentic/01-agentic-stack.md"), "@site/docs/agentic/01-agentic-stack.md", require.resolveWeak("@site/docs/agentic/01-agentic-stack.md")],
   "913f85e0": [() => import(/* webpackChunkName: "913f85e0" */ "@site/docs/playbooks/index.md"), "@site/docs/playbooks/index.md", require.resolveWeak("@site/docs/playbooks/index.md")],
   "944cd1fe": [() => import(/* webpackChunkName: "944cd1fe" */ "@site/docs/roles/founders/index.md"), "@site/docs/roles/founders/index.md", require.resolveWeak("@site/docs/roles/founders/index.md")],
   "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
@@ -16,4 +19,5 @@ export default {
   "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
   "b1a466df": [() => import(/* webpackChunkName: "b1a466df" */ "@site/docs/playbooks/outbound-from-zero.md"), "@site/docs/playbooks/outbound-from-zero.md", require.resolveWeak("@site/docs/playbooks/outbound-from-zero.md")],
   "c4f5d8e4": [() => import(/* webpackChunkName: "c4f5d8e4" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
-  "cd35a1c1": [() => import(/* webpackChunkName: "cd35a1c1" */ "@site/docs/frameworks/00-gtm-strategy-framework.md"), "@site/docs/frameworks/00-gtm-strategy-framework.md", require.resolveWeak("@site/docs/frameworks/00-gtm-strategy-framework.md")],};
+  "cd35a1c1": [() => import(/* webpackChunkName: "cd35a1c1" */ "@site/docs/frameworks/00-gtm-strategy-framework.md"), "@site/docs/frameworks/00-gtm-strategy-framework.md", require.resolveWeak("@site/docs/frameworks/00-gtm-strategy-framework.md")],
+  "f53ce7aa": [() => import(/* webpackChunkName: "f53ce7aa" */ "@site/docs/agentic/index.md"), "@site/docs/agentic/index.md", require.resolveWeak("@site/docs/agentic/index.md")],};

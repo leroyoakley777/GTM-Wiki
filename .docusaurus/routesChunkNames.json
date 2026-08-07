@@ -1,16 +1,32 @@
 {
-  "/docs-ac3": {
+  "/docs-257": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-c18": {
+  "/docs-2ce": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-7ad": {
+  "/docs-088": {
     "__comp": "a94703ab"
+  },
+  "/docs/agentic/-7c7": {
+    "__comp": "17896441",
+    "content": "f53ce7aa"
+  },
+  "/docs/agentic/agentic-outbound-7eb": {
+    "__comp": "17896441",
+    "content": "4d02393b"
+  },
+  "/docs/agentic/agentic-stack-fff": {
+    "__comp": "17896441",
+    "content": "857a21b4"
+  },
+  "/docs/agentic/guardrails-and-measurement-9e3": {
+    "__comp": "17896441",
+    "content": "6e4844e5"
   },
   "/docs/contributing-0cf": {
     "__comp": "17896441",
