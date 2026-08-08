@@ -1,0 +1,28 @@
+{
+  "id": "map",
+  "title": "The Map",
+  "description": "Frameworks don't change. Execution does. Here's the entire wiki as a",
+  "source": "@site/docs/map.md",
+  "sourceDirName": ".",
+  "slug": "/map",
+  "permalink": "/docs/map",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/opengtm/gtm-wiki/edit/main/docs/map.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "The Map"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to the Open GTM Wiki",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "00 — GTM Strategy Framework (Universal)",
+    "permalink": "/docs/frameworks/gtm-strategy-framework"
+  }
+}

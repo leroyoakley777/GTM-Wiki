@@ -54,6 +54,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "map",
+              "path": "/docs/map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "playbooks/index",
               "path": "/docs/playbooks/",
               "sidebar": "tutorialSidebar"

@@ -14,6 +14,7 @@ export default {
   "913f85e0": [() => import(/* webpackChunkName: "913f85e0" */ "@site/docs/playbooks/index.md"), "@site/docs/playbooks/index.md", require.resolveWeak("@site/docs/playbooks/index.md")],
   "944cd1fe": [() => import(/* webpackChunkName: "944cd1fe" */ "@site/docs/roles/founders/index.md"), "@site/docs/roles/founders/index.md", require.resolveWeak("@site/docs/roles/founders/index.md")],
   "a7456010": [() => import(/* webpackChunkName: "a7456010" */ "@generated/docusaurus-plugin-content-pages/default/__plugin.json"), "@generated/docusaurus-plugin-content-pages/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-pages/default/__plugin.json")],
+  "a792ae6b": [() => import(/* webpackChunkName: "a792ae6b" */ "@site/docs/map.md"), "@site/docs/map.md", require.resolveWeak("@site/docs/map.md")],
   "a7bd4aaa": [() => import(/* webpackChunkName: "a7bd4aaa" */ "@theme/DocVersionRoot"), "@theme/DocVersionRoot", require.resolveWeak("@theme/DocVersionRoot")],
   "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
   "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],

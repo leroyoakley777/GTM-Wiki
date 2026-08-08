@@ -1,15 +1,15 @@
 {
-  "/docs-257": {
+  "/docs-0bb": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-2ce": {
+  "/docs-13c": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-088": {
+  "/docs-7f1": {
     "__comp": "a94703ab"
   },
   "/docs/agentic/-7c7": {
@@ -47,6 +47,10 @@
   "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
+  },
+  "/docs/map-a6d": {
+    "__comp": "17896441",
+    "content": "a792ae6b"
   },
   "/docs/playbooks/-fa3": {
     "__comp": "17896441",
