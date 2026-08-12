@@ -37,7 +37,7 @@ Even established companies with mature marketing functions need dedicated GTM pl
 
 ## Why GTM Strategy Matters
 
-**40% of new product launches miss their revenue targets.** Most failures are positioning failures, not product failures. The product works. The message doesn't reach the right people in a way they understand. The channel is wrong. The pricing is off. The team is misaligned.
+**A large share of new product launches miss their revenue targets.** Most failures are positioning failures, not product failures. The product works. The message doesn't reach the right people in a way they understand. The channel is wrong. The pricing is off. The team is misaligned.
 
 A GTM strategy reduces this risk by forcing you to answer the hard questions before you spend money:
 
@@ -90,7 +90,7 @@ Segment until you find a group you can serve better than anyone else. That's you
 - Surveys to quantify needs and willingness-to-pay
 - Analyst reports (Gartner, Forrester, IDC) for market context
 
-Do not skip this. Do not assume you know the buyer because you built the product. build the product.
+Do not skip this. Do not assume you know the buyer because you built the product.
 
 ---
 

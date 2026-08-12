@@ -80,7 +80,7 @@ A company that matches your firmographics but has no trigger is not an opportuni
 
 ### Layer 3: Behavioral Signals
 
-What the account is actively doing that indicates interest or need. These are often captured throughintent data, content consumption, search behavior, and community activity.
+What the account is actively doing that indicates interest or need. These are often captured through intent data, content consumption, search behavior, and community activity.
 
 - **Active research** — what they are reading, what topics they are searching for
 - **Community participation** — are they in the communities where your ICP congregates?
@@ -197,7 +197,7 @@ The iteration loop:
 
 **Pre-product-market fit.** Your ICP is a hypothesis. You have early customers and a theory about who they are. The job is to validate that theory with more conversations and more data. Expect to revise. Expect to be wrong. The goal is to find the pattern that predicts who buys.
 
-**Early traction ($0-$2M ARR).** Your ICP is emerging from data. You have enough closed-won deals to see patterns. Narrow the ICP to the segment where you win fastest and retain best. Resist the urge to broadentoo early — focus is the advantage at this stage.
+**Early traction ($0-$2M ARR).** Your ICP is emerging from data. You have enough closed-won deals to see patterns. Narrow the ICP to the segment where you win fastest and retain best. Resist the urge to broaden too early — focus is the advantage at this stage.
 
 **Growth ($2M-$20M ARR).** Your ICP should be documented, validated, and operationalized across sales, marketing, and product. You are running one or two ICPs deliberately. Expansion ICP work begins — adjacent segments where your value proposition translates.
 
@@ -210,8 +210,8 @@ This wiki treats ICP as the first building block of any GTM strategy — the fou
 - **[Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md)** — the universal strategy framework where ICP is building block one
 - **[Foundations: What Is GTM?](./00-what-is-gtm.md)** — the definition and scope of go-to-market
 - **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)** — how ICP informs positioning and message architecture
-- **[Channels: Channels Bullseye](./channels/00-channels-bullseye.md)** — how ICP determines which channels to test
-- **[Agentic: Agentic Outbound](./agentic/02-agentic-outbound.md)** — how ICP data feeds AI-powered outbound
+- **[Channels: Channels Bullseye](../channels/00-channels-bullseye.md)** — how ICP determines which channels to test
+- **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)** — how ICP data feeds AI-powered outbound
 
 ## Further Reading
 
@@ -225,5 +225,5 @@ This wiki treats ICP as the first building block of any GTM strategy — the fou
 
 - [Foundations: GTM Metrics](./05-gtm-metrics.md) — CAC, LTV, win rate, and the metrics that validate ICP fit
 - [Foundations: Market Segmentation](./08-market-segmentation.md) — how ICP relates to broader market segmentation work
-- [Playbooks: Outbound From Zero](./playbooks/outbound-from-zero.md) — standing up outbound using an ICP account list
-- [Data: Conversion Rate Benchmarks](./data/00-conversion-rate-benchmarks.md) — what conversion rates to expect by ICP quality tier
+- [Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md) — standing up outbound using an ICP account list
+- [Data: Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md) — what conversion rates to expect by ICP quality tier
