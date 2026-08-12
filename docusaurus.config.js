@@ -32,7 +32,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/opengtm/gtm-wiki/edit/main/',
+          editUrl: 'https://github.com/leroyoakley777/gtm-wiki/edit/main/',
         },
         blog: false,
         theme: {
@@ -60,7 +60,7 @@ const config = {
             label: 'Wiki',
           },
           {
-            href: 'https://github.com/opengtm/gtm-wiki',
+            href: 'https://github.com/leroyoakley777/gtm-wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -80,7 +80,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              { label: 'GitHub', href: 'https://github.com/opengtm/gtm-wiki' },
+              { label: 'GitHub', href: 'https://github.com/leroyoakley777/gtm-wiki' },
               { label: 'Contributing', to: '/docs/contributing' },
             ],
           },
