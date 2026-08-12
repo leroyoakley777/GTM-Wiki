@@ -248,17 +248,13 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 ## Cross-References
 
+{/* Roadmap — pages not yet written; add back as links when they land:
+Positioning and Messaging, Pricing as GTM, GTM Metrics, GTM Funnel,
+Outbound, Inbound, Product-Led, ABM */}
+
 - **[What is GTM?](./00-what-is-gtm.md)** — The definition and scope of GTM as a discipline
 - **[ICP Definition](./02-icp-definition.md)** — How to build a rigorous ICP with exclusion criteria
-- **[Positioning and Messaging](./03-positioning-and-messaging.md)** — Crafting positioning that wins
-- **[Pricing as GTM](./04-pricing-as-gtm.md)** — Pricing strategy as a core GTM lever
-- **[GTM Metrics](./05-gtm-metrics.md)** — The metrics that matter and how to track them
-- **[GTM Funnel](./07-gtm-funnel.md)** — The funnel model and conversion math
 - **[Channels Bullseye](./01-gtm-channels-bullseye.md)** — Channel selection framework
-- **[Outbound](../channels/01-outbound.md)** — Cold outbound execution
-- **[Inbound](../channels/02-inbound.md)** — Content, SEO, and inbound marketing
-- **[Product-Led](../channels/03-product-led.md)** — PLG motion deep dive
-- **[ABM](../channels/09-abm.md)** — Account-based marketing
 
 ---
 

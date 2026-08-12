@@ -209,9 +209,11 @@ This wiki treats ICP as the first building block of any GTM strategy — the fou
 
 - **[Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md)** — the universal strategy framework where ICP is building block one
 - **[Foundations: What Is GTM?](./00-what-is-gtm.md)** — the definition and scope of go-to-market
-- **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)** — how ICP informs positioning and message architecture
 - **[Channels: Channels Bullseye](./01-gtm-channels-bullseye.md)** — how ICP determines which channels to test
 - **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)** — how ICP data feeds AI-powered outbound
+
+{/* Roadmap — page not yet written; add back when it lands:
+Positioning and Messaging */}
 
 ## Further Reading
 
@@ -223,7 +225,7 @@ This wiki treats ICP as the first building block of any GTM strategy — the fou
 
 ## Cross-References
 
-- [Foundations: GTM Metrics](./05-gtm-metrics.md) — CAC, LTV, win rate, and the metrics that validate ICP fit
-- [Foundations: Market Segmentation](./08-market-segmentation.md) — how ICP relates to broader market segmentation work
 - [Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md) — standing up outbound using an ICP account list
-- [Data: Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md) — what conversion rates to expect by ICP quality tier
+
+{/* Roadmap — pages not yet written; add back as links when they land:
+GTM Metrics, Market Segmentation, Conversion Rate Benchmarks */}
