@@ -20,6 +20,7 @@ const sidebars = {
       items: [
         'foundations/gtm-strategy-framework',
         'foundations/icp-definition',
+        'foundations/positioning-and-messaging',
         'foundations/gtm-channels-bullseye',
       ],
     },
