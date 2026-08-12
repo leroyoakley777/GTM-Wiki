@@ -177,8 +177,8 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 
 ## Cross-References
 
-- [Foundations: GTM Strategy Framework](./01-gtm-strategy-framework.md) — the universal strategy framework that builds on this definition
+- [Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md) — the universal strategy framework that builds on this definition
 - [Foundations: ICP Definition](./02-icp-definition.md) — how to build and validate an ICP
 - [Foundations: Positioning and Messaging](./03-positioning-and-messaging.md) — the positioning discipline in depth
-- [Channels: Channels Bullseye](../channels/00-channels-bullseye.md) — the channel selection framework
-- [Agentic: Agentic GTM Overview](../agentic/00-agentic-gtm-overview.md) — how AI changes the GTM motion
+- [Channels: Channels Bullseye](./01-gtm-channels-bullseye.md) — the channel selection framework
+- [Agentic: Agentic GTM Overview](../agentic/index.md) — how AI changes the GTM motion

@@ -254,7 +254,7 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 - **[Pricing as GTM](./04-pricing-as-gtm.md)** — Pricing strategy as a core GTM lever
 - **[GTM Metrics](./05-gtm-metrics.md)** — The metrics that matter and how to track them
 - **[GTM Funnel](./07-gtm-funnel.md)** — The funnel model and conversion math
-- **[Channels Bullseye](../channels/00-channels-bullseye.md)** — Channel selection framework
+- **[Channels Bullseye](./01-gtm-channels-bullseye.md)** — Channel selection framework
 - **[Outbound](../channels/01-outbound.md)** — Cold outbound execution
 - **[Inbound](../channels/02-inbound.md)** — Content, SEO, and inbound marketing
 - **[Product-Led](../channels/03-product-led.md)** — PLG motion deep dive

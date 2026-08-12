@@ -210,7 +210,7 @@ This wiki treats ICP as the first building block of any GTM strategy — the fou
 - **[Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md)** — the universal strategy framework where ICP is building block one
 - **[Foundations: What Is GTM?](./00-what-is-gtm.md)** — the definition and scope of go-to-market
 - **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)** — how ICP informs positioning and message architecture
-- **[Channels: Channels Bullseye](../channels/00-channels-bullseye.md)** — how ICP determines which channels to test
+- **[Channels: Channels Bullseye](./01-gtm-channels-bullseye.md)** — how ICP determines which channels to test
 - **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)** — how ICP data feeds AI-powered outbound
 
 ## Further Reading
