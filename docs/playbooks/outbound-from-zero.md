@@ -25,7 +25,7 @@ Outbound is not a default. It is the right answer when:
 
 If none of those are true, go do content or partnerships first. The
 Bullseye framework will tell you which channel deserves your energy —
-[01 — GTM Channels Bullseye](../frameworks/01-gtm-channels-bullseye.md).
+[01 — GTM Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md).
 
 ---
 

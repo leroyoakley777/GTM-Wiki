@@ -10,8 +10,8 @@ first motion, make your first sales hire, and avoid scaling before the
 system is ready.
 
 > This role guide is being expanded. For now, start with the
-> [GTM Strategy Framework](../../frameworks/00-gtm-strategy-framework.md),
-> then the [Channels Bullseye](../../frameworks/01-gtm-channels-bullseye.md).
+> [GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md),
+> then the [Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md).
 
 ## The founder's GTM sequence
 

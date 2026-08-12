@@ -5,11 +5,7 @@ title: Playbooks
 
 # Playbooks
 
-Frameworks tell you *how to think*. **Playbooks** tell you *what to do* —
-step-by-step motions you can run against a specific situation.
+**Playbooks** are step-by-step execution guides. Each one assumes you have the foundations in place and are ready to run. They describe *how* to do the work, not just what the work is.
 
-- **[Outbound from Zero](./outbound-from-zero.md)** — standing up a cold-outbound motion: list → signal → sequence → handoff
-- **The First Sales Hire** — what a founder should do before and after hiring rep #1 *(coming soon)*
-- **PLG → Enterprise** — converting product usage into enterprise pipeline *(coming soon)*
-
-Want to contribute one? See the [contributing guide](../contributing.md).
+- [00 — Outbound From Zero](./outbound-from-zero.md) — standing up outbound from scratch.
+- More coming soon.

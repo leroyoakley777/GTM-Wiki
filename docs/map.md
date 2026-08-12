@@ -105,7 +105,7 @@ anything.
 
 ## How to use this wiki
 
-1. **New to GTM?** Start at [Core Frameworks](./frameworks/00-gtm-strategy-framework.md) — the strategy comes first, everything else hangs off it.
+1. **New to GTM?** Start at [Core Frameworks](./foundations/00-gtm-strategy-framework.md) — the strategy comes first, everything else hangs off it.
 2. **Have a specific motion to run?** Go to [Playbooks](./playbooks/index.md) and execute the one that matches your situation.
 3. **Scaling what already works?** Read the [Agentic GTM](./agentic/index.md) section — same foundations, harness on top.
 4. **Hiring or stepping into a role?** Read the [Roles](./roles/head-of-platforms/index.md) guides.

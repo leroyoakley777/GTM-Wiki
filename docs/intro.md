@@ -26,7 +26,7 @@ is, and where the guardrails must stay.
 | Section | It answers | Start here if… |
 |---|---|---|
 | [The Map](./map.md) | One image, the whole wiki | You want the big picture first |
-| [Core Frameworks](./frameworks/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
+| [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
 | [Playbooks](./playbooks/index.md) | What to do | You have a specific motion to run |
 | [Agentic GTM](./agentic/index.md) | How to execute with agents | You're scaling an existing motion |
 | [Roles](./roles/head-of-platforms/index.md) | Who does it | You're hiring or stepping into a role |

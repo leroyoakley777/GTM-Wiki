@@ -2,27 +2,39 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  tutorialSidebar: [
+  gtmWiki: [
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['intro', 'map'],
+      collapsed: false,
+      items: [
+        'intro',
+        'map',
+      ],
     },
     {
       type: 'category',
-      label: 'Core Frameworks',
+      label: 'Foundations',
       collapsed: false,
+      link: { type: 'doc', id: 'foundations/index' },
       items: [
-        'frameworks/gtm-strategy-framework',
-        'frameworks/gtm-channels-bullseye',
+        'foundations/gtm-strategy-framework',
+        'foundations/gtm-channels-bullseye',
       ],
+    },
+    {
+      type: 'category',
+      label: 'Channels',
+      collapsed: false,
+      link: { type: 'doc', id: 'channels/index' },
+      items: [],
     },
     {
       type: 'category',
       label: 'Playbooks',
       collapsed: false,
+      link: { type: 'doc', id: 'playbooks/index' },
       items: [
-        'playbooks/index',
         'playbooks/outbound-from-zero',
       ],
     },
@@ -30,8 +42,8 @@ const sidebars = {
       type: 'category',
       label: 'Agentic GTM',
       collapsed: false,
+      link: { type: 'doc', id: 'agentic/index' },
       items: [
-        'agentic/index',
         'agentic/agentic-stack',
         'agentic/agentic-outbound',
         'agentic/guardrails-and-measurement',
@@ -44,6 +56,33 @@ const sidebars = {
       items: [
         'roles/founders/index',
         'roles/head-of-platforms/index',
+        'roles/sdrs/index',
+        'roles/aes/index',
+        'roles/revops/index',
+        'roles/heads-of-gtm/index',
+        'roles/vps-sales/index',
+        'roles/marketing-leaders/index',
+        'roles/investors/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Tools & Data',
+      collapsed: true,
+      items: [
+        'tools/index',
+        'data/index',
+        'glossary/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'More',
+      collapsed: true,
+      items: [
+        'case-studies/index',
+        'flows/index',
+        'contributing',
       ],
     },
   ],

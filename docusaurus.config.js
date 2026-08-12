@@ -55,7 +55,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'gtmWiki',
             position: 'left',
             label: 'Wiki',
           },
@@ -73,7 +73,7 @@ const config = {
             title: 'Wiki',
             items: [
               { label: 'Getting Started', to: '/docs/intro' },
-              { label: 'Frameworks', to: '/docs/frameworks' },
+              { label: 'Foundations', to: '/docs/foundations' },
               { label: 'Playbooks', to: '/docs/playbooks' },
             ],
           },

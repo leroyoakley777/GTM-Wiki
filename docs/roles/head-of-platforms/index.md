@@ -163,8 +163,8 @@ themselves only on signed logos, and candidates who can't reason about
 
 ## Further reading
 
-- [00 — GTM Strategy Framework](../../frameworks/00-gtm-strategy-framework.md) — the operating system this role plugs into
-- [01 — GTM Channels Bullseye](../../frameworks/01-gtm-channels-bullseye.md) — where Platform/Ecosystem sits among channels
+- [00 — GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md) — the operating system this role plugs into
+- [01 — GTM Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md) — where Platform/Ecosystem sits among channels
 
 ---
 
