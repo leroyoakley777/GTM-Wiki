@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkgtm_wiki||=[]).push([[634],{9179(t,r,i){i.r(r),i.d(r,{default:()=>o});i(6540);var s=i(6347),u=i(9030),n=i(4848);function o(){return(0,n.jsx)(s.rd,{to:(0,u.Ay)("/docs/intro")})}}}]);

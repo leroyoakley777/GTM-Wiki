@@ -1,1 +1,25 @@
-.vercel
+# Dependencies
+node_modules/
+
+# Build output
+build/
+.docusaurus/
+
+# Cache
+.cache/
+*.log
+.DS_Store
+
+# Env
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Neon
+.neon
