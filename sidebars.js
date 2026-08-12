@@ -19,6 +19,7 @@ const sidebars = {
       link: { type: 'doc', id: 'foundations/index' },
       items: [
         'foundations/gtm-strategy-framework',
+        'foundations/icp-definition',
         'foundations/gtm-channels-bullseye',
       ],
     },
