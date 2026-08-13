@@ -232,7 +232,9 @@ Someone should own this. Product marketing is the natural owner in most B2B orga
 - **[ICP Definition](./02-icp-definition.md)** — Your ICP should describe companies whose buyers care most about what your positioning offers. The two are interdependent.
 - **[Channels Bullseye](./01-gtm-channels-bullseye.md)** — Channel selection depends on where your buyers are. Messaging must adapt to each channel's format.
 - **[Outbound](../playbooks/outbound-from-zero.md)** — The primary channel for testing positioning with direct buyer conversations.
-- **[Competitive Analysis](../foundations/09-competitive-analysis.md)** — The competitive landscape determines which frame of reference you choose in positioning. (Page planned — coming in Round 7.)
+
+{/* Roadmap — page not yet written (planned for Round 7); add back when it lands:
+Competitive Analysis */}
 
 ---
 
