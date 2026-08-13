@@ -18,6 +18,7 @@ const sidebars = {
       collapsed: false,
       link: { type: 'doc', id: 'foundations/index' },
       items: [
+        'foundations/revenue-architecture',
         'foundations/gtm-strategy-framework',
         'foundations/icp-definition',
         'foundations/positioning-and-messaging',
