@@ -466,7 +466,7 @@ You are building a cold-outbound list for {ICP} companies in the
 {segment} band using {data source}. For each account, return a row
 with: company, ICP-fit score (1–5), primary contact first name,
 verified email, role, and a one-line reason-to-reach grounded in a
-actual signal (job change, funding, hiring surge, tech-stack change, or
+live signal (job change, funding, hiring surge, tech-stack change, or
 competitive displacement). Skip any row with no reason-to-reach — the
 gate is "no reason, no row." Return only rows that pass the gate.
 ```

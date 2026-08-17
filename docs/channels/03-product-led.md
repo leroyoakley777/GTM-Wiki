@@ -151,7 +151,7 @@ raising the total number of paying customers, because more people enter
 the trial ([Sixteen Ventures, Lincoln Murphy](https://sixteenventures.com/saas-free-trial-benchmarks)).
 Manage that expectation before you make the change.
 
-### Signup-rate reality
+### Signup-rate benchmarks
 
 Sign-up rate is the counterweight to conversion. Freemium products sign
 up at ~9% of visitors, free-trial products at ~5% — the time pressure of
@@ -397,7 +397,7 @@ seat/license expansion as the second funnel after free-to-paid.
 
 **The edge case that bites hardest:** a company runs PLG as a free trial
 bolted onto a sales-led product, measures nothing, and concludes the
-channel failed. PLG is not a trial field. It is a product architecture.
+channel failed. PLG is a product architecture, not a trial field.
 If you cannot instrument, you did not run PLG.
 
 ---

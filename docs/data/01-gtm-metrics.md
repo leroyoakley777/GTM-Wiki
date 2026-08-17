@@ -305,7 +305,7 @@ a row. Return only the breach note.
 Measurement](../agentic/guardrails-and-measurement)):
 
 1. **Benchmarks are dated.** The agent reads against a dated table. When a
-   benchmark decays, you update the table, not the agent.
+   benchmark goes stale, you update the table, not the agent.
 2. **Paired reads only.** The agent never reports a single metric alone —
    every breach carries its paired next-check.
 3. **Human owns the thresholds.** The agent flags and drafts. A human sets

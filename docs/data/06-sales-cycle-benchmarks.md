@@ -129,7 +129,7 @@ velocity = (28 x $45,000 x 0.25) / 84
 
 Over the 84-day cycle, that pipeline produces **$315,000** of won
 revenue - $3,750/day x 84. The win-rate and cycle inputs are the named
-baselines above; opportunities and deal value are your CRM reality.
+baselines above; opportunities and deal value are what your CRM shows.
 
 **Doubling the cycle halves your velocity on the same pipeline.** Keep
 the same 28 deals at a 168-day cycle and velocity drops to $1,875/day.
@@ -223,7 +223,7 @@ security and procurement stage explicitly.
 | Judging cycle by a vendor's average | Sources define cycle start differently, so numbers swing by weeks | Fix your own definition of cycle start; compare against your own trend |
 | Coverage sized to win rate only | Cycle length determines *when* pipeline converts, not just how much | Create qualifying pipeline one full cycle before the target quarter |
 | No stage-age tracking | A deal stuck in review looks healthy in the funnel but is dead on the calendar | Track days-in-stage; alert on any stage past its segment norm |
-| Treating a long mid-market deal as normal | A 180-day mid-market deal is a process problem, not a sales reality | Root-cause the stage, not the seller |
+| Treating a long mid-market deal as normal | A 180-day mid-market deal is a process problem, not a sales norm | Root-cause the stage, not the seller |
 
 ---
 

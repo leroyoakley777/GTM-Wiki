@@ -150,7 +150,7 @@ has failed. One who signs 5 where 4 produce has built an engine.
 If you are hiring for this role, look for:
 
 - Has **carried a number** *and* **shipped or scoped product** — the rare hybrid
-- Comfortable in a room with engineers; earns technical credibility fast
+- Comfortable in a room with engineers, and earns technical credibility fast
 - Thinks in **ecosystems and leverage**, not individual deals
 - Has built something **0→1** before (a team, a motion, or a company)
 - Low ego about indirect credit — wins through others

@@ -47,7 +47,7 @@ Four responsibilities:
 - **Forecasting** — turn the funnel math into a number leadership can
   commit to.
 
-### The leverage model
+### Leverage model
 
 RevOps is deliberately small relative to the seller base. The aggregate
 across 2,500 B2B software companies is roughly one RevOps person per
@@ -92,7 +92,7 @@ keeps accurate.
 
 ---
 
-## The math — what RevOps steers, with named sources
+## Math — what RevOps steers, with named sources
 
 RevOps lives or dies on four numbers. Each has a benchmark with a
 named, dated source, and each comes with the caveat that a benchmark is
@@ -193,7 +193,7 @@ conversion data that decides whether payback holds.
 
 ---
 
-## The workflows and processes RevOps runs
+## Workflows and processes RevOps runs
 
 RevOps is a set of running loops, not a dashboard. These are the
 processes that hold the machine together.
@@ -225,7 +225,7 @@ ICP yet, build one first ([ICP Definition](icp-definition)). Every
 opportunity must trace back to a source and a campaign. No source, no
 scale.
 
-### The forecasting cadence
+### Forecasting cadence
 
 Run forecasting on a fixed rhythm:
 
@@ -311,7 +311,7 @@ two weeks, and coverage started climbing.
 Replaced gut-feel commits with a stage-probability model from four
 quarters of win-rate history. In the first full quarter, forecast error
 dropped from ~25% to under 10%, moving the team from the average
-50–70% band toward the world-class 80–95% band (Forecastio, 2025).
+50–70% band toward the top-decile 80–95% band (Forecastio, 2025).
 
 **Step 5 — Run the loops (ongoing).** Weekly coverage and commit
 review, monthly coverage-by-segment recompute, quarterly quota reset
@@ -347,7 +347,7 @@ reusable shape.
 | Forecast build | Rolls up stage-probability estimates, flags deals that changed | Reviews the commit list each week |
 | Attainment tracking | Reports rep attainment against quota, flags at-risk reps early | Acts on the flags |
 
-### The one-prompt SOP for a RevOps data + forecast agent
+### One-prompt SOP for a RevOps data + forecast agent
 
 Adapt this to your stack (CRM, data warehouse, forecasting sheet):
 

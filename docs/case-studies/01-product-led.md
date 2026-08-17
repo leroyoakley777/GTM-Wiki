@@ -6,7 +6,7 @@ description: Slack, Calendly, and Figma — how product-as-distribution beats a 
 
 # Product-Led Growth — Case Studies
 
-Product-led growth is the channel where the product is the salesperson: a free tier generous enough to deliver real value, constrained enough to create a natural upgrade trigger. These are the documented cases that prove the motion — and the pattern underneath all of them.
+Product-led growth is the channel where the product is the salesperson: a free tier generous enough to deliver working value, constrained enough to create a natural upgrade trigger. These are the documented cases that prove the motion — and the pattern underneath all of them.
 
 ---
 

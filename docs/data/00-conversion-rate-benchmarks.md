@@ -118,9 +118,9 @@ Two readings matter here. If you are a small company selling to small
 companies, your visitor-to-lead should land near 2.3% — benchmark against the
 SMB row, not the blended 1.4–2.6%. If you sell to enterprise, expect your
 top-funnel to look weak (~0.7%) and your bottom-funnel to look strong. A 0.7%
-visitor-to-lead is not a landing-page failure, it is the buyer reality. The
+visitor-to-lead is not a landing-page failure, it is the buyer baseline. The
 common mistake is benchmarking a company against the wrong row and then
-"fixing" a stage that was already at its realistic ceiling.
+"fixing" a stage that was already at its achievable ceiling.
 
 The exception to the top-funnel floor is the top 10% of performers, who run
 8–15% visitor to lead (PixelsWithin 2026). That band exists but is not typical,
@@ -153,7 +153,7 @@ An MQL becomes an SQL when sales accepts it as worth pursuing. This is the trans
 
 ### SQL to Opportunity and Opportunity to Closed-Won (bottom-funnel)
 
-These reflect sales execution and deal quality, not marketing. SQL to Opportunity 30–48% (Zeliq / First Page Sage / Ebsta-Pavilion 2024). Opportunity to Closed-Won 20–35%, with Ebsta/Pavilion reporting a 21% average that is down 4–6 points from 2021 — win rates have decayed, so an older benchmark overstates today's reality.
+These reflect sales execution and deal quality, not marketing. SQL to Opportunity 30–48% (Zeliq / First Page Sage / Ebsta-Pavilion 2024). Opportunity to Closed-Won 20–35%, with Ebsta/Pavilion reporting a 21% average that is down 4–6 points from 2021 — win rates have come down, so an older benchmark overstates the current number.
 
 ### Trial to Paid (PLG only)
 
@@ -191,17 +191,17 @@ Not all leads are equal. The channel that wins top-of-funnel often loses bottom-
 Events are the striking one: weak top-funnel (1.0%), mid MQL to SQL (24%), but 40% opportunity to close — the best bottom-funnel number in the set. If you optimize for closed-won revenue, source mix matters more than raw lead volume.
 
 ---
-## Methodology and decay handling
+## Methodology and staleness handling
 
 Benchmark tables age. The numbers on this page come from reports published
 between 2024 and 2026, and the older ones are already moving. Two named
 examples: Ebsta/Pavilion report win rates are **down 4–6 points from 2021**,
 so a 2021 benchmark overstates today's close rate. thedigitalbloom reports a
 **falling blended reply rate** for outbound (see [Outbound Response
-Rates](../data/outbound-response-rates)) — the same decay pattern. When you
+Rates](../data/outbound-response-rates)) — the same staleness pattern. When you
 carry a benchmark forward, treat the "as of" date as part of the number.
 
-Decay rules that keep the table honest:
+Rules that keep the table honest:
 
 1. **Date every source you quote.** "Reported 13% (Salesforce 2024)" is the
    citation form. The year is load-bearing.
@@ -221,7 +221,7 @@ over point, always.
 
 ## Worked example — a funnel read from 8,000 visitors
 
-A representative B2B SaaS company (illustrative but realistic numbers) with 8,000 monthly visitors and a lead-to-customer cascade.
+A representative B2B SaaS company (illustrative but plausible numbers) with 8,000 monthly visitors and a lead-to-customer cascade.
 
 **Inputs:** 8,000 visitors/month, visitor to lead 2.0% (right at the Ruler Analytics 2.6% / First Page Sage 1.4% midpoint). Applying the median cascade:
 
@@ -274,7 +274,7 @@ Conversion tracking is where an agent earns its keep, because the bottleneck is 
 | Bottleneck detection | Ranks stages by absolute drop, flags the worst transition against the benchmark table | Which transition to attack |
 | Root-cause draft | Pulls the channel / segment / qualification breakdown for the flagged stage, drafts a hypothesis | The hypothesis and the fix |
 | Reporting | Writes a one-page weekly conversion read with the trend and the range it sits in | The headline + any external share |
-| Decay watch | Flags when a source's stated date is old or a benchmark is stale relative to newer data | Replacing the source |
+| Staleness watch | Flags when a source's stated date is old or a benchmark is stale relative to newer data | Replacing the source |
 
 **The one-prompt starter for a weekly conversion read** (adapt to your stack):
 

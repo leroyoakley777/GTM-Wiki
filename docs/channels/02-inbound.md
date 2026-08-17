@@ -243,7 +243,7 @@ chases ranking.
   time — the range widens because early spend is infrastructure before
   it is acquisition. CPL starts high and falls as rankings build.
 
-### Organic ranking reality
+### Organic ranking in practice
 
 - **Less than 2% of new pages reach the Google top 10 within a year. **
   roughly 5% of pages that earn at least one backlink do (Ahrefs,

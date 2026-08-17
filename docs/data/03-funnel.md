@@ -32,7 +32,7 @@ into.
 
 ---
 
-## The one gate that dominates everything
+## One gate that dominates everything
 
 **MQL → SQL (~13–15%) is the biggest, most consistent leak in B2B SaaS.**
 
@@ -89,7 +89,7 @@ rate, say *"reported 13% (SalesHive, 2026)"*, not *"MQL → SQL is 13%"*.
 
 ---
 
-## The leakage math: how X visitors become Y customers
+## Leakage math: how X visitors become Y customers
 
 Funnel math is multiplicative, so a small leak at one stage compounds
 through every stage below it. SalesHive's framing: **~100 marketing leads
@@ -120,7 +120,7 @@ beats a 10-point gain at a near-empty stage (opportunity → close), but it
 never beats a 7-point gain at the qualification gate — because that gate
 protects every stage below it.
 
-### The 100 → 10 → 2 rule as a planning tool
+### 100 → 10 → 2 rule as a planning tool
 
 Set the stage math with sales before the quarter starts. Agree up front that
 the plan is **100 leads → 10 opportunities → 2 deals** (SalesHive, 2026). At
@@ -185,7 +185,7 @@ A stage's health is not its rate — it is whether the rate is *moving* and
 - **Leaking:** if opportunities stall at close, check deal qualification
   (was it ever a genuine opportunity?) and competition, not the close process.
 
-### The read that ties it together
+### Read that ties it together
 
 **Track stage-by-stage per source.** Visitor → lead → MQL → SQL →
 opportunity → close, for each channel separately. A headline conversion
@@ -269,7 +269,7 @@ gate stays yours. The watching is delegated.
 | Diagnosis | Attaches the likely cause (traffic-mix shift, scoring change, routing lag) with evidence | The fix before it ships |
 | Reporting | Drafts the weekly funnel-health note with the stage table and the one number that changed | The note before it goes to leadership |
 
-### The one-prompt funnel-health SOP
+### One-prompt funnel-health SOP
 
 Adapt to your stack:
 

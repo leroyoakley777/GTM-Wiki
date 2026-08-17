@@ -111,7 +111,7 @@ itself, a page the reader bounces off halfway.
 
 ---
 
-## The ship checklist (all must pass)
+## Ship checklist (all must pass)
 
 Before any page is marked live:
 

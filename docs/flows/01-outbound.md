@@ -39,7 +39,7 @@ same flow with an agent harness on the execution layer.
 
 ---
 
-## The motion at a glance
+## Motion at a glance
 
 Outbound is six steps run in order. Each step emits one artifact that
 feeds the next.
@@ -252,7 +252,7 @@ This is where the flow earns its keep. You run the sequence on the
 perfect-fit tier first, collect the funnel readout, and gate every
 scaling decision on a proven message.
 
-### The funnel, with named bases
+### Funnel, with named bases
 
 | Metric | Healthy range | Source (as of) | What it tells you |
 |---|---|---|---|
