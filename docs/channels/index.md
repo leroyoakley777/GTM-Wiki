@@ -24,7 +24,7 @@ Every page follows the same rule: **it is a decision, not a default.** Each chan
 - [Paid Acquisition](./paid) — the scaler and the eraser. Healthy: CAC payback under 12 months.
 - [Events & Field](./events-field) — meet the buyer in person. Healthy: 3–10x pipeline return on event cost.
 - [ABM](./abm) — few high-value accounts, 2–3x win-rate lift. Benchmarks: 45% ABM vs 18% non-ABM.
-- *Referral / viral* — coming soon.
+- [Referral & Viral](./referral-viral) — the customer as your sales team. Healthy: viral coefficient >1.0 sustains growth.
 
 ## How to use this section
 
