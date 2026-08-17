@@ -49,12 +49,13 @@ export default function Home() {
         {/* HERO */}
         <header className="gtm-hero">
           <div className="gtm-hero__label">REFERENCE — NOT A BLOG</div>
-          <h1>The go-to-market playbook, written once, open forever.</h1>
+          <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Foundations don&apos;t change. Execution does. The Open GTM Wiki is the
-            highest-signal reference for founders, operators, SDRs, AEs, and RevOps —
-            the manual every GTM operator keeps on the desk. Industry-agnostic. Built on
-            what actually works.
+            Every concept has a page. Every page ships the real artifact —
+            copy, math, tooling, the agentic layer — not a summary of it.
+            Every number is named and dated, and when a benchmark decays the
+            page updates. Built for founders, operators, and the agents that
+            run the motions.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
