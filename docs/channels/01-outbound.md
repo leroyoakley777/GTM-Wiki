@@ -51,7 +51,7 @@ Each stage answers a different question. A healthy total is the product of all o
 ## Why Outbound Compounds (When It Works)
 
 - **The list is the asset, not the copy.** A 500-row list that matches the ICP beats a 50,000-row spray every time. Every row needs a first name, a verified email, and a one-line reason-to-reach — a trigger, a change, a gap. No reason, no row.
-- **Signal beats sequence.** Job changes, funding rounds, hiring surges, tech-stack changes — the best lists build on real-time buyer signals, not static firmographics.
+- **Signal beats sequence.** Job changes, funding rounds, hiring surges, tech-stack changes — the best lists build on live buyer signals, not static firmographics.
 - **Personalization is the differentiator, and it is rare.** Only ~5% of senders personalize every email — and those who do see 2–3x better results. Specific, signal-driven references lift reply rates from ~9% to ~18% vs generic templates.
 - **The reply is where outbound is won or lost.** Time-to-first-response under 15 minutes for hot replies is the single biggest lever most teams leave on the table.
 

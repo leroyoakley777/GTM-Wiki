@@ -40,7 +40,7 @@ governance layer or do not hand the agent authority.
 
 ## Governance Gap
 
-The governance gap is real and measurable. Only one in five companies
+The governance gap is measurable. Only one in five companies
 has a mature governance model for autonomous agents, and a large share
 of executives report worrying about a lack of control over AI decisions.
 Teams are deploying agents faster than they are building the structures
@@ -105,7 +105,7 @@ inputs, validates outputs, and prevents unsafe processing:
 - **Output validation.** Screens responses before they reach a user or
   trigger a downstream action.
 - **Content filtering.** Blocks jailbreak attempts and adversarial
-  prompts in real time.
+  prompts live.
 
 In a multi-step workflow, prompt injection does not just produce a bad
 response — it can redirect the agent's entire sequence of actions. Input
@@ -115,7 +115,7 @@ validation is not optional.
 
 ## Guardrail 1 — The human sign-off (non-negotiable)
 
-**Any message that will reach a real person is approved by a human
+**Any message that will reach an actual person is approved by a human
 before it sends.** Full stop.
 
 This isn't about control — it's about ownership. The person whose name
@@ -211,12 +211,12 @@ transaction. Tier your oversight by risk:
 |---|---|---|
 | Low | Fully automated | Data extraction, summaries, enrichment |
 | Medium | Sampled audits | Customer-facing chat replies |
-| High | Real-time approval | Pricing, policy decisions, external sends |
+| High | Live approval | Pricing, policy decisions, external sends |
 
 *(Source: Glean, "7 Essential Guardrail Decisions for Deploying
 Enterprise AI Agents Successfully.")*
 
-High-risk actions get real-time human approval. Low-risk, reversible
+High-risk actions get live human approval. Low-risk, reversible
 actions run on their own. The mistake teams make is either applying
 every control everywhere (bureaucracy that kills the agent) or none
 anywhere (liability). Tiering is the answer.
@@ -254,7 +254,7 @@ A useful KPI framework for production agents rests on three pillars:
 1. **Reliability and operational efficiency.** Success rate — the
    percentage of workflows resolved without human intervention. Track
    the trajectory of multi-step tasks, not just the final output.
-   High success rates mean real autonomy.
+   High success rates mean genuine autonomy.
 2. **Quality and risk reduction.** Error rate before and after,
    multiplied by cost per error. A guardrail that prevents one
    catastrophic send justifies its own cost.
@@ -292,7 +292,7 @@ compounds.
    controls — they do not overlap fully.
 2. **Applying every control everywhere.** A high-touch approval on a
    low-risk enrichment task kills the agent with bureaucracy. Tier by
-   risk. Low = automated, medium = sampled, high = real-time approval.
+   risk. Low = automated, medium = sampled, high = live approval.
 3. **Skipping the human baseline.** Deploying without documenting
    current cost-per-task, error rate, and cycle time. Then you cannot
    prove ROI and you cannot defend the investment.

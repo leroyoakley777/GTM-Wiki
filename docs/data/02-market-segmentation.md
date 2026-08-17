@@ -52,7 +52,7 @@ Website visits, content engagement, third-party intent data, topic surge. Finds 
 
 Decision-maker mindset: cost-control CFO vs growth-at-any-cost CFO. The payoff is **message-market fit** — you stop writing one deck for a market of ten thousand and write for a mindset. A segment that cannot name the buyer's job-to-be-done is not a segment.
 
-**The pattern across every framework:** firmographics set the boundary; the psychographic/behavioral/needs layers do the real targeting.
+**The pattern across every framework:** firmographics set the boundary; the psychographic/behavioral/needs layers do the actual targeting.
 
 ---
 
@@ -85,16 +85,16 @@ Spraying the ~95% of the market that is not buying. The cheapest way to waste a 
 
 - **TAM** = total revenue opportunity at 100% share, no competition. The ceiling.
 - **SAM** = the slice of TAM your product/model can actually serve (geo, size, segment, tech-stack fit).
-- **SOM** = realistic capture given competition, win rate, and budget — the number you actually plan against.
+- **SOM** = achievable capture given competition, win rate, and budget — the number you actually plan against.
 
-Realistic early-growth SOM: **5–15% of SAM** (HG Insights). **Bottom-up sizing (ICP count × ACV) beats top-down (analyst market estimate × share %) for defensibility** — because the bottom-up number is built from accounts you can name, not a market estimate you cannot verify.
+Achievable early-growth SOM: **5–15% of SAM** (HG Insights). **Bottom-up sizing (ICP count × ACV) beats top-down (analyst market estimate × share %) for defensibility** — because the bottom-up number is built from accounts you can name, not a market estimate you cannot verify.
 
 ---
 
 ## How to Read These Numbers
 
 1. **The 68% win-rate ICP claim is directional, not law** — it is an agency marketing figure. Use it as evidence that ICP focus pays, not as a target.
-2. **Personalization lifts (McKinsey) are for doing it right.** Poorly executed personalization = added cost, no lift. The 10–15% revenue lift assumes real personalization at scale — which means real segment definitions feeding it.
+2. **Personalization lifts (McKinsey) are for doing it right.** Poorly executed personalization = added cost, no lift. The 10–15% revenue lift assumes actual personalization at scale — which means actual segment definitions feeding it.
 3. **TAM is a ceiling, SOM is the budget.** Boards track the funnel TAM→SAM→SOM; only SOM is actionable in a quarter.
 
 ---

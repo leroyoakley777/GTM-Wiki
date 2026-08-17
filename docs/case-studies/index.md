@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 title: Case Studies
-description: Real, documented GTM outcomes grouped by channel — proof of what's possible with intent, next to the benchmarks that show what's typical.
+description: Actual, documented GTM outcomes grouped by channel — proof of what's possible with intent, next to the benchmarks that show what's typical.
 ---
 
 # Case Studies
 
-The wiki's benchmarks tell you what's *typical*. These case studies prove what's *possible with intent* — real companies, documented outcomes, named sources, no folklore. Read a case to see a motion can win; read its benchmark page to see how far above median that is.
+The wiki's benchmarks tell you what's *typical*. These case studies prove what's *possible with intent* — actual companies, documented outcomes, named sources, no folklore. Read a case to see a motion can win; read its benchmark page to see how far above median that is.
 
 Each case is grouped by the [channel](../channels/) it proves, so you can go from "this channel works" to "here's who made it work, with the number to back it."
 

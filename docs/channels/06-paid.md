@@ -25,7 +25,7 @@ Do not track "cost per lead" or "cost per click" as the score. Cheap clicks that
 Use the [Channels Bullseye](../foundations/gtm-channels-bullseye) to pick your one best channel first. Paid wins when:
 
 - **You have proven the offer organically first.** Paid amplifies what already works; it cannot invent demand for a broken offer. If free channels cannot convert, paid will just pay to fail faster.
-- **The math closes.** CAC payback under your target, against real gross margin, at a scale that matters. Model it before you spend a dollar.
+- **The math closes.** CAC payback under your target, against actual gross margin, at a scale that matters. Model it before you spend a dollar.
 - **You can scale supply faster than it saturates.** The moment every competitor bids up your keywords and clicks stop compounding, the economics shift.
 
 If none of those are true, paid is the fastest way to lose money in GTM. It is the channel to add last, after the offer and the funnel are proven.
@@ -62,7 +62,7 @@ The engine is compounding — content, community, product-led, referrals. Paid a
 
 - **Scaling before proving payback.** Buying volume to "figure it out at scale" is the most expensive way to learn.
 - **Optimizing clicks, not customers.** CTR is a vanity metric when the bottom of the funnel leaks.
-- **No incrementality test.** You cannot tell paid's real contribution without pausing it. Geo or time-based holdouts reveal whether paid is additive or just cannibalizing organic.
+- **No incrementality test.** You cannot tell paid's actual contribution without pausing it. Geo or time-based holdouts reveal whether paid is additive or just cannibalizing organic.
 - **One channel dependence.** Search, social, and display saturate and swing on cost. Diversify or die with the auction.
 - **Letting paid mask a broken funnel.** Paid traffic is the most expensive diagnostic you will ever run. Fix the funnel first; then spend.
 

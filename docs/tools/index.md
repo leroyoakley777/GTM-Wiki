@@ -35,14 +35,14 @@ The trap is metric sprawl. A handful of well-defined metrics (see [gtm-metrics](
 
 ## Conversation intelligence
 
-Records and analyzes sales calls and meetings. The payoff is coaching at scale: talk-to-listen ratio, objection patterns, what reps do differently on won vs. lost deals. Increasingly it doubles as the data layer that lets [agentic GTM](../agentic/00-agentic-gtm-overview.md) summarize, follow up, and draft from real conversation.
+Records and analyzes sales calls and meetings. The payoff is coaching at scale: talk-to-listen ratio, objection patterns, what reps do differently on won vs. lost deals. Increasingly it doubles as the data layer that lets [agentic GTM](../agentic/00-agentic-gtm-overview.md) summarize, follow up, and draft from actual conversation.
 
 ## RevOps & enablement tooling
 
 The plumbing that keeps the revenue engine coherent — the functional home of the [RevOps](../foundations/06-revenue-operations.md) multiplier:
 
 - **Sales enablement.** Content, playbooks, and training delivered where reps actually work.
-- **Quoting / CPQ.** Configure-price-quote for deals with real complexity.
+- **Quoting / CPQ.** Configure-price-quote for deals with genuine complexity.
 - **Billing / subscription management.** Where recurring revenue is actually collected.
 - **Data warehouse / reverse-ETL.** The layer that lets every tool speak the same account and revenue truth.
 

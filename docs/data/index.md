@@ -5,7 +5,7 @@ title: Data
 
 # Data
 
-**Benchmarks and reference data** for GTM operators. Conversion rates, SaaS metrics, market segmentation, funnel leakage, pricing, outbound response rates, and sales cycle benchmarks — sourced from real data with named bases, not survey-based vendor decks.
+**Benchmarks and reference data** for GTM operators. Conversion rates, SaaS metrics, market segmentation, funnel leakage, pricing, outbound response rates, and sales cycle benchmarks — sourced from actual data with named bases, not survey-based vendor decks.
 
 Every page follows the same rule: **baselines, not targets.** Numbers are ranges or medians with a named source. Where sources disagree, the disagreement is shown — because teams define stages differently.
 

@@ -121,7 +121,7 @@ Unusual Ventures notes that expansion is where the low-ACV land deal earns its r
 
 Do not start with funnel stages. Start with the actual journey your buyer takes. What do they do before they know you exist? How do they research? Who else gets involved? What triggers a buying decision?
 
-Unusual Ventures is explicit: "Base your funnel on your USER / BUYER journey." Build the funnel by mapping your buyer journey steps onto stages. If you skip this, you build a funnel that reflects your internal org chart, not reality.
+Unusual Ventures is explicit: "Base your funnel on your USER / BUYER journey." Build the funnel by mapping your buyer journey steps onto stages. If you skip this, you build a funnel that reflects your internal org chart, not how it actually works.
 
 ### Step 2: Define entrance and exit criteria for each stage
 

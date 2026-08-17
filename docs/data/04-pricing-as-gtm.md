@@ -48,7 +48,7 @@ The distinction matters: **a discount for behavior you want is pricing; a discou
 
 Packaging decides more about your revenue than any price point does.
 
-- **Build packaging around customer groups, not segments.** When packaging is built on segment philosophy, every feature becomes a tier lever (15/25/50 dashboards) and real customers fall between editions — which forces sales to horse-trade cross-tier deals. That is how invisible discounts and pricing unfairness enter the model regardless of disciplined list prices.
+- **Build packaging around customer groups, not segments.** When packaging is built on segment philosophy, every feature becomes a tier lever (15/25/50 dashboards) and actual customers fall between editions — which forces sales to horse-trade cross-tier deals. That is how invisible discounts and pricing unfairness enter the model regardless of disciplined list prices.
 - **Partitioned pricing reduces perceived value.** Breaking a package into many metered components lowers perceived fairness even at identical total price. Buyers read granularity as friction, not choice.
 - **Value-based pricing is a philosophy, not a price level.** It only works when licensing metric + packaging + price points all reflect how customers derive value. Fix the packaging before touching the price.
 

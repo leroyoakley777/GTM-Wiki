@@ -42,7 +42,7 @@ The single biggest mistake in PLG is quoting "the" free-to-paid conversion rate.
 | **Freemium** (free forever tier) | ~13% | **~3–9%** | ~3–5 |
 | **Ungated freemium** (try before account) | ~7% | ~5.6 paying/1k | ~5.6 |
 
-**The tension is real and it is the entire PLG design problem:** opt-out trials convert *signups* to paid at ~49%, but the credit-card wall crushes visitor→signup to ~2.5%, so the paying-customers-per-1k-visitors outcome is roughly flat across models. Meanwhile freemium converts far more visitors to signups but a tiny fraction of them to paid. None of these is "right" — each buys a different funnel shape:
+**The tension is genuine and it is the entire PLG design problem:** opt-out trials convert *signups* to paid at ~49%, but the credit-card wall crushes visitor→signup to ~2.5%, so the paying-customers-per-1k-visitors outcome is roughly flat across models. Meanwhile freemium converts far more visitors to signups but a tiny fraction of them to paid. None of these is "right" — each buys a different funnel shape:
 
 - **Opt-out trial** = highest per-signup commitment, lowest top-of-funnel. Best when the product is genuinely valuable and the buyer expects to pay.
 - **Opt-in trial** = balanced, the most common. Best default for most B2B SaaS.

@@ -40,7 +40,7 @@ The inbound funnel is a leaky set of stages. Each one compounds on the previous,
 | SQL → opportunity | **~44%** | Sales qualification |
 | Opportunity → customer | **~36%** | Close rate on qualified pipeline |
 
-**The compounding reality:** a blended B2B SaaS funnel converts ~1.4% of visitors to leads, then ~2–4% of leads to closed customers. That sounds dismal — until each deal is worth tens of thousands in ACV. The funnel is not a defect; it is the shape of the channel. The leverage is upstream: every +0.5–1.0 point of visitor-to-lead conversion compounds all the way down.
+**What actually happens:** a blended B2B SaaS funnel converts ~1.4% of visitors to leads, then ~2–4% of leads to closed customers. That sounds dismal — until each deal is worth tens of thousands in ACV. The funnel is not a defect; it is the shape of the channel. The leverage is upstream: every +0.5–1.0 point of visitor-to-lead conversion compounds all the way down.
 
 The most-cited single number, "the average B2B conversion rate is ~5%", is a trap — it depends entirely on what is being counted. A pure visitor-to-lead rate on a B2B SaaS site is ~1.4–1.9%; a blended form/call/chat rate across industries is ~5%. They answer different questions. Know which one you are looking at.
 
@@ -65,7 +65,7 @@ The most-cited single number, "the average B2B conversion rate is ~5%", is a tra
 
 ## Pattern Behind Inbound
 
-Inbound is the only major channel that compounds because it builds an owned asset. The pattern that wins is boring and repeatable: consistent content aimed at real buyer questions, captured on your site, converted with a clear next step, and nurtured by email until the buyer is ready to talk. The channel rewards teams that treat content as infrastructure rather than as campaign bursts.
+Inbound is the only major channel that compounds because it builds an owned asset. The pattern that wins is boring and repeatable: consistent content aimed at actual buyer questions, captured on your site, converted with a clear next step, and nurtured by email until the buyer is ready to talk. The channel rewards teams that treat content as infrastructure rather than as campaign bursts.
 
 ---
 

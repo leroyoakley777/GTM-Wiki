@@ -14,7 +14,7 @@ This page is the *where* of community-led growth: when it is the right call and 
 
 ## One Number That Matters Most
 
-**Member-initiated referrals and word-of-mouth share of new signups — a healthy community pushes this toward 30–50% over time.** That is the number that proves the community is doing real acquisition work rather than just existing. People who come in because a member brought them are the highest-intent, lowest-CAC users you will ever acquire.
+**Member-initiated referrals and word-of-mouth share of new signups — a healthy community pushes this toward 30–50% over time.** That is the number that proves the community is doing actual acquisition work rather than just existing. People who come in because a member brought them are the highest-intent, lowest-CAC users you will ever acquire.
 
 Do not track "membership count" as a score. Members who never speak, never refer, and never convert are a mailing list, not a community.
 

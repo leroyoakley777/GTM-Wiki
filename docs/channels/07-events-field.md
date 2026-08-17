@@ -40,7 +40,7 @@ If none of those are true, events are a line-item donation to the conference eco
 | Lead → SQL | 20–40% | Whether conversations qualified |
 | SQL → Closed-won | 15–30% | Whether the relationship converted |
 | Event pipeline ROI | 3–10x on total cost | Whether the event paid for itself |
-| Cost per qualified meeting | Often 2–5x a cold one, but far higher win rate | The real tradeoff |
+| Cost per qualified meeting | Often 2–5x a cold one, but far higher win rate | The actual tradeoff |
 
 The honest comparison is not "events vs. nothing." It is event cost per qualified meeting and win rate versus outbound's same numbers. Events often win because the trust is built up front — but only when the ICP is genuinely in the room.
 
@@ -65,7 +65,7 @@ The costliest mistake is confusing the booth with the strategy. The booth is jus
 - **Going to the biggest show for a tight ICP.** Attendance is vanity. Your buyer in the room is the score.
 - **Collecting badges, not conversations.** A pile of unqualified badge scans is a data-entry project, not pipeline.
 - **No pre-booked meetings.** If every meeting at the event is an accident, you are paying for other people's networking.
-- **No follow-up discipline.** The trust decays in days. A meeting without a booked next step within a week is a wasted flight.
+- **No follow-up discipline.** The trust fades within days. A meeting without a booked next step within a week is a wasted flight.
 - **Treating events as brand, not ROI.** "It is good for the brand" is what people say when the pipeline number does not work. Make it work or skip it.
 
 ---

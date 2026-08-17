@@ -31,7 +31,7 @@ If positioning is a coordinate on a map, messaging is the compass that points ev
 | **Value proposition** | The specific outcome you deliver for a specific buyer | Marketing, sales, product | A statement (often one sentence) |
 | **Messaging** | The language, copy, and narratives that communicate positioning and value to specific audiences | Sales, marketing, CS, content | Pitch decks, one-pagers, website copy, battle cards, email sequences |
 
-A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A real positioning document captures the reasoning, the alternatives considered, the evidence, and the date — so you can revisit and revise it.
+A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A complete positioning document captures the reasoning, the alternatives considered, the evidence, and the date — so you can revisit and revise it.
 
 ---
 
@@ -75,7 +75,7 @@ Important: don't filter by "do buyers care about this?" in this step. Just captu
 
 Buyers don't care about your features. They care what those features *do for them*. Map each unique attribute to the value it enables.
 
-Example: "Patented fast query on large datasets" → "Companies can answer customer questions in real-time during a sales call instead of following up three days later."
+Example: "Patented fast query on large datasets" → "Companies can answer customer questions live during a sales call instead of following up three days later."
 
 This step produces the raw material for your value proposition. Don't jump to messaging yet — capture the value first, in customer terms.
 
@@ -104,7 +104,7 @@ The frame you choose determines everything: which competitors you name in sales 
 
 ### Bringing it together: the positioning document
 
-Once you've worked through the five steps, document the output. A real positioning document includes:
+Once you've worked through the five steps, document the output. A complete positioning document includes:
 
 - **Product name and description** — what it is, in plain language
 - **Target segment** — who it's for (connected to ICP)
@@ -129,7 +129,7 @@ Structure messaging in layers, from strategic to tactical:
 
 **Level 1 — Positioning statement (internal).** A concise internal document that captures the positioning decisions from the framework above. Not customer-facing. Used to align product, marketing, and sales leadership.
 
-**Level 2 — Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with real buyers. If they don't immediately grasp it, simplify.
+**Level 2 — Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with actual buyers. If they don't immediately grasp it, simplify.
 
 **Level 3 — Messaging pillars.** 3-4 themes that organize all external communication. Each pillar has:
 - A one-line theme name
@@ -169,15 +169,15 @@ All tactical assets trace back to the messaging pillars. If a piece of copy can'
 
 Gather the right people: product, marketing, and at least one senior sales person. Work through the 5 steps above. Document the output. Date it.
 
-This should take a few hours for an initial pass. Don't try to get it perfect on the first round — get it real, then test.
+This should take a few hours for an initial pass. Don't try to get it perfect on the first round — get it right, then test.
 
-### 2. Test positioning with real buyers
+### 2. Test positioning with actual buyers
 
 Before you commit to a positioning direction, test it:
 
 - **Customer interviews.** Show the framing to 5-10 existing or prospective customers. Ask: "What do you think this product does?" and "Who would you recommend this to?" If their answers match your intended positioning, you're on track. If not, adjust.
 - **Win/loss review.** Look at lost deals. Was the buyer comparing you to something you weren't positioned against? Did they not understand what you do? Win/loss data is the most honest mirror you have.
-- **Message testing in channel.** Run two versions of a cold email or ad with different value framings. See which one gets a higher response rate. Small experiments, real data.
+- **Message testing in channel.** Run two versions of a cold email or ad with different value framings. See which one gets a higher response rate. Small experiments, actual data.
 
 ### 3. Build the messaging hierarchy
 
@@ -196,7 +196,7 @@ Every channel needs messaging adapted to its format and audience:
 
 ### 5. Assign ownership and cadence
 
-Positioning and messaging decay. Markets shift. Competitors change. Buyers' language evolves. Set a cadence:
+Positioning and messaging lose their edge. Markets shift. Competitors change. Buyers' language evolves. Set a cadence:
 
 - **Quarterly review:** Does the positioning still match the market? Has anything changed?
 - **After major wins/losses:** What did we learn about how buyers perceive us?
@@ -220,7 +220,7 @@ Someone should own this. Product marketing is the natural owner in most B2B orga
 
 **No connection between positioning and sales enablement.** If your sales team can't articulate the positioning in a cold call, the positioning isn't operationalized. Build battle cards and pitch narratives that make the positioning usable in a conversation.
 
-**No testing before full rollout.** Launching a new positioning across website, sales, and marketing without testing it with real buyers first. Run small experiments. A/B test email subject lines. Test the framing in customer interviews. The cost of getting positioning wrong compounds across every channel.
+**No testing before full rollout.** Launching a new positioning across website, sales, and marketing without testing it with actual buyers first. Run small experiments. A/B test email subject lines. Test the framing in customer interviews. The cost of getting positioning wrong compounds across every channel.
 
 **Separate positioning and ICP work.** Positioning and ICP are interdependent. Your positioning defines which segment you're built to serve. Your ICP defines which specific companies fit that segment. Do them together, not sequentially.
 

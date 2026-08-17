@@ -32,7 +32,7 @@ Four execution layers, each with a human checkpoint:
 ## Sequence (gates identical to the manual flow)
 
 1. **Prove the message** — small list, high-touch, all human judgment. Never automate a message you haven't proven. *Gate: 300+ sends per variant, pattern approved.*
-2. **Automate the leverage** — agents draft, enrich, route at scale. Humans approve the pattern, not every keystroke. *Gate: brief coverage >90%, so the "specific" lines are real, not placeholders.*
+2. **Automate the leverage** — agents draft, enrich, route at scale. Humans approve the pattern, not every keystroke. *Gate: brief coverage >90%, so the "specific" lines are actual, not placeholders.*
 3. **Guard the quality bar** — brief coverage >90%, triage accuracy >95%, human approval rate declining toward 20%, time-to-first-response &lt;15 min on hot, override rate &lt;5%. *Gate: if any slips, the loop is scaling garbage — shrink it.*
 
 ---

@@ -152,7 +152,7 @@ A good ICP is narrow enough to focus resources but broad enough to support growt
 
 ### Step 3: Create a Named Account List
 
-The output of a real ICP exercise is not a document. It is a list of 50-200 named accounts that match all four layers, prioritized by fit and trigger proximity.
+The output of an actual ICP exercise is not a document. It is a list of 50-200 named accounts that match all four layers, prioritized by fit and trigger proximity.
 
 This list is the asset. Everything else — outbound, content, events, paid — flows from it. If you cannot produce a named account list from your ICP, your ICP is a concept, not an executable strategy.
 
@@ -183,7 +183,7 @@ The iteration loop:
 
 **Treating ICP as a static document.** Write it once, share it once, forget it. Markets shift. Products evolve. Competitors move. A static ICP is a map from last year. Review quarterly at minimum. Review after every major product launch or market entry.
 
-**Too broad out of FOMO.** Founders fear that niching down means leaving money on the table. The reality: trying to sell to everyone means selling to no one effectively. Start with a beachhead — a segment where you are meaningfully better — and expand from dominance, not dilution.
+**Too broad out of FOMO.** Founders fear that niching down means leaving money on the table. In practice: trying to sell to everyone means selling to no one effectively. Start with a beachhead — a segment where you are meaningfully better — and expand from dominance, not dilution.
 
 **Building personas before ICP.** A buyer persona without an ICP is a character sketch without a stage. You know what "Marketing Mary" wants but not which companies she works for or whether they are in market. ICP first. Persona second.
 

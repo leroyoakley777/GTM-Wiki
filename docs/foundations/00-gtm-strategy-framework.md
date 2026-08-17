@@ -67,7 +67,7 @@ Understand the market before you commit to a plan.
 **Market sizing.** Use the TAM → SAM → SOM → PAM cascade:
 
 - **TAM (Total Addressable Market):** The entire market if you had 100% share. Example: $10B globally for AI quality control software.
-- **SAM (Serviceable Available Market):** The segment you can realistically reach. Example: $2B in EU mid-market manufacturers.
+- **SAM (Serviceable Available Market):** The segment you can actually reach. Example: $2B in EU mid-market manufacturers.
 - **SOM (Serviceable Obtainable Market):** What you can capture based on competitive positioning and resources. Example: $100M.
 - **PAM (Prioritized Account Market):** The top 10% of accounts showing active buying signals. Example: $15M from 200 accounts already evaluating similar solutions.
 
@@ -82,7 +82,7 @@ Segment until you find a group you can serve better than anyone else. That's you
 
 **Competitive analysis.** Map direct competitors (same product, same buyer), indirect competitors (different product, same job-to-be-done), and status quo (the buyer does nothing or uses a spreadsheet). Understand their positioning, pricing, strengths, and weaknesses. Where is the gap you can own?
 
-**Customer research.** Talk to real buyers. The minimum viable research package:
+**Customer research.** Talk to actual buyers. The minimum viable research package:
 
 - 15-30 customer interviews with target personas
 - Win/loss analysis on recent deals (why did they choose you or not?)
@@ -116,11 +116,11 @@ Make specific choices. Vague strategies produce vague results.
 
 ICP is a filter, not a dream list. If a prospect doesn't match, you pass. Focus compounds.
 
-**Build buyer personas.** 2-3 named personas with real detail:
+**Build buyer personas.** 2-3 named personas with concrete detail:
 
 > "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on pipeline efficiency and sales cycle length. Main objection: implementation time — she's been burned by tools that took six months to deploy. Needs to see ROI within one quarter."
 
-Give them names. Give them real constraints. Write for them.
+Give them names. Give them concrete constraints. Write for them.
 
 **Craft your value proposition.** Use this template:
 
@@ -128,7 +128,7 @@ Give them names. Give them real constraints. Write for them.
 
 Example: "For RevOps leaders at scaling B2B SaaS companies who are losing deals to manual lead routing, we provide an automated lead assignment platform that reduces response time by 80% and increases rep productivity by 30%."
 
-Test it with real buyers. If they don't immediately nod, rewrite it.
+Test it with actual buyers. If they don't immediately nod, rewrite it.
 
 **Choose your GTM motion.** The growth motion shapes everything else:
 

@@ -129,12 +129,12 @@ them to "go get partnerships." Here is the sequence that actually works.
 ## Metrics that matter
 
 Vanity metrics (logos signed) will lie to you. Track the chain from
-signature to real value:
+signature to actual value:
 
 | Stage | Metric | What it tells you |
 |---|---|---|
 | **Signed** | Partners closed | Top of funnel — necessary, not sufficient |
-| **Activated** | Partners who shipped an integration | The real leading indicator |
+| **Activated** | Partners who shipped an integration | The actual leading indicator |
 | **Producing** | Partner-driven revenue / GMV | The number the board cares about |
 | **Expanding** | Net revenue retention per partner | Whether the flywheel compounds |
 | **Efficiency** | Time-to-first-dollar per partner | How repeatable the motion is |

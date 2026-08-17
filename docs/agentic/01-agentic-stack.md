@@ -55,7 +55,7 @@ less than one junior SDR's loaded cost. The stack is not a toy. It is a
 deliberate capital decision to trade a variable labor line for a fixed
 tooling line.
 
-But the real reason it matters is not cost. It is speed of iteration.
+But the actual reason it matters is not cost. It is speed of iteration.
 [Clay's outbound automation writeup](https://www.clay.com/blog/outbound-sales-automation)
 makes the point: the best teams treat GTM as an engineering system
 built on **data, orchestration, execution, and agents**. When every step
@@ -87,14 +87,14 @@ intent signals, and pushes them into a sequence. Data quality is the
 floor of the whole stack. Garbage rows produce garbage messages no
 matter how good your LLM is.
 
-**Layer 2 — Research.** This is what separates real personalization from
+**Layer 2 — Research.** This is what separates actual personalization from
 fake personalization. An agent with web and search access reads each
 account and produces a **brief** of max 150 words: what changed, what
 they use, what gap you can name. The brief is the contract with the
 compose layer. Clay's argument is blunt: "AI is only as clever as the
 prompt and inputs given to the AI." Feed a thin prompt generic data and
 you get generic, spam-sounding copy. Feed a research brief and you get
-copy that names a real problem in a real company.
+copy that names a concrete problem in a named company.
 
 **Layer 3 — Compose.** The LLM writes messages *from the brief* plus
 your voice and tone rules — never from scratch. The same opening line
@@ -177,7 +177,7 @@ outreach (leadership changes, funding rounds, hiring surges, tech
 adoption) at **14–25% reply rates**, against a **3.43% cold-email
 industry average** from Hunter.io's 2026 State of Cold Email report.
 The stack is the natural home for this: the data layer watches for the
-signal, and the moment it fires, research composes a brief around a real,
+signal, and the moment it fires, research composes a brief around a concrete,
 current event in the account. That is personalization a prospect can
 feel.
 

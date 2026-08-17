@@ -34,7 +34,7 @@ The reasons are structural:
 
 - **Resource waste.** Without a defined ICP, every channel dollar goes to an unfocused audience. Paid acquisition against a poorly defined ICP is the most expensive line item on most B2B P&Ls.
 - **Message drift.** When product, marketing, and sales each write their own version of what the product does, the buyer hears three different things. Misalignment at the message layer is the most common silent killer of B2B launches.
-- **Lost buying committees.** The average enterprise buying committee is 6–10 stakeholders, with complex deals reaching 11+. A marketing-owned launch cannot serve that reality. Message, proof, channel sequence, and sales conversation must be designed together or they contradict each other in front of the buyer.
+- **Lost buying committees.** The average enterprise buying committee is 6–10 stakeholders, with complex deals reaching 11+. A marketing-owned launch cannot serve a buying committee that large. Message, proof, channel sequence, and sales conversation must be designed together or they contradict each other in front of the buyer.
 - **No learning loop.** A GTM without a named owner, a documented decision log, and a review cadence is a one-time launch event. The team that revises ICP, message, and channel mix every 30 days will out-execute the team with a better initial plan revised every 12 months.
 
 ## What a GTM Strategy Contains
@@ -95,7 +95,7 @@ The metrics that matter at the GTM level:
 - **CAC payback** — the ultimate test of whether your channel mix is sustainable
 - **Pipeline coverage** — are you generating enough qualified opportunities to hit the number
 
-The iteration cadence is the real strategic asset. Review ICP, message, and channel mix on a fixed rhythm — monthly at minimum, weekly during launch.
+The iteration cadence is the actual strategic asset. Review ICP, message, and channel mix on a fixed rhythm — monthly at minimum, weekly during launch.
 
 ## GTM vs. Related Concepts
 

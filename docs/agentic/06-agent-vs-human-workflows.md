@@ -79,7 +79,7 @@ the highest blast radius and the least reversibility.
 
 ## What is safe to hand over today
 
-In 2026, the workflows ready for real autonomy are data-rich, high-volume, and
+In 2026, the workflows ready for genuine autonomy are data-rich, high-volume, and
 do not directly generate customer-facing financial commitments. Every one of
 them carries a specific guardrail.
 
@@ -116,7 +116,7 @@ or financially consequential action. Three control patterns cover most teams:
 
 *(Source: Apollo, "How RevOps Leaders Apply Human-in-the-Loop Controls.")*
 
-## Why governance maturity is the real gate
+## Why governance maturity is the gate
 
 The strongest predictor of how far an organization can safely automate is not
 its technology readiness — it is its **governance maturity.** Automation
@@ -143,7 +143,7 @@ genuinely better held in front of a human, and the reason is not nostalgia.
 **Reputation-bearing communication.** A personalized message to a
 decision-maker is the single highest-leverage artifact in outbound. An agent
 can draft it; a human should own the send, because the send commits the
-company's voice and name to a real person.
+company's voice and name to an actual person.
 
 **Pricing and contract decisions.** Finance sign-off on pricing is not a
 workflow inconvenience; it is the audit point where margin, discount policy,

@@ -1,14 +1,14 @@
 ---
 sidebar_position: 10
 title: Referral & Viral
-description: When referral and viral loops are the right channel, the loops that actually compound, and the metric that separates real virality from a spike.
+description: When referral and viral loops are the right channel, the loops that actually compound, and the metric that separates genuine virality from a spike.
 ---
 
 # Referral & Viral
 
-**Referral and viral growth is the channel where your existing customers become your acquisition team.** It is the cheapest pipeline you will ever source — the cost per new customer trends toward zero because the person doing the selling is someone who already trusts you. But it is also the most easily faked. A referral program with no real loop, and viral mechanics bolted onto a product nobody wants to share, both produce a spike and then silence.
+**Referral and viral growth is the channel where your existing customers become your acquisition team.** It is the cheapest pipeline you will ever source — the cost per new customer trends toward zero because the person doing the selling is someone who already trusts you. But it is also the most easily faked. A referral program with no working loop, and viral mechanics bolted onto a product nobody wants to share, both produce a spike and then silence.
 
-This page is the *where* of referral and viral growth — when the loop is real, how to judge whether it is compounding, and the metric that separates genuine virality from a marketing stunt.
+This page is the *where* of referral and viral growth — when the loop is working, how to judge whether it is compounding, and the metric that separates genuine virality from a marketing stunt.
 
 ---
 
@@ -58,7 +58,7 @@ Most failed referral motions are a category error: they bolt an incentive onto a
 
 ---
 
-## How to Judge Whether the Loop Is Real
+## How to Judge Whether the Loop Is Working
 
 - **Watch the cycle time, not the count.** A viral loop has a recognizable cadence — share → invite → signup → share again. If you see spikes with no repeat cycle, the loop is not compounding.
 - **Track cohort-by-cohort.** A coefficient above 1.0 across a single cohort is the proof. Aggregate referral counts hide whether the channel is growing or just noisy.
@@ -69,7 +69,7 @@ Most failed referral motions are a category error: they bolt an incentive onto a
 
 ## Common failure modes
 
-- **Chasing virality without a real loop.** A share button is not a viral loop. The product has to become more valuable with more users.
+- **Chasing virality without a working loop.** A share button is not a viral loop. The product has to become more valuable with more users.
 - **Incentives that create junk.** A big reward attracts people who refer for the reward, not because the product helped them — those referrals do not convert or stay.
 - **Buying the share.** Paying for "shares" or "referrals" that never convert is a CAC you could have spent on a channel that compounds.
 - **Forgetting the referrer's motivation.** If the referrer gets nothing from the share (status, utility, reward), they will not do it more than once.

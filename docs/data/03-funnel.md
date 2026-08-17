@@ -16,7 +16,7 @@ The companion [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks) p
 
 **MQL → SQL (~13–15%) is the biggest, most consistent leak in B2B SaaS — and the single most important conversion gate.**
 
-It is where marketing's leads either become real pipeline or quietly die. Improving MQL→SQL from 13% to 20% moves more pipeline than any top-of-funnel volume play — because every lead that clears this gate is worth multiples more than the one that enters it. If you fix nothing else, fix qualification.
+It is where marketing's leads either become actual pipeline or quietly die. Improving MQL→SQL from 13% to 20% moves more pipeline than any top-of-funnel volume play — because every lead that clears this gate is worth multiples more than the one that enters it. If you fix nothing else, fix qualification.
 
 ---
 
@@ -56,7 +56,7 @@ Funnel math is multiplicative. A small leak at one stage compounds through every
 
 Three implications:
 
-- **MQL → SQL is the biggest, most consistent leak** (~13–15%). It is where marketing's leads either become real pipeline or quietly die.
+- **MQL → SQL is the biggest, most consistent leak** (~13–15%). It is where marketing's leads either become actual pipeline or quietly die.
 - **Fix the biggest leak first.** Improving MQL→SQL from 13% to 20% moves more pipeline than any top-of-funnel volume play.
 - **Strong teams beat the average 2–3x at the gate.** Teams with behavioral scoring and tight ICP coverage hit 30–40% MQL→SQL. Below 10% is almost always misaligned ICP definitions or low-intent lead generation — not lazy SDRs.
 

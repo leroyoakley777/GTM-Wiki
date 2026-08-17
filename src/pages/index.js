@@ -43,7 +43,7 @@ const sections = [
   {
     index: '07',
     title: 'Case Studies',
-    desc: 'Before → after. Real builds, the playbook applied, and the transferable lessons.',
+    desc: 'Before → after. Actual builds, the playbook applied, and the transferable lessons.',
     to: '/docs/case-studies',
   },
   {
@@ -63,11 +63,12 @@ export default function Home() {
           <div className="gtm-hero__label">REFERENCE — NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Every concept has a page. Every page ships the real artifact —
+            Every concept has a page. Every page ships the actual artifact —
             copy, math, tooling, the agentic layer — not a summary of it.
-            Every number is named and dated, and when a benchmark decays the
-            page updates. Built for founders, operators, and the agents that
-            run the motions.
+            Every number is named and dated. From time to time a number goes
+            stale; when that happens we update the page and the new source is
+            named and dated too. Built for founders, operators, and the
+            agents that run the motions.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>

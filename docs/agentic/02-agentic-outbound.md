@@ -84,7 +84,7 @@ personalization — a trigger event plus a relevant value prop — reaches
 
 Only **5% of senders personalize every
 email** ([Mailshake](https://mailshake.com/blog/the-state-of-cold-email-2025/)).
-The people who do see 2–3x better results. AI is the only realistic way
+The people who do see 2–3x better results. AI is the only practical way
 to join that 5% at scale. That is the whole opportunity.
 
 ---
@@ -132,12 +132,12 @@ does not change. What changes is *how fast* you get to the good 500.
 | Reason-to-reach | you write one per row | agent drafts one per row from research; you approve the pattern |
 | Perfect-fit tier (20%) | your judgment | agent scores fit; you confirm the top 20% |
 
-The best modern agents monitor **hundreds of real-time buyer signals** —
+The best modern agents monitor **hundreds of live buyer signals** —
 job changes, funding rounds, hiring surges, tech-stack changes,
 competitive displacement — and build a per-prospect research brief a
 human would spend 15–30 minutes assembling by hand
 ([Amplemarket](https://www.amplemarket.com/blog/best-ai-sales-agents)).
-That brief is what makes the personalization real, not templated.
+That brief is what makes the personalization genuine, not templated.
 
 **The gate stays**: every row has a first name, a verified email, and a
 one-line reason-to-reach. The agent can *propose* rows; you still sign
@@ -185,7 +185,7 @@ per week while watching deliverability
 fresh domain you burn in a week because "the AI makes it easy" is a
 domain you lose forever.
 
-The real agentic win is **triage** — and it is where AI reply handling
+The agentic win that matters is **triage** — and it is where AI reply handling
 pays for itself. Modern reply agents classify intent and draft a
 response **in under 5 minutes** ([Instantly](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)),
 then route:
@@ -215,7 +215,7 @@ Add these harness-health metrics:
 
 | Metric | Healthy range | What it tells you |
 |---|---|---|
-| Brief coverage | >90% of sends have a real brief | Personalization is real, not templated |
+| Brief coverage | >90% of sends have an actual brief | Personalization is genuine, not templated |
 | Human approval rate | declining toward 20% | Trust is building in the compose layer |
 | Triage accuracy | >95% correct routing | The loop won't bury hot leads |
 | Time-to-first-response | under 15 min for hot | The loop converts replies into meetings |

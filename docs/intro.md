@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Welcome to the Open GTM Wiki
 
-The highest-signal, open-source Go-to-Market resource for founders, VCs,
+An open-source Go-to-Market resource for founders, VCs,
 SDRs, AEs, RevOps, and builders of all kinds.
 
 This wiki is deliberately **industry- and company-agnostic**. Every
@@ -14,7 +14,8 @@ framework is designed to be adapted to any business model or stage.
 
 ## Organizing idea
 
-**Foundations don't change. Execution does.**
+**Every concept has a page, and every page ships the artifact — copy,
+math, tooling, the agentic layer — not a summary of it.**
 
 The frameworks here (GTM Strategy, Channels Bullseye) are durable —
 they were true in 2015 and will be true in 2035. The *playbooks* show
@@ -25,7 +26,7 @@ is, and where the guardrails must stay.
 
 | Section | It answers | Start here if… |
 |---|---|---|
-| [The Map](./map.md) | One image, the whole wiki | You want the big picture first |
+| [Map](./map.md) | One image, the whole wiki | You want the big picture first |
 | [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
 | [Playbooks](./playbooks/index.md) | What to do | You have a specific motion to run |
 | [Agentic GTM](./agentic/index.md) | How to execute with agents | You're scaling an existing motion |

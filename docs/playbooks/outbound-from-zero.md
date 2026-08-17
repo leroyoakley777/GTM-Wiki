@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Outbound from Zero
-description: The full-depth playbook for standing up a cold-outbound motion from nothing — real email copy, day-by-day sequence, deliverability setup, budget math, objections, a worked build, and the agentic SOP.
+description: The full-depth playbook for standing up a cold-outbound motion from nothing — actual email copy, day-by-day sequence, deliverability setup, budget math, objections, a worked build, and the agentic SOP.
 last-updated: 2026-08-17
 status: active
 tags: [outbound, playbook, cold-email, sdr, deliverability, agentic]
@@ -72,7 +72,7 @@ The list is the asset, not the copy.
    Definition](../foundations/icp-definition).
 2. **Enrich in layers**: company firmographics → tech stack → intent
    signal → the one human who owns the problem. Static firmographics
-   alone are not enough; the best lists build on **real-time buyer
+   alone are not enough; the best lists build on **live buyer
    signals** — job changes, funding rounds, hiring surges, tech-stack
    changes, competitive displacement.
 3. **Add a reason-to-reach for every row** — a trigger, a change, a gap.
@@ -128,7 +128,7 @@ and how to wire it:
 | Layer | Tool (this guide) | What it does | How to wire it |
 |---|---|---|---|
 | Data + enrichment | **Clay** (with Apollo as a data source) | Sources rows, enriches firmographics → tech stack → intent, builds the reason-to-reach from signals | Connect Apollo as a data source in Clay, model the row template (Step 1), trigger on signal sources (job change, funding, hiring surge) |
-| Intent / signals | **Apollo** (intent data) | Provides the trigger events that make personalization real | Set Apollo intent filters on your ICP; export matched accounts into Clay |
+| Intent / signals | **Apollo** (intent data) | Provides the trigger events that let you actually personalize | Set Apollo intent filters on your ICP; export matched accounts into Clay |
 | Sending + deliverability | **Smartlead** (or Instantly) | Dedicated sending infra: domains, warmup, rotation, sending caps | Add your sending domain, configure SPF/DKIM/DMARC (below), start warmup 2+ weeks before the first send |
 | Sequencing | The sender's native sequence engine (Smartlead/Instantly) | Runs the cadence, applies sending caps, tracks opens/replies | Build the sequence from Step 3, cap sends/day per domain |
 | Meeting booking | **Calendly** (or your sender's native) | Lets a positive reply become a booked meeting without back-and-forth | Link the "book a call" ask to a Calendly slot with 15-min availability |
@@ -165,7 +165,7 @@ Never start a fresh domain at full volume. A representative ramp:
 | Launch week | 25–50 | Controlled launch cap |
 | Each week after | +10–20% | Only while delivery stays above 97% |
 
-Start a fresh domain **2+ weeks of warmup** before the first real send,
+Start a fresh domain **2+ weeks of warmup** before the first actual send,
 and keep a hard cap of **25–50 emails/day per domain** during the
 launch, scaling 10–20% per week while watching deliverability
 ([Instantly, 2025 Guide to AI Outbound
@@ -297,7 +297,7 @@ vanity. Here are the funnel stages with **named, dated benchmarks**:
 | Reply rate (blended B2B) | **5.8%, down from 6.8% (2023)** | [SalesHive, 2025](https://saleshive.com/) | Single-channel saturation trend |
 | Reply rate (SaaS) | **3–8%** | [SalesHive, 2025](https://saleshive.com/) | SaaS-specific baseline |
 | Positive reply rate | >30% of replies | SalesHive, 2025 | ICP fit — replies worth pursuing |
-| Cold email → deal | **~0.2% (~1 deal per 500 emails)** | [Focus Digital, via Martal, 2026](https://martal.ca/b2b-cold-email-statistics-lb/) | Response ≠ revenue; conversion is the real job |
+| Cold email → deal | **~0.2% (~1 deal per 500 emails)** | [Focus Digital, via Martal, 2026](https://martal.ca/b2b-cold-email-statistics-lb/) | Response ≠ revenue; conversion is what actually matters |
 | Meetings booked / 1,000 sends | **3–10** | [Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/) | Overall motion health |
 | Cold call connect rate | 2–3%; top SDRs 5–8% | [SalesGenie, 2026](https://www.salesgenie.com/) | Phone as amplifier, not main |
 
@@ -378,7 +378,7 @@ question, don't pitch harder.**
 | "What does it cost?" | They're evaluating | Give a range with a named base, ask about their situation in return. Don't dump a price list. |
 | "We already use [competitor]" | They have a solution | Ask what's working and what's not. A competitor in place is not a no — it's a comparison you get to have. |
 | "Send me info / a deck" | Soft yes, often a stall | Send the one-pager and immediately offer a 15-min call to go through it. Convert the request to a meeting. |
-| "Not right now, timing is bad" | Real or polite rejection | Ask what timing would look like; tag nurture with a follow-up date. Respect it either way. |
+| "Not right now, timing is bad" | Genuine or polite rejection | Ask what timing would look like; tag nurture with a follow-up date. Respect it either way. |
 | "We don't have budget" | Budget signal | Ask when budget opens; offer the smallest possible next step. Don't discount preemptively. |
 | No reply at all | The default | That's the sequence's job — breakup email, then re-trigger on the next signal. |
 
@@ -394,7 +394,7 @@ single biggest lever most teams leave on the table
 ## Worked example — a 0→1 build end to end
 
 A representative build, step by step, so you can see the whole thing
-hold together. (Names and numbers are illustrative but realistic.)
+hold together. (Names and numbers are illustrative but plausible.)
 
 **Company:** a $4M ARR SaaS in construction-project management. No
 outbound engine. **ICP:** construction GCs and subs with 20–200
@@ -465,7 +465,7 @@ You are building a cold-outbound list for {ICP} companies in the
 {segment} band using {data source}. For each account, return a row
 with: company, ICP-fit score (1–5), primary contact first name,
 verified email, role, and a one-line reason-to-reach grounded in a
-real signal (job change, funding, hiring surge, tech-stack change, or
+actual signal (job change, funding, hiring surge, tech-stack change, or
 competitive displacement). Skip any row with no reason-to-reach — the
 gate is "no reason, no row." Return only rows that pass the gate.
 ```
@@ -473,7 +473,7 @@ gate is "no reason, no row." Return only rows that pass the gate.
 **Three guardrails that keep it honest** (from [Guardrails &
 Measurement](../agentic/guardrails-and-measurement)):
 
-1. **Brief coverage >90%** — if most sends lack a real research brief,
+1. **Brief coverage >90%** — if most sends lack an actual research brief,
    the personalization is fake, and buyers can smell it.
 2. **Human approval before scaling** — only automate a pattern after
    you've seen hundreds of replies prove it. A weak message scaled by AI

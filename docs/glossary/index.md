@@ -21,8 +21,8 @@ Terms are grouped by theme. Each entry is a first-principles definition, not a c
 ## Funnel & Pipeline
 
 - **Funnel.** The top-to-bottom path an account takes from first touch to closed deal. Naming varies by company, but the shape is constant: awareness → interest → evaluation → decision → close.
-- **MQL — Marketing Qualified Lead.** A lead marketing has scored or qualified and handed to sales. The threshold is arbitrary and varies by company — the score's only real job is to decide "sales-worthy."
-- **SQL — Sales Qualified Lead.** A lead sales has qualified as a real opportunity worth pursuing. Where MQL is marketing's judgment, SQL is sales's.
+- **MQL — Marketing Qualified Lead.** A lead marketing has scored or qualified and handed to sales. The threshold is arbitrary and varies by company — the score's only actual job is to decide "sales-worthy."
+- **SQL — Sales Qualified Lead.** A lead sales has qualified as an actual opportunity worth pursuing. Where MQL is marketing's judgment, SQL is sales's.
 - **Pipeline.** The sum of open opportunities at every stage, usually expressed in dollar value. Pipeline quality beats pipeline size — a full pipeline of wrong-fit accounts closes nothing.
 - **Conversion rate.** The share of accounts that move from one stage to the next. Read it per stage, not as one blended number (see [conversion-rate-benchmarks](../data/00-conversion-rate-benchmarks.md)).
 - **AOV — Average Order Value.** Average revenue per order or deal.

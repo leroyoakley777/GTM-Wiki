@@ -1,14 +1,14 @@
 ---
 sidebar_position: 5
 title: Account-Based Marketing
-description: When ABM is the right channel, the win-rate and ROI benchmarks that prove it, and the metric that separates a real program from a badge.
+description: When ABM is the right channel, the win-rate and ROI benchmarks that prove it, and the metric that separates a working program from a badge.
 ---
 
 # Account-Based Marketing
 
 **ABM is the channel for a small number of high-value accounts — the ones where a single win pays for the whole motion.** It inverts the inbound logic: instead of casting a wide net and letting leads self-select, you name the accounts you must win and go after them with coordinated, multi-channel precision. It is the right primary channel when ACV is high, the buyer is a committee, and the list of accounts you need is short enough to name.
 
-This page is the *where* of ABM — when it is the right call, the benchmarks that prove it works, and the one metric that separates a real program from a marketing badge.
+This page is the *where* of ABM — when it is the right call, the benchmarks that prove it works, and the one metric that separates a working program from a marketing badge.
 
 ---
 
@@ -46,7 +46,7 @@ ABM wins when a single account is worth a serious, sustained effort. It is the w
 
 ---
 
-## Metric That Separates a Real Program from a Badge
+## Metric That Separates a Working Program from a Badge
 
 **Account win rate on the target list.** Most teams report ABM "success" with engagement or coverage numbers — impressions, visits, touches — which are activity, not outcome. The number that tells you the program is actually working is whether you are winning the accounts on the list at a meaningfully higher rate than the rest of your book.
 

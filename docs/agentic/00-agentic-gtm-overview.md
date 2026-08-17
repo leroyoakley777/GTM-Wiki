@@ -119,7 +119,7 @@ architects. People stop running the machine and start designing it.
 
 The economics alone justify the shift. But the compound effect — what
 happens when your best people spend their days doing their best work —
-is harder to quantify and more valuable. That is the real argument for
+is harder to quantify and more valuable. That is the actual argument for
 agentic GTM.
 
 The caveat: those figures describe a well-governed, well-built system.
@@ -280,7 +280,7 @@ not endorsements:
   X meetings per week" — rather than step-by-step. (Source:
   [Landbase, Top AI Agents](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies))
 - **Domain-specific models.** Landbase trains its GTM-1 engine on
-  millions of real campaigns and sales conversations, making the model
+  millions of actual campaigns and sales conversations, making the model
   specialized for B2B outreach rather than generic. (Source:
   [Landbase, Top AI Agents](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies))
 - **Signal-driven action.** Agents trigger on job changes, funding
