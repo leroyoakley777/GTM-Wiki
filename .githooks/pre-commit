@@ -1,0 +1,22 @@
+#!/bin/sh
+# gtm-wiki author-time lint (L2). Blocks a commit that would ship slop or a
+# build trap. Only checks staged .md/.mdx files so it stays fast.
+#
+# Wire it up once per clone:  npm run setup:hooks
+# (sets core.hooksPath to .githooks; the hook file is committed and shared.)
+set -e
+
+# Non-interactive stashes are risky in shared hooks; lint staged files only.
+staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)$' || true)
+if [ -z "$staged" ]; then
+  exit 0
+fi
+
+echo "gtm-wiki pre-commit: linting staged content files..."
+if ! node scripts/lint.mjs $staged; then
+  echo
+  echo "Commit blocked: lint violations in staged files."
+  echo "Fix them (or, for a legit one-off, git commit --no-verify)."
+  exit 1
+fi
+exit 0
