@@ -12,7 +12,7 @@ These are **baselines, not targets**. Every number is a range or a median with a
 
 ---
 
-## The Numbers That Matter Most
+## Numbers That Matter Most
 
 **Win rate is the highest-leverage number on the board.** A 1–3 point shift in win rate changes required pipeline coverage and generation more than any other single input (Benchmarkit / GTM founders). Average across B2B is ~21% for all opportunities and ~29% for qualified ones — which is exactly why coverage must be read against *your* conversion math, not a fixed multiple.
 
@@ -42,7 +42,7 @@ These are **baselines, not targets**. Every number is a range or a median with a
 
 ---
 
-## The Metrics That Matter, and Why
+## Metrics That Matter, and Why
 
 ### Pipeline coverage — the top board metric
 
@@ -72,7 +72,7 @@ The ~43–47% *average* is not a target — it reflects a market where most comp
 
 These hold across multiple sources and reshape how you read the table above.
 
-### The efficiency era reset pre-2023 targets
+### Efficiency era reset pre-2023 targets
 
 CAC payback expectations tightened from 18–24 months to **12 months**. Post-ZIRP boards judge pipe-to-spend and payback before growth. A 2020 benchmark is a liability in 2026 — always check the vintage of the number you are quoting.
 
@@ -106,7 +106,7 @@ A 1–3 point shift changes required pipeline coverage and generation more than 
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 The 2026 efficiency era has a clear signature: **tight payback, high coverage, ruthless NRR.** Boards stopped rewarding growth at any cost and started rewarding growth that pays for itself. The benchmarks that survive — 12-month payback, 5–8x pipe-to-spend, 3.2:1 LTV:CAC, ≥100% NRR — all point the same direction: acquire efficiently, retain fiercely, expand relentlessly.
 

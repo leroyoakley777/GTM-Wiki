@@ -18,7 +18,7 @@ Terms are grouped by theme. Each entry is a first-principles definition, not a c
 - **Economic buyer.** The person with budget authority — the one who can actually say yes to the money.
 - **Technical buyer / evaluator.** The person who assesses whether your product works technically — often security, IT, or engineering.
 
-## The Funnel & Pipeline
+## Funnel & Pipeline
 
 - **Funnel.** The top-to-bottom path an account takes from first touch to closed deal. Naming varies by company, but the shape is constant: awareness → interest → evaluation → decision → close.
 - **MQL — Marketing Qualified Lead.** A lead marketing has scored or qualified and handed to sales. The threshold is arbitrary and varies by company — the score's only real job is to decide "sales-worthy."

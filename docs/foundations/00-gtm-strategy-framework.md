@@ -56,7 +56,7 @@ Companies with a strong GTM strategy see better CAC ratios, higher win rates, an
 
 ---
 
-## The GTM Strategy Framework
+## GTM Strategy Framework
 
 The framework has three phases, adapted from Bain's go-to-market system and refined through practice:
 
@@ -196,7 +196,7 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 ---
 
-## The 90-Day GTM Implementation Roadmap
+## 90-Day GTM Implementation Roadmap
 
 ### Days 1-30: Foundation
 

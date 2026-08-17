@@ -12,7 +12,7 @@ This page is the *where* of outbound: when it is the right call and how to judge
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Meetings booked per 1,000 sends — a healthy range is 3–10.** That is the number that tells you the whole motion is working. It compounds delivery, open, reply, and positive-reply rates into one diagnostic. If you are booking fewer than 3 meetings per 1,000 sends, do not add volume — the message, list, or offer is broken. If you are above 10, you are leaving pipeline on the table and should scale the send.
 
@@ -32,7 +32,7 @@ If none of those are true, go build content or partnerships first. Outbound agai
 
 ---
 
-## The Outbound Funnel — Benchmarks That Diagnose
+## Outbound Funnel — Benchmarks That Diagnose
 
 Each stage answers a different question. A healthy total is the product of all of them, so a weakness at any single stage caps the whole motion.
 
@@ -65,7 +65,7 @@ Each stage answers a different question. A healthy total is the product of all o
 
 ---
 
-## The Pattern Behind Outbound
+## Pattern Behind Outbound
 
 Outbound is a numbers game with a quality gate. The funnel never changes — list → signal → sequence → handoff — and the numbers must be diagnostic, not vanity. Teams that win treat outbound as a loop: the best customers become the new look-alike list, and every 2-week debrief feeds what message won, what segment converted, and what objection killed the deal.
 
@@ -76,7 +76,7 @@ The two places outbound dies most often are the same every time:
 
 ---
 
-## The Agentic Layer
+## Agentic Layer
 
 Outbound is the channel where agentic GTM has the most proven leverage — because the bottleneck has never been sending, it is the *thinking per row*. Agents remove the thinking bottleneck; humans keep the judgment. The funnel metrics above hold with AI in the loop. The full playbook is [Agentic Outbound](../agentic/agentic-outbound).
 

@@ -12,7 +12,7 @@ This page is the *where* of PLG — when it is the right call and how to judge f
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Median free-to-paid conversion is ~9% across all PLG models — and using Product-Qualified Leads (PQLs) roughly triples it to ~25–30%.** The gap is not the product; it is the discipline of identifying which free users are on the path to buying and putting human effort there. Only ~25% of companies report using PQLs at all. The ones who do convert free accounts to paid at roughly 3x the rate of those who do not.
 
@@ -52,7 +52,7 @@ Paying-customers-per-1k-visitors is the number that actually compares models fai
 
 ---
 
-## Why PQLs Are the Leverage
+## PQLs Are PLG's Conversion Gate
 
 **Product-Qualified Leads (PQLs) are the PLG version of the ICP fit gate.** They are free users who hit a defined trigger — activation, a usage threshold, an expansion signal — that marks them as likely buyers. Teams that route these users into human sales convert free accounts to paid at ~25–30%, ~3x the 9% median.
 
@@ -69,7 +69,7 @@ This is the counterintuitive part of PLG: **a PLG company that never uses sales 
 
 ---
 
-## The Pattern Behind PLG
+## Pattern Behind PLG
 
 The winning PLG pattern is a loop, not a one-time launch: a frictionless first value → a clear activation trigger → PQL scoring on usage → human close on the qualified few → expansion motion on the base. The companies that compound treat free-to-paid conversion as a product discipline, instrumented and improved continuously, rather than as a pricing or marketing decision made once. That is why the 9% median hides a huge spread — the median company is not running the loop.
 

@@ -12,7 +12,7 @@ Each case is grouped by the [channel](../channels/) it proves, so you can go fro
 
 > **A fair warning before you read:** these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. Treat them as proof of what's *achievable with intent*, not a promise of what any team will hit. Company-specific conditions — a category-defining product, category-defining timing — matter. The tactics transfer; the exact multiples may not.
 
-## The Cases
+## Cases
 
 - [Product-Led Growth](./product-led) — Slack (575K orgs, ~40% of paid started free), Calendly (bootstrapped to $3B+), Figma. The product's output is the marketing channel.
 - [ABM](./abm) — Snowflake (75% more booked meetings, 2.3x lift for 38% less spend), BillingTree ($350K off 100 accounts), Invoca (33x ROI). A harpoon beats a net.
@@ -26,6 +26,6 @@ Each case is grouped by the [channel](../channels/) it proves, so you can go fro
 2. **Take the transferable takeaway, not the number.** The multiples are company-specific; the mechanism is what transfers.
 3. **Check the source.** Where a vendor reported its own numbers, it's flagged. The named source is the contract — not the headline.
 
-## The Two Halves of Proof
+## Two Halves of Proof
 
 Benchmarks without cases read as fatalism ("cold email is dead"); cases without benchmarks read as hype. The wiki needs both: a case to show a motion can win, and a benchmark to show how far above median that is.

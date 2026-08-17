@@ -12,7 +12,7 @@ framework is designed to be adapted to any business model or stage.
 
 ---
 
-## The organizing idea
+## Organizing idea
 
 **Foundations don't change. Execution does.**
 

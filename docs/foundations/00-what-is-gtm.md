@@ -26,7 +26,7 @@ Every GTM strategy answers five questions:
 
 A GTM strategy is scoped to a specific product, market, or expansion move. A company launching into a new vertical, releasing a new product, or entering a new geography runs a new GTM. The strategy changes when the market changes — not on a calendar.
 
-## The Evidence
+## Evidence
 
 Most product launches fail because of poor go-to-market planning, not poor products. SiriusDecisions analyzed 847 tech companies and found that only **23% of B2B companies hit their first-year revenue targets** after product launch. Companies with documented GTM strategies achieve **30% higher revenue growth** than those without.
 

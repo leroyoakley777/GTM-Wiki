@@ -10,7 +10,7 @@ Community-led is the slowest channel and the one that compounds the hardest. Not
 
 ---
 
-## The Case
+## Case
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
@@ -27,7 +27,7 @@ The result: 20M users, 1M+ community members, and a flywheel where community-cre
 
 ---
 
-## The Pattern
+## Pattern
 
 **Community is an ecosystem, not a single space.** Notion didn't create one forum and call it done — it went to where users already gathered, formalized the natural ambassadors, and used the hub as both a product use case and a knowledge base. Community fed product development *and* content, which fed demand, which brought more users who produced more content.
 
@@ -35,13 +35,13 @@ The load-bearing choices: vet ambassadors for genuine community expertise (not p
 
 ---
 
-## The Transferable Takeaway
+## Transferable Takeaway
 
 **Identify where your users already convene, hire and enable your superfans early, and treat community as an ecosystem that feeds content, referrals, and product feedback — not as a single space or a paid channel.** The compounding comes from the flywheel, not from the forum.
 
 ---
 
-## The Honest Caveat
+## Honest Caveat
 
 This is a **secondary-sourced case** (Michelle Goodall's community case study, echoed by BetterMode), and Notion had a category-defining product with category-defining timing. The user and member numbers are company-reported. The *mechanism* — meet fans where they are, formalize ambassadors, feed the flywheel — transfers; the 20M-user scale does not.
 

@@ -10,13 +10,13 @@ This is the [outbound flow](./outbound) running under an agent harness. The sequ
 
 ---
 
-## The Rule That Governs the Whole Flow
+## Rule That Governs the Whole Flow
 
 **Augment, don't replace.** The data is unambiguous: hybrid (human-in-the-loop) teams produce **2.8x more pipeline** than full-autonomous attempts, and AI SDR tools churn at 50–70% annually. Autonomous agents convert meetings to qualified opportunities at **15% vs 25%** for humans. The harness removes the thinking bottleneck *between* gate steps; humans keep judgment on the send. (Numbers as cited in [Agentic Outbound](../agentic/agentic-outbound).)
 
 ---
 
-## The Architecture — the Layer Stack the Flow Runs On
+## Architecture — the Layer Stack the Flow Runs On
 
 Four execution layers, each with a human checkpoint:
 
@@ -29,7 +29,7 @@ Four execution layers, each with a human checkpoint:
 
 ---
 
-## The Sequence (gates identical to the manual flow)
+## Sequence (gates identical to the manual flow)
 
 1. **Prove the message** — small list, high-touch, all human judgment. Never automate a message you haven't proven. *Gate: 300+ sends per variant, pattern approved.*
 2. **Automate the leverage** — agents draft, enrich, route at scale. Humans approve the pattern, not every keystroke. *Gate: brief coverage >90%, so the "specific" lines are real, not placeholders.*
@@ -37,7 +37,7 @@ Four execution layers, each with a human checkpoint:
 
 ---
 
-## The Decision Tree (agentic edition)
+## Decision Tree (agentic edition)
 
 ```
 Prove the message ── 300+ sends per variant? ── no ──▶ stay manual
@@ -73,7 +73,7 @@ From [Agent vs Human Workflows](../agentic/agent-vs-human-workflows):
 
 ---
 
-## Why the Harness Changes the Leverage, Not the Funnel
+## Same Funnel, Cheaper Execution
 
 The manual flow and this flow run the same funnel. What changes is the cost and speed of execution between the gates. The harness lets a small team sustain a volume that would otherwise need headcount — but only because the gates hold. The moment a quality bar slips, the loop is scaling garbage, and the answer is to shrink it, not to add more agents. The automation is leverage on a proven motion, never a substitute for proving it.
 

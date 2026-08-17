@@ -12,7 +12,7 @@ This page is the *where* of inbound — when it is the right call and how to jud
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **AI-referral traffic converts at ~5.8% — above organic search (4.9%), email (4.9%), and comparable to paid search (5.4%).** The reason is not that AI is a magic channel; it is that the AI pre-qualifies the visitor before it sends the click. This is the single most important shift in inbound today: buyers do their research with an AI assistant, then arrive already further along in the buying process. 37% of marketers say leads are more informed thanks to AI, and nearly 70% say leads now come later in the buying process after AI-assisted research.
 
@@ -28,7 +28,7 @@ Inbound wins when your buyers have a research-driven journey and a category they
 
 ---
 
-## The Inbound Funnel — Benchmarks That Diagnose
+## Inbound Funnel — Benchmarks That Diagnose
 
 The inbound funnel is a leaky set of stages. Each one compounds on the previous, so a small improvement upstream is worth more than a big improvement downstream.
 
@@ -63,7 +63,7 @@ The most-cited single number, "the average B2B conversion rate is ~5%", is a tra
 
 ---
 
-## The Pattern Behind Inbound
+## Pattern Behind Inbound
 
 Inbound is the only major channel that compounds because it builds an owned asset. The pattern that wins is boring and repeatable: consistent content aimed at real buyer questions, captured on your site, converted with a clear next step, and nurtured by email until the buyer is ready to talk. The channel rewards teams that treat content as infrastructure rather than as campaign bursts.
 

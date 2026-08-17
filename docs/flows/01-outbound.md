@@ -10,7 +10,7 @@ This is the executable version of the [outbound-from-zero](../playbooks/outbound
 
 ---
 
-## The Sequence
+## Sequence
 
 ### 1. Decision gate — is outbound right?
 
@@ -50,7 +50,7 @@ Meeting standard defined, source tracked, a 2-week debrief, and the win fed back
 
 ---
 
-## The Decision Tree
+## Decision Tree
 
 The branches an operator actually hits:
 

@@ -12,7 +12,7 @@ This page is the *where* of partnerships: when they are the right call and how t
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Qualified partner-sourced pipeline as a share of total new pipeline — a healthy target is 10–20% for a mature partner program.** That is the number that tells you the motion is actually contributing and not just occupying time. Below that, the program is a tax. Above it, you are leaving upside on the table and should invest more.
 
@@ -32,7 +32,7 @@ If none of those are true, partnerships will consume energy for zero pipeline. A
 
 ---
 
-## The Partnership Funnel — Benchmarks That Diagnose
+## Partnership Funnel — Benchmarks That Diagnose
 
 Each stage answers a different question. A weak stage caps the whole motion.
 
@@ -48,7 +48,7 @@ The order matters. Activation comes before adoption, adoption before co-sell, co
 
 ---
 
-## The Two Partnership Motions
+## Two Partnership Motions
 
 **1. Tech / integration partnerships.** The partner builds on top of you (or you on them), and mutual customers get a better product. Pipeline shows up as integration-driven signups and as the partner's sales team selling the joint story. This is the motion behind most modern product-led virality.
 

@@ -12,7 +12,7 @@ This page is the *where* of events and field: when they are the right call and h
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Pipeline influenced per dollar of event spend — a healthy event produces 3–10x return on total event cost.** That is the number that separates an event that works from an expensive networking session. Track not just leads collected but the pipeline that traces back to the event, closed within a defined window.
 
@@ -32,7 +32,7 @@ If none of those are true, events are a line-item donation to the conference eco
 
 ---
 
-## The Events Funnel — Benchmarks That Diagnose
+## Events Funnel — Benchmarks That Diagnose
 
 | Stage | Healthy range | What it tells you |
 |---|---|---|
@@ -46,7 +46,7 @@ The honest comparison is not "events vs. nothing." It is event cost per qualifie
 
 ---
 
-## The Difference Between a Booth and a Motion
+## Difference Between a Booth and a Motion
 
 A booth with a badge scanner is a passive bet on foot traffic. A field motion is an engineered series of targeted conversations.
 

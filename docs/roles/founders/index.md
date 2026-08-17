@@ -13,7 +13,7 @@ system is ready.
 > [GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md),
 > then the [Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md).
 
-## The founder's GTM sequence
+## Founder's GTM sequence
 
 1. **Sell it yourself first.** No hires until you've closed the first handful of deals personally. You are the founding salesperson.
 2. **Document what works.** Every objection, every winning phrase, every disqualifier. This becomes the playbook.

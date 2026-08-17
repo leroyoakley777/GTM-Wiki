@@ -10,7 +10,7 @@ Referral and viral growth is where your customers become your acquisition team. 
 
 ---
 
-## The Case
+## Case
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
@@ -26,7 +26,7 @@ The result: signups went from 100K to 4M in 15 months — a 3,900% increase — 
 
 ---
 
-## The Pattern
+## Pattern
 
 **The double-sided, product-native reward made the customer the channel.** Two things had to be true at once:
 
@@ -37,13 +37,13 @@ The result is referrals that out-earn paid ads — not because the incentive is 
 
 ---
 
-## The Transferable Takeaway
+## Transferable Takeaway
 
 **Reward both sides of the referral and make the reward native to the product's value (storage, seats, credits) — not a cash bribe.** A double-sided, product-native loop turns your customers into an acquisition team that out-earns paid; a cash bribe attracts people who refer for the reward, and those referrals do not convert or stay.
 
 ---
 
-## The Honest Caveat
+## Honest Caveat
 
 These are **secondary-sourced numbers** (viral-loops.com, referralrock.com, omegapoint.systems, all summarizing the Dropbox story), and Dropbox had a category-defining product at a category-defining moment — 2008, when free cloud storage was a novel, shareable value. The *mechanism* — double-sided, product-native referral — transfers; the 3,900% multiple is a function of timing and category, not a number any team should expect to replicate.
 

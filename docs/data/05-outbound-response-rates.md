@@ -12,7 +12,7 @@ These are **baselines, not targets** — ranges with named sources. Cold outboun
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Cold email → deal conversion is ~0.2% — about one deal per 500 cold emails.**
 
@@ -37,7 +37,7 @@ Response and revenue are different jobs. A 3–5% reply rate is normal. But almo
 
 ---
 
-## The Insight That Matters: Single-Channel Is Sinking, Multi-Touch Wins
+## Insight That Matters: Single-Channel Is Sinking, Multi-Touch Wins
 
 - **Cold email reply rates are low and trending down** — blended B2B sits at ~5.8% (down from 6.8% in 2023), SaaS-specific 3–8%, and inbox saturation keeps pushing them lower. A 3–5% reply rate is normal, not a failure of the copy.
 - **Conversion to a deal is a rounding error** — ~0.2%, or one deal per ~500 cold emails. Response and revenue are different jobs; don't chase either one through single-channel volume.
@@ -56,7 +56,7 @@ Response and revenue are different jobs. A 3–5% reply rate is normal. But almo
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Cold outbound is not dead — it is just no longer a volume game. The 0.2% email→deal figure and the 3–5% reply rates describe what single-channel volume returns when inboxes are saturated. The teams that still win treat outbound as a *mixed* motion: a warm list, a multi-channel sequence, and a conversion path measured from first touch to closed deal — not from send to reply. If you are going to invest in outbound, invest in the channel mix and the follow-up system, not more emails to a colder list.
 

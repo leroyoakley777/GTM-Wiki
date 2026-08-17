@@ -10,7 +10,7 @@ Outbound is the channel that takes a company from in-network founder deals to re
 
 ---
 
-## The Case
+## Case
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
@@ -26,7 +26,7 @@ The early outbound motion ran multi-touch campaigns with clever tech and stellar
 
 ---
 
-## The Pattern
+## Pattern
 
 **Outbound is the repeatable replacement for the founder relationship well.** Founder deals are not a channel — they are a finite list of people the founders already know. Outbound is what turns that into a repeatable motion that does not depend on the founders' address books. The 0→scale step is precisely when outbound matters most: it is the move from "who we know" to "how we sell to anyone in ICP."
 
@@ -34,13 +34,13 @@ The load-bearing detail: Gong did not run it as cold-email volume. It was multi-
 
 ---
 
-## The Transferable Takeaway
+## Transferable Takeaway
 
 **When the founder relationship well runs dry, outbound is the repeatable replacement — but run it multi-touch and multi-channel, not as cold-email volume.** The channel only scales if it is a deliberate, sequenced motion aimed at a disciplined ICP, not spray-and-pray.
 
 ---
 
-## The Honest Caveat
+## Honest Caveat
 
 This is a **single, agency-sourced case** (InsideScale's case study), self-reported and necessarily partial — Gong's internal numbers aren't public. It is here as proof of the *mechanism* (outbound replaces the relationship well and accelerates 0→scale), not as a promise of any specific multiple. Gong also had a category-defining product at a category-defining moment.
 

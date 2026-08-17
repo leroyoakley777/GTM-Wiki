@@ -12,7 +12,7 @@ This page is the *where* of ABM — when it is the right call, the benchmarks th
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **ABM-targeted accounts win at 2–3x the rate of non-ABM accounts.** Snowflake reported a 45% win rate on its ABM accounts vs 18% on non-ABM; DocuSign's enterprise win rate jumped from 25% to 52% after implementing ABM. The lift is not marketing polish — it is the effect of concentrating sales and marketing on a short list of accounts with coordinated, repeated engagement across channels, instead of spreading both thin.
 
@@ -31,7 +31,7 @@ ABM wins when a single account is worth a serious, sustained effort. It is the w
 
 ---
 
-## The Benchmarks That Prove It
+## Benchmarks That Prove It
 
 | Metric | ABM benchmark | Why it matters |
 |---|---|---|
@@ -46,7 +46,7 @@ ABM wins when a single account is worth a serious, sustained effort. It is the w
 
 ---
 
-## The Metric That Separates a Real Program from a Badge
+## Metric That Separates a Real Program from a Badge
 
 **Account win rate on the target list.** Most teams report ABM "success" with engagement or coverage numbers — impressions, visits, touches — which are activity, not outcome. The number that tells you the program is actually working is whether you are winning the accounts on the list at a meaningfully higher rate than the rest of your book.
 
@@ -70,7 +70,7 @@ If your ABM win rate is not materially above your non-ABM baseline, you are runn
 
 ---
 
-## The Pattern Behind ABM
+## Pattern Behind ABM
 
 The winning ABM pattern is a closed loop: a rigorously selected tier-1 account list → coordinated multi-channel engagement (ads, content, events, direct outreach) aimed at all the buyers in each account → measure account-level engagement and penetration → score and route to sales at the right moment → feed the wins back into the next list. The channel works because it concentrates limited attention on the accounts that matter most, and because it forces sales and marketing onto the same target list — which is itself worth most of the lift.
 

@@ -12,7 +12,7 @@ This page is the *where* of community-led growth: when it is the right call and 
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Member-initiated referrals and word-of-mouth share of new signups — a healthy community pushes this toward 30–50% over time.** That is the number that proves the community is doing real acquisition work rather than just existing. People who come in because a member brought them are the highest-intent, lowest-CAC users you will ever acquire.
 
@@ -32,7 +32,7 @@ If none of those are true, a community is a distraction. Building community arou
 
 ---
 
-## The Community Funnel — Benchmarks That Diagnose
+## Community Funnel — Benchmarks That Diagnose
 
 | Stage | Healthy range | What it tells you |
 |---|---|---|
@@ -46,7 +46,7 @@ The power metric is the referral share. Everything before it — activity, answe
 
 ---
 
-## The Three Kinds of Community Value
+## Three Kinds of Community Value
 
 **1. Acquisition.** Members refer their colleagues because the community genuinely helped them. This is the flywheel: happy member → referral → new member → happy member.
 

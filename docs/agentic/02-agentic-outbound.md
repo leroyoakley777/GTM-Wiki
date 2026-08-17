@@ -58,7 +58,7 @@ replace the human.
 
 ---
 
-## The Economics
+## Economics
 
 The economics force your hand. A human SDR costs about **$139,120/year
 fully loaded**. An AI SDR platform runs **$1,000–$5,000/month**, or

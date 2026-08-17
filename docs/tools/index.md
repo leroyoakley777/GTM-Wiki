@@ -46,7 +46,7 @@ The plumbing that keeps the revenue engine coherent — the functional home of t
 - **Billing / subscription management.** Where recurring revenue is actually collected.
 - **Data warehouse / reverse-ETL.** The layer that lets every tool speak the same account and revenue truth.
 
-## The agentic GTM category
+## Agentic GTM category
 
 The newest and fastest-moving layer. These tools don't just store or sequence — they *execute*: research accounts, draft personalized outreach, run follow-up, maintain CRM hygiene, and hand judgment calls to humans. Built on the same [guardrails and measurement](../agentic/03-guardrails-and-measurement.md) discipline as every customer-facing agent.
 

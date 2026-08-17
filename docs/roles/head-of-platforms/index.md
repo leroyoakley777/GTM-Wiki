@@ -71,7 +71,7 @@ and most indirect — seat in the revenue org.
 
 ---
 
-## The competency stack
+## Competency stack
 
 A great Head of Platforms operates across four layers that rarely live in
 one person. That scarcity is exactly why the role commands its comp.
@@ -145,7 +145,7 @@ has failed. One who signs 5 where 4 produce has built an engine.
 
 ---
 
-## The hiring profile
+## Hiring profile
 
 If you are hiring for this role, look for:
 

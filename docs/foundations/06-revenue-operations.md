@@ -27,7 +27,7 @@ The insight that matters: **RevOps is small but load-bearing.** It supports sell
 
 ---
 
-## The Insight That Matters: A Tiny Team With an Outsize Multiplier
+## Insight That Matters: A Tiny Team With an Outsize Multiplier
 
 - **RevOps is small but load-bearing.** It is under 1% of total B2B software headcount and supports sellers at roughly 12:1 — about 7,700 RevOps people behind 91,000 sellers. It is a leverage function: spend here compounds across the whole seller base, not one team.
 - **The ratio scales with company size.** Early and high-growth teams carry more RevOps per seller (startups investing ahead of the curve); past ~1,000 employees the Sales:RevOps ratio climbs and each RevOps person supports a bigger seller base. There is no one right ratio — it is a stage decision, not a fixed norm.
@@ -59,7 +59,7 @@ The [GTM Metrics](../foundations/05-gtm-metrics.md) page defines the numbers; Re
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Revenue operations is the closest thing SaaS has to a production line. A tiny team — under 1% of headcount — sits on the process, data, and tooling that decide whether the seller base converts effort into pipeline. The 12:1 ratio, the 48% adoption, the +300% hiring growth all point one direction: the market discovered that a small leveraged function multiplies everything else. If your metrics are accurate and your sellers hit number, RevOps is working invisibly. If they aren't, the highest-leverage fix is usually the ops layer — not more reps.
 

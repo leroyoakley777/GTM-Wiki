@@ -12,7 +12,7 @@ The single most important fact: **discounting is a pipeline-quality tax, not a n
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Discounting lowers LTV by ~32% (Paddle).** Heavy-discount customers show higher price sensitivity and higher churn than full-price customers. And the damage is not theoretical: Cacheflow's analysis of 10,000 SaaS proposals found that discounts >40% produce smaller deals and slower closes. A discount conceded to close a deal does not just cost you margin now — it caps the lifetime value of the customer you just "won."
 
@@ -34,7 +34,7 @@ The single most important fact: **discounting is a pipeline-quality tax, not a n
 
 ---
 
-## The Insight That Matters: Discounting Is a GTM Multiplier in Reverse
+## Insight That Matters: Discounting Is a GTM Multiplier in Reverse
 
 - **Discounts >40% produce smaller deals and slower closes** (Cacheflow, 10,000 SaaS proposals analyzed). Discounting is not neutral — it is a pipeline-quality tax.
 - **Discounting lowers LTV by ~32%** (Paddle). Heavy-discount customers show higher price sensitivity and higher churn than full-price customers.
@@ -74,7 +74,7 @@ A pricing model with no natural expansion motion is a ceiling on the most effici
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 The strongest pricing models are boring: clear packaging around buyer groups, disciplined discounting that rewards behavior, and a built-in expansion path. The 33% of B2B SaaS on value-based pricing are not all doing it right — but the ones who are tie their metric and packaging to how customers derive value. Discount discipline, not price level, is the differentiator. A company with a 5–20% discount band and a strong expansion motion will beat one with a lower price and no discount discipline every time.
 

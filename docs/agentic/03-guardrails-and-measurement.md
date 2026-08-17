@@ -38,7 +38,7 @@ governance layer or do not hand the agent authority.
 
 ---
 
-## The Governance Gap
+## Governance Gap
 
 The governance gap is real and measurable. Only one in five companies
 has a mature governance model for autonomous agents, and a large share
@@ -223,7 +223,7 @@ anywhere (liability). Tiering is the answer.
 
 ---
 
-## The metrics that keep you honest
+## Metrics that keep you honest
 
 The funnel metrics from [Outbound from Zero](../playbooks/outbound-from-zero)
 remain the scoreboard. Add the harness-health metrics from [02 — Agentic
@@ -324,7 +324,7 @@ The harness is a tool, not a strategy. Turn it off (or down) when:
 
 ---
 
-## The operating rhythm
+## Operating rhythm
 
 Weekly, 30 minutes:
 

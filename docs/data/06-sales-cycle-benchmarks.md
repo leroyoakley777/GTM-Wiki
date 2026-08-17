@@ -12,7 +12,7 @@ The median B2B SaaS cycle is **84 days** — but that number is close to meaning
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Buying committees grew ~26% since 2020 — from 5.4 to 6.8 stakeholders (and 11–17 for enterprise).**
 
@@ -38,7 +38,7 @@ Every added reviewer adds review cycles, and every cycle adds days. Committee si
 
 ---
 
-## The Insight That Matters: The Committee and the Stage, Not the Calendar
+## Insight That Matters: The Committee and the Stage, Not the Calendar
 
 - **Cycle scales with deal size — plan per segment, never on one average.** An SMB deal closes in 2–4 weeks; an enterprise deal runs a quarter or more. Blending a 21-day SMB deal with a 280-day enterprise deal into one "84-day average" describes neither. If a mid-market deal runs 180 days, that is a process problem, not a sales problem.
 - **Buying committees grew ~26% since 2020** — from 5.4 to 6.8 stakeholders, and 11–17 for enterprise. Every added reviewer adds review cycles, and every cycle adds days. Committee size is now a stronger predictor of cycle length than price alone.
@@ -57,7 +57,7 @@ Every added reviewer adds review cycles, and every cycle adds days. Committee si
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Deals do not get longer because sales is slower — they get longer because buyers are more complex. Committees grew 26% since 2020, security and procurement gate the back half of every substantial deal, and cycle length tracks that complexity, not the calendar. The teams that forecast well do not chase a single average; they segment by deal size, budget the back half, and use expansion deals as the fast, high-win-rate counterweight to a stretching new-logo cycle.
 

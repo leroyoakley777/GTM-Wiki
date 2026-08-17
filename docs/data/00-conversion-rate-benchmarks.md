@@ -11,7 +11,7 @@ This page pairs with the [GTM Metrics](../foundations/05-gtm-metrics.md) foundat
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **MQL → SQL (13%) is the biggest, most consistent bottleneck across B2B SaaS.**
 
@@ -88,7 +88,7 @@ Qualified leads convert at ~40% vs ~11% unqualified (Landbase). The gap is why M
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Median B2B SaaS is leaky by design. Most companies build top-of-funnel volume and under-invest in qualification, routing, and speed — so the value bleeds out at MQL → SQL. The companies that win are the ones who treat conversion as a production-line problem: measure every transition, find the bottleneck, fix it, compound.
 

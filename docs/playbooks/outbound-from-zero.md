@@ -64,7 +64,7 @@ you stop here. No ICP, no outbound.
 A 500-row list that matches the ICP beats a 50,000-row spray every time.
 The list is the asset, not the copy.
 
-### The four layers of enrichment
+### Four layers of enrichment
 
 1. **Start with the ICP from the strategy framework**, not a job title.
    The row is a *company with a problem*, not a persona. If you don't
@@ -82,7 +82,7 @@ The list is the asset, not the copy.
    personal research and custom copy. The other 80% get templated value
    with a signal-specific line.
 
-### The row template (worksheet)
+### Row template (worksheet)
 
 Every row in your sheet carries exactly these fields. This is the
 acceptance gate made concrete:
@@ -154,7 +154,7 @@ The one-line rule: **SPF + DKIM authenticate, DMARC tells receivers
 what to do when authentication fails.** All three must pass before the
 first send.
 
-### The warmup ramp
+### Warmup ramp
 
 Never start a fresh domain at full volume. A representative ramp:
 
@@ -186,7 +186,7 @@ Keep each email in the **50–125 word** range — that length earns roughly
 ([Mailforge/Instantly, via Martal](https://martal.ca/b2b-cold-email-statistics-lb/),
 2026). One ask per email, value first, written like a human.
 
-### The actual email copy (paste this, then make it yours)
+### Actual email copy (paste this, then make it yours)
 
 **Email 1 — the reason-to-reach + one specific observation (no pitch).**
 
@@ -259,7 +259,7 @@ Best,
 {Your first name}
 ```
 
-### The day-by-day sequence table
+### Day-by-day sequence table
 
 | Day | Touch | Channel | Content | Ask |
 |---|---|---|---|---|
@@ -306,7 +306,7 @@ Rates](../data/outbound-response-rates) — and note the caveat that
 sources define "reply" differently and sample mix swings numbers more
 than any tactic.
 
-### The throughput math (with a named base)
+### Throughput math (with a named base)
 
 Here is the arithmetic that turns "a numbers game" into a plan. Start
 with a **500-row, ICP-matched list** and use the mid-range benchmarks:
@@ -431,7 +431,7 @@ proven.
 
 ---
 
-## The agentic layer (the moat)
+## Agentic layer (the moat)
 
 Outbound is where agentic GTM has the most proven leverage, because the
 bottleneck has never been sending — it is the **thinking per row**. The
@@ -445,7 +445,7 @@ vendor source).
 Signal-driven personalization lifts reply rates to **15–25%** vs the
 3–5% single-channel baseline ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
 
-### The agentic SOP (reusable)
+### Agentic SOP (reusable)
 
 The rule that never changes: **the gate stays, the execution layer
 changes.** Humans keep judgment and approval; agents remove the

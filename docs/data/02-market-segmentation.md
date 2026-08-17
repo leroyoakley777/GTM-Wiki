@@ -12,7 +12,7 @@ The single most important fact: **only ~5% of your market is actively buying at 
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **~5% of your market is in-market at any moment.** Hey Sid's 2026 framing of the 95-5 rule. Behavioral and intent signals — not firmographics — find the 5%. A firmographic target list tells you who *could* buy. Intent data tells you who is *ready to buy now.* Most teams over-invest in the first and under-invest in the second.
 
@@ -32,7 +32,7 @@ The single most important fact: **only ~5% of your market is actively buying at 
 
 ---
 
-## The Four Layers (Firmographics Is Only the Boundary)
+## Four Layers (Firmographics Is Only the Boundary)
 
 Most teams stop at firmographics. That is a target list, not a strategy. The four layers, in order of how static they are:
 
@@ -99,7 +99,7 @@ Realistic early-growth SOM: **5–15% of SAM** (HG Insights). **Bottom-up sizing
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Segmentation is not a marketing exercise — it is the precondition for every other GTM discipline. You cannot position, message, price, or route outbound without knowing who the 5% are and what mindset they hold. The teams that win are the ones who treat segmentation as a *live instrument* — refreshed constantly, fed by behavior and intent, and specific enough to exclude as much as it includes.
 

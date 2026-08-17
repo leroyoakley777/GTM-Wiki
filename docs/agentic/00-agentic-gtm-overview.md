@@ -102,7 +102,7 @@ architects. People stop running the machine and start designing it.
 
 ---
 
-## The shift: from tools in a workflow to agents as operators
+## Shift: from tools in a workflow to agents as operators
 
 | Dimension | Traditional GTM | Agentic GTM |
 |---|---|---|

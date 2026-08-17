@@ -10,7 +10,7 @@ This is an evolution of the classic *Traction* Bullseye framework, updated for 2
 
 ---
 
-## The Three Rings
+## Three Rings
 
 ### 1. Outer Ring: Brainstorm (Diverge)
 Generate **at least one concrete idea** for every major channel category below. Do not judge feasibility yet.

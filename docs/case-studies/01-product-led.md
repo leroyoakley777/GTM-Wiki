@@ -10,7 +10,7 @@ Product-led growth is the channel where the product is the salesperson: a free t
 
 ---
 
-## The Cases
+## Cases
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
@@ -31,7 +31,7 @@ Product-led growth is the channel where the product is the salesperson: a free t
 
 ---
 
-## The Pattern
+## Pattern
 
 **The product's *output* is the marketing channel.** Slack's message history, Calendly's booking link, Figma's file — in each case, the thing users create and share is what sells the next user. That is the load-bearing idea: if your product produces something shared externally, you have a built-in distribution channel. The question is whether you're engineering it deliberately.
 
@@ -39,13 +39,13 @@ The free tier does two jobs at once: it lowers the barrier to the aha moment, an
 
 ---
 
-## The Transferable Takeaway
+## Transferable Takeaway
 
 **Track activation and sharing velocity, not just signups.** A PLG motion lives or dies on whether users reach the aha moment quickly and whether the product's output gets shared. Signups measure reach; activation and share rate measure whether the loop is actually spinning.
 
 ---
 
-## The Honest Caveat
+## Honest Caveat
 
 These are **vendor- and agency-sourced outcomes** (ideaplan.io, saasoperations.com, developmentcorporate.com — PLG blogs summarizing the cases). The numbers are self-reported and skewed to the impressive. More importantly, Slack, Calendly, and Figma had category-defining products and category-defining timing. The *mechanism* transfers — free tier → shared output → organic spread — but the exact multiples are company-specific.
 

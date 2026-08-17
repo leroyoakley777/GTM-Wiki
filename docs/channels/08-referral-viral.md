@@ -12,7 +12,7 @@ This page is the *where* of referral and viral growth — when the loop is real,
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **The viral coefficient — the number of new customers each existing customer brings in. A healthy loop sustains a coefficient above 1.0; below that, the channel needs fuel from elsewhere.** A coefficient of 1.0 means every customer brings one more, and the loop is self-sustaining. Below 1.0, referrals still add pipeline, but they are a bonus, not an engine. Above 1.0, growth compounds on its own.
 
@@ -32,7 +32,7 @@ If none of those are true, a referral program is a rebate disguised as a growth 
 
 ---
 
-## The Referral Loop — Benchmarks That Diagnose
+## Referral Loop — Benchmarks That Diagnose
 
 Each stage answers a different question. A weak stage breaks the loop, not just the metric.
 
@@ -48,7 +48,7 @@ The loop is only as strong as its weakest stage. A product with a 20% share rate
 
 ---
 
-## The Two Kinds of Loop
+## Two Kinds of Loop
 
 **1. In-product viral loops.** The product itself creates the share — a collaboration invite, a shared dashboard, a team onboarding. This is the strongest form because the share happens as a natural part of use, not as an ask. It works when the product's core value *requires* more than one person.
 
@@ -77,7 +77,7 @@ Most failed referral motions are a category error: they bolt an incentive onto a
 
 ---
 
-## The Pattern Behind Referral & Viral
+## Pattern Behind Referral & Viral
 
 Referral and viral growth is the one channel where the customer does the work — which is exactly why it is the cheapest and why it is so often faked. It compounds only when three things are true at once: the product is genuinely worth sharing, sharing is natural and honest, and the loop is measured cohort-by-cohort rather than by aggregate counts. Get those three right and the channel funds itself.
 

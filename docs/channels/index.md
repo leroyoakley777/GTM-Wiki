@@ -10,7 +10,7 @@ The **channels** section covers how to find, evaluate, and execute on your singl
 
 Every page follows the same rule: **it is a decision, not a default.** Each channel wins under specific conditions (tight ICP, research-driven buyers, self-evident product value, high ACV). Read the bullseye first, then the channel that fits your situation.
 
-## The Framework
+## Framework
 
 - [Channels Bullseye](../foundations/gtm-channels-bullseye) — how to find your one best channel. Start here.
 

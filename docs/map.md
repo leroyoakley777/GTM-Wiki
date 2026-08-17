@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-title: The Map
+title: Map
 ---
 
-# The Map — one image, the whole wiki
+# Map — one image, the whole wiki
 
 **Frameworks don't change. Execution does.** Here's the entire wiki as a
 single tree — every section, how it connects, and where the depth actually

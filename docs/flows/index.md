@@ -22,7 +22,7 @@ The operator's decision sequence, drawn from [Agent vs Human Workflows](../agent
 
 The one rule that governs every flow in this section: **augment, don't replace.** The data is unambiguous — hybrid human-in-the-loop teams produce 2.8x more pipeline than full-autonomous attempts. The harness removes the thinking bottleneck *between* gates; humans keep judgment on the send.
 
-## The Flows
+## Flows
 
 - [Outbound: from list to pipeline](./outbound) — the executable version of [outbound-from-zero](../playbooks/outbound-from-zero). Decision gate → list → channel/tooling → sequence → run/measure → handoff, with an ASCII decision tree for the branches an operator actually hits.
 - [Agentic Outbound: the harness](./agentic-outbound) — the same motion under an agent harness. The layer stack (data/compose/orchestration/triage), the augment-don't-replace rule, the triage decision tree, and the autonomy-placement table.

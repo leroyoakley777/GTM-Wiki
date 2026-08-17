@@ -10,7 +10,7 @@ This wiki is not a collection of GTM tactics. It is a system. And the system is 
 
 Read this page first. It is the nucleus. Every other page in this wiki — foundations, channels, playbooks, agentic GTM — hangs off the structure it establishes here.
 
-## The Efficiency Problem
+## Efficiency Problem
 
 The 2022 SaaS crash was not a demand problem. It was a **go-to-market efficiency problem**.
 
@@ -27,7 +27,7 @@ Companies with high GTM inefficiency show higher revenue volatility. Most compan
 
 The old model is broken. The fix is not "do the same GTM cheaper." It is a different way of running the business.
 
-## The Core Metaphor: The Revenue Factory
+## Core Metaphor: The Revenue Factory
 
 A recurring-revenue business is not a collection of departments. It is a **factory**.
 
@@ -55,7 +55,7 @@ The rules:
 - Add a new product to justify breaking $100M — not just another motion.
 - **Interoperability matters.** Running multiple motions without a unified operating model kills efficiency. The motions must share one system.
 
-## The Growth Formula
+## Growth Formula
 
 Every production line has a **Growth Formula**: a sequence of Volume Metrics (VM) and Conversion Rates (CR) that spans the entire customer lifecycle — from acquisition through onboarding, retention, and expansion.
 

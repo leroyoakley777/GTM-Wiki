@@ -47,7 +47,7 @@ The structural reasons:
 
 **Cross-functional alignment.** Sales, marketing, product, and leadership all look at the same ICP document and agree on who matters. That alignment eliminates the most common silent killer of B2B launches: each function writing its own version of the customer.
 
-## The Four ICP Layers
+## Four ICP Layers
 
 A modern ICP has four layers, built in sequence. Each layer narrows the field and increases specificity.
 

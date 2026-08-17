@@ -41,7 +41,7 @@ the replies.
 
 ---
 
-## The Volume Ceiling
+## Volume Ceiling
 
 Manual outbound caps out on volume. One good SDR books a fixed number of
 meetings per month. You can hire more reps, but headcount scales cost
@@ -73,7 +73,7 @@ is leverage. Leverage works both directions.
 
 ## Framework
 
-### The five layers, in depth
+### Five layers, in depth
 
 **Layer 1 — Data.** This is the raw material. You source firms, build
 out your ICP, then enrich: firmographics, tech stack, intent signals,
@@ -156,7 +156,7 @@ rate, meetings per 1,000) must improve or hold. If automation does not
 make the numbers better, it is just cheaper noise. Do not move up a
 layer on a broken baseline.
 
-### The hybrid is the ceiling
+### Hybrid is the ceiling
 
 Do not chase full autonomy. The data says hybrid wins. Smartlead's
 analysis puts hybrid human-plus-AI setups at **8–15% reply rates versus

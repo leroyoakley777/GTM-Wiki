@@ -1,9 +1,9 @@
 ---
 sidebar_position: 7
-title: The GTM Funnel
+title: GTM Funnel
 ---
 
-# The GTM Funnel
+# GTM Funnel
 
 **Goal**: Map every GTM activity to a stage in the customer journey so you can see what is working, what is not, and where to invest.
 
@@ -39,7 +39,7 @@ A funnel gives you the vocabulary to fix that.
 
 ---
 
-## The Modern GTM Funnel: Stages
+## Modern GTM Funnel: Stages
 
 The classic model is TOFU / MOFU / BOFU. It dates back to the AIDA model (Awareness, Interest, Desire, Action) from 1898. The labels are still useful, but the underlying assumption is dead: buyers do not move linearly from one stage to the next. Modern buyers jump between stages. A single research session might include an AI-generated answer, a YouTube review, and a Slack community discussion. By the time they talk to sales, they already have a shortlist.
 

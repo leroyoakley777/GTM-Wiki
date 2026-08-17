@@ -12,7 +12,7 @@ This page is the foundation for [Conversion Rate Benchmarks](../data/conversion-
 
 ---
 
-## The Two Sales
+## Two Sales
 
 SaaS and subscription businesses are fundamentally different from traditional software companies. Revenue comes in installments over the life of the customer, not in a single transaction. That creates two distinct sales you have to make:
 
@@ -33,7 +33,7 @@ Metrics organize around these three pillars plus two more that reflect the full 
 
 ---
 
-## The Five Pillar framework
+## Five Pillar framework
 
 The Five Pillar framework organizes every metrics decision into five categories. Not every pillar matters at every stage — early-stage companies focus on acquisition and retention. Mature companies need all five.
 

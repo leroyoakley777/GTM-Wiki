@@ -12,7 +12,7 @@ This page is the *where* of paid: when it is the right call and how to judge whe
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **Payback period on CAC — the number of months of gross margin it takes a new customer to repay what you spent to acquire them.** A healthy paid channel pays back in under 12 months; great ones in under 6. That single number — more than CTR, CPM, or cost-per-lead — is what tells you whether paid is a business or a donation.
 
@@ -32,7 +32,7 @@ If none of those are true, paid is the fastest way to lose money in GTM. It is t
 
 ---
 
-## The Paid Funnel — Benchmarks That Diagnose
+## Paid Funnel — Benchmarks That Diagnose
 
 Each stage is where money is spent, so every one of them is a leak.
 
@@ -48,7 +48,7 @@ The fatal trap is optimizing the top of the funnel — CTR and landing conversio
 
 ---
 
-## The Two Ways Paid Dies
+## Two Ways Paid Dies
 
 **1. Unprofitable unit economics that you ignore.** The dashboard shows signups climbing; the P&L shows cash draining. If CAC payback exceeds your target, you are not acquiring customers, you are renting them.
 

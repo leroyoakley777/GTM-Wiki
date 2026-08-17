@@ -10,7 +10,7 @@ ABM is the channel for a small number of high-value accounts — the ones where 
 
 ---
 
-## The Cases
+## Cases
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
@@ -37,7 +37,7 @@ ABM is the channel for a small number of high-value accounts — the ones where 
 
 ---
 
-## The Pattern
+## Pattern
 
 **A harpoon beats a net.** Every case here targets a *bounded* account list and invests disproportionate effort per account. BillingTree used 100 accounts; Snowflake used an AI model to find the accounts most likely to book; Invoca aimed at priority accounts before an event. The recurring success factor is cross-team alignment — sales, marketing, field, and SDR on one message aimed at one short list.
 
@@ -45,13 +45,13 @@ The numbers prove the concentration logic: 38% *less* spend (Snowflake) or 100 a
 
 ---
 
-## The Transferable Takeaway
+## Transferable Takeaway
 
 **Pick the accounts where the win matters most, invest per-account, align sales and marketing on one message, and measure pipeline from target accounts — not raw volume.** ABM is a structural commitment to fewer, deeper, higher-value relationships. If you cannot name the 50 or 200 accounts that would change the quarter, this is demand gen with ABM flavor, not ABM.
 
 ---
 
-## The Honest Caveat
+## Honest Caveat
 
 These are **vendor- and agency-sourced outcomes** (CXL's case library, via UviaUs, PFL, and Fullfunnel), self-reported and skewed to the impressive — *except* Snowflake's AI-ABM numbers, which are primary (Snowflake's own blog, Apr 2025). Where both exist, the primary wins. Treat the multiples as proof of what's achievable with intent, not a contract. Snowflake's win-rate story in particular is a category-defining product at a category-defining moment.
 

@@ -5,7 +5,7 @@ title: Agent vs Human Workflows
 
 # 06 — Agent vs Human Workflows
 
-## The question that decides your whole stack
+## Question that decides your whole stack
 
 The agentic GTM question is never "do we use AI?" It is "what do we let the
 agent do on its own, and what stays in front of a human?"
@@ -21,7 +21,7 @@ low enough blast radius to hand over, and which decisions carry consequences a
 machine should not own alone.* The framework below turns that judgment into a
 repeatable decision.
 
-## The Autonomy Ladder — where each workflow sits
+## Autonomy Ladder — where each workflow sits
 
 RevOps leaders decide what to automate by placing every workflow on a
 four-stage autonomy ladder. Each stage has a clear go/no-go: an AI role, a
@@ -66,7 +66,7 @@ actions that trigger downstream commitments — a renewal trigger, a pricing
 approval, an external send — often are not. When you cannot undo it fast, keep
 a human in the loop.
 
-## The rule that follows
+## Rule that follows
 
 A GTM workflow is safe to automate when it is **high-volume, rule-based,
 reversible, and does not trigger a customer-facing financial commitment
@@ -97,7 +97,7 @@ them carries a specific guardrail.
 The pattern: the autonomous tier is the boring, high-volume, low-stakes work.
 The human tier is where a financial or reputational consequence attaches.
 
-## The three human-in-the-loop controls
+## Three human-in-the-loop controls
 
 Human-in-the-loop is not a compromise and not a fallback for bad AI. It is a
 deliberate risk-control design: a structured approval or review step inserted
@@ -176,7 +176,7 @@ replacing one. (See the discussion in [01 — The Agentic Stack](./agentic-stack
 on why most working stacks use a mix of autonomous agents, assistants, and
 prospecting tools — none of which, on its own, is the stack.)
 
-## The operator's decision sequence
+## Operator's decision sequence
 
 When you meet a new GTM workflow and want to know what to do with it:
 

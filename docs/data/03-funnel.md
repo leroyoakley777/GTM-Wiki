@@ -12,7 +12,7 @@ The companion [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks) p
 
 ---
 
-## The One Number That Matters Most
+## One Number That Matters Most
 
 **MQL → SQL (~13–15%) is the biggest, most consistent leak in B2B SaaS — and the single most important conversion gate.**
 
@@ -20,7 +20,7 @@ It is where marketing's leads either become real pipeline or quietly die. Improv
 
 ---
 
-## The Funnel, Stage by Stage
+## Funnel, Stage by Stage
 
 ### SalesHive 2026
 
@@ -50,7 +50,7 @@ Source: MarketJoy B2B Sales Pipeline Conversion Rates (2024–25).
 
 ---
 
-## The Insight That Matters: Leakage Multiplies
+## Insight That Matters: Leakage Multiplies
 
 Funnel math is multiplicative. A small leak at one stage compounds through every stage below it. SalesHive's framing: **it typically takes ~100 marketing leads to produce ~10 opportunities and ~2 deals** (10% lead-to-opp × 20% win rate). Kissmetrics' midpoint model shows ~80% drops at consecutive stages.
 
@@ -80,7 +80,7 @@ Three implications:
 
 ---
 
-## The Pattern Behind the Numbers
+## Pattern Behind the Numbers
 
 Median B2B funnels are not leaky at the bottom — they are leaky at the qualification gate. Teams pour volume into the top, under-invest in the scoring, routing, and speed that decide whether a lead becomes pipeline, and then wonder why pipeline is thin. The companies that win treat the funnel as a production line: measure every transition, find the biggest absolute drop, fix it, compound. Fix MQL→SQL first.
 
