@@ -46,6 +46,16 @@ docs/
 - Cross-reference between pages with relative links
 - First-principles approach, not tactic copy-paste
 
+## Known Build Traps (both have broken builds before)
+- **NN-prefix / slug stripping.** Docusaurus strips the leading `NN-` from a
+  filename when generating the URL. File is `01-outbound.md`, but the URL and
+  every cross-link is `/docs/flows/outbound` — never `…/flows/01-outbound.md`.
+  Cross-link with the unprefixed slug.
+- **Bare `<digit` is parsed as MDX JSX.** Writing `under 15 min` as `<15 min`, or
+  `<5%`, in a Docusaurus page fails the build — MDX reads it as a JSX tag. Escape
+  it: `&lt;15 min`, `&lt;5%`, or rephrase "under 15 min". Same trap bites any
+  `<digit` phrasing.
+
 ## Priority
 - Connect git remote + GitHub repo
 - Deploy to Vercel
