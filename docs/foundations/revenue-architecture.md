@@ -12,7 +12,7 @@ Read this page first. It is the nucleus. Every other page in this wiki — found
 
 ## Efficiency Problem
 
-The 2022 SaaS crash was not a demand problem. It was a **go-to-market efficiency problem**.
+The 2022 SaaS crash came from go-to-market inefficiency, not weak demand.
 
 For a decade, growth-at-all-costs was the default. Companies bought top-of-funnel volume, spent more than they recovered, and called the difference "growth." The market tolerated it while capital was cheap. When capital tightened, the model collapsed.
 
@@ -47,7 +47,7 @@ There are five motions, ranked by human touch:
 4. **High Touch** — field sales, direct reps
 5. **Dedicated Touch** — strategic / enterprise accounts, named teams
 
-The motion you choose must align to **customer lifetime value (LTV)**, not first-year annual contract value (ACV). A $40,000 ACV deal with $411,000 of three-year value needs high touch. A $5,000 self-serve product does not. Match the motion to the multi-year economics, or you either underserve your best customers or overspend on your worst.
+The motion you choose must align to **customer lifetime value (LTV)**, not first-year annual contract value (ACV). A $40,000 ACV deal with $411,000 of three-year value needs high touch. A $5,000 self-serve product does not. Match the motion to multi-year economics, or you either underserve your best customers or overspend on your worst.
 
 The rules:
 
