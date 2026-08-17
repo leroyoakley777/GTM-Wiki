@@ -2,6 +2,8 @@
 title: What Is Go-to-Market (GTM)?
 sidebar_position: 1
 description: The definition, scope, and core components of a go-to-market strategy. The foundation everything else in this wiki builds on.
+status: active
+tags: [gtm, foundations, strategy]
 ---
 
 # What Is Go-to-Market (GTM)?

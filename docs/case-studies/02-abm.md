@@ -2,6 +2,8 @@
 sidebar_position: 3
 title: "ABM: Case Studies"
 description: "Snowflake, SAP Concur, BillingTree, Invoca, Schneider, iRidium, and DocuSign: the documented ABM wins with named, dated, vendor-flagged numbers, the three tiers, the worked pipeline math, and the agentic SOP."
+status: active
+tags: [abm, case-studies, channels]
 ---
 
 # ABM: Case Studies
