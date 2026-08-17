@@ -30,7 +30,12 @@ const sidebars = {
       label: 'Channels',
       collapsed: false,
       link: { type: 'doc', id: 'channels/index' },
-      items: [],
+      items: [
+        'channels/outbound',
+        'channels/inbound',
+        'channels/product-led',
+        'channels/abm',
+      ],
     },
     {
       type: 'category',
