@@ -48,7 +48,8 @@ paying to speed up a mistake.
 
 **The ACV floor, quickly:** a single SDR runs you roughly
 **$139,120/year fully loaded** ([AiSDR cost
-analysis](https://aisdr.com/blog/sdr-vs-ai-cost/), 2026). If a meeting
+analysis](https://aisdr.com/blog/sdr-vs-ai-cost/), 2026 — vendor
+source). If a meeting
 is worth a few hundred dollars and the average deal is under ~$5k ACV,
 you cannot pay for the human effort. Above ~$5k ACV the math starts to
 work; below it, the economics tighten fast.
@@ -324,12 +325,15 @@ asset* and why you build a repeatable list-generation loop, not a
 one-time export.
 
 **Budget math (named base):** a human SDR costs ~**$139,120/year fully
-loaded** ([AiSDR](https://aisdr.com/blog/sdr-vs-ai-cost/), 2026), while
+loaded** ([AiSDR](https://aisdr.com/blog/sdr-vs-ai-cost/), 2026 —
+vendor source), while
 an AI-augmented SDR platform runs **$12K–$60K/year** and one
 AI-augmented rep can handle **1,000+ contacts/day vs 50–80 manual**
-([SuperAGI](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/)). The
+([SuperAGI](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/), 2026 — vendor
+source). The
 cost-per-lead drops from **$262 to $39** (an 85% reduction)
-([MarketsandMarkets](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins)). The
+([MarketsandMarkets](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins), 2026 — vendor
+source). The
 point is not "buy AI instead of people" — it's that the economics of the
 motion scale with *leveraged* execution, not raw volume.
 
@@ -436,7 +440,8 @@ Outbound](../agentic/agentic-outbound), but here is the reusable shape.
 
 The win, with numbers: AI-augmented teams see **2.8x more pipeline** than
 teams attempting full replacement of their SDRs
-([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026).
+([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026 —
+vendor source).
 Signal-driven personalization lifts reply rates to **15–25%** vs the
 3–5% single-channel baseline ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
 
@@ -478,7 +483,8 @@ Measurement](../agentic/guardrails-and-measurement)):
 
 **Track meetings and pipeline, not emails sent.** Sends are vanity;
 meetings are revenue
-([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026).
+([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026 —
+vendor source).
 
 ---
 
@@ -500,10 +506,10 @@ meetings are revenue
 - [Instantly — 2025 Guide to AI Outbound Sales](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/) — signal-based reply rates, domain warmup, sending caps, time-to-first-response.
 - [SalesHive — B2B Cold Email Benchmarks (2025)](https://saleshive.com/) — blended (5.8%) and SaaS (3–8%) reply rates, positive-reply share.
 - [Martal — B2B Cold Email Statistics (2026)](https://martal.ca/b2b-cold-email-statistics-lb/) — cold-email → deal conversion (~0.2%), personalization lift, message-length sweet spot.
-- [AiSDR — SDR vs AI Cost Analysis](https://aisdr.com/blog/sdr-vs-ai-cost/) — fully-loaded SDR cost ($139K) vs AI platform cost.
-- [Autobound — AI SDR Tools Buyer's Guide (2026)](https://www.autobound.ai/blog/ai-sdr-tools-guide) — hybrid vs autonomous pipeline (2.8x), tool churn.
-- [SuperAGI — AI vs Traditional SDRs](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/) — contacts/day and cost-per-lead.
-- [MarketsandMarkets — AI SDRs vs Traditional SDRs](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins) — cost-per-lead drop ($262 → $39).
+- [AiSDR — SDR vs AI Cost Analysis](https://aisdr.com/blog/sdr-vs-ai-cost/) — fully-loaded SDR cost ($139K) vs AI platform cost. *(vendor source)*
+- [Autobound — AI SDR Tools Buyer's Guide (2026)](https://www.autobound.ai/blog/ai-sdr-tools-guide) — hybrid vs autonomous pipeline (2.8x), tool churn. *(vendor source)*
+- [SuperAGI — AI vs Traditional SDRs](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/) — contacts/day and cost-per-lead. *(vendor source)*
+- [MarketsandMarkets — AI SDRs vs Traditional SDRs](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins) — cost-per-lead drop ($262 → $39). *(vendor source)*
 - [SalesGenie — Cold Call Connect Rates (2026)](https://www.salesgenie.com/) — phone connect rates (2–3%; top SDRs 5–8%).
 - [OptifAI](https://optifai.com/) — cold/warm/existing open-rate baselines (16.5% / 27.5% / 37.5%).
 
