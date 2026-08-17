@@ -29,6 +29,13 @@ const STRICT = process.argv.includes('--strict');
 // Per-page-type required slots. Each entry: { name, check(content)->bool }.
 // These are the machine-checkable proxies for the depth artifacts. The
 // directory name maps to a canonical page type.
+//
+// Navigation/landing pages (intro, map, contributing) are routing surfaces,
+// not content pages: their job is to point, not to teach. Grading them against
+// content-depth slots (>=4 H2, artifacts, source refs, failure modes) is
+// grading the wrong axis. They must carry the frontmatter contract but are
+// exempt from content-depth slots.
+const NAV_SET = new Set(['docs/intro.md', 'docs/map.md', 'docs/contributing.md']);
 const SLOT_DEFS = {
   // Every page, every type.
   _common: [
@@ -93,6 +100,14 @@ const SLOT_DEFS = {
   tools: [],
 };
 
+// Navigation/landing pages must carry the frontmatter contract only. They
+// point, they do not teach.
+const NAV_SLOTS = [
+  { name: 'frontmatter:title', check: (c) => /^title:/m.test(c) },
+  { name: 'frontmatter:description', check: (c) => /^description:/m.test(c) },
+  { name: 'frontmatter:sidebar_position', check: (c) => /^sidebar_position:/m.test(c) },
+];
+
 function pageType(file) {
   const rel = normalize(file).replace(/\\/g, '/');
   const seg = rel.split('/');
@@ -141,7 +156,9 @@ for (const file of files) {
     continue;
   }
   const type = pageType(file);
-  const slots = [...SLOT_DEFS._common, ...(SLOT_DEFS[type] || [])];
+  const relNorm = normalize(file).replace(/\\/g, '/').replace(/^.*?\/docs\//, 'docs/');
+  const isNav = NAV_SET.has(relNorm.replace(/^\.\//, ''));
+  const slots = isNav ? NAV_SLOTS : [...SLOT_DEFS._common, ...(SLOT_DEFS[type] || [])];
   const misses = [];
   for (const s of slots) {
     if (!s.check(content)) misses.push(s.name);
