@@ -7,7 +7,7 @@ const sections = [
   {
     index: '01',
     title: 'Foundations',
-    desc: 'What stays true in 2015 and in 2035. Strategy, ICP, positioning, the funnel, metrics. The load-bearing ideas.',
+    desc: 'What stays true in 2015 and in 2035. Strategy, ICP, positioning, the funnel, metrics. Load-bearing ideas.',
     to: '/docs/foundations',
   },
   {
@@ -19,13 +19,13 @@ const sections = [
   {
     index: '03',
     title: 'Agentic GTM',
-    desc: 'How to run the same playbooks with agents, harnesses, and automation. Where the leverage is — and where the guardrails stay.',
+    desc: 'How to run the same playbooks with agents, harnesses, and automation. Where leverage is — and where guardrails stay.',
     to: '/docs/agentic',
   },
   {
     index: '04',
     title: 'Channels',
-    desc: 'The where. Outbound, inbound, product-led, partner, community, paid, events, referral.',
+    desc: 'Where. Outbound, inbound, product-led, partner, community, paid, events, referral.',
     to: '/docs/channels',
   },
   {
@@ -37,36 +37,36 @@ const sections = [
   {
     index: '06',
     title: 'Tools & Data',
-    desc: 'The GTM tools landscape and the benchmark data behind the decisions.',
+    desc: 'GTM tools landscape and benchmark data behind decisions.',
     to: '/docs/tools',
   },
   {
     index: '07',
     title: 'Case Studies',
-    desc: 'Before → after. Actual builds, the playbook applied, and the transferable lessons.',
+    desc: 'Before → after. Working builds, the playbook applied, and transferable lessons.',
     to: '/docs/case-studies',
   },
   {
     index: '08',
     title: 'Flows',
-    desc: 'The full end-to-end motions, runnable start to finish — artifacts at every step.',
+    desc: 'Full end-to-end motions, runnable start to finish — artifacts at every step.',
     to: '/docs/flows',
   },
 ];
 
 export default function Home() {
   return (
-    <Layout title="Open GTM Wiki" description="The best open-source Go-to-Market resource for founders, operators, and builders.">
+    <Layout title="Open GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders.">
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
           <div className="gtm-hero__label">REFERENCE — NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Every concept has a page. Every page ships the actual artifact —
-            copy, math, tooling, the agentic layer — not a summary of it.
+            Every concept has a page. Every page ships the artifact itself —
+            copy, math, tooling, agentic layer — not a summary of it.
             Every number is named and dated. From time to time a number goes
-            stale; when that happens we update the page and the new source is
+            stale. When that happens we update the page and the new source is
             named and dated too. Built for founders, operators, and the
             agents that run the motions.
           </p>
@@ -103,7 +103,7 @@ export default function Home() {
         {/* EXPLORE GRID */}
         <section className="gtm-explore">
           <div className="gtm-section-label">EXPLORE</div>
-          <h2>Six lanes. One map.</h2>
+          <h2>Browse all eight domains</h2>
           <div className="gtm-grid">
             {sections.map((s) => (
               <Link key={s.index} className="gtm-card" to={useBaseUrl(s.to)}>
