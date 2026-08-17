@@ -49,6 +49,28 @@ const REGISTERED = new Set([
   'Demandbase', 'Gartner', 'AiSDR', 'Mailforge',
 ]);
 
+// The registry file is the source of truth; the hardcoded set above is a
+// fallback so the checker still works on a fresh clone if the file is missing
+// (fail-open — never blocks a deploy). Every vetted name in the file's Source
+// column is added to the allowlist.
+if (existsSync(REGISTRY)) {
+  try {
+    const regText = readFileSync(REGISTRY, 'utf8');
+    for (const line of regText.split('\n')) {
+      // Markdown table row: | 1 | SalesHive | 2025 | claim | backing |
+      const m = line.match(/^\|\s*\d+\s*\|\s*([^|]+)\|/);
+      if (m) {
+        let name = m[1].trim();
+        name = name.split(/\s+\(via\s+/i)[0];   // drop " (via Source)" tail
+        name = name.replace(/^\d+[\s.]*\d*\s*/, '').trim();
+        if (name && name.length >= 3) REGISTERED.add(name);
+      }
+    }
+  } catch {
+    // registry unreadable -> keep hardcoded fallback only
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Walk + scan (mirrors lint.mjs / check-depth.mjs)
 // ---------------------------------------------------------------------------
