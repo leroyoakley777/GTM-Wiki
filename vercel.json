@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run lint && npm run build",
+  "framework": "docusaurus-2",
+  "outputDirectory": "build"
+}
