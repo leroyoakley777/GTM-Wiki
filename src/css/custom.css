@@ -1,32 +1,594 @@
 /**
- * Open GTM Wiki — theme overrides.
- * Infratech-meets-maritime: deep ink, seafoam accent, clean type.
+ * Open GTM Wiki — design theme.
+ * Face: Nous academic brutalism (editorial/document surface).
+ * Standard: ~/.hermes/DESIGN.md — the frozen token set.
+ * The wiki is a reference manual. It wears the SITE face: white,
+ * serif display headings (UPPERCASE + underlined), dashed dividers,
+ * mono metadata, single electric-blue accent. Flat, not boxed.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ============ NOUS TOKENS ============ */
 :root {
-  --ifm-color-primary: #1f6f6a;
-  --ifm-color-primary-dark: #1c645f;
-  --ifm-color-primary-darker: #1a5f5a;
-  --ifm-color-primary-darkest: #154e4a;
-  --ifm-color-primary-light: #227a74;
-  --ifm-color-primary-lighter: #247f79;
-  --ifm-color-primary-lightest: #2a938c;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+  /* surface + ink */
+  --nous-white: #ffffff;
+  --nous-paper: #fafaf9;
+  --nous-ink: #17171a;
+  --nous-slate: #4a4a52;
+  --nous-faint: #8a8a93;
+  /* accent — the ONLY color */
+  --nous-blue: #0053fd;
+  --nous-blue-bright: #3b82f6;
+  --nous-blue-soft: rgba(0, 83, 253, 0.06);
+  /* hairlines */
+  --nous-hairline-dark: rgba(0, 0, 0, 0.14);
+  --nous-hairline-faint: rgba(0, 0, 0, 0.07);
+  /* mono metadata */
+  --nous-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  /* serif display */
+  --nous-serif: Georgia, 'Times New Roman', 'Charter', 'Source Serif Pro', serif;
+
+  /* map onto Docusaurus variables */
+  --ifm-color-primary: var(--nous-blue);
+  --ifm-color-primary-dark: #0043d4;
+  --ifm-color-primary-darker: #0039b8;
+  --ifm-color-primary-darkest: #002e92;
+  --ifm-color-primary-light: #1f66fd;
+  --ifm-color-primary-lighter: #3877fd;
+  --ifm-color-primary-lightest: #6a9bfe;
+  --ifm-background-color: var(--nous-white);
+  --ifm-background-surface-color: var(--nous-paper);
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --ifm-font-family-monospace: var(--nous-mono);
+  --ifm-heading-font-family: var(--nous-serif);
+  --ifm-heading-color: var(--nous-ink);
+  --ifm-font-color-base: #232329;
+  --ifm-color-emphasis-300: var(--nous-hairline-dark);
+  --ifm-link-color: var(--nous-blue);
+  --ifm-link-hover-color: var(--nous-blue-bright);
+  --ifm-code-font-size: 90%;
+  --ifm-leading: 1.75;
+  --ifm-global-radius: 0;
+  --ifm-toc-border-color: var(--nous-hairline-faint);
+  --ifm-navbar-height: 64px;
+  --ifm-menu-color-active: var(--nous-blue);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 83, 253, 0.08);
 }
 
+/* ============ DARK MODE — designed, not inverted ============ */
 [data-theme='dark'] {
-  --ifm-color-primary: #6fd3cb;
-  --ifm-color-primary-dark: #55cbc2;
-  --ifm-color-primary-darker: #48c7bd;
-  --ifm-color-primary-darkest: #35a89f;
-  --ifm-color-primary-light: #89dbd4;
-  --ifm-color-primary-lighter: #96dfd9;
-  --ifm-color-primary-lightest: #bceae6;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --nous-white: #0d0d0e;
+  --nous-paper: #131315;
+  --nous-ink: #f2f2f3;
+  --nous-slate: #b0b0b8;
+  --nous-faint: #6d6d76;
+  --nous-hairline-dark: rgba(255, 255, 255, 0.16);
+  --nous-hairline-faint: rgba(255, 255, 255, 0.08);
+  --ifm-background-color: #0d0d0e;
+  --ifm-background-surface-color: #131315;
+  --ifm-heading-color: #f2f2f3;
+  --ifm-font-color-base: #e4e4e8;
+  --ifm-link-color: #3b82f6;
+  --ifm-link-hover-color: #6a9bfe;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.15);
 }
 
-.navbar__title { font-weight: 800; letter-spacing: 0.5px; }
-.markdown table { display: table; width: 100%; }
-.markdown h1 { letter-spacing: -0.5px; }
+/* ============ BODY / TYPE ============ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-feature-settings: 'kern' 1, 'liga' 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.01em;
+}
+
+/* Headings: serif display, UPPERCASE for sections, hairline underlines */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  font-family: var(--nous-serif);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--nous-ink);
+}
+
+.markdown h1 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--nous-hairline-dark);
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 0.25rem;
+}
+
+/* Section dividers: the dashed technical-manual rule */
+.markdown > h2::after {
+  content: '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -';
+  display: block;
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--nous-faint);
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
+}
+
+.markdown p {
+  line-height: 1.8;
+  color: var(--nous-slate);
+}
+
+.markdown strong {
+  color: var(--nous-ink);
+}
+
+/* ============ LINKS ============ */
+.markdown a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 83, 253, 0.35);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.markdown a:hover {
+  border-bottom-color: var(--nous-blue);
+  color: var(--nous-blue);
+}
+
+/* ============ NAVBAR ============ */
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--nous-hairline-dark);
+  background-color: var(--nous-white);
+}
+
+.navbar__brand {
+  font-family: var(--nous-serif);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar__title {
+  font-family: var(--nous-serif);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar__item {
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.navbar__link--active {
+  color: var(--nous-blue);
+}
+
+/* ============ SIDEBAR — flat, not a gray box ============ */
+.theme-doc-sidebar-container,
+.theme-doc-sidebar-container > div,
+.sidebarViewport,
+.sidebar {
+  border-right: 1px solid var(--nous-hairline-faint);
+  background-color: var(--nous-white) !important;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container,
+[data-theme='dark'] .theme-doc-sidebar-container > div,
+[data-theme='dark'] .sidebarViewport,
+[data-theme='dark'] .sidebar {
+  background-color: #0d0d0e !important;
+}
+
+.menu {
+  padding-top: 0.5rem;
+}
+
+.menu__list {
+  padding-left: 0;
+}
+
+.menu__link {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  border-radius: 0;
+  color: var(--nous-slate);
+}
+
+.menu__link:hover {
+  color: var(--nous-ink);
+  background: transparent;
+}
+
+.menu__link--active {
+  color: var(--nous-blue);
+  background: transparent;
+}
+
+/* ============ TABLES — designed, not default ============ */
+.markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+  box-shadow: none;
+  border: 1px solid var(--nous-hairline-dark);
+}
+
+.markdown thead {
+  background: var(--nous-paper);
+}
+
+.markdown th {
+  font-family: var(--nous-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--nous-ink);
+  border-bottom: 1px solid var(--nous-hairline-dark);
+  border-right: 1px solid var(--nous-hairline-faint);
+  padding: 0.7rem 1rem;
+}
+
+.markdown td {
+  border-right: 1px solid var(--nous-hairline-faint);
+  border-bottom: 1px solid var(--nous-hairline-faint);
+  padding: 0.7rem 1rem;
+  color: var(--nous-slate);
+}
+
+.markdown tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ============ CODE ============ */
+.markdown code {
+  font-family: var(--nous-mono);
+  background: var(--nous-blue-soft);
+  border: none;
+  color: var(--nous-blue);
+  font-weight: 500;
+}
+
+.theme-code-block {
+  border-radius: 0;
+  border: 1px solid var(--nous-hairline-dark);
+  box-shadow: none;
+}
+
+/* ============ BREADCRUMBS / META ============ */
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--nous-ink);
+}
+
+.theme-doc-markdown mark {
+  background: var(--nous-blue-soft);
+  color: var(--nous-blue);
+  padding: 0 0.25rem;
+}
+
+/* ============ FOOTER ============ */
+.footer {
+  border-top: 1px solid var(--nous-hairline-dark);
+  background-color: var(--nous-white);
+  color: var(--nous-slate);
+  font-size: 0.85rem;
+  padding: 2rem 0;
+}
+
+[data-theme='dark'] .footer {
+  background-color: #0d0d0e;
+}
+
+.footer__title {
+  font-family: var(--nous-serif);
+  font-weight: 700;
+  color: var(--nous-ink);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+.footer a {
+  color: var(--nous-slate);
+}
+
+.footer a:hover {
+  color: var(--nous-blue);
+}
+
+.footer__copyright {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--nous-hairline-faint);
+  color: var(--nous-faint);
+}
+
+/* ============ PAGINATION — flat text links, not boxed cards ============ */
+.pagination-nav {
+  border-top: 1px dashed var(--nous-hairline-dark);
+  padding-top: 1.5rem;
+}
+
+.pagination-nav__link {
+  border: none;
+  border-radius: 0;
+  padding: 0.25rem 0;
+  transition: color 0.15s ease;
+}
+
+.pagination-nav__link:hover {
+  border: none;
+}
+
+.pagination-nav__sublabel {
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--nous-faint);
+  margin-bottom: 0.25rem;
+}
+
+.pagination-nav__label {
+  font-family: var(--nous-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--nous-ink);
+}
+
+.pagination-nav__link:hover .pagination-nav__label {
+  color: var(--nous-blue);
+}
+
+/* ============ EDIT THIS PAGE — mono metadata ============ */
+.theme-edit-this-page,
+.theme-edit-this-page span,
+.theme-doc-footer-edit-meta-row a {
+  font-family: var(--nous-mono) !important;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--nous-faint);
+}
+
+.theme-edit-this-page:hover {
+  color: var(--nous-blue);
+}
+
+/* ============ CMD+K / SEARCH BUTTON ============ */
+.DocSearch-Button {
+  border: 1px solid var(--nous-hairline-dark);
+  border-radius: 0 !important;
+  background: var(--nous-paper);
+}
+
+/* ============ HERO (landing page) ============ */
+.gtm-hero {
+  padding: 6rem 0 4rem;
+  border-bottom: 1px solid var(--nous-hairline-dark);
+}
+
+.gtm-hero__label {
+  font-family: var(--nous-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--nous-blue);
+  margin-bottom: 1.5rem;
+}
+
+.gtm-hero h1 {
+  font-family: var(--nous-serif);
+  font-size: 3.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  color: var(--nous-ink);
+  max-width: 20ch;
+  margin-bottom: 1.5rem;
+  border: none;
+  padding: 0;
+}
+
+.gtm-hero__thesis {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--nous-slate);
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+.gtm-hero__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.gtm-hero__action {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-family: var(--nous-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  border: 1px solid var(--nous-blue);
+  transition: all 0.15s ease;
+}
+
+.gtm-hero__action--primary {
+  background: var(--nous-blue);
+  color: #fff;
+}
+
+.gtm-hero__action--primary:hover {
+  background: var(--nous-blue-bright);
+  color: #fff;
+  border-color: var(--nous-blue-bright);
+}
+
+.gtm-hero__action--ghost {
+  color: var(--nous-blue);
+}
+
+.gtm-hero__action--ghost:hover {
+  background: var(--nous-blue-soft);
+  color: var(--nous-blue);
+  text-decoration: none;
+}
+
+/* ============ STATS STRIP ============ */
+.gtm-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  border-bottom: 1px solid var(--nous-hairline-dark);
+}
+
+.gtm-stat {
+  padding: 2.5rem 2rem;
+  border-right: 1px solid var(--nous-hairline-faint);
+}
+
+.gtm-stat:last-child {
+  border-right: none;
+}
+
+.gtm-stat__number {
+  font-family: var(--nous-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--nous-ink);
+  letter-spacing: -0.02em;
+}
+
+.gtm-stat__label {
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--nous-faint);
+  margin-top: 0.5rem;
+}
+
+/* ============ EXPLORE GRID ============ */
+.gtm-explore {
+  padding: 5rem 0;
+}
+
+.gtm-section-label {
+  font-family: var(--nous-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--nous-blue);
+  margin-bottom: 0.5rem;
+}
+
+.gtm-explore h2 {
+  font-family: var(--nous-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--nous-ink);
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+.gtm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--nous-hairline-dark);
+  border-left: 1px solid var(--nous-hairline-dark);
+}
+
+.gtm-card {
+  padding: 1.75rem;
+  border-right: 1px solid var(--nous-hairline-dark);
+  border-bottom: 1px solid var(--nous-hairline-dark);
+  text-decoration: none;
+  display: block;
+  transition: background 0.15s ease;
+}
+
+.gtm-card:hover {
+  background: var(--nous-blue-soft);
+  text-decoration: none;
+}
+
+.gtm-card__index {
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  color: var(--nous-faint);
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.gtm-card__title {
+  font-family: var(--nous-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--nous-ink);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.gtm-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--nous-slate);
+  margin: 0;
+}
+
+/* ============ MANIFESTO SECTION ============ */
+.gtm-manifesto {
+  padding: 4rem 0;
+  border-top: 1px solid var(--nous-hairline-dark);
+}
+
+.gtm-manifesto blockquote {
+  font-family: var(--nous-serif);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--nous-ink);
+  font-style: normal;
+  border-left: none;
+  max-width: 40ch;
+  padding: 0;
+}
+
+.gtm-manifesto blockquote::before {
+  content: '—';
+  display: block;
+  font-family: var(--nous-mono);
+  color: var(--nous-blue);
+  margin-bottom: 1rem;
+}
+
+.gtm-manifesto__cite {
+  font-family: var(--nous-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--nous-faint);
+  margin-top: 1.5rem;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 996px) {
+  .gtm-hero h1 { font-size: 2.5rem; }
+  .gtm-hero { padding: 4rem 0 3rem; }
+  .gtm-stat { padding: 1.5rem 1.25rem; }
+  .gtm-stat__number { font-size: 1.8rem; }
+  .markdown h1 { font-size: 1.75rem; }
+}

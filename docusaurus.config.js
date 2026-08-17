@@ -46,6 +46,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/og-image.jpg',
+      metadata: [{ name: 'color-scheme', content: 'light dark' }],
       navbar: {
         title: 'Open GTM Wiki',
         logo: {
