@@ -264,7 +264,7 @@ new lane repeats the five stages.
 For the technical structure of how agents stack into a harness, see
 [01 — The Agentic Stack](./01-agentic-stack.md). For the deeper question
 of what to automate and what to keep human, see
-[06 — Agent vs Human Workflows](./06-agent-vs-human-workflows.md).
+[06 — Agent vs Human Workflows](./agent-vs-human-workflows).
 
 ---
 

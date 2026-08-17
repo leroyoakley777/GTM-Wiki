@@ -50,6 +50,7 @@ const sidebars = {
         'agentic/agentic-stack',
         'agentic/agentic-outbound',
         'agentic/guardrails-and-measurement',
+        'agentic/agent-vs-human-workflows',
       ],
     },
     {
