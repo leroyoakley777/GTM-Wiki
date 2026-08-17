@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Open GTM Wiki">
-  <!-- Funnel mark: three descending bars, electric blue, flat, academic-brutalist -->
+  <rect width="48" height="48" fill="#ffffff"/>
   <g fill="#0053fd">
     <rect x="8" y="10" width="32" height="6"/>
     <rect x="13" y="21" width="22" height="6"/>
     <rect x="18" y="32" width="12" height="6"/>
   </g>
-  <!-- Corner bracket signature (Nous HUD mark, used sparingly on the mark) -->
   <path d="M4 4 h6 M4 4 v6" fill="none" stroke="#0053fd" stroke-width="1.5"/>
   <path d="M44 44 h-6 M44 44 v-6" fill="none" stroke="#0053fd" stroke-width="1.5"/>
 </svg>

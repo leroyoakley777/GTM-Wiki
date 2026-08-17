@@ -9,7 +9,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: 'Open GTM Wiki',
   tagline: 'The best open-source Go-to-Market resource for founders, operators, and builders',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   url: 'https://gtmwiki.com',
   baseUrl: '/',
