@@ -2,6 +2,8 @@
 sidebar_position: 7
 title: GTM Funnel
 description: "The GTM funnel: from first touch to paying customer, and where it leaks."
+status: active
+tags: [funnel, pipeline, foundations, metrics]
 ---
 
 # GTM Funnel

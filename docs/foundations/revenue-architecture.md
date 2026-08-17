@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Revenue Architecture (The Core Framework)
 description: The operating system this wiki is built on. Recurring revenue is a factory, not a set of tactics. GTM motions are production lines. Quality beats growth-at-all-costs.
+status: active
+tags: [revenue-architecture, foundations, wbd, framework]
 ---
 
 # Revenue Architecture: The Core Framework

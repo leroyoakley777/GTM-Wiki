@@ -2,6 +2,8 @@
 sidebar_position: 3
 title: Positioning and Messaging
 description: "Positioning and messaging: how to find the wedge and state it plainly."
+status: active
+tags: [positioning, messaging, foundations, brand]
 ---
 
 # Positioning and Messaging
