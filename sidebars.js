@@ -94,6 +94,11 @@ const sidebars = {
       collapsed: true,
       items: [
         'case-studies/index',
+        'case-studies/product-led',
+        'case-studies/abm',
+        'case-studies/outbound',
+        'case-studies/community-led',
+        'case-studies/referral-viral',
         'flows/index',
         'contributing',
       ],
