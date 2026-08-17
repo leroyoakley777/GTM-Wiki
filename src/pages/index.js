@@ -40,6 +40,18 @@ const sections = [
     desc: 'The GTM tools landscape and the benchmark data behind the decisions.',
     to: '/docs/tools',
   },
+  {
+    index: '07',
+    title: 'Case Studies',
+    desc: 'Before → after. Real builds, the playbook applied, and the transferable lessons.',
+    to: '/docs/case-studies',
+  },
+  {
+    index: '08',
+    title: 'Flows',
+    desc: 'The full end-to-end motions, runnable start to finish — artifacts at every step.',
+    to: '/docs/flows',
+  },
 ];
 
 export default function Home() {
@@ -70,11 +82,11 @@ export default function Home() {
         {/* STATS */}
         <div className="gtm-stats">
           <div className="gtm-stat">
-            <div className="gtm-stat__number">6</div>
+            <div className="gtm-stat__number">8</div>
             <div className="gtm-stat__label">Reference sections</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number">25+</div>
+            <div className="gtm-stat__number">60</div>
             <div className="gtm-stat__label">Pages and growing</div>
           </div>
           <div className="gtm-stat">
