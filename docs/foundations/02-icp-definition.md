@@ -8,7 +8,7 @@ description: How to define, validate, and iterate on an Ideal Customer Profile �
 
 An Ideal Customer Profile (ICP) is an account-level definition of the company most likely to become your best customer. It is not a buyer persona. It is not a target audience. It is the specific subset of the market that gets maximum value from your product, pays on time, stays, and refers.
 
-Every GTM strategy starts here. Skip this and everything else — channels, messaging, sales motion — is built on sand.
+Every GTM strategy starts here. Skip this and everything else fails: channels, messaging, sales motion.
 
 ## Definition
 

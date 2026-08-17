@@ -60,7 +60,7 @@ The 40.8% good-better-best figure (SBI 2024) is not a trend to chase — it is e
 
 - **25–40% of new revenue from expansion** is healthy B2B SaaS. Top performers exceed 60% of new MRR from expansion (ChurnZero).
 - Expansion revenue (10–30% good) is pricing working after the sale — upgrades, seat growth, usage growth, and add-ons.
-- **Pricing that does not enable an upgrade path caps NRR.** NRR best-in-class is 110–120%; gross dollar retention strong at 85–95% (Peak).
+- **Pricing that does not enable an upgrade path caps NRR.** Top performers run NRR at 110–120%; gross dollar retention strong at 85–95% (Peak).
 
 A pricing model with no natural expansion motion is a ceiling on the most efficient revenue you will ever have. Land-and-expand is not optional for most SaaS — it is where the unit economics work.
 

@@ -50,7 +50,7 @@ The cost of skipping this work is higher in 2025-2026 than ever:
 
 - **B2B buyers complete 70% of their journey before contacting sales** (Forrester). Your GTM must account for the self-serve research phase or you lose before the conversation starts.
 - **76% of organizations have had to significantly or completely reinvent their GTM approach in the past 3 years** (Forrester). The static annual plan is dead.
-- **AI competition is intensifying across every software category.** Differentiation and positioning must be razor-sharp or you're competing on price, which is a race to the bottom.
+- **AI competition is intensifying across every software category.** Differentiation must be sharp. Without it you compete on price.
 
 Companies with a strong GTM strategy see better CAC ratios, higher win rates, and faster time-to-revenue. They engineer payback within 12-18 months instead of hoping for it within 24.
 
@@ -240,7 +240,7 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 **Skipping the soft launch.** A soft launch surfaces issues before they compound. Negative early reviews damage long-term adoption. Test with a small audience first. Fix. Then scale.
 
-**No feedback loops.** If you're not capturing why deals are won and lost, you're flying blind. Sales call recordings, customer interviews, support tickets — these are your GTM data. Set them up from day one.
+**No feedback loops.** If you do not capture why deals are won and lost, you cannot see what is working. Sales call recordings, customer interviews, support tickets — these are your GTM data. Set them up from day one.
 
 **Pricing as an afterthought.** Pricing is a GTM lever, not a finance decision. It shapes positioning, channel strategy, and sales motion. Do the willingness-to-pay research. Test pricing. Don't just copy a competitor.
 

@@ -6,7 +6,7 @@ description: The metrics that matter in go-to-market — CAC, LTV, payback, NRR,
 
 # GTM Metrics
 
-Metrics are the cockpit instruments for a SaaS business. Without them, you're flying blind — you might be up in the air, but you don't know where you're headed or whether you're about to hit turbulence. The metrics in this page tell you whether your GTM engine is working, where the leaks are, and whether you should hit the accelerator or the brakes.
+Metrics tell you whether the GTM engine is working. They show where the leaks are. Without them you cannot see the leaks or know what to fix. The metrics on this page tell you whether your GTM engine is working, where the leaks are, and whether to spend or cut.
 
 This page is the foundation for [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks), [Sales Cycle Benchmarks](../data/sales-cycle-benchmarks), and the [Outbound Response Rates](../data/outbound-response-rates) data pages. Read them together.
 
@@ -180,7 +180,7 @@ Metrics are not decoration. They are decision tools. Here's how to use them.
 
 **Growth stage ($5M-$25M ARR):** All five pillars. Full metric stack. NRR becomes critical — at this stage, expansion revenue should be contributing meaningfully. If NRR is below 110%, fix the retention and expansion motion before scaling acquisition further. Track Magic Number every quarter. If it drops below 0.5, cut spend or fix conversion.
 
-**Scale stage ($25M+ ARR):** Full stack with segmentation. Break metrics down by segment, channel, and cohort. NDR should be above 120% for a best-in-class company. Rule of 40 should be above 40. CAC payback should be under 12 months for efficient growth.
+**Scale stage ($25M+ ARR):** Full stack with segmentation. Break metrics down by segment, channel, and cohort. Top performers run NDR above 120%. Rule of 40 should be above 40. CAC payback should be under 12 months for efficient growth.
 
 ### Build a metrics cadence
 

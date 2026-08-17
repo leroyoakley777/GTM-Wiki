@@ -41,7 +41,7 @@ A funnel gives you the vocabulary to fix that.
 
 ## The Modern GTM Funnel: Stages
 
-The classic model is TOFU / MOFU / BOFU. It dates back to the AIDA model (Awareness, Interest, Desire, Action) from 1898. The labels are still useful, but the underlying assumption — that buyers move linearly from one stage to the next — is dead. Modern buyers jump between stages. A single research session might include an AI-generated answer, a YouTube review, and a Slack community discussion. By the time they talk to sales, they already have a shortlist.
+The classic model is TOFU / MOFU / BOFU. It dates back to the AIDA model (Awareness, Interest, Desire, Action) from 1898. The labels are still useful, but the underlying assumption is dead: buyers do not move linearly from one stage to the next. Modern buyers jump between stages. A single research session might include an AI-generated answer, a YouTube review, and a Slack community discussion. By the time they talk to sales, they already have a shortlist.
 
 The GTM funnel is now a framework for understanding intent at different moments, not a rigid pipe you force people through. ZoomInfo puts it plainly: "Buyers don't always move straight through these stages. They loop back as they gather more information or bring in new stakeholders."
 
@@ -183,7 +183,7 @@ Treat funnel stage definitions as living documents. Reevaluate them when you add
 
 ## B2B vs. B2C Funnels
 
-B2B and B2C funnels share the same shape — many enter at the top, fewer reach the bottom — but they operate on different logic. A content strategy built for one will not work for the other.
+B2B and B2C funnels share the same shape: many enter at the top, fewer reach the bottom. But they operate on different logic. A content strategy built for one will not work for the other.
 
 | Dimension | B2B Funnel | B2C Funnel |
 |-----------|-------------|-------------|

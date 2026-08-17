@@ -82,7 +82,7 @@ Martal](https://martal.ca/b2b-cold-email-statistics-lb/)). Signal-based
 personalization — a trigger event plus a relevant value prop — reaches
 **15–25% reply rates** ([Instantly.ai benchmarks](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
 
-Here is the uncomfortable truth: only **5% of senders personalize every
+Only **5% of senders personalize every
 email** ([Mailshake](https://mailshake.com/blog/the-state-of-cold-email-2025/)).
 The people who do see 2–3x better results. AI is the only realistic way
 to join that 5% at scale. That is the whole opportunity.
