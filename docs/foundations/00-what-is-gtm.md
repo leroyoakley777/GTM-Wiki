@@ -8,13 +8,13 @@ description: The definition, scope, and core components of a go-to-market strate
 
 A go-to-market (GTM) strategy is the cross-functional revenue motion that defines **who you sell to, what you say, where you reach them, how you close them, and how you learn fast enough to keep winning.**
 
-A GTM strategy is the operating system a company uses to bring a product or service to a defined market and win revenue against competition — a more encompassing and durable frame than a launch deck or a marketing plan.
+A GTM strategy is the operating system a company uses to bring a product or service to a defined market and win revenue against competition: a more encompassing and durable frame than a launch deck or a marketing plan.
 
 If your GTM lives in a slide deck someone dusts off at the start of a quarter, your quarter is already in trouble.
 
 ## Definition
 
-A GTM strategy is a comprehensive, actionable plan that outlines how a company will introduce a product or service to its target market. It covers the coordinated approach to reaching buyers, communicating value, and establishing market presence — with a clear line from intent to revenue.
+A GTM strategy is a comprehensive, actionable plan that outlines how a company will introduce a product or service to its target market. It covers the coordinated approach to reaching buyers, communicating value, and establishing market presence, with a clear line from intent to revenue.
 
 Every GTM strategy answers five questions:
 
@@ -24,7 +24,7 @@ Every GTM strategy answers five questions:
 4. **How** do we convert them? (sales motion and pricing)
 5. **How do we know** if it is working? (measurement and iteration)
 
-A GTM strategy is scoped to a specific product, market, or expansion move. A company launching into a new vertical, releasing a new product, or entering a new geography runs a new GTM. The strategy changes when the market changes — not on a calendar.
+A GTM strategy is scoped to a specific product, market, or expansion move. A company launching into a new vertical, releasing a new product, or entering a new geography runs a new GTM. The strategy changes when the market changes, not on a calendar.
 
 ## Evidence
 
@@ -47,10 +47,10 @@ The ICP is the cornerstone. It defines the specific subset of potential customer
 
 A modern ICP has four layers:
 
-- **Firmographic core** — industry, employee count, revenue band, geography
-- **Technographic overlay** — what systems they run, what stack gaps exist
-- **Behavioral signal** — what they are actively researching, what problems they have publicly described
-- **Trigger events** — funding, leadership change, M&A, regulatory shift that puts them in market
+- **Firmographic core**: industry, employee count, revenue band, geography
+- **Technographic overlay**: what systems they run, what stack gaps exist
+- **Behavioral signal**: what they are actively researching, what problems they have publicly described
+- **Trigger events**: funding, leadership change, M&A, regulatory shift that puts them in market
 
 A firmographic-only ICP (e.g., "mid-market SaaS companies, 200-2000 employees") is a starting filter, not an ICP. It produces false positives that burn pipeline.
 
@@ -72,7 +72,7 @@ The test: ask a general-purpose AI tool to summarize your category and place you
 
 This is the sequenced plan for how you reach, acquire, and retain customers. It covers marketing channels, sales motions, partnerships, and customer success touchpoints.
 
-The current best practice is **channel sequencing**, not channel stacking. Pick two channels per demand state — not five — and instrument the leading indicator before you fund the channel. A demand state is where the buyer is in their journey:
+The current best practice is **channel sequencing**, not channel stacking. Pick two channels per demand state (not five) and instrument the leading indicator before you fund the channel. A demand state is where the buyer is in their journey:
 
 - **Early demand state:** expertise on two named topics plus peer community presence. Leading indicator: organic search and referral traffic on those topics.
 - **Mid demand state:** website demo flow plus case studies mapped to the ICP. Leading indicator: demo requests and case study completion.
@@ -90,12 +90,12 @@ A GTM strategy has a measurement layer with leading indicators for each channel 
 
 The metrics that matter at the GTM level:
 
-- **Win rate by segment** — falling win rate in your core ICP means positioning has drifted from the market
-- **Sales cycle length by segment** — lengthening cycles mean the buying committee is not being served
-- **CAC payback** — the ultimate test of whether your channel mix is sustainable
-- **Pipeline coverage** — are you generating enough qualified opportunities to hit the number
+- **Win rate by segment**: falling win rate in your core ICP means positioning has drifted from the market
+- **Sales cycle length by segment**: lengthening cycles mean the buying committee is not being served
+- **CAC payback**: the ultimate test of whether your channel mix is sustainable
+- **Pipeline coverage**: are you generating enough qualified opportunities to hit the number
 
-The iteration cadence is the strategic asset. Review ICP, message, and channel mix on a fixed rhythm — monthly at minimum, weekly during launch.
+The iteration cadence is the strategic asset. Review ICP, message, and channel mix on a fixed rhythm, monthly at minimum, weekly during launch.
 
 ## GTM vs. Related Concepts
 
@@ -111,11 +111,11 @@ These three documents get conflated constantly. The conflation is expensive.
 
 If your GTM doc reads like a marketing plan, you do not have a GTM strategy. You have a campaign calendar.
 
-A **sales plan** is narrower still — it focuses on territory, targets, pipeline, and sales activities. A full GTM strategy starts much earlier, before the sales team is even designed.
+A **sales plan** is narrower still: it focuses on territory, targets, pipeline, and sales activities. A full GTM strategy starts much earlier, before the sales team is even designed.
 
 ## B2B vs. B2C GTM
 
-B2B and B2C GTM strategies share the same goal — connect product to customer and generate revenue — but they differ in execution.
+B2B and B2C GTM strategies share the same goal (connect product to customer and generate revenue) but they differ in execution.
 
 **B2B GTM** emphasizes value, ROI, use cases, expertise, and long-term outcomes. Marketing channels target specific roles or industries. Sales rely on demos, consultations, pilots, and procurement cycles. Buying committees are large and multi-stakeholder. Sales cycles are measured in weeks to months.
 
@@ -135,7 +135,7 @@ The build sequence is seven steps. Do them in order.
 
 4. **Sequence your channels.** Two channels per demand state. Instrument the leading indicator before you fund the channel.
 
-5. **Design the sales motion.** Process, team, comp, pricing — designed together, not in sequence.
+5. **Design the sales motion.** Process, team, comp, pricing: designed together, not in sequence.
 
 6. **Instrument measurement.** Leading indicators for every channel and motion. A single scoreboard all four functions look at in the weekly review.
 
@@ -151,7 +151,7 @@ The build sequence is seven steps. Do them in order.
 
 **Channel stacking instead of sequencing.** Running paid search, content, events, outbound, and partnerships in parallel from day one spreads effort thin and teaches you nothing. Pick two channels per demand state. Instrument before you fund.
 
-**Positioning that is not machine-legible.** Buyers use AI-mediated research to evaluate vendors. If your positioning requires a metaphor to decode, an LLM summarizing your category will not place you correctly — and neither will the buyer.
+**Positioning that is not machine-legible.** Buyers use AI-mediated research to evaluate vendors. If your positioning requires a metaphor to decode, an LLM summarizing your category will not place you correctly, and neither will the buyer.
 
 **No iteration cadence.** The initial plan matters less than the revision rhythm. A good plan revised every 12 months loses to an average plan revised every 30 days.
 
@@ -159,27 +159,27 @@ The build sequence is seven steps. Do them in order.
 
 This wiki treats GTM as a complete system, not a collection of tactics. The structure mirrors the components above:
 
-- **[Foundations](./index.md)** — the building blocks: ICP, positioning, pricing, metrics, the funnel, RevOps, market segmentation, competitive analysis, brand
-- **[Channels](../channels/index.md)** — the acquisition toolkit: outbound, inbound, PLG, partners, community, paid, events, referral, ABM
-- **[Playbooks](../playbooks/index.md)** — step-by-step execution: standing up outbound from zero, building a content engine, designing a sales process, onboarding, churn reduction, pricing tests, enablement, territory design, comp, forecasting, deal desk
-- **[Agentic GTM](../agentic/index.md)** — AI-powered GTM: the agentic stack, AI outbound, AI inbound, AI RevOps, guardrails, copilots, the GTM OS architecture
-- **[Roles](../roles/index.md)** — role-specific guidance for founders, SDRs, AEs, RevOps, heads of GTM, and more
-- **[Tools](../tools/index.md)** — the GTM tools landscape: CRM, outbound, analytics, conversation intelligence, RevOps, agentic tools
-- **[Data](../data/index.md)** — benchmarks: conversion rates, SaaS metrics, outbound response rates, sales cycle lengths
+- **[Foundations](./index.md)**: the building blocks: ICP, positioning, pricing, metrics, the funnel, RevOps, market segmentation, competitive analysis, brand
+- **[Channels](../channels/index.md)**: the acquisition toolkit: outbound, inbound, PLG, partners, community, paid, events, referral, ABM
+- **[Playbooks](../playbooks/index.md)**: step-by-step execution: standing up outbound from zero, building a content engine, designing a sales process, onboarding, churn reduction, pricing tests, enablement, territory design, comp, forecasting, deal desk
+- **[Agentic GTM](../agentic/index.md)**: AI-powered GTM: the agentic stack, AI outbound, AI inbound, AI RevOps, guardrails, copilots, the GTM OS architecture
+- **[Roles](../roles/index.md)**: role-specific guidance for founders, SDRs, AEs, RevOps, heads of GTM, and more
+- **[Tools](../tools/index.md)**: the GTM tools landscape: CRM, outbound, analytics, conversation intelligence, RevOps, agentic tools
+- **[Data](../data/index.md)**: benchmarks: conversion rates, SaaS metrics, outbound response rates, sales cycle lengths
 
 ## Further Reading
 
-- [Stripe — What is a go-to-market strategy?](https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups) — Clean definition and component breakdown
-- [The Starr Conspiracy — How to Build a GTM Strategy in 2025](https://www.thestarrconspiracy.com/insights/trends/brief-how-to-build-go-to-market-strategy) — Practitioner framework with the five-component model and channel sequencing approach
-- [Demandbase — What is a Go-To-Market Strategy?](https://www.demandbase.com/blog/what-is-a-go-to-market-gtm-strategy/) — B2B-focused GTM fundamentals with ABM perspective
-- [6sense — B2B Go-to-Market Strategy & Fundamentals](https://6sense.com/guides/go-to-market/) — B2B SaaS GTM guide with ICP and buying committee focus
-- [Maxio — Sales-Led vs Product-Led Growth in SaaS](https://www.maxio.com/blog/sales-led-vs-product-led-which-gtm-strategy-is-best-for-saas) — GTM motion comparison
+- [Stripe: What is a go-to-market strategy?](https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups): Clean definition and component breakdown
+- [The Starr Conspiracy: How to Build a GTM Strategy in 2025](https://www.thestarrconspiracy.com/insights/trends/brief-how-to-build-go-to-market-strategy): Practitioner framework with the five-component model and channel sequencing approach
+- [Demandbase: What is a Go-To-Market Strategy?](https://www.demandbase.com/blog/what-is-a-go-to-market-gtm-strategy/): B2B-focused GTM fundamentals with ABM perspective
+- [6sense: B2B Go-to-Market Strategy & Fundamentals](https://6sense.com/guides/go-to-market/): B2B SaaS GTM guide with ICP and buying committee focus
+- [Maxio: Sales-Led vs Product-Led Growth in SaaS](https://www.maxio.com/blog/sales-led-vs-product-led-which-gtm-strategy-is-best-for-saas): GTM motion comparison
 
 ## Cross-References
 
-- [Foundations: Revenue Architecture](./revenue-architecture) — the core framework this wiki is built on. Read it first
-- [Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md) — the universal strategy framework that builds on this definition
-- [Foundations: ICP Definition](./02-icp-definition.md) — how to build and validate an ICP
-- [Foundations: Positioning and Messaging](./03-positioning-and-messaging.md) — the positioning discipline in depth
-- [Channels: Channels Bullseye](./01-gtm-channels-bullseye.md) — the channel selection framework
-- [Agentic: Agentic GTM Overview](../agentic/index.md) — how AI changes the GTM motion
+- [Foundations: Revenue Architecture](./revenue-architecture): the core framework this wiki is built on. Read it first
+- [Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md): the universal strategy framework that builds on this definition
+- [Foundations: ICP Definition](./02-icp-definition.md): how to build and validate an ICP
+- [Foundations: Positioning and Messaging](./03-positioning-and-messaging.md): the positioning discipline in depth
+- [Channels: Channels Bullseye](./01-gtm-channels-bullseye.md): the channel selection framework
+- [Agentic: Agentic GTM Overview](../agentic/index.md): how AI changes the GTM motion

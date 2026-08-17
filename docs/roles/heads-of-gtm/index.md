@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Roles — Heads of GTM
+title: "Roles: Heads of GTM"
 ---
 
 # Heads of GTM

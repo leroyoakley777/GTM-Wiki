@@ -12,7 +12,7 @@ parent: channels/index
 # Account-Based Marketing (ABM)
 
 **Goal**: win a short list of high-value accounts by concentrating sales
-and marketing on them with coordinated, multi-channel precision — the
+and marketing on them with coordinated, multi-channel precision: the
 accounts where a single win pays for the whole motion.
 
 ABM inverts the demand-gen funnel. Demand gen casts a net, lets leads
@@ -40,7 +40,7 @@ studies](../case-studies/abm).
 ## One Number That Matters Most
 
 **Account win rate on the target list.** Most teams report ABM success
-with engagement or coverage numbers — impressions, visits, touches —
+with engagement or coverage numbers (impressions, visits, touches)
 which are activity, not outcome. The number that tells you the program
 is working is whether you are winning the accounts on the list at a
 meaningfully higher rate than the rest of your book.
@@ -49,15 +49,15 @@ Target-account win rates run well above the general book. Snowflake
 reported a 45% win rate on its ABM accounts versus 18% on non-ABM
 accounts ([SalesMotion, ABM Metrics](https://salesmotion.io/blog/account-based-marketing-metrics)). Engaging buying groups drives 2–3x
 higher win rates and larger deals ([Labs by Demandbase,
-2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/) —
+2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/), 
 analysis of 24B+ buyer interactions across 1,400+ companies).
 
 | Account win rate | Performance |
 |---|---|
-| Under 20% | Below average — targeting or execution is weak |
+| Under 20% | Below average: targeting or execution is weak |
 | 20–30% | Average |
 | 30–45% | Strong |
-| 45%+ | Elite — the list is genuinely driving the book |
+| 45%+ | Elite: the list is genuinely driving driving the book |
 
 If your ABM win rate sits at or below your non-ABM baseline, you are
 running demand gen on a named list and calling it ABM. Fix the
@@ -145,7 +145,7 @@ observable attributes. A concrete scheme:
 | Company size | 20% | Revenue and employee band that fits your ACV | 20–200 employees |
 | Tech stack | 15% | Does the account run the tools your product plugs into, or a legacy competitor? | Salesforce present, spreadsheets for tracking |
 | Geography / market | 10% | Reachable and served | North America / EU |
-| Growth trajectory | 15% | Hiring, funding, expansion — signal that budget exists | Recent Series B, hiring surge |
+| Growth trajectory | 15% | Hiring, funding, expansion: signal that budget exists | Recent Series B, hiring surge |
 | Role of the problem | 15% | A named owner of the problem exists | A project-management lead, not "operations" |
 
 Fit is a 1–5 judgment per component, weighted to a 0–100 score. **The
@@ -155,8 +155,8 @@ the threshold, you are paying to speed up a mistake.
 ### Intent score
 
 Fit says the account *could* buy. Intent says the account *is* buying.
-Intent data watches buyer behavior — topic surges, research spikes,
-job changes, tech-stack changes, hiring — and flags accounts in motion.
+Intent data watches buyer behavior (topic surges, research spikes,
+job changes, tech-stack changes, hiring) and flags accounts in motion.
 
 The numbers justify intent as a ranking input:
 - Intent-prioritized accounts convert at 21.3% versus 8.4% for
@@ -235,8 +235,8 @@ reassign only on evidence.
 
 ## Benchmarks That Prove It
 
-Named, dated, sourced. Treat the ROI percentages as directional — much
-is self-reported survey data — and the win-rate and conversion numbers
+Named, dated, sourced. Treat the ROI percentages as directional (much
+is self-reported survey data), and the win-rate and conversion numbers
 as load-bearing.
 
 | Metric | Benchmark | Source (as of) |
@@ -305,7 +305,7 @@ The stack is only as good as the list feeding it. Tools multiply effort.
 They do not fix a fuzzy ICP or a broken message. Most ABM orgs already
 report that the top challenges are proving ROI (47%), aligning sales and
 marketing (43%), and scaling (40%) ([Demand Gen Report, 2025 ABM
-Benchmark Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)) — none of which a tool alone solves.
+Benchmark Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)), none of which a tool alone solves.
 
 ---
 
@@ -320,7 +320,7 @@ campaign. A working account plan:
 | Account snapshot | Firmographics, current stack, revenue, the problem |
 | The problem | What this account is trying to fix, in their words |
 | Champion and committee | The 7–8 stakeholders, their priorities, who owns the budget |
-| Reason to believe | Why you can win now — a trigger, a change, a gap |
+| Reason to believe | Why you can win now: a trigger, a change, a gap |
 | The angle | The message that lands with this account's stakeholders |
 | The value case | ROI / payback math specific to this account |
 | Channel mix | Which channels, which sequence, who owns each |
@@ -329,7 +329,7 @@ campaign. A working account plan:
 
 The plan lives in the CRM or a shared doc, owned jointly by the
 account's sales lead and the marketing lead. If there is no written
-plan, there is no one-to-one ABM — there is a set of parallel touches
+plan, there is no one-to-one ABM: there is a set of parallel touches
 called a plan.
 
 ---
@@ -355,16 +355,16 @@ A representative one-to-few sequence over roughly 4 weeks:
 | 3 | Event / content | Field event or custom content drop | Marketing |
 | 4 | Sales | Exec-to-exec introduction | AE + exec |
 
-Two rules govern the sequence. **Coordinate, don't spray** — all
+Two rules govern the sequence. **Coordinate, don't spray**: all
 channels reinforce one message while adapting format to the channel.
-**Escalate to human when an account warms** — the moment intent or a
+**Escalate to human when an account warms**: the moment intent or a
 reply signals a live deal, move from programmatic to direct sales
 handoff. For the direct-outreach copy and cadence detail, read the
 [Outbound from Zero playbook](../playbooks/outbound-from-zero.md).
 
 ---
 
-## Objections — and How to Answer Them
+## Objections: and How to Answer Them
 
 | Reply | What it means | How to answer |
 |---|---|---|
@@ -406,7 +406,7 @@ is economics or alignment, no amount of ABM messaging fixes it.
 
 ---
 
-## Case Matrix — Enterprise versus Mid-Market
+## Case Matrix: Enterprise versus Mid-Market
 
 ABM behaves differently by segment. The full cases live in the [ABM case
 studies](../case-studies/abm). The matrix generalizes the pattern.
@@ -424,7 +424,7 @@ studies](../case-studies/abm). The matrix generalizes the pattern.
 
 **The transferable takeaway:** pick the accounts where the win matters
 most, invest per-account, align sales and marketing on one message, and
-measure pipeline from target accounts — not raw volume. If you cannot
+measure pipeline from target accounts, not raw volume. If you cannot
 name the 50 or 200 accounts that would change the quarter, this is
 demand gen with ABM flavor.
 
@@ -484,7 +484,7 @@ fit score (0–100, weighted per the fit model), intent signal and its
 source, tier (one-to-one / one-to-few / one-to-many), a named buyer
 problem, and a one-line reason-to-reach grounded in a concrete signal.
 Rank the list by fit and intent. Flag any account below the fit
-threshold — those do not belong on the list. Then draft an account plan
+threshold. Those do not belong on the list. Then draft an account plan
 for every tier-1 account: committee, angle, value case, channel mix,
 and milestones. Return only accounts that pass the fit gate.
 ```
@@ -497,7 +497,7 @@ and milestones. Return only accounts that pass the fit gate.
 2. **Fit is non-negotiable.** Agents must not pull in high-intent,
    low-fit accounts because they are loud. The fit gate is hard.
 3. **Score the agent, not the activity.** Measure account win rate and
-   pipeline from target accounts — not plans drafted or emails sent. See
+   pipeline from target accounts, not plans drafted or emails sent. See
    [Guardrails and
    Measurement](../agentic/guardrails-and-measurement).
 
@@ -505,39 +505,39 @@ and milestones. Return only accounts that pass the fit gate.
 
 ## Sources
 
-- [SalesMotion — ABM Metrics That Prove
-  ROI](https://salesmotion.io/blog/account-based-marketing-metrics) —
+- [SalesMotion: ABM Metrics That Prove
+  ROI](https://salesmotion.io/blog/account-based-marketing-metrics):
   account win-rate benchmarks, Snowflake and DocuSign cases.
-- [Labs by Demandbase, 2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/) — 2–3x win-rate lift from buying-group engagement, 24B+ interactions.
-- [Demandbase — 2024 ABM Benchmark](https://www.demandbase.com/resources/report/2024-abm-benchmark/) — 81% higher ROI for top performers.
-- [Momentum ITSMA + ABM Leadership Alliance, 2022](https://www.prnewswire.com/in/news-releases/momentum-itsmas-annual-abm-benchmarking-study-shows-no-signs-of-slow-down-for-account-based-marketing-301760212.html) — pipeline, revenue, ROI, engagement.
-- [Forrester — State of ABM 2024](https://www.forrester.com/report/account-based-marketing-delivers-higher-roi-across-regions/RES181818) — ABM ROI vs non-ABM.
-- [Demand Gen Report — 2025 ABM Benchmark
-  Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/) — adoption, channels, top challenges.
-- [The Starr Conspiracy — ABM Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/account-based-marketing-benchmarks-2025) — adoption trend, intent data.
-- [The Starr Conspiracy — B2B Intent Data Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-intent-data-benchmarks-2025) — intent conversion, sales-cycle compression.
-- [Huble — 111 ABM Statistics](https://huble.com/blog/account-based-marketing-statistics) — deal size, revenue attribution, win-rate reporting.
-- [Foundry — ABM and intent data statistics](https://foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/) — ICP win rate, intent ad CTR.
-- [Gartner — 3 Pillars of Account-Based Strategy](https://www.gartner.com/smarterwithgartner/3-pillars-of-a-successful-account-based-strategy) — alignment win-rate lift, LTV.
-- [Demandbase — ABM 101](https://www.demandbase.com/faq/account-based-marketing-101/) — tier definitions.
-- [Amplitude — What is ABM](https://amplitude.com/explore/digital-marketing/what-account-based-marketing) — committee size, tier scopes.
+- [Labs by Demandbase, 2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/): 2–3x win-rate lift from buying-group engagement, 24B+ interactions.
+- [Demandbase: 2024 ABM Benchmark](https://www.demandbase.com/resources/report/2024-abm-benchmark/): 81% higher ROI for top performers.
+- [Momentum ITSMA + ABM Leadership Alliance, 2022](https://www.prnewswire.com/in/news-releases/momentum-itsmas-annual-abm-benchmarking-study-shows-no-signs-of-slow-down-for-account-based-marketing-301760212.html): pipeline, revenue, ROI, engagement.
+- [Forrester: State of ABM 2024](https://www.forrester.com/report/account-based-marketing-delivers-higher-roi-across-regions/RES181818): ABM ROI vs non-ABM.
+- [Demand Gen Report: 2025 ABM Benchmark
+  Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/): adoption, channels, top challenges.
+- [The Starr Conspiracy: ABM Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/account-based-marketing-benchmarks-2025): adoption trend, intent data.
+- [The Starr Conspiracy: B2B Intent Data Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-intent-data-benchmarks-2025): intent conversion, sales-cycle compression.
+- [Huble: 111 ABM Statistics](https://huble.com/blog/account-based-marketing-statistics): deal size, revenue attribution, win-rate reporting.
+- [Foundry: ABM and intent data statistics](https://foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): ICP win rate, intent ad CTR.
+- [Gartner: 3 Pillars of Account-Based Strategy](https://www.gartner.com/smarterwithgartner/3-pillars-of-a-successful-account-based-strategy): alignment win-rate lift, LTV.
+- [Demandbase: ABM 101](https://www.demandbase.com/faq/account-based-marketing-101/): tier definitions.
+- [Amplitude: What is ABM](https://amplitude.com/explore/digital-marketing/what-account-based-marketing): committee size, tier scopes.
 
 ---
 
 ## Further Reading
 
-- [Channels Bullseye](../foundations/gtm-channels-bullseye) — where ABM
+- [Channels Bullseye](../foundations/gtm-channels-bullseye): where ABM
   sits in the high-ACV channel picture.
-- [ICP Definition](../foundations/icp-definition) — the account list
+- [ICP Definition](../foundations/icp-definition): the account list
   starts with a disciplined ICP.
-- [Outbound from Zero playbook](../playbooks/outbound-from-zero.md) —
+- [Outbound from Zero playbook](../playbooks/outbound-from-zero.md):
   the direct-outreach component of the motion.
-- [Agentic Outbound](../agentic/agentic-outbound) — the agent harness on
+- [Agentic Outbound](../agentic/agentic-outbound): the agent harness on
   top of the motion.
-- [ABM case studies](../case-studies/abm) — the documented wins.
-- [GTM Metrics](../data/gtm-metrics) — pipeline coverage and win-rate
+- [ABM case studies](../case-studies/abm): the documented wins.
+- [GTM Metrics](../data/gtm-metrics): pipeline coverage and win-rate
   context ABM feeds.
-- [Sales Cycle Benchmarks](../data/sales-cycle-benchmarks) — the
+- [Sales Cycle Benchmarks](../data/sales-cycle-benchmarks): the
   long-cycle, committee context ABM lives in.
-- [Outbound channel](../channels/outbound) — the adjacent high-ACV,
+- [Outbound channel](../channels/outbound): the adjacent high-ACV,
   surgical channel.

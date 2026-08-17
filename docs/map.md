@@ -3,10 +3,10 @@ sidebar_position: 2
 title: Map
 ---
 
-# Map — one image, the whole wiki
+# Map: one image, the whole wiki
 
 **Frameworks stay stable. Execution adapts.** Here's the entire wiki as a
-single tree — every section, how it connects, and where the depth
+single tree: every section, how it connects, and where the depth
 lives. Bookmark it. It's the fastest way to orient.
 
 <svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" style={{ width: "100%", height: "auto", background: "#F7F6F2", borderRadius: 8, border: "1px solid #E2E1DC" }}>
@@ -20,7 +20,7 @@ lives. Bookmark it. It's the fastest way to orient.
   <!-- Root -->
   <rect x="300" y="24" width="360" height="64" rx="10" fill="url(#rootGrad)"/>
   <text x="480" y="52" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Open GTM Wiki</text>
-  <text x="480" y="72" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-size="12">The whole wiki in one tree — every section, how it connects</text>
+  <text x="480" y="72" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-size="12">The whole wiki in one tree: every section, how it connects</text>
 
   <!-- Spine + rails -->
   <line x1="480" y1="88" x2="480" y2="112" stroke="#8E8E99" stroke-width="1.5"/>
@@ -161,10 +161,10 @@ lives. Bookmark it. It's the fastest way to orient.
 
 ## How to use this wiki
 
-1. **New to GTM?** Start at [Foundations](/docs/foundations) — revenue architecture and the strategy framework come first, everything else hangs off them.
-2. **Picking where to reach buyers?** Browse [Channels](/docs/channels) — outbound, inbound, PLG, partner, community, paid, events, and ABM.
+1. **New to GTM?** Start at [Foundations](/docs/foundations): revenue architecture and the strategy framework come first, everything else hangs off them.
+2. **Picking where to reach buyers?** Browse [Channels](/docs/channels): outbound, inbound, PLG, partner, community, paid, events, and ABM.
 3. **Have a motion to run?** Go to [Playbooks](/docs/playbooks) and [Flows](/docs/flows) and execute the one that matches your situation.
-4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat — same foundations, a harness on top.
+4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat: same foundations, a harness on top.
 5. **Hired or stepping into a role?** Read the [Roles](/docs/roles) guides.
 6. **Need the numbers?** [Tools & Data](/docs/data) carries the named, dated benchmarks, and [Case Studies](/docs/case-studies) show the motions in practice.
 

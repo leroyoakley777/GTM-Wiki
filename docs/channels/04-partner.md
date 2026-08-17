@@ -31,7 +31,7 @@ Growth](./product-led) pairs with the integration-partner motion.
 
 ## One Number That Matters Most
 
-**Qualified partner-sourced pipeline as a share of new pipeline — a healthy
+**Qualified partner-sourced pipeline as a share of new pipeline: a healthy
 target is 10–20% for a mature program.** That is the number that tells you
 the motion is contributing and not just occupying time.
 
@@ -118,7 +118,7 @@ the introduction, you keep the customer relationship.
 
 A partner buys your product and resells it to their book of business. This
 is an indirect sales force. It only works when the partner has the
-relationships **and** the margin makes the effort worth their time — which
+relationships **and** the margin makes the effort worth their time, which
 means your product needs enough price headroom to share.
 
 - **SaaS channel partner margins run 20–30%** as a useful guideline
@@ -141,11 +141,11 @@ ecosystem) and lists or transacts your product there.
 
 **The category error to avoid:** an integration partner is not a reseller.
 Expect co-sell volume from an integration that no customer asked for and you
-will be disappointed twice — in pipeline and in morale.
+will be disappointed twice: in pipeline and in morale.
 
 ---
 
-## Deal and Comp Model — What Makes It Worth Their Time
+## Deal and Comp Model: What Makes It Worth Their Time
 
 Comp is the whole game. A partner has their own quota, their own customers,
 their own priorities. Your product is one of a hundred things competing for
@@ -166,7 +166,7 @@ their attention. The comp model decides how much attention they give it.
   never close is burning your pipeline hygiene.
 - **One source of truth on attribution.** Decide before the first deal how
   a partner gets credit. Only **42% of companies use multi-touch
-  attribution** across the funnel — the rest guess, and guessing breaks
+  attribution** across the funnel: the rest guess, and guessing breaks
   trust ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)). Attribution splits in the wild: **multi-touch 42%,
   first-touch 31%, last-touch 19%, no tracking 8%** (same report).
 - **Do not discount for a partner who brings no deals.** If you cut your
@@ -177,7 +177,7 @@ their attention. The comp model decides how much attention they give it.
 
 ---
 
-## Partnership Funnel — Benchmarks That Diagnose
+## Partnership Funnel: Benchmarks That Diagnose
 
 Each stage answers a different question. A weak stage caps the whole
 motion, and the order matters: activation before adoption, adoption before
@@ -197,7 +197,7 @@ partners are not even launched is measuring noise.
 **~10% activation**, while top programs with strong onboarding reach **50%
 or higher** ([Hamster Garage,
 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)). And a program sitting at **30% activation has a recruitment
-problem or an onboarding-design problem — most of those partners should
+problem or an onboarding-design problem: most of those partners should
 never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guides/partner-onboarding)).
 
 ---
@@ -227,15 +227,15 @@ Recruitment is the decision about whether to bring a partner in at all. A
 bad qualification at this stage cannot be fixed by onboarding
 ([PartnerStandard](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method)).
 
-**The 4C qualification gate — every partner must clear all four:**
+**The 4C qualification gate: every partner must clear all four.**
 
-1. **Customer base** — the partner's customers overlap your ICP. No shared
+1. **Customer base**: the partner's customers overlap your ICP. No shared
    customer, no deal at the end.
-2. **Credibility** — the partner's brand is trusted by the buyers you want.
+2. **Credibility**: the partner's brand is trusted by the buyers you want.
    A random logo in a similar category is not credibility.
-3. **Capability** — the partner can sell, implement, or deliver
+3. **Capability**: the partner can sell, implement, or deliver
    your product. An integration partner without engineers is a wallflower.
-4. **Commitment** — the partner has skin in the game: a named owner, a
+4. **Commitment**: the partner has skin in the game: a named owner, a
    joint plan, a revenue target. Vague enthusiasm is not commitment.
 
 **Where to find partners:**
@@ -251,7 +251,7 @@ bad qualification at this stage cannot be fixed by onboarding
   motion. Reach out to named owners at target partners with a specific
   joint-customer angle, not a generic "let's partner."
 
-**The row template for a partner pipeline** — every target carries: company,
+**The row template for a partner pipeline**: every target carries: company,
 partner type (integration / referral / reseller / channel), ICP-overlap
 score (1–5), named contact, the joint customer or motion you will build, and
 the comp model you are offering. No joint motion, no outreach.
@@ -289,14 +289,14 @@ when the partner can sell solo, not when the calendar runs out
 
 ---
 
-## Sequencing — When and How to Layer It In
+## Sequencing: When and How to Layer It In
 
 Partnerships are not a first channel. They compound on top of an existing
 market. The order:
 
 1. **Post-PMF, post-first-revenue.** Prove the product and the direct motion
    first. A partner needs a proven product to amplify.
-2. **Start with integrations** — they cost no margin and build the mutual-
+2. **Start with integrations**: they cost no margin and build the mutual-
    customer proof. One or two strong integration partners create the
    reference that makes referral and reseller conversations credible.
 3. **Add referral partners** once you have proof and a comp model. Referrals
@@ -313,7 +313,7 @@ visibility (14%)** ([PartnerStack, 2026](https://partnerstack.com/resources/rese
 
 ---
 
-## Objections — and How to Answer Them
+## Objections: and How to Answer Them
 
 | Objection | What it means | How to answer |
 |---|---|---|
@@ -322,13 +322,13 @@ visibility (14%)** ([PartnerStack, 2026](https://partnerstack.com/resources/rese
 | "The margin is not enough" | Comp is too thin | Increase margin or change the partner type. If you cannot pay reseller margin, make it a referral deal instead. |
 | "We do not have the resources to enable us" | Commitment gap | Qualify harder. A partner without a named owner and time is not a partner. |
 | "Let's keep in touch" | Soft no | Set a trigger and a follow-up date. Move on. |
-| No response at all | The default | Re-trigger on a signal — a new customer, a marketplace listing, a product launch. |
+| No response at all | The default | Re-trigger on a signal: a new customer, a marketplace listing, a product launch. |
 
 **Answer the question, do not pitch harder.**
 
 ---
 
-## Common Failure Modes — and the Fix
+## Common Failure Modes: and the Fix
 
 | Failure mode | Why it happens | The fix |
 |---|---|---|
@@ -342,7 +342,7 @@ visibility (14%)** ([PartnerStack, 2026](https://partnerstack.com/resources/rese
 
 ---
 
-## Case Matrix — Product Partner vs Services Partner
+## Case Matrix: Product Partner vs Services Partner
 
 Two distinct partner categories, two different value exchanges. Most
 programs fail by blurring them.
@@ -382,7 +382,7 @@ scale:
 
 ---
 
-## Agentic Layer — the SOP to Run a Partner Motion
+## Agentic Layer: the SOP to Run a Partner Motion
 
 Partnerships are relationship-heavy but process-thin, which makes them a
 good fit for an agent that does the tracking, the sourcing, and the
@@ -409,7 +409,7 @@ You are sourcing integration and referral partners for {company}, a
 {product} serving {ICP}. For each target partner, return a row with:
 company, partner type (integration / referral / reseller / channel),
 ICP-overlap score (1–5), named contact, and the one joint motion we could
-build (the shared customer, not a generic pitch). Apply the 4C gate —
+build (the shared customer, not a generic pitch). Apply the 4C gate:
 customer base, credibility, capability, commitment. Skip any partner that
 fails a gate. Return only rows that pass all four.
 ```
@@ -428,27 +428,27 @@ fails a gate. Return only rows that pass all four.
 
 ## Sources
 
-- [PartnerStack — State of Partnerships in GTM 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026) — investment plans (69%), alignment (48%), attribution usage (42%) and splits, blockers (37%/20%/14%), AI interest (49%).
-- [PartnerStack Research Lab](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships) — mid-market/enterprise partner-influenced pipeline (35%) and top reps' partner revenue.
-- [SaaS Mag — Ecosystem-Led Growth](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/) — partner-sourced revenue median (24%) and top-quartile (40%).
-- [Rewardful — SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks) — affiliate MRR contribution (10–20%, up to 50%).
-- [Wharton via Expando (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs) — referral conversion (+30%) and LTV (+16%).
-- [Hamster Garage — Affiliate Onboarding Playbook (2026)](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook) — activation rates (~10% vs 50%+).
-- [PartnerStandard — Partner Onboarding](https://pro.partnerstandard.com/guides/partner-onboarding) — 30/60/90 framework, 30% activation as problem signal, and 4C qualification.
-- [DealHub — Partner Margin](https://dealhub.io/glossary/partner-margin/) — SaaS channel margins (20–30%).
-- [HubSpot Partner policies](https://www.hubspot.com/partners/solutions-program-policies) — 20% revenue share on MRR, up to 3 years.
-- [Genesys Growth — CAC Benchmarks (2026)](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders) — partnership CPL 30–40% lower than paid ads.
+- [PartnerStack: State of Partnerships in GTM 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026): investment plans (69%), alignment (48%), attribution usage (42%) and splits, blockers (37%/20%/14%), AI interest (49%).
+- [PartnerStack Research Lab](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships): mid-market/enterprise partner-influenced pipeline (35%) and top reps' partner revenue.
+- [SaaS Mag: Ecosystem-Led Growth](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/): partner-sourced revenue median (24%) and top-quartile (40%).
+- [Rewardful: SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): affiliate MRR contribution (10–20%, up to 50%).
+- [Wharton via Expando (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs): referral conversion (+30%) and LTV (+16%).
+- [Hamster Garage: Affiliate Onboarding Playbook (2026)](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook): activation rates (~10% vs 50%+).
+- [PartnerStandard: Partner Onboarding](https://pro.partnerstandard.com/guides/partner-onboarding): 30/60/90 framework, 30% activation as problem signal, and 4C qualification.
+- [DealHub: Partner Margin](https://dealhub.io/glossary/partner-margin/): SaaS channel margins (20–30%).
+- [HubSpot Partner policies](https://www.hubspot.com/partners/solutions-program-policies): 20% revenue share on MRR, up to 3 years.
+- [Genesys Growth: CAC Benchmarks (2026)](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders): partnership CPL 30–40% lower than paid ads.
 
 See also the team's benchmark source:
 `RESEARCH/gtm-wiki/GTM_METRICS_BENCHMARKS.md`.
 
 ## Related
 
-- [GTM Channels Bullseye](../foundations/gtm-channels-bullseye) — how to pick partnerships as your one best channel.
-- [Referral & Viral](./referral-viral) — the customer-as-distributor cousin of this page.
-- [Product-Led Growth](./product-led) — pairs with the integration-partner motion.
-- [Outbound](./outbound) — the direct motion to run while partnerships compound.
-- [GTM Strategy Framework](../foundations/gtm-strategy-framework) — sequencing partnerships after product-market fit.
+- [GTM Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick partnerships as your one best channel.
+- [Referral & Viral](./referral-viral): the customer-as-distributor cousin of this page.
+- [Product-Led Growth](./product-led): pairs with the integration-partner motion.
+- [Outbound](./outbound): the direct motion to run while partnerships compound.
+- [GTM Strategy Framework](../foundations/gtm-strategy-framework): sequencing partnerships after product-market fit.
 
 ---
 

@@ -19,7 +19,7 @@ const sections = [
   {
     index: '03',
     title: 'Agentic GTM',
-    desc: 'How to run the same playbooks with agents, harnesses, and automation. Where leverage is — and where guardrails stay.',
+    desc: 'How to run the same playbooks with agents, harnesses, and automation. Where leverage is, and where guardrails stay.',
     to: '/docs/agentic',
   },
   {
@@ -49,7 +49,7 @@ const sections = [
   {
     index: '08',
     title: 'Flows',
-    desc: 'Full end-to-end motions, runnable start to finish — artifacts at every step.',
+    desc: 'Full end-to-end motions, runnable start to finish, artifacts at every step.',
     to: '/docs/flows',
   },
 ];
@@ -60,11 +60,11 @@ export default function Home() {
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
-          <div className="gtm-hero__label">REFERENCE — NOT A BLOG</div>
+          <div className="gtm-hero__label">REFERENCE, NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Every concept has a page. Every page ships the artifact itself —
-            copy, math, tooling, agentic layer — not a summary of it.
+            Every concept has a page. Every page ships the artifact itself
+            (copy, math, tooling, agentic layer), not a summary of it.
             Every number is named and dated. From time to time a number goes
             stale. When that happens we update the page and the new source is
             named and dated too. Built for founders, operators, and the
@@ -123,7 +123,7 @@ export default function Home() {
             conversion rates spanning the entire customer lifecycle. Benchmark it, fix the
             leak, compound.
           </blockquote>
-          <div className="gtm-manifesto__cite">— REVENUE ARCHITECTURE, THE GROWTH FORMULA</div>
+          <div className="gtm-manifesto__cite">REVENUE ARCHITECTURE, THE GROWTH FORMULA</div>
         </section>
       </div>
     </Layout>

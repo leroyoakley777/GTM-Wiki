@@ -14,14 +14,14 @@ framework is designed to be adapted to any business model or stage.
 
 ## Organizing idea
 
-**Every concept has a page, and every page ships the artifact — copy,
-math, tooling, the agentic layer — not a summary of it.**
+**Every concept has a page, and every page ships the artifact (copy,
+math, tooling, the agentic layer), not a summary of it.**
 
-The frameworks here (GTM Strategy, Channels Bullseye) are durable —
-they were true in 2015 and will be true in 2035. The *playbooks* show
+The frameworks here (GTM Strategy, Channels Bullseye) are durable.
+They were true in 2015 and will be true in 2035. The *playbooks* show
 you what to do against a specific situation. And the **Agentic** section
 is the execution layer for the time we're in: how to run those same
-playbooks with agents, harnesses, and automation — where the leverage
+playbooks with agents, harnesses, and automation: where the leverage
 is, and where the guardrails must stay.
 
 | Section | It answers | Start here if… |

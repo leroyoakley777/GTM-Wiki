@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Outbound Response Rate Benchmarks
-description: What cold outbound returns — reply rates, email-to-deal conversion, multi-touch lift — and the funnel math from reply to booked meeting, with dated named sources.
+description: What cold outbound returns (reply rates, email-to-deal conversion, multi-touch lift) and the funnel math from reply to booked meeting, with dated named sources.
 last-updated: 2026-08-17
 status: active
 tags: [data, outbound, response-rate, cold-email, benchmarks]
@@ -204,7 +204,7 @@ Nothing burned, nothing scaled before it was proven.
 
 ## Agentic layer: run outbound triage with a prompt
 
-The bottleneck in outbound has never been sending — it is the thinking per
+The bottleneck in outbound has never been sending: it is the thinking per
 row and the speed of reply handling. This is where an agent removes the
 bottleneck while a human keeps the judgment.
 
@@ -269,33 +269,33 @@ industry table is only the map.
 
 ## Sources
 
-- [Woodpecker, 2026](https://woodpecker.co/blog/cold-email-statistics/) —
+- [Woodpecker, 2026](https://woodpecker.co/blog/cold-email-statistics/):
   cold email reply-rate average and good/excellent thresholds.
 - [Martal, 2026 (citing Infraforge)](https://martal.ca/blog/b2b-cold-email-statistics/)
-  — 2024 reply rates, email-to-deal conversion.
+  : 2024 reply rates, email-to-deal conversion.
 - [SalesHive, 2025](https://saleshive.com/blog/b2b-cold-email-statistics/)
-  — blended B2B reply rates, SaaS range, positive-reply rate.
+  : blended B2B reply rates, SaaS range, positive-reply rate.
 - [Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)
-  — meetings per 1,000 sends, domain warmup, sending caps, time-to-response.
-- [OptifAI](https://optifai.ai/learn/) — open rates by relationship.
+  : meetings per 1,000 sends, domain warmup, sending caps, time-to-response.
+- [OptifAI](https://optifai.ai/learn/): open rates by relationship.
 - [SalesGenie, 2026](https://salesgenie.com/resources/cold-calling-statistics/)
-  — cold call connect rates.
-- [Autobound](https://autobound.ai/) — multi-channel reply rates across 100+
+  : cold call connect rates.
+- [Autobound](https://autobound.ai/): multi-channel reply rates across 100+
   SaaS teams.
-- [Belkins via Autobound](https://autobound.ai/blog/sales-statistics/) —
+- [Belkins via Autobound](https://autobound.ai/blog/sales-statistics/):
   quota attainment.
 
 ---
 
 ## Further reading
 
-- [Outbound channel](../channels/outbound) — when outbound is the right
+- [Outbound channel](../channels/outbound): when outbound is the right
   call and how to judge whether the motion is healthy.
-- [Outbound from Zero](../playbooks/outbound-from-zero) — the step-by-step
+- [Outbound from Zero](../playbooks/outbound-from-zero): the step-by-step
   execution runbook these numbers feed.
-- [Agentic Outbound](../agentic/agentic-outbound) — the same motion with an
+- [Agentic Outbound](../agentic/agentic-outbound): the same motion with an
   agent harness on top.
-- [GTM Metrics](../data/gtm-metrics) — the pipeline coverage and win-rate
+- [GTM Metrics](../data/gtm-metrics): the pipeline coverage and win-rate
   context outbound feeds.
-- [Channels Bullseye](../foundations/gtm-channels-bullseye) — how to pick
+- [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick
   outbound as one best channel before committing budget.

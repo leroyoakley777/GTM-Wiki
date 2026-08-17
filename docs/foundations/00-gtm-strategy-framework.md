@@ -118,7 +118,7 @@ ICP is a filter, not a dream list. If a prospect doesn't match, you pass. Focus 
 
 **Build buyer personas.** 2-3 named personas with concrete detail:
 
-> "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on pipeline efficiency and sales cycle length. Main objection: implementation time — she's been burned by tools that took six months to deploy. Needs to see ROI within one quarter."
+> "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on pipeline efficiency and sales cycle length. Main objection: implementation time. She's been burned by tools that took six months to deploy. Needs to see ROI within one quarter."
 
 Give them names. Give them concrete constraints. Write for them.
 
@@ -137,13 +137,13 @@ Test it with buyers. If they don't immediately nod, rewrite it.
 - **Account-Based Marketing (ABM):** Targeted engagement with a defined set of high-value accounts. Marketing and sales work as one unit on specific accounts.
 - **Hybrid:** Most winning companies run 2+ motions. PLG for the bottom of the funnel, SLG for enterprise. Community for awareness, outbound for conversion.
 
-Pick your primary motion. Then pick your secondary. Don't run five motions at once when you're starting — you'll run out of money and attention.
+Pick your primary motion. Then pick your secondary. Don't run five motions at once when you're starting: you'll run out of money and attention.
 
 **Set pricing and packaging.** Three common approaches:
 
 - **Cost-plus:** Add a markup to costs. Simple, but ignores value and market.
 - **Value-based:** Price based on the value the customer perceives. Requires research. Commands higher margins when you have differentiated value.
-- **Competitor-based:** Price relative to competitors — at parity, at a premium, or at a discount. Good for positioning, bad if it's the only logic.
+- **Competitor-based:** Price relative to competitors: at parity, at a premium, or at a discount. Good for positioning, bad if it's the only logic.
 
 Most GTM strategies use a blend. Value-based as the anchor. Competitor-based as a sanity check. Cost-plus as the floor.
 
@@ -151,12 +151,12 @@ Most GTM strategies use a blend. Value-based as the anchor. Competitor-based as 
 
 ### Phase 3: Deliver
 
-Execute against the design. This is where most strategies fail — not in the thinking, in the doing.
+Execute against the design. This is where most strategies fail: not in the thinking, in the doing.
 
 **Select 2-3 priority channels.** Channels are where your buyers live and how they buy. Match channels to your buyer persona:
 
-- If Dana reads Gartner reviews, gets cold emailed by SDRs, and attends RevOps conferences — your channels are review sites, outbound, and events.
-- If your buyer discovers tools through peer recommendations on Slack communities — your channel is community-led growth.
+- If Dana reads Gartner reviews, gets cold emailed by SDRs, and attends RevOps conferences: your channels are review sites, outbound, and events.
+- If your buyer discovers tools through peer recommendations on Slack communities: your channel is community-led growth.
 
 Don't spread across 10 channels. Pick 2-3. Go deep. Measure. Double down on what works. Kill what doesn't.
 
@@ -190,9 +190,9 @@ Set specific numeric targets for days 30, 60, and 90 post-launch. Review weekly.
 - Sales call recordings to understand objections
 - Win/loss analysis on every deal
 
-The first 60-90 days are for learning. Expect to adjust messaging, onboarding flows, pricing presentation, and possibly features based on what you learn. One B2B company discovered through early feedback that their assumed primary use case was secondary — customers cared more about a "minor" feature. They pivoted positioning and tripled conversion rates in 45 days.
+The first 60-90 days are for learning. Expect to adjust messaging, onboarding flows, pricing presentation, and possibly features based on what you learn. One B2B company discovered through early feedback that their assumed primary use case was secondary: customers cared more about a "minor" feature. They pivoted positioning and tripled conversion rates in 45 days.
 
-**Plan the launch timeline.** Work backward from launch day. Assign clear ownership for every deliverable. Build in buffer. Soft launches are cheaper than public failures — use them to identify issues before scaling.
+**Plan the launch timeline.** Work backward from launch day. Assign clear ownership for every deliverable. Build in buffer. Soft launches are cheaper than public failures: use them to identify issues before scaling.
 
 ---
 
@@ -240,7 +240,7 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 **Skipping the soft launch.** A soft launch surfaces issues before they compound. Negative early reviews damage long-term adoption. Test with a small audience first. Fix. Then scale.
 
-**No feedback loops.** If you do not capture why deals are won and lost, you cannot see what is working. Sales call recordings, customer interviews, support tickets — these are your GTM data. Set them up from day one.
+**No feedback loops.** If you do not capture why deals are won and lost, you cannot see what is working. Sales call recordings, customer interviews, support tickets: these are your GTM data. Set them up from day one.
 
 **Pricing as an afterthought.** Pricing is a GTM lever, not a finance decision. It shapes positioning, channel strategy, and sales motion. Do the willingness-to-pay research. Test pricing. Don't just copy a competitor.
 
@@ -248,25 +248,25 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 ## Cross-References
 
-- **[What is GTM?](./00-what-is-gtm.md)** — The definition and scope of GTM as a discipline
-- **[ICP Definition](./02-icp-definition.md)** — How to build a rigorous ICP with exclusion criteria
-- **[Positioning and Messaging](./03-positioning-and-messaging.md)** — Crafting positioning that wins
-- **[Channels Bullseye](./01-gtm-channels-bullseye.md)** — Channel selection framework
+- **[What is GTM?](./00-what-is-gtm.md)**: The definition and scope of GTM as a discipline
+- **[ICP Definition](./02-icp-definition.md)**: How to build a rigorous ICP with exclusion criteria
+- **[Positioning and Messaging](./03-positioning-and-messaging.md)**: Crafting positioning that wins
+- **[Channels Bullseye](./01-gtm-channels-bullseye.md)**: Channel selection framework
 
-{/* Roadmap — pages not yet written; add back as links when they land:
+{/* Roadmap: pages not yet written; add back as links when they land:
 Pricing as GTM, GTM Metrics, GTM Funnel, Outbound, Inbound, Product-Led, ABM */}
 
 ---
 
 ## Further Reading
 
-- Bain & Company — [Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/) — The Analyze/Design/Deliver framework this page is built on
-- Forrester Research — [The State of GTM 2024](https://www.forrester.com/) — 76% of organizations have reinvented their GTM approach. 70% of B2B buyer journey is self-serve
-- Asana — [Go to Market GTM Strategy: Definition & 9-Step Guide](https://asana.com/resources/go-to-market-gtm-strategy) — Practical step-by-step with examples
-- Elefante RevOps — [Creating a Winning GTM Strategy: Step-by-Step Guide](https://elefanterevops.com/blog/gtm-strategy) — 2026 GTM planning with TAM/SAM/SOM/PAM and channel guidance
-- Slideworks — [Complete GTM Strategy Framework with Examples](https://slideworks.io/resources/go-to-market-gtm-strategy) — Bain/McKinsey-style framework with 8-step process
-- Gartner — [Go-to-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework) — Enterprise GTM framework with RACI alignment
-- GTM Alliance — [9 Types of GTM Strategy](https://www.gotomarketalliance.com/9-types-of-go-to-market-strategy/) — Overview of GTM motion types
+- Bain & Company: [Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/): The Analyze/Design/Deliver framework this page is built on
+- Forrester Research: [The State of GTM 2024](https://www.forrester.com/): 76% of organizations have reinvented their GTM approach. 70% of B2B buyer journey is self-serve
+- Asana: [Go to Market GTM Strategy: Definition & 9-Step Guide](https://asana.com/resources/go-to-market-gtm-strategy): Practical step-by-step with examples
+- Elefante RevOps: [Creating a Winning GTM Strategy: Step-by-Step Guide](https://elefanterevops.com/blog/gtm-strategy): 2026 GTM planning with TAM/SAM/SOM/PAM and channel guidance
+- Slideworks: [Complete GTM Strategy Framework with Examples](https://slideworks.io/resources/go-to-market-gtm-strategy): Bain/McKinsey-style framework with 8-step process
+- Gartner: [Go-to-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework): Enterprise GTM framework with RACI alignment
+- GTM Alliance: [9 Types of GTM Strategy](https://www.gotomarketalliance.com/9-types-of-go-to-market-strategy/): Overview of GTM motion types
 
 ---
 

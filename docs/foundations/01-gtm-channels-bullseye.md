@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 01 — GTM Channels Bullseye Framework
+# 01: GTM Channels Bullseye Framework
 
 **Goal**: Efficiently discover your single highest-leverage acquisition channel instead of spreading effort across too many at once.
 

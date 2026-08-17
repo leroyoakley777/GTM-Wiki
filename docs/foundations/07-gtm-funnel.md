@@ -29,11 +29,11 @@ The funnel serves three jobs:
 
 Without a defined funnel, teams optimize for different things. Marketing counts leads. Sales counts opportunities. Leadership counts revenue. Nobody is measuring the same transitions, so nobody can tell you why Q3 pipeline fell short.
 
-A funnel makes the leak visible. If you have 10,000 visitors, 200 MQLs, 20 SQLs, and 2 closed deals, the question is not "is our conversion rate low?" — the question is "which transition is broken?" Is it TOFU-to-MOFU? MOFU-to-BOFU? Or is the handoff from marketing to sales broken?
+A funnel makes the leak visible. If you have 10,000 visitors, 200 MQLs, 20 SQLs, and 2 closed deals, the question is not "is our conversion rate low?" The question is "which transition is broken?" Is it TOFU-to-MOFU? MOFU-to-BOFU? Or is the handoff from marketing to sales broken?
 
 Research from Funnel.io shows that brands applying a full-funnel strategy achieve 45% higher ROI than competitors that focus on a single stage. The reason is straightforward: a prospect who reads a TOFU blog post needs a clear next step into MOFU content, and a MOFU webinar attendee needs a BOFU proof point to move forward. Without those bridges, even well-trafficked content programs stall at awareness.
 
-The ZoomInfo 2026 B2B content marketing guide identifies content misalignment as the most common reason B2B content programs underperform — sending awareness content to decision-ready buyers, and sales-focused content to people still researching the problem.
+The ZoomInfo 2026 B2B content marketing guide identifies content misalignment as the most common reason B2B content programs underperform: sending awareness content to decision-ready buyers, and sales-focused content to people still researching the problem.
 
 A funnel gives you the vocabulary to fix that.
 
@@ -51,21 +51,21 @@ A practical GTM funnel for a B2B SaaS company typically looks like this:
 
 The prospect realizes they have a problem and discovers that solutions exist. They are not ready to buy. They are researching.
 
-**Entrance criterion**: A visitor arrives from a channel you control or influence — organic search, paid ad, social, event, referral, or outbound touch.
+**Entrance criterion**: A visitor arrives from a channel you control or influence: organic search, paid ad, social, event, referral, or outbound touch.
 
-**Exit criterion**: The visitor takes an action that signals genuine interest — signs up for a trial, downloads gated content, requests a demo, or engages with sales.
+**Exit criterion**: The visitor takes an action that signals genuine interest: signs up for a trial, downloads gated content, requests a demo, or engages with sales.
 
 **What you do here**: Get noticed. Educate, do not sell. Answer the questions your ICP is asking. SEO content, social, paid brand campaigns, PR, community presence, events.
 
 **Metrics**: Traffic, new users, branded search growth, share of voice, time on page, content engagement rate. Direct revenue attribution is usually impossible at this stage.
 
-**Conversion benchmark**: The TOFU-to-MQL conversion rate is estimated at roughly 4.6% for broad-awareness content. This is not a target to hit — it is a signal that TOFU traffic is inherently unqualified and you should not be surprised by low conversion rates here.
+**Conversion benchmark**: The TOFU-to-MQL conversion rate is estimated at roughly 4.6% for broad-awareness content. This is not a target to hit. It is a signal that TOFU traffic is inherently unqualified and you should not be surprised by low conversion rates here.
 
 ### 2. Consideration (MOFU)
 
-The prospect knows their problem and is comparing solutions. They are evaluating approaches and vendors. This is where buying committees start to form — champions and end users engage early, economic buyers typically enter later.
+The prospect knows their problem and is comparing solutions. They are evaluating approaches and vendors. This is where buying committees start to form: champions and end users engage early, economic buyers typically enter later.
 
-**Entrance criterion**: The prospect has taken a TOFU action that qualifies them — downloaded a guide, attended a webinar, started a trial, or engaged with outbound outreach.
+**Entrance criterion**: The prospect has taken a TOFU action that qualifies them: downloaded a guide, attended a webinar, started a trial, or engaged with outbound outreach.
 
 **Exit criterion**: The prospect requests a demo, enters a sales conversation, qualifies as an SQL, or begins a proof-of-concept.
 
@@ -87,7 +87,7 @@ The prospect is ready to buy but needs final validation. They are evaluating pri
 
 **Metrics**: SQL-to-opportunity conversion rate, opportunity-to-close rate, sales cycle length, win rate, average deal size, pipeline coverage ratio.
 
-**Key risk**: BOFU is where most of the leverage is. A small improvement in win rate or sales cycle length compounds across every deal. Yet most teams underinvest here because it requires sales enablement materials, reference programs, and tight sales-marketing coordination — not just more blog posts.
+**Key risk**: BOFU is where most of the leverage is. A small improvement in win rate or sales cycle length compounds across every deal. Yet most teams underinvest here because it requires sales enablement materials, reference programs, and tight sales-marketing coordination: not just more blog posts.
 
 ### 4. Land the Deal
 
@@ -103,7 +103,7 @@ This is the transaction. The prospect becomes a paying customer. In a Modern GTM
 
 Expansion is a second funnel iteration inside an existing account. The initial customer proves value, then you pursue additional licenses, upgrades, add-on products, or expansion into new departments. This is where land-and-expand models earn their ROI.
 
-**Entrance criterion**: A customer hit a success milestone — adoption threshold, ROI proof point, or a new team expressed interest.
+**Entrance criterion**: A customer hit a success milestone: adoption threshold, ROI proof point, or a new team expressed interest.
 
 **Exit criterion**: An expansion deal is closed-won.
 
@@ -159,7 +159,7 @@ Define the handoff explicitly:
 
 - What does marketing promise sales at the handoff point?
 - What does sales promise to follow up on?
-- What is the SLA — how fast does sales respond to a marketing-sourced lead?
+- What is the SLA: how fast does sales respond to a marketing-sourced lead?
 - What happens to leads that are not ready? Do they go into a nurture sequence or get discarded?
 
 ### Step 5: Instrument and review
@@ -169,13 +169,13 @@ You need a shared dashboard that shows stage-by-stage volume and conversion rate
 Treat the review as a diagnosis session rather than a status update. Ask:
 
 - Which stage conversion dropped this week/month?
-- What changed — campaign, season, competitive move, product change?
+- What changed: campaign, season, competitive move, product change?
 - What is the hypothesis for the drop?
 - What test will we run to confirm or refute it?
 
 ### Step 6: Iterate
 
-Your first funnel definition will be wrong in places. That is expected. The goal is not to get it perfect on day one — the goal is to have a system that improves over time as you learn where deals drop off.
+Your first funnel definition will be wrong in places. That is expected. The goal is not to get it perfect on day one. The goal is to have a system that improves over time as you learn where deals drop off.
 
 Treat funnel stage definitions as living documents. Reevaluate them when you add a new channel, change pricing, enter a new segment, or when conversion rates at a stage stay flat for multiple quarters despite intervention.
 
@@ -192,7 +192,7 @@ B2B and B2C funnels share the same shape: many enter at the top, fewer reach the
 | Content depth | Educational, ROI-focused, multi-touch | Emotional, immediate, single-touch |
 | Purchase driver | Business case and ROI | Personal preference or impulse |
 
-The practical implication: B2B content must serve multiple stakeholders simultaneously — the end user evaluating features, the champion building the business case, and the economic buyer approving the budget. Each of these personas consumes different content at different stages. A single piece of TOFU content rarely serves all three.
+The practical implication: B2B content must serve multiple stakeholders simultaneously: the end user evaluating features, the champion building the business case, and the economic buyer approving the budget. Each of these personas consumes different content at different stages. A single piece of TOFU content rarely serves all three.
 
 ---
 
@@ -204,7 +204,7 @@ If your funnel stages are "Marketing Leads," "Sales Leads," and "Customers," you
 
 **Mistake 2: Measuring only the top of the funnel.**
 
-Traffic is the easiest metric to track and the most dangerous to optimize for. A blog post that gets 10,000 views and zero trial signups is not a success — it is a vanity metric. ZoomInfo: "Most B2B content programs over-invest in TOFU and underinvest in MOFU and BOFU." Traffic alone does not close deals. If you have strong TOFU traffic but low MOFU conversion, invest in nurture content. If you have strong MOFU engagement but low BOFU conversion, invest in sales enablement and proof points.
+Traffic is the easiest metric to track and the most dangerous to optimize for. A blog post that gets 10,000 views and zero trial signups is not a success. It is a vanity metric. ZoomInfo: "Most B2B content programs over-invest in TOFU and underinvest in MOFU and BOFU." Traffic alone does not close deals. If you have strong TOFU traffic but low MOFU conversion, invest in nurture content. If you have strong MOFU engagement but low BOFU conversion, invest in sales enablement and proof points.
 
 **Mistake 3: No defined entrance and exit criteria.**
 
@@ -216,11 +216,11 @@ Buyers do not move neatly from TOFU to MOFU to BOFU. They loop back. They jump a
 
 **Mistake 5: Optimizing a single stage in isolation.**
 
-Improving TOFU conversion by 20% does not help if MOFU conversion is broken. A full-funnel view is required because each stage depends on the quality of what comes into it. Funnel.io reports that full-funnel brands achieve 45% higher ROI than single-stage optimizers — the mechanism is that each stage is tuned to feed the next one effectively.
+Improving TOFU conversion by 20% does not help if MOFU conversion is broken. A full-funnel view is required because each stage depends on the quality of what comes into it. Funnel.io reports that full-funnel brands achieve 45% higher ROI than single-stage optimizers. The mechanism is that each stage is tuned to feed the next one effectively.
 
 **Mistake 6: Ignoring the expansion funnel.**
 
-Land-and-expand is not optional for most SaaS companies — it is where the unit economics work. If you only measure new logo acquisition and ignore expansion, you are missing the second half of the funnel. NRR below 100% means your land deals are shrinking faster than you can replace them.
+Land-and-expand is not optional for most SaaS companies. It is where the unit economics work. If you only measure new logo acquisition and ignore expansion, you are missing the second half of the funnel. NRR below 100% means your land deals are shrinking faster than you can replace them.
 
 **Mistake 7: No shared dashboard or review cadence.**
 
@@ -237,17 +237,17 @@ The funnel is the spine. Everything else attaches to it:
 - **GTM metrics** ([./05-gtm-metrics.md](./05-gtm-metrics.md)): The funnel is the structure on which you organize your metrics. CAC, LTV, payback period, and pipeline coverage are all derived from funnel data.
 - **GTM channels** ([./01-gtm-channels-bullseye.md](./01-gtm-channels-bullseye.md)): Each channel feeds a different part of the funnel. Outbound tends to enter at MOFU. SEO and content tend to enter at TOFU. You need to know which channels feed which stages before you can allocate budget.
 - **Outbound playbook** ([../playbooks/outbound-from-zero.md](../playbooks/outbound-from-zero.md)): Outbound is a MOFU-to-BOFU motion. It bypasses TOFU entirely by targeting accounts that already have intent or fit.
-- **Agentic outbound** ([../agentic/02-agentic-outbound.md](../agentic/02-agentic-outbound.md)): AI agents can operate across funnel stages — scoring leads, personalizing nurture, accelerating follow-up. But they require clean stage definitions and entrance/exit criteria to function. A fuzzy funnel produces a fuzzy agent.
+- **Agentic outbound** ([../agentic/02-agentic-outbound.md](../agentic/02-agentic-outbound.md)): AI agents can operate across funnel stages: scoring leads, personalizing nurture, accelerating follow-up. But they require clean stage definitions and entrance/exit criteria to function. A fuzzy funnel produces a fuzzy agent.
 
 ---
 
 ## Further Reading
 
-- Unusual Ventures, "GTM Funnel Stages, Metrics, and Goals for B2B Startups" — [https://www.unusual.vc/field-guide/gtm-funnel-stages-metrics-goals-for-b2b-startups/](https://www.unusual.vc/field-guide/gtm-funnel-stages-metrics-goals-for-b2b-startups/)
-- Funnel.io, "Understanding the TOFU, MOFU, BOFU Funnel Model" — [https://funnel.io/blog/tofu-mofu-bofu](https://funnel.io/blog/tofu-mofu-bofu)
-- ZoomInfo Pipeline, "B2B Content Marketing Funnel: A Complete 2026 Guide" — [https://pipeline.zoominfo.com/marketing/b2b-marketing-funnels](https://pipeline.zoominfo.com/marketing/b2b-marketing-funnels)
-- Elias St. Elmo Lewis, AIDA model (1898) — the original four-stage framework that TOFU/MOFU/BOFU evolved from.
-- Flint McGlaughlin, "The Buying Brain" — on the psychology of funnel stages and why buyers move (or do not move) between them.
+- Unusual Ventures, "GTM Funnel Stages, Metrics, and Goals for B2B Startups": [https://www.unusual.vc/field-guide/gtm-funnel-stages-metrics-goals-for-b2b-startups/](https://www.unusual.vc/field-guide/gtm-funnel-stages-metrics-goals-for-b2b-startups/)
+- Funnel.io, "Understanding the TOFU, MOFU, BOFU Funnel Model": [https://funnel.io/blog/tofu-mofu-bofu](https://funnel.io/blog/tofu-mofu-bofu)
+- ZoomInfo Pipeline, "B2B Content Marketing Funnel: A Complete 2026 Guide": [https://pipeline.zoominfo.com/marketing/b2b-marketing-funnels](https://pipeline.zoominfo.com/marketing/b2b-marketing-funnels)
+- Elias St. Elmo Lewis, AIDA model (1898): the original four-stage framework that TOFU/MOFU/BOFU evolved from.
+- Flint McGlaughlin, "The Buying Brain": on the psychology of funnel stages and why buyers move (or do not move) between them.
 
 ---
 

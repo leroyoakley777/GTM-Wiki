@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Roles — RevOps
+title: "Roles: RevOps"
 ---
 
 # RevOps

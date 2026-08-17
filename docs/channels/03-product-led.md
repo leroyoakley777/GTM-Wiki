@@ -12,7 +12,7 @@ parent: channels/index
 # Product-Led Growth
 
 **Goal**: decide whether the product should be the salesperson, then run
-the funnel — signup → activation → pay — with conversion numbers you can
+the funnel (signup → activation → pay) with conversion numbers you can
 measure against a named baseline instead of a guess.
 
 Product-led growth is the channel where the buyer experiences value
@@ -40,13 +40,13 @@ on.
 
 ## One Number That Matters Most
 
-**Free-to-paid conversion — a good freemium self-serve rate is 3–5%,
+**Free-to-paid conversion: a good freemium self-serve rate is 3–5%,
 a great one 6–8%, and a good free-trial rate is 8–12%, great 15–25%.**
 That spread is the whole story of PLG in one figure: the trial model you
 pick *sets* the conversion band you can reach, before you change a single
 onboarding step.
 
-Measure it on a **cohort basis** — the share of new accounts that begin
+Measure it on a **cohort basis**: the share of new accounts that begin
 paying within their first six months, divided by total new accounts
 created in the window ([Lenny's Newsletter × OpenView × Pendo, 1,000+
 product survey, Aug 2023](https://openviewpartners.com/2023-product-benchmarks/)).
@@ -74,7 +74,7 @@ channel first. PLG is right when **all four** hold:
   salesperson.
 - **Trial is cheap to give.** Low setup, low data burden, no sales
   orchestration needed to get a user to first value. The easier the
-  trial, the more signups — but that ease and conversion pull against
+  trial, the more signups, but that ease and conversion pull against
   each other, and that tension is the whole design problem.
 - **You can instrument usage.** PLG only works if you can see which free
   users are getting value. That requires product analytics and a written
@@ -92,11 +92,11 @@ or [ABM](../channels/abm) instead.
 
 **Acceptance gate:** you can name the activation moment in one sentence
 and you can measure it. If you cannot instrument usage, you cannot run
-PLG — you can only run a free trial that nobody measures.
+PLG: you can only run a free trial that nobody measures.
 
 ---
 
-## Product-Led Funnel — Signup → Activation → Pay
+## Product-Led Funnel: Signup → Activation → Pay
 
 PLG is a funnel like any other, but the stages are product events, not
 CRM statuses. Name each stage and measure the leak between them before
@@ -124,7 +124,7 @@ top-of-funnel and conversion into one number.
 | **Opt-in free trial** (no CC) | ~8.5% | ~18% | ~15 |
 | **Opt-out free trial** (CC required) | ~2.5% | ~49% | ~12 |
 | **Freemium** (free forever tier) | ~13% | ~3–9% | ~3–5 |
-| **Ungated freemium** (try before account) | ~7% | — | ~5.6 |
+| **Ungated freemium** (try before account) | ~7% | n/a | ~5.6 |
 
 ([First Page Sage / Pulseahead, trial-to-paid benchmarks](https://www.pulseahead.com/blog/trial-to-paid-conversion-benchmarks-in-saas))
 
@@ -132,7 +132,7 @@ The tension is genuine and it *is* the PLG design problem. Opt-out trials
 convert signups to paid at ~49%, but the credit-card wall crushes
 visitor → signup to ~2.5%, so the paying-per-1k outcome ends up roughly
 flat against opt-in. Freemium pulls far more visitors to signup (~13%)
-but pays a tiny fraction of them. None is "right" — each buys a different
+but pays a tiny fraction of them. None is "right": each buys a different
 funnel:
 
 - **Opt-out trial** = highest per-signup commitment, lowest top-of-
@@ -154,10 +154,10 @@ Manage that expectation before you make the change.
 ### Signup-rate benchmarks
 
 Sign-up rate is the counterweight to conversion. Freemium products sign
-up at ~9% of visitors, free-trial products at ~5% — the time pressure of
+up at ~9% of visitors, free-trial products at ~5%: the time pressure of
 a trial makes people wait until they are serious ([Lenny's × OpenView ×
 Pendo, 2023](https://openviewpartners.com/2023-product-benchmarks/)).
-A high signup rate on its own is not success — it is the start of a funnel
+A high signup rate on its own is not success: it is the start of a funnel
 you then have to convert.
 
 ---
@@ -166,7 +166,7 @@ you then have to convert.
 
 Activation is the stage that separates PLG companies that compound from
 companies with a free trial and a hope. Define it as the single usage
-event that correlates with retention and payment — the "first value
+event that correlates with retention and payment, the "first value
 achieved" moment, not "logged in once."
 
 Standard candidates: created first document, ran first report, invited
@@ -200,17 +200,17 @@ anything else. Compare yourself to the right slice ([Lenny's × OpenView
 | Free trial | 8–12% good, 15–25% great |
 | Freemium product, distribution | ~20% convert under 2.5%, ~33% between 2.5–5%, only ~15% exceed 20% |
 | Free-trial product, distribution | only ~7% under 2.5%, ~24% between 7.5–10%, ~14% reach 20% |
-| Developer-focused company | median ~5% — half the rate of companies that do not sell to developers |
+| Developer-focused company | median ~5%: half the rate of companies that do not sell to developers |
 
 Two reads from the data. First, sales-assist freemium converts roughly
-2–3x a pure self-serve freemium at the same product — a human on the
+2–3x a pure self-serve freemium at the same product: a human on the
 activated users nearly always pays for itself. Second, developer products
 convert at half the rate of the rest, so a developer-tool company should
 benchmark against ~5%, not the 9% median, and plan the motion accordingly.
 
 ---
 
-## Growth Loops — Virality and Self-Serve
+## Growth Loops: Virality and Self-Serve
 
 PLG compounds when the product pulls in the next user, not when a
 campaign does. The two loop types:
@@ -220,12 +220,12 @@ campaign does. The two loop types:
   toward the cost of the free signup. This is the loop freemium and
   trial models both run.
 - **Viral / share loop.** Each user brings another through the product
-  itself — an invite, a shared document, a visible output, a cross-
+  itself: an invite, a shared document, a visible output, a cross-
   functional workflow. This is the loop that made Slack, Calendly, and
   Figma grow without paid acquisition (see [Product-Led Growth Case
   Studies](../case-studies/product-led)).
 
-Measure a viral loop with the **viral coefficient** — the number of new
+Measure a viral loop with the **viral coefficient**: the number of new
 users each existing user brings in within one cycle. A coefficient below
 1.0 adds pipeline but needs fuel from elsewhere. Above 1.0, growth
 compounds on its own. The fuller treatment of loops and the coefficient
@@ -233,17 +233,17 @@ is on the [Referral & Viral](../channels/referral-viral) page.
 
 For PLG, the loop that matters is usually the **shared output**: the
 user's work product becomes the distribution. A booking link, a shared
-board, a published design, a comment thread — each is a free ad that
+board, a published design, a comment thread: each is a free ad that
 pulls in a new user who already sees value before they sign up. If your
 product produces nothing worth sharing, you are running a funnel, not a
 loop, and you should price the acquisition cost accordingly.
 
 ---
 
-## PQLs — PLG's Conversion Gate
+## PQLs: PLG's Conversion Gate
 
 **Product-Qualified Leads (PQLs) are free users who hit a defined
-trigger — activation, a usage threshold, an expansion signal — that
+trigger (activation, a usage threshold, an expansion signal) that
 marks them as likely buyers.** They are the PLG version of the ICP fit
 gate, and they are the single highest-leverage mechanism in the channel.
 
@@ -257,7 +257,7 @@ Sales-assist freemium (which routes activated users to sales) converts at
 This is the counterintuitive part of PLG: **a product-led company that
 never uses sales to close its best free users leaves money on the table.**
 The product wins the top of the funnel. The humans still close the users
-the product has qualified. PLG is not "no sales" — it is sales only where
+the product has qualified. PLG is not "no sales": it is sales only where
 the product has proven fit. Roughly **44% of free-trial companies have
 sales reach out directly to more than half their signups**, double the
 rate of freemium companies (24%) ([Lenny's × OpenView × Pendo,
@@ -267,7 +267,7 @@ Define the PQL trigger in product terms, not persona terms:
 
 | PQL signal | What it means |
 |---|---|
-| Reached activation | Got first value — ready for the paid nudge |
+| Reached activation | Got first value, ready for the paid nudge |
 | Crossed a usage threshold | e.g. seats, documents, events, volume |
 | Invited teammates | Organic expansion intent |
 | Hit a feature that is paywalled | Direct upgrade trigger |
@@ -275,7 +275,7 @@ Define the PQL trigger in product terms, not persona terms:
 
 ---
 
-## Tools — the Stack That Makes PLG Measurable
+## Tools: the Stack That Makes PLG Measurable
 
 PLG fails without instrumentation. Here is a stack that works end to end,
 what each layer does, and how it wires together:
@@ -293,30 +293,30 @@ what each layer does, and how it wires together:
 The rule that keeps the stack honest: **instrument before you scale.**
 An un-instrumented signup flow is a black box, and you will optimize
 against gut feel instead of the event data. If you only adopt two tools,
-adopt product analytics and billing — everything else hangs off those.
+adopt product analytics and billing: everything else hangs off those.
 
 ---
 
-## Sequencing — the Four-Phase Build
+## Sequencing: the Four-Phase Build
 
 PLG is a product build, not a campaign. Sequence it so each phase
 produces a measurable signal before the next:
 
-**Phase 0 — Validate the value.** Before any instrumentation, confirm the
+**Phase 0: Validate the value.** Before any instrumentation, confirm the
 product reaches an aha moment without a human. Run a handful of manual
 onboardings and watch where users stall. If the aha needs your hands,
 fix the product first. Gate: a user reaches activation without help.
 
-**Phase 1 — Instrument the funnel.** Ship product analytics. Define the
+**Phase 1: Instrument the funnel.** Ship product analytics. Define the
 activation event. Measure visitor → signup → activation → pay on real
 traffic. Gate: you can report free-to-paid conversion by cohort.
 
-**Phase 2 — Convert.** Fix activation, add the upgrade nudge at the
+**Phase 2: Convert.** Fix activation, add the upgrade nudge at the
 plan-limit moment, then add PQL scoring and route activated users to
 sales or self-serve. Gate: free-to-paid conversion sits inside your
 model's healthy band. Do not buy more traffic until it does.
 
-**Phase 3 — Expand and loop.** Turn the product's shared output into a
+**Phase 3: Expand and loop.** Turn the product's shared output into a
 viral loop. Add expansion pricing and a customer-success motion on the
 paid base. Gate: NRR and the viral coefficient are measured and moving
 in the right direction.
@@ -327,13 +327,13 @@ compounds a broken funnel.
 
 ---
 
-## Handoff to Sales — Where PLG Dies or Compounds
+## Handoff to Sales: Where PLG Dies or Compounds
 
 Most PLG companies fail the handoff, then blame the channel. Fix the
 handoff before you scale it:
 
 1. **Define the PQL meeting standard.** Write down who counts as a
-   qualified handoff — activated user + budget signal + buying intent.
+   qualified handoff: activated user + budget signal + buying intent.
    If you cannot write it, the handoff is a lottery.
 2. **Route on product signal, not on request.** Sales should touch users
    the product has qualified, not every signup. The trigger event is the
@@ -354,7 +354,7 @@ company with a free trial.
 
 ---
 
-## Case Matrix — SMB Self-Serve vs Enterprise-Led Expansion
+## Case Matrix: SMB Self-Serve vs Enterprise-Led Expansion
 
 PLG splits into two very different motions. The documented Slack,
 Calendly, and Figma builds are detailed on [Product-Led Growth Case
@@ -364,7 +364,7 @@ Studies](../case-studies/product-led). Here is the operating matrix.
 |---|---|---|
 | Primary buyer | Individual / small team | Department buying into org-wide rollout |
 | Free tier job | Deliver value, self-convert | Deliver value, then expand seats/seats org-wide |
-| Sales role | Rare, on high-signal PQLs only | Central — land small, expand through champions |
+| Sales role | Rare, on high-signal PQLs only | Central: land small, expand through champions |
 | Key metric | Free-to-paid conversion | NRR and seat/license expansion |
 | ACV | Low (self-serve pays for itself) | High enough to justify a human on expansion |
 | Case pattern | Calendly: shared link self-serves and virals | Figma: free design team grows, then enterprise design systems |
@@ -373,7 +373,7 @@ Studies](../case-studies/product-led). Here is the operating matrix.
 
 The failure that spans both: **treating the enterprise motion as a
 bigger SMB motion.** Enterprise-led expansion needs a security review,
-procurement, SSO/SAML, and a champion who pushes adoption org-wide —
+procurement, SSO/SAML, and a champion who pushes adoption org-wide,
 none of which the SMB playbook provides. If you are chasing enterprise
 deals, add the enterprise-ready features before you call the motion PLG.
 
@@ -391,8 +391,8 @@ seat/license expansion as the second funnel after free-to-paid.
 | "Freemium will cannibalize paid" | Fear of giving value away | A free tier that converts at 3–5% still nets more than a trial nobody takes. Measure paying-per-1k-visitors, not the free load |
 | "We need a demo for people to get it" | Product too complex for PLG today | Fix activation before scaling. PLG is a product build, not a marketing toggle |
 | "We already have sales doing fine" | PLG + sales can coexist | Keep sales for expansion/enterprise, route the self-serve base through the product. Both win |
-| "Our conversion is 2% — we're failing" | Wrong benchmark | If you are freemium, 3–5% is good. Compare to your model slice, not the 9% median |
-| "If we add a CC wall we'll lose signups" | True, by design | You will — but paying-per-1k-visitors may hold flat. Decide which funnel shape you want |
+| "Our conversion is 2%: we're failing" | Wrong benchmark | If you are freemium, 3–5% is good. Compare to your model slice, not the 9% median |
+| "If we add a CC wall we'll lose signups" | True, by design | You will, but paying-per-1k-visitors may hold flat. Decide which funnel shape you want |
 | No growth after launch | A spike, not a loop | There is no shared-output loop. Build the viral mechanic or price acquisition in |
 
 **The edge case that bites hardest:** a company runs PLG as a free trial
@@ -404,24 +404,24 @@ If you cannot instrument, you did not run PLG.
 
 ## Failure Modes and Fixes
 
-- **Scaling traffic before activation is fixed** — you buy visitors for a
+- **Scaling traffic before activation is fixed**: you buy visitors for a
   funnel that leaks at the aha moment. Fix activation first, and conversion
   lifts compound across every cohort.
-- **Measuring signups as success** — a frictionless signup that never
+- **Measuring signups as success**: a frictionless signup that never
   pays is a cost. Watch paying-per-1k-visitors, not signup conversion.
-- **Quoting "the" free-to-paid rate** — the 9% median hides the spread.
+- **Quoting "the" free-to-paid rate**: the 9% median hides the spread.
   Compare to your model slice, not the blended average.
-- **No PQL gate** — every signup gets the same treatment, so the users
+- **No PQL gate**: every signup gets the same treatment, so the users
   worth selling to never reach a human. Route activated users to sales
   and conversion roughly triples ([Gainsight, 2022](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)).
-- **Sales on every signup** — you become sales-led with a free trial and
+- **Sales on every signup**: you become sales-led with a free trial and
   lose the unit economics of self-serve. Sales enters on product signal
   only.
-- **A free tier with no plan-limit moment** — nothing pushes the user to
+- **A free tier with no plan-limit moment**: nothing pushes the user to
   pay. Ship the upgrade nudge at the limit, not a banner.
-- **No expansion motion** — free-to-paid is capped but NRR is not. Build
+- **No expansion motion**: free-to-paid is capped but NRR is not. Build
   the second funnel: seats, tiers, and add-ons on the paid base.
-- **Forgetting the enterprise layer** — chasing enterprise deals without
+- **Forgetting the enterprise layer**: chasing enterprise deals without
   SSO, security review, and procurement support is a logo trap.
 
 ---
@@ -438,7 +438,7 @@ on [Agentic GTM](../agentic/agentic-gtm-overview). The reusable shape:
 | PQL detection | Watches product events, scores users against the PQL trigger, creates CRM records | The trigger definition, not every record |
 | Activation triage | Segments activated vs stalled users, fires the right in-app or email nudge | The playbook logic |
 | Sales routing | Routes qualified PQLs to the right rep or self-serve path with a usage brief | The routing policy |
-| Handoff brief | Drafts the account brief from product usage — what they used, when, what they hit | The brief, then the rep takes over |
+| Handoff brief | Drafts the account brief from product usage, what they used, when, what they hit | The brief, then the rep takes over |
 | Expansion signals | Flags expansion triggers (seat growth, plan-limit hits, usage spikes) for CS | The expansion play |
 
 **The one-prompt starter for PQL routing** (adapt to your stack):
@@ -448,19 +448,19 @@ You are scoring free accounts against our PQL definition. For each
 account, pull product usage and return a record with: account,
 activation reached (yes/no), the trigger event and its timestamp, usage
 thresholds crossed, and a one-line reason this account is a qualified
-handoff. Route only accounts that hit the trigger — the gate is "product
+handoff. Route only accounts that hit the trigger: the gate is "product
 signal, not request." Return only records that pass.
 ```
 
 **Three guardrails that keep it honest** (from [Guardrails &
 Measurement](../agentic/guardrails-and-measurement)):
 
-1. **Trigger coverage is complete** — if the agent misses an activation
+1. **Trigger coverage is complete**: if the agent misses an activation
    event because instrumentation is thin, the PQL gate is fake. Instrument
    before you automate.
-2. **Human approval on the routing policy, not every handoff** — define
+2. **Human approval on the routing policy, not every handoff**: define
    the trigger once, let the agent execute, review the outcomes weekly.
-3. **Never sell to un-activated users at scale** — an agent that routes
+3. **Never sell to un-activated users at scale**: an agent that routes
    every signup to sales turns a self-serve motion back into a leaky
    sales-led one. The product signal stays the gate.
 
@@ -472,39 +472,39 @@ benchmarks](https://productled.com/blog/product-led-growth-benchmarks)).
 
 ## Sources
 
-- [Lenny's Newsletter × OpenView × Pendo — "What is good free-to-paid
-  conversion"](https://openviewpartners.com/2023-product-benchmarks/) —
+- [Lenny's Newsletter × OpenView × Pendo: "What is good free-to-paid
+  conversion"](https://openviewpartners.com/2023-product-benchmarks/):
   1,000+ product survey, Aug 2023. Freemium self-serve 3–8%, freemium +
   sales-assist 5–15%, free-trial 8–25%; signup 5% trial vs 9% freemium;
   developer median ~5%; 44% of trial companies route >half signups to
   sales.
-- [Gainsight — Product-Led Growth Index](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)
-  — free trials using PQLs convert 2.8x higher, 2022.
-- [First Page Sage / Pulseahead — Trial-to-Paid Benchmarks](https://www.pulseahead.com/blog/trial-to-paid-conversion-benchmarks-in-saas)
-  — opt-in ~18%, opt-out ~49%, freemium ~3–9%, per-1k-visitors outcomes.
-- [ChartMogul / Userpilot — SaaS Conversion](https://userpilot.com/blog/saas-average-conversion-rate/)
-  — a 1-point free-to-paid lift ≈ +15% new revenue per cohort.
-- [ProductLed — Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks)
-  — 600+ B2B SaaS survey: ~9% median free-to-paid, ~25–30% with PQLs.
-- [Sixteen Ventures, Lincoln Murphy — SaaS Free Trial Benchmarks](https://sixteenventures.com/saas-free-trial-benchmarks)
-  — opt-in top performers above 25%, opt-out above 60%, and the warning
+- [Gainsight: Product-Led Growth Index](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)
+  : free trials using PQLs convert 2.8x higher, 2022.
+- [First Page Sage / Pulseahead: Trial-to-Paid Benchmarks](https://www.pulseahead.com/blog/trial-to-paid-conversion-benchmarks-in-saas)
+  : opt-in ~18%, opt-out ~49%, freemium ~3–9%, per-1k-visitors outcomes.
+- [ChartMogul / Userpilot: SaaS Conversion](https://userpilot.com/blog/saas-average-conversion-rate/)
+  : a 1-point free-to-paid lift ≈ +15% new revenue per cohort.
+- [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks)
+  : 600+ B2B SaaS survey: ~9% median free-to-paid, ~25–30% with PQLs.
+- [Sixteen Ventures, Lincoln Murphy: SaaS Free Trial Benchmarks](https://sixteenventures.com/saas-free-trial-benchmarks)
+  : opt-in top performers above 25%, opt-out above 60%, and the warning
   on switching CC walls.
 
 ---
 
 ## Further Reading
 
-- [Funnel Benchmarks](../data/funnel) — the stage-by-stage leakage PLG
+- [Funnel Benchmarks](../data/funnel): the stage-by-stage leakage PLG
   runs on, with the multiplicative math.
-- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks) — the
+- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks): the
   wider stage table with a second source set.
-- [Pricing as GTM](../data/pricing-as-gtm) — packaging, discounting, and
+- [Pricing as GTM](../data/pricing-as-gtm): packaging, discounting, and
   expansion pricing shape free-to-paid economics.
-- [Product-Led Growth Case Studies](../case-studies/product-led) —
+- [Product-Led Growth Case Studies](../case-studies/product-led):
   Slack, Calendly, and Figma with the documented numbers.
-- [Referral & Viral](../channels/referral-viral) — the viral coefficient
+- [Referral & Viral](../channels/referral-viral): the viral coefficient
   and share loops behind PLG growth.
-- [Channels Bullseye](../foundations/gtm-channels-bullseye) — how to pick
+- [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick
   PLG as your one best channel.
-- [Agentic Outbound](../agentic/agentic-outbound) — the human-in-the-loop
+- [Agentic Outbound](../agentic/agentic-outbound): the human-in-the-loop
   agent harness, transferable to PLG conversion.

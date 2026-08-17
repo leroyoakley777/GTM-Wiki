@@ -3,7 +3,7 @@ sidebar_position: 0
 title: What Is Agentic GTM?
 ---
 
-# 00 — What Is Agentic GTM?
+# 00: What Is Agentic GTM?
 
 **Goal**: understand what agentic GTM is, why it is the single biggest
 shift in how revenue teams operate since the CRM, and where it sits in
@@ -47,8 +47,8 @@ scale." (Source:
 
 The critical distinction: **automation follows a fixed rule. An agent
 follows a goal.** A sequence that sends email #3 on day 6 to everyone is
-automation. An agent that watches a trigger — a job change, a funding
-announcement, a website visit — researches the account, writes a
+automation. An agent that watches a trigger (a job change, a funding
+announcement, a website visit) researches the account, writes a
 personalized message, sends it on the right channel, and routes the
 reply to a human is agentic. (Source:
 [Apollo, Best Platform for Building an Agentic GTM Workflow](https://www.apollo.io/insights/best-platform-for-building-an-agentic-gtm-workflow-at-a-mid-market-b2b-company))
@@ -61,7 +61,7 @@ The clearest way to see why agentic GTM matters is to look at how
 revenue teams spend their time today.
 
 Most teams run a 2015 operating model with 2026 tools. They added
-transcription, ChatGPT email drafts, and predictive lead scores — but
+transcription, ChatGPT email drafts, and predictive lead scores, but
 the underlying structure never changed. A RevOps manager still spends
 four hours every Monday building pipeline reports. A marketing ops
 specialist still manually segments lists before every campaign. An SDR
@@ -81,8 +81,8 @@ SaaS company:
 
 The pattern is consistent: **the most skilled people on the team spend
 50-70% of their time on execution work that does not require their
-expertise.** Strategy, process design, and stakeholder leadership — the
-things that create a competitive advantage — get squeezed into
+expertise.** Strategy, process design, and stakeholder leadership (the
+things that create a competitive advantage) get squeezed into
 whatever time is left.
 
 That is not a resource problem but a structural one. Adding headcount
@@ -117,8 +117,8 @@ architects. People stop running the machine and start designing it.
 (Source:
 [AriseGTM, The Agentic GTM Operating Model](https://arisegtm.com/blog/the-agentic-gtm-operating-model))
 
-Economics alone justify the shift. But the compound effect — what
-happens when your best people spend their days doing their best work —
+Economics alone justify the shift. But the compound effect (what
+happens when your best people spend their days doing their best work)
 is harder to quantify and more valuable. That is the argument for
 agentic GTM.
 
@@ -135,7 +135,7 @@ An agentic GTM operating model rests on four interdependent pillars.
 Miss any one and the model breaks down. (Source:
 [AriseGTM, The Agentic GTM Operating Model](https://arisegtm.com/blog/the-agentic-gtm-operating-model))
 
-### Pillar 1 — Structured data foundation
+### Pillar 1: Structured data foundation
 
 Agents are only as good as the data they operate on. Before you deploy
 agents, you need structured, consistent data in your CRM and connected
@@ -155,7 +155,7 @@ This does not mean perfect data. No company has that. It means:
 If your data foundation is weak, start there. Agents can systematically
 improve it, but you need a baseline of structure to begin.
 
-### Pillar 2 — Documented process logic
+### Pillar 2: Documented process logic
 
 Agents execute processes. Before they can execute yours, those processes
 need to be documented clearly enough that a new team member could follow
@@ -171,7 +171,7 @@ agents. It forces clarity about how your revenue operations
 work and usually reveals inefficiencies that exist purely because nobody
 wrote down the official process.
 
-### Pillar 3 — Orchestrated system connectivity
+### Pillar 3: Orchestrated system connectivity
 
 An agentic operating model requires your systems to be connected so
 agents can read data, make decisions, and write outcomes across multiple
@@ -188,12 +188,12 @@ Practically, agents need read/write access to:
 - Marketing automation (campaign orchestration)
 - Sales engagement (sequence management)
 - Data enrichment (signal enhancement)
-- Communication (Slack, email — alerts and notifications)
+- Communication (Slack, email: alerts and notifications)
 
 You do not need all of these on day one. Start with CRM plus Slack plus
 one campaign platform. Build connectivity as you expand agent scope.
 
-### Pillar 4 — Human governance framework
+### Pillar 4: Human governance framework
 
 This is the most underestimated pillar. Agentic AI is not set-and-forget
 technology. It requires active human governance to perform well,
@@ -227,44 +227,44 @@ Deploying agentic GTM is not a one-week project but a staged rollout
 that starts where the data is cleanest and the process is most
 repetitive.
 
-### Stage 1 — Pick one lane and prove it
+### Stage 1: Pick one lane and prove it
 
 Do not redesign the whole revenue org at once. Pick one high-volume,
 repetitive lane: lead intake, data hygiene, or outbound prospecting.
 Prove the agent works on that lane with human oversight before scaling
 anywhere else.
 
-### Stage 2 — Fix the data and document the process
+### Stage 2: Fix the data and document the process
 
 Before the agent touches a live workflow, run the pillar-1 and
 pillar-2 work. Populate core fields. Standardize definitions. Write down
 the process logic. This is the boring work, and it is where most
 deployments are won or lost.
 
-### Stage 3 — Connect the minimum systems
+### Stage 3: Connect the minimum systems
 
 Start with CRM plus Slack plus one campaign platform. Give the agent
 read/write access to each. Get one end-to-end flow working: lead comes
 in, agent enriches and scores it, routes it, and alerts the right person
 in Slack.
 
-### Stage 4 — Define governance before you scale
+### Stage 4: Define governance before you scale
 
 Set escalation rules, confidence thresholds, audit cadence, and feedback
 loops before the agent operates at volume. Daily audits in week 1.
 Weekly by month 2. Monthly by month 6. Tighten escalation as the agent
 earns trust.
 
-### Stage 5 — Close the loop, then expand
+### Stage 5: Close the loop, then expand
 
 Once the first lane is stable and measured, add the feedback loop that
 lets the agent learn from outcomes, then expand to the next lane. Each
 new lane repeats the five stages.
 
 For the technical structure of how agents stack into a harness, see
-[01 — The Agentic Stack](./01-agentic-stack.md). For the deeper question
+[01: The Agentic Stack](./01-agentic-stack.md). For the deeper question
 of what to automate and what to keep human, see
-[06 — Agent vs Human Workflows](./agent-vs-human-workflows).
+[06: Agent vs Human Workflows](./agent-vs-human-workflows).
 
 ---
 
@@ -276,8 +276,8 @@ not endorsements:
 - **Autonomous AI SDRs.** Tools like Landbase and 11x run outbound
   agents that research accounts, write personalized messages, send on
   the right channel, and route replies. 11x brands its agents as
-  "AI employees" named Alice and Julian that operate goal-driven — "book
-  X meetings per week" — rather than step-by-step. (Source:
+  "AI employees" named Alice and Julian that operate goal-driven ("book
+  X meetings per week") rather than step-by-step. (Source:
   [Landbase, Top AI Agents](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies))
 - **Domain-specific models.** Landbase trains its GTM-1 engine on
   millions of campaigns and sales conversations, making the model
@@ -319,21 +319,21 @@ report to a governance framework you control.
   system too early and pull the plug.
 - **No human escalation for the judgment calls.** High-value deals, unusual
   exceptions, and regulated outreach must escalate to a human. The human
-  signs for the reputation. (See [01 — The Agentic Stack](./01-agentic-stack.md),
+  signs for the reputation. (See [01: The Agentic Stack](./01-agentic-stack.md),
   "What NOT to automate.")
 
 ---
 
 ## Further reading
 
-- [Highspot — Agentic AI: Go-to-Market Designed for the Next Decade](https://www.highspot.com/go-to-market-guide/agentic-ai-gtm/)
-- [AriseGTM — The Agentic GTM Operating Model](https://arisegtm.com/blog/the-agentic-gtm-operating-model)
-- [Landbase — Top AI Agents for Go-to-Market Strategies](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies)
-- [Forrester — 2026 Predictions: AI Moves from Hype to Hard-Hat Work](https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/)
-- [Apollo — Best Platform for an Agentic GTM Workflow](https://www.apollo.io/insights/best-platform-for-building-an-agentic-gtm-workflow-at-a-mid-market-b2b-company)
-- [SalesMotion — Best B2B Sales Automation Tools with AI Agents](https://salesmotion.io/blog/best-b2b-sales-automation-ai-agents)
+- [Highspot: Agentic AI: Go-to-Market Designed for the Next Decade](https://www.highspot.com/go-to-market-guide/agentic-ai-gtm/)
+- [AriseGTM: The Agentic GTM Operating Model](https://arisegtm.com/blog/the-agentic-gtm-operating-model)
+- [Landbase: Top AI Agents for Go-to-Market Strategies](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies)
+- [Forrester: 2026 Predictions: AI Moves from Hype to Hard-Hat Work](https://www.forrester.com/blogs/predictions-2026-ai-moves-from-hype-to-hard-hat-work/)
+- [Apollo: Best Platform for an Agentic GTM Workflow](https://www.apollo.io/insights/best-platform-for-building-an-agentic-gtm-workflow-at-a-mid-market-b2b-company)
+- [SalesMotion: Best B2B Sales Automation Tools with AI Agents](https://salesmotion.io/blog/best-b2b-sales-automation-ai-agents)
 
 ---
 
-*Next: [01 — The Agentic Stack](./01-agentic-stack.md) — the five-layer
+*Next: [01: The Agentic Stack](./01-agentic-stack.md): the five-layer
 harness you build on top of this model.*

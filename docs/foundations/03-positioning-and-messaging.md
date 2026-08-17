@@ -13,7 +13,7 @@ This page covers how to build positioning deliberately, how to translate it into
 
 ## Definition
 
-**Positioning** is the strategic decision about where your product sits in the market relative to alternatives — which segment you serve, which frame of reference you're evaluated in, and which unique value you put at the center of every customer conversation.
+**Positioning** is the strategic decision about where your product sits in the market relative to alternatives: which segment you serve, which frame of reference you're evaluated in, and which unique value you put at the center of every customer conversation.
 
 **Messaging** is the language layer built on top of positioning: value statements, boilerplate copy, pitch narratives, and tailored talking points used by sales, marketing, and customer success across every channel.
 
@@ -31,7 +31,7 @@ If positioning is a coordinate on a map, messaging is the compass that points ev
 | **Value proposition** | The specific outcome you deliver for a specific buyer | Marketing, sales, product | A statement (often one sentence) |
 | **Messaging** | The language, copy, and narratives that communicate positioning and value to specific audiences | Sales, marketing, CS, content | Pitch decks, one-pagers, website copy, battle cards, email sequences |
 
-A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A complete positioning document captures reasoning, alternatives considered, evidence, and the date — so you can revisit and revise it.
+A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A complete positioning document captures reasoning, alternatives considered, evidence, and the date, so you can revisit and revise it.
 
 ---
 
@@ -44,12 +44,12 @@ April Dunford, who has positioned over 100 products and written the definitive p
 Specific consequences of weak positioning and messaging:
 
 - **Longer sales cycles.** Buyers can't quickly categorize what you do, so they take longer to evaluate.
-- **Lower win rates.** If your differentiator isn't clear, you compete on price or generic "better features" — both losing positions.
+- **Lower win rates.** If your differentiator isn't clear, you compete on price or generic "better features", both losing positions.
 - **Channel mismatch.** Your messaging doesn't reach buyers where they make decisions.
 - **Team misalignment.** Sales, marketing, and CS tell different stories. Prospects get confused.
 - **Pricing pressure.** Without clear value framing, buyers anchor on cost, not outcome.
 
-Strong positioning and messaging fix these. They shorten cycles, raise win rates, and give every team member a shared language. Done well, they compound — the same positioning works across outbound, inbound, sales calls, website copy, and customer success conversations.
+Strong positioning and messaging fix these. They shorten cycles, raise win rates, and give every team member a shared language. Done well, they compound: the same positioning works across outbound, inbound, sales calls, website copy, and customer success conversations.
 
 ---
 
@@ -67,7 +67,7 @@ Solution: re-examine what the product delivers today. Drop the historical label.
 
 ### Step 2: Isolate your uniqueness
 
-List everything your product has that competitors don't — regardless of whether you think it's valuable yet. Features, IP, business model advantages, supply chain relationships, distribution access, team expertise.
+List everything your product has that competitors don't, regardless of whether you think it's valuable yet. Features, IP, business model advantages, supply chain relationships, distribution access, team expertise.
 
 Important: don't filter by "do buyers care about this?" in this step. Just capture what's genuinely unique. Complexity, for example, can be a differentiator in contexts where buyers value flexibility over ease of use.
 
@@ -77,7 +77,7 @@ Buyers don't care about your features. They care what those features *do for the
 
 Example: "Patented fast query on large datasets" → "Companies can answer customer questions live during a sales call instead of following up three days later."
 
-This step produces the raw material for your value proposition. Don't jump to messaging yet — capture the value first, in customer terms.
+This step produces the raw material for your value proposition. Don't jump to messaging yet; capture the value first, in customer terms.
 
 ### Step 4: Identify who cares most
 
@@ -96,9 +96,9 @@ This step connects directly to your ICP work. The ICP should describe companies 
 
 Who are buyers comparing you to? This is a strategic choice, not a factual one. You can position against:
 
-- **Direct competitors** — same product category, same buyer. Positions you in a known market. Higher immediate recognition, but you're measured against known alternatives on their terms.
-- **Indirect competitors / status quo** — different product category, same job-to-be-done. Opens up a new frame where your strengths are more visible. Harder to get initial recognition, but less direct comparison.
-- **Hybrid** — define a new category or subcategory where you're the obvious leader. Highest long-term value, requires more initial education.
+- **Direct competitors:** same product category, same buyer. Positions you in a known market. Higher immediate recognition, but you're measured against known alternatives on their terms.
+- **Indirect competitors / status quo:** different product category, same job-to-be-done. Opens up a new frame where your strengths are more visible. Harder to get initial recognition, but less direct comparison.
+- **Hybrid:** define a new category or subcategory where you're the obvious leader. Highest long-term value, requires more initial education.
 
 The frame you choose determines everything: which competitors you name in sales calls, which review sites you care about, which events you attend, which buyers you target.
 
@@ -106,14 +106,14 @@ The frame you choose determines everything: which competitors you name in sales 
 
 Once you've worked through the five steps, document the output. A complete positioning document includes:
 
-- **Product name and description** — what it is, in plain language
-- **Target segment** — who it's for (connected to ICP)
-- **Primary frame of reference** — what market or category it's evaluated in
-- **Unique strengths** — what you have that competitors don't
-- **Customer value** — what those strengths deliver for the target buyer
-- **Competitive alternatives** — what buyers would use instead
-- **Key messaging themes** — the 2-4 ideas that anchor all external communication
-- **Date and author** — so the team knows when it was last reviewed
+- **Product name and description:** what it is, in plain language
+- **Target segment:** who it's for (connected to ICP)
+- **Primary frame of reference:** what market or category it's evaluated in
+- **Unique strengths:** what you have that competitors don't
+- **Customer value:** what those strengths deliver for the target buyer
+- **Competitive alternatives:** what buyers would use instead
+- **Key messaging themes:** the 2-4 ideas that anchor all external communication
+- **Date and author:** so the team knows when it was last reviewed
 
 This document is not a messaging document. It's the input to your messaging work.
 
@@ -121,28 +121,28 @@ This document is not a messaging document. It's the input to your messaging work
 
 ## Messaging Framework
 
-Messaging translates positioning into language. It's built for specific audiences and specific contexts — a sales pitch, a website hero section, an email subject line, a case study headline. All of them should trace back to the same positioning.
+Messaging translates positioning into language. It's built for specific audiences and specific contexts: a sales pitch, a website hero section, an email subject line, a case study headline. All of them should trace back to the same positioning.
 
 ### Build a messaging hierarchy
 
 Structure messaging in layers, from strategic to tactical:
 
-**Level 1 — Positioning statement (internal).** A concise internal document that captures the positioning decisions from the framework above. Not customer-facing. Used to align product, marketing, and sales leadership.
+**Level 1: Positioning statement (internal).** A concise internal document that captures the positioning decisions from the framework above. Not customer-facing. Used to align product, marketing, and sales leadership.
 
-**Level 2 — Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with buyers. If they don't immediately grasp it, simplify.
+**Level 2: Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with buyers. If they don't immediately grasp it, simplify.
 
-**Level 3 — Messaging pillars.** 3-4 themes that organize all external communication. Each pillar has:
+**Level 3: Messaging pillars.** 3-4 themes that organize all external communication. Each pillar has:
 - A one-line theme name
 - The value claim
 - 2-3 supporting proof points (customer quotes, data, feature examples)
 - Common objections and how to address them
 
-**Level 4 — Audience-specific messaging.** Tailor pillars for each buyer persona and each channel. The VP of RevOps needs different copy than the sales rep who uses your product daily, even though they work at the same company. Create separate messaging for:
+**Level 4: Audience-specific messaging.** Tailor pillars for each buyer persona and each channel. The VP of RevOps needs different copy than the sales rep who uses your product daily, even though they work at the same company. Create separate messaging for:
 - Buyer persona (economic buyer, user, technical evaluator)
 - Channel (outbound email, website, sales deck, event booth, case study)
 - Stage of buyer journey (awareness, evaluation, decision)
 
-**Level 5 — Tactical copy assets.** The exact words used in specific places:
+**Level 5: Tactical copy assets.** The exact words used in specific places:
 - Pitch deck narrative
 - One-pager / product sheet
 - Website hero + subhead
@@ -169,7 +169,7 @@ All tactical assets trace back to the messaging pillars. If a piece of copy can'
 
 Gather the right people: product, marketing, and at least one senior sales person. Work through the 5 steps above. Document the output. Date it.
 
-This should take a few hours for an initial pass. Don't try to get it perfect on the first round — get it right, then test.
+This should take a few hours for an initial pass. Don't try to get it perfect on the first round; get it right, then test.
 
 ### 2. Test positioning with buyers
 
@@ -202,7 +202,7 @@ Positioning and messaging lose their edge. Markets shift. Competitors change. Bu
 - **After major wins/losses:** What did we learn about how buyers perceive us?
 - **After channel experiments:** Did one framing outperform another? Fold the learning in.
 
-Someone should own this. Product marketing is the natural owner in most B2B organizations. If you don't have PMM, the founder or head of GTM should own it directly — not delegate it to a generalist marketer.
+Someone should own this. Product marketing is the natural owner in most B2B organizations. If you don't have PMM, the founder or head of GTM should own it directly, not delegate it to a generalist marketer.
 
 ---
 
@@ -228,23 +228,23 @@ Someone should own this. Product marketing is the natural owner in most B2B orga
 
 ## Related Pages
 
-- **[GTM Strategy Framework](./00-gtm-strategy-framework.md)** — The universal framework positioning sits within. Positioning is a core output of the Design phase.
-- **[ICP Definition](./02-icp-definition.md)** — Your ICP should describe companies whose buyers care most about what your positioning offers. The two are interdependent.
-- **[Channels Bullseye](./01-gtm-channels-bullseye.md)** — Channel selection depends on where your buyers are. Messaging must adapt to each channel's format.
-- **[Outbound](../playbooks/outbound-from-zero.md)** — The primary channel for testing positioning with direct buyer conversations.
+- **[GTM Strategy Framework](./00-gtm-strategy-framework.md):** The universal framework positioning sits within. Positioning is a core output of the Design phase.
+- **[ICP Definition](./02-icp-definition.md):** Your ICP should describe companies whose buyers care most about what your positioning offers. The two are interdependent.
+- **[Channels Bullseye](./01-gtm-channels-bullseye.md):** Channel selection depends on where your buyers are. Messaging must adapt to each channel's format.
+- **[Outbound](../playbooks/outbound-from-zero.md):** The primary channel for testing positioning with direct buyer conversations.
 
-{/* Roadmap — page not yet written (planned for Round 7); add back when it lands:
+{/* Roadmap: page not yet written (planned for Round 7); add back when it lands:
 Competitive Analysis */}
 
 ---
 
 ## Further Reading
 
-- April Dunford — [A Product Positioning Exercise](https://www.aprildunford.com/post/a-product-positioning-exercise) — The 5-step positioning framework. The most practical positioning guide available. Also: [The Positioning Statement is Harmful](https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it) — Why the classic template fails.
-- Product Marketing Alliance — [A Practical Guide to the Messaging and Positioning Process](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy/) — End-to-end process including context, data collection, positioning templates, and messaging deployment. By Daniel Kuperman (Atlassian).
-- Zendesk — [12 Positioning Statement Examples + How to Write One](https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/) — Examples from Slack, LinkedIn, and others. Useful for seeing how established companies frame their positioning.
-- Geoffrey Moore — *Crossing the Chasm* — The classic positioning framework for technology products: "For [target customer] who [statement of need], our product is a [product category] that [key benefit]."
-- Al Ries and Jack Trout — *Positioning: The Battle for Your Mind* — The foundational book on positioning as a concept. Dense, dated in examples, but the core insight (positioning is about occupying a slot in the prospect's mind relative to alternatives) remains essential.
+- April Dunford: [A Product Positioning Exercise](https://www.aprildunford.com/post/a-product-positioning-exercise): The 5-step positioning framework. The most practical positioning guide available. Also: [The Positioning Statement is Harmful](https://www.aprildunford.com/post/product-framing-can-help-grow-your-startup-or-kill-it): Why the classic template fails.
+- Product Marketing Alliance: [A Practical Guide to the Messaging and Positioning Process](https://www.productmarketingalliance.com/a-practical-guide-to-creating-a-winning-positioning-and-messaging-strategy/): End-to-end process including context, data collection, positioning templates, and messaging deployment. By Daniel Kuperman (Atlassian).
+- Zendesk: [12 Positioning Statement Examples + How to Write One](https://www.zendesk.com/blog/sales/sales-and-marketing/positioning-statement-examples/): Examples from Slack, LinkedIn, and others. Useful for seeing how established companies frame their positioning.
+- Geoffrey Moore: *Crossing the Chasm*. The classic positioning framework for technology products: "For [target customer] who [statement of need], our product is a [product category] that [key benefit]."
+- Al Ries and Jack Trout: *Positioning: The Battle for Your Mind*. The foundational book on positioning as a concept. Dense, dated in examples, but the core insight (positioning is about occupying a slot in the prospect's mind relative to alternatives) remains essential.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Roles — VPs of Sales
+title: "Roles: VPs of Sales"
 ---
 
 # VPs of Sales

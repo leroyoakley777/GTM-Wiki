@@ -20,7 +20,7 @@ wants to *do* the job, and the executive who wants to *hire* for it.
 ## Definition
 
 **A Head of Platforms owns revenue that is created when other companies
-embed your product into theirs** — not when a customer buys a seat, but
+embed your product into theirs**: not when a customer buys a seat, but
 when a partner makes you part of their own value chain.
 
 That single distinction changes everything downstream: the buyer, the
@@ -32,7 +32,7 @@ sales cycle, the metrics, the skill profile, and the org design.
 
 Traditional sales sells *to* a company. Platform sales sells *through*
 one. Stripe pioneered the modern version of this: instead of only
-selling payments to a merchant, Stripe built **Connect** — infrastructure
+selling payments to a merchant, Stripe built **Connect**, infrastructure
 that let marketplaces and SaaS platforms (Shopify, Lyft, Substack) embed
 payments *inside their own product* and monetize on top.
 
@@ -66,8 +66,8 @@ companies, embedded-finance players, and benefits/insurance platforms
 
 The tell: a Head of Platforms is measured on **revenue they don't directly
 touch**. They win when a partner's engineers ship an integration and *that
-partner's customers* start generating volume. It is the most leveraged —
-and most indirect — seat in the revenue org.
+partner's customers* start generating volume. It is the most leveraged,
+and most indirect, seat in the revenue org.
 
 ---
 
@@ -89,7 +89,7 @@ one person. That scarcity is exactly why the role commands its comp.
 
 ### 3. Cross-functional orchestration
 - Runs a **matrixed motion** across Product, Engineering, Marketing, Legal, and Sales
-- Acts as the partner's internal advocate — pulling roadmap, resolving blockers
+- Acts as the partner's internal advocate, pulling roadmap, resolving blockers
 - Manages the handoff between "sign the partner" and "make the partner successful"
 
 ### 4. Ecosystem strategy
@@ -104,23 +104,23 @@ one person. That scarcity is exactly why the role commands its comp.
 Most companies get this wrong by hiring a classic sales leader and asking
 them to "go get partnerships." Here is the sequence that works.
 
-**Phase 1 — Prove the motion yourself (Months 0–6)**
+**Phase 1: Prove the motion yourself (Months 0–6)**
 - The first Head of Platforms is an individual operator, not a manager.
 - Personally sign 2–3 lighthouse partners end-to-end.
 - Document the repeatable pattern: who the buyer is, what unblocks the deal,
   what "activated partner" means, what the leading indicators are.
 
-**Phase 2 — Instrument & templatize (Months 6–12)**
+**Phase 2: Instrument & templatize (Months 6–12)**
 - Build the partner scoring model (fit × leverage × technical readiness).
 - Stand up the internal operating cadence with Product/Eng.
 - Define the metrics that predict downstream revenue *before* it lands.
 
-**Phase 3 — Scale selectively (Months 12+)**
+**Phase 3: Scale selectively (Months 12+)**
 - Hire Platform Partner Managers against the proven profile.
 - Add Partner Solutions Engineers for technical depth.
 - Only scale headcount once the system, not the individual, is producing.
 
-> This is the "systems-first, prove-then-scale" playbook — the same
+> This is the "systems-first, prove-then-scale" playbook: the same
 > operating philosophy that separates durable GTM orgs from ones that
 > hire ahead of the motion.
 
@@ -133,7 +133,7 @@ signature to value:
 
 | Stage | Metric | What it tells you |
 |---|---|---|
-| **Signed** | Partners closed | Top of funnel — necessary, not sufficient |
+| **Signed** | Partners closed | Top of funnel: necessary, not sufficient |
 | **Activated** | Partners who shipped an integration | The leading indicator |
 | **Producing** | Partner-driven revenue / GMV | The number the board cares about |
 | **Expanding** | Net revenue retention per partner | Whether the flywheel compounds |
@@ -149,11 +149,11 @@ has failed. One who signs 5 where 4 produce has built an engine.
 
 If you are hiring for this role, look for:
 
-- Has **carried a number** *and* **shipped or scoped product** — the rare hybrid
+- Has **carried a number** *and* **shipped or scoped product** (the rare hybrid)
 - Comfortable in a room with engineers, and earns technical credibility fast
 - Thinks in **ecosystems and leverage**, not individual deals
 - Has built something **0→1** before (a team, a motion, or a company)
-- Low ego about indirect credit — wins through others
+- Low ego about indirect credit: wins through others
 
 Red flags: pure closers who need a defined playbook, anyone who measures
 themselves only on signed logos, and candidates who can't reason about
@@ -163,8 +163,8 @@ themselves only on signed logos, and candidates who can't reason about
 
 ## Further reading
 
-- [00 — GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md) — the operating system this role plugs into
-- [01 — GTM Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md) — where Platform/Ecosystem sits among channels
+- [00: GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md): the operating system this role plugs into
+- [01: GTM Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md): where Platform/Ecosystem sits among channels
 
 ---
 

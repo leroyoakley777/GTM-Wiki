@@ -3,7 +3,7 @@ sidebar_position: 1
 title: The Agentic Stack
 ---
 
-# 01 — The Agentic Stack
+# 01: The Agentic Stack
 
 ## Definition
 
@@ -12,7 +12,7 @@ operation. It is the harness you build to do volume work with software
 agents and judgment work with humans.
 
 A harness is not "an AI tool." It is a **pipeline with judgment
-checkpoints** — layers of agents that do the prep, a delivery layer that
+checkpoints**: layers of agents that do the prep, a delivery layer that
 sends, and a loop that turns replies into learning. Each layer does one
 job well and passes structured output to the next.
 
@@ -36,7 +36,7 @@ The stack has five layers:
 
 Layers 1–3 are *preparation*. Layer 4 is *delivery*. Layer 5 is *the
 loop that keeps learning*. Most teams stop at 4 and wonder why their AI
-outbound doesn't beat manual. The leverage lives in 5 — what you do with
+outbound doesn't beat manual. The leverage lives in 5: what you do with
 the replies.
 
 ---
@@ -50,10 +50,10 @@ ceiling without adding a rep for every thousand contacts.
 
 The cost math is stark. Smartlead's comparison puts the fully-loaded
 annual cost of a truly autonomous AI SDR at $35K–$65K per agent per
-year — data, infrastructure, warmup, and oversight included. That is
+year: data, infrastructure, warmup, and oversight included. That is
 less than one junior SDR's loaded cost. The stack is a deliberate
 capital decision to trade a variable labor line for a fixed tooling line
-— real production infrastructure, not a toy.
+real production infrastructure, not a toy.
 
 But the reason it matters is speed of iteration, not the cost.
 [Clay's outbound automation writeup](https://www.clay.com/blog/outbound-sales-automation)
@@ -75,7 +75,7 @@ is leverage. Leverage works both directions.
 
 ### Five layers, in depth
 
-**Layer 1 — Data.** This is the raw material. You source firms, build
+**Layer 1: Data.** This is the raw material. You source firms, build
 out your ICP, then enrich: firmographics, tech stack, intent signals,
 and the named person with a verified contact. The output is a row that
 carries *fit* and *reach*. Clay is the tool most technical teams reach
@@ -87,7 +87,7 @@ intent signals, and pushes them into a sequence. Data quality is the
 floor of the whole stack. Garbage rows produce garbage messages no
 matter how good your LLM is.
 
-**Layer 2 — Research.** This is what separates genuine personalization from
+**Layer 2: Research.** This is what separates genuine personalization from
 fake personalization. An agent with web and search access reads each
 account and produces a **brief** of max 150 words: what changed, what
 they use, what gap you can name. The brief is the contract with the
@@ -96,13 +96,13 @@ prompt and inputs given to the AI." Feed a thin prompt generic data and
 you get generic, spam-sounding copy. Feed a research brief and you get
 copy that names a concrete problem in a named company.
 
-**Layer 3 — Compose.** The LLM writes messages *from the brief* plus
-your voice and tone rules — never from scratch. The same opening line
+**Layer 3: Compose.** The LLM writes messages *from the brief* plus
+your voice and tone rules, never from scratch. The same opening line
 serves any row that arrives without a brief. This is the layer that
 scales. One research brief, one tone guide, and the model produces a
 thousand defensible first touches.
 
-**Layer 4 — Orchestrate.** This is delivery: sequencing, sending,
+**Layer 4: Orchestrate.** This is delivery: sequencing, sending,
 cadence, follow-ups, bounces, unsubscribes, send caps. The tools here
 (Smartlead, Instantly, n8n, Make) are the plumbing. Underrated detail:
 the *sender model*. Every AI SDR except SmartAgents requires you to
@@ -112,7 +112,7 @@ emails a month on shared infra, watched reply rates fall from 6% to
 under 2% over six weeks, and recovered on dedicated infra in two. The
 delivery layer is where campaigns quietly die.
 
-**Layer 5 — Triage.** The loop. Every reply is ingested and classified:
+**Layer 5: Triage.** The loop. Every reply is ingested and classified:
 `interested` → human within 15 minutes. `question` → drafted answer for
 human approval. `not now` → nurture. `unsubscribe` → remove instantly.
 This is the layer that compounds. A team that answers a hot reply in 15
@@ -138,7 +138,7 @@ as good as the research layer.
 
 ## How to execute
 
-### Build order — start small
+### Build order: start small
 
 1. **Manual, one lane.** Pick one ICP segment, one reason-to-reach.
    Prove the message works by hand (300+ sends). Nothing is automated
@@ -164,8 +164,8 @@ analysis puts hybrid human-plus-AI setups at **8–15% reply rates versus
 It is the difference between a pipeline that feeds your AEs and a
 pipeline that starves them.
 
-The autonomy you should chase is in the *prep* layers — data, research,
-compose — where volume matters and judgment is low-stakes. Keep a human
+The autonomy you should chase is in the *prep* layers (data, research,
+compose), where volume matters and judgment is low-stakes. Keep a human
 in the loop on anything that goes out to a named person and on anything
 a prospect says back.
 
@@ -208,24 +208,24 @@ feel.
 
 ## Further reading
 
-- [Smartlead — AI SDRs Compared in 2026](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)
-  — categories, cost math, hybrid vs autonomous reply rates, sender
+- [Smartlead: AI SDRs Compared in 2026](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales).
+  Categories, cost math, hybrid vs autonomous reply rates, sender
   model. The best single map of the tooling landscape.
-- [Clay — Outbound Sales Automation](https://www.clay.com/blog/outbound-sales-automation)
-  — four layers of GTM infrastructure and the modern stack (Clay +
+- [Clay: Outbound Sales Automation](https://www.clay.com/blog/outbound-sales-automation).
+  Four layers of GTM infrastructure and the modern stack (Clay +
   Instantly/Smartlead + OpenAI + Apollo). The "AI is only as clever as
   its inputs" argument.
-- [Instantly — Best AI SDR Tools](https://instantly.ai/blog/best-ai-sdr-tools-outbound-b2b-sales-2026/)
-  — the Clay-plus-instantly signal-based prospecting pattern.
-- [AIMultiple — The Layers of the Agentic AI Stack](https://aimultiple.com/agentic-ai-stack)
-  — a broader agentic-stack taxonomy, including the orchestration layer,
+- [Instantly: Best AI SDR Tools](https://instantly.ai/blog/best-ai-sdr-tools-outbound-b2b-sales-2026/).
+  The Clay-plus-instantly signal-based prospecting pattern.
+- [AIMultiple: The Layers of the Agentic AI Stack](https://aimultiple.com/agentic-ai-stack).
+  A broader agentic-stack taxonomy, including the orchestration layer,
   for readers who want the non-sales view.
 
 ## Related pages
 
-- [00 — What is Agentic GTM](./00-agentic-gtm-overview.md) — the strategy
+- [00: What is Agentic GTM](./00-agentic-gtm-overview.md). The strategy
   behind the stack.
-- [02 — Agentic Outbound](./02-agentic-outbound.md) — running the stack
+- [02: Agentic Outbound](./02-agentic-outbound.md). Running the stack
   for cold outreach.
-- [05 — Guardrails and Measurement](./03-guardrails-and-measurement.md) —
-  how to watch the harness without trusting it.
+- [05: Guardrails and Measurement](./03-guardrails-and-measurement.md).
+  How to watch the harness without trusting it.

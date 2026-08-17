@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-title: Agentic Outbound — The Harness
-description: The outbound flow under an agent harness — the runnable sequence of prove, automate, guard, the layer stack, agentic list build, personalization at scale, triage with a time-to-first-response SLA, deliverability guardrails, the SOP and prompts, harness-health metrics, a worked example, and failure modes.
+title: "Agentic Outbound: The Harness"
+description: "The outbound flow under an agent harness: the runnable sequence of prove, automate, guard, the layer stack, agentic list build, personalization at scale, triage with a time-to-first-response SLA, deliverability guardrails, the SOP and prompts, harness-health metrics, a worked example, and failure modes."
 last-updated: 2026-08-17
 status: active
 tags: [outbound, flow, agentic, cold-email, sdr, harness, triage, deliverability]
@@ -34,7 +34,7 @@ against the [Outbound channel](../channels/outbound) page.
 
 **Augment, don't replace.** The data is consistent across every source.
 Hybrid human-in-the-loop teams produce **2.8x more pipeline** than teams
-attempting full replacement of their SDRs ([Autobound, 2026 — vendor
+attempting full replacement of their SDRs ([Autobound, 2026: vendor
 source](https://www.autobound.ai/blog/ai-sdr-tools-guide)). Autonomous
 AI SDR tools churn at **50–70% annually**, roughly double the turnover
 of the human reps they replace ([UserGems via Autobound,
@@ -76,7 +76,7 @@ that is a hard stop until it passes.
    Humans approve the pattern, not every keystroke. *Gate: brief
    coverage above 90% so the "specific" lines are grounded.*
 3. **Guard the quality bar.** Harness-health metrics are non-negotiable.
-   If any slips, the loop is scaling garbage — shrink it. *Gate: triage
+   If any slips, the loop is scaling garbage. Shrink it. *Gate: triage
    accuracy above 95%, override rate under 5%, hot replies answered
    inside 15 minutes.*
 
@@ -88,7 +88,7 @@ Workflows](../agentic/agent-vs-human-workflows), and held honest by
 
 ---
 
-## Architecture — the layer stack the flow runs on
+## Architecture: the layer stack the flow runs on
 
 Five execution layers. Layers 1–3 are preparation, layer 4 is delivery,
 layer 5 is the loop that keeps learning ([Agentic
@@ -96,7 +96,7 @@ Stack](../agentic/agentic-stack)).
 
 | Layer | What the agent does | Human checkpoint |
 |---|---|---|
-| **Data / signals** | Sources, dedupes, enriches rows. Monitors hundreds of live buyer signals — job change, funding, tech-stack change, competitive displacement | You score the final list before any send |
+| **Data / signals** | Sources, dedupes, enriches rows. Monitors hundreds of live buyer signals (job change, funding, tech-stack change, competitive displacement) | You score the final list before any send |
 | **Research** | Builds a per-account brief from the signal, capped near 150 words | You audit brief coverage, not each brief |
 | **Compose** | Drafts per-row messages from the brief plus your tone exemplars | You approve the pattern. Approval trains the voice |
 | **Orchestrate** | Send-time, warmup, domain rotation, cadence, bounces | Send caps stay human-set |
@@ -114,7 +114,7 @@ layer that feeds it ([Clay, via the Agentic Stack, 2026](https://www.clay.com/bl
 
 ---
 
-## Stage 1 — Prove the message (manual, before any agent)
+## Stage 1: Prove the message (manual, before any agent)
 
 The harness is leverage on a proven motion, never a substitute for
 proving it. Stage 1 is identical to the manual flow in [Outbound from
@@ -130,7 +130,7 @@ noise, and noise produces confident wrong answers.
 
 ---
 
-## Stage 2 — Automate the leverage (the sequence in detail)
+## Stage 2: Automate the leverage (the sequence in detail)
 
 Once the message is proven, the harness runs each layer. This section is
 the runnable detail of each step, with its own gate.
@@ -142,10 +142,10 @@ does not change. What changes is how fast you get to the good 500. An
 agent sources, dedupes, and enriches from the data layer in hours
 instead of the days a human spends searching row by row.
 
-Modern agents monitor **hundreds of live buyer signals** — job changes,
+Modern agents monitor **hundreds of live buyer signals** (job changes,
 funding rounds, hiring surges, tech-stack changes, competitive
-displacement — and assemble a per-prospect research brief a human would
-spend 15–30 minutes building by hand ([Amplemarket, 2026 — vendor
+displacement) and assemble a per-prospect research brief a human would
+spend 15–30 minutes building by hand ([Amplemarket, 2026: vendor
 source](https://www.amplemarket.com/blog/best-ai-sales-agents)). That
 brief is what makes the personalization genuine, not templated.
 
@@ -155,8 +155,8 @@ and a one-line reason-to-reach. **No reason, no row.** The agent may
 sent. The 20% "perfect fit" tier still gets the deepest research.
 
 Signal-driven outbound is the single biggest lever on reply rate.
-Signal-triggered outreach — leadership changes, funding rounds, hiring
-surges, tech adoption — reaches **14–25% reply rates**, against a
+Signal-triggered outreach (leadership changes, funding rounds, hiring
+surges, tech adoption) reaches **14–25% reply rates**, against a
 **3.43% cold-email industry average** ([Kyle Poyar's research and
 Hunter.io 2026 State of Cold Email, both via the Agentic Stack,
 2026](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)).
@@ -173,11 +173,11 @@ with 300 rows lacking a reason is a 300-row list plus 200 spray rows.
 
 The sequence structure stays: Email 1 (reason-to-reach plus one
 observation), Email 2 (proof or resource), Email 3 (different angle),
-breakup. Keep each email in the **50–125 word** range — that length
+breakup. Keep each email in the **50–125 word** range: that length
 earns roughly **50% higher reply rates** than longer formats
 ([Mailforge/Instantly via Martal, 2026](https://martal.ca/b2b-cold-email-statistics-lb/)).
-One ask per email. A CTA that names the specific issue — "open to a
-15-minute chat next week about [specific issue]" — beats generic "let's
+One ask per email. A CTA that names the specific issue ("open to a
+15-minute chat next week about [specific issue]") beats generic "let's
 talk" ([Martal, 2026](https://martal.ca/b2b-cold-email-statistics-lb/)).
 
 What the compose layer adds:
@@ -185,7 +185,7 @@ What the compose layer adds:
 - **Variant generation.** Draft five versions of each email from the
   brief. You pick the voice. The harness learns your pick.
 - **Personalization at scale.** The research brief fills the specific
-  line — "I saw [company] announced [trigger]" — without you writing it
+  line ("I saw [company] announced [trigger]") without you writing it
   500 times. This is what lifts reply rates from the 3–5% single-channel
   baseline toward 15–18% ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
   Signal-based personalization, a trigger event plus a relevant value
@@ -203,7 +203,7 @@ and the senders who do see **2–3x better results**
 An agent is the only practical way to join that 5% at scale. That is the
 whole opportunity.
 
-Advanced personalization — specific, signal-driven references — lifts
+Advanced personalization (specific, signal-driven references) lifts
 replies to **18% versus about 9% for generic templates** ([Infraforge
 via Martal, 2026](https://martal.ca/b2b-cold-email-statistics-lb/)).
 
@@ -231,12 +231,12 @@ sending caps. None of that is optional.
 **The hard cap does not move just because an agent makes sending easy.**
 Keep send volume at **25–50 emails per day per domain** during a
 controlled launch, scaling 10–20% per week while watching deliverability
-([Autobound, 2026 — vendor source](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
+([Autobound, 2026: vendor source](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
 A fresh domain you burn in a week because "the AI makes it easy" is a
 domain you lose forever.
 
 **The delivery gate:** if delivery rate dips below 97%, the harness
-pauses — not slows, pauses — until the cause is found
+pauses (not slows, pauses) until the cause is found
 ([Guardrails & Measurement](../agentic/guardrails-and-measurement)).
 
 The sender model matters as much as the records. On shared sending
@@ -274,7 +274,7 @@ then route by intent:
 | "Unsubscribe" | Remove instantly, honor it | None. Never re-contact |
 
 **The metric that matters is time-to-first-response.** Manual teams die
-on this. A hot reply — interested, budget, clear need — must be handled
+on this. A hot reply (interested, budget, clear need) must be handled
 in **under 15 minutes**. The gap between a human checking the inbox
 twice a day and an agent triaging in minutes is the single biggest
 lever most teams leave on the table ([Instantly,
@@ -291,7 +291,7 @@ loop is dying quietly.
 
 ---
 
-## Stage 3 — Guard the quality bar (harness-health metrics)
+## Stage 3: Guard the quality bar (harness-health metrics)
 
 The funnel metrics from [Outbound from Zero](../playbooks/outbound-from-zero)
 remain the scoreboard, and they hold with an agent in the loop.
@@ -309,12 +309,12 @@ Add the harness-health metrics on top:
 
 **Acceptance gate for Stage 3:** triage accuracy above 95%, override
 rate under 5%, hot replies answered inside 15 minutes, and brief
-coverage above 90%. If any slips, the loop is scaling garbage — shrink
+coverage above 90%. If any slips, the loop is scaling garbage. Shrink
 it. The answer to a slipping gate is never more agents.
 
 Track meetings booked and pipeline generated, **not emails sent**. Emails
 sent is a vanity metric. Meetings are revenue
-([Autobound, 2026 — vendor source](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
+([Autobound, 2026: vendor source](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
 
 **Cost per meeting booked** is the killer metric, before and after the
 harness. If agents do not improve it, they are a tax
@@ -324,7 +324,7 @@ harness. If agents do not improve it, they are a tax
 
 ## SOP and prompts
 
-### SOP — who does what, who approves
+### SOP: who does what, who approves
 
 | Motion step | Agent does | Human approves |
 |---|---|---|
@@ -333,7 +333,7 @@ harness. If agents do not improve it, they are a tax
 | Sequencing | Handles send-time, warmup, domain rotation, caps | Sending policy |
 | Reply triage | Classifies intent, drafts responses in under 5 minutes | Hot replies. The 15-minute SLA is automatic |
 
-### Prompt 1 — list generation
+### Prompt 1: list generation
 
 ```text
 You are building a cold-outbound list for {ICP} companies in the
@@ -341,11 +341,11 @@ You are building a cold-outbound list for {ICP} companies in the
 with: company, ICP-fit score (1–5), primary contact first name,
 verified email, role, and a one-line reason-to-reach grounded in a
 live signal (job change, funding, hiring surge, tech-stack change, or
-competitive displacement). Skip any row with no reason-to-reach — the
+competitive displacement). Skip any row with no reason-to-reach: the
 gate is "no reason, no row." Return only rows that pass the gate.
 ```
 
-### Prompt 2 — reply triage
+### Prompt 2: reply triage
 
 ```text
 You are triaging cold-outbound replies for {campaign}. For each reply,
@@ -361,7 +361,7 @@ approve and send inside the 15-minute response window. Track every
 classified reply to the campaign and the message variant it answered.
 ```
 
-### Prompt 3 — compose with your voice
+### Prompt 3: compose with your voice
 
 ```text
 Write a cold-outbound first email for {contact} at {company} using the
@@ -398,7 +398,7 @@ meeting traces to a campaign, and the 2-week debrief rhythm exists.
 
 ---
 
-## Worked example — one agentic campaign end to end
+## Worked example: one agentic campaign end to end
 
 A representative build, step by step, so you can see the whole thing
 hold together. Names and figures are illustrative but plausible.
@@ -471,9 +471,9 @@ nothing scaled before it was proven, and the domain stayed healthy.
   over six weeks before moving to dedicated infrastructure ([Smartlead,
   via the Agentic Stack, 2026](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)).
 - **Chasing full autonomy.** Hybrid setups run **8–15% reply rates versus
-  1–3% for fully autonomous systems at scale** ([Smartlead, 2026 —
+  1–3% for fully autonomous systems at scale** ([Smartlead, 2026:
   vendor source](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)).
-  Chase autonomy in the prep layers — data, research, compose. Keep a
+  Chase autonomy in the prep layers: data, research, compose. Keep a
   human on anything that goes to a named person and on anything a
   prospect says back.
 
@@ -493,7 +493,7 @@ Run triage ── incoming "interested"? ── yes ──▶ alert + book (15-m
   └── "unsubscribe" ──▶ remove instantly, honor it. Never re-contact
 Measure harness health ── triage >95% & override under 5% & delivery >97%? ── no ──▶ shrink it
   │ yes
-Scale + handoff (unchanged — automation doesn't fix a broken handoff)
+Scale + handoff (unchanged: automation doesn't fix a broken handoff)
 ```
 
 ---
@@ -502,7 +502,7 @@ Scale + handoff (unchanged — automation doesn't fix a broken handoff)
 
 From [Agent vs Human
 Workflows](../agentic/agent-vs-human-workflows), based on the four-stage
-autonomy ladder — Draft, Recommend, Execute with approval, Autonomous
+autonomy ladder: Draft, Recommend, Execute with approval, Autonomous
 ([Apollo, 2026](https://www.apollo.io/insights/how-do-revops-leaders-decide-which-gtm-workflows-are-safe-to-automate-with-ai-agents)):
 
 | Workflow | Autonomy stage | Guardrail |
@@ -523,19 +523,19 @@ earned by the control model, not by the model's cleverness.
 
 ## Further reading
 
-- [Agentic Outbound](../agentic/agentic-outbound) — the execution-layer
+- [Agentic Outbound](../agentic/agentic-outbound): the execution-layer
   source for the augment-don't-replace case and the 2.8x and 15-versus-25%
   numbers.
-- [Outbound from Zero](../playbooks/outbound-from-zero) — the manual
+- [Outbound from Zero](../playbooks/outbound-from-zero): the manual
   playbook this harness accelerates, with the full copy and
   deliverability setup.
-- [Agentic Stack](../agentic/agentic-stack) — the five-layer architecture
+- [Agentic Stack](../agentic/agentic-stack): the five-layer architecture
   this flow runs on.
-- [Agent vs Human Workflows](../agentic/agent-vs-human-workflows) — the
+- [Agent vs Human Workflows](../agentic/agent-vs-human-workflows): the
   autonomy ladder and human-in-the-loop controls.
-- [Guardrails & Measurement](../agentic/guardrails-and-measurement) —
+- [Guardrails & Measurement](../agentic/guardrails-and-measurement):
   the quality bars and when to turn the harness off.
-- [Outbound Response Rate Benchmarks](../data/outbound-response-rates) —
+- [Outbound Response Rate Benchmarks](../data/outbound-response-rates):
   the numbers this flow is measured against.
-- [Outbound channel](../channels/outbound) — when outbound is the right
+- [Outbound channel](../channels/outbound): when outbound is the right
   call before you commit budget.
