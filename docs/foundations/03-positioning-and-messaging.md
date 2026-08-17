@@ -35,7 +35,7 @@ A positioning statement (the classic fill-in-the-blanks exercise) is not the sam
 
 ---
 
-## Why It Matters
+## Launches Fail at Messaging
 
 Most new product launches fail at the messaging layer, not the product layer. The product works. The buyer doesn't understand why it exists, who it's for, or what problem it solves better than what they already have.
 

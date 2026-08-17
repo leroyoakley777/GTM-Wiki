@@ -17,7 +17,7 @@ wants to *do* the job, and the executive who wants to *hire* for it.
 
 ---
 
-## The one-sentence definition
+## Definition
 
 **A Head of Platforms owns revenue that is created when other companies
 embed your product into theirs** — not when a customer buys a seat, but
@@ -28,7 +28,7 @@ sales cycle, the metrics, the skill profile, and the org design.
 
 ---
 
-## Why the role exists (the Stripe origin)
+## Purpose and Origin
 
 Traditional sales sells *to* a company. Platform sales sells *through*
 one. Stripe pioneered the modern version of this: instead of only

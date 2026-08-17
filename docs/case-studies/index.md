@@ -26,6 +26,6 @@ Each case is grouped by the [channel](../channels/) it proves, so you can go fro
 2. **Take the transferable takeaway, not the number.** The multiples are company-specific; the mechanism is what transfers.
 3. **Check the source.** Where a vendor reported its own numbers, it's flagged. The named source is the contract — not the headline.
 
-## Why cases matter
+## The Two Halves of Proof
 
 Benchmarks without cases read as fatalism ("cold email is dead"); cases without benchmarks read as hype. The wiki needs both: a case to show a motion can win, and a benchmark to show how far above median that is.

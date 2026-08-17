@@ -25,7 +25,7 @@ The funnel serves three jobs:
 
 ---
 
-## Why It Matters
+## A Funnel Makes the Leak Visible
 
 Without a defined funnel, teams optimize for different things. Marketing counts leads. Sales counts opportunities. Leadership counts revenue. Nobody is measuring the same transitions, so nobody can tell you why Q3 pipeline fell short.
 

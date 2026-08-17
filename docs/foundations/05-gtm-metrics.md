@@ -12,7 +12,7 @@ This page is the foundation for [Conversion Rate Benchmarks](../data/conversion-
 
 ---
 
-## Why GTM metrics matter
+## The Two Sales
 
 SaaS and subscription businesses are fundamentally different from traditional software companies. Revenue comes in installments over the life of the customer, not in a single transaction. That creates two distinct sales you have to make:
 

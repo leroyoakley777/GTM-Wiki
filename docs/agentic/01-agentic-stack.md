@@ -41,7 +41,7 @@ the replies.
 
 ---
 
-## Why it matters
+## The Volume Ceiling
 
 Manual outbound caps out on volume. One good SDR books a fixed number of
 meetings per month. You can hire more reps, but headcount scales cost

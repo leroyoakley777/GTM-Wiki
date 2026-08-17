@@ -10,7 +10,7 @@ This wiki is not a collection of GTM tactics. It is a system. And the system is 
 
 Read this page first. It is the nucleus. Every other page in this wiki — foundations, channels, playbooks, agentic GTM — hangs off the structure it establishes here.
 
-## Why This Framework Exists
+## The Efficiency Problem
 
 The 2022 SaaS crash was not a demand problem. It was a **go-to-market efficiency problem**.
 

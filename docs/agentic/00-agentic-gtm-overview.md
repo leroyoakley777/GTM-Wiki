@@ -55,7 +55,7 @@ reply to a human is agentic. (Source:
 
 ---
 
-## Why it matters
+## Where the Time Goes
 
 The clearest way to see why agentic GTM matters is to look at how
 revenue teams actually spend their time today.

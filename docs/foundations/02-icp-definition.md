@@ -26,7 +26,7 @@ Most founders confuse TAM with ICP. TAM is everyone you could sell to. ICP is wh
 
 The biggest early-stage mistake: building a buyer persona ("Marketing Mary, VP Marketing at mid-market SaaS") without first defining the organization she works for. A persona tells you who to talk to. An ICP tells you where to find them and when they are ready to buy. Without the ICP, you are cold-calling people who have no budget and no urgency.
 
-## Why It Matters
+## What a Defined ICP Returns
 
 Companies with a clearly defined ICP achieve significantly better outcomes than those without one:
 

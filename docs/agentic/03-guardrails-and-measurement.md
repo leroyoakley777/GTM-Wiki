@@ -38,7 +38,7 @@ governance layer or do not hand the agent authority.
 
 ---
 
-## Why it matters
+## The Governance Gap
 
 The governance gap is real and measurable. Only one in five companies
 has a mature governance model for autonomous agents, and a large share
