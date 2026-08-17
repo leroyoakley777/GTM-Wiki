@@ -67,7 +67,7 @@ Understand the market before you commit to a plan.
 **Market sizing.** Use the TAM → SAM → SOM → PAM cascade:
 
 - **TAM (Total Addressable Market):** The entire market if you had 100% share. Example: $10B globally for AI quality control software.
-- **SAM (Serviceable Available Market):** The segment you can actually reach. Example: $2B in EU mid-market manufacturers.
+- **SAM (Serviceable Available Market):** The segment you can reach. Example: $2B in EU mid-market manufacturers.
 - **SOM (Serviceable Obtainable Market):** What you can capture based on competitive positioning and resources. Example: $100M.
 - **PAM (Prioritized Account Market):** The top 10% of accounts showing active buying signals. Example: $15M from 200 accounts already evaluating similar solutions.
 
@@ -80,9 +80,9 @@ PAM is the layer most teams skip. Don't. It tells you where to focus your first 
 
 Segment until you find a group you can serve better than anyone else. That's your beachhead.
 
-**Competitive analysis.** Map direct competitors (same product, same buyer), indirect competitors (different product, same job-to-be-done), and status quo (the buyer does nothing or uses a spreadsheet). Understand their positioning, pricing, strengths, and weaknesses. Where is the gap you can own?
+**Competitive analysis.** Map direct competitors (same product, same buyer), indirect competitors (different product, same job-to-be-done), and status quo (buyer does nothing or uses a spreadsheet). Understand their positioning, pricing, strengths, and weaknesses. Where is the gap you can own?
 
-**Customer research.** Talk to actual buyers. The minimum viable research package:
+**Customer research.** Talk to buyers. The minimum viable research package:
 
 - 15-30 customer interviews with target personas
 - Win/loss analysis on recent deals (why did they choose you or not?)
@@ -128,7 +128,7 @@ Give them names. Give them concrete constraints. Write for them.
 
 Example: "For RevOps leaders at scaling B2B SaaS companies who are losing deals to manual lead routing, we provide an automated lead assignment platform that reduces response time by 80% and increases rep productivity by 30%."
 
-Test it with actual buyers. If they don't immediately nod, rewrite it.
+Test it with buyers. If they don't immediately nod, rewrite it.
 
 **Choose your GTM motion.** The growth motion shapes everything else:
 
@@ -190,7 +190,7 @@ Set specific numeric targets for days 30, 60, and 90 post-launch. Review weekly.
 - Sales call recordings to understand objections
 - Win/loss analysis on every deal
 
-The first 60-90 days are for learning. Expect to adjust messaging, onboarding flows, pricing presentation, and possibly features based on what you learn. One B2B company discovered through early feedback that their assumed primary use case was actually secondary — customers cared more about a "minor" feature. They pivoted positioning and tripled conversion rates in 45 days.
+The first 60-90 days are for learning. Expect to adjust messaging, onboarding flows, pricing presentation, and possibly features based on what you learn. One B2B company discovered through early feedback that their assumed primary use case was secondary — customers cared more about a "minor" feature. They pivoted positioning and tripled conversion rates in 45 days.
 
 **Plan the launch timeline.** Work backward from launch day. Assign clear ownership for every deliverable. Build in buffer. Soft launches are cheaper than public failures — use them to identify issues before scaling.
 
@@ -261,7 +261,7 @@ Pricing as GTM, GTM Metrics, GTM Funnel, Outbound, Inbound, Product-Led, ABM */}
 ## Further Reading
 
 - Bain & Company — [Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/) — The Analyze/Design/Deliver framework this page is built on
-- Forrester Research — [The State of GTM 2024](https://www.forrester.com/) — 76% of organizations have reinvented their GTM approach; 70% of B2B buyer journey is self-serve
+- Forrester Research — [The State of GTM 2024](https://www.forrester.com/) — 76% of organizations have reinvented their GTM approach. 70% of B2B buyer journey is self-serve
 - Asana — [Go to Market GTM Strategy: Definition & 9-Step Guide](https://asana.com/resources/go-to-market-gtm-strategy) — Practical step-by-step with examples
 - Elefante RevOps — [Creating a Winning GTM Strategy: Step-by-Step Guide](https://elefanterevops.com/blog/gtm-strategy) — 2026 GTM planning with TAM/SAM/SOM/PAM and channel guidance
 - Slideworks — [Complete GTM Strategy Framework with Examples](https://slideworks.io/resources/go-to-market-gtm-strategy) — Bain/McKinsey-style framework with 8-step process

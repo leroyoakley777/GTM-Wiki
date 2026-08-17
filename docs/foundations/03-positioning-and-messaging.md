@@ -15,7 +15,7 @@ This page covers how to build positioning deliberately, how to translate it into
 
 **Positioning** is the strategic decision about where your product sits in the market relative to alternatives — which segment you serve, which frame of reference you're evaluated in, and which unique value you put at the center of every customer conversation.
 
-**Messaging** is the language layer built on top of positioning: the value statements, boilerplate copy, pitch narratives, and tailored talking points used by sales, marketing, and customer success across every channel.
+**Messaging** is the language layer built on top of positioning: value statements, boilerplate copy, pitch narratives, and tailored talking points used by sales, marketing, and customer success across every channel.
 
 They are not the same thing, and confusing them is a common failure mode.
 
@@ -27,11 +27,11 @@ If positioning is a coordinate on a map, messaging is the compass that points ev
 
 | Concept | What it is | Who uses it | Format |
 |---|---|---|---|
-| **Positioning** | Strategic placement in the market; which segment, which frame of reference, which unique strength is central | Product, marketing, sales leadership | Documented in a positioning template |
+| **Positioning** | Strategic placement in the market. Which segment, which frame of reference, which unique strength is central | Product, marketing, sales leadership | Documented in a positioning template |
 | **Value proposition** | The specific outcome you deliver for a specific buyer | Marketing, sales, product | A statement (often one sentence) |
 | **Messaging** | The language, copy, and narratives that communicate positioning and value to specific audiences | Sales, marketing, CS, content | Pitch decks, one-pagers, website copy, battle cards, email sequences |
 
-A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A complete positioning document captures the reasoning, the alternatives considered, the evidence, and the date — so you can revisit and revise it.
+A positioning statement (the classic fill-in-the-blanks exercise) is not the same as a positioning document. The "For X who Y, we provide Z" template is a starting point. A complete positioning document captures reasoning, alternatives considered, evidence, and the date — so you can revisit and revise it.
 
 ---
 
@@ -45,7 +45,7 @@ Specific consequences of weak positioning and messaging:
 
 - **Longer sales cycles.** Buyers can't quickly categorize what you do, so they take longer to evaluate.
 - **Lower win rates.** If your differentiator isn't clear, you compete on price or generic "better features" — both losing positions.
-- **Channel mismatch.** Your messaging doesn't reach buyers where they actually make decisions.
+- **Channel mismatch.** Your messaging doesn't reach buyers where they make decisions.
 - **Team misalignment.** Sales, marketing, and CS tell different stories. Prospects get confused.
 - **Pricing pressure.** Without clear value framing, buyers anchor on cost, not outcome.
 
@@ -55,7 +55,7 @@ Strong positioning and messaging fix these. They shorten cycles, raise win rates
 
 ## Positioning Framework
 
-April Dunford's 5-step positioning exercise is the most practical framework available. It's used by product marketing teams across B2B and B2C. The steps are simple; the work is hard.
+April Dunford's 5-step positioning exercise is the most practical framework available. It's used by product marketing teams across B2B and B2C. The steps are simple. The work is hard.
 
 ### Step 1: Let go of where you came from
 
@@ -63,7 +63,7 @@ Weak positioning is usually the result of hanging on to a "default" market posit
 
 The classic trap: a company builds a fast database, but it's not competitive as a general-purpose database against Oracle. The team keeps positioning as a database because that's what they set out to build. Buyers can't see the value because the frame of reference (database) highlights what the product *can't* do, not what it does uniquely well.
 
-Solution: re-examine what the product actually delivers today. Drop the historical label. Find the frame where the product's genuine strengths become obvious.
+Solution: re-examine what the product delivers today. Drop the historical label. Find the frame where the product's genuine strengths become obvious.
 
 ### Step 2: Isolate your uniqueness
 
@@ -83,7 +83,7 @@ This step produces the raw material for your value proposition. Don't jump to me
 
 Not all buyers value your uniqueness equally. Some segments will care a lot. Others won't care at all. The ones who care a lot are your best prospects: they understand your value quickly, buy faster, and discount less.
 
-Define the characteristics of buyers who care most:
+Define characteristics of buyers who care most:
 
 - **Firmographics:** industry, company size, geography
 - **Needs intensity:** how acutely they feel the problem your product solves
@@ -129,7 +129,7 @@ Structure messaging in layers, from strategic to tactical:
 
 **Level 1 — Positioning statement (internal).** A concise internal document that captures the positioning decisions from the framework above. Not customer-facing. Used to align product, marketing, and sales leadership.
 
-**Level 2 — Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with actual buyers. If they don't immediately grasp it, simplify.
+**Level 2 — Value proposition statements.** One or more versions of "For [ICP] who [pain point], we provide [solution] that [outcome]." This is the core value claim. Test it with buyers. If they don't immediately grasp it, simplify.
 
 **Level 3 — Messaging pillars.** 3-4 themes that organize all external communication. Each pillar has:
 - A one-line theme name
@@ -137,12 +137,12 @@ Structure messaging in layers, from strategic to tactical:
 - 2-3 supporting proof points (customer quotes, data, feature examples)
 - Common objections and how to address them
 
-**Level 4 — Audience-specific messaging.** Tailor the pillars for each buyer persona and each channel. The VP of RevOps needs different copy than the sales rep who uses your product daily, even though they work at the same company. Create separate messaging for:
+**Level 4 — Audience-specific messaging.** Tailor pillars for each buyer persona and each channel. The VP of RevOps needs different copy than the sales rep who uses your product daily, even though they work at the same company. Create separate messaging for:
 - Buyer persona (economic buyer, user, technical evaluator)
 - Channel (outbound email, website, sales deck, event booth, case study)
 - Stage of buyer journey (awareness, evaluation, decision)
 
-**Level 5 — Tactical copy assets.** The actual words used in specific places:
+**Level 5 — Tactical copy assets.** The exact words used in specific places:
 - Pitch deck narrative
 - One-pager / product sheet
 - Website hero + subhead
@@ -171,13 +171,13 @@ Gather the right people: product, marketing, and at least one senior sales perso
 
 This should take a few hours for an initial pass. Don't try to get it perfect on the first round — get it right, then test.
 
-### 2. Test positioning with actual buyers
+### 2. Test positioning with buyers
 
 Before you commit to a positioning direction, test it:
 
 - **Customer interviews.** Show the framing to 5-10 existing or prospective customers. Ask: "What do you think this product does?" and "Who would you recommend this to?" If their answers match your intended positioning, you're on track. If not, adjust.
 - **Win/loss review.** Look at lost deals. Was the buyer comparing you to something you weren't positioned against? Did they not understand what you do? Win/loss data is the most honest mirror you have.
-- **Message testing in channel.** Run two versions of a cold email or ad with different value framings. See which one gets a higher response rate. Small experiments, actual data.
+- **Message testing in channel.** Run two versions of a cold email or ad with different value framings. See which one gets a higher response rate. Small experiments, real data.
 
 ### 3. Build the messaging hierarchy
 
@@ -220,7 +220,7 @@ Someone should own this. Product marketing is the natural owner in most B2B orga
 
 **No connection between positioning and sales enablement.** If your sales team can't articulate the positioning in a cold call, the positioning isn't operationalized. Build battle cards and pitch narratives that make the positioning usable in a conversation.
 
-**No testing before full rollout.** Launching a new positioning across website, sales, and marketing without testing it with actual buyers first. Run small experiments. A/B test email subject lines. Test the framing in customer interviews. The cost of getting positioning wrong compounds across every channel.
+**No testing before full rollout.** Launching a new positioning across website, sales, and marketing without testing it with buyers first. Run small experiments. A/B test email subject lines. Test the framing in customer interviews. The cost of getting positioning wrong compounds across every channel.
 
 **Separate positioning and ICP work.** Positioning and ICP are interdependent. Your positioning defines which segment you're built to serve. Your ICP defines which specific companies fit that segment. Do them together, not sequentially.
 

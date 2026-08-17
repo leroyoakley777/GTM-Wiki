@@ -14,11 +14,11 @@ Outbound is the channel that takes a company from in-network founder deals to re
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
-| Gong | Outbound to move beyond founder-network deals | Moved from first 10 customers (founder relationships) to sourcing the next 10+ out-of-network, building immediate pipeline and accelerating 0→scale; now category leader | InsideScale case study |
+| Gong | Outbound to move beyond founder-network deals | Moved from first 10 customers (founder relationships) to sourcing the next 10+ out-of-network, building immediate pipeline and accelerating 0→scale. Now category leader | InsideScale case study |
 
 ---
 
-## What Gong Actually Did
+## What Gong Did
 
 Gong's first ten customers came from the founders' relationships — the classic in-network start. The problem every founder hits: that well runs dry. Gong used outbound to source the *next* ten customers outside the network, building pipeline it could count on and compressing the 0→scale timeline. It went on to become the category leader in conversation intelligence.
 

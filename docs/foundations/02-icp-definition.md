@@ -6,7 +6,7 @@ description: How to define, validate, and iterate on an Ideal Customer Profile �
 
 # Ideal Customer Profile (ICP) Definition
 
-An Ideal Customer Profile (ICP) is an account-level definition of the company most likely to become your best customer. It is not a buyer persona. It is not a target audience. It is the specific subset of the market that gets maximum value from your product, pays on time, stays, and refers.
+An Ideal Customer Profile (ICP) is an account-level definition of the company most likely to become your best customer. It targets the specific subset of the market that gets maximum value from your product, pays on time, stays, and refers — an account-level construct distinct from a buyer persona (an individual) and a target audience (a broader segment).
 
 Every GTM strategy starts here. Skip this and everything else fails: channels, messaging, sales motion.
 
@@ -37,13 +37,13 @@ Companies with a clearly defined ICP achieve significantly better outcomes than 
 
 The structural reasons:
 
-**Sales efficiency.** Without an ICP, your sales team chases unqualified leads. Time spent on accounts that will never close is time not spent on accounts that will. An ICP narrows the field to accounts with actual fit and intent.
+**Sales efficiency.** Without an ICP, your sales team chases unqualified leads. Time spent on accounts that will never close is time not spent on accounts that will. An ICP narrows the field to accounts with genuine fit and intent.
 
 **Message resonance.** When marketing speaks to everyone, it resonates with no one. An ICP lets you write messaging that names the specific problems, pressures, and outcomes that matter to a defined account type. Generic messaging gets ignored. Specific messaging gets replies.
 
 **Product alignment.** Without an ICP, the product roadmap gets pulled in ten directions by customers who shouldn't be customers. A clear ICP filters feature requests: does this help our ICP solve their problem, or is it a distraction?
 
-**Retention and expansion.** ICP-fit customers experience value sooner. They churn less. They expand faster. Companies that use ICPs have higher customer retention rates because the product is a better fit for the customers they acquire.
+**Retention and expansion.** ICP-fit customers experience value sooner. They churn less. They expand faster. Companies that use ICPs have higher customer retention rates because the product is a better fit for customers they acquire.
 
 **Cross-functional alignment.** Sales, marketing, product, and leadership all look at the same ICP document and agree on who matters. That alignment eliminates the most common silent killer of B2B launches: each function writing its own version of the customer.
 
@@ -83,7 +83,7 @@ A company that matches your firmographics but has no trigger is not an opportuni
 What the account is actively doing that indicates interest or need. These are often captured through intent data, content consumption, search behavior, and community activity.
 
 - **Active research** — what they are reading, what topics they are searching for
-- **Community participation** — are they in the communities where your ICP congregates?
+- **Community participation** — are they in communities where your ICP congregates?
 - **Technology evaluation** — are they looking at competing or complementary solutions?
 - **Hiring patterns** — are they hiring for roles related to the problem you solve?
 - **Content engagement** — are they consuming your content or similar providers' content?
@@ -92,7 +92,7 @@ Behavioral signals add a timing dimension. A firmographic + trigger match that i
 
 ### Layer 4: Value Definition
 
-The fourth layer is the most overlooked: what does "best customer" actually mean for your business? Define it explicitly.
+The fourth layer is the most overlooked: what does "best customer" mean for your business? Define it explicitly.
 
 - **Revenue profile** — ACV range, expansion potential, wallet share
 - **Implementation burden** — how much professional services, customization, or hand-holding do they require?
@@ -100,7 +100,7 @@ The fourth layer is the most overlooked: what does "best customer" actually mean
 - **Reference value** — will this customer be a referenceable case study?
 - **Learning value** — will this customer teach you something about the market?
 
-The output is not just a list of target accounts. It is a prioritized account list ranked by expected value and readiness, with a named owner and a plan for each tier.
+The output is a prioritized account list ranked by expected value and readiness, with a named owner and a plan for each tier — more than a plain list of target accounts.
 
 ## ICP vs. Buyer Persona
 
@@ -152,7 +152,7 @@ A good ICP is narrow enough to focus resources but broad enough to support growt
 
 ### Step 3: Create a Named Account List
 
-The output of an actual ICP exercise is not a document. It is a list of 50-200 named accounts that match all four layers, prioritized by fit and trigger proximity.
+The output of an ICP exercise is a list of 50-200 named accounts that match all four layers, prioritized by fit and trigger proximity — an executable asset, not a document.
 
 This list is the asset. Everything else — outbound, content, events, paid — flows from it. If you cannot produce a named account list from your ICP, your ICP is a concept, not an executable strategy.
 
@@ -171,7 +171,7 @@ An ICP is a living document, not a one-time deliverable. The market changes. You
 The iteration loop:
 
 1. **Review closed-won and closed-lost data quarterly.** Which accounts matched the ICP and won? Which matched and lost? Which didn't match and won anyway?
-2. **Update trigger and signal layers based on what actually preceded closed-won deals.** Were there triggers you didn't capture? Signals you missed?
+2. **Update trigger and signal layers based on what preceded closed-won deals.** Were there triggers you didn't capture? Signals you missed?
 3. **Refine firmographic boundaries as you learn.** If every won deal in the last quarter was $10M-$30M ARR, your upper bound may be too high.
 4. **Test ICP expansions deliberately.** Once you dominate a beachhead, expand the ICP by one dimension at a time — new vertical, new size band, new geography — and measure the impact on win rate and sales cycle.
 
@@ -191,7 +191,7 @@ The iteration loop:
 
 **No exclusion criteria.** An ICP defines who to pursue. It should also define who to ignore. Explicit exclusion criteria — company sizes that don't work, industries where you lose, triggers that signal bad fit — saves more time than inclusion criteria.
 
-**Not validating with currency.** You can feel confident in an ICP and still be wrong. The only validation that matters is whether ICP accounts actually buy, at the expected velocity, with the expected retention. Everything else is self-reported confidence.
+**Not validating with currency.** You can feel confident in an ICP and still be wrong. The only validation that matters is whether ICP accounts buy, at the expected velocity, with the expected retention. Everything else is self-reported confidence.
 
 ## ICP at Different Stages
 

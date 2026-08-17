@@ -8,13 +8,13 @@ description: When community is the right channel, the compounding metrics that m
 
 **Community is the slowest channel that compounds the hardest.** It does not produce a spike of pipeline this month. It produces a durable asset — a group of people who know your product, trust you, and bring their colleagues in — that keeps compounding for years. The catch: it only works for products and audiences that genuinely benefit from talking to each other. Community for a product nobody needs to discuss is an empty Slack group.
 
-This page is the *where* of community-led growth: when it is the right call and how to judge whether the motion is actually compounding.
+This page is the *where* of community-led growth: when it is the right call and how to judge whether the motion is compounding.
 
 ---
 
 ## One Number That Matters Most
 
-**Member-initiated referrals and word-of-mouth share of new signups — a healthy community pushes this toward 30–50% over time.** That is the number that proves the community is doing actual acquisition work rather than just existing. People who come in because a member brought them are the highest-intent, lowest-CAC users you will ever acquire.
+**Member-initiated referrals and word-of-mouth share of new signups — a healthy community pushes this toward 30–50% over time.** That is the number that proves the community is doing acquisition work rather than just existing. People who come in because a member brought them are the highest-intent, lowest-CAC users you will ever acquire.
 
 Do not track "membership count" as a score. Members who never speak, never refer, and never convert are a mailing list, not a community.
 
@@ -25,7 +25,7 @@ Do not track "membership count" as a score. Members who never speak, never refer
 Use the [Channels Bullseye](../foundations/gtm-channels-bullseye) to pick your one best channel first. Community-led wins when:
 
 - **Your users genuinely benefit from talking to each other.** The community has to be useful to members *independent of you* — otherwise they have no reason to stay.
-- **The product has a learning curve or a craft.** Tools for developers, marketers, ops, and other practitioners create community because the users teach each other.
+- **The product has a learning curve or a craft.** Tools for developers, marketers, ops, and other practitioners create community because users teach each other.
 - **Your best customers are the people who answer the questions.** A community where you are the only one helping is a support queue, not a community.
 
 If none of those are true, a community is a distraction. Building community around a commodity product with no practitioner craft is a cost with no return.
@@ -60,7 +60,7 @@ A community that only serves one of these is leaving two-thirds of its value on 
 
 ## Common failure modes
 
-- **Faking it with a marketing channel.** A "community" that is actually a broadcast feed is a mailing list with extra steps. Members do the talking or it is not a community.
+- **Faking it with a marketing channel.** A "community" that is a broadcast feed is a mailing list with extra steps. Members do the talking or it is not a community.
 - **Buying membership.** Paying people to join produces an inactive crowd that dilutes the signal and never refers.
 - **You being the only helper.** If every question waits on you, you have built a support ticket system, and you will burn out.
 - **Counting bodies, not behavior.** Membership is vanity. Member-initiated referrals are the score.

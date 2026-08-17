@@ -6,7 +6,7 @@ description: The operating system this wiki is built on. Recurring revenue is a 
 
 # Revenue Architecture: The Core Framework
 
-This wiki is not a collection of GTM tactics. It is a system. And the system is built on one framework: **Revenue Architecture**, as articulated by Jacco van der Kooij and Winning by Design, then extended by the operator experience behind this wiki.
+This wiki is a system, not a mere collection of GTM tactics, built on one framework: **Revenue Architecture** as articulated by Jacco van der Kooij and Winning by Design, and extended by the operator experience behind this wiki.
 
 Read this page first. It is the nucleus. Every other page in this wiki — foundations, channels, playbooks, agentic GTM — hangs off the structure it establishes here.
 
@@ -29,7 +29,7 @@ The old model is broken. The fix is not "do the same GTM cheaper." It is a diffe
 
 ## Core Metaphor: The Revenue Factory
 
-A recurring-revenue business is not a collection of departments. It is a **factory**.
+A recurring-revenue business is a **factory** — one integrated operation, not a loose collection of separate departments.
 
 In a factory, raw materials go in, a finished product comes out, and every station is measured against its contribution to the whole. Marketing, Sales, and Customer Success are not separate silos with separate goals. They are production stages on one assembly line, running on a shared language and shared metrics.
 

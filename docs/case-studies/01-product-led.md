@@ -6,7 +6,7 @@ description: Slack, Calendly, and Figma — how product-as-distribution beats a 
 
 # Product-Led Growth — Case Studies
 
-Product-led growth is the channel where the product is the salesperson: a free tier generous enough to deliver actual value, constrained enough to create a natural upgrade trigger. These are the documented cases that prove the motion — and the pattern underneath all of them.
+Product-led growth is the channel where the product is the salesperson: a free tier generous enough to deliver real value, constrained enough to create a natural upgrade trigger. These are the documented cases that prove the motion — and the pattern underneath all of them.
 
 ---
 
@@ -14,14 +14,14 @@ Product-led growth is the channel where the product is the salesperson: a free t
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
-| Slack | Freemium + viral team adoption | 575,000 orgs on platform by 2019; ~40% of paid customers started on the free tier | ideaplan.io PLG guide |
-| Calendly | Product-as-distribution (shared booking link) | Bootstrapped to profitability; raised $350M at $3B+ valuation; 10M+ users; deployed at ~83% of Fortune 500 | developmentcorporate.com PLG examples |
+| Slack | Freemium + viral team adoption | 575,000 orgs on platform by 2019. ~40% of paid customers started on the free tier | ideaplan.io PLG guide |
+| Calendly | Product-as-distribution (shared booking link) | Bootstrapped to profitability. Raised $350M at $3B+ valuation. 10M+ users. Deployed at ~83% of Fortune 500 | developmentcorporate.com PLG examples |
 | Calendly | Viral loop in core use case | Early 700%+ year-over-year growth driven entirely by the product | saasoperations.com PLG examples |
-| Figma | Free tier + cross-functional collaboration (design→dev handoff) | Network effects drove retention; bottom-up enterprise adoption | ideaplan.io; saasoperations.com |
+| Figma | Free tier + cross-functional collaboration (design→dev handoff) | Network effects drove retention. Bottom-up enterprise adoption | ideaplan.io, saasoperations.com |
 
 ---
 
-## What Each Company Actually Did
+## What Each Company Did
 
 **Slack.** Gave teams a free tier generous enough to feel the value, then let the shared workspace pull colleagues in — the product's *output* (message history, channels) became the distribution channel. No sales rep needed to reach the aha moment. The result: hundreds of thousands of orgs, with a meaningful share of eventual paying customers starting free.
 
@@ -41,7 +41,7 @@ The free tier does two jobs at once: it lowers the barrier to the aha moment, an
 
 ## Transferable Takeaway
 
-**Track activation and sharing velocity, not just signups.** A PLG motion lives or dies on whether users reach the aha moment quickly and whether the product's output gets shared. Signups measure reach; activation and share rate measure whether the loop is actually spinning.
+**Track activation and sharing velocity, not just signups.** A PLG motion lives or dies on whether users reach the aha moment quickly and whether the product's output gets shared. Signups measure reach. Activation and share rate measure whether the loop is spinning.
 
 ---
 

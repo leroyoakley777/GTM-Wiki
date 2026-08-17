@@ -6,7 +6,7 @@ description: How B2B markets break down — the 95-5 rule, the four segmentation
 
 # Market Segmentation Benchmarks
 
-**The map you draw before you sell.** This page pairs with the [ICP Definition](../foundations/02-icp-definition.md) foundation — that page defines *who* you target; this page gives you the *numbers* on how markets actually behave and how much segmentation is worth.
+**The map you draw before you sell.** This page pairs with the [ICP Definition](../foundations/02-icp-definition.md) foundation — that page defines *who* you target. This page gives you the *numbers* on how markets behave and how much segmentation is worth.
 
 The single most important fact: **only ~5% of your market is actively buying at any moment (the 95-5 rule).** Almost all of your pipeline goes to accounts that look like buyers but are not in-market. Segmentation is the discipline of finding the 5%.
 
@@ -36,30 +36,30 @@ The single most important fact: **only ~5% of your market is actively buying at 
 
 Most teams stop at firmographics. That is a target list, not a strategy. The four layers, in order of how static they are:
 
-### 1. Firmographic — the boundary
+### 1. Firmographic — boundary
 
 Industry, company size, revenue, geography, tech stack. Cheapest to source, most static. It defines the *boundary* of your market — but it **selects for resemblance, not demand.** Two identical firmographic accounts can be in completely different places: one renewing a competitor next month, the other with no budget and no trigger. Never use firmographics as the only filter.
 
-### 2. Technographic — the integration fit
+### 2. Technographic — integration fit
 
 The account's tech stack. Finds integration fit and competitive displacement — accounts running a competitor's tool are the easiest to displace because the problem is already proven. This is where "they already pay for a solution" becomes a target.
 
-### 3. Behavioral / intent — the timing
+### 3. Behavioral / intent — timing
 
 Website visits, content engagement, third-party intent data, topic surge. Finds *timing* — who is in-market now. This is the layer that finds the 5%. It changes constantly, which is why it is the most valuable and the most perishable.
 
-### 4. Psychographic / needs-based — the message
+### 4. Psychographic / needs-based — message
 
 Decision-maker mindset: cost-control CFO vs growth-at-any-cost CFO. The payoff is **message-market fit** — you stop writing one deck for a market of ten thousand and write for a mindset. A segment that cannot name the buyer's job-to-be-done is not a segment.
 
-**The pattern across every framework:** firmographics set the boundary; the psychographic/behavioral/needs layers do the actual targeting.
+**The pattern across every framework:** firmographics set the boundary. The psychographic/behavioral/needs layers do the targeting.
 
 ---
 
 ## What Matters Most
 
 - **The 95-5 rule reframes the whole game.** Most pipeline goes to accounts that look like buyers but are not in-market. Behavioral/intent signals — not firmographics — find the 5%.
-- **A segment does nothing until it maps to named people.** A target account list you can actually reach beats a beautifully tiered list you can't.
+- **A segment does nothing until it maps to named people.** A target account list you can reach beats a beautifully tiered list you can't.
 - **ICP names disqualifiers, not just qualifiers.** A good ICP is specific enough to exclude. Score accounts against patterns of past success — who closes fastest, expands most, renews consistently.
 - **Segment activation is the deliverable.** A pricing page visited twice plus a comparison guide downloaded in one week is an in-market signal worth prioritizing now — that behavior, not the industry, defines the segment.
 
@@ -84,8 +84,8 @@ Spraying the ~95% of the market that is not buying. The cheapest way to waste a 
 ## TAM / SAM / SOM
 
 - **TAM** = total revenue opportunity at 100% share, no competition. The ceiling.
-- **SAM** = the slice of TAM your product/model can actually serve (geo, size, segment, tech-stack fit).
-- **SOM** = achievable capture given competition, win rate, and budget — the number you actually plan against.
+- **SAM** = the slice of TAM your product/model can serve (geo, size, segment, tech-stack fit).
+- **SOM** = achievable capture given competition, win rate, and budget — the number you plan against.
 
 Achievable early-growth SOM: **5–15% of SAM** (HG Insights). **Bottom-up sizing (ICP count × ACV) beats top-down (analyst market estimate × share %) for defensibility** — because the bottom-up number is built from accounts you can name, not a market estimate you cannot verify.
 
@@ -94,8 +94,8 @@ Achievable early-growth SOM: **5–15% of SAM** (HG Insights). **Bottom-up sizin
 ## How to Read These Numbers
 
 1. **The 68% win-rate ICP claim is directional, not law** — it is an agency marketing figure. Use it as evidence that ICP focus pays, not as a target.
-2. **Personalization lifts (McKinsey) are for doing it right.** Poorly executed personalization = added cost, no lift. The 10–15% revenue lift assumes actual personalization at scale — which means actual segment definitions feeding it.
-3. **TAM is a ceiling, SOM is the budget.** Boards track the funnel TAM→SAM→SOM; only SOM is actionable in a quarter.
+2. **Personalization lifts (McKinsey) are for doing it right.** Poorly executed personalization = added cost, no lift. The 10–15% revenue lift assumes real personalization at scale — which means concrete segment definitions feeding it.
+3. **TAM is a ceiling, SOM is the budget.** Boards track the funnel TAM→SAM→SOM. Only SOM is actionable in a quarter.
 
 ---
 

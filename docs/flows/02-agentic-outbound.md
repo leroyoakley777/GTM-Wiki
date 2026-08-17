@@ -12,7 +12,7 @@ This is the [outbound flow](./outbound) running under an agent harness. The sequ
 
 ## Rule That Governs the Whole Flow
 
-**Augment, don't replace.** The data is unambiguous: hybrid (human-in-the-loop) teams produce **2.8x more pipeline** than full-autonomous attempts, and AI SDR tools churn at 50–70% annually. Autonomous agents convert meetings to qualified opportunities at **15% vs 25%** for humans. The harness removes the thinking bottleneck *between* gate steps; humans keep judgment on the send. (Numbers as cited in [Agentic Outbound](../agentic/agentic-outbound).)
+**Augment, don't replace.** The data is unambiguous: hybrid (human-in-the-loop) teams produce **2.8x more pipeline** than full-autonomous attempts, and AI SDR tools churn at 50–70% annually. Autonomous agents convert meetings to qualified opportunities at **15% vs 25%** for humans. The harness removes the thinking bottleneck *between* gate steps. Humans keep judgment on the send. (Numbers as cited in [Agentic Outbound](../agentic/agentic-outbound).)
 
 ---
 
@@ -22,17 +22,17 @@ Four execution layers, each with a human checkpoint:
 
 | Layer | What the agent does | Human checkpoint |
 |---|---|---|
-| **Data / signals** | Sources, dedupes, enriches; monitors hundreds of buyer signals (job change, funding, tech-stack, displacement) | You score the list |
-| **Compose** | Drafts per-row research briefs + 5 email variants from your tone exemplars | You approve the pattern; approval trains the voice |
+| **Data / signals** | Sources, dedupes, enriches. Monitors hundreds of buyer signals (job change, funding, tech-stack, displacement) | You score the list |
+| **Compose** | Drafts per-row research briefs + 5 email variants from your tone exemplars | You approve the pattern. Approval trains the voice |
 | **Orchestration** | Send-time, warmup, domain rotation, cadence | Send caps stay human-set |
-| **Reply triage** | Classifies intent, drafts responses &lt;5 min | You approve hot replies; 15-min SLA on hot |
+| **Reply triage** | Classifies intent, drafts responses &lt;5 min | You approve hot replies. 15-min SLA on hot |
 
 ---
 
 ## Sequence (gates identical to the manual flow)
 
 1. **Prove the message** — small list, high-touch, all human judgment. Never automate a message you haven't proven. *Gate: 300+ sends per variant, pattern approved.*
-2. **Automate the leverage** — agents draft, enrich, route at scale. Humans approve the pattern, not every keystroke. *Gate: brief coverage >90%, so the "specific" lines are actual, not placeholders.*
+2. **Automate the leverage** — agents draft, enrich, route at scale. Humans approve the pattern, not every keystroke. *Gate: brief coverage >90%, so the "specific" lines are real, not placeholders.*
 3. **Guard the quality bar** — brief coverage >90%, triage accuracy >95%, human approval rate declining toward 20%, time-to-first-response &lt;15 min on hot, override rate &lt;5%. *Gate: if any slips, the loop is scaling garbage — shrink it.*
 
 ---
@@ -69,7 +69,7 @@ From [Agent vs Human Workflows](../agentic/agent-vs-human-workflows):
 | Outbound email drafting | Draft | rep review before any send |
 | Pricing approvals | Draft / Recommend | finance sign-off, no autonomous send |
 
-**The rule to carry in:** automate the low-blast-radius, reversible, high-volume work; keep a human at every customer-facing or financial gate. Start narrow, prove the control model, then scale.
+**The rule to carry in:** automate low-blast-radius, reversible, high-volume work. Keep a human at every customer-facing or financial gate. Start narrow, prove the control model, then scale.
 
 ---
 

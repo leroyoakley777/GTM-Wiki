@@ -9,15 +9,16 @@ title: Agentic Outbound
 with an agentic harness — same acceptance gates, same funnel metrics,
 drastically faster loops.
 
-This is not a new playbook. It is the existing playbook with the
-execution layer replaced. If you haven't read
+The existing
+[Outbound from Zero](../playbooks/outbound-from-zero.md) playbook runs
+here with the execution layer replaced. If you haven't read
 [Outbound from Zero](../playbooks/outbound-from-zero.md) first, do
 that — the gates below assume it.
 
 The core rule does not change. Outbound is a numbers game with a
 quality gate. AI does not remove the gate. It removes the thinking
 bottleneck *between* the gate steps. Humans still decide what "good"
-looks like; agents execute against that bar at volume no human can
+looks like. Agents execute against that bar at volume no human can
 match.
 
 ---
@@ -60,7 +61,7 @@ replace the human.
 
 ## Economics
 
-The economics force your hand. A human SDR costs about **$139,120/year
+Economics force your hand. A human SDR costs about **$139,120/year
 fully loaded**. An AI SDR platform runs **$1,000–$5,000/month**, or
 $12K–$60K/year ([AiSDR cost analysis](https://aisdr.com/blog/sdr-vs-ai-cost/),
 [Valley pricing survey](https://www.joinvalley.co/blog/ai-sdr-pricing-costs-roi-2026)).
@@ -97,9 +98,9 @@ funnel stays identical. The leverage changes.
 | Layer | Manual (before) | Agentic (now) | What stays |
 |---|---|---|---|
 | List build | hours of searching per row | agent sources, dedupes, enriches from the data layer | ICP fit gate, reason-to-reach on every row |
-| Personalization | you write one line per row | agent drafts per-row from a research brief; you approve the pattern | specificity, one ask, under 90 words |
+| Personalization | you write one line per row | agent drafts per-row from a research brief. You approve the pattern | specificity, one ask, under 90 words |
 | Sequencing | cadence by hand | orchestrator handles send-time, warmup, domain rotation | proven pattern before scaling |
-| Reply triage | you check the inbox | agent classifies and drafts; you approve hot replies | time-to-first-response under 15 min |
+| Reply triage | you check the inbox | agent classifies and drafts. You approve hot replies | time-to-first-response under 15 min |
 
 The gate never moves. Every row has a first name, a verified email, and
 a one-line reason-to-reach. Every variant is human-approved before the
@@ -129,8 +130,8 @@ does not change. What changes is *how fast* you get to the good 500.
 | Layer | Manual (before) | Agentic (now) |
 |---|---|---|
 | Sourcing | hours of searching | agent pulls from data layer, deduped, enriched |
-| Reason-to-reach | you write one per row | agent drafts one per row from research; you approve the pattern |
-| Perfect-fit tier (20%) | your judgment | agent scores fit; you confirm the top 20% |
+| Reason-to-reach | you write one per row | agent drafts one per row from research. You approve the pattern |
+| Perfect-fit tier (20%) | your judgment | agent scores fit. You confirm the top 20% |
 
 The best modern agents monitor **hundreds of live buyer signals** —
 job changes, funding rounds, hiring surges, tech-stack changes,
@@ -140,12 +141,12 @@ human would spend 15–30 minutes assembling by hand
 That brief is what makes the personalization genuine, not templated.
 
 **The gate stays**: every row has a first name, a verified email, and a
-one-line reason-to-reach. The agent can *propose* rows; you still sign
+one-line reason-to-reach. The agent can *propose* rows. You still sign
 off on the list before anything is sent.
 
 **Why this wins**: the bottleneck in outbound has never been sending —
-it is the thinking per row. Agents remove the thinking bottleneck;
-humans keep the judgment.
+it is the thinking per row. Agents remove the thinking bottleneck.
+Humans keep the judgment.
 
 ### Step 2 — Write the sequence (agents draft, you set the rules)
 
@@ -160,12 +161,12 @@ next week about [specific issue]") beats generic "let's talk"
 What agents add:
 
 - **Variant generation**: draft 5 versions of each email from the
-  brief; you pick the voice; the harness learns your pick.
+  brief. You pick the voice. The harness learns your pick.
 - **Personalization at scale**: the research brief fills the specific
   line — "I saw [company] announced [trigger]" — without you writing it
   500 times. This is what takes reply rates from 3–5% to 15–18%
   ([Instantly](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
-- **Tone control**: you paste 3 emails you love; the compose layer
+- **Tone control**: you paste 3 emails you love. The compose layer
   matches that voice. Your voice, not generic AI copy. Every approval
   trains the model to match your style over time
   ([Amplemarket](https://www.amplemarket.com/blog/best-ai-sales-agents)).
@@ -199,7 +200,7 @@ then route:
 
 The metric that matters: **time-to-first-response**. Manual teams die on
 this — agents keep hot replies under 15 minutes, which is where outbound
-deals are actually won or lost. The gap between a human checking the
+deals are won or lost. The gap between a human checking the
 inbox twice a day and an agent triaging in minutes is the single biggest
 agentic advantage in the whole motion.
 
@@ -215,7 +216,7 @@ Add these harness-health metrics:
 
 | Metric | Healthy range | What it tells you |
 |---|---|---|
-| Brief coverage | >90% of sends have an actual brief | Personalization is genuine, not templated |
+| Brief coverage | >90% of sends have a real brief | Personalization is genuine, not templated |
 | Human approval rate | declining toward 20% | Trust is building in the compose layer |
 | Triage accuracy | >95% correct routing | The loop won't bury hot leads |
 | Time-to-first-response | under 15 min for hot | The loop converts replies into meetings |
@@ -227,11 +228,11 @@ are vanity. Meetings are revenue.
 
 ### Step 5 — Handoff (unchanged, still the failure point)
 
-Agents don't fix a broken handoff; they make it faster. If you don't
+Agents don't fix a broken handoff. They make it faster. If you don't
 have a meeting standard, source tracking, and a 2-week debrief rhythm,
 automation just fills the funnel faster with unqualified meetings.
 
-**The gate stays**: every meeting traces to a campaign; every 2 weeks
+**The gate stays**: every meeting traces to a campaign. Every 2 weeks
 you debrief what won, what converted, what killed.
 
 ---
@@ -289,5 +290,5 @@ you debrief what won, what converted, what killed.
 
 *Synthesized from first-hand 0→1 outbound builds (Salesloft, Gladly,
 Apollo) plus agent-harness work 2025–2026 and the 2026 AI SDR market
-data cited above. The motion hasn't changed; the leverage
+data cited above. The motion hasn't changed. The leverage
 has. Next: [03 — Guardrails & Measurement](./03-guardrails-and-measurement.md).*

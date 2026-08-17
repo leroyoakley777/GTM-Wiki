@@ -26,7 +26,7 @@ The single most important fact: **discounting is a pipeline-quality tax, not a n
 | Good-better-best packaging | **40.8%** dominant model | SBI 2024 |
 | SaaS price level (YoY) | **+11.4%** in 2025 | MomentumNexus |
 | SaaS spend per employee | **$7,900/yr** (+27% in 2 yrs) | MomentumNexus |
-| Optimal discount range | **5–20% max**; >40% hurts deals | Cacheflow (10K proposals) |
+| Optimal discount range | **5–20% max**. >40% hurts deals | Cacheflow (10K proposals) |
 | Discounting → LTV impact | **−32% avg LTV** | Paddle |
 | Annual-prepay discount (Slack/Zoom/HubSpot) | **15–20%** | Recurly / industry |
 | Expansion as % of new revenue (healthy) | **25–40%** | MomentumNexus |
@@ -40,7 +40,7 @@ The single most important fact: **discounting is a pipeline-quality tax, not a n
 - **Discounting lowers LTV by ~32%** (Paddle). Heavy-discount customers show higher price sensitivity and higher churn than full-price customers.
 - **The optimal band is 5–20%.** Slack, Zoom, and HubSpot standardize 15–20% for annual prepay vs monthly — a discount for *behavior you want*, not one conceded to close.
 
-The distinction matters: **a discount for behavior you want is pricing; a discount conceded to close is a subsidy.** The first builds LTV; the second erodes it.
+The distinction matters: **a discount for behavior you want is pricing. A discount conceded to close is a subsidy.** The first builds LTV. The second erodes it.
 
 ---
 
@@ -48,7 +48,7 @@ The distinction matters: **a discount for behavior you want is pricing; a discou
 
 Packaging decides more about your revenue than any price point does.
 
-- **Build packaging around customer groups, not segments.** When packaging is built on segment philosophy, every feature becomes a tier lever (15/25/50 dashboards) and actual customers fall between editions — which forces sales to horse-trade cross-tier deals. That is how invisible discounts and pricing unfairness enter the model regardless of disciplined list prices.
+- **Build packaging around customer groups, not segments.** When packaging is built on segment philosophy, every feature becomes a tier lever (15/25/50 dashboards) and customers fall between editions — which forces sales to horse-trade cross-tier deals. That is how invisible discounts and pricing unfairness enter the model regardless of disciplined list prices.
 - **Partitioned pricing reduces perceived value.** Breaking a package into many metered components lowers perceived fairness even at identical total price. Buyers read granularity as friction, not choice.
 - **Value-based pricing is a philosophy, not a price level.** It only works when licensing metric + packaging + price points all reflect how customers derive value. Fix the packaging before touching the price.
 
@@ -60,7 +60,7 @@ The 40.8% good-better-best figure (SBI 2024) is not a trend to chase — it is e
 
 - **25–40% of new revenue from expansion** is healthy B2B SaaS. Top performers exceed 60% of new MRR from expansion (ChurnZero).
 - Expansion revenue (10–30% good) is pricing working after the sale — upgrades, seat growth, usage growth, and add-ons.
-- **Pricing that does not enable an upgrade path caps NRR.** Top performers run NRR at 110–120%; gross dollar retention strong at 85–95% (Peak).
+- **Pricing that does not enable an upgrade path caps NRR.** Top performers run NRR at 110–120%. Gross dollar retention strong at 85–95% (Peak).
 
 A pricing model with no natural expansion motion is a ceiling on the most efficient revenue you will ever have. Land-and-expand is not optional for most SaaS — it is where the unit economics work.
 

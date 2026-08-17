@@ -14,4 +14,4 @@ adapt them to any business model.
 - [02 — GTM Channels Bullseye](./01-gtm-channels-bullseye.md) — how to find your single highest-leverage acquisition channel.
 
 More foundations are added as the wiki grows. Each one earns its place by
-being something an operator can actually run on Monday morning.
+being something an operator can run on Monday morning.

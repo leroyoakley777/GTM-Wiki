@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Partner / Channel
-description: When partnerships are the right channel, the economics that make them work, and the failure modes that kill them.
+description: When partnerships are the right channel, economics that make them work, and the failure modes that kill them.
 ---
 
 # Partner / Channel
@@ -14,7 +14,7 @@ This page is the *where* of partnerships: when they are the right call and how t
 
 ## One Number That Matters Most
 
-**Qualified partner-sourced pipeline as a share of total new pipeline — a healthy target is 10–20% for a mature partner program.** That is the number that tells you the motion is actually contributing and not just occupying time. Below that, the program is a tax. Above it, you are leaving upside on the table and should invest more.
+**Qualified partner-sourced pipeline as a share of total new pipeline — a healthy target is 10–20% for a mature partner program.** That is the number that tells you the motion is contributing and not just occupying time. Below that, the program is a tax. Above it, you are leaving upside on the table and should invest more.
 
 Do not track "number of partners signed" as a score. Signed but inactive partners are decoration. Partner-sourced pipeline is revenue.
 
@@ -39,7 +39,7 @@ Each stage answers a different question. A weak stage caps the whole motion.
 | Stage | Healthy range | What it tells you |
 |---|---|---|
 | Partner activation rate | >50% of signed partners launch | Whether the onboarding worked |
-| Integration adoption | 10–30% of mutual customers | Whether the product is actually complementary |
+| Integration adoption | 10–30% of mutual customers | Whether the product is complementary |
 | Co-sell conversion | 5–15% of partner-referred leads | Whether the partner can sell |
 | Partner-sourced share of new pipeline | 10–20% | Whether the channel matters |
 | Partner-sourced CAC | Often 30–50% lower than direct | The core economic argument |
@@ -61,7 +61,7 @@ Most failed partnerships are a category error: they expect co-sell economics fro
 ## Common failure modes
 
 - **Signing partners, then ignoring them.** A logo without an activation plan is a cost. Every signed partner needs a launch date and a joint revenue target.
-- **Building integration nobody's customer asked for.** The integration is not the win; the shared customer is. Validate that the same ICP wants both products.
+- **Building integration nobody's customer asked for.** The integration is not the win. The shared customer is. Validate that the same ICP wants both products.
 - **No co-sell discipline.** The partner's sales team will not sell your product unless you make it trivially easy — and worth their quota.
 - **Chasing logos over pipeline.** The number of partners you can name is vanity. Partner-sourced revenue is the score.
 - **Giving away margin with nothing in return.** If you discount for a partner who brings no deals, you have just cut your own price.

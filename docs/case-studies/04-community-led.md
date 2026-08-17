@@ -14,12 +14,12 @@ Community-led is the slowest channel and the one that compounds the hardest. Not
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
-| Notion | Ambassador program + community hub + superfan enablement | 20M users and 1M+ community members; hired their biggest fan as Head of Community at 15 employees | Michelle Goodall community case study |
-| Notion | Community as organic content/referral flywheel | Community created a steady stream of content → expanded organic footprint → fuelled demand | Michelle Goodall; BetterMode |
+| Notion | Ambassador program + community hub + superfan enablement | 20M users and 1M+ community members. Hired their biggest fan as Head of Community at 15 employees | Michelle Goodall community case study |
+| Notion | Community as organic content/referral flywheel | Community created a steady stream of content → expanded organic footprint → fuelled demand | Michelle Goodall, BetterMode |
 
 ---
 
-## What Notion Actually Did
+## What Notion Did
 
 Notion found where its fans already lived — Reddit, Discord, Facebook, Meetup — and formalized that energy into an ambassador program, vetting for community expertise rather than remunerating. It built a community hub that doubled as a knowledge base and a use case for the product. And it hired its biggest fan as Head of Community when the company had just 15 employees — early enough that the community voice shaped the company from the inside.
 
@@ -43,7 +43,7 @@ The load-bearing choices: vet ambassadors for genuine community expertise (not p
 
 ## Honest Caveat
 
-This is a **secondary-sourced case** (Michelle Goodall's community case study, echoed by BetterMode), and Notion had a category-defining product with category-defining timing. The user and member numbers are company-reported. The *mechanism* — meet fans where they are, formalize ambassadors, feed the flywheel — transfers; the 20M-user scale does not.
+This is a **secondary-sourced case** (Michelle Goodall's community case study, echoed by BetterMode), and Notion had a category-defining product with category-defining timing. The user and member numbers are company-reported. The *mechanism* — meet fans where they are, formalize ambassadors, feed the flywheel — transfers. The 20M-user scale does not.
 
 ---
 

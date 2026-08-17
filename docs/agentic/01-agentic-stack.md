@@ -51,11 +51,11 @@ ceiling without adding a rep for every thousand contacts.
 The cost math is stark. Smartlead's comparison puts the fully-loaded
 annual cost of a truly autonomous AI SDR at $35K–$65K per agent per
 year — data, infrastructure, warmup, and oversight included. That is
-less than one junior SDR's loaded cost. The stack is not a toy. It is a
-deliberate capital decision to trade a variable labor line for a fixed
-tooling line.
+less than one junior SDR's loaded cost. The stack is a deliberate
+capital decision to trade a variable labor line for a fixed tooling line
+— real production infrastructure, not a toy.
 
-But the actual reason it matters is not cost. It is speed of iteration.
+But the reason it matters is speed of iteration, not the cost.
 [Clay's outbound automation writeup](https://www.clay.com/blog/outbound-sales-automation)
 makes the point: the best teams treat GTM as an engineering system
 built on **data, orchestration, execution, and agents**. When every step
@@ -87,7 +87,7 @@ intent signals, and pushes them into a sequence. Data quality is the
 floor of the whole stack. Garbage rows produce garbage messages no
 matter how good your LLM is.
 
-**Layer 2 — Research.** This is what separates actual personalization from
+**Layer 2 — Research.** This is what separates genuine personalization from
 fake personalization. An agent with web and search access reads each
 account and produces a **brief** of max 150 words: what changed, what
 they use, what gap you can name. The brief is the contract with the
@@ -113,8 +113,8 @@ under 2% over six weeks, and recovered on dedicated infra in two. The
 delivery layer is where campaigns quietly die.
 
 **Layer 5 — Triage.** The loop. Every reply is ingested and classified:
-`interested` → human within 15 minutes; `question` → drafted answer for
-human approval; `not now` → nurture; `unsubscribe` → remove instantly.
+`interested` → human within 15 minutes. `question` → drafted answer for
+human approval. `not now` → nurture. `unsubscribe` → remove instantly.
 This is the layer that compounds. A team that answers a hot reply in 15
 minutes beats a team that finds it next week.
 
@@ -193,8 +193,8 @@ feel.
 - **Triage as an afterthought.** Replies pile up, SLAs blow, and the
   "AI pipeline" dies of slow follow-up. Build the reply loop before you
   scale volume.
-- **Judgment creep.** An agent "decides" a reply is safe to send. It
-  is not your agent; it is your reputation. A tool that promises
+- **Judgment creep.** An agent "decides" a reply is safe to send. That shipped reply carries
+  your reputation, not just your agent's judgment. A tool that promises
   everything tends to do nothing exceptionally. A tool that picks one
   job and goes deep is what shows up in production stacks.
 - **Ignoring the sender model.** Volume on shared sending infrastructure

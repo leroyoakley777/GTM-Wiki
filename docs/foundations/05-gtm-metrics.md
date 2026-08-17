@@ -45,7 +45,7 @@ Growth metrics answer the question: do we have traction? They track the top of t
 
 - **ARR (Annual Recurring Revenue)** — the annualized value of all active subscriptions. This is the single most important number on the P&L for a SaaS company. Track new ARR, expansion ARR, and contracted ARR separately.
 - **New logo acquisition** — count of net new customers. A leading indicator of pipeline health. If logos are flat while ARR grows, you're selling deeper into existing accounts, which is a different motion.
-- **Lead Velocity Rate (LVR)** — month-over-month growth in qualified leads. A leading indicator. Revenue metrics tell you what happened; LVR tells you what's coming. A flat or declining LVR is an early warning you can act on before revenue hits.
+- **Lead Velocity Rate (LVR)** — month-over-month growth in qualified leads. A leading indicator. Revenue metrics tell you what happened. LVR tells you what's coming. A flat or declining LVR is an early warning you can act on before revenue hits.
 
 **What to watch:** If new logo acquisition is strong but expansion ARR is weak, you have a product or customer success problem, not a sales problem. Track NPS and CSAT alongside new logos.
 
@@ -185,7 +185,7 @@ Metrics are not decoration. They are decision tools. Here's how to use them.
 ### Build a metrics cadence
 
 - **Weekly:** Pipeline metrics, lead velocity, new logos, burn rate. These are the fast-moving numbers that tell you if the current week's activity is on track.
-- **Monthly:** ARR, churn, NRR, CAC, CAC payback. These move slower but tell you if the trends are healthy.
+- **Monthly:** ARR, churn, NRR, CAC, CAC payback. These move slower but tell you if trends are healthy.
 - **Quarterly:** Magic Number, LTV:CAC, Rule of 40, gross margin trends. These are strategic metrics. Review with the leadership team and board.
 
 ### Know what to do when metrics deteriorate
@@ -202,7 +202,7 @@ Metrics are not decoration. They are decision tools. Here's how to use them.
 
 **Mistake 1: Tracking everything and acting on nothing.**
 
-A metrics dashboard with 50 numbers is useless. Pick the 8-12 metrics that actually drive decisions. Everything else is noise. The Five Pillar framework gives you a clean structure — use it.
+A metrics dashboard with 50 numbers is useless. Pick the 8-12 metrics that drive decisions. Everything else is noise. The Five Pillar framework gives you a clean structure — use it.
 
 **Mistake 2: Using blended CAC instead of channel-level CAC.**
 
@@ -222,7 +222,7 @@ When a SaaS company hits product-market fit and accelerates growth, losses often
 
 **Mistake 6: Using Magic Number as a long-term metric.**
 
-Magic Number is a near-term efficiency measure. It can swing quarter to quarter based on timing of deals, seasonality, and spend timing. Use it to gauge the current quarter's efficiency. Don't use it as a substitute for LTV:CAC, which captures the long-term economics.
+Magic Number is a near-term efficiency measure. It can swing quarter to quarter based on timing of deals, seasonality, and spend timing. Use it to gauge the current quarter's efficiency. Don't use it as a substitute for LTV:CAC, which captures long-term economics.
 
 **Mistake 7: Not tracking expansion ARR separately from new ARR.**
 

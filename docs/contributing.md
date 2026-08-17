@@ -12,7 +12,7 @@ contributions are welcome.
 
 - **First-principles, not tactics-of-the-week.** Explain *why* something
   works, not just the current hack.
-- **Operator-tested.** If you've run it, say so. Actual numbers beat theory.
+- **Operator-tested.** If you've run it, say so. Concrete numbers beat theory.
 - **Company- and stage-agnostic.** Frameworks should adapt to any model.
 
 ## How to contribute

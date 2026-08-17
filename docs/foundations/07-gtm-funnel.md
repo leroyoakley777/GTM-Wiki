@@ -119,9 +119,9 @@ Unusual Ventures notes that expansion is where the low-ACV land deal earns its r
 
 ### Step 1: Map the buyer journey first
 
-Do not start with funnel stages. Start with the actual journey your buyer takes. What do they do before they know you exist? How do they research? Who else gets involved? What triggers a buying decision?
+Do not start with funnel stages. Start with the journey your buyer takes. What do they do before they know you exist? How do they research? Who else gets involved? What triggers a buying decision?
 
-Unusual Ventures is explicit: "Base your funnel on your USER / BUYER journey." Build the funnel by mapping your buyer journey steps onto stages. If you skip this, you build a funnel that reflects your internal org chart, not how it actually works.
+Unusual Ventures is explicit: "Base your funnel on your USER / BUYER journey." Build the funnel by mapping your buyer journey steps onto stages. If you skip this, you build a funnel that reflects your internal org chart, not how it works.
 
 ### Step 2: Define entrance and exit criteria for each stage
 
@@ -166,7 +166,7 @@ Define the handoff explicitly:
 
 You need a shared dashboard that shows stage-by-stage volume and conversion rates. Review it in a weekly GTM meeting with marketing, sales, and success. Unusual Ventures recommends this as standard practice: "You'll track everything through a shared dashboard and weekly GTM meetings where the entire team will do an honest assessment to identify problem areas and plan improvements."
 
-The review is not a status update. It is a diagnosis session. Ask:
+Treat the review as a diagnosis session rather than a status update. Ask:
 
 - Which stage conversion dropped this week/month?
 - What changed — campaign, season, competitive move, product change?
@@ -175,7 +175,7 @@ The review is not a status update. It is a diagnosis session. Ask:
 
 ### Step 6: Iterate
 
-Your first funnel definition will be wrong in places. That is expected. The goal is not to get it perfect on day one — the goal is to have a system that improves over time as you learn where deals actually drop off.
+Your first funnel definition will be wrong in places. That is expected. The goal is not to get it perfect on day one — the goal is to have a system that improves over time as you learn where deals drop off.
 
 Treat funnel stage definitions as living documents. Reevaluate them when you add a new channel, change pricing, enter a new segment, or when conversion rates at a stage stay flat for multiple quarters despite intervention.
 
@@ -224,7 +224,7 @@ Land-and-expand is not optional for most SaaS companies — it is where the unit
 
 **Mistake 7: No shared dashboard or review cadence.**
 
-A funnel that lives in someone's head or in a spreadsheet nobody looks at is not a system. It is a document. Build a shared dashboard. Review it weekly with the full GTM team. If nobody is looking at it, the numbers will not improve.
+A funnel that lives in someone's head or in a spreadsheet nobody looks at is a document, not a system. Build a shared dashboard. Review it weekly with the full GTM team. If nobody is looking at it, the numbers will not improve.
 
 ---
 

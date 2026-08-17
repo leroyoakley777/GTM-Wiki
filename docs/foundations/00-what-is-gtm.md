@@ -8,7 +8,7 @@ description: The definition, scope, and core components of a go-to-market strate
 
 A go-to-market (GTM) strategy is the cross-functional revenue motion that defines **who you sell to, what you say, where you reach them, how you close them, and how you learn fast enough to keep winning.**
 
-It is not a launch deck. It is not a marketing plan. It is the operating system a company uses to bring a product or service to a defined market and win revenue against competition.
+A GTM strategy is the operating system a company uses to bring a product or service to a defined market and win revenue against competition — a more encompassing and durable frame than a launch deck or a marketing plan.
 
 If your GTM lives in a slide deck someone dusts off at the start of a quarter, your quarter is already in trouble.
 
@@ -95,7 +95,7 @@ The metrics that matter at the GTM level:
 - **CAC payback** — the ultimate test of whether your channel mix is sustainable
 - **Pipeline coverage** — are you generating enough qualified opportunities to hit the number
 
-The iteration cadence is the actual strategic asset. Review ICP, message, and channel mix on a fixed rhythm — monthly at minimum, weekly during launch.
+The iteration cadence is the strategic asset. Review ICP, message, and channel mix on a fixed rhythm — monthly at minimum, weekly during launch.
 
 ## GTM vs. Related Concepts
 
@@ -121,7 +121,7 @@ B2B and B2C GTM strategies share the same goal — connect product to customer a
 
 **B2C GTM** emphasizes emotion, lifestyle fit, identity, or simplicity. Channels focus on high-volume, broad-reach platforms. The buying decision is individual and fast. Sales cycles are measured in minutes to days.
 
-This wiki focuses on B2B GTM. The fundamentals apply to both, but the channels, motion, and measurement are different enough that they deserve separate treatment.
+This wiki focuses on B2B GTM. The fundamentals apply to both, but channels, motion, and measurement are different enough that they deserve separate treatment.
 
 ## How to Build One
 
@@ -177,7 +177,7 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 
 ## Cross-References
 
-- [Foundations: Revenue Architecture](./revenue-architecture) — the core framework this wiki is built on; read it first
+- [Foundations: Revenue Architecture](./revenue-architecture) — the core framework this wiki is built on. Read it first
 - [Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md) — the universal strategy framework that builds on this definition
 - [Foundations: ICP Definition](./02-icp-definition.md) — how to build and validate an ICP
 - [Foundations: Positioning and Messaging](./03-positioning-and-messaging.md) — the positioning discipline in depth

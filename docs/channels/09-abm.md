@@ -14,9 +14,9 @@ This page is the *where* of ABM — when it is the right call, the benchmarks th
 
 ## One Number That Matters Most
 
-**ABM-targeted accounts win at 2–3x the rate of non-ABM accounts.** Snowflake reported a 45% win rate on its ABM accounts vs 18% on non-ABM; DocuSign's enterprise win rate jumped from 25% to 52% after implementing ABM. The lift is not marketing polish — it is the effect of concentrating sales and marketing on a short list of accounts with coordinated, repeated engagement across channels, instead of spreading both thin.
+**ABM-targeted accounts win at 2–3x the rate of non-ABM accounts.** Snowflake reported a 45% win rate on its ABM accounts vs 18% on non-ABM. DocuSign's enterprise win rate jumped from 25% to 52% after implementing ABM. The lift is not marketing polish — it is the effect of concentrating sales and marketing on a short list of accounts with coordinated, repeated engagement across channels, instead of spreading both thin.
 
-That is why ABM is not a tactic to bolt on. It is a structural commitment to fewer, deeper, higher-value relationships.
+That is why ABM is a structural commitment to fewer, deeper, higher-value relationships rather than a tactic to bolt on.
 
 ---
 
@@ -35,8 +35,8 @@ ABM wins when a single account is worth a serious, sustained effort. It is the w
 
 | Metric | ABM benchmark | Why it matters |
 |---|---|---|
-| Account win rate | **45% ABM vs 18% non-ABM** (Snowflake); **25% → 52%** (DocuSign) | The headline case for concentrating on target accounts |
-| ROI | **Top performers see 81% higher ROI**; ~87% of B2B marketers say ABM outperforms other investments | ABM is not a "nice to have" — it is the top-performing initiative for most who run it |
+| Account win rate | **45% ABM vs 18% non-ABM** (Snowflake). **25% → 52%** (DocuSign) | The headline case for concentrating on target accounts |
+| ROI | **Top performers see 81% higher ROI**. ~87% of B2B marketers say ABM outperforms other investments | ABM is not a "nice to have" — it is the top-performing initiative for most who run it |
 | Pipeline contribution | **61% of companies cite increased pipeline/quality as ABM's key benefit** | The reason most teams adopt it |
 | Revenue attribution | **ABM credited for up to 73% of total revenue** in some orgs | When the target list is right, ABM is most of the revenue |
 | Deal size | **~20% larger than traditional demand gen** | Fewer, bigger, better — the ABM signature |
@@ -48,7 +48,7 @@ ABM wins when a single account is worth a serious, sustained effort. It is the w
 
 ## Metric That Separates a Working Program from a Badge
 
-**Account win rate on the target list.** Most teams report ABM "success" with engagement or coverage numbers — impressions, visits, touches — which are activity, not outcome. The number that tells you the program is actually working is whether you are winning the accounts on the list at a meaningfully higher rate than the rest of your book.
+**Account win rate on the target list.** Most teams report ABM "success" with engagement or coverage numbers — impressions, visits, touches — which are activity, not outcome. The number that tells you the program is working is whether you are winning the accounts on the list at a meaningfully higher rate than the rest of your book.
 
 | Account win rate | Performance |
 |---|---|
@@ -64,7 +64,7 @@ If your ABM win rate is not materially above your non-ABM baseline, you are runn
 ## How to Read These Numbers
 
 1. **Benchmark against your own non-ABM baseline, not an industry average.** The whole point of ABM is a lift over your normal motion. Measure ABM accounts against the rest of your book in the same quarter.
-2. **Account win rate is the outcome; everything else is a leading indicator.** Engagement, penetration, and coverage tell you if the program is *running*; win rate tells you if it is *working*.
+2. **Account win rate is the outcome. Everything else is a leading indicator.** Engagement, penetration, and coverage tell you if the program is *running*. Win rate tells you if it is *working*.
 3. **Selection is the program.** ABM that shifts pipeline starts with rigorous tier-1 selection. A mediocre target list, executed flawlessly, beats a perfect motion aimed at the wrong accounts.
 4. **Sales and marketing must own the list together.** ABM is a sales-marketing alignment tool first and a channel second. If the list is marketing's alone, it fails.
 

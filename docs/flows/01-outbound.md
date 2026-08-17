@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Outbound — From List to Pipeline
-description: The runnable outbound flow — decision gate, list build, channel and tooling, sequence, run and measure, handoff — with the acceptance gates and branch points an operator actually hits.
+description: The runnable outbound flow — decision gate, list build, channel and tooling, sequence, run and measure, handoff — with the acceptance gates and branch points an operator hits.
 ---
 
 # Outbound: From List to Pipeline
@@ -32,9 +32,9 @@ Cold email is primary, LinkedIn the amplifier, phone the last resort. Data/enric
 
 ### 4. Write the sequence
 
-Email 1 = reason-to-reach + one value observation; Email 2 (d3–4) = proof point; Email 3 (d7–8) = a different angle; breakup (d12–14). Under 90 words, one ask, human voice.
+Email 1 = reason-to-reach + one value observation. Email 2 (d3–4) = proof point. Email 3 (d7–8) = a different angle. Breakup (d12–14). Under 90 words, one ask, human voice.
 
-**Gate:** every variant human-approved before the first send; nothing automates until 300+ sends prove a pattern.
+**Gate:** every variant human-approved before the first send. Nothing automates until 300+ sends prove a pattern.
 
 ### 5. Run + measure
 
@@ -52,7 +52,7 @@ Meeting standard defined, source tracked, a 2-week debrief, and the win fed back
 
 ## Decision Tree
 
-The branches an operator actually hits:
+The branches an operator hits:
 
 ```
 Is outbound the right motion? ── no ──▶ Bullseye (pick another channel)

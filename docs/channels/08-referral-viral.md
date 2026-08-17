@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Referral & Viral
-description: When referral and viral loops are the right channel, the loops that actually compound, and the metric that separates genuine virality from a spike.
+description: When referral and viral loops are the right channel, the loops that compound, and the metric that separates genuine virality from a spike.
 ---
 
 # Referral & Viral
@@ -14,7 +14,7 @@ This page is the *where* of referral and viral growth — when the loop is worki
 
 ## One Number That Matters Most
 
-**The viral coefficient — the number of new customers each existing customer brings in. A healthy loop sustains a coefficient above 1.0; below that, the channel needs fuel from elsewhere.** A coefficient of 1.0 means every customer brings one more, and the loop is self-sustaining. Below 1.0, referrals still add pipeline, but they are a bonus, not an engine. Above 1.0, growth compounds on its own.
+**The viral coefficient — the number of new customers each existing customer brings in. A healthy loop sustains a coefficient above 1.0. Below that, the channel needs fuel from elsewhere.** A coefficient of 1.0 means every customer brings one more, and the loop is self-sustaining. Below 1.0, referrals still add pipeline, but they are a bonus, not an engine. Above 1.0, growth compounds on its own.
 
 Do not track "number of referrals" as a score. A referral that never converts is a forwarded link. The viral coefficient measures the loop: how many *paying* customers each customer produces, on the cycle time of the product.
 
@@ -24,7 +24,7 @@ Do not track "number of referrals" as a score. A referral that never converts is
 
 Use the [Channels Bullseye](../foundations/gtm-channels-bullseye) to pick your one best channel first. Referral and viral growth win when:
 
-- **Your product gets more valuable the more people use it.** The loop runs on network effects — the buyer, the user, and the sharer must all benefit from bringing someone else in. A tool that is useful alone does not go viral on its own.
+- **Your product gets more valuable the more people use it.** The loop runs on network effects — buyer, user, and sharer must all benefit from bringing someone else in. A tool that is useful alone does not go viral on its own.
 - **There is a natural, honest reason to share.** People share what makes them look good or saves them work. The referral has to be *useful to the referrer*, not just to you.
 - **The customer's experience with your product is worth bragging about.** Referrals convert when the referrer genuinely benefited. A mediocre product does not get referred no matter how big the incentive.
 
@@ -54,7 +54,7 @@ The loop is only as strong as its weakest stage. A product with a 20% share rate
 
 **2. Incentivized referral programs.** The customer refers because they are rewarded — credits, discounts, a better tier. This is a good complement to an in-product loop but weak on its own, because the incentive is the only reason to share. The moment the reward is removed, the referral stops.
 
-Most failed referral motions are a category error: they bolt an incentive onto a product with no in-product reason to share, then wonder why the loop does not spin. The incentive multiplies an existing loop; it does not create one.
+Most failed referral motions are a category error: they bolt an incentive onto a product with no in-product reason to share, then wonder why the loop does not spin. The incentive multiplies an existing loop. It does not create one.
 
 ---
 
@@ -83,4 +83,4 @@ Referral and viral growth is the one channel where the customer does the work �
 
 ---
 
-*Synthesized from first-hand GTM builds across 2014–2026, including product-led loops at Apollo and the referral economics of high-NRR SaaS. Referral is the channel that looks like a growth hack and is actually an earned asset — the customer is the one selling.*
+*Synthesized from first-hand GTM builds across 2014–2026, including product-led loops at Apollo and the referral economics of high-NRR SaaS. Referral is the channel that looks like a growth hack and is an earned asset — the customer is the one selling.*

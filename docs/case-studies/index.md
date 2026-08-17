@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
 title: Case Studies
-description: Actual, documented GTM outcomes grouped by channel — proof of what's possible with intent, next to the benchmarks that show what's typical.
+description: Documented GTM outcomes grouped by channel — proof of what's possible with intent, next to the benchmarks that show what's typical.
 ---
 
 # Case Studies
 
-The wiki's benchmarks tell you what's *typical*. These case studies prove what's *possible with intent* — actual companies, documented outcomes, named sources, no folklore. Read a case to see a motion can win; read its benchmark page to see how far above median that is.
+The wiki's benchmarks tell you what's *typical*. These case studies prove what's *possible with intent* — real companies, documented outcomes, named sources, no folklore. Read a case to see a motion can win. Read its benchmark page to see how far above median that is.
 
 Each case is grouped by the [channel](../channels/) it proves, so you can go from "this channel works" to "here's who made it work, with the number to back it."
 
-> **A fair warning before you read:** these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. Treat them as proof of what's *achievable with intent*, not a promise of what any team will hit. Company-specific conditions — a category-defining product, category-defining timing — matter. The tactics transfer; the exact multiples may not.
+> **A fair warning before you read:** these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. Treat them as proof of what's *achievable with intent*, not a promise of what any team will hit. Company-specific conditions — a category-defining product, category-defining timing — matter. The tactics transfer. The exact multiples may not.
 
 ## Cases
 
@@ -23,9 +23,9 @@ Each case is grouped by the [channel](../channels/) it proves, so you can go fro
 ## How to read this section
 
 1. **Read the channel page first.** Each case proves a channel — get the *where* and *when* from the channel, then the *proof* here.
-2. **Take the transferable takeaway, not the number.** The multiples are company-specific; the mechanism is what transfers.
+2. **Take the transferable takeaway, not the number.** The multiples are company-specific. The mechanism is what transfers.
 3. **Check the source.** Where a vendor reported its own numbers, it's flagged. The named source is the contract — not the headline.
 
 ## Two Halves of Proof
 
-Benchmarks without cases read as fatalism ("cold email is dead"); cases without benchmarks read as hype. The wiki needs both: a case to show a motion can win, and a benchmark to show how far above median that is.
+Benchmarks without cases read as fatalism ("cold email is dead"). Cases without benchmarks read as hype. The wiki needs both: a case to show a motion can win, and a benchmark to show how far above median that is.

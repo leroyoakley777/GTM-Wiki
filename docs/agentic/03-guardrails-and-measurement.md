@@ -15,11 +15,12 @@ earns the right to act. It never starts with it.
 
 ---
 
-## Definition: what a guardrail actually is
+## Definition: what a guardrail is
 
-A guardrail is not a content filter. It is the governance layer that
-defines what an agent is allowed to do, verifies it stays inside that
-boundary at every step, and catches what slips through.
+A guardrail is the governance layer that defines what an agent is
+allowed to do, verifies it stays inside that boundary at every step, and
+catches what slips through — as opposed to a content filter, which only
+screens what an agent says.
 
 This distinction matters more in agentic GTM than anywhere else. A
 single-turn LLM that writes a clumsy email is a content problem: a human
@@ -44,7 +45,7 @@ The governance gap is measurable. Only one in five companies
 has a mature governance model for autonomous agents, and a large share
 of executives report worrying about a lack of control over AI decisions.
 Teams are deploying agents faster than they are building the structures
-to govern them. *(Sources: Deloitte "State of AI in the Enterprise";
+to govern them. *(Sources: Deloitte "State of AI in the Enterprise",
 Boston Consulting Group, 2026.)*
 
 That gap has three concrete costs in GTM:
@@ -78,7 +79,7 @@ risk is structural: models trained on historical data reproduce the
 biases in that data, often invisibly. An agent that screens inbound
 requests could systematically deprioritize a customer segment — not by
 design, but because the data carried the pattern forward. Continuous
-monitoring and alignment checks surface this. Monitor for it; do not
+monitoring and alignment checks surface this. Monitor for it. Do not
 assume it away.
 
 ### Layer 2 — Operational guardrails
@@ -115,7 +116,7 @@ validation is not optional.
 
 ## Guardrail 1 — The human sign-off (non-negotiable)
 
-**Any message that will reach an actual person is approved by a human
+**Any message that will reach a real person is approved by a human
 before it sends.** Full stop.
 
 This isn't about control — it's about ownership. The person whose name
@@ -247,7 +248,7 @@ measurement has its own discipline. The cardinal rule: **capture the
 human baseline before you deploy.** Without documented process times,
 error rates, and cost-per-task for the work the agents will take over,
 you are guessing at improvement. *(Sources: Elastic "How IT leaders
-measure ROI of agentic AI"; Workday "Quantifying Agentic ROI.")*
+measure ROI of agentic AI", Workday "Quantifying Agentic ROI.")*
 
 A useful KPI framework for production agents rests on three pillars:
 
@@ -260,8 +261,8 @@ A useful KPI framework for production agents rests on three pillars:
    catastrophic send justifies its own cost.
 3. **Business value.** Throughput and cycle time, plus the downstream
    value of that speed — market share, time-to-revenue, cost per
-   meeting. *(Sources: Google Cloud "The KPIs that actually matter for
-   production AI agents"; Shawn Kanungo, "Agentic AI ROI.")*
+   meeting. *(Sources: Google Cloud "The KPIs that matter for
+   production AI agents", Shawn Kanungo, "Agentic AI ROI.")*
 
 Every deployment should show measurable movement on at least two
 pillars, with a clear pre-and-post baseline and a tracked cost per task.
@@ -274,7 +275,7 @@ it into a working signal. In an agentic system the execution path is
 dynamic, so you cannot rely on static logs — you need end-to-end tracing
 that captures user intent, planner decisions, routing logic, tool calls,
 data usage, and outcomes. This makes reasoning transparent and auditable.
-*(Sources: LoginRadius; Galileo; Medium, "AI Observability and
+*(Sources: LoginRadius, Galileo, Medium, "AI Observability and
 Guardrails.")*
 
 The feedback loop is the point. An agent learns from the review, not
@@ -354,13 +355,13 @@ by* them. The harness learns from the review, not from the volume.
 - Salesforce — AI Guardrails: A Guide to Responsible AI: https://www.salesforce.com/welcome-to-the-agentic-enterprise/ai-guardrails/
 - Glean — 7 Essential Guardrail Decisions for Deploying Enterprise AI Agents: https://www.glean.com/blog/7-essential-guardrail-decisions-for-deploying-enterprise-ai-agents-successfully
 - Atlan — Enterprise AI Agent Guardrails: A Compliance Checklist for 2026: https://atlan.com/know/ai-agent/enterprise-ai-agent-guardrails-checklist/
-- Google Cloud — The KPIs that Actually Matter for Production AI Agents: https://cloud.google.com/transform/the-kpis-that-actually-matter-for-production-ai-agents
+- Google Cloud — The KPIs that Matter for Production AI Agents: https://cloud.google.com/transform/the-kpis-that-actually-matter-for-production-ai-agents
 - Elastic — How IT Leaders Measure ROI of Agentic AI Initiatives: https://www.elastic.co/blog/how-it-leaders-measure-roi-of-agentic-ai-initiatives
 - miniOrange — The Enterprise Guide to AI Agent Audit Trails: https://www.miniorange.com/blog/ai-agent-audit-trail/
 - LoginRadius — Auditing and Logging AI Agent Activity: https://www.loginradius.com/blog/engineering/auditing-and-logging-ai-agent-activity
 
 ---
 
-*Frameworks don't change. Execution does — but only under guardrails.
+*Frameworks stay stable. Execution adapts — and only under guardrails.
 This section is part of the [Open GTM Wiki](../intro.md): foundations
 first, agents as leverage, humans as judgment.*

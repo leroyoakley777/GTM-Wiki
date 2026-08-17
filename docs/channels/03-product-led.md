@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Product-Led Growth
-description: When product-led growth is the right channel, how free-to-paid conversion actually benchmarks, and why the trial model you pick changes everything.
+description: When product-led growth is the right channel, how free-to-paid conversion benchmarks, and why the trial model you pick changes everything.
 ---
 
 # Product-Led Growth
@@ -14,7 +14,7 @@ This page is the *where* of PLG — when it is the right call and how to judge f
 
 ## One Number That Matters Most
 
-**Median free-to-paid conversion is ~9% across all PLG models — and using Product-Qualified Leads (PQLs) roughly triples it to ~25–30%.** The gap is not the product; it is the discipline of identifying which free users are on the path to buying and putting human effort there. Only ~25% of companies report using PQLs at all. The ones who do convert free accounts to paid at roughly 3x the rate of those who do not.
+**Median free-to-paid conversion is ~9% across all PLG models — and using Product-Qualified Leads (PQLs) roughly triples it to ~25–30%.** The gap comes down to a discipline, not the product itself: identifying which free users are on the path to buying and putting human effort there. Only ~25% of companies report using PQLs at all. The ones who do convert free accounts to paid at roughly 3x the rate of those who do not.
 
 The second number that matters just as much: **a 1-point improvement in free-to-paid conversion ≈ +15% new revenue per trial cohort.** And because conversion improvements benefit every future cohort, that effect compounds in a way a one-time acquisition campaign never does. Going from 5% to 10% conversion doubles revenue from the same volume of signups — without changing acquisition spend.
 
@@ -26,7 +26,7 @@ PLG wins when the product can carry the sales conversation. It is the wrong chan
 
 - **The value is self-evident fast.** A user should feel the "aha" in minutes — ideally before they even create an account. If your product needs a 30-minute demo to be understood, PLG is not your channel.
 - **Trial is cheap to give.** Low-friction, low-setup product. The easier the trial, the more signups — but that is not the same as conversion, and the tradeoff is the whole PLG design problem.
-- **You can instrument product usage.** PLG only works if you can see which free users are actually getting value. That requires product analytics and a definition of a "trigger moment."
+- **You can instrument product usage.** PLG only works if you can see which free users are getting value. That requires product analytics and a definition of a "trigger moment."
 - **The motion can live without a human at the top of the funnel.** Sales may enter later (expansion, enterprise), but the acquisition must run on the product.
 
 ---
@@ -48,7 +48,7 @@ The single biggest mistake in PLG is quoting "the" free-to-paid conversion rate.
 - **Opt-in trial** = balanced, the most common. Best default for most B2B SaaS.
 - **Freemium** = highest volume of users, lowest paid yield, huge distribution surface. Best when network effects, community, or expansion make lots of free users worth more than their direct conversion suggests.
 
-Paying-customers-per-1k-visitors is the number that actually compares models fairly — it nets the whole funnel into one outcome.
+Paying-customers-per-1k-visitors is the number that compares models fairly — it nets the whole funnel into one outcome.
 
 ---
 
@@ -56,15 +56,15 @@ Paying-customers-per-1k-visitors is the number that actually compares models fai
 
 **Product-Qualified Leads (PQLs) are the PLG version of the ICP fit gate.** They are free users who hit a defined trigger — activation, a usage threshold, an expansion signal — that marks them as likely buyers. Teams that route these users into human sales convert free accounts to paid at ~25–30%, ~3x the 9% median.
 
-This is the counterintuitive part of PLG: **a PLG company that never uses sales to convert its best free users is leaving money on the table.** The product wins the top of the funnel; the humans should still close the users the product has qualified. PLG is not "no sales" — it is "sales only where the product has proven fit."
+This is the counterintuitive part of PLG: **a PLG company that never uses sales to convert its best free users is leaving money on the table.** The product wins the top of the funnel. The humans should still close the users the product has qualified. PLG is not "no sales" — it is "sales only where the product has proven fit."
 
 ---
 
 ## How to Read These Numbers
 
 1. **Benchmark against your model, not "the" average.** The ~9% median is meaningless unless your model matches the sample. Compare opt-in to opt-in, freemium to freemium.
-2. **Watch paying-customers-per-1k-visitors, not signup conversion.** The latter rewards a frictionless signup that never pays. The former tells you what the model actually produces.
-3. **ACV shapes the ceiling.** $1k–5k ACV products show the highest median conversion (~10%); sub-$1k ACV products have the strongest top-quartile (~24%). High-ACV PLG needs a heavier human assist.
+2. **Watch paying-customers-per-1k-visitors, not signup conversion.** The latter rewards a frictionless signup that never pays. The former tells you what the model produces.
+3. **ACV shapes the ceiling.** $1k–5k ACV products show the highest median conversion (~10%). Sub-$1k ACV products have the strongest top-quartile (~24%). High-ACV PLG needs a heavier human assist.
 4. **The first 1-point is the easiest and the most compounding.** A modest conversion lift compounds across every future cohort. Fix activation before you buy more traffic.
 
 ---

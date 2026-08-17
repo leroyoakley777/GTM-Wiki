@@ -35,22 +35,22 @@ The trap is metric sprawl. A handful of well-defined metrics (see [gtm-metrics](
 
 ## Conversation intelligence
 
-Records and analyzes sales calls and meetings. The payoff is coaching at scale: talk-to-listen ratio, objection patterns, what reps do differently on won vs. lost deals. Increasingly it doubles as the data layer that lets [agentic GTM](../agentic/00-agentic-gtm-overview.md) summarize, follow up, and draft from actual conversation.
+Records and analyzes sales calls and meetings. The payoff is coaching at scale: talk-to-listen ratio, objection patterns, what reps do differently on won vs. lost deals. Increasingly it doubles as the data layer that lets [agentic GTM](../agentic/00-agentic-gtm-overview.md) summarize, follow up, and draft from real conversation.
 
 ## RevOps & enablement tooling
 
 The plumbing that keeps the revenue engine coherent — the functional home of the [RevOps](../foundations/06-revenue-operations.md) multiplier:
 
-- **Sales enablement.** Content, playbooks, and training delivered where reps actually work.
+- **Sales enablement.** Content, playbooks, and training delivered where reps work.
 - **Quoting / CPQ.** Configure-price-quote for deals with genuine complexity.
-- **Billing / subscription management.** Where recurring revenue is actually collected.
+- **Billing / subscription management.** Where recurring revenue is collected.
 - **Data warehouse / reverse-ETL.** The layer that lets every tool speak the same account and revenue truth.
 
 ## Agentic GTM category
 
 The newest and fastest-moving layer. These tools don't just store or sequence — they *execute*: research accounts, draft personalized outreach, run follow-up, maintain CRM hygiene, and hand judgment calls to humans. Built on the same [guardrails and measurement](../agentic/03-guardrails-and-measurement.md) discipline as every customer-facing agent.
 
-The stack is still consolidating, so the buying rule matters more than any vendor name: start from the [agent-vs-human workflow](../agentic/06-agent-vs-human-workflows.md) you actually want, and buy the tool that owns the agent-executed steps — not the tool with the most features bolted on.
+The stack is still consolidating, so the buying rule matters more than any vendor name: start from the [agent-vs-human workflow](../agentic/06-agent-vs-human-workflows.md) you want, and buy the tool that owns the agent-executed steps — not the tool with the most features bolted on.
 
 ## How to choose
 

@@ -14,7 +14,7 @@ This page is the *where* of inbound — when it is the right call and how to jud
 
 ## One Number That Matters Most
 
-**AI-referral traffic converts at ~5.8% — above organic search (4.9%), email (4.9%), and comparable to paid search (5.4%).** The reason is not that AI is a magic channel; it is that the AI pre-qualifies the visitor before it sends the click. This is the single most important shift in inbound today: buyers do their research with an AI assistant, then arrive already further along in the buying process. 37% of marketers say leads are more informed thanks to AI, and nearly 70% say leads now come later in the buying process after AI-assisted research.
+**AI-referral traffic converts at ~5.8% — above organic search (4.9%), email (4.9%), and comparable to paid search (5.4%).** The reason is straightforward: the AI pre-qualifies the visitor before it sends the click. This is the single most important shift in inbound today: buyers do their research with an AI assistant, then arrive already further along in the buying process. 37% of marketers say leads are more informed thanks to AI, and nearly 70% say leads now come later in the buying process after AI-assisted research.
 
 ---
 
@@ -40,15 +40,15 @@ The inbound funnel is a leaky set of stages. Each one compounds on the previous,
 | SQL → opportunity | **~44%** | Sales qualification |
 | Opportunity → customer | **~36%** | Close rate on qualified pipeline |
 
-**What actually happens:** a blended B2B SaaS funnel converts ~1.4% of visitors to leads, then ~2–4% of leads to closed customers. That sounds dismal — until each deal is worth tens of thousands in ACV. The funnel is not a defect; it is the shape of the channel. The leverage is upstream: every +0.5–1.0 point of visitor-to-lead conversion compounds all the way down.
+**What happens:** a blended B2B SaaS funnel converts ~1.4% of visitors to leads, then ~2–4% of leads to closed customers. That sounds dismal — until each deal is worth tens of thousands in ACV. A leaky funnel is simply the shape of the channel — low conversion is the channel's expected, natural design. The leverage is upstream: every +0.5–1.0 point of visitor-to-lead conversion compounds all the way down.
 
-The most-cited single number, "the average B2B conversion rate is ~5%", is a trap — it depends entirely on what is being counted. A pure visitor-to-lead rate on a B2B SaaS site is ~1.4–1.9%; a blended form/call/chat rate across industries is ~5%. They answer different questions. Know which one you are looking at.
+The most-cited single number, "the average B2B conversion rate is ~5%", is a trap — it depends entirely on what is being counted. A pure visitor-to-lead rate on a B2B SaaS site is ~1.4–1.9%. A blended form/call/chat rate across industries is ~5%. They answer different questions. Know which one you are looking at.
 
 ---
 
 ## How Inbound Compounds
 
-- **Website, blog, and SEO remain the #1 ROI channel** for B2B — ahead of paid social and every other line. 74% of marketers say content marketing generated demand/leads; 62% say it nurtured them.
+- **Website, blog, and SEO remain the #1 ROI channel** for B2B — ahead of paid social and every other line. 74% of marketers say content marketing generated demand/leads. 62% say it nurtured them.
 - **Every +0.5–1.0 point of conversion compounds pipeline and reduces CAC.** This is why CRO is the second-most-used optimization technique among marketers — improving conversion on traffic you already own is cheaper than buying more traffic.
 - **Email on the back end is a compounding multiplier.** Email converts at ~4.9% (Ruler Analytics) and is a top ROI channel for B2B. Capture the email, then let it do the long-game nurturing that single blog visits cannot.
 - **You own the asset.** Unlike paid, inbound traffic is not rented. The content, the rankings, and the email list keep paying after the campaign ends.
@@ -65,14 +65,14 @@ The most-cited single number, "the average B2B conversion rate is ~5%", is a tra
 
 ## Pattern Behind Inbound
 
-Inbound is the only major channel that compounds because it builds an owned asset. The pattern that wins is boring and repeatable: consistent content aimed at actual buyer questions, captured on your site, converted with a clear next step, and nurtured by email until the buyer is ready to talk. The channel rewards teams that treat content as infrastructure rather than as campaign bursts.
+Inbound is the only major channel that compounds because it builds an owned asset. The pattern that wins is boring and repeatable: consistent content aimed at buyer questions, captured on your site, converted with a clear next step, and nurtured by email until the buyer is ready to talk. The channel rewards teams that treat content as infrastructure rather than as campaign bursts.
 
 ---
 
 ## Sources
 
-- [Ruler Analytics — Conversion Rate Benchmarks 2026](https://www.ruleranalytics.com/blog/insight/conversion-rate-by-industry/) — 5M+ conversions across 13 industries: AI referral 5.8%, organic 4.9%, email 4.9%, paid search 5.4%; funnel stage rates.
-- [HubSpot — State of Marketing Report](https://www.hubspot.com/state-of-marketing) — website/blog/SEO as #1 ROI channel; 74% content generates demand; AI-informed leads.
+- [Ruler Analytics — Conversion Rate Benchmarks 2026](https://www.ruleranalytics.com/blog/insight/conversion-rate-by-industry/) — 5M+ conversions across 13 industries: AI referral 5.8%, organic 4.9%, email 4.9%, paid search 5.4%, plus funnel stage rates.
+- [HubSpot — State of Marketing Report](https://www.hubspot.com/state-of-marketing) — website/blog/SEO as #1 ROI channel, 74% content generates demand, and AI-informed leads.
 - [Content Marketing Institute — B2B Content Marketing Trends](https://contentmarketinginstitute.com/articles/b2b-content-marketing-research/) — content marketing lifts demand generation and nurturing.
 - [First Page Sage — B2B Conversion Rates by Industry](https://firstpagesage.com/reports/b2b-conversion-rates-by-industry-fc/) — visitor-to-lead median ~1.9%, B2B SaaS ~1.4%.
 

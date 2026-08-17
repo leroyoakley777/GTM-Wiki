@@ -13,7 +13,7 @@ Agentic GTM is the operating model where autonomous AI agents execute
 high-volume, repetitive go-to-market work while humans design the
 system, set strategy, and make the calls that matter.
 
-It is not an AI feature bolted onto a sales tool. It is not "better
+It is not an AI feature bolted onto a sales tool, and it is not "better
 email writing." It is a structural redesign of how a revenue
 organization operates. When you understand it that way, everything else
 in this wiki clicks into place.
@@ -58,7 +58,7 @@ reply to a human is agentic. (Source:
 ## Where the Time Goes
 
 The clearest way to see why agentic GTM matters is to look at how
-revenue teams actually spend their time today.
+revenue teams spend their time today.
 
 Most teams run a 2015 operating model with 2026 tools. They added
 transcription, ChatGPT email drafts, and predictive lead scores — but
@@ -82,11 +82,11 @@ SaaS company:
 The pattern is consistent: **the most skilled people on the team spend
 50-70% of their time on execution work that does not require their
 expertise.** Strategy, process design, and stakeholder leadership — the
-things that actually create a competitive advantage — get squeezed into
+things that create a competitive advantage — get squeezed into
 whatever time is left.
 
-That is not a resource problem. It is a structural one. Adding headcount
-does not fix it; it scales the same inefficiency. Agentic GTM fixes it
+That is not a resource problem but a structural one. Adding headcount
+does not fix it. It scales the same inefficiency. Agentic GTM fixes it
 by moving execution to agents and returning the people to judgment.
 
 Forrester's 2026 predictions frame the strategic stakes: leading
@@ -117,9 +117,9 @@ architects. People stop running the machine and start designing it.
 (Source:
 [AriseGTM, The Agentic GTM Operating Model](https://arisegtm.com/blog/the-agentic-gtm-operating-model))
 
-The economics alone justify the shift. But the compound effect — what
+Economics alone justify the shift. But the compound effect — what
 happens when your best people spend their days doing their best work —
-is harder to quantify and more valuable. That is the actual argument for
+is harder to quantify and more valuable. That is the argument for
 agentic GTM.
 
 The caveat: those figures describe a well-governed, well-built system.
@@ -141,7 +141,7 @@ Agents are only as good as the data they operate on. Before you deploy
 agents, you need structured, consistent data in your CRM and connected
 systems.
 
-This does not mean perfect data; no company has that. It means:
+This does not mean perfect data. No company has that. It means:
 
 - Core fields are populated on 80%+ of records: company size, industry,
   lead source, lifecycle stage.
@@ -167,7 +167,7 @@ competitor employee we flag it to the VP first." That logic must be made
 explicit before an agent can run it.
 
 This documentation exercise is valuable whether or not you ever deploy
-agents. It forces clarity about how your revenue operations actually
+agents. It forces clarity about how your revenue operations
 work and usually reveals inefficiencies that exist purely because nobody
 wrote down the official process.
 
@@ -223,7 +223,7 @@ with transparent data-analysis standards. (Source:
 
 ## How to execute
 
-Deploying agentic GTM is not a one-week project. It is a staged rollout
+Deploying agentic GTM is not a one-week project but a staged rollout
 that starts where the data is cleanest and the process is most
 repetitive.
 
@@ -268,7 +268,7 @@ of what to automate and what to keep human, see
 
 ---
 
-## What agents actually do today
+## What agents do today
 
 The tooling landscape has moved fast. These are the current patterns,
 not endorsements:
@@ -280,7 +280,7 @@ not endorsements:
   X meetings per week" — rather than step-by-step. (Source:
   [Landbase, Top AI Agents](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies))
 - **Domain-specific models.** Landbase trains its GTM-1 engine on
-  millions of actual campaigns and sales conversations, making the model
+  millions of campaigns and sales conversations, making the model
   specialized for B2B outreach rather than generic. (Source:
   [Landbase, Top AI Agents](https://www.landbase.com/blog/top-ai-agents-for-go-to-market-strategies))
 - **Signal-driven action.** Agents trigger on job changes, funding
@@ -309,7 +309,7 @@ report to a governance framework you control.
   process works, an agent cannot run it. What lives in people's heads
   stays with people.
 - **No governance framework.** Ungoverned agents drift and degrade. The
-  failure is never the technology; it is the missing escalation rules and
+  failure is never the technology. It is the missing escalation rules and
   audit cadence.
 - **Adding AI to a human workflow instead of re-designing it.** Transcription
   and ChatGPT drafts on top of a 2015 structure is not agentic GTM. It is

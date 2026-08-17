@@ -5,9 +5,9 @@ title: Map
 
 # Map — one image, the whole wiki
 
-**Frameworks don't change. Execution does.** Here's the entire wiki as a
-single tree — every section, how it connects, and where the depth actually
-lives. Bookmark it; it's the fastest way to orient.
+**Frameworks stay stable. Execution adapts.** Here's the entire wiki as a
+single tree — every section, how it connects, and where the depth
+lives. Bookmark it. It's the fastest way to orient.
 
 <svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" style={{ width: "100%", height: "auto", background: "#F7F6F2", borderRadius: 8, border: "1px solid #E2E1DC" }}>
   <defs>

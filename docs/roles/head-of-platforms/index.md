@@ -102,7 +102,7 @@ one person. That scarcity is exactly why the role commands its comp.
 ## How to build the team (0→1)
 
 Most companies get this wrong by hiring a classic sales leader and asking
-them to "go get partnerships." Here is the sequence that actually works.
+them to "go get partnerships." Here is the sequence that works.
 
 **Phase 1 — Prove the motion yourself (Months 0–6)**
 - The first Head of Platforms is an individual operator, not a manager.
@@ -129,12 +129,12 @@ them to "go get partnerships." Here is the sequence that actually works.
 ## Metrics that matter
 
 Vanity metrics (logos signed) will lie to you. Track the chain from
-signature to actual value:
+signature to value:
 
 | Stage | Metric | What it tells you |
 |---|---|---|
 | **Signed** | Partners closed | Top of funnel — necessary, not sufficient |
-| **Activated** | Partners who shipped an integration | The actual leading indicator |
+| **Activated** | Partners who shipped an integration | The leading indicator |
 | **Producing** | Partner-driven revenue / GMV | The number the board cares about |
 | **Expanding** | Net revenue retention per partner | Whether the flywheel compounds |
 | **Efficiency** | Time-to-first-dollar per partner | How repeatable the motion is |

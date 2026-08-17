@@ -11,7 +11,7 @@ The agentic GTM question is never "do we use AI?" It is "what do we let the
 agent do on its own, and what stays in front of a human?"
 
 Get that wrong in the permissive direction and you automate the one step that
-actually closes deals — pricing, contract language, the first-person message to
+closes deals — pricing, contract language, the first-person message to
 a decision-maker — and watch the damage compound. Get it wrong in the
 restrictive direction and you buy expensive automation that nobody is allowed
 to use, and your agents die from disuse.
@@ -99,19 +99,20 @@ The human tier is where a financial or reputational consequence attaches.
 
 ## Three human-in-the-loop controls
 
-Human-in-the-loop is not a compromise and not a fallback for bad AI. It is a
-deliberate risk-control design: a structured approval or review step inserted
-exactly where an agent would otherwise act autonomously on a customer-facing
-or financially consequential action. Three control patterns cover most teams:
+Human-in-the-loop is a deliberate risk-control design rather than a
+compromise or a fallback for bad AI: a structured approval or review step
+inserted exactly where an agent would otherwise act autonomously on a
+customer-facing or financially consequential action. Three control patterns
+cover most teams:
 
-- **One-click approval queues.** The agent drafts the action; the rep approves
+- **One-click approval queues.** The agent drafts the action. The rep approves
   with one click inside the CRM or engagement platform. Cheap for the human,
   fatal-block for nothing. This is the default for outreach.
 - **Exception-only review.** The agent executes within defined parameters
-  autonomously; anything outside the parameters routes to a human queue
+  autonomously. Anything outside the parameters routes to a human queue
   automatically. Best for high-volume work with a known-good core.
-- **Staged confidence thresholds.** High-confidence agent outputs execute;
-  low-confidence outputs pause for human review before proceeding. The model
+- **Staged confidence thresholds.** High-confidence agent outputs execute.
+  Low-confidence outputs pause for human review before proceeding. The model
   self-gates on its own certainty.
 
 *(Source: Apollo, "How RevOps Leaders Apply Human-in-the-Loop Controls.")*
@@ -131,7 +132,7 @@ Before greenlighting any GTM workflow for automation, run this checklist:
 - Has a RACI been assigned for exception handling?
 - Are bias and data-quality checks embedded in the workflow?
 
-*(Source: Apollo governance checklist; Nutshell, "AI Sales Ethics," on why
+*(Source: Apollo governance checklist, Nutshell, "AI Sales Ethics," on why
 humans must review, validate, and override AI recommendations where decisions
 affect customer relationships or revenue commitments.)*
 
@@ -142,11 +143,11 @@ genuinely better held in front of a human, and the reason is not nostalgia.
 
 **Reputation-bearing communication.** A personalized message to a
 decision-maker is the single highest-leverage artifact in outbound. An agent
-can draft it; a human should own the send, because the send commits the
-company's voice and name to an actual person.
+can draft it. A human should own the send, because the send commits the
+company's voice and name to a real person.
 
 **Pricing and contract decisions.** Finance sign-off on pricing is not a
-workflow inconvenience; it is the audit point where margin, discount policy,
+workflow inconvenience. It is the audit point where margin, discount policy,
 and deal quality are enforced. Do not let an agent autonomously send a number
 that changes the economics of a deal.
 
@@ -168,7 +169,7 @@ A recurring failure is bolting an agent onto an existing human workflow and
 calling it automation. That produces the worst of both: the human still does
 the work, plus now has to supervise the agent doing a redundant version of it.
 
-The right order is: redesign the workflow around what the agent actually does
+The right order is: redesign the workflow around what the agent does
 best, then place the human at the checkpoints that remain. Agentic outbound
 from a single AI SDR tool fails for this exact reason — teams buy the tool,
 keep the old human process, and the agent adds a parallel workstream instead of

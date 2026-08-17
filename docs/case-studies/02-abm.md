@@ -14,16 +14,16 @@ ABM is the channel for a small number of high-value accounts — the ones where 
 
 | Company | Motion | Documented result | Source |
 |---------|--------|-------------------|--------|
-| Snowflake | Scaled 1:1 ABM + hyper-personalization | 75% increase in SDR-booked meetings; 3x meeting rate on hyper-aligned accounts; scaled to 2,000+ top accounts | CXL ABM case studies |
-| Snowflake | AI-predictive ABM (meeting-propensity model) | 2.3x lift in meetings booked in high-potential accounts; 38% less spend for more engagement; 54% CTR lift from AI-generated ad copy (LinkedIn A/B tested) | Snowflake blog, Apr 2025 (primary) |
-| BillingTree | Creative direct mail to just 100 accounts | 60% response rate, 15% conversion; $350K opportunities closed; 700% ROI | CXL ABM case studies (via UviaUs) |
-| Invoca | Omnichannel pre-event outreach (Dreamforce) | 35 new pipeline opportunities; 50+ meetings with priority accounts; 33x ROI on campaign spend | CXL ABM case studies (via PFL) |
-| Schneider Electric | Unified cross-channel ABM reporting | Revenue from 21% of target accounts increased; faster sales cycle | CXL ABM case studies |
+| Snowflake | Scaled 1:1 ABM + hyper-personalization | 75% increase in SDR-booked meetings. 3x meeting rate on hyper-aligned accounts. Scaled to 2,000+ top accounts | CXL ABM case studies |
+| Snowflake | AI-predictive ABM (meeting-propensity model) | 2.3x lift in meetings booked in high-potential accounts. 38% less spend for more engagement. 54% CTR lift from AI-generated ad copy (LinkedIn A/B tested) | Snowflake blog, Apr 2025 (primary) |
+| BillingTree | Creative direct mail to just 100 accounts | 60% response rate, 15% conversion. $350K opportunities closed. 700% ROI | CXL ABM case studies (via UviaUs) |
+| Invoca | Omnichannel pre-event outreach (Dreamforce) | 35 new pipeline opportunities. 50+ meetings with priority accounts. 33x ROI on campaign spend | CXL ABM case studies (via PFL) |
+| Schneider Electric | Unified cross-channel ABM reporting | Revenue from 21% of target accounts increased. Faster sales cycle | CXL ABM case studies |
 | iRidium | $3K-budget virtual summit, ICP-narrowed | 2,320 signups, 39% net-new accounts, 34 SQLs, 5 customers with $100K+ LTV in weeks (vs 9–12mo cycle) | CXL ABM case studies (via Fullfunnel) |
 
 ---
 
-## What Each Company Actually Did
+## What Each Company Did
 
 **Snowflake** — the flagship. Scaled 1:1 ABM across 2,000+ top accounts with hyper-personalization, and later layered on an AI meeting-propensity model: target the accounts most likely to book, generate AI-tested ad copy, spend 38% less while lifting meetings 2.3x. This is the rare case with a primary source — Snowflake's own blog, with named staff and LinkedIn A/B results.
 
@@ -39,7 +39,7 @@ ABM is the channel for a small number of high-value accounts — the ones where 
 
 ## Pattern
 
-**A harpoon beats a net.** Every case here targets a *bounded* account list and invests disproportionate effort per account. BillingTree used 100 accounts; Snowflake used an AI model to find the accounts most likely to book; Invoca aimed at priority accounts before an event. The recurring success factor is cross-team alignment — sales, marketing, field, and SDR on one message aimed at one short list.
+**A harpoon beats a net.** Every case here targets a *bounded* account list and invests disproportionate effort per account. BillingTree used 100 accounts. Snowflake used an AI model to find the accounts most likely to book. Invoca aimed at priority accounts before an event. The recurring success factor is cross-team alignment — sales, marketing, field, and SDR on one message aimed at one short list.
 
 The numbers prove the concentration logic: 38% *less* spend (Snowflake) or 100 accounts (BillingTree) can beat a broad campaign.
 
