@@ -16,8 +16,8 @@ Every page follows the same rule: **baselines, not targets.** Numbers are ranges
 - [Market Segmentation Benchmarks](./market-segmentation) — the 95-5 rule, four segmentation layers, personalization lifts, TAM/SAM/SOM.
 - [Funnel Benchmarks](./funnel) — how the funnel leaks stage by stage and why leakage multiplies.
 - [Pricing as GTM Benchmarks](./pricing-as-gtm) — packaging, discounting, value metrics, and expansion pricing.
-- *Outbound Response Rates* — coming soon.
-- *Sales Cycle Benchmarks* — coming soon.
+- [Outbound Response Rate Benchmarks](./outbound-response-rates) — what cold outbound actually returns, and why multi-touch wins.
+- [Sales Cycle Benchmarks](./sales-cycle-benchmarks) — how long deals take by deal size and committee size.
 
 ## How to use this section
 
