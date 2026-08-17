@@ -269,7 +269,7 @@ For conversion rate benchmarks by funnel stage, see [Conversion Rate Benchmarks]
 ## Cross-references
 
 - [GTM Strategy Framework](../foundations/00-gtm-strategy-framework.md) — the strategy layer that metrics measure
-- [Pricing as GTM](../foundations/04-pricing-as-gtm.md) — pricing directly drives ARPA, LTV, and CAC payback
+- [Pricing as GTM](../data/pricing-as-gtm) — pricing directly drives ARPA, LTV, and CAC payback
 - [GTM Funnel](../foundations/gtm-funnel) — the funnel model that CAC and conversion metrics feed into
 - [Revenue Operations](../foundations/06-revenue-operations.md) — the operational discipline that keeps metrics accurate
 - [Agentic GTM Overview](../agentic/agentic-gtm-overview) — how AI changes acquisition cost and efficiency metrics
