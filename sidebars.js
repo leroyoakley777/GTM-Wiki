@@ -100,6 +100,8 @@ const sidebars = {
         'case-studies/community-led',
         'case-studies/referral-viral',
         'flows/index',
+        'flows/outbound',
+        'flows/agentic-outbound',
         'contributing',
       ],
     },
