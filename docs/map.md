@@ -86,7 +86,7 @@ lives. Bookmark it. It's the fastest way to orient.
     <line x1="814" y1="180" x2="814" y2="192" stroke="#4D6BFE" stroke-width="1.5"/>
     <rect x="714" y="192" width="200" height="44" rx="7" fill="#F0EEFF" stroke="#4D6BFE"/>
     <text x="814" y="211" text-anchor="middle" fill="#1A1A1E" font-size="12">The Agentic Stack</text>
-    <text x="814" y="227" text-anchor="middle" fill="#8E8E99" font-size="10">data → research → compose → orchestrate → triage</text>
+    <text x="814" y="227" text-anchor="middle" fill="#8E8E99" font-size="10">data → compose → orchestrate → triage</text>
     <line x1="814" y1="236" x2="814" y2="248" stroke="#4D6BFE" stroke-width="1.5"/>
     <rect x="714" y="248" width="200" height="44" rx="7" fill="#F0EEFF" stroke="#4D6BFE"/>
     <text x="814" y="267" text-anchor="middle" fill="#1A1A1E" font-size="12">Guardrails &amp; Measurement</text>
