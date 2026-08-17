@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Positioning and Messaging
+description: "Positioning and messaging: how to find the wedge and state it plainly."
 ---
 
 # Positioning and Messaging

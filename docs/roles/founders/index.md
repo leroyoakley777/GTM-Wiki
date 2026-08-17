@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Founders
+description: "What founders own first: ICP, channel, positioning, pricing."
 ---
 
 # Founders

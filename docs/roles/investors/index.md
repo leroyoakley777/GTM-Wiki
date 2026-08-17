@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-
+title: "Investors"
+description: "What investors read GTM to judge, and the metrics that matter."
 ---
 
 # Investors

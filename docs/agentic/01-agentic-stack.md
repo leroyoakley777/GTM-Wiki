@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: The Agentic Stack
+description: "The agentic GTM stack: models, harnesses, tools, and guardrails, and how they fit together."
 ---
 
 # 01: The Agentic Stack

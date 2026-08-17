@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: "Roles: Heads of GTM"
+description: "What a head of GTM owns and how the team is run."
 ---
 
 # Heads of GTM

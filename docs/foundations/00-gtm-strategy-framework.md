@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: GTM Strategy Framework (Universal)
+description: "The universal GTM strategy framework and how it applies across stages and markets."
 ---
 
 # GTM Strategy Framework

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 0
 title: What Is Agentic GTM?
+description: "What agentic GTM is, when it applies, and where it replaces manual motion."
 ---
 
 # 00: What Is Agentic GTM?

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Roles
+description: "Roles: who does the work, from founder to VP to investor."
 ---
 
 # Roles

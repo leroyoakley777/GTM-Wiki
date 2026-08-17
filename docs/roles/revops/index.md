@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: "Roles: RevOps"
+description: "What RevOps owns: data, process, and the systems behind the motion."
 ---
 
 # RevOps

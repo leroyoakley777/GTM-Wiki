@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Agent vs Human Workflows
+description: "Where agents do the work and where humans stay in the loop."
 ---
 
 # 06: Agent vs Human Workflows

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Tools
+description: "The GTM tools landscape and how tools map to motion."
 ---
 
 # Tools

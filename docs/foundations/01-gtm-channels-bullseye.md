@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+title: "GTM Channels Bullseye"
+description: "The GTM channels bullseye: how to pick the right channel for a motion."
 ---
 
 # 01: GTM Channels Bullseye Framework

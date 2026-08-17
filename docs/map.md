@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Map
+description: "One image of the whole wiki: every section and how it connects."
 ---
 
 # Map: one image, the whole wiki

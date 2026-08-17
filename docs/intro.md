@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: "Welcome"
+description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market."
 ---
 
 # Welcome to the Open GTM Wiki
