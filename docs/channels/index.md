@@ -19,8 +19,12 @@ Every page follows the same rule: **it is a decision, not a default.** Each chan
 - [Outbound](./outbound) — surgical, fastest repeatable pipeline when the ICP is tight. Benchmarks: 3–10 meetings per 1k sends.
 - [Inbound](./inbound) — the compounding channel. Benchmarks: AI-referral converts at ~5.8%, organic ~4.9%.
 - [Product-Led Growth](./product-led) — the product as salesperson. Benchmarks: ~9% median free-to-paid, ~25–30% with PQLs.
+- [Partner / Channel](./partner) — leverage another sales team. Healthy target: 10–20% of new pipeline from partners.
+- [Community-Led](./community-led) — the slowest channel, compounds the hardest. Healthy: 30–50% member-initiated referral share.
+- [Paid Acquisition](./paid) — the scaler and the eraser. Healthy: CAC payback under 12 months.
+- [Events & Field](./events-field) — meet the buyer in person. Healthy: 3–10x pipeline return on event cost.
 - [ABM](./abm) — few high-value accounts, 2–3x win-rate lift. Benchmarks: 45% ABM vs 18% non-ABM.
-- *Partners, community, paid, events, referral* — coming soon.
+- *Referral / viral* — coming soon.
 
 ## How to use this section
 
