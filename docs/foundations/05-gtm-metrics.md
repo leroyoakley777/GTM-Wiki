@@ -8,7 +8,7 @@ description: The metrics that matter in go-to-market — CAC, LTV, payback, NRR,
 
 Metrics are the cockpit instruments for a SaaS business. Without them, you're flying blind — you might be up in the air, but you don't know where you're headed or whether you're about to hit turbulence. The metrics in this page tell you whether your GTM engine is working, where the leaks are, and whether you should hit the accelerator or the brakes.
 
-This page is the foundation for [Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md), [Sales Cycle Benchmarks](../data/03-sales-cycle-benchmarks.md), and the [Outbound Response Rates](../data/02-outbound-response-rates.md) data pages. Read them together.
+This page is the foundation for [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks), [Sales Cycle Benchmarks](../data/03-sales-cycle-benchmarks.md), and the [Outbound Response Rates](../data/02-outbound-response-rates.md) data pages. Read them together.
 
 ---
 
@@ -251,7 +251,7 @@ Benchmarks vary by segment, stage, and GTM model. The numbers below are aggregat
 
 Sources: David Skok SaaS Metrics 2.0, OpenView SaaS Benchmarks 2024, Bessemer Cloud Index, Marketing Mary SaaS Marketing Strategy 2026.
 
-For conversion rate benchmarks by funnel stage, see [Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md). For outbound response rates and meeting booking rates, see [Outbound Response Rates](../data/02-outbound-response-rates.md). For sales cycle length benchmarks by deal size, see [Sales Cycle Benchmarks](../data/03-sales-cycle-benchmarks.md).
+For conversion rate benchmarks by funnel stage, see [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks). For outbound response rates and meeting booking rates, see [Outbound Response Rates](../data/02-outbound-response-rates.md). For sales cycle length benchmarks by deal size, see [Sales Cycle Benchmarks](../data/03-sales-cycle-benchmarks.md).
 
 ---
 
@@ -270,8 +270,8 @@ For conversion rate benchmarks by funnel stage, see [Conversion Rate Benchmarks]
 
 - [GTM Strategy Framework](../foundations/00-gtm-strategy-framework.md) — the strategy layer that metrics measure
 - [Pricing as GTM](../foundations/04-pricing-as-gtm.md) — pricing directly drives ARPA, LTV, and CAC payback
-- [GTM Funnel](../foundations/07-gtm-funnel.md) — the funnel model that CAC and conversion metrics feed into
+- [GTM Funnel](../foundations/gtm-funnel) — the funnel model that CAC and conversion metrics feed into
 - [Revenue Operations](../foundations/06-revenue-operations.md) — the operational discipline that keeps metrics accurate
-- [Agentic GTM Overview](../agentic/00-agentic-gtm-overview.md) — how AI changes acquisition cost and efficiency metrics
-- [Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md) — funnel conversion data
+- [Agentic GTM Overview](../agentic/agentic-gtm-overview) — how AI changes acquisition cost and efficiency metrics
+- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks) — funnel conversion data
 - [Outbound Response Rates](../data/02-outbound-response-rates.md) — channel-level acquisition efficiency data
