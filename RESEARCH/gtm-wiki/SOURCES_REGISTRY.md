@@ -97,6 +97,183 @@ structurally uncommittable, not caught by an auditor later.
 | 43 | Forrester | 2024 | 68% of B2B buyers prefer to research on their own online; 62% can finalize selection criteria or a vendor list from digital content alone; 70-80% of the buying journey happens before sales contact | Buyer's journey page (in build) |
 | 44 | 6sense, Buyer Experience Report | 2025 | Buyers spend ~70% of the buying journey researching before talking to vendors; 83% define requirements before contacting sales; ~80% of conversations are buyer-initiated | Buyer's journey page (in build) |
 
+### Vetted 2026-08-18 batch (workers web-verified; claims from citing pages)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 45 | SuperAGI | 2026 | AI-augmented rep handles 1,000+ contacts/day vs 50-80 manual; autonomous agents convert meetings to opps 15% vs 25% human SDRs (40% gap); AI-augmented SDR handles 1,000+ contacts/day vs 50-80 for a... | docs/agentic/02-agentic-outbound.md; docs/case-studies/03-outbound.md; docs/playbooks/outbound-from-zero.md |
+| 46 | MarketsandMarkets | 2026 | cost-per-lead drops $262 to $39 (85% reduction); AI SDR cost-per-lead drops from $262 to $39, an 85% reduction (vendor source) | docs/case-studies/03-outbound.md; docs/playbooks/outbound-from-zero.md |
+| 47 | The Starr Conspiracy | 2025 | B2B intent-prioritized convert 21.3% vs 8.4%; 71% use intent data; ABM adoption 70% (2024) vs 49% (2020); CPL benchmarks content/SEO $35, paid social $152, trade shows $395, median $116 | docs/case-studies/02-abm.md; docs/channels/02-inbound.md; docs/channels/09-abm.md |
+| 48 | Rewardful | 2025 | affiliate/referral MRR contribution 10-20% of MRR, up to 50% for specialized tools | docs/channels/04-partner.md; docs/channels/08-referral-viral.md |
+| 49 | ProductLed | n/a | 600+ B2B SaaS survey: ~9% median free-to-paid, ~25-30% activated-to-paid with PQLs | docs/case-studies/01-product-led.md; docs/channels/03-product-led.md |
+| 50 | Michelle Goodall | 2023 | Notion case study: 20M users and 1M+ community members by Sept 2023 | docs/case-studies/04-community-led.md; docs/channels/05-community-led.md |
+| 51 | Mailshake | 2025 | State of Cold Email: only ~5% personalize every email | docs/agentic/02-agentic-outbound.md; docs/channels/01-outbound.md |
+| 52 | Mailforge | 2026 | 50-125 word emails earn ~50% higher reply rates (via Martal) | docs/flows/02-agentic-outbound.md; docs/playbooks/outbound-from-zero.md |
+| 53 | Gainsight | 2022 | Product-Led Growth Index: free trials using PQLs convert 2.8x higher; 35-Metric Guide for SaaS Teams | docs/case-studies/01-product-led.md; docs/channels/03-product-led.md; docs/foundations/05-gtm-metrics.md |
+| 54 | Expando | 2025 | Guide to B2B referral partner programs: referral leads convert ~30% higher and carry ~16% higher LTV (Wharton) | docs/channels/04-partner.md; docs/channels/08-referral-viral.md |
+| 55 | Contrary Research | 2023 | Miro 60M+ users (Sept 2023); Notion and Calendly reports (Calendly $350M Series B at $3B valuation via TechCrunch) | docs/case-studies/01-product-led.md; docs/case-studies/04-community-led.md |
+| 56 | ChartMogul | 2024/H1 2024 | SaaS Retention Report: companies with NRR >=100% grew ~48% YoY; 1-point free-to-paid lift ~+15% revenue/cohort; Companies with NRR >=100% grew roughly 48% YoY (H1 2024); a 1-point free-to-paid lift... | data/01-gtm-metrics.md; docs/case-studies/01-product-led.md; docs/data/01-gtm-metrics.md |
+| 57 | Userpilot | n/a | SaaS conversion rates: 1-point free-to-paid lift equals ~+15% new revenue per cohort | docs/case-studies/01-product-led.md; docs/channels/03-product-led.md |
+| 58 | Apollo | n/a | Outbound pipeline guide: $0 to $200K revenue and $1M pipeline in three months (founders); Outbound Sales Pipeline Guide (0 to $200K revenue and $1M pipeline in three months, vendor source); list bu... | data/05-outbound-response-rates.md; docs/agentic/01-agentic-stack.md; docs/case-studies/03-outbound.md |
+| 59 | Winning by Design | n/a | Revenue Architecture framework by Jacco van der Kooij; BenchSights source | docs/foundations/revenue-architecture.md |
+| 60 | Wharton | 2011 | Schmitt et al research: referral leads convert ~30% higher, ~16% higher LTV | docs/channels/04-partner.md; docs/channels/08-referral-viral.md |
+| 61 | Vendelux | 2026 | Event Marketing Statistics survey 120+ B2B marketing leaders: only 13% pick events fully on data; event case studies (Voltage 300% pipeline, Rocketium, Seqera) | docs/channels/07-events-field.md |
+| 62 | UserGems | 2026 | AI SDR tools churn at 50-70% annually, ~2x human turnover; autonomous convert 15% vs 25% (via Autobound) | docs/agentic/02-agentic-outbound.md; docs/flows/02-agentic-outbound.md |
+| 63 | Triple Whale | 2025 | Meta Ads benchmarks: CPA $38.19, CPM $14.19 (up 20% YoY), CTR 2.19% | docs/channels/06-paid.md |
+| 64 | Trello (pricing) | 2026 | Free plan allows up to 10 boards per workspace and up to 10 workspace collaborators, unlimited cards | docs/case-studies/01-product-led.md |
+| 65 | TheB2BHouse | 2026 | LinkedIn Ad benchmarks: global average CPC $5.58 | docs/channels/06-paid.md |
+| 66 | TechCrunch | 2021 | Calendly $350M Series B at $3B valuation, Jan 2021 (via Contrary Research) | docs/case-studies/01-product-led.md |
+| 67 | TOPO | 2019 | 2019 Account Based Benchmark: 86% of orgs report increased win rate attributed to ABM | docs/channels/09-abm.md |
+| 68 | TK Kader | n/a | ICP framework guide: three-part framework (Firmographics, Triggers, Macro Trends), TAM/SAM/SOM connection | docs/foundations/02-icp-definition.md |
+| 69 | Stripe | n/a | GTM definition and component breakdown; Connect/platform-ecosystem model | docs/foundations/00-what-is-gtm.md; docs/roles/head-of-platforms/index.md |
+| 70 | Store Growers | 2026 | Google Ads benchmarks: search CTR 3.17%, display CTR 0.46% | docs/channels/06-paid.md |
+| 71 | Forrester State of GTM 2024 | 2024 | 76% of organizations have reinvented their GTM approach; 70% of B2B buyer journey is self-serve | docs/foundations/00-gtm-strategy-framework.md |
+| 72 | Startup-Insider Edge | n/a | Robinhood referral analysis: 7.8% peak referral conversion (vendor source) | docs/case-studies/05-referral-viral.md; docs/channels/08-referral-viral.md |
+| 73 | Stackmatix | 2026 | LinkedIn Ads cost per lead: enterprise SaaS CPL $80-$180 (form), $120-$250 (landing page), mid-market $60-$120 | docs/channels/06-paid.md |
+| 74 | Snowflake | 2025 | AI-ABM blog (Apr 2025): 45% ABM win rate vs 18% non-ABM; 2.3x lift in meetings booked; 38% less spend; 75% more SDR-booked meetings | docs/case-studies/02-abm.md; docs/channels/09-abm.md |
+| 75 | Smartlead | 2026 | AI SDR comparison: fully-loaded autonomous AI SDR $35K-$65K/yr; 1-3% reply rate for fully autonomous systems | docs/agentic/01-agentic-stack.md; docs/flows/02-agentic-outbound.md |
+| 76 | Slack | 2019 | 12M+ DAU and 6M+ paid seats (Sept 2019); 640K orgs (2019); ~40% of paid customers started on free tier | docs/case-studies/01-product-led.md |
+| 77 | Skillademia | 2026 | Stack Overflow statistics (updated July 2026): 24M+ questions, 35M+ answers, 22M+ users; 11-min avg response; questions fell 1.8M (2020) to ~1.2M (2024) | docs/case-studies/04-community-led.md |
+| 78 | Sixteen Ventures | n/a | SaaS free trial benchmarks (Lincoln Murphy) | docs/channels/03-product-led.md |
+| 79 | Sean Ellis | 2016 | Dropbox 100K to 4M registered users in 15 months (Sept 2008-Dec 2009); 35% of daily signups from referrals; 2.8x paid channels (SaaStr Annual deck) | docs/case-studies/01-product-led.md |
+| 80 | Scrap.io | 2026 | Customer acquisition cost benchmarks: ecommerce referral CAC $25-$65 per customer | docs/channels/08-referral-viral.md |
+| 81 | Schmitt, Skiera, Van den Bulte | 2011 | Journal of Marketing: referred customers worth ~16% more with ~18% lower churn over six-year horizon | docs/channels/08-referral-viral.md |
+| 82 | Salesmotion | 2026 | Win rates ~21% all / ~29% qualified / ~22% SaaS; 31% SMB vs 15% enterprise (>$100K ACV); ABM 45% vs 18%; DocuSign win rate 25% to 52% | docs/case-studies/02-abm.md; docs/channels/09-abm.md; docs/data/01-gtm-metrics.md |
+| 83 | Salesforce | 2024 | TAM/SAM/SOM sizing reference; State of Sales 2024: MQL to SQL 13% (5,500 sales pros, 27 countries); 86% of buyers more likely to buy when goals understood | docs/data/00-conversion-rate-benchmarks.md; docs/data/02-market-segmentation.md; docs/foundations/02-icp-definition.md |
+| 84 | SalesFit | 2025 | Sales quota attainment benchmarks: industry average ~47% | docs/foundations/06-revenue-operations.md |
+| 85 | Sacra | 2026 | Circle company analysis: 4.1M active users, 10,000+ communities (end 2023); $68M ARR by May 2026 (analyst source) | docs/case-studies/04-community-led.md |
+| 86 | Saber | 2025 | Pipeline coverage glossary: 3x-5x open pipeline to quota rule of thumb | docs/foundations/06-revenue-operations.md |
+| 87 | SMarketers | 2026 | RevOps hiring demand grew +300% in 18 months; RevOps hiring demand growth; up to 30% lower go-to-market cost and +10-20% sales productivity from better lead quality/tooling | docs/foundations/06-revenue-operations.md |
+| 88 | SBI | 2024 | State of B2B SaaS Pricing Benchmarks: 33% value-based pricing adoption; 40.8% good-better-best dominant model | docs/data/04-pricing-as-gtm.md |
+| 89 | Robinhood | current | Free-stock referral: ~99% of referees receive ~$5, up to $200, up to $1,500 via referrals (first-party); 7.8% peak referral conversion (via Startup-Insider Edge) | docs/case-studies/05-referral-viral.md; docs/channels/08-referral-viral.md |
+| 90 | Reuters | 2022 | Figma ~$20B Adobe acquisition announced (Sept 2022); Zoom 10M -> 300M daily meeting participants (2020) | docs/case-studies/01-product-led.md |
+| 91 | RepVue Cloud Sales Index | Q4 2024 | Quota attainment avg ~43-47% (RepVue reported 43.14% Q4 2024); &lt;43% of sellers hit quota Q2 2024, down 8% over two years | docs/data/01-gtm-metrics.md; docs/foundations/06-revenue-operations.md |
+| 92 | Pavilion | 2024-2025 | IC attainment ~25% (Ebsta/Pavilion 1H 2024); enterprise committee 11-17 decision makers; avg B2B win rate 20-21%; expansion deal cycle 52 days | docs/data/01-gtm-metrics.md; docs/data/06-sales-cycle-benchmarks.md |
+| 93 | Passionfroot | 2026 | Notion grew ~1M -> ~30M users via community/creator enablement (Ben Lang AMA) | docs/channels/05-community-led.md |
+| 94 | PartnerStack | 2026 | Mid-market/enterprise report 35% of new pipeline partner-influenced/sourced; 69% of B2B SaaS leaders plan to increase partnership investment; only 42% use multi-touch attribution | docs/channels/04-partner.md |
+| 95 | PartnerStandard | 2026 | A program at 30% activation has a recruitment or onboarding-design problem | docs/channels/04-partner.md |
+| 96 | OpenAI on Unify | 2025 | Unify reports its AI-driven system generates 30% of its pipeline autonomously | docs/agentic/00-agentic-gtm-overview.md |
+| 97 | Onely | 2025 | 73% of B2B websites lost significant organic traffic 2024-2025, avg decline 34% YoY | docs/channels/02-inbound.md |
+| 98 | Notion 100 Million of You | 2025 | Notion 20M users (2022) -> 100M+ (2025), 4M+ paying | docs/case-studies/01-product-led.md |
+| 99 | NP Digital | Oct 2025 | B2B organic leads down 47% Jan-Oct 2025; 57% of B2B searches ended without a website click (up from 35% in 2024) | docs/channels/02-inbound.md |
+| 100 | NN/g | 2006 | The 90-9-1 rule (Jakob Nielsen): ~90% lurk, 9% contribute occasionally, 1% create most content | docs/channels/05-community-led.md |
+| 101 | MomentumNexus | 2026 | SaaS price level +11.4% YoY in 2025; SaaS spend/employee $7,900/yr (+27% in 2 yrs); expansion as % of new revenue healthy 25-40%; SaaS price level +11.4% YoY in 2025; SaaS spend per employee $7,900... | docs/data/04-pricing-as-gtm.md |
+| 102 | Miro | 2023 | 60M+ users as of September 2023 (Contrary Research report) | docs/case-studies/04-community-led.md |
+| 103 | Medium | 2020-2026 | Robinhood 7.8% peak referral conversion (Startup Insider Edge); Calendly case; Cacheflow SaaS discount 1-20% optimal | docs/case-studies/05-referral-viral.md; docs/channels/08-referral-viral.md; docs/data/04-pricing-as-gtm.md |
+| 104 | McKinsey Next in Personalization | 2021 | Personalization -> revenue lift +10-15%; personalization -> marketing ROI +10-30% | docs/data/02-market-segmentation.md |
+| 105 | Maxio | 2026 | Sales-led vs product-led GTM motion comparison (framework ref) | docs/foundations/00-what-is-gtm.md |
+| 106 | Marketick | 2026 | Up to 30% lower GTM cost and +10-20% sales productivity from better lead quality/tooling (vendor source) | docs/foundations/06-revenue-operations.md |
+| 107 | Lithium | 2026 | Top ~10% of contributors generate ~56% of community content; hyper-contributors ~2.7% of members (143 communities) | docs/channels/05-community-led.md |
+| 108 | LevelUpLeads | 2025-2026 | AI-empowered SDR reaches 3x more prospects with tailored messages (via Smartlead) | docs/agentic/02-agentic-outbound.md |
+| 109 | Lenny's Newsletter | Aug 2023 | ×OpenView×Pendo 1,000+ product survey: PQL-gated trials convert 2.8x higher; freemium sign-up ~9%, free-trial ~5%; measure free-to-paid on cohort basis | docs/channels/03-product-led.md; docs/foundations/02-icp-definition.md |
+| 110 | Lavender | Mar 2026 / Jan 2023 | Benchmark across 231,818 emails: A-grade copy lifts reply 27-79% by department; personalization lifts reply 50-250% vs template (vendor source) | docs/case-studies/03-outbound.md |
+| 111 | Lative | 2025 | At 21% avg B2B win rate need ~4.8x pipeline coverage; enterprise Series B+ target 4x-5x qualified coverage; Pipeline coverage framework; $7.2M qualified pipeline measured 2.2x coverage; win-rate vs... | docs/foundations/06-revenue-operations.md |
+| 112 | Landbase | 2026 | Lead -> MQL 31% avg, 39% B2B SaaS; MQL -> SQL 13% | docs/data/00-conversion-rate-benchmarks.md |
+| 113 | Labs by Demandbase | 2026 | Engaging buying groups -> 2-3x higher win rates, larger deals; ABM 101 tiers; Engaging buying groups drives 2-3x higher win rates and larger deals; 24B+ interactions | docs/case-studies/02-abm.md; docs/channels/09-abm.md |
+| 114 | Kumar Petersen Leone | 2010 | 83% of consumers willing to refer after a good experience, but only 29% actually share (Texas Tech study) | docs/channels/08-referral-viral.md |
+| 115 | Instantly | 2025-2026 | Signal-based personalization reaches 15-25% reply rates; Google/Yahoo sender reqs; &lt;0.3% complaints; ≥80% inbox placement | docs/agentic/02-agentic-outbound.md; docs/channels/01-outbound.md; docs/data/05-outbound-response-rates.md |
+| 116 | Insights ABM | n/a | 87% of marketers say ABM delivers higher ROI than other strategies (with SiriusDecisions) | docs/channels/09-abm.md |
+| 117 | Insight Collective | n/a | One-to-few ABM = clusters/groups of 20-100 sharing traits; one-to-many = hundreds to thousands | docs/channels/09-abm.md |
+| 118 | InsideScale | 2026 | Gong case study: first 10 customers from founder relationships, next 10+ sourced out-of-network | docs/case-studies/03-outbound.md |
+| 119 | Improvado | 2026 | LTV to CAC ratio guide reference | docs/data/01-gtm-metrics.md |
+| 120 | Huble | 2026 | ABM deals ~20% larger than traditional demand gen (111 ABM statistics) | docs/channels/09-abm.md |
+| 121 | HubSpot | 2026 | State of Marketing: 37% of marketers say leads more informed due to AI; ~70% say leads come later after AI-assisted research; email a top ROI B2B channel | docs/channels/02-inbound.md; docs/channels/03-product-led.md |
+| 122 | HockeyStack | 2025 | LinkedIn CPC rising $10.48 Q1 -> $15.72 Q3 2025, CTR 0.82-0.96% | docs/channels/06-paid.md |
+| 123 | Highspot | 2026 | Agentic AI GTM strategy: AI autonomy vs human judgment boundaries | docs/agentic/06-agent-vs-human-workflows.md |
+| 124 | Higher Logic | 2026 | Small communities (&lt;5K): ~33% of members creators/contributors; medium/large (10-50K): ~20% participate | docs/channels/05-community-led.md |
+| 125 | Hey Sid | 2026 | ~5% of market is in-market at any moment (95-5 rule) | docs/data/02-market-segmentation.md |
+| 126 | Haus Advisors | 2025-2026 | Industry avg cold email reply 5.1%, most campaigns 1-5% (Belkins 2025 via Haus Advisors) | docs/agentic/02-agentic-outbound.md |
+| 127 | Hamster Garage | 2026 | Healthy partner activation >50% of signed partners launch; 30% activation signals a recruitment/onboarding problem; Partner activation rate >50% of signed partners launch; average ~10% activation v... | docs/channels/04-partner.md |
+| 128 | HG Insights | 2026 | SOM as share of SAM (early-growth B2B) 5-15% | docs/data/02-market-segmentation.md |
+| 129 | HBR | 2011 | Referred customers worth ~16% more with ~18% lower churn over six years (Schmitt/Skiera study) | docs/channels/08-referral-viral.md |
+| 130 | Graphite Similarweb | 2026 | Top 40,000 US sites: Google organic traffic down just 2.5% YoY (long-tail collapse vs aggregate) | docs/channels/02-inbound.md |
+| 131 | Go to Market GTM Strategy (Asana) | 2026 | GTM strategy definition & 9-step guide (framework ref) | docs/foundations/00-gtm-strategy-framework.md |
+| 132 | GitHub | n/a | Repo hosting / fork & PR contribution workflow (infra, not a data source) | docs/contributing.md |
+| 133 | Genesys Growth | 2026 | Cost per acquired lead 30-40% lower via partnerships than paid ads | docs/channels/04-partner.md |
+| 134 | GTM Syndicate | 2026 | Revenue architecture overview: six models and growth stages (framework ref); Revenue architecture overview: the six models and growth stages in visual form | docs/foundations/revenue-architecture.md |
+| 135 | Forrester State of ABM | 2024 | 68% higher win rates with defined ICP & 30% more marketing revenue (SiriusDecisions/Forrester); State of GTM 2024: 76% reinvented GTM approach, 70% of B2B buyer journey self-serve | docs/channels/09-abm.md; docs/data/01-gtm-metrics.md; docs/foundations/00-gtm-strategy-framework.md |
+| 136 | Forecastio | 2025 | Forecast accuracy bands: 50-70% average, 80-95% top-decile; most teams not close to own plan | foundations/06-revenue-operations.md |
+| 137 | First Round Review | n/a | Notion community, influencer, and growth playbooks (How Notion Does Marketing) | case-studies/04-community-led.md |
+| 138 | First Page Sage | 2024 | Visitor-to-lead 1.4% SMB; MQL-to-lead 36-47%; SQL-to-opp 36-48%; opp-to-closed-won 31-43%; trial-to-paid opt-in ~18%, opt-out ~49%, freemium ~3-9% | data/00-conversion-rate-benchmarks.md |
+| 139 | FeverBee | 2026 | Discourse scores 9/10 for discussions in 2026 platform comparison series | channels/05-community-led.md |
+| 140 | Extole | 2026 | Global referral rate 2.35% of customers make at least one referral; referred vs paid-channel retention 37% higher; conversion 4x (vendor source) | channels/08-referral-viral.md |
+| 141 | Exploding Topics | 2026 | Software referral rate 4.75%, more than double cross-industry average; top programs over 5%; Software referral rate 4.75%, more than double the cross-industry average; top programs over 5% | channels/08-referral-viral.md; docs/channels/08-referral-viral.md |
+| 142 | EmberTribe | 2026 | B2B SaaS referral CAC about $150 per customer vs ~$802 paid search (vendor source); B2B SaaS referral CAC about $150 per customer vs about $802 for paid search | channels/08-referral-viral.md; docs/channels/08-referral-viral.md |
+| 143 | Ebsta | 2024 | SQL-to-opp 47%; opp-to-closed-won 21% avg, down 4-6 points from 2021; enterprise committee 11-17; B2B win rate 20-21%; expansion deal cycle 52 days | data/00-conversion-rate-benchmarks.md |
+| 144 | Dropbox | n/a | ~100K signups (Sep 2008) to ~4M (Dec 2009), 3,900% growth, 35% of daily signups from referrals at peak, 2.8x paid acquisition; 500MB/side reward | case-studies/05-referral-viral.md |
+| 145 | DigitalBloom | 2025 | MQL-to-SQL 15-21%; channel differentials email 1.8%/46%, events 1.0%/24%/40%, PPC 0.7%/26%; Sales cycle lengthening since 2022 +22%; MQL->SQL 15-21% | data/00-conversion-rate-benchmarks.md; docs/data/06-sales-cycle-benchmarks.md |
+| 146 | DigitalApplied | 2026 | CAC self-serve $702 / sales-led $11,400 median; CAC payback target 12 months (was 18-24); B2B SaaS paid search $1,180, Meta $890, TikTok $540, organic $348, outbound $3,210; paid-search CAC up 18% ... | data/01-gtm-metrics.md |
+| 147 | Digital Native | n/a | Notion used community to scale to 20M+ users (ambassador/superfan mechanics) | channels/05-community-led.md |
+| 148 | Demandbase | 2026 | Engaging buying groups drives 2-3x higher win rates and larger deals; ABM 101 tiers; 81% higher ROI for top performers (2024 benchmark); 5 segmentation methods | channels/09-abm.md |
+| 149 | DemandSage | 2026 | Content generates 3x more leads than outbound and costs 62% less (Content Marketing Statistics, via Realize) | channels/02-inbound.md |
+| 150 | Demand Gen Report | 2020 | 29% focus on 101-500 accounts (2020 ABM survey); 71% of practitioners use an ABM strategy (2025 survey) | channels/09-abm.md |
+| 151 | DealHub | 2026 | SaaS reseller margins 20-30% off list price (partner margin glossary); Reseller margin 20-30% off list price (SaaS channel margins) | channels/04-partner.md; docs/channels/04-partner.md |
+| 152 | Community Inc | 2024 | Atlassian 4.5M+ member community, sales & marketing under 15% of revenue for 20 years on $3B+ revenue, Authors program 700+ members; Notion ambassador program (vendor source) | case-studies/04-community-led.md |
+| 153 | Common Room | 2024 | Community-led support reduces support tickets by estimated 30-40% (2024 State of Community report, vendor source); 2024 State of Community report: community-led support reduces support tickets by a... | case-studies/04-community-led.md; docs/case-studies/04-community-led.md |
+| 154 | CloudSponge | n/a | Airbnb referral program mechanics corroboration (doubles-sided credits, +$75 host bonus) | channels/08-referral-viral.md |
+| 155 | ChurnZero | 2026 | Net revenue retention median ~102%; expansion revenue rate 10-30% good; top performers exceed 60% of new MRR from expansion | data/01-gtm-metrics.md |
+| 156 | Challenger | 2024 | Less than 20% of sales leaders rated forecast accuracy 'predictable' (Jan 2024 poll); Forecast accuracy bands: leaders rate their forecast accuracy 'predictable' | docs/foundations/06-revenue-operations.md; foundations/06-revenue-operations.md |
+| 157 | Calendly | 2024 | Viral loop via shared booking link, no cash incentive; early 700%+ YoY growth, 10M+ users (vendor-sourced); 86% of the Fortune 500; $3B valuation, $350M Series B (Jan 2021); Calendly for Enterprise... | case-studies/05-referral-viral.md; docs/case-studies/01-product-led.md |
+| 158 | CXL | n/a | ABM case outcomes: BillingTree 60% response/15% conversion/$350K/700% ROI; Invoca 33x ROI; iRidium $3K summit 2,320 signups/5 customers $100K+ LTV | case-studies/02-abm.md |
+| 159 | CSO Insights | 2019 | Structured forecasting analysis teams are 28% more likely to hit quota than manual judgment (5th Annual Sales Enablement Study) | foundations/06-revenue-operations.md |
+| 160 | CNBC | 2023 | Notion 20M users (2022) to 100M+ (2025), 4M+ paying customers (Disruptor 50) | case-studies/01-product-led.md |
+| 161 | CMX | 2025 | Community Industry Report; community-led growth metrics for SaaS (2025 and 2022 studies) | channels/05-community-led.md |
+| 162 | BusinessWire | 2021 | Hashnode grew from 100,000 to 1M MAU in one year, hosting 60,000 active blogs (Series A funding announcement, vendor source) | case-studies/04-community-led.md |
+| 163 | Business of Apps | 2026 | Slack 640,000 organizations (2019); Zoom 192,600 enterprise customers (2024) | case-studies/01-product-led.md |
+| 164 | Belkins | 2024 | B2B reps hitting quota 27-30% (2024, via Autobound); cold email open/reply ranges | data/05-outbound-response-rates.md |
+| 165 | Bain & Company | 2025 | Organic web traffic down 15-25% from zero-click search (Feb 2025) | channels/02-inbound.md |
+| 166 | Atlassian | n/a | Jira/Confluence free up to 10 users, JSM 3 agents, 2GB storage (licensing docs 2020-24) | case-studies/01-product-led.md |
+| 167 | Artemis GTM | 2026 | Pipeline metrics reference (coverage, velocity & KPIs) | data/01-gtm-metrics.md |
+| 168 | AriseGTM | n/a | Agentic GTM operating model (lead re-assignment, model components) | agentic/00-agentic-gtm-overview.md |
+| 169 | Antler | n/a | How to calculate TAM/SAM/SOM market size | data/02-market-segmentation.md |
+| 170 | Andrew Chen | 2016 | Viral factor math k = X x Y, 1/(1-v) multiplier, k above 1.0 caveat; viral growth as network-effect flavor | channels/08-referral-viral.md |
+| 171 | Amplemarket | 2026 | AI agent assembles per-prospect research brief a human would spend 15-30 min building by hand; personalization model trains over time (vendor source); 8 Best AI Sales Agents compared, scored across... | docs/flows/02-agentic-outbound.md; flows/02-agentic-outbound.md |
+| 172 | Ambition | 2015 | 578 prospects, 6 initial replies, follow-ups added 67 more, ~12.6% total response (persistence in cold email) | case-studies/03-outbound.md |
+| 173 | Aleph | 2025 | Median B2B SaaS CAC payback 16 months (2025), 18 months (2024), top quartile 6, by growth rate (342 companies) | channels/06-paid.md |
+| 174 | Airbnb | 2014 | $25 travel credit each side, +$75 host bonus; relaunch lifted signups/bookings by over 300% per day, bookings +25% in some markets, up to 30% of first-time bookings (first-party Airbnb Engineering) | case-studies/05-referral-viral.md |
+| 175 | Ahrefs | 2026 | Less than 2% of new pages reach Google top 10 within a year; ~5% with at least one backlink; 96.6% of clicks go to first-page results | channels/02-inbound.md |
+| 176 | Adobe | n/a | Adobe Analytics used by SAP Concur in Demandbase ABM stack (account insight consolidation) | case-studies/02-abm.md |
+| 177 | AIMultiple | n/a | The 7 layers of the Agentic AI Stack (framework reference) | agentic/01-agentic-stack.md |
+| 178 | ZoomInfo | 2026 | 2026 B2B content marketing funnel guide; content misalignment most common reason B2B content programs underperform; "Most B2B content programs over-invest in TOFU and underinvest in MOFU and BOFU" | docs/foundations/07-gtm-funnel.md |
+| 179 | Zoom blog | 2020 | 10M -> 200M -> 300M daily meeting participants Dec 2019-Apr 2020 | docs/case-studies/01-product-led.md |
+| 180 | Ziel Lab | 2026 | Strategic ($250K+/$500K+ ACV) sales cycle 180-365 days | docs/data/06-sales-cycle-benchmarks.md |
+| 181 | WordStream | 2025 | 2024 avg CPC $4.66, avg CPL $66.69; 2025 avg CPL $70.11 (+5.13% YoY), avg CPC $5.26, avg conversion rate 7.52%; traffic CPC ~$0.77 | docs/channels/06-paid.md |
+| 182 | Warmer.ai | 2026 | Lead-gen agency: reply 2.3%->11.7% (409% lift), 47 qualified meetings booked; SDR agency: reply 4.7%->13.2%, meeting booking 0.9%->3.4%, 45->170 meetings (vendor source) | docs/case-studies/03-outbound.md |
+| 183 | Valley pricing survey | 2026 | Cited for AI SDR pricing, costs and ROI (2026 pricing survey); AI SDR platforms $100-$5,000/mo range | docs/agentic/02-agentic-outbound.md |
+| 184 | Uber | 2014 | Rider referral $20 ride credit each side (2014); driver referral $5 cash per new rider; referral channel reported 12x ROI (viral-loops, vendor) | docs/case-studies/05-referral-viral.md |
+| 185 | TrafficGuard | 2026 | Brands lose 15-25% of annual ad spend to non-human traffic; search campaigns see 14-22% invalid traffic | docs/channels/06-paid.md |
+| 186 | TheFlyy | 2020 | PayPal case: 1M users Mar 2000 -> 5M by Sept 2000; 7-10% daily growth; reached ~100M users; spent $60-70M on signups and referrals | docs/channels/08-referral-viral.md |
+| 187 | State of Sales 2024 | 2024 | MQL->SQL 13% (5,500 sales professionals, 27 countries); 86% of business buyers more likely to buy when their goals are understood | docs/data/00-conversion-rate-benchmarks.md |
+| 188 | Slacks | 2019 | Slack 12M+ daily active users, 6M+ paid seats (Sept 2019); 640K orgs (2019); ~40% of paid customers started on free tier | docs/case-studies/01-product-led.md |
+| 189 | Seer Interactive | 2025 | Analyzed 3,119 queries across 42; AI Overviews CTR -61% where they appear (Nov 2025) | docs/channels/02-inbound.md |
+| 190 | SearchLab | 2026 | Programmatic CPMs: display $1.50-$4.00, native $5-$12, in-stream video $12-$25, connected TV $25-$45 | docs/channels/06-paid.md |
+| 191 | SalesHive | 2025 | Blended B2B cold reply 5.8% (down from 6.8% 2023); B2B SaaS 3-8%; positive reply >30% of replies; funnel stages visitor->lead 2.3%, lead->MQL 31%, MQL->SQL 13%, SQL->opp 30-59%, opp->close 22-30%, ... | docs/data/05-outbound-response-rates.md |
+| 192 | SalesMotion DocuSign | 2026 | DocuSign enterprise ABM win rate 25% to 52% | docs/channels/09-abm.md |
+| 193 | SalesMotion ABM Metrics | 2026 | ABM win rate 45% vs 18% non-ABM; win rates ~21% all / ~29% qualified / ~22% SaaS; 31% SMB vs 15% enterprise ($100K+ ACV) | docs/channels/09-abm.md |
+| 194 | SalesGenie | 2026 | Cold call connect rate 2-3%; top SDRs reach 5-8% meetings | docs/data/05-outbound-response-rates.md |
+| 195 | PostAffiliatePro | 2025 | Google Display ~$3 CPM vs Google Search ~$38 CPM | docs/channels/06-paid.md |
+| 196 | Product Positioning Exercise | 2026 | April Dunford 5-step positioning exercise/framework (A Product Positioning Exercise); the classic fill-in-the-blanks template is a weak end product | docs/foundations/03-positioning-and-messaging.md |
+| 197 | PixelsWithin | 2026 | Top 10% run 8-15% visitor-to-lead; company size inverts funnel (SMB ~2.3%, mid-market ~1.4%, enterprise ~0.7%) | docs/data/00-conversion-rate-benchmarks.md |
+| 198 | PeerSignal | 2024 | RevOps sits under 1% of total B2B software headcount; ~12:1 sales reps to RevOps ratio; RevOps person supports a bigger seller base over time | docs/foundations/06-revenue-operations.md |
+| 199 | OpenView | 2023 | Lenny's x OpenView x Pendo 1,000+ product survey (Aug 2023): freemium self-serve 3-8%, freemium+sales-assist 5-15%, free-trial 8-25%, signup 5% trial vs 9% freemium, 44% of trial companies route ov... | docs/case-studies/01-product-led.md |
+| 200 | Onely ABM Agency | 2025 | 73% of B2B websites lost traffic; avg 34% YoY decline (zero-click search) | docs/channels/02-inbound.md |
+| 201 | Notion | 2024 | 20M users, 1M+ community members (Sept 2023); ran support for 20M users with fewer than 10 customer success people; 20->200+ ambassadors in 23+ countries; 300k+ subreddit members and 32 recognized ... | docs/case-studies/04-community-led.md |
+| 202 | Mailforge/Instantly via Martal | 2026 | 50-125 word emails earn ~50% higher reply rates; message-length sweet spot | docs/flows/02-agentic-outbound.md |
+| 203 | HubSpot Upmarket Referral | 2026 | Referral/affiliate commission ~20% of first-year value | docs/channels/04-partner.md |
+| 204 | Huble 111 ABM statistics | 2026 | ABM deal size ~20% larger than traditional demand gen; revenue attribution up to 73% of total revenue in some orgs | docs/channels/09-abm.md |
+| 205 | Highspot Agentic AI | 2026 | Agentic AI 'is bigger than' [next gen GTM]; leaders must frame agentic AI culture; operating model toward intelligent automation with minimal human oversight | docs/agentic/00-agentic-gtm-overview.md |
+| 206 | Gainsight Product-Led Growth Index | 2022 | Free trials using PQLs convert 2.8x higher | docs/case-studies/01-product-led.md |
+| 207 | Extole 50 Referral Stats | 2026 | Global referral rate 2.35% of customers make at least one referral; top-quartile referral rate over 5%; referred customers convert 4x and retain 37% better (vendor source) | docs/channels/08-referral-viral.md |
+| 208 | DigitalApplied CAC | 2026 | CAC self-serve $702 / sales-led $11,400 median; CAC payback 12 months (was 18-24 months 2020-22); B2B SaaS paid-search CAC $1,180 (Meta $890, TikTok $540, organic $348, outbound $3,210); paid-searc... | docs/data/01-gtm-metrics.md |
+| 209 | Demand Gen Report 2025 ABM | 2025 | 71% of practitioners use an ABM strategy; top challenges marketing 43% and scaling 40%; 72% [rate ABM] + challenges | docs/channels/09-abm.md |
+| 210 | Community ROI roundup | 2026 | Aggregated community ROI studies: 72% of community-led deals close within 90 days vs 42% for sales/marketing-led | docs/channels/05-community-led.md |
+| 211 | ChurnZero Expansion Revenue | 2026 | Net revenue retention median ~102%; expansion revenue rate good/steady 10-30%; top performers exceed 60% of new MRR from expansion | docs/data/01-gtm-metrics.md |
+| 212 | Business of Apps Zoom | 2026 | 192,600 enterprise customers in 2024 (Zoom statistics) | docs/case-studies/01-product-led.md |
+| 213 | Business of Apps Slack | 2026 | 640,000 organizations used Slack in 2019 (Slack statistics) | docs/case-studies/01-product-led.md |
+| 214 | Belkins 2025 | 2024 | B2B reps hitting quota 27-30% (2024); cold reply rates between 1% and 5% (Belkins 2025 via Haus Advisors) | docs/data/05-outbound-response-rates.md |
+| 215 | Artemis GTM Pipeline Metrics | 2026 | Pipeline metrics reference: coverage, velocity, win rate, cycle length, board KPIs with formulas and directional benchmarks (as of 2026) | docs/data/01-gtm-metrics.md |
+| 216 | AriseGTM Agentic GTM | 2026 | The Agentic GTM Operating Model: five specialist agents; autonomous AI agents as primary operators of high-volume GTM work, humans as designers/coaches | docs/agentic/00-agentic-gtm-overview.md |
+
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the
