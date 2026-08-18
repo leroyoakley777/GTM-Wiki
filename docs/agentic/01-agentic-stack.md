@@ -9,10 +9,10 @@ description: "The agentic GTM stack: models, harnesses, tools, and guardrails, a
 ## Definition
 
 The agentic stack is the layered pipeline that powers an AI-driven GTM
-operation. It is the use you build to do volume work with software
+operation. It is the harness you build to do volume work with software
 agents and judgment work with humans.
 
-A use is not "an AI tool." It is a **pipeline with judgment
+A harness is not "an AI tool." It is a **pipeline with judgment
 checkpoints**: layers of agents that do the prep, a delivery layer that
 sends, and a loop that turns replies into learning. Each layer does one
 job well and passes structured output to the next.
@@ -68,7 +68,7 @@ list rot monthly, iteration speed is the moat.
 There is a hard warning attached. The same speed that lets you learn
 fast lets you destroy your reputation fast. Send garbage at scale and
 you burn the domain, the list, and the brand in one campaign. The stack
-is use. use works both directions.
+is a harness. A harness cuts both ways.
 
 ---
 

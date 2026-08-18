@@ -16,7 +16,7 @@ and handoffs into one number leadership can plan against: pipeline
 coverage, forecast accuracy, and quota attainment, with a headcount
 that stays small.
 
-RevOps is a use function, not a cost center. A tiny team sits on
+RevOps is a harness function, not a cost center. A tiny team sits on
 process, data, and tooling and multiplies the whole seller base. The
 benchmarks that matter are the ones that show the multiplier working:
 coverage, forecast accuracy, and quota attainment. This page pairs with
@@ -322,7 +322,7 @@ healthier 3.5x and rising, quota attainment climbed from 40% toward
 the 47% industry average and beyond for the process-adopting cohorts
 (SalesFit, 2025 and CSO Insights, 2019), and the founder could give the
 board a forecast backed by a model instead of a hope. One RevOps hire
-and one demand-gen marketer running the loops: a use function,
+and one demand-gen marketer running the loops: a harness function,
 not a new cost center.
 
 ---

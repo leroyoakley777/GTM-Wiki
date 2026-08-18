@@ -116,7 +116,7 @@ layer that feeds it ([Clay, via the Agentic Stack, 2026](https://www.clay.com/bl
 
 ## Stage 1: Prove the message (manual, before any agent)
 
-The use is use on a proven motion, never a substitute for
+The harness builds on a proven motion, never a substitute for
 proving it. Stage 1 is identical to the manual flow in [Outbound from
 Zero](../playbooks/outbound-from-zero).
 
@@ -527,7 +527,7 @@ earned by the control model, not by the model's cleverness.
   source for the augment-don't-replace case and the 2.8x and 15-versus-25%
   numbers.
 - [Outbound from Zero](../playbooks/outbound-from-zero): the manual
-  playbook this use accelerates, with the full copy and
+  playbook this harness accelerates, with the full copy and
   deliverability setup.
 - [Agentic Stack](../agentic/agentic-stack): the five-layer architecture
   this flow runs on.

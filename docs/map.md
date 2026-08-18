@@ -165,7 +165,7 @@ lives. Bookmark it. It's the fastest way to orient.
 1. **New to GTM?** Start at [Foundations](/docs/foundations): revenue architecture and the strategy framework come first, everything else hangs off them.
 2. **Picking where to reach buyers?** Browse [Channels](/docs/channels): outbound, inbound, PLG, partner, community, paid, events, and ABM.
 3. **Have a motion to run?** Go to [Playbooks](/docs/playbooks) and [Flows](/docs/flows) and execute the one that matches your situation.
-4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat: same foundations, a use on top.
+4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat: same foundations, a harness on top.
 5. **Hired or stepping into a role?** Read the [Roles](/docs/roles) guides.
 6. **Need the numbers?** [Tools & Data](/docs/data) carries the named, dated benchmarks, and [Case Studies](/docs/case-studies) show the motions in practice.
 
