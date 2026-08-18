@@ -10,7 +10,7 @@
  *   - validate-sources.py   = Bumble's True-gate registry check (wired separately)
  *
  * Usage:
- *   node scripts/lint.mjs                # whole docs/ + src/ tree
+ *   node scripts/lint.mjs                # docs/ + src/pages (all reader-facing copy)
  *   node scripts/lint.mjs --staged       # only files from `git diff --cached`
  *   node scripts/lint.mjs <file>...      # explicit files
  *
@@ -26,6 +26,11 @@ import { execSync } from 'node:child_process';
 
 const ROOT = normalize(join(process.cwd(), 'docs'));
 const SRC = normalize(join(process.cwd(), 'src'));
+// Reader-facing React pages are copy too — they ship to the live site and must
+// clear the same taste gate as docs/. The home hero is the highest-traffic
+// surface; excluding it let slop reach production. Scan it.
+const SRC_PAGES = normalize(join(process.cwd(), 'src', 'pages'));
+const PAGE_EXT = /\.(md|mdx|js|jsx|tsx)$/;
 
 // Internal-team meta must NEVER ship as reader-facing docs/. The Gold Ship
 // Standard used to live here with a carve-out ("the spec, not a ship page")
@@ -76,7 +81,7 @@ const EM_DASH = /—/g;
 // Collect files
 // ---------------------------------------------------------------------------
 
-function walk(dir, acc = []) {
+function walk(dir, acc = [], extRe = /\.(md|mdx)$/) {
   let entries;
   try {
     entries = readdirSync(dir);
@@ -86,8 +91,8 @@ function walk(dir, acc = []) {
   for (const e of entries) {
     const p = join(dir, e);
     const st = statSync(p);
-    if (st.isDirectory()) walk(p, acc);
-    else if (/\.(md|mdx)$/.test(e)) acc.push(p);
+    if (st.isDirectory()) walk(p, acc, extRe);
+    else if (extRe.test(e)) acc.push(p);
   }
   return acc;
 }
@@ -97,14 +102,14 @@ function stagedFiles() {
     encoding: 'utf8',
     stdio: ['ignore', 'pipe', 'ignore'],
   });
-  return out.split('\n').filter((l) => /\.(md|mdx)$/.test(l)).map((l) => normalize(l));
+  return out.split('\n').filter((l) => /\.(md|mdx|js|jsx)$/.test(l)).map((l) => normalize(l));
 }
 
 function targetFiles(args) {
   if (args.includes('--staged')) return stagedFiles();
   const explicit = args.filter((a) => !a.startsWith('--'));
   if (explicit.length) return explicit.map((a) => normalize(a));
-  return [...walk(ROOT), ...walk(SRC)];
+  return [...walk(ROOT), ...walk(SRC), ...walk(SRC_PAGES, [], PAGE_EXT)];
 }
 
 // ---------------------------------------------------------------------------
@@ -123,6 +128,36 @@ function scanProse(content, line) {
       continue;
     }
     if (!inFence) prose.push({ line: line + i, text: l });
+  }
+  return prose;
+}
+
+// Extract reader-facing prose from a .js/.jsx file: string literals used as
+// copy (the `sections` array descs, title strings) and JSX text nodes (the
+// home-page hero <p>, labels). Returns [{line, text}] so the taste rules run
+// on the same shape as markdown prose.
+function scanJsxProse(content) {
+  // Reader-facing copy in a .js/.jsx file lives in two places: string literals
+  // used as copy (the `sections` array descs / titles) and JSX text nodes (the
+  // hero <p>, labels, stat labels, the manifesto blockquote). Strip everything
+  // that is code, tags, attributes, and JSX expressions; what remains is prose.
+  const prose = [];
+  let c = content
+    .replace(/\/\*[\s\S]*?\*\//g, '')          // block comments
+    .replace(/\/\/[^\n]*/g, '')                     // line comments
+    .replace(/import[^;]*;/g, ' ')                    // import lines
+    .replace(/^\s*const\s+\w+\s*=\s*/gm, ' ')    // `const x =`
+    .replace(/[{}()=>;]/g, ' ')                       // code punctuation
+    .replace(/\{[^}]*\}/g, ' ')                     // JSX expressions
+    .replace(/<[^>]*>/g, ' ')                         // tags + attributes
+    .replace(/['"`]/g, ' ');                          // quote chars
+  const lines = c.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const t = lines[i].trim();
+    // Keep lines that read like prose (multiple words), not stray identifiers.
+    if (t.length > 4 && /\s/.test(t) && /[A-Za-z]{3}/.test(t) && !/^[\d./]/.test(t)) {
+      prose.push({ line: i + 1, text: t });
+    }
   }
   return prose;
 }
@@ -202,8 +237,11 @@ function lintFile(file, report) {
     return;
   }
 
+  const isJs = /\.(js|jsx)$/.test(file);
   const lines = content.split('\n');
-  const prose = scanProse(content, 1);
+  // JSX files: extract reader-facing string literals + JSX text nodes. Markdown:
+  // strip fenced code. Either way the taste rules see only what a reader sees.
+  const prose = isJs ? scanJsxProse(content) : scanProse(content, 1);
 
   if (!exempt) {
     // 1. Em dashes — scan entire file (prose + code): banned everywhere.
@@ -220,6 +258,31 @@ function lintFile(file, report) {
         }
       }
     }
+    // 2b. Structural taste: promise-listing anaphora. "The X gives you the Y.
+    // The Z gives you the W. The Q gives you the R." in one breath is the
+    // AI-marketing cadence that reads as slop even when each item is concrete.
+    // Caught by density, not bare count, so a lone "gives you" (legit) or a
+    // factual enumeration across a page stays clear. Hard-fail >=3 in a
+    // ~400-char window.
+    const PROMISE_ANAPHORA = /\b(gives|lets|shows|teaches|walks|takes|hands|offers) you\b/gi;
+    {
+      // Join prose into one buffer so JSX line-wraps don't hide the cadence.
+      const proseText = prose.map((p) => p.text).join(' ');
+      const marks = [];
+      let pm;
+      PROMISE_ANAPHORA.lastIndex = 0;
+      while ((pm = PROMISE_ANAPHORA.exec(proseText)) !== null) marks.push(pm.index);
+      let maxDensity = 0;
+      for (let i = 0; i < marks.length; i++) {
+        let n = 1;
+        for (let j = i + 1; j < marks.length && marks[j] - marks[i] <= 400; j++) n++;
+        if (n > maxDensity) maxDensity = n;
+      }
+      if (maxDensity >= 3) {
+        const snippet = proseText.slice(marks[0], marks[0] + 120).replace(/\s+/g, ' ').trim();
+        report(file, `promise-listing anaphora (>=3 "X gives you Y" in one breath): "${snippet}..."`, 'ERROR');
+      }
+    }
     // 3. MDX bare-<digit build trap (whole file: it is a build breaker).
     lines.forEach((text, i) => {
       MDX_DIGIT_TRAP.lastIndex = 0;
@@ -227,10 +290,12 @@ function lintFile(file, report) {
         report(file, `bare <digit MDX trap (use &lt;) on line ${i + 1}: ${text.trim().slice(0, 60)}`, 'ERROR');
       }
     });
-    // 4. "The"-opening headings.
-    for (const { line, text } of prose) {
-      if (THE_OPENING.test(text)) {
-        report(file, `heading opens with "The" on line ${line}`, 'ERROR');
+    // 4. "The"-opening headings (markdown headings only).
+    if (!isJs) {
+      for (const { line, text } of prose) {
+        if (THE_OPENING.test(text)) {
+          report(file, `heading opens with "The" on line ${line}`, 'ERROR');
+        }
       }
     }
     // 5. Internal-team meta leak guard: any docs/ page carrying coordination
@@ -245,10 +310,13 @@ function lintFile(file, report) {
   // 6. Cross-links always checked (even exempt files may link).
   checkLinks(file, content, report);
 
-  // 7. Soft: frontmatter completeness (WARN, not blocking).
-  if (!/^title:/m.test(content)) report(file, 'missing frontmatter `title:`', 'WARN');
-  if (!/^description:/m.test(content)) report(file, 'missing frontmatter `description:`', 'WARN');
-  if (!/^sidebar_position:/m.test(content)) report(file, 'missing frontmatter `sidebar_position:`', 'WARN');
+  // 7. Soft: frontmatter completeness (WARN, not blocking). Markdown pages
+  // only — JSX page components carry no frontmatter and must not be flagged.
+  if (/\.(md|mdx)$/.test(file)) {
+    if (!/^title:/m.test(content)) report(file, 'missing frontmatter `title:`', 'WARN');
+    if (!/^description:/m.test(content)) report(file, 'missing frontmatter `description:`', 'WARN');
+    if (!/^sidebar_position:/m.test(content)) report(file, 'missing frontmatter `sidebar_position:`', 'WARN');
+  }
 }
 
 // ---------------------------------------------------------------------------
