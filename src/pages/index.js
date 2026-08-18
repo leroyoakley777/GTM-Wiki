@@ -63,12 +63,11 @@ export default function Home() {
           <div className="gtm-hero__label">REFERENCE, NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Every concept has a page. Every page ships the artifact itself
-            (copy, math, tooling, agentic layer), not a summary of it.
-            Every number is named and dated. From time to time a number goes
-            stale. When that happens we update the page and the new source is
-            named and dated too. Built for founders, operators, and the
-            agents that run the motions.
+            Go-to-market, runnable. Every page ships the artifact itself: the
+            email sequence, the worked math on named and dated numbers, the
+            tooling, the agent prompt that runs the motion. Not a summary, not
+            a vendor deck. Numbers go stale; when they do we re-source and say
+            so. Built for the operators and the agents that run the motions.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
