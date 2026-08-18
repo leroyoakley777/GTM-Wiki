@@ -275,6 +275,10 @@ structurally uncommittable, not caught by an auditor later.
 | 216 | Artemis GTM Pipeline Metrics | 2026 | Pipeline metrics reference: coverage, velocity, win rate, cycle length, board KPIs with formulas and directional benchmarks (as of 2026) | docs/data/01-gtm-metrics.md |
 | 217 | AriseGTM Agentic GTM | 2026 | The Agentic GTM Operating Model: five specialist agents; autonomous AI agents as primary operators of high-volume GTM work, humans as designers/coaches | docs/agentic/00-agentic-gtm-overview.md |
 | 218 | Anura | 2024 | Global ad-fraud losses above $140B in 2024; programmatic fraud ~50%, affiliate ~45%, general digital ~25% | docs/channels/06-paid.md |
+| 219 | Ven | 2025 | Pipeline coverage ratio: 3x–5x open pipeline to quota rule of thumb; coverage by win-rate segment | docs/foundations/06-revenue-operations.md |
+| 220 | SaaS Mag | 2026 | Partner-sourced revenue median 24%, top-quartile 40% for B2B SaaS (ecosystem-led growth) | docs/channels/04-partner.md |
+| 221 | Peak | 2026 | SaaS M&A customer retention: gross dollar retention 85–95%, net dollar retention 110–120% | docs/data/04-pricing-as-gtm.md |
+| 222 | The Cold Start Problem | 2021 | Viral growth as a flavor of network effect; cold-start theory of network effects (Andrew Chen) | docs/channels/08-referral-viral.md |
 
 ## Claim-verification status
 

@@ -89,7 +89,7 @@ The strongest pricing models are boring: clear packaging around buyer groups, di
 - [Paddle, Data shows SaaS discounting lowers LTV by over 30%](https://www.paddle.com/blog/saas-discounting-strategy): −32.41% LTV.
 - [Ahsun Mahfuz, How Discounts Impact SaaS Revenue & Retention](https://ahsunmahfuz.com/blog/how-discounts-impact-saas-revenue-and-retention/): Slack/Zoom/HubSpot 15–20%, 3.5% churn.
 - [ChurnZero, Expansion Revenue](https://churnzero.com/churnopedia/expansion-monthly-recurring-revenue-mrr/): 10–30% good, >60% of new MRR.
-- [Peak, Customer Retention in SaaS M&A](https://www.peak-tech.com/perspectives/customer-retention): GDR 85–95%, NDR 110–120%.
+- [Peak, 2026](https://www.peak-tech.com/perspectives/customer-retention): GDR 85–95%, NDR 110–120%.
 - [Schema, SaaS Pricing and Packaging for B2B Teams](https://schematichq.com/blog/saas-pricing-and-packaging): packaging reference.
 
 ---

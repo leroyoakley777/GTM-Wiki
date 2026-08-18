@@ -82,7 +82,7 @@ Advanced personalization (specific, signal-driven references) lifts
 replies to **18% vs. ~9% for generic templates** ([Infraforge, via
 Martal](https://martal.ca/b2b-cold-email-statistics-lb/)). Signal-based
 personalization (a trigger event plus a relevant value prop) reaches
-**15–25% reply rates** ([Instantly.ai benchmarks](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
+**15–25% reply rates** ([Instantly](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
 
 Only **5% of senders personalize every
 email** ([Mailshake](https://mailshake.com/blog/the-state-of-cold-email-2025/)).

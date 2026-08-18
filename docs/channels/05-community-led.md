@@ -164,7 +164,7 @@ lurkers converting downstream.
 | Community members spend more | +19% spend after joining a B2B online community | Aggregate of community-marketing studies, cited 2026 |
 | Community members convert faster | 58% of companies say community members convert faster than typical leads | Aggregate of community-marketing studies, cited 2026 |
 | Community-led deals close speed | 72% close within 90 days vs 42% for sales/marketing-led | Aggregate of community ROI studies, cited 2026 |
-| Dedicated community program | +21% higher revenue growth vs companies without one | CMX community study, 2022 |
+| Dedicated community program | +21% higher revenue growth vs companies without one | CMX, 2022 |
 | Word-of-mouth conversion lift | Community-driven word-of-mouth lifts conversions by ~22% | Aggregate of community-marketing studies, cited 2026 |
 
 The honest caveat on these four aggregate rows: they are secondary-sourced
@@ -300,7 +300,7 @@ Studies](../case-studies/community-led). The operating matrix:
 | Notion | Ambassador program + community hub + superfan enablement | 20M users and 1M+ community members, hired its biggest fan as Head of Community at 15 employees | Michelle Goodall community case study |
 | Notion | Community as organic content and referral flywheel | Community-created content expanded the organic footprint and fuelled demand without a paid acquisition push | Michelle Goodall, BetterMode |
 | Notion | Community + influencer growth | Grew from ~1M to ~30M users through community and creator enablement | Ben Lang (former Head of Community), Passionfroot AMA |
-| CMX-studied companies | Dedicated community program | +21% higher revenue growth vs companies without one | CMX community study, 2022 |
+| CMX-studied companies | Dedicated community program | +21% higher revenue growth vs companies without one | CMX, 2022 |
 
 The transferable pattern, not the scale: **find where your users already
 convene, enable your superfans early, and treat community as an ecosystem
@@ -461,11 +461,11 @@ the scores, and they are the numbers that survive a budget review.
   enablement.
 - [Digital Native: How Notion used community to scale to 20M+ users](https://www.digitalnative.tech/p/how-notion-used-community-to-scale)
  : the ambassador and superfan mechanics.
-- [CMX Community Industry Report, 2025](https://www.cmxhub.com/community-industry-report) : 
+- [CMX, 2025](https://www.cmxhub.com/community-industry-report) : 
   only 26% of community teams saw budget increases in 2025, while 14% of
   communities now exceed 100,000 members (up from 9% in 2023), and ~1/3 cite
   leadership skepticism or ROI as a top challenge.
-- [CMX community study, 2022](https://www.getmonetizely.com/articles/how-to-measure-community-led-growth-metrics-a-guide-for-saas-executives) : 
+- [CMX, 2022](https://www.getmonetizely.com/articles/how-to-measure-community-led-growth-metrics-a-guide-for-saas-executives) : 
   companies with dedicated community programs saw +21% higher revenue
   growth.
 - [NN/g (Jakob Nielsen), Participation Inequality](https://www.nngroup.com/articles/participation-inequality/) : 

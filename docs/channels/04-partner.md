@@ -38,9 +38,7 @@ the motion is contributing and not just occupying time.
 Context for what "healthy" means in the wild:
 
 - The **category median** for partner-sourced revenue in B2B SaaS sits at
-  **24%**, and **top-quartile companies exceed 40%** ([SaaS
-  Mag](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/),
-  2026).
+  **24%**, and **top-quartile companies exceed 40%** ([SaaS Mag](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/), 2026).
 - **Mid-market and enterprise companies report 35% of new pipeline is
   partner-influenced or sourced** ([PartnerStack Research Lab,
   2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships)).

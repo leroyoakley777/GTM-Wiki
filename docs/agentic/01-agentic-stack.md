@@ -20,7 +20,7 @@ job well and passes structured output to the next.
 Think of it as the difference between buying one AI SDR and building an
 engine. An AI SDR is a single tool. The agentic stack is the system that
 tool sits inside. Buyers keep conflating the two, and it costs them
-pipeline. [Smartlead's 2026 comparison of AI SDR tools](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)
+pipeline. [Smartlead](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales)
 separates them cleanly: autonomous AI SDRs, AI assistants that augment a
 human, and AI prospecting tools that only handle data. Most working
 stacks use a mix of all three. None of them, on their own, is the stack.
@@ -57,7 +57,7 @@ capital decision to trade a variable labor line for a fixed tooling line
 real production infrastructure, not a toy.
 
 But the reason it matters is speed of iteration, not the cost.
-[Clay's outbound automation writeup](https://www.clay.com/blog/outbound-sales-automation)
+[Clay](https://www.clay.com/blog/outbound-sales-automation)
 makes the point: the best teams treat GTM as an engineering system
 built on **data, orchestration, execution, and agents**. When every step
 from list-build to follow-up is code, you can test a new message, a new
@@ -82,7 +82,7 @@ and the named person with a verified contact. The output is a row that
 carries *fit* and *reach*. Clay is the tool most technical teams reach
 for here because it runs waterfall enrichment across a hundred-plus
 providers and applies AI row-by-row. Apollo is the other common source
-for raw lists to refine in Clay. [Instantly's AI SDR roundup](https://instantly.ai/blog/best-ai-sdr-tools-outbound-b2b-sales-2026/)
+for raw lists to refine in Clay. [Instantly](https://instantly.ai/blog/best-ai-sdr-tools-outbound-b2b-sales-2026/)
 describes the exact modern pattern: Clay sources contacts, enriches with
 intent signals, and pushes them into a sequence. Data quality is the
 floor of the whole stack. Garbage rows produce garbage messages no

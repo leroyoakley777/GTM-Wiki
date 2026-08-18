@@ -107,13 +107,13 @@ Segmentation is not a marketing exercise. It is the precondition for every other
 
 ## Sources
 
-- [Hey Sid, B2B Market Segmentation: A Practical Framework 2026](https://www.heysid.com/resources/b2b-market-segmentation-a-practical-framework): four layers, 95-5 rule.
+- [Hey Sid, 2026](https://www.heysid.com/resources/b2b-market-segmentation-a-practical-framework): four layers, 95-5 rule.
 - [Demandbase, What is B2B Market Segmentation?](https://www.demandbase.com/faq/b2b-market-segmentation-guide/): five methods.
 - [ZoomInfo, B2B Customer Segmentation: The Complete Guide](https://pipeline.zoominfo.com/marketing/customer-segmentation): tiering table, failure modes.
 - [McKinsey, Next in Personalization](https://www.nexoristech.com/insights/ai-personalization-roi): 10–15% revenue lift, 10–30% ROI.
 - [Walnut, Interactive Demos & B2B Conversion Rates 2026](https://www.walnut.io/blog/product-demos/interactive-demos-conversion-rates-b2b-2026-data/): +30–45% meeting-to-close.
 - [Right Left Agency, Ideal Customer Profile for B2B SaaS](https://rightleftagency.com/blog/ideal-customer-profile/): 68% win-rate claim.
-- [HG Insights, TAM, SAM, SOM: The Complete Guide to Market Sizing](https://hginsights.com/blog/tam-sam-som-the-complete-guide-to-market-sizing/): 5–15% SOM.
+- [HG Insights, 2026](https://hginsights.com/blog/tam-sam-som-the-complete-guide-to-market-sizing/): 5–15% SOM.
 - [Antler, TAM, SAM & SOM](https://www.antler.co/blog/tam-sam-som): how to calculate market size.
 - [Salesforce, TAM, SAM, SOM: Made Simple](https://www.salesforce.com/blog/small-business/tam-sam-som/): sizing reference.
 

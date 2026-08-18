@@ -1,50 +1,46 @@
 # Project: GTM Wiki
 
-Open-source Go-to-Market resource. Purpose: demonstrate Mitch's
-expertise, serve as a networking tool, and be genuinely helpful.
-Quality bar: the Hermes Bible (hermesbible.com).
+Open-source Go-to-Market knowledge base. Owner: Leroy Oakley
+(leroy.oakley777@gmail.com). Mission: the best place to learn GTM of all
+time, and the best looking too — quality on a living topic graph, not a page
+count. Quality bar is the Gold Ship Standard (STANDARDS/GOLD_SHIP_STANDARD.md),
+enforced by machine gates (see Build Commands).
 
 ## Stack
-- Framework: Docusaurus 2 (classic preset)
-- Hosting: Vercel (planned, not yet connected)
-- Domain: gtmwiki.com (planned)
-- GitHub: github.com/opengtm/gtm-wiki (planned, no remote set yet)
+- Framework: Docusaurus 3 (classic preset)
+- Hosting: Vercel (connected; auto-deploys on push to main)
+- Domain: gtmwiki.com
+- GitHub: github.com/leroyoakley777/GTM-Wiki
 
-## Current State (June 22 2026)
-- Scaffold only: 4 doc pages exist
-  - docs/intro.md (9 lines)
-  - docs/frameworks/00-gtm-strategy-framework.md (31 lines)
-  - docs/frameworks/01-gtm-channels-bullseye.md (31 lines)
-  - docs/roles/founders/index.md (3 lines — stub)
-- No git remote configured
-- No Vercel deployment
-- Not built or tested locally yet
+## Current State (2026-08-18)
+- 62 doc pages live across foundations/, flows/, playbooks/, channels/,
+  data/, agentic/, roles/, case-studies/.
+- Machine gates: L1 depth (check-depth.mjs), L2 lint (lint.mjs, hard deploy
+  gate), L3 deploy gate (lint runs before build on Vercel), L4 True source
+  gate (validate-sources.mjs --strict, wired into the Vercel build command so
+  an unregistered citation fails the build).
+- Source registry: RESEARCH/gtm-wiki/SOURCES_REGISTRY.md (Bumble owns).
 
 ## Structure
-docs/
-├── intro.md
-├── frameworks/
-│   ├── 00-gtm-strategy-framework.md
-│   └── 01-gtm-channels-bullseye.md
-├── roles/
-│   ├── founders/
-│   ├── sdrs/
-│   ├── aes/
-│   ├── revops/
-│   └── investors/
-└── playbooks/
+docs/  (all published pages; cross-link with the unprefixed slug)
+RESEARCH/gtm-wiki/  (benchmarks, coverage map, source registry — internal)
+STANDARDS/  (Gold Ship Standard, team meta — NEVER in docs/)
 
 ## Build Commands
 - Dev: `npm start`
+- Full gate: `npm run check` (lint + depth + sources)
+- Lint: `npm run lint` (hard gate; also runs pre-deploy via vercel.json)
+- Depth: `npm run check:depth` (warn-only; --strict promotes to hard gate)
+- Sources: `npm run check:sources` (warn-only; `validate-sources.mjs --strict` is the hard gate, wired into vercel.json buildCommand)
 - Build: `npm run build`
-- Deploy: push to main (Vercel auto-deploy, once connected)
+- Pre-commit hooks: `npm run setup:hooks`
 
 ## Conventions
-- Every page: frontmatter with sidebar_position
-- Frameworks numbered (00-, 01-, etc.)
-- Roles have index.md per subdirectory
-- Cross-reference between pages with relative links
-- First-principles approach, not tactic copy-paste
+- Every page: frontmatter with sidebar_position + status.
+- Frameworks/flows numbered (00-, 01-, etc.).
+- Cross-reference between pages with relative links, unprefixed slug.
+- First-principles approach, not tactic copy-paste.
+- Every stat: named source + "as of" date, registered in SOURCES_REGISTRY.md.
 
 ## Known Build Traps (both have broken builds before)
 - **NN-prefix / slug stripping.** Docusaurus strips the leading `NN-` from a
@@ -57,11 +53,11 @@ docs/
   `<digit` phrasing.
 
 ## Priority
-- Connect git remote + GitHub repo
-- Deploy to Vercel
-- Expand content depth (current pages are thin)
-- Make progress visible to Mitch at all times
+- Keep the True source gate clean; zero unregistered citations at all times.
+- Expand the topic graph with depth-gated, source-verified pages.
+- No carve-outs: team meta never enters docs/ (lint meta-leak guard enforces).
 
 ## Never
-- Publish without Mitch reviewing
-- Use placeholder content — every page should have real substance
+- Publish a page that fails lint or the source True gate.
+- Put team/internal meta in docs/ (lives in STANDARDS/ or RESEARCH/).
+- Cite a source not in SOURCES_REGISTRY.md.
