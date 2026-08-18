@@ -179,7 +179,7 @@ agents can read data, make decisions, and write outcomes across multiple
 platforms without manual intervention.
 
 Modern orchestration uses MCP (Model Context Protocol) and tools like
-n8n to create a unified connectivity layer agents can navigate like a
+n8n to create a unified connectivity layer agents can use like a
 single workspace. Traditional integrations connect pairs of tools. MCP
 connects the whole system.
 
@@ -262,7 +262,7 @@ Once the first lane is stable and measured, add the feedback loop that
 lets the agent learn from outcomes, then expand to the next lane. Each
 new lane repeats the five stages.
 
-For the technical structure of how agents stack into a harness, see
+For the technical structure of how agents stack into a use, see
 [01: The Agentic Stack](./01-agentic-stack.md). For the deeper question
 of what to automate and what to keep human, see
 [06: Agent vs Human Workflows](./agent-vs-human-workflows).
@@ -271,7 +271,7 @@ of what to automate and what to keep human, see
 
 ## What agents do today
 
-The tooling landscape has moved fast. These are the current patterns,
+The tooling market has moved fast. These are the current patterns,
 not endorsements:
 
 - **Autonomous AI SDRs.** Tools like Landbase and 11x run outbound
@@ -337,4 +337,4 @@ report to a governance framework you control.
 ---
 
 *Next: [01: The Agentic Stack](./01-agentic-stack.md): the five-layer
-harness you build on top of this model.*
+use you build on top of this model.*

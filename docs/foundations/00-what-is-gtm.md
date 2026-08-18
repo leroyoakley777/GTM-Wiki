@@ -147,7 +147,7 @@ The build sequence is seven steps. Do them in order.
 
 **Treating GTM as a launch event.** A GTM strategy is a living operating system with a named owner and a review cadence. A launch deck is a one-time artifact. The market does not stop after launch day.
 
-**Siloing by function.** Marketing builds the launch, throws it over the wall to sales, and customer success inherits the consequences. That sequence cannot serve a modern buying committee. Cross-functional ownership is the single highest-leverage fix in B2B GTM.
+**Siloing by function.** Marketing builds the launch, throws it over the wall to sales, and customer success inherits the consequences. That sequence cannot serve a modern buying committee. Cross-functional ownership is the single highest-use fix in B2B GTM.
 
 **ICP = firmographics only.** A firmographic filter produces false positives. A signal-driven ICP with behavioral and trigger layers converts. Validate with buyer conversations before spending on channels.
 
@@ -166,7 +166,7 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 - **[Playbooks](../playbooks/index.md)**: step-by-step execution: standing up outbound from zero, building a content engine, designing a sales process, onboarding, churn reduction, pricing tests, enablement, territory design, comp, forecasting, deal desk
 - **[Agentic GTM](../agentic/index.md)**: AI-powered GTM: the agentic stack, AI outbound, AI inbound, AI RevOps, guardrails, copilots, the GTM OS architecture
 - **[Roles](../roles/index.md)**: role-specific guidance for founders, SDRs, AEs, RevOps, heads of GTM, and more
-- **[Tools](../tools/index.md)**: the GTM tools landscape: CRM, outbound, analytics, conversation intelligence, RevOps, agentic tools
+- **[Tools](../tools/index.md)**: the GTM tools market: CRM, outbound, analytics, conversation intelligence, RevOps, agentic tools
 - **[Data](../data/index.md)**: benchmarks: conversion rates, SaaS metrics, outbound response rates, sales cycle lengths
 
 ## Further Reading

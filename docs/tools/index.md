@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
 title: Tools
-description: "The GTM tools landscape and how tools map to motion."
+description: "The GTM tools market and how tools map to motion."
 ---
 
 # Tools
 
-The **tools** section maps the GTM software landscape: CRMs, outbound platforms, analytics stacks, conversation intelligence, RevOps tools, and the emerging agentic GTM tooling category.
+The **tools** section maps the GTM software market: CRMs, outbound platforms, analytics stacks, conversation intelligence, RevOps tools, and the emerging agentic GTM tooling category.
 
-A tool is only leverage if it fits the motion. The map below is organized by *job to be done*, not by vendor; pick by what the tool must do, then evaluate products against that.
+A tool is only use if it fits the motion. The map below organized by *job to be done*, not by vendor; pick by what the tool must do, then evaluate products against that.
 
 ## CRM: the system of record
 

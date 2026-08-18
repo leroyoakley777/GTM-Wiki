@@ -67,7 +67,7 @@ companies, embedded-finance players, and benefits/insurance platforms
 
 The tell: a Head of Platforms is measured on **revenue they don't directly
 touch**. They win when a partner's engineers ship an integration and *that
-partner's customers* start generating volume. It is the most leveraged,
+partner's customers* start generating volume. It is the most used,
 and most indirect, seat in the revenue org.
 
 ---
@@ -95,7 +95,7 @@ one person. That scarcity is exactly why the role commands its comp.
 
 ### 4. Ecosystem strategy
 - Maps the platform's category: who *should* build on us and why
-- Prioritizes partners by leverage, not by inbound noise
+- Prioritizes partners by use, not by inbound noise
 - Builds the flywheel: reference partners → credibility → easier next partners
 
 ---
@@ -112,7 +112,7 @@ them to "go get partnerships." Here is the sequence that works.
   what "activated partner" means, what the leading indicators are.
 
 **Phase 2: Instrument & templatize (Months 6–12)**
-- Build the partner scoring model (fit × leverage × technical readiness).
+- Build the partner scoring model (fit × use × technical readiness).
 - Stand up the internal operating cadence with Product/Eng.
 - Define the metrics that predict downstream revenue *before* it lands.
 
@@ -152,7 +152,7 @@ If you are hiring for this role, look for:
 
 - Has **carried a number** *and* **shipped or scoped product** (the rare hybrid)
 - Comfortable in a room with engineers, and earns technical credibility fast
-- Thinks in **ecosystems and leverage**, not individual deals
+- Thinks in **ecosystems and use**, not individual deals
 - Has built something **0→1** before (a team, a motion, or a company)
 - Low ego about indirect credit: wins through others
 

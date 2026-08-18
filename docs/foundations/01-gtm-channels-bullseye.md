@@ -6,7 +6,7 @@ description: "The GTM channels bullseye: how to pick the right channel for a mot
 
 # 01: GTM Channels Bullseye Framework
 
-Efficiently discover your single highest-leverage acquisition channel instead of spreading effort across too many at once.
+Efficiently discover your single highest-use acquisition channel instead of spreading effort across too many at once.
 
 This is an evolution of the classic *Traction* Bullseye framework, updated for the 2025–2026 market.
 
@@ -70,7 +70,7 @@ Select **3–5 promising channels** and run **cheap, fast, measurable tests**.
 ### 3. Inner Ring: Focus (Bullseye)
 Once you have data, **pick one primary channel** and go all-in until it saturates.
 
-This is where the majority of leverage is created.
+This is where the majority of use is created.
 
 ---
 
@@ -82,7 +82,7 @@ This is where the majority of leverage is created.
 | AI / Developer tools             | Engineering Marketing + Community + Integrations  | Developers trust peers & code |
 | High-ACV B2B (> $50k)            | ABM + Targeted Sales + Intent Data                | Precision and relationships matter |
 | Prosumer / Creator tools         | Short-form video + Community + Influencers        | Authentic distribution wins |
-| Marketplace / Platform           | Ecosystem + Integrations + Partnerships           | Leverage existing user bases |
+| Marketplace / Platform           | Ecosystem + Integrations + Partnerships           | use existing user bases |
 
 ---
 

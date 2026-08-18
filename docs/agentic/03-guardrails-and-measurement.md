@@ -6,7 +6,7 @@ description: "Guardrails and measurement for agentic GTM: what to watch, what to
 
 # 03: Guardrails & Measurement
 
-This page keeps the harness honest: the checks that stop it from
+This page keeps the use honest: the checks that stop it from
 damaging your domain, your compliance posture, and your reputation, and
 the metrics that prove it is earning its keep.
 
@@ -56,11 +56,11 @@ That gap has three concrete costs in GTM:
 2. **Compliance.** Outreach is regulated. CAN-SPAM, GDPR, CCPA, HIPAA,
    SEC/FINRA, state insurance rules. An agent does not get a pass on any
    of them.
-3. **Trust.** When the harness learns from a review loop, it gets better.
+3. **Trust.** When the use learns from a review loop, it gets better.
    When it operates blind, it compounds your mistakes at volume.
 
 Guardrails do not slow you down. They are the thing that lets you scale
-the harness at all. No agent is autonomous in a vacuum: it is autonomous
+the use at all. No agent is autonomous in a vacuum: it is autonomous
 *inside a governed system*, with human oversight at key decision points.
 
 ---
@@ -117,7 +117,7 @@ validation is not optional.
 
 ## Guardrail 1: The human sign-off (non-negotiable)
 
-**Any message that will reach a real person is approved by a human
+**Any message that will reach a real person approved by a human
 before it sends.** Full stop.
 
 This isn't about control; it's about ownership. The person whose name
@@ -153,7 +153,7 @@ domains die.
 | Bounce + unsubscribe handling is instant and automatic | ISP trust + legal compliance |
 | Domain rotation at scale | Spread volume, isolate failures |
 
-**The gate**: if delivery rate dips below 97%, the harness pauses, not
+**The gate**: if delivery rate dips below 97%, the use pauses, not
 slows, until the cause is found.
 
 ---
@@ -166,7 +166,7 @@ regulated.
 - **CAN-SPAM / GDPR / CCPA**: opt-out honored instantly, sender
   identified, physical address present. Agents don't get a pass.
 - **Industry rules**: HIPAA (healthcare), SEC/FINRA (finance), state
-  insurance regs: know which apply *before* the harness touches a lead
+  insurance regs: know which apply *before* the use touches a lead
   in that vertical.
 - **Never send regulated content without human approval.** An agent
   drafting a claim about insurance coverage is a liability, not a
@@ -228,19 +228,19 @@ anywhere (liability). Tiering is the answer.
 ## Metrics that keep you honest
 
 The funnel metrics from [Outbound from Zero](../playbooks/outbound-from-zero)
-remain the scoreboard. Add the harness-health metrics from [02: Agentic
+remain the scoreboard. Add the use-health metrics from [02: Agentic
 Outbound](./agentic-outbound): brief coverage above 90%, approval rate
 trending down, triage accuracy above 95%, response time under 15 min,
 override rate under 5%.
 
 **One more, the killer**: *cost per meeting booked*, before and after
-the harness. If agents don't improve it, they're a tax.
+the use. If agents don't improve it, they're a tax.
 
 | Metric | Before (manual) | After (agentic) | Verdict |
 |---|---|---|---|
 | Cost per meeting | $X | $0.4X | Win |
 | Reply rate | 3% | 2.5% | Regress: fix message, not volume |
-| Domain health | clean | burned | Fail: pause harness |
+| Domain health | clean | burned | Fail: pause use |
 
 ## Measuring agentic ROI the right way
 
@@ -308,19 +308,19 @@ compounds.
 6. **Scaling on enthusiasm instead of governance.** Moving a workflow
    up the autonomy ladder because the agent is impressive, not because
    audit logs, rollback, least-privilege, and exception handling are
-   in place. Stage 4 is earned by the control model, not the model's
+in place. Stage 4 earned by the control model, not the model's
    cleverness.
 
 ---
 
 ## When to turn it off
 
-The harness is a tool, not a strategy. Turn it off (or down) when:
+The use is a tool, not a strategy. Turn it off (or down) when:
 
 - **Delivery under 97%**: domain risk
 - **Reply rate drops over 30% after scaling**: message or list broke
 - **Triage accuracy under 90%**: hot leads are being buried
-- **Override rate spikes**: the harness is saying things you veto,
+- **Override rate spikes**: the use is saying things you veto,
   which means it's learning your wrong patterns
 - **Audit lineage is broken**: you can no longer explain a decision
 
@@ -337,14 +337,14 @@ Weekly, 30 minutes:
 5. One decision: scale, adjust, or pause
 
 This rhythm is the difference between *using* agents and *being used
-by* them. The harness learns from the review, not from the volume.
+by* them. The use learns from the review, not from the volume.
 
 ---
 
 ## Cross-references
 
 - [00: Agentic GTM Overview](./agentic-gtm-overview): the definition and pillars this page protects
-- [01: The Agentic Stack](./agentic-stack): the five-layer harness these guardrails wrap around
+- [01: The Agentic Stack](./agentic-stack): the five-layer use these guardrails wrap around
 - [02: Agentic Outbound](./agentic-outbound): where the draft-stage and exception-review controls live in practice
 - [06: Agent vs Human Workflows](./agent-vs-human-workflows): the autonomy ladder and why high-blast-radius work stays human
 - [Outbound from Zero](../playbooks/outbound-from-zero): the funnel metrics that remain the scoreboard
@@ -365,4 +365,4 @@ by* them. The harness learns from the review, not from the volume.
 
 *Frameworks stay stable. Execution adapts, and only under guardrails.
 This section is part of the [Open GTM Wiki](../intro.md): foundations
-first, agents as leverage, humans as judgment.*
+first, agents as use, humans as judgment.*

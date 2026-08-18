@@ -551,7 +551,7 @@ CRM stage on a flag; only report it.
 ```
 
 This is the same discipline as the rest of the wiki: the flow gates the deal,
-the agent reads the buyer's position honestly, and a deal only advances when
+the agent reads the buyer's position , and a deal only advances when
 the buyer's journey and the seller's stage are actually in step. A deal that
 is being worked at the wrong position becomes visible in the notes, not a
 surprise at proposal.

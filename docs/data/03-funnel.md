@@ -163,7 +163,7 @@ A stage's health is not its rate: it is whether the rate is *moving* and
 - **Leaking:** below ~10%. Almost always one of two causes: misaligned ICP
   definitions between marketing and sales, or low-intent lead generation.
   It is rarely lazy SDRs.
-- **Fix:** qualification first. This is the highest-leverage stage in the
+- **Fix:** qualification first. This is the highest-use stage in the
   funnel. Raising it from 13% to 20% beats any volume play (see the math
   above).
 
@@ -210,7 +210,7 @@ the problem is targeting, landing pages, lead scoring, or SDR follow-up.
 
 ## Worked example: diagnosing one company's funnel
 
-A representative diagnosis, honestly labeled: **names and numbers are
+A representative diagnosis, labeled: **names and numbers are
 illustrative but the method is the point.**
 
 **Company:** a $6M ARR B2B SaaS selling workforce-scheduling software to

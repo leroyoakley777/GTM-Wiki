@@ -7,7 +7,7 @@ description: "How to run outbound with agents end to end, from list to booked me
 # 02: Agentic Outbound
 
 Run [Outbound from Zero](../playbooks/outbound-from-zero.md) with an
-agentic harness: same acceptance gates, same funnel metrics,
+agentic use: same acceptance gates, same funnel metrics,
 drastically faster loops.
 
 The existing
@@ -54,7 +54,7 @@ is the model that wins. It is the model this page assumes.
 Gartner gives the same verdict: by 2028 AI agents will outnumber
 sellers 10x, yet fewer than 40% of sellers will report the agents
 improved their productivity, and over 40% of agentic AI projects will
-be cancelled by the end of 2027 ([Gartner, via Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
+cancelled by the end of 2027 ([Gartner, via Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
 The tools that survive will be the ones that lift the human, not
 replace the human.
 
@@ -71,7 +71,7 @@ Cost per lead drops from **$262 to $39**, an 85% reduction
 A single AI-augmented SDR handles **1,000+ contacts a day vs. 50–80 for
 a manual rep** ([SuperAGI](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/)).
 
-The productivity math: an SDR empowered with AI reaches **3x more
+The productivity math: an SDR enableed with AI reaches **3x more
 prospects** with tailored messages than they could by hand
 ([Smartlead, via LevelUpLeads](https://levelupleads.io/blog/cold-email-benchmarks-2025-key-stats-every-marketer-should-know/)).
 
@@ -94,7 +94,7 @@ to join that 5% at scale. That is the whole opportunity.
 ## Framework
 
 Agentic outbound changes four layers of the outbound motion. The
-funnel stays identical. The leverage changes.
+funnel stays identical. The use changes.
 
 | Layer | Manual (before) | Agentic (now) | What stays |
 |---|---|---|---|
@@ -113,7 +113,7 @@ The framework is three stages, in order:
 1. **Prove the message**: small list, high-touch, all human judgment.
    Find the offer that gets replies. Never automate a message you have
    not proven.
-2. **Automate the leverage**: agents draft, enrich, and route at scale.
+2. **Automate the use**: agents draft, enrich, and route at scale.
    Humans approve the pattern, not every keystroke.
 3. **Guard the quality bar**: brief coverage, triage accuracy, and
    approval rate are non-negotiable metrics. If they slip, the loop is
@@ -161,7 +161,7 @@ next week about [specific issue]") beats generic "let's talk"
 What agents add:
 
 - **Variant generation**: draft 5 versions of each email from the
-  brief. You pick the voice. The harness learns your pick.
+  brief. You pick the voice. The use learns your pick.
 - **Personalization at scale**: the research brief fills the specific
   line, e.g. "I saw [company] announced [trigger]", without you writing it
   500 times. This is what takes reply rates from 3–5% to 15–18%
@@ -172,7 +172,7 @@ What agents add:
   ([Amplemarket](https://www.amplemarket.com/blog/best-ai-sales-agents)).
 
 **The gate stays**: every variant is human-approved before the first
-send. After 300+ sends per variant, the harness can carry the proven
+send. After 300+ sends per variant, the use can carry the proven
 pattern with spot-check approval. Skip the slide too early and you burn
 a message before it is proven.
 
@@ -212,7 +212,7 @@ hold with AI in the loop. AI-personalized campaigns typically land
 **3–8% reply rates**, with 5% as the baseline to beat
 ([Instantly](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
 
-Add these harness-health metrics:
+Add these use-health metrics:
 
 | Metric | Healthy range | What it tells you |
 |---|---|---|
@@ -220,7 +220,7 @@ Add these harness-health metrics:
 | Human approval rate | declining toward 20% | Trust is building in the compose layer |
 | Triage accuracy | >95% correct routing | The loop won't bury hot leads |
 | Time-to-first-response | under 15 min for hot | The loop converts replies into meetings |
-| Human-in-loop override rate | under 5% | The harness isn't saying things you'd veto |
+| Human-in-loop override rate | under 5% | The use isn't saying things you'd veto |
 
 Track meetings booked and pipeline generated, **not emails sent**
 ([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide)). Sends
@@ -239,7 +239,7 @@ you debrief what won, what converted, what killed.
 
 ## Common mistakes (agentic edition)
 
-- **Scaling a broken message**. The harness sends 10x faster, so a
+- **Scaling a broken message**. The use sends 10x faster, so a
   weak offer dies 10x faster. Prove the message first. This is the #1
   killer and it is why 50–70% of AI SDR deployments churn
   ([UserGems, via Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide)).
@@ -289,6 +289,6 @@ you debrief what won, what converted, what killed.
 ---
 
 *Synthesized from first-hand 0→1 outbound builds (Salesloft, Gladly,
-Apollo) plus agent-harness work 2025–2026 and the 2026 AI SDR market
-data cited above. The motion hasn't changed. The leverage
+Apollo) plus agent-use work 2025–2026 and the 2026 AI SDR market
+data cited above. The motion hasn't changed. The use
 has. Next: [03: Guardrails & Measurement](./03-guardrails-and-measurement.md).*

@@ -20,7 +20,7 @@ The frameworks here (GTM Strategy, Channels Bullseye) are durable: they
 were true in 2015 and still hold in 2035. The *playbooks* show what to
 do against a specific situation. The **Agentic** section is the execution
 layer for the time we're in: how to run those same playbooks with agents,
-harnesses, and automation, where the leverage is, and where the
+harnesses, and automation, where the use is, and where the
 guardrails must stay.
 
 Every page ships the real artifact, not a summary of one: the copy, the

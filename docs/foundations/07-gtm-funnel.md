@@ -62,7 +62,7 @@ The prospect realizes they have a problem and discovers that solutions exist. Th
 
 **Metrics**: Traffic, new users, branded search growth, share of voice, time on page, content engagement rate. Direct revenue attribution is usually impossible at this stage.
 
-**Conversion benchmark**: The TOFU-to-MQL conversion rate is estimated at roughly 4.6% for broad-awareness content. This is not a target to hit. It is a signal that TOFU traffic is inherently unqualified and you should not be surprised by low conversion rates here.
+**Conversion benchmark**: The TOFU-to-MQL conversion rate is estimated at roughly 4.6% for broad-awareness content. This is not a target to hit. It is a signal that TOFU traffic is inherently unqualified and you should not surprised by low conversion rates here.
 
 ### 2. Consideration (MOFU)
 
@@ -90,7 +90,7 @@ The prospect is ready to buy but needs final validation. They are evaluating pri
 
 **Metrics**: SQL-to-opportunity conversion rate, opportunity-to-close rate, sales cycle length, win rate, average deal size, pipeline coverage ratio.
 
-**Key risk**: BOFU is where most of the leverage is. A small improvement in win rate or sales cycle length compounds across every deal. Yet most teams underinvest here because it requires sales enablement materials, reference programs, and tight sales-marketing coordination: not just more blog posts.
+**Key risk**: BOFU is where most of the use is. A small improvement in win rate or sales cycle length compounds across every deal. Yet most teams underinvest here because it requires sales enablement materials, reference programs, and tight sales-marketing coordination: not just more blog posts.
 
 ### 4. Land the Deal
 

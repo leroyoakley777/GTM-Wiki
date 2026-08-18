@@ -8,7 +8,7 @@ description: "Documented GTM outcomes grouped by channel: proof of what's possib
 
 The wiki's benchmarks tell you what's *typical*. These case studies prove what's *possible with intent*: real companies, documented outcomes, named sources, no folklore. Read a case to see a motion can win. Read its benchmark page to see how far above median that is.
 
-Each case is grouped by the [channel](../channels/) it proves, so you can go from "this channel works" to "here's who made it work, with the number to back it."
+Each case grouped by the [channel](../channels/) it proves, so you can go from "this channel works" to "here's who made it work, with the number to back it."
 
 > **A fair warning before you read:** these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. Treat them as proof of what's *achievable with intent*, not a promise of what any team will hit. Company-specific conditions (a category-defining product, category-defining timing) matter. The tactics transfer. The exact multiples may not.
 

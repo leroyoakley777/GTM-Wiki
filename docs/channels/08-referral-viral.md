@@ -201,7 +201,7 @@ Cycle time decides how many compounding cycles you get per quarter. Shorter wins
 
 Compression moves:
 
-- Prompt the share at the moment of peak value, not at signup. The value moment is when the user can honestly recommend.
+- Prompt the share at the moment of peak value, not at signup. The value moment is when the user can recommend.
 - Make the invite one tap. Every field between the user and the share cuts the share rate.
 - Deliver the reward fast enough that the referrer sees value and shares again. Defer to conversion, but settle promptly once converted.
 - Re-prompt at a cadence. A monthly active user gets a share prompt every month, not once.

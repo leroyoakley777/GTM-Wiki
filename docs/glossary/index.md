@@ -14,7 +14,7 @@ Terms are grouped by theme. Each entry is a first-principles definition, not a c
 
 - **ICP: Ideal Customer Profile.** The description of the account type that gets the most value from your product and is the most profitable to serve. ICP is a company-level profile (industry, size, region, tech stack, revenue band), distinct from a persona, which is person-level.
 - **Persona.** The individual buyer or user within an ICP account, e.g. VP Sales, RevOps lead, SDR. A product often has multiple personas: user, champion, economic buyer, technical buyer.
-- **Champion.** An internal advocate who believes in your product and sells it on your behalf inside their org. Not the same as a buyer: a champion helps you navigate and close.
+- **Champion.** An internal advocate who believes in your product and sells it on your behalf inside their org. Not the same as a buyer: a champion helps you use and close.
 - **Buying committee.** The group of stakeholders who must sign off before a deal closes. Committees have grown meaningfully since 2020 (see [sales-cycle-benchmarks](../data/06-sales-cycle-benchmarks.md)). More people, more sign-off, longer cycles.
 - **Economic buyer.** The person with budget authority: the one who can say yes to the money.
 - **Technical buyer / evaluator.** The person who assesses whether your product works technically, often security, IT, or engineering.
@@ -52,7 +52,7 @@ Terms are grouped by theme. Each entry is a first-principles definition, not a c
 
 ## Operations & Infrastructure
 
-- **RevOps: Revenue Operations.** The function that unifies marketing, sales, and customer-success operations (data, process, tooling, and compensation) so the revenue engine runs as one system rather than three silos. Small team, outsized leverage (see [revenue-operations](../foundations/06-revenue-operations.md)).
+- **RevOps: Revenue Operations.** The function that unifies marketing, sales, and customer-success operations (data, process, tooling, and compensation) so the revenue engine runs as one system rather than three silos. Small team, outsized use (see [revenue-operations](../foundations/06-revenue-operations.md)).
 - **Tech stack.** The set of tools a GTM org runs on: CRM, outbound, analytics, conversation intelligence, RevOps (see [tools](../tools/index.md)).
 - **CRM: Customer Relationship Management.** The system of record for accounts, contacts, opportunities, and pipeline. The source of truth for what's happening in the funnel.
 - **Conversation intelligence.** Tooling that records and analyzes sales calls: talk-to-listen ratio, objection handling, coaching signals.

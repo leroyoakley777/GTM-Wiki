@@ -174,7 +174,7 @@ A click buys a visitor, not a lead. The landing page decides whether the visitor
 
 **Message match.** The ad promise and the landing page headline must match. A visitor who clicks a discount ad and lands on a page that says nothing about price leaves. Mismatch is the most common cause of a paid CVR far below the platform average of 7.52% (WordStream 2025).
 
-**One offer per page.** A page asking the visitor to do three things converts on none. Name one action and remove competing links.
+**One offer per page.** A page asking the visitor to do several things converts on none. Name one action and remove competing links.
 
 **Speed and clarity.** The offer, the value, and the next step must be visible above the fold. Paid visitors are impatient because they were not looking for you. They clicked an ad.
 
@@ -208,7 +208,7 @@ Holdouts are the only way to know what paid truly causes. Design one before you 
 2. **Split the audience.** One region runs the channel at normal spend. The control region runs it at zero or 50%. Keep everything else constant.
 3. **Pick the outcome window.** Measure new revenue and new customers over a full sales cycle, not a week. Paid for enterprise sales needs months to show effect.
 4. **Compare the delta.** The revenue difference between the treatment and control regions is the channel's true contribution.
-5. **Read the result honestly.** If the control region loses no revenue, the channel was cannibalizing organic or retargeting. Pause it and spend elsewhere.
+5. **Read the result .** If the control region loses no revenue, the channel was cannibalizing organic or retargeting. Pause it and spend elsewhere.
 
 Run this on a regular cadence, not once. Auctions and organic share both shift, and the channel's true contribution shifts with them.
 

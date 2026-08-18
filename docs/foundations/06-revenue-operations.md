@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Revenue Operations
-description: "Revenue operations as a leverage function: the model, the pipeline and forecast math, the workflows, failure modes with fixes, a worked RevOps build and cleanup, and the agentic SOP."
+description: "Revenue operations as a use function: the model, the pipeline and forecast math, the workflows, failure modes with fixes, a worked RevOps build and cleanup, and the agentic SOP."
 last-updated: 2026-08-17
 status: active
 tags: [revops, revenue-operations, foundations, forecasting, pipeline, agentic]
@@ -16,7 +16,7 @@ and handoffs into one number leadership can plan against: pipeline
 coverage, forecast accuracy, and quota attainment, with a headcount
 that stays small.
 
-RevOps is a leverage function, not a cost center. A tiny team sits on
+RevOps is a use function, not a cost center. A tiny team sits on
 process, data, and tooling and multiplies the whole seller base. The
 benchmarks that matter are the ones that show the multiplier working:
 coverage, forecast accuracy, and quota attainment. This page pairs with
@@ -47,7 +47,7 @@ Four responsibilities:
 - **Forecasting**: turn the funnel math into a number leadership can
   commit to.
 
-### Leverage model
+### use model
 
 RevOps is deliberately small relative to the seller base. The aggregate
 across 2,500 B2B software companies is roughly one RevOps person per
@@ -81,10 +81,10 @@ RevOps adoption has become mainstream, and demand is rising fast:
   **+10–20% sales productivity** from better lead quality and tooling
   ([Marketick](https://marketick.ai/), 2026, vendor source).
 
-The pattern behind these numbers: a small leveraged function that owns
+The pattern behind these numbers: a small used function that owns
 the production line for revenue. If metrics are accurate and sellers
 hit number, RevOps is working invisibly. If they are not, the
-highest-leverage fix is usually the ops layer, not more reps.
+highest-use fix is usually the ops layer, not more reps.
 
 **Read next:** [GTM Funnel](gtm-funnel) defines the funnel RevOps
 operationalizes, and [GTM Metrics](gtm-metrics) defines the numbers it
@@ -166,7 +166,7 @@ reach **80–95%**
 - Only **20%** of sales organizations forecast within 5% of
   projections. **43%** miss goal by 10% or more
   ([Xactly 2024 Sales Forecasting Benchmark
-  Report](https://www.xactlycorp.com/resources/guides/2024-sales-forecasting-benchmark-report?status=unlocked),
+  Report](https://www.xactlycorp.com/resources/guides/2024-sales-forecasting-benchmark-report?status=opened),
   2024).
 - In a January 2024 poll, less than **20%** of sales leaders rated
   their forecast accuracy "predictable"
@@ -282,7 +282,7 @@ what to do instead.
 
 ## Worked example: a RevOps build and cleanup end to end
 
-A representative build, honestly labeled: names and numbers are
+A representative build, labeled: names and numbers are
 illustrative but plausible.
 
 **Company:** a $6M ARR B2B SaaS at Series B, 30 sellers (24 AEs, 6
@@ -322,7 +322,7 @@ healthier 3.5x and rising, quota attainment climbed from 40% toward
 the 47% industry average and beyond for the process-adopting cohorts
 (SalesFit, 2025 and CSO Insights, 2019), and the founder could give the
 board a forecast backed by a model instead of a hope. One RevOps hire
-and one demand-gen marketer running the loops: a leverage function,
+and one demand-gen marketer running the loops: a use function,
 not a new cost center.
 
 ---
@@ -434,7 +434,7 @@ leadership can plan against.
 - [Forecastio, 2025](https://forecastio.ai/blog/sales-forecasting-accuracy-and-analysis)
   : forecast accuracy bands.
 - [Xactly 2024 Sales Forecasting Benchmark
-  Report](https://www.xactlycorp.com/resources/guides/2024-sales-forecasting-benchmark-report?status=unlocked)
+  Report](https://www.xactlycorp.com/resources/guides/2024-sales-forecasting-benchmark-report?status=opened)
   : forecast accuracy distribution.
 - [Challenger, 2024](https://challengerinc.com/blog/improve-sales-forecast-accuracy/)
   : leader forecast-confidence poll.

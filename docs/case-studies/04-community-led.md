@@ -18,7 +18,7 @@ This page is the case evidence. It covers what community-led growth is, a docume
 
 Community-led growth runs on a single premise: users trust other users more than they trust the vendor. When a prospect wants to know whether a tool works, they ask someone who already uses it. A community makes that conversation possible at scale, inside a venue the company controls.
 
-Three things make community distinct from every other channel on this wiki.
+several things make community distinct from every other channel on this wiki.
 
 **It compounds.** A paid channel stops working the moment the budget stops. A community keeps producing value as long as members keep helping each other. The content, the answers, and the referral relationships accumulate. Each new member makes the space more useful to the next.
 
@@ -60,7 +60,7 @@ Every number below is named and dated. Figures reported by the company or by a v
 | Stack Overflow | Peer Q&amp;A community | 24M+ questions, 35M+ answers, 22M+ registered users, 1.5M active contributors, 5B+ page views a year | Skillademia statistics roundup, updated July 2026 `(vendor source)` |
 | Stack Overflow | Peer Q&amp;A community | 11-minute average response time across the community | Skillademia statistics roundup, updated July 2026 `(vendor source)` |
 | Stack Overflow | Peer Q&amp;A under pressure from AI | New questions fell from a peak of 1.8M in 2020 to about 1.2M in 2024 | Skillademia statistics roundup, July 2026 `(vendor source)` |
-| Webflow | Community forum, showcase, templates, event | 300,000+ community members by 2025 | webflow.com/community `(vendor source)` |
+| Webflow | Community forum, show, templates, event | 300,000+ community members by 2025 | webflow.com/community `(vendor source)` |
 | Webflow | Community event | 18,000 virtual attendees at Webflow Conf in 2021 | Secondary blog summary `(vendor source)` |
 | Miro | Community, templates, enterprise advocacy | 60M+ users as of September 2023 | Contrary Research report, 2023 `(vendor source)` |
 | Hashnode | Developer blogging community | Grew from 100,000 to 1M monthly active users in one year, hosting 60,000 active blogs | BusinessWire funding announcement, August 2021 `(vendor source)` |
@@ -105,7 +105,7 @@ Stack Overflow is also the cautionary case. New questions fell from a peak of 1.
 
 The remaining cases show breadth across segments.
 
-Webflow reached 300,000+ community members by 2025 (webflow.com/community) `(vendor source)`. Its community runs on a forum, a showcase, and templates, and Webflow Conf drew 18,000 virtual attendees in 2021. The community is a design and education surface for a tool with a learning curve.
+Webflow reached 300,000+ community members by 2025 (webflow.com/community) `(vendor source)`. Its community runs on a forum, a show, and templates, and Webflow Conf drew 18,000 virtual attendees in 2021. The community is a design and education surface for a tool with a learning curve.
 
 Miro reported 60M+ users as of September 2023 (Contrary Research, 2023) `(vendor source)`. Its community and template ecosystem feed adoption for a collaboration tool where shared boards are the unit of spread.
 
@@ -179,7 +179,7 @@ Community economics are not usually visible as a single line item. The numbers c
 
 **Sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue, per its CRO (Community Inc, 2024) `(vendor source)`. That is roughly $450M a year in combined spend, against a self-service model where thousands of new customers land each quarter without a sales interaction (Community Inc, 2024). The community forum and content flywheel are load-bearing parts of that efficiency.
 
-**Support leverage.** Notion ran support for 20M users with fewer than 10 customer success people, according to its CRO (Community Inc, 2024) `(vendor source)`. The community absorbed the questions that would otherwise land on paid staff. The ratio shows how much support a well-run community can absorb.
+**Support use.** Notion ran support for 20M users with fewer than 10 customer success people, according to its CRO (Community Inc, 2024) `(vendor source)`. The community absorbed the questions that would otherwise land on paid staff. The ratio shows how much support a well-run community can absorb.
 
 **Engagement to trial and revenue.** There is no single published conversion rate from community engagement to trial that generalizes across products. The honest way to work it is to measure your own loop, using the channel page benchmarks as the target. The channel page [Community-Led](../channels/community-led) sets the anchor: active member share of 10–20% of members, question-to-answer rate above 70%, and member-initiated referral share of 30–50% of new signups. A community that hits a 40% member-initiated referral share is converting trust into acquisition at a rate a paid channel cannot match, because the CAC on a referred member is near zero.
 
@@ -195,7 +195,7 @@ Community-led growth looks different depending on who the user is and what the p
 
 **Developer and practitioner tools.** Developers help each other freely, because expertise is status. Stack Overflow reached 24M+ questions and 35M+ answers by trusting that dynamic (Skillademia, July 2026) `(vendor source)`. Hashnode grew from 100,000 to 1M monthly active users in a year by giving developers a home for their writing (BusinessWire, August 2021) `(vendor source)`. For this segment, the community is the product experience. Fast answers matter, which is why Stack Overflow's 11-minute average response time is a feature (Skillademia, July 2026) `(vendor source)`.
 
-**Consumer productivity and self-expression.** Consumer users build identity around the tool. Notion's community is decentralized across Reddit, Facebook, Discord, and in-person meetups, with 300k+ members in the subreddit alone (Community Inc, 2024) `(vendor source)`. Templates and showcases are the content engine, and members monetize their own courses and services on top. The vendor's job is to amplify, not to direct.
+**Consumer productivity and self-expression.** Consumer users build identity around the tool. Notion's community is decentralized across Reddit, Facebook, Discord, and in-person meetups, with 300k+ members in the subreddit alone (Community Inc, 2024) `(vendor source)`. Templates and shows are the content engine, and members monetize their own courses and services on top. The vendor's job is to amplify, not to direct.
 
 **B2B SaaS with a practitioner audience.** B2B communities work when there is a craft to learn and a peer network to join. Atlassian's 4.5M+ member community supports a portfolio that lands in 240,000+ businesses (Community Inc, 2024) `(vendor source)`. The community does support deflection, product feedback, and expansion advocacy inside accounts. The motion is less about virality and more about retention and upsell.
 
@@ -219,7 +219,7 @@ The documented cases also show what kills communities. Each failure has a named 
 
 **Buying membership.** Paying people to join produces an inactive crowd that dilutes signal and never refers. Notion deliberately vets ambassadors for intrinsic motivation and caps new ambassadors at 20 a month to protect quality (Community Inc, 2024) `(vendor source)`.
 
-**Being the only helper.** If every question waits on the company, the team burns out and the community never develops. The fix is to recruit and empower members who can answer. A community where members do the answering scales. A community where the vendor answers is a support ticket system with a forum skin.
+**Being the only helper.** If every question waits on the company, the team burns out and the community never develops. The fix is to recruit and enable members who can answer. A community where members do the answering scales. A community where the vendor answers is a support ticket system with a forum skin.
 
 **Over-centralizing the venue.** Forcing every member into one forum ignores where users already gather. Notion avoided this by supporting 32 decentralized groups instead of one central space (Community Inc, 2024) `(vendor source)`. The fix is to go where the audience already is and formalize that energy rather than relocate it.
 
@@ -357,7 +357,7 @@ The agent does the triage, the drafting, and the routing. The human owns tone, j
 
 Walk the loop against named bases to see how the numbers compound.
 
-**Base 1: Notion's support leverage.** Notion ran support for 20M users with fewer than 10 customer success people (Community Inc, 2024) `(vendor source)`. Assume tier-one support costs about $50,000 per head fully loaded. Ten heads is $500,000 a year. If the community deflects even a quarter of the support load, that is $125,000 a year not spent, and it scales as the user base grows without hiring linearly.
+**Base 1: Notion's support use.** Notion ran support for 20M users with fewer than 10 customer success people (Community Inc, 2024) `(vendor source)`. Assume tier-one support costs about $50,000 per head fully loaded. Ten heads is $500,000 a year. If the community deflects even a quarter of the support load, that is $125,000 a year not spent, and it scales as the user base grows without hiring linearly.
 
 **Base 2: Atlassian's sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue (Community Inc, 2024) `(vendor source)`. A typical enterprise software company spends 30–50% of revenue on sales and marketing. At $3B revenue, the difference between 15% and 35% is roughly $600M a year. Community and content are not the only reason Atlassian holds that gap, but the 4.5M+ member forum and the content flywheel are structural to the self-service model (Community Inc, 2024) `(vendor source)`.
 
@@ -407,7 +407,7 @@ What transfers is the mechanism: meet members where they are, let them help each
 
 - [Michelle Goodall: Notion community case study](https://www.michellegoodall.co.uk/insights/case-study-notion-community-strategy), September 2023. Notion's 20M users, 1M+ community members, and community-led motion. `(vendor source)`
 - [Community Inc: Community Growth at: Atlassian](https://community.inc/deep-dives/community-growth-atlassian), 2024. Atlassian's 4.5M+ member community, self-service model, sales and marketing spend, and feedback programs. `(vendor source)`
-- [Community Inc: Community Everywhere at: Notion](https://community.inc/deep-dives/community-everywhere-notion), 2024. Notion's ambassador program, decentralized groups, support leverage, and TikTok reach. `(vendor source)`
+- [Community Inc: Community Everywhere at: Notion](https://community.inc/deep-dives/community-everywhere-notion), 2024. Notion's ambassador program, decentralized groups, support use, and TikTok reach. `(vendor source)`
 - [Skillademia: Stack Overflow statistics](https://www.skillademia.com/statistics/stackoverflow-statistics), updated July 2026. Stack Overflow's questions, answers, users, response time, and question decline. `(vendor source)`
 - [webflow.com/community](https://webflow.com/community). Webflow's 300,000+ member community. `(vendor source)`
 - [Contrary Research: Miro report](https://research.contrary.com/report/miro), 2023. Miro's 60M+ users as of September 2023. `(vendor source)`

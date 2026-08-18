@@ -90,7 +90,7 @@ your one best channel first. Community-led wins when **all three** hold:
   burn out running it.
 
 Community is the **wrong** channel when none of those hold, and it fails
-fast in three specific situations:
+fast in several steps specific situations:
 
 - **A commodity product with no practitioner craft.** Nobody needs to
   discuss a product that requires no skill to use. The group becomes a
@@ -320,7 +320,7 @@ had a category-defining product and category-defining timing.
 | "We'll look dead with two people talking" | The group has no seed | Seed 3–5 genuine questions a week before you open the doors. Nobody talks into an empty room |
 | "Nobody will speak, 90-9-1 proves it" | Lurking is normal and healthy | Lurkers consume value and convert downstream. Engineer for the 1% who create, and route the 90% to trial |
 | "Community will become a support queue" | You are the only helper | Get your best customers answering. If you stay the only answerer, you built a ticket system |
-| "We can't justify the headcount" | Community is understaffed by default | Start with a founder or one operator and phase 0–1 only. Scale staff when referral share proves the value |
+| "We can't justify the headcount" | Community understaffed by default | Start with a founder or one operator and phase 0–1 only. Scale staff when referral share proves the value |
 | "How do we tie it to revenue" | Attribution is the hard part | Instrument the member-to-trial touch from day one and track community-influenced pipeline, not joins |
 | "Our product has no craft to discuss" | Community is the wrong channel | Do not force it. Pick [Inbound](../channels/inbound) or [Product-Led Growth](../channels/product-led) instead |
 | "Members keep leaving" | Value is not landing | The group is not useful independent of you. Fix the seed content and the welcome before you buy more members |

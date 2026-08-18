@@ -222,14 +222,14 @@ never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guid
 ## How to Source and Qualify Partners
 
 Recruitment is the decision about whether to bring a partner in at all. A
-bad qualification at this stage cannot be fixed by onboarding
+bad qualification at this stage cannot fixed by onboarding
 ([PartnerStandard](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method)).
 
 **The 4C qualification gate: every partner must clear all four.**
 
 1. **Customer base**: the partner's customers overlap your ICP. No shared
    customer, no deal at the end.
-2. **Credibility**: the partner's brand is trusted by the buyers you want.
+2. **Credibility**: the partner's brand trusted by the buyers you want.
    A random logo in a similar category is not credibility.
 3. **Capability**: the partner can sell, implement, or deliver
    your product. An integration partner without engineers is a wallflower.

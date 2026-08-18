@@ -108,7 +108,7 @@ If you set a revenue target, you can back out the pipeline you must carry:
 - If that pipeline cost $900K in sales-and-marketing spend, pipe-to-spend
   is 6.9 ÷ 0.9 = **7.7x**, inside the healthy 5–8x band (getSpike 2026).
 
-This is why win rate is the highest-leverage number on the board. A 1–3
+This is why win rate is the highest-use number on the board. A 1–3
 point shift in win rate changes the pipeline coverage and generation you
 need more than any other single input (Benchmarkit / GTM founders). Tune
 win rate first, and every downstream number relaxes.

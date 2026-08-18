@@ -213,7 +213,7 @@ The channel page sets the conditions for referral to win: the product gets more 
 - **No in-product reason to share.** A solo tool nobody needs to show anyone. An incentive becomes a rebate disguised as a growth channel, and you pay a CAC you could have bought directly, with worse margin and no compounding.
 - **A mediocre product.** Referrals convert when the referrer genuinely benefited. No incentive size fixes a product nobody would stake their name on.
 - **No existing word of mouth.** If customers do not already refer sometimes, the program has nothing to capture. The work is the product and the story, not program design.
-- **Low referral value per deal.** A high-ACV deal that cannot be influenced by a credit, or a consumer product where the referral converts at single digits, drains incentive budget for marginal return.
+- **Low referral value per deal.** A high-ACV deal that cannot influenced by a credit, or a consumer product where the referral converts at single digits, drains incentive budget for marginal return.
 
 When the loop has no in-product reason to exist, run a channel that matches the motion instead, outbound, inbound, or product-led, and revisit referral once the product earns mentions.
 
@@ -260,7 +260,7 @@ Track each stage against a target, and read the aggregate only after the stages.
 
 ### Worked diagnosis: one company's stalled loop
 
-A representative diagnosis, honestly labeled: the method is the point, the numbers are set bases for a hypothetical company.
+A representative diagnosis, labeled: the method is the point, the numbers are set bases for a hypothetical company.
 
 A B2B SaaS with 1,500 paying customers launched a $10/$10 referral program. After three months, referral-sourced signups were flat at 4% of monthly signups. The team pulled the funnel by stage.
 
@@ -272,7 +272,7 @@ A B2B SaaS with 1,500 paying customers launched a $10/$10 referral program. Afte
 | K (cohort) | 0.05 | Far below 1.0. The loop needs fuel |
 | CPAR | $27 | Above the $20 target because most referred signups never paid |
 
-The largest absolute loss is referral conversion at 4%, not the share rate. Invites are being sent, so the product earns mentions, but the referee has no reason to act. The referee got nothing (a one-sided incentive), and the payout gated on signup with no first-purchase hook. The fix is structural: make the reward double-sided, gate it on the first purchase, and add a first-trip-style credit (the Airbnb method) so the referee's first paid action unlocks value. That sequence attacks the stage with the largest absolute loss.
+The largest absolute loss is referral conversion at 4%, not the share rate. Invites are being sent, so the product earns mentions, but the referee has no reason to act. The referee got nothing (a one-sided incentive), and the payout gated on signup with no first-purchase hook. The fix is structural: make the reward double-sided, gate it on the first purchase, and add a first-trip-style credit (the Airbnb method) so the referee's first paid action opens value. That sequence attacks the stage with the largest absolute loss.
 
 The discipline to copy from [Funnel Benchmarks](../data/funnel): diagnose the largest absolute drop in the referral funnel, not the most striking percentage. A 90% drop at a stage with ten people in is noise. A 60% drop at a stage with ten thousand in is the loop dying.
 
@@ -367,7 +367,7 @@ Step 3, run a double-sided incentive. Pay $10 to the referrer and $10 to the ref
 
 Step 4, gate and police. Pay on first purchase, not signup. De-duplicate by device and payment fingerprint, cap referrals at 25 per referrer per month, and claw back rewards that churn within 60 days. This keeps the $20 CPAR honest by refusing to pay for signups that never pay.
 
-Step 5, read it honestly. K at 0.375 still needs paid or outbound fuel. The loop is a cheap acquisition multiplier, not a self-sustaining engine. Reaching K above 1.0 requires the invite rate to clear 4.0 at 25% conversion, which is a product-design outcome, not an incentive outcome. The honest target for most B2B products is a loop that meaningfully lowers blended CAC, not a loop that runs without fuel.
+Step 5, read it . K at 0.375 still needs paid or outbound fuel. The loop is a cheap acquisition multiplier, not a self-sustaining engine. Reaching K above 1.0 requires the invite rate to clear 4.0 at 25% conversion, which is a product-design outcome, not an incentive outcome. The honest target for most B2B products is a loop that meaningfully lowers blended CAC, not a loop that runs without fuel.
 
 ---
 

@@ -31,7 +31,7 @@ labeled `(vendor source)`.
 
 The execution layer lives elsewhere. For the direct-outreach component,
 read the [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero).
-For the agent harness on top, read [Agentic Outbound](/docs/agentic/agentic-outbound).
+For the agent use on top, read [Agentic Outbound](/docs/agentic/agentic-outbound).
 For the account-concentration sibling, read [ABM](/docs/channels/abm).
 
 ---
@@ -328,7 +328,7 @@ you will scale engagement nobody closes.
 
 ## Agentic Layer
 
-Events are a strong candidate for an agent harness, because the
+Events are a strong candidate for an agent use, because the
 bottleneck is *thinking per meeting*: attendee scoring, account
 selection, pre-event outreach, meeting-log capture, and follow-up.
 Agents do that at volume. Humans keep judgment on the event list and the

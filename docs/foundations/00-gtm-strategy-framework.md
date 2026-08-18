@@ -119,7 +119,7 @@ ICP is a filter, not a dream list. If a prospect doesn't match, you pass. Focus 
 
 **Build buyer personas.** 2-3 named personas with concrete detail:
 
-> "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on pipeline efficiency and sales cycle length. Main objection: implementation time. She's been burned by tools that took six months to deploy. Needs to see ROI within one quarter."
+> "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on pipeline efficiency and sales cycle length. Main objection: implementation time. She's burned by tools that took six months to deploy. Needs to see ROI within one quarter."
 
 Give them names. Give them concrete constraints. Write for them.
 
@@ -206,7 +206,7 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 - Choose primary + secondary GTM motion
 - Define positioning and value proposition
 - Complete market sizing (TAM/SAM/SOM/PAM)
-- Map competitive landscape
+- Map competitive market
 
 ### Days 31-60: Build
 

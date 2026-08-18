@@ -245,7 +245,7 @@ loop, and you should price the acquisition cost accordingly.
 **Product-Qualified Leads (PQLs) are free users who hit a defined
 trigger (activation, a usage threshold, an expansion signal) that
 marks them as likely buyers.** They are the PLG version of the ICP fit
-gate, and they are the single highest-leverage mechanism in the channel.
+gate, and they are the single highest-use mechanism in the channel.
 
 The number, again because it decides your operating model: **free trials
 using PQLs convert 2.8x higher than those that do not**
@@ -507,4 +507,4 @@ benchmarks](https://productled.com/blog/product-led-growth-benchmarks)).
 - [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick
   PLG as your one best channel.
 - [Agentic Outbound](../agentic/agentic-outbound): the human-in-the-loop
-  agent harness, transferable to PLG conversion.
+  agent use, transferable to PLG conversion.

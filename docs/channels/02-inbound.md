@@ -37,7 +37,7 @@ Benchmarks](../data/funnel) and [Conversion Rate
 Benchmarks](../data/conversion-rate-benchmarks) carry the full stage
 tables this page points at. [Agentic
 Outbound](../agentic/agentic-outbound) is the same ideas on the outbound
-side, if that is where the leverage sits instead.
+side, if that is where the use sits instead.
 
 ---
 
@@ -55,7 +55,7 @@ their research with an assistant, then arrive more informed and later in
 the journey. 37% of marketers say leads are more informed thanks to AI,
 and nearly 70% say leads now come later in the buying process after
 AI-assisted research (HubSpot, State of Marketing). The job of inbound
-is no longer to be seen by everyone. It is to be the answer the
+is no longer to seen by everyone. It is to be the answer the
 assistant chooses to cite.
 
 ---
@@ -424,7 +424,7 @@ no capture.
   and route through revenue platform reporting.
 - **Treating a 1.4% visitor → lead rate as failure.** It is near the
   B2B SaaS median (First Page Sage). It is the shape of the channel:
-  the leverage is upstream and downstream, not panic.
+  the use is upstream and downstream, not panic.
 
 ---
 
@@ -546,4 +546,4 @@ and the funnel stage with the largest leak.
 - [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick inbound as your one best channel.
 - [Outbound](../channels/outbound): the fast channel to run while inbound matures, and its benchmarks.
 - [Outbound from Zero](../playbooks/outbound-from-zero): the step-by-step fast-channel playbook.
-- [Agentic Outbound](../agentic/agentic-outbound) and [Guardrails & Measurement](../agentic/guardrails-and-measurement): the agent harness, the measurement discipline.
+- [Agentic Outbound](../agentic/agentic-outbound) and [Guardrails & Measurement](../agentic/guardrails-and-measurement): the agent use, the measurement discipline.

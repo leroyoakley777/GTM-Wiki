@@ -33,7 +33,7 @@ and the arithmetic that tells you what volume buys what outcome.
 Read the companion pages before you start: the [Outbound
 channel](../channels/outbound) page tells you *when* this motion is the
 right call. [Agentic Outbound](../agentic/agentic-outbound) runs the
-same flow with an agent harness on the execution layer.
+same flow with an agent use on the execution layer.
 
 ---
 
@@ -435,10 +435,10 @@ This is exactly where the agentic layer pays for itself.
 
 ## Agentic SOP - the same flow with an agent on the execution layer
 
-Outbound is where agentic GTM has the most proven leverage, because the
+Outbound is where agentic GTM has the most proven use, because the
 bottleneck has never been sending - it is the thinking per row. The full
 treatment is [Agentic Outbound](../agentic/agentic-outbound). Here is
-the flow's shape under an agent harness.
+the flow's shape under an agent use.
 
 The win, with numbers: AI-augmented teams see **2.8x more pipeline** than
 teams attempting full replacement of their SDRs
@@ -452,7 +452,7 @@ manual**, cutting cost-per-lead from **$262 to $39**, an 85% reduction
 ([SuperAGI](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/),
 and [MarketsandMarkets](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins),
 both 2026 - vendor sources). The point is not "buy AI instead of
-people." It is that the economics scale with leveraged execution, not
+people." It is that the economics scale with used execution, not
 raw volume.
 
 ### Who does what
@@ -540,4 +540,3 @@ Check the flow against these at the end of any debrief.
   an agent runs the execution layer.
 - [ICP Definition](../foundations/icp-definition) - the foundation your
   list hangs on.
-

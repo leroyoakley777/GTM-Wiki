@@ -108,7 +108,7 @@ Four principles bind them: a **recurring-revenue focus**, the **factory model**,
 
 ## What This Wiki Adds
 
-Revenue Architecture is the spine. This wiki extends it in three directions:
+Revenue Architecture is the spine. This wiki extends it in several steps directions:
 
 - **Depth**: every framework, channel, and playbook in this wiki is mapped back to the factory model and its production lines.
 - **Agentic GTM**: the six models become increasingly executable by software. AI is the new way to operate the factory: stitching the stack together, not ripping and replacing it. See the [Agentic GTM](../agentic/index.md) section.

@@ -42,7 +42,7 @@ The mechanism has three moving parts, and every company on this page runs
 all three:
 
 - **The product's output is the distribution channel.** What the user
-  makes and shares is the ad. It is placed by the person who just got
+makes and shares is the ad. It placed by the person who just got
   value, in front of someone who already sees the context.
 - **The free tier constrains value.** It delivers enough to feel the
   value, then hits a limit that nudges toward paying: a seat cap, a
@@ -403,7 +403,7 @@ rate of 24% ([Lenny's × OpenView × Pendo, 2023](https://openviewpartners.com/2
 **Fix:** sales enters late and only on users the product has qualified.
 The PQL trigger is the gate: the product signal, not a request. On the
 product-qualified set, conversion roughly triples, so routing the right
-free users to a human is a high-leverage act, not a loss of purity.
+free users to a human is a high-use act, not a loss of purity.
 
 ### No expansion motion
 
@@ -563,7 +563,7 @@ that implies roughly 1.1 million visitors. Now run the leaks:
 | Activated → paid (with PQL route) | 25–30% on qualified set (ProductLed; Gainsight 2.8x) | 30,000 | ~7,500–9,000 paying |
 
 **The read.** Only a third of signups activate, so signup-to-pay is not
-where the leverage is. The fix order, from the funnel page: instrument
+where the use is. The fix order, from the funnel page: instrument
 activation, fix the onboarding path so more than 30% reach first value,
 then route activated users through a PQL gate so the qualified 30,000
 convert in the 25–30% band instead of the 3–5% band. Each 1-point lift in

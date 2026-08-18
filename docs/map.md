@@ -151,13 +151,13 @@ lives. Bookmark it. It's the fastest way to orient.
     <line x1="814" y1="464" x2="814" y2="476" stroke="#8E8E99" stroke-width="1.5"/>
     <rect x="714" y="476" width="200" height="44" rx="7" fill="#fff" stroke="#E2E1DC"/>
     <text x="814" y="495" text-anchor="middle" fill="#1A1A1E" font-size="12">Agentic Flow</text>
-    <text x="814" y="511" text-anchor="middle" fill="#8E8E99" font-size="10">harness on the motion</text>
+    <text x="814" y="511" text-anchor="middle" fill="#8E8E99" font-size="10">use on the motion</text>
   </g>
 
   <!-- Footer strip -->
   <rect x="70" y="548" width="820" height="44" rx="8" fill="#fff" stroke="#E2E1DC"/>
   <text x="480" y="566" text-anchor="middle" fill="#5A5A66" font-size="12">Read in order:</text>
-  <text x="480" y="582" text-anchor="middle" fill="#8E8E99" font-size="11">foundations → channels → pick a playbook → run it with a harness → scale with roles &amp; data</text>
+  <text x="480" y="582" text-anchor="middle" fill="#8E8E99" font-size="11">foundations → channels → pick a playbook → run it with a use → scale with roles &amp; data</text>
 </svg>
 
 ## How to use this wiki
@@ -165,7 +165,7 @@ lives. Bookmark it. It's the fastest way to orient.
 1. **New to GTM?** Start at [Foundations](/docs/foundations): revenue architecture and the strategy framework come first, everything else hangs off them.
 2. **Picking where to reach buyers?** Browse [Channels](/docs/channels): outbound, inbound, PLG, partner, community, paid, events, and ABM.
 3. **Have a motion to run?** Go to [Playbooks](/docs/playbooks) and [Flows](/docs/flows) and execute the one that matches your situation.
-4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat: same foundations, a harness on top.
+4. **Building with agents?** The [Agentic GTM](/docs/agentic) section is the moat: same foundations, a use on top.
 5. **Hired or stepping into a role?** Read the [Roles](/docs/roles) guides.
 6. **Need the numbers?** [Tools & Data](/docs/data) carries the named, dated benchmarks, and [Case Studies](/docs/case-studies) show the motions in practice.
 

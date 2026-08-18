@@ -78,7 +78,7 @@ The two places outbound dies most often are the same every time:
 
 ## Agentic Layer
 
-Outbound is the channel where agentic GTM has the most proven leverage, because the bottleneck has never been sending, it is the *thinking per row*. Agents remove the thinking bottleneck. Humans keep the judgment. The funnel metrics above hold with AI in the loop. The full playbook is [Agentic Outbound](../agentic/agentic-outbound).
+Outbound is the channel where agentic GTM has the most proven use, because the bottleneck has never been sending, it is the *thinking per row*. Agents remove the thinking bottleneck. Humans keep the judgment. The funnel metrics above hold with AI in the loop. The full playbook is [Agentic Outbound](../agentic/agentic-outbound).
 
 ---
 
@@ -94,6 +94,6 @@ Outbound is the channel where agentic GTM has the most proven leverage, because 
 ## Further Reading
 
 - [Outbound from Zero playbook](../playbooks/outbound-from-zero.md): the step-by-step execution runbook.
-- [Agentic Outbound](../agentic/agentic-outbound): the same motion with an agent harness.
+- [Agentic Outbound](../agentic/agentic-outbound): the same motion with an agent use.
 - [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick outbound as your one best channel.
 - [GTM Metrics](../data/gtm-metrics): the pipeline coverage and win-rate context outbound feeds.

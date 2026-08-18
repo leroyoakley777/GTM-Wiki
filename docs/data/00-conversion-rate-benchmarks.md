@@ -25,7 +25,7 @@ Read the [Funnel](../data/funnel) data page for the stage definitions this table
 
 Salesforce's [State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025) (5,500 sales professionals, 27 countries) reports 13%. Landbase's [Lead Qualification Statistics 2026](https://www.landbase.com/blog/lead-qualification-statistics) lands on 13% as well. thedigitalbloom's [2025 roundup](https://thedigitalbloom.com/learn/pipeline-performance-benchmarks-2025/) widens the range to 15–21%.
 
-This is where pipeline value dies. You can pour more top-of-funnel volume in all day and it leaks out at this one transition. The cheapest, highest-leverage attack is better lead scoring plus intent data, not more volume.
+This is where pipeline value dies. You can pour more top-of-funnel volume in all day and it leaks out at this one transition. The cheapest, highest-use attack is better lead scoring plus intent data, not more volume.
 
 If you fix nothing else, fix qualification. The data below shows qualification roughly quadruples the rate.
 

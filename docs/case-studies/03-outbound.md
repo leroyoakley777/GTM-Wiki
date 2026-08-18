@@ -35,7 +35,7 @@ Outbound is a surgical instrument, not a default. It reaches a named
 human who owns a named problem, with a reason to speak now. Inbound waits for the buyer to arrive. Outbound goes to the
 buyer with a trigger.
 
-Outbound beats inbound in three conditions, and only there:
+Outbound beats inbound in several steps conditions, and only there:
 
 - **The ICP is tight and the TAM is small.** You can name the companies
   and the humans who own the problem. Outbound cannot compensate for a
@@ -70,7 +70,7 @@ multiple. Company-specific conditions matter. The mechanism transfers.
 |------|--------|---------------------------|--------|
 | **Gong** | Outbound to outgrow the founder network | First 10 customers from founder relationships, next 10+ sourced out-of-network, immediate pipeline, compressed 0→scale, went on to lead conversation intelligence | InsideScale case study (accessed 2026) |
 | **Lavender** | Cold-email benchmark report across 231,818 emails | A-grade copy lifts reply rate 27–79% by department; personalization lifts reply 50–250% vs template | Lavender blog, Mar 2026 (vendor source); Jan 2023 (vendor source) |
-| **Apollo (founders)** | Founders' own outbound build | $0 → $200K revenue and $1M pipeline in three months | Apollo Academy pipeline guide (vendor source) |
+| **Apollo (founders)** | Founders' own outbound build | $0 → $200K revenue and $1M pipeline in several steps months | Apollo Academy pipeline guide (vendor source) |
 | **Lead-gen agency** | AI personalization on cold outreach | Reply 2.3% → 11.7% (409% lift); 47 qualified meetings booked | Warmer.ai blog, 2026 (vendor source) |
 | **SDR agency** | Generic vs personalized A/B | Reply 4.7% → 13.2%; meeting booking 0.9% → 3.4%; 45 → 170 meetings booked | Warmer.ai blog, 2026 (vendor source) |
 | **Ambition** | Persistence and follow-up cadence | 578 prospects, 6 initial replies, follow-ups added 67 more, ~12.6% total response | Ambition blog, 2015 |
@@ -270,7 +270,7 @@ one augmented rep handles 1,000+ contacts a day versus 50–80 manual
 (SuperAGI, 2026 , vendor source). Reported cost-per-lead drops from
 $262 to $39, an 85% reduction (MarketsandMarkets, 2026 , vendor
 source). Do not read this as buy AI instead of people. The motion scales on
-leveraged execution, not raw volume.
+used execution, not raw volume.
 
 ---
 
@@ -380,7 +380,7 @@ history is the territory.
 
 ## Agentic layer: an SOP an agent can run
 
-Outbound is where agentic GTM has the most proven leverage, because the
+Outbound is where agentic GTM has the most proven use, because the
 bottleneck has never been sending. The thinking per row and the speed
 of reply handling are the constraint. Agents remove that bottleneck. Humans keep the
 judgment. The funnel metrics above hold with an agent in the loop. The
@@ -484,7 +484,7 @@ proven.
 - [InsideScale: Gong case study](https://insidescale.com/case-study/gong/): founder-network to out-of-network pipeline.
 - [Lavender: Cold Email Benchmark Report and department learnings](https://lavender.ai/blog/the-cold-email-benchmark-report): 231,818-email sample, A-grade reply lifts by department. (vendor source)
 - [Lavender: Cold Email Personalization Process](https://lavender.ai/blog/how-to-build-a-cold-email-personalization-process): 50–250% reply lift from personalization, Jan 2023. (vendor source)
-- [Apollo: Outbound Sales Pipeline Guide](https://www.apollo.io/academy/guides/pipeline-generation): $0 to $200K revenue and $1M pipeline in three months. (vendor source)
+- [Apollo: Outbound Sales Pipeline Guide](https://www.apollo.io/academy/guides/pipeline-generation): $0 to $200K revenue and $1M pipeline in several steps months. (vendor source)
 - [Warmer.ai: Agency Cold Email Results Before and After AI Personalization](https://warmer.ai/blog/agency-cold-email-results-before-after-ai-personalization): lead-gen and SDR-agency A/B numbers. (vendor source)
 - [Ambition: The Importance of Persistence in Cold Emails](https://ambition.com/blog/entry/2015-1-22-importance-persistence-cold-emails/): follow-up cadence response data, 2015.
 - [Woodpecker: Cold Email Statistics](https://woodpecker.co/blog/cold-email-statistics/): reply-rate average and thresholds, 2026.
@@ -503,5 +503,5 @@ proven.
 - [Outbound channel](/docs/channels/outbound): when outbound is the right call and how to judge motion health.
 - [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero): the step-by-step execution runbook.
 - [Outbound Response Rate Benchmarks](/docs/data/outbound-response-rates): the baselines every case here sits against.
-- [Agentic Outbound](/docs/flows/agentic-outbound): the same motion with an agent harness on top.
+- [Agentic Outbound](/docs/flows/agentic-outbound): the same motion with an agent use on top.
 - [ABM case studies](/docs/case-studies/abm): the multi-channel precision motion outbound feeds at the enterprise band.

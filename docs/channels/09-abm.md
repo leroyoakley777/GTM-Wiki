@@ -30,7 +30,7 @@ source and an "as of" date.
 
 The execution layer lives elsewhere. For the direct-outreach component
 of the motion, read the [Outbound from Zero
-playbook](../playbooks/outbound-from-zero.md). For the agent harness on
+playbook](../playbooks/outbound-from-zero.md). For the agent use on
 top, read [Agentic Outbound](../agentic/agentic-outbound). For the
 documented wins, read the [ABM case
 studies](../case-studies/abm).
@@ -454,7 +454,7 @@ Skip this and you will scale engagement nobody closes.
 
 ## Agentic Layer
 
-ABM is a strong candidate for an agent harness, because the bottleneck
+ABM is a strong candidate for an agent use, because the bottleneck
 is the *thinking per account*: research, fit scoring, intent ranking,
 and plan drafting. Agents do that at volume. Humans keep judgment on
 selection and the send. The full treatment is [Agentic
@@ -532,7 +532,7 @@ and milestones. Return only accounts that pass the fit gate.
   starts with a disciplined ICP.
 - [Outbound from Zero playbook](../playbooks/outbound-from-zero.md):
   the direct-outreach component of the motion.
-- [Agentic Outbound](../agentic/agentic-outbound): the agent harness on
+- [Agentic Outbound](../agentic/agentic-outbound): the agent use on
   top of the motion.
 - [ABM case studies](../case-studies/abm): the documented wins.
 - [GTM Metrics](../data/gtm-metrics): pipeline coverage and win-rate

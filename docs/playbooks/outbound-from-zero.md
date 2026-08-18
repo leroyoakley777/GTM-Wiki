@@ -28,7 +28,7 @@ agentic SOP. Every number carries a named source and an "as of" date.
 **Read the companion pages before you start:** the [Outbound
 channel](../channels/outbound) page explains *when* outbound is the
 right call. [Agentic Outbound](../agentic/agentic-outbound) is the same
-motion with an agent harness on top.
+motion with an agent use on top.
 
 ---
 
@@ -336,7 +336,7 @@ cost-per-lead drops from **$262 to $39** (an 85% reduction)
 ([MarketsandMarkets](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins), 2026, vendor
 source). The
 point is not "buy AI instead of people". It's that the economics of the
-motion scale with *leveraged* execution, not raw volume.
+motion scale with *used* execution, not raw volume.
 
 **The rule that saves you from yourself: do not optimize the message
 until you have 300+ sends per variant.** Small samples produce noise,
@@ -434,7 +434,7 @@ proven.
 
 ## Agentic layer (the moat)
 
-Outbound is where agentic GTM has the most proven leverage, because the
+Outbound is where agentic GTM has the most proven use, because the
 bottleneck has never been sending; it is the **thinking per row**. The
 full treatment is [Agentic
 Outbound](../agentic/agentic-outbound), but here is the reusable shape.
@@ -519,7 +519,7 @@ See also the team's benchmark source: `RESEARCH/gtm-wiki/OUTBOUND_RESPONSE_RATES
 ## Related
 
 - [Outbound (channel)](../channels/outbound), *when* outbound is the right call.
-- [Agentic Outbound](../agentic/agentic-outbound), the same motion with an agent harness.
+- [Agentic Outbound](../agentic/agentic-outbound), the same motion with an agent use.
 - [Outbound Response Rates](../data/outbound-response-rates), the full benchmark picture.
 - [ICP Definition](../foundations/icp-definition), building the ICP your list hangs on.
 - [GTM Channels Bullseye](../foundations/gtm-channels-bullseye), how to pick outbound as your one best channel.
@@ -529,5 +529,5 @@ See also the team's benchmark source: `RESEARCH/gtm-wiki/OUTBOUND_RESPONSE_RATES
 *Synthesized from first-hand 0→1 outbound builds (2014–2026): Salesloft,
 Gladly, Apollo, and every SDR org in between, plus the 2025–2026
 outbound and AI-SDR market data cited above. The motion hasn't changed
-in a decade. The tools and the leverage have. Next: [Agentic
+in a decade. The tools and the use have. Next: [Agentic
 Outbound](../agentic/agentic-outbound). 🐝*

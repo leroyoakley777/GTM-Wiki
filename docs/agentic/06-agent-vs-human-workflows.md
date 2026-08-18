@@ -47,7 +47,7 @@ with AI," 2026.)*
 
 Workflows reach Stage 4 only when audit logs, rollback mechanisms, and
 least-privilege access controls are fully operational. That is the gate. Stage
-4 is earned by the control model, not by the model's cleverness.
+4 earned by the control model, not by the model's cleverness.
 
 ## Three criteria that define the automation boundary
 
@@ -128,7 +128,7 @@ cover most teams:
 The strongest predictor of how far an organization can safely automate is not
 its technology readiness: it is its **governance maturity.** Automation
 without the controls to catch and correct errors creates liability, not
-leverage. Governance is what lets you automate aggressively later.
+use. Governance is what lets you automate aggressively later.
 
 Before greenlighting any GTM workflow for automation, run this checklist:
 
@@ -148,7 +148,7 @@ Automation is not a ladder to climb to the top of everything. Some work is
 genuinely better held in front of a human, and the reason is not nostalgia.
 
 **Reputation-bearing communication.** A personalized message to a
-decision-maker is the single highest-leverage artifact in outbound. An agent
+decision-maker is the single highest-use artifact in outbound. An agent
 can draft it. A human should own the send, because the send commits the
 company's voice and name to a real person.
 
@@ -299,7 +299,7 @@ workflow, and the split stops being a judgment call and becomes a routine.
 
 ## Cross-references
 
-- [01: The Agentic Stack](./agentic-stack): the five-layer harness this page's rules are applied to
+- [01: The Agentic Stack](./agentic-stack): the five-layer use this page's rules are applied to
 - [02: Agentic Outbound](./agentic-outbound): where the Draft-stage and exception-review controls live in practice
 - [03: Guardrails and Measurement](./guardrails-and-measurement): the measurement and safety layer
 - [00: Agentic GTM Overview](./agentic-gtm-overview): the definition and four pillars this page extends

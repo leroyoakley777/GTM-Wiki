@@ -146,7 +146,7 @@ buyer's numbers, not yours.
 - Name the decision criteria and anything they already evaluated.
 - Map the competition: the status quo, the do-nothing option, and any
   alternative vendors.
-- Confirm the economic buyer and who else is affected by the problem.
+- Confirm the economic buyer and who else affected by the problem.
 
 **In-channel (partners / VARs)**
 

@@ -279,7 +279,7 @@ and win-rate lift, multiply, not add.
 Compare spend per account. One-to-many runs templated ads and email at
 low cost per account. One-to-one runs a written account plan and an
 exec touch per account. If the one-to-one accounts are 20x the ACV of
-the one-to-many accounts, the higher per-account cost is justified by
+the one-to-many accounts, the higher per-account cost justified by
 the per-account payoff. If not, you are paying one-to-one prices for
 one-to-many economics: that is the tier trap.
 
@@ -392,7 +392,7 @@ The win is not just more conversions. It is larger ones.
 
 ## Agentic Layer
 
-ABM is a strong candidate for an agent harness because the bottleneck
+ABM is a strong candidate for an agent use because the bottleneck
 is the *thinking per account*: research, fit scoring, intent ranking,
 and plan drafting. Agents do that at volume. Humans keep judgment on
 selection and the send. The full treatment is [Agentic
@@ -535,5 +535,5 @@ source)` flag tells you the reader of the number, not the outcome.
   compresses.
 - [GTM Metrics](/docs/data/gtm-metrics): pipeline coverage and win-rate
   context ABM feeds.
-- [Agentic Outbound](/docs/agentic/agentic-outbound): the agent harness
+- [Agentic Outbound](/docs/agentic/agentic-outbound): the agent use
   on top of the motion.
