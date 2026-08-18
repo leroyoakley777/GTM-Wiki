@@ -20,7 +20,10 @@ The operator's decision sequence, drawn from [Agent vs Human Workflows](../agent
 4. **Add the human-in-the-loop control.** The checkpoint is not a bottleneck; it is where judgment sits. Approve the pattern, not every keystroke.
 5. **Start narrow, prove, scale.** Prove the control model on a small surface before you widen it.
 
-The one rule that governs every flow in this section: **augment, don't replace.** The data is unambiguous: hybrid human-in-the-loop teams produce 2.8x more pipeline than full-autonomous attempts. The harness removes the thinking bottleneck *between* gates. Humans keep judgment on the send.
+**Augment, don't replace.** The data is unambiguous: hybrid
+human-in-the-loop teams produce 2.8x more pipeline than full-autonomous
+attempts. The harness removes the thinking bottleneck *between* gates.
+Humans keep judgment on the send.
 
 ## Flows
 

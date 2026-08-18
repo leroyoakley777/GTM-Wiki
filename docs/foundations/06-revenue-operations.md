@@ -11,10 +11,10 @@ parent: foundations/index
 
 # Revenue Operations
 
-**Goal**: build a revenue operations layer that turns scattered data,
-tools, and handoffs into one number leadership can plan against:
-pipeline coverage, forecast accuracy, and quota attainment, with a
-headcount that stays small.
+Build a revenue operations layer that turns scattered data, tools,
+and handoffs into one number leadership can plan against: pipeline
+coverage, forecast accuracy, and quota attainment, with a headcount
+that stays small.
 
 RevOps is a leverage function, not a cost center. A tiny team sits on
 process, data, and tooling and multiplies the whole seller base. The

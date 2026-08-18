@@ -11,7 +11,7 @@ parent: channels/index
 
 # Community-Led Growth
 
-**Goal**: decide whether a group of users who talk to each other should be
+Decide whether a group of users who talk to each other should be
 your acquisition engine, then run it: seed the conversation, let members
 help each other, route the resulting signals to sales and CS, and track
 whether the group is pulling in revenue or just existing.

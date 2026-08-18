@@ -11,8 +11,8 @@ parent: channels/index
 
 # Account-Based Marketing (ABM)
 
-**Goal**: win a short list of high-value accounts by concentrating sales
-and marketing on them with coordinated, multi-channel precision: the
+Win a short list of high-value accounts by concentrating sales and
+marketing on them with coordinated, multi-channel precision: the
 accounts where a single win pays for the whole motion.
 
 ABM inverts the demand-gen funnel. Demand gen casts a net, lets leads
@@ -355,12 +355,12 @@ A representative one-to-few sequence over roughly 4 weeks:
 | 3 | Event / content | Field event or custom content drop | Marketing |
 | 4 | Sales | Exec-to-exec introduction | AE + exec |
 
-Two rules govern the sequence. **Coordinate, don't spray**: all
-channels reinforce one message while adapting format to the channel.
-**Escalate to human when an account warms**: the moment intent or a
-reply signals a live deal, move from programmatic to direct sales
-handoff. For the direct-outreach copy and cadence detail, read the
-[Outbound from Zero playbook](../playbooks/outbound-from-zero.md).
+**Coordinate, don't spray.** All channels reinforce one message while
+adapting format to the channel. **Escalate to human when an account
+warms.** The moment intent or a reply signals a live deal, move from
+programmatic to direct sales handoff. For the direct-outreach copy and
+cadence detail, read the [Outbound from Zero
+playbook](../playbooks/outbound-from-zero.md).
 
 ---
 

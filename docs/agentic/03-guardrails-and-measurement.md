@@ -6,9 +6,9 @@ description: "Guardrails and measurement for agentic GTM: what to watch, what to
 
 # 03: Guardrails & Measurement
 
-**Goal**: keep the harness honest: the checks that stop it from damaging
-your domain, your compliance posture, and your reputation. And the
-metrics that prove it is earning its keep.
+This page keeps the harness honest: the checks that stop it from
+damaging your domain, your compliance posture, and your reputation, and
+the metrics that prove it is earning its keep.
 
 Agents don't have reputations. You do. Every guardrail below exists
 because the cost of an agent's mistake lands on a human. Automation

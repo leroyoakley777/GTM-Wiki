@@ -11,7 +11,7 @@ parent: playbooks/index
 
 # Outbound from Zero
 
-**Goal**: stand up a cold-outbound motion that produces pipeline on a
+Stand up a cold-outbound motion that produces pipeline on a
 predictable timeline (list → signal → sequence → handoff) without
 burning the budget or the sender domain.
 

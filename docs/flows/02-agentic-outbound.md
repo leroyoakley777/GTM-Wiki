@@ -30,7 +30,7 @@ against the [Outbound channel](../channels/outbound) page.
 
 ---
 
-## Rule that governs the whole flow
+## Augment, don't replace
 
 **Augment, don't replace.** The data is consistent across every source.
 Hybrid human-in-the-loop teams produce **2.8x more pipeline** than teams

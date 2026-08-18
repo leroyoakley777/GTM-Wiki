@@ -11,7 +11,7 @@ parent: data/index
 
 # Funnel Benchmarks
 
-**Goal**: read a funnel as a *production line*, not a table of stages. This
+Read a funnel as a *production line*, not a table of stages. This
 page gives you the numbers on how much leaks at each stage, the math that
 shows how a few visitors become (or fail to become) customers, and a way to
 tell a healthy stage from a leaky one before you spend money fixing the

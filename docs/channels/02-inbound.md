@@ -11,7 +11,7 @@ parent: channels/index
 
 # Inbound
 
-**Goal**: decide whether inbound deserves your energy, then run it as a
+Decide whether inbound deserves your energy, then run it as a
 compounding engine rather than a content calendar that never pays out.
 This page covers the whole surface: when inbound is the right call
 (including the AI-assistant shift that changed the rules), the funnel

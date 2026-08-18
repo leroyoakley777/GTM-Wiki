@@ -6,7 +6,7 @@ description: "What agentic GTM is, when it applies, and where it replaces manual
 
 # 00: What Is Agentic GTM?
 
-**Goal**: understand what agentic GTM is, why it is the single biggest
+This page explains what agentic GTM is, why it is the single biggest
 shift in how revenue teams operate since the CRM, and where it sits in
 your stack.
 

@@ -6,8 +6,8 @@ description: "How to run outbound with agents end to end, from list to booked me
 
 # 02: Agentic Outbound
 
-**Goal**: run [Outbound from Zero](../playbooks/outbound-from-zero.md)
-with an agentic harness: same acceptance gates, same funnel metrics,
+Run [Outbound from Zero](../playbooks/outbound-from-zero.md) with an
+agentic harness: same acceptance gates, same funnel metrics,
 drastically faster loops.
 
 The existing

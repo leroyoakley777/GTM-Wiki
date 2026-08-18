@@ -6,7 +6,7 @@ description: "The GTM channels bullseye: how to pick the right channel for a mot
 
 # 01: GTM Channels Bullseye Framework
 
-**Goal**: Efficiently discover your single highest-leverage acquisition channel instead of spreading effort across too many at once.
+Efficiently discover your single highest-leverage acquisition channel instead of spreading effort across too many at once.
 
 This is an evolution of the classic *Traction* Bullseye framework, updated for the 2025–2026 market.
 

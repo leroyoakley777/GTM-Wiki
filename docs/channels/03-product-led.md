@@ -11,7 +11,7 @@ parent: channels/index
 
 # Product-Led Growth
 
-**Goal**: decide whether the product should be the salesperson, then run
+Decide whether the product should be the salesperson, then run
 the funnel (signup → activation → pay) with conversion numbers you can
 measure against a named baseline instead of a guess.
 

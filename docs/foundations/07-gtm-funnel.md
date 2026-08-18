@@ -8,7 +8,7 @@ tags: [funnel, pipeline, foundations, metrics]
 
 # GTM Funnel
 
-**Goal**: Map every GTM activity to a stage in the customer journey so you can see what is working, what is not, and where to invest.
+Map every GTM activity to a stage in the customer journey so you can see what is working, what is not, and where to invest.
 
 The GTM funnel is not a sales funnel. A sales funnel tracks a rep moving a deal from contact to close. The GTM funnel is broader. It maps the full journey from a stranger becoming aware of your company to a customer expanding their contract. Marketing, sales, product, and success all own different slices. The funnel is the shared coordinate system that lets them align.
 
