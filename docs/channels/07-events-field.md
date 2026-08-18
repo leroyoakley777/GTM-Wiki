@@ -31,7 +31,7 @@ labeled `(vendor source)`.
 
 The execution layer lives elsewhere. For the direct-outreach component,
 read the [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero).
-For the agent use on top, read [Agentic Outbound](/docs/agentic/agentic-outbound).
+For the agent harness on top, read [Agentic Outbound](/docs/agentic/agentic-outbound).
 For the account-concentration sibling, read [ABM](/docs/channels/abm).
 
 ---

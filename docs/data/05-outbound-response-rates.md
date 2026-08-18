@@ -294,7 +294,7 @@ industry table is only the map.
 - [Outbound from Zero](../playbooks/outbound-from-zero): the step-by-step
   execution runbook these numbers feed.
 - [Agentic Outbound](../agentic/agentic-outbound): the same motion with an
-  agent use on top.
+  agent harness on top.
 - [GTM Metrics](../data/gtm-metrics): the pipeline coverage and win-rate
   context outbound feeds.
 - [Channels Bullseye](../foundations/gtm-channels-bullseye): how to pick

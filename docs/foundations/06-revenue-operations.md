@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Revenue Operations
-description: "Revenue operations as a use function: the model, the pipeline and forecast math, the workflows, failure modes with fixes, a worked RevOps build and cleanup, and the agentic SOP."
+description: "Revenue operations as a harness function: the model, the pipeline and forecast math, the workflows, failure modes with fixes, a worked RevOps build and cleanup, and the agentic SOP."
 last-updated: 2026-08-17
 status: active
 tags: [revops, revenue-operations, foundations, forecasting, pipeline, agentic]

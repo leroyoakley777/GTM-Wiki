@@ -28,7 +28,7 @@ agentic SOP. Every number carries a named source and an "as of" date.
 **Read the companion pages before you start:** the [Outbound
 channel](../channels/outbound) page explains *when* outbound is the
 right call. [Agentic Outbound](../agentic/agentic-outbound) is the same
-motion with an agent use on top.
+motion with an agent harness on top.
 
 ---
 

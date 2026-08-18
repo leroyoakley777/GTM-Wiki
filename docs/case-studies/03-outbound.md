@@ -503,5 +503,5 @@ proven.
 - [Outbound channel](/docs/channels/outbound): when outbound is the right call and how to judge motion health.
 - [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero): the step-by-step execution runbook.
 - [Outbound Response Rate Benchmarks](/docs/data/outbound-response-rates): the baselines every case here sits against.
-- [Agentic Outbound](/docs/flows/agentic-outbound): the same motion with an agent use on top.
+- [Agentic Outbound](/docs/flows/agentic-outbound): the same motion with an agent harness on top.
 - [ABM case studies](/docs/case-studies/abm): the multi-channel precision motion outbound feeds at the enterprise band.
