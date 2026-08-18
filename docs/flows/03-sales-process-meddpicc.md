@@ -29,7 +29,9 @@ you what is proven and what is still missing on a deal at any moment.
 Read the companion pages first. The [Account Executive role](../roles/aes/)
 owns this motion day to day. [Revenue Architecture](../foundations/revenue-architecture)
 is the factory this pipeline feeds. [Outbound](../flows/outbound) is the flow
-that feeds this one when a deal starts cold.
+that feeds this one when a deal starts cold. Then read the [Buyer's
+Journey](../flows/buyers-journey), which is this same arc from the buyer's
+side: a deal dies when the two views fall out of step.
 
 ---
 
@@ -108,12 +110,23 @@ early. A no is a result. A maybe that wastes six weeks is not.
   the economic buyer, the status quo. It is a guess at this point. Mark it
   as one.
 
+**The real gate (how the operating motion runs it).** Qualification is the
+one stage that runs on a light, schedule-shaped gate before any MEDDPICC
+letters are proven: a first meeting completed, pain identified, project
+timing inside the next six months, and next steps calendared within two
+weeks. MEDDPICC is not yet filled in here; it becomes the scoring engine
+from Discovery onward. Activities are territory planning, account research
+with a value hypothesis as the lens, pipeline-and-prospecting planning, and
+initial discovery meetings that schedule the next step.
+
 **Exit criteria (hard gate)**
 
-- [ ] A named economic buyer, or a named person who controls access to them.
-- [ ] A pain stated, with a business impact, in the buyer's terms.
-- [ ] Budget exists, or the budget process is known.
-- [ ] A next step with a date and an owner.
+- [ ] A first meeting has been completed.
+- [ ] A pain is identified with a business impact, in the buyer's terms.
+- [ ] Project timing is inside the next six months.
+- [ ] Next steps are calendared within two weeks, with an owner.
+- [ ] A named economic buyer, or a named person who controls access to them,
+      or budget exists / the budget process is known.
 - [ ] If there is no champion by end of qualification, the account is a maybe,
   not a lead. It stays in the stage.
 
@@ -155,12 +168,26 @@ buyer's numbers, not yours.
   documented as-of date. This becomes the internal contract the rest of the
   deal is measured against.
 
+**The real gate.** Discovery is where the I and C letters first have to
+prove themselves. Pain is documented from multiple perspectives (multiple
+personas, each with a why), the account is mapped against current tools to
+disqualify it if there is no technical fit, business and technical
+champions are identified and tested, decision criteria are shaped, and the
+team aligns internally on which products are being sold. The stage closes
+with a New Business Meeting (NBM) attended by all relevant stakeholders,
+where the RD confirms the path to revenue and the SA confirms technical
+fit, and the opportunity is updated in the CRM.
+
 **Exit criteria (hard gate)**
 
 - [ ] Pain stated with a number the buyer gave, with an as-of date.
+- [ ] Pain documented from multiple perspectives, each persona with a why.
 - [ ] Decision criteria named, in their words.
 - [ ] Competition named, including do-nothing.
 - [ ] A champion is identified or actively emerging.
+- [ ] A New Business Meeting (NBM) was held with all relevant stakeholders;
+      the RD confirmed the path to revenue and the SA confirmed technical fit.
+- [ ] The opportunity is updated in the CRM.
 
 ---
 
@@ -191,19 +218,34 @@ anything is proposed.
 
 - A scoping checklist (who is in, what it touches, timeline, value).
 - A value model so the economics are worked, not vibed.
+- Architecture diagram instructions and template, a test-criteria library, a
+  technical-requirement library, and the POC process / POV map.
 
-**Artifact this stage produces**
+**The real gate.** Scoping is where the E letter and both C letters (champion
+and competition) start to prove themselves for the activities. Deal size is
+updated to whatever the products require, GRC (governance, risk, compliance)
+is completed, and a Mutual Action Plan (MAP) is started. A POV (Proof of
+Value) approval form is submitted with technical and business context; the
+Solution Architect introduces the POV process and builds the POV plan,
+including the architecture diagram. Test criteria are developed to match the
+business outcomes, the three Ys are updated, and the executive buyer is met
+pre-POV.
+
+**Artifacts this stage produces**
 
 - A scoping document / opportunity plan: scope, timeline, value, named
-  stakeholders, and the decision process. This is the map the evaluation and
-  proposal stages execute against.
+  stakeholders, and the decision process.
+- A Mutual Action Plan (MAP).
+- A POV test plan and its use cases.
+- An executive-buyer go/no-go deck.
 
 **Exit criteria (hard gate)**
 
-- [ ] Decision process mapped with named people and steps.
-- [ ] Paper process requirements known (security, legal, procurement).
-- [ ] Value sized in the buyer's units, with a named base.
-- [ ] Scope agreed in writing.
+- [ ] Deal size is updated to match the products being sold.
+- [ ] The Mutual Action Plan (MAP) is drafted and shared.
+- [ ] The POV plan is documented (architecture diagram, test criteria).
+- [ ] The customer's resources are confirmed available for the POV.
+- [ ] The executive buyer has committed to proceed.
 
 ---
 
@@ -244,12 +286,20 @@ champion who sells for you internally.
   score, and their open concern. Update it after every evaluation touchpoint.
   This is the input the proposal stage is built from.
 
+**The real gate.** The POV kickoff call is run, a tight-scoped POV is
+delivered that achieves a technical win by solving a prioritized pain, and
+an executive-buyer readout is completed. The proposal folds in ROI and a
+post-sales plan. Decision process and funding are confirmed, the MAP is
+updated, the three Ys are updated, and the champion and executive buyer are
+committed to the close path.
+
 **Exit criteria (hard gate)**
 
-- [ ] A named champion, actively selling, with internal credibility.
-- [ ] Every decision-criteria item has a written response.
-- [ ] The competition's position and your differentiators are known.
-- [ ] Procurement is engaged, not surprised.
+- [ ] A POV readout was completed with the executive buyer.
+- [ ] A technical win is confirmed (the prioritized pain is solved).
+- [ ] Contracting and implementation timelines are aligned.
+- [ ] The buying process, funding, and stakeholders are confirmed.
+- [ ] The champion and executive buyer are committed to the close path.
 
 ---
 
@@ -290,12 +340,31 @@ economic buyer, not just procurement.
 - The proposal, plus a negotiation plan that records every concession and its
   margin cost, so leadership can see what the deal cost to win.
 
+**The real gate.** All MEDDPICC letters are filled out before this stage
+closes. Deployment scope and timeline are added to the MAP, the three Ys are
+updated, procurement relationships are established, the booking mechanism is
+confirmed through the partner where applicable, contract execution is
+coordinated, and customer success / post-sales support is introduced.
+
+**Resources sellers need**
+
+- Pricing and negotiation guidelines, including a discount authority table.
+- A proposal template that mirrors the decision criteria.
+- A negotiation plan: what you will concede, what you will not, and what each
+  concession costs in margin.
+- The MSA, the contract tooling (such as Ironclad), and the order form.
+
+**Artifacts this stage produces**
+
+- The proposal, plus a negotiation plan recording every concession and its
+  margin cost.
+- An implementation / adoption framework.
+
 **Exit criteria (hard gate)**
 
-- [ ] Economic buyer engaged and aligned on value.
-- [ ] Paper process complete or on a named timeline.
-- [ ] Every open objection answered in writing.
-- [ ] A signature date agreed with the buyer.
+- [ ] Procurement is engaged on the MSA and order forms.
+- [ ] The contract is executed (and archived).
+- [ ] All MEDDPICC letters are filled and evidenced.
 
 ---
 
@@ -324,18 +393,24 @@ economic buyer, not just procurement.
 **Resources sellers need**
 
 - A transition checklist and a kickoff template.
+- The customer-success transition checklist and onboarding kit.
 
-**Artifact this stage produces**
+**Artifacts this stage produces**
 
 - A signed deal plus a handoff document: what was promised, the success
   metrics, the stakeholders, and the next expansion step.
+- A kickoff agenda template and an EBR (executive business review) template.
 
 **Exit criteria (hard gate)**
 
-- [ ] Contract executed and PO received.
-- [ ] Implementation owner named.
-- [ ] The value hypothesis metrics carried into the kickoff.
-- [ ] An expansion path documented.
+- [ ] All MEDDPICC letters are filled and evidenced.
+- [ ] All sales artifacts are uploaded to the CRM (Salesforce).
+- [ ] A customer kickoff call is scheduled; deployment objectives are
+      documented.
+- [ ] The account team has met internally to ensure a smooth handoff; the PO /
+      signed agreement is attached.
+- [ ] The win is announced on the close path; customer success now owns the
+      technical relationship.
 
 ---
 
