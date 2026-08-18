@@ -634,4 +634,4 @@ agency-sourced claims are labeled `(vendor source)` inline.
 - [Referral and Viral](/docs/channels/referral-viral): the loop Dropbox's referral program is the reference case for.
 - [Community-Led Growth: Case Studies](/docs/case-studies/community-led): Notion's community flywheel, the companion to its PLG motion.
 - [Agentic GTM](/docs/agentic/agentic-gtm-overview): the operating model the PQL and activation SOPs plug into.
-- [Gold Ship Standard](/docs/foundations/gold-ship-standard): the bar every page on this wiki clears.
+- Every page here ships live only after it clears the wiki's four-gate bar: True, Tasteful, Insightful, and Engaging.

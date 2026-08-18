@@ -27,10 +27,17 @@ import { execSync } from 'node:child_process';
 const ROOT = normalize(join(process.cwd(), 'docs'));
 const SRC = normalize(join(process.cwd(), 'src'));
 
-// The standard document documents its own bans, so it intentionally contains
-// the banned character/words as examples. It is the spec, not a ship page —
-// exempt it from taste rules (never from the cross-link check).
-const EXEMPT = new Set([normalize('docs/foundations/00-gold-ship-standard.md')]);
+// Internal-team meta must NEVER ship as reader-facing docs/. The Gold Ship
+// Standard used to live here with a carve-out ("the spec, not a ship page")
+// and quietly shipped to the live site. It now lives in STANDARDS/ (outside
+// the docs/ tree, so lint never walks it). Any future page carrying these
+// markers is internal coordination, not content, and hard-fails the build.
+const INTERNAL_META = [
+  /What this means for the team/i,
+  /@(?:Honey|Bumble|Fizz|Deploy|Channel)\b/,
+  /the bar Leroy set/i,
+  /on a resume as work in progress/i,
+];
 
 // Tasteful-gate banned list, machine-checkable subset. Judgment-only rules
 // (real-family filler, semicolon-joined prose) stay human; these are exact.
@@ -186,7 +193,7 @@ function checkLinks(file, content, report) {
 function lintFile(file, report) {
   const rel = normalize(file);
   const repoRel = normalize(`./${rel.replace(process.cwd(), '').replace(/^\//, '')}`);
-  const exempt = EXEMPT.has(repoRel);
+  const exempt = false; // no carve-outs: every docs/ page is a ship page and gets the full taste gate
   let content;
   try {
     content = readFileSync(file, 'utf8');
@@ -226,12 +233,19 @@ function lintFile(file, report) {
         report(file, `heading opens with "The" on line ${line}`, 'ERROR');
       }
     }
+    // 5. Internal-team meta leak guard: any docs/ page carrying coordination
+    // markers is internal, not content. Hard fail = it can never ship live.
+    for (let i = 0; i < INTERNAL_META.length; i++) {
+      if (INTERNAL_META[i].test(content)) {
+        report(file, `internal-team meta leak detected (marker ${i}) - move out of docs/`, 'ERROR');
+      }
+    }
   }
 
-  // 5. Cross-links always checked (even exempt files may link).
+  // 6. Cross-links always checked (even exempt files may link).
   checkLinks(file, content, report);
 
-  // 6. Soft: frontmatter completeness (WARN, not blocking).
+  // 7. Soft: frontmatter completeness (WARN, not blocking).
   if (!/^title:/m.test(content)) report(file, 'missing frontmatter `title:`', 'WARN');
   if (!/^description:/m.test(content)) report(file, 'missing frontmatter `description:`', 'WARN');
   if (!/^sidebar_position:/m.test(content)) report(file, 'missing frontmatter `sidebar_position:`', 'WARN');
