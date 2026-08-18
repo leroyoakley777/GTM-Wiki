@@ -88,6 +88,15 @@ structurally uncommittable, not caught by an auditor later.
 |---|--------|-------|-----------|---------|
 | 40 | Mailforge (via Martal) | 2026 | 50–125 word emails earn ~50% higher reply rates | live outbound page + FLOWS |
 
+### Buyer's journey (buyer's view of the same arc as MEDDPICC)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 41 | Gartner B2B buying study | 2024 | B2B buyers spend 27% of buying time researching independently online; avg 6-10 decision makers; 75% prefer a rep-free experience; 77% describe their last purchase as complex/difficult | Buyer's journey page (in build) |
+| 42 | CEB, The Challenger Customer | 2016 | Sellers who target mobilizers are 31% more likely to be high performers; B2B buying decisions grew from avg 5.4 to 6-10 stakeholders | Buyer's journey page (in build) |
+| 43 | Forrester | 2024 | 68% of B2B buyers prefer to research on their own online; 62% can finalize selection criteria or a vendor list from digital content alone; 70-80% of the buying journey happens before sales contact | Buyer's journey page (in build) |
+| 44 | 6sense, Buyer Experience Report | 2025 | Buyers spend ~70% of the buying journey researching before talking to vendors; 83% define requirements before contacting sales; ~80% of conversations are buyer-initiated | Buyer's journey page (in build) |
+
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the
