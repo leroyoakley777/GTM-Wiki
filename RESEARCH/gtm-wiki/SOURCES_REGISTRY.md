@@ -274,6 +274,7 @@ structurally uncommittable, not caught by an auditor later.
 | 215 | Belkins 2025 | 2024 | B2B reps hitting quota 27-30% (2024); cold reply rates between 1% and 5% (Belkins 2025 via Haus Advisors) | docs/data/05-outbound-response-rates.md |
 | 216 | Artemis GTM Pipeline Metrics | 2026 | Pipeline metrics reference: coverage, velocity, win rate, cycle length, board KPIs with formulas and directional benchmarks (as of 2026) | docs/data/01-gtm-metrics.md |
 | 217 | AriseGTM Agentic GTM | 2026 | The Agentic GTM Operating Model: five specialist agents; autonomous AI agents as primary operators of high-volume GTM work, humans as designers/coaches | docs/agentic/00-agentic-gtm-overview.md |
+| 218 | Anura | 2024 | Global ad-fraud losses above $140B in 2024; programmatic fraud ~50%, affiliate ~45%, general digital ~25% | docs/channels/06-paid.md |
 
 ## Claim-verification status
 

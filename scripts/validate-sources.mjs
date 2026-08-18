@@ -100,7 +100,11 @@ function norm(s) {
 // Slash-joined pairs ("ChartMogul / Userpilot", "Mailforge/Instantly") match if
 // EITHER side resolves, since a page citing a pair is citing both constituents.
 function fuzzyMatch(cand, registered) {
-  // split slash-joined candidates and accept if any part resolves
+  // Try the whole candidate first — "NN/g" is a unit, not a slash-pair.
+  if (fuzzyMatchSingle(cand, registered)) return true;
+  // Slash-joined pairs ("ChartMogul / Userpilot", "Mailforge/Instantly") match
+  // if EITHER side resolves, since a page citing a pair is citing both
+  // constituents. Only reach here when the whole string didn't match.
   for (const part of cand.split('/')) {
     if (fuzzyMatchSingle(part, registered)) return true;
   }
@@ -153,7 +157,8 @@ function extractCandidates(content) {
     // (SourceName 2026) / (SourceName, 2026) — drop months as non-sources
     for (const m of line.matchAll(/\(([A-Z][A-Za-z0-9&.+' -]{2,48}?)(?:,|\s)(19|20)\d{2}\)/g)) {
       const t = m[1].trim().replace(/[',]$/, '').trim();
-      if (/^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\b/i.test(t)) continue;
+      // full-month token (covers "September", "Sept", "Jan 2025" style) is not a source
+      if (/^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i.test(t) && t.split(/\s+/).length <= 2) continue;
       if (t.length >= 3 && t.length <= 45 && /^[A-Z]/.test(t)) out.add(t);
     }
   }
@@ -171,9 +176,16 @@ const STOP = new Set([
 ]);
 const STOP_RE = /^(chapters?|sections?|further?|related|appendix|part|volume|step|version|draft|source|reference|reference[s]?)$/i;
 
+// Article/book titles that surface as [Text](url) link labels but are not
+// source names — reject as non-sources so they never block --strict.
+const TITLE_RE = /^(creating|complete|positioning|go[ -]to[ -]market|what|how|the|why|a guide|an? guide|state|future|art|science|definitive|practical)/i;
+const TITLE_WORD_RE = /\b(go[- ]to[- ]market|gtm)\b.*\b(strategy|framework|system|guide|playbook|examples?)\b/i;
+
 function isPlausible(cand) {
   if (STOP.has(norm(cand))) return false;
   if (STOP_RE.test(cand.trim())) return false;
+  if (TITLE_RE.test(cand.trim())) return false;
+  if (TITLE_WORD_RE.test(cand.trim())) return false;
   if (cand.length < 3 || cand.length > 60) return false;
   if (/^\d+/.test(cand)) return false;
   return true;
