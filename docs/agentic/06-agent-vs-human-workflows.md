@@ -2,6 +2,11 @@
 sidebar_position: 6
 title: Agent vs Human Workflows
 description: "Where agents do the work and where humans stay in the loop."
+last-updated: 2026-08-18
+status: active
+tags: [agentic, automation, workflow, human-in-the-loop, governance, revops]
+domain: agentic
+parent: agentic/index
 ---
 
 # 06: Agent vs Human Workflows
@@ -194,6 +199,103 @@ That last sequence (*start narrow, prove the control model, then scale*) is
 what separates durable automation programs from projects that get canceled the
 first time an error surfaces. Automate the right workflows with the right
 controls, not the most workflows with the fewest.
+
+## Five ways the split breaks
+
+The Autonomy Ladder is a plan. It breaks when reality meets the org. These
+are the common failure modes, in the order they usually bite.
+
+**1. Automating the send before the draft is good.**
+Teams jump straight to Stage 4 on outreach because the volume is painful.
+They skip the Draft stage, and the agent sends on-brand nonsense at scale.
+One bad message to a target account is a burnt deal. Fifty are a burnt
+domain. The domain dies before the SDR gets his groove back. Reach
+autonomy on outreach last, not first.
+
+**2. Handing the agent the highest-blast-radius step.**
+Pricing, contract language, and the first message to a decision-maker are
+the exact steps that close deals. They are also high-volume and painful.
+That combination is what tempts a team to automate them first. It is the
+wrong order. Automate the boring, reversible, low-stakes tier first. Leave
+the financial and reputational gates human until the control model is
+proven.
+
+**3. Buying a tool and keeping the old process.**
+This is the dead-easy way to fail: bolt an agent onto an unchanged human
+workflow. Now the human still does the work and supervises a redundant
+agent doing it again. You pay for both. Redesign the workflow around what
+the agent does best, then place the human at the checkpoints that remain.
+Agentic outbound from a single AI SDR tool fails this exact way.
+
+**4. Turning humans into debuggers.**
+Carnegie Mellon's human-agent study found the trap: premature automation
+forces humans into supervising a system that is still learning. That is a
+worse job than doing the work with AI assistance. The model should be a
+faster pair of hands under human control, not a system the human babysits.
+*(Source: Carnegie Mellon human-agent workflow study, 2026.)*
+
+**5. No kill switch.**
+Autonomy without a documented rollback is a liability. The first error
+surfaces, nobody knows how to stop it, and the whole program gets canceled
+in a panic. Governance is what lets you automate aggressively later. Skip
+it and you automate once, badly, then spend a year explaining why.
+
+Each failure mode has the same root cause: autonomy ran ahead of the
+control model. The Ladder and the governance checklist are the brake. Use
+them in the order written.
+
+## How the split changes by maturity
+
+The autonomy boundary is not static. It moves as the company, the data, and
+the controls mature. A boundary that is safe at seed stage is needlessly
+conservative at scale, and one that is safe at scale is reckless at seed.
+
+**Seed and pre-seed.** No data, no history, no audit culture. The founder
+is the human checkpoint for everything. Agents are assistants: research,
+drafting, enrichment. Nothing executes autonomously on a customer. The
+goal is speed with a human owner on every outbound touch.
+
+**Series A and B.** You have pipeline data, a CRM with real history, and a
+small RevOps function. The Recommend stage is reachable: lead scoring,
+territory suggestion, routing recommendations. Execute-with-approval works
+for routine internal actions. The customer-facing financial gate stays
+human.
+
+**Series C and enterprise.** Multi-year data, mature governance, audit
+logs, a real control model. Now the autonomous tier widens: enrichment,
+scheduling, routing, renewal triggers. Even here, the judgment layer stays
+human. Pricing, contract, and the personalized message to a decision-maker
+do not get handed over. Scale earns more autonomy on the boring tier, not
+the consequential one.
+
+*(Source: Apollo, "How RevOps Leaders Decide Which GTM Workflows to
+Automate with AI," 2026: the Ladder applied at increasing scale.)*
+
+## SOP: placing one workflow on the Ladder
+
+Run this routine every time you meet a new workflow. It is the same
+decision sequence from the top of the page, written as a repeatable SOP.
+
+```text
+SOP: PLACE-A-WORKFLOW
+1. Name the workflow and its trigger.
+2. Score it on three axes (each low/medium/high):
+   - Blast radius: what breaks if the agent is wrong?
+   - Data trust: is the input clean enough to decide on?
+   - Reversibility: can a human undo it fast?
+3. If blast radius is high, cap the workflow at Draft or Recommend.
+4. If reversibility is low, require a human approval gate.
+5. Place it on the Autonomy Ladder:
+   - High-volume + rule-based + reversible + no customer financial
+     commitment  ->  Autonomous or Execute-with-approval
+   - Anything customer-facing or financially consequential  ->  Draft
+6. Before any autonomy, verify the governance checklist: audit log,
+   least privilege, rollback, RACI, bias checks.
+7. Start narrow. Prove the control model. Then scale.
+```
+
+That SOP is the deliverable of this page. Print it, run it on every
+workflow, and the split stops being a judgment call and becomes a routine.
 
 ## Cross-references
 
