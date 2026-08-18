@@ -26,6 +26,7 @@ The one rule that governs every flow in this section: **augment, don't replace.*
 
 - [Outbound: from list to pipeline](./outbound): the executable version of [outbound-from-zero](../playbooks/outbound-from-zero). Decision gate → list → channel/tooling → sequence → run/measure → handoff, with an ASCII decision tree for the branches an operator hits.
 - [Agentic Outbound: the harness](./agentic-outbound): the same motion under an agent harness. The layer stack (data/compose/orchestration/triage), the augment-don't-replace rule, the triage decision tree, and the autonomy-placement table.
+- [Sales Process: the MEDDPICC flow](./sales-process-meddpicc): six stage-gated stages from qualification to closed-won. The activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis.
 
 More flows land here as the playbooks and agentic pages mature.
 
