@@ -258,29 +258,42 @@ function lintFile(file, report) {
         }
       }
     }
-    // 2b. Structural taste: promise-listing anaphora. "The X gives you the Y.
-    // The Z gives you the W. The Q gives you the R." in one breath is the
-    // AI-marketing cadence that reads as slop even when each item is concrete.
-    // Caught by density, not bare count, so a lone "gives you" (legit) or a
-    // factual enumeration across a page stays clear. Hard-fail >=3 in a
-    // ~400-char window.
-    const PROMISE_ANAPHORA = /\b(gives|lets|shows|teaches|walks|takes|hands|offers) you\b/gi;
+    // 2b. Structural taste: promise-listing anaphora. The AI-marketing tell is
+    // the breathless parallel listing of what each page "gives" the reader:
+    // "The X gives you the Y. The Z gives you the W." OR, synonym-swapped to
+    // dodge a narrow rule, "The X includes Y. The Z runs W. The Q carries R."
+    // (that is exactly how the live hero slipped past an earlier version of
+    // this rule). Caught by density across the DELIVERY class, not one token,
+    // so a lone delivery verb (legit) or a factual enumeration stays clear.
+    // A delivery clause is either "<verb> you" or "The <noun> <verb> the/you".
+    // Hard-fail >=3 delivery clauses in one ~400-char breath.
+    const DELIVERY_VERBS = '(?:gives|lets|shows|teaches|walks|takes|hands|offers|includes|carries|runs|brings|holds|delivers|provides|contains|ships|features|packs|loads|puts)';
     {
-      // Join prose into one buffer so JSX line-wraps don't hide the cadence.
       const proseText = prose.map((p) => p.text).join(' ');
       const marks = [];
-      let pm;
-      PROMISE_ANAPHORA.lastIndex = 0;
-      while ((pm = PROMISE_ANAPHORA.exec(proseText)) !== null) marks.push(pm.index);
+      let m;
+      const PROMISE_YOU = new RegExp(`\\b${DELIVERY_VERBS}\\s+you\\b`, 'gi');
+      const PROMISE_THE = new RegExp(`\\bThe\\s+[\\w-]+(?:\\s+[\\w-]+)?\\s+${DELIVERY_VERBS}\\s+(?:the|you)\\b`, 'gi');
+      PROMISE_YOU.lastIndex = 0;
+      while ((m = PROMISE_YOU.exec(proseText)) !== null) marks.push(m.index);
+      PROMISE_THE.lastIndex = 0;
+      while ((m = PROMISE_THE.exec(proseText)) !== null) marks.push(m.index);
+      // Dedupe marks inside the same clause (~50 chars apart) so one
+      // "The X gives you Y" sentence counts once, not twice.
+      marks.sort((a, b) => a - b);
+      const dedup = [];
+      for (const x of marks) {
+        if (!dedup.length || x - dedup[dedup.length - 1] > 50) dedup.push(x);
+      }
       let maxDensity = 0;
-      for (let i = 0; i < marks.length; i++) {
+      for (let i = 0; i < dedup.length; i++) {
         let n = 1;
-        for (let j = i + 1; j < marks.length && marks[j] - marks[i] <= 400; j++) n++;
+        for (let j = i + 1; j < dedup.length && dedup[j] - dedup[i] <= 400; j++) n++;
         if (n > maxDensity) maxDensity = n;
       }
       if (maxDensity >= 3) {
-        const snippet = proseText.slice(marks[0], marks[0] + 120).replace(/\s+/g, ' ').trim();
-        report(file, `promise-listing anaphora (>=3 "X gives you Y" in one breath): "${snippet}..."`, 'ERROR');
+        const snippet = proseText.slice(dedup[0], dedup[0] + 120).replace(/\s+/g, ' ').trim();
+        report(file, `promise-listing anaphora (>=3 delivery clauses "X gives/includes/runs you Y" in one breath): "${snippet}..."`, 'ERROR');
       }
     }
     // 3. MDX bare-<digit build trap (whole file: it is a build breaker).
