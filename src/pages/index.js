@@ -63,14 +63,12 @@ export default function Home() {
           <div className="gtm-hero__label">REFERENCE, NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Every page ships the artifact itself. The outbound playbook
-            includes the four-email sequence, word counts and all. The
-            sales-process page runs the six MEDDPICC stages with hard
-            exit criteria and a worked deal. The agentic section carries
-            the prompt and the SOP that operate the same motion. Each
-            number carries a named source and an as-of date; when one
-            goes stale, the page is updated and the replacement source
-            is dated too.
+            The artifact is in the page, not behind a vendor demo: the
+            outbound playbook's four cold emails with word counts, the
+            six MEDDPICC stages behind hard exit criteria and a worked
+            deal, and the agentic prompt and SOP that run the same
+            motion. Every figure is named and dated; a stale source is
+            replaced, and the replacement is dated too.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
