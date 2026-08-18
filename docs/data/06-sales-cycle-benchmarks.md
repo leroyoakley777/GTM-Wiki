@@ -19,9 +19,9 @@ SMB deal closes in 2-4 weeks. An enterprise deal runs a quarter or more.
 Plan per segment, never on one average.
 
 This page pairs with the [GTM Funnel](../foundations/gtm-funnel) and
-[GTM Metrics](../foundations/gtm-metrics) foundations - the funnel gives
-you the stages, metrics gives you the numbers to steer with, and this
-page gives you *how long each stage runs* and what that does to your
+[GTM Metrics](../foundations/gtm-metrics) foundations: the funnel names
+the stages, metrics are the numbers you steer with, and this page covers
+*how long each stage runs* and what that does to your
 forecast. It ships to the depth bar: the segment table, the cycle,
 velocity and forecast math with a worked example, how to read the
 numbers, common mistakes with fixes, and the agentic SOP to track cycle.

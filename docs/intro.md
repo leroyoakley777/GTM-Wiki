@@ -24,8 +24,8 @@ harnesses, and automation, where the leverage is, and where the
 guardrails must stay.
 
 Every page ships the real artifact, not a summary of one: the copy, the
-worked math, the tooling, the agent prompt. Open a page and you can run
-the motion.
+worked math, the tooling, the agent prompt. Pick a page and the work is
+there to copy, run, and adapt.
 
 | Section | It answers | Start here if… |
 |---|---|---|
