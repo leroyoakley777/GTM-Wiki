@@ -7,7 +7,9 @@
 set -e
 
 # Non-interactive stashes are risky in shared hooks; lint staged files only.
-staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|mdx)$' || true)
+# Scope to docs/ (the reader-facing tree). STANDARDS/, GUIDES/, etc. are
+# internal and intentionally never linted (lint.mjs walks only docs/ + src/).
+staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^docs/.*\.(md|mdx)$' || true)
 if [ -z "$staged" ]; then
   exit 0
 fi

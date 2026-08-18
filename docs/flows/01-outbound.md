@@ -23,8 +23,6 @@ you run it*: the ordered steps, the artifact each step must produce
 before you advance, the branch points where a miss sends you sideways,
 and the arithmetic that tells you what volume buys what outcome.
 
-Two rules govern the whole page.
-
 - **Do not advance on a miss.** Each gate is a hard stop until it
   passes. Skip a gate and the next step gets more expensive, not faster.
 - **Every number carries a named base and an "as of" date.** Sources

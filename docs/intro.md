@@ -14,17 +14,18 @@ framework is designed to be adapted to any business model or stage.
 
 ---
 
-## Organizing idea
+## What this is
 
-**Every concept has a page, and every page ships the artifact (copy,
-math, tooling, the agentic layer), not a summary of it.**
+The frameworks here (GTM Strategy, Channels Bullseye) are durable: they
+were true in 2015 and still hold in 2035. The *playbooks* show what to
+do against a specific situation. The **Agentic** section is the execution
+layer for the time we're in: how to run those same playbooks with agents,
+harnesses, and automation, where the leverage is, and where the
+guardrails must stay.
 
-The frameworks here (GTM Strategy, Channels Bullseye) are durable.
-They were true in 2015 and will be true in 2035. The *playbooks* show
-you what to do against a specific situation. And the **Agentic** section
-is the execution layer for the time we're in: how to run those same
-playbooks with agents, harnesses, and automation: where the leverage
-is, and where the guardrails must stay.
+Every page ships the real artifact, not a summary of one: the copy, the
+worked math, the tooling, the agent prompt. Open a page and you can run
+the motion.
 
 | Section | It answers | Start here if… |
 |---|---|---|

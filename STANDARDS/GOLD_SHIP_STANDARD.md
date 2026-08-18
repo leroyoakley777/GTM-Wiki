@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Gold Ship Standard
-description: "The four-question bar every page must clear before it ships live. True, tasteful, insightful, engaging: each one a gate, not a vibe."
+description: "The four-question bar every page must clear before it ships live. True, tasteful, insightful, engaging: each one a hard gate."
 last-updated: 2026-08-17
 status: active
 tags: [gold, standard, ship, quality, gtm-wiki]
@@ -11,9 +11,9 @@ parent: foundations/index
 
 # Gold Ship Standard
 
-**One line:** a page ships live only when every sentence clears four
-gates: **True, Tasteful, Insightful, Engaging.** Anything that fails a
-gate is a liability to credibility, and liabilities do not ship.
+A page ships live only when every sentence clears four gates: **True,
+Tasteful, Insightful, Engaging.** Anything that fails a gate is a
+liability to credibility, and liabilities do not ship.
 
 This is the bar Leroy set: after tonight GTM Wiki goes on a resume as
 work in progress. Every page is a proof of competence. A weak page

@@ -63,11 +63,11 @@ export default function Home() {
           <div className="gtm-hero__label">REFERENCE, NOT A BLOG</div>
           <h1>GTM Playbook</h1>
           <p className="gtm-hero__thesis">
-            Go-to-market, runnable. Every page ships the artifact itself: the
-            email sequence, the worked math on named and dated numbers, the
-            tooling, the agent prompt that runs the motion. Not a summary, not
-            a vendor deck. Numbers go stale; when they do we re-source and say
-            so. Built for the operators and the agents that run the motions.
+            Open a page and you can run the motion today. The outbound playbook
+            gives you the email sequence. The sales process gives you the
+            MEDDPICC stage gate with hard exit criteria and a worked deal. The
+            agentic section gives you the prompt that runs the motion end to
+            end. The artifact is in the page, not behind a vendor demo.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>

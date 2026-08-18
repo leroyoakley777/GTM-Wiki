@@ -15,8 +15,6 @@ This page is the executable view of a sales process. Six stages, run in
 order, each gated by exit criteria. MEDDPICC is the scoring engine: it tells
 you what is proven and what is still missing on a deal at any moment.
 
-Two rules govern the whole page.
-
 - **Do not advance on a miss.** Each stage has a hard exit gate. A deal that
   cannot meet it stays in the stage, because skipping a gate makes the next
   stage more expensive, not faster. The stall you see at proposal almost
