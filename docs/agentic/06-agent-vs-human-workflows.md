@@ -7,7 +7,7 @@ status: active
 tags: [agentic, automation, workflow, human-in-the-loop, governance, revops]
 domain: agentic
 parent: agentic/index
----
+  last_updated: 2026-08-18\n---
 
 # 06: Agent vs Human Workflows
 

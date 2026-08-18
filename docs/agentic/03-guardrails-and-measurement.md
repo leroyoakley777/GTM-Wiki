@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Guardrails & Measurement
 description: "Guardrails and measurement for agentic GTM: what to watch, what to cap, how to grade."
----
+  last_updated: 2026-08-18\n---
 
 # 03: Guardrails & Measurement
 
