@@ -92,10 +92,11 @@ structurally uncommittable, not caught by an auditor later.
 
 | # | Source | As-of | Key claims | Backing |
 |---|--------|-------|-----------|---------|
-| 41 | Gartner B2B buying study | 2024 | B2B buyers spend 27% of buying time researching independently online; avg 6-10 decision makers; 75% prefer a rep-free experience; 77% describe their last purchase as complex/difficult | Buyer's journey page (in build) |
-| 42 | CEB, The Challenger Customer | 2016 | Sellers who target mobilizers are 31% more likely to be high performers; B2B buying decisions grew from avg 5.4 to 6-10 stakeholders | Buyer's journey page (in build) |
-| 43 | Forrester | 2024 | 68% of B2B buyers prefer to research on their own online; 62% can finalize selection criteria or a vendor list from digital content alone; 70-80% of the buying journey happens before sales contact | Buyer's journey page (in build) |
-| 44 | 6sense, Buyer Experience Report | 2025 | Buyers spend ~70% of the buying journey researching before talking to vendors; 83% define requirements before contacting sales; ~80% of conversations are buyer-initiated | Buyer's journey page (in build) |
+| 41 | Gartner (Future of Sales) | 2020 | Buyers spend ~17% of buying time with suppliers; 33% prefer seller-free (44% millennials); 80% of interactions digital by 2025 (forecast) | BUYERS_JOURNEY_SOURCES.md |
+| 42 | Gartner (Sales Survey) | 2025 | 61% of B2B buyers prefer a rep-free buying experience | BUYERS_JOURNEY_SOURCES.md |
+| 43 | Forrester (State of Business Buying) | 2024 | 86% of B2B purchases stall; 81% of buyers dissatisfied; ~13 people in buying decision; 89% span 2+ depts; ~95% anticipate genAI in next 12 mo | BUYERS_JOURNEY_SOURCES.md |
+| 44 | 6sense (Buyer Experience Report) | 2025 | Buying cycle 10.1 mo (11.3 in 2024); POFC 61% of journey (69% 2024); 95% winning vendor on Day-One shortlist; ~80% won by pre-contact favorite; buyers do ~2/3 of journey pre-engagement; buying groups 10+; >80% buyer-initiated contact | BUYERS_JOURNEY_SOURCES.md |
+| 45 | CEB (Challenger Customer) | 2015 | Buyer roles Mobilizers/Talkers/Blockers; sellers targeting Mobilizers 31% more likely high performers; ~5,000-person study; 53% cite sales experience | BUYERS_JOURNEY_SOURCES.md |
 
 ### Vetted 2026-08-18 batch (workers web-verified; claims from citing pages)
 

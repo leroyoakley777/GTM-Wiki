@@ -62,7 +62,7 @@ if (existsSync(REGISTRY)) {
       if (m) {
         let name = m[1].trim();
         name = name.split(/\s+\(via\s+/i)[0];   // drop " (via Source)" tail
-        name = name.replace(/^\d+[\s.]*\d*\s*/, '').trim();
+        name = name.replace(/^\d+(?:[\s.]+|\s*$)/, '').trim(); // strip a leading YEAR-like token only if standalone (keeps "6sense", "6RS"); NOT glued to a word
         if (name && name.length >= 3) REGISTERED.add(name);
       }
     }
@@ -86,20 +86,48 @@ function walk(dir, acc = []) {
   return acc;
 }
 
-function norm(s) { return s.toLowerCase().replace(/[^a-z0-9]/g, ''); }
+function norm(s) {
+  let n = s.toLowerCase().replace(/[^a-z0-9]/g, '');
+  // drop a leading "the"/"a"/"an" so "The Starr Conspiracy" and "Starr
+  // Conspiracy" collapse to the same family
+  n = n.replace(/^(the|a|an)/, '');
+  return n;
+}
 
 // Are two source names the same under case/punct normalization? Also strips a
-// trailing year ("," 2025 / " 2025") and a "via Source" tail so
+// trailing year (", " 2025 / " 2025") and a "via Source" tail so
 // "SalesHive, 2025" and "Focus Digital, via Martal" resolve to "SalesHive"/"Focus Digital".
+// Slash-joined pairs ("ChartMogul / Userpilot", "Mailforge/Instantly") match if
+// EITHER side resolves, since a page citing a pair is citing both constituents.
 function fuzzyMatch(cand, registered) {
+  // split slash-joined candidates and accept if any part resolves
+  for (const part of cand.split('/')) {
+    if (fuzzyMatchSingle(part, registered)) return true;
+  }
+  return false;
+}
+
+function fuzzyMatchSingle(cand, registered) {
   let c = cand;
   c = c.replace(/,\s*(?:19|20)\d{2}$/, '');      // drop trailing ", 2025"
   c = c.replace(/\s+(?:19|20)\d{2}$/, '');       // drop trailing " 2025"
   c = c.replace(/,\s*via\s+.+$/i, '');           // drop ", via Source"
   c = c.replace(/\s+via\s+.+$/i, '');            // drop "via Source"
+  c = c.replace(/,\s*(?:case|report|survey|benchmark|study|pricing|statistics|research)\s*$/i, ''); // drop trailing report-kind
   c = norm(c);
   if (!c) return false;
   for (const r of registered) if (norm(r) === c) return true;
+  // partial: if the candidate's first token (the company name) matches a
+  // registered source, treat it as a variant citation of that source.
+  // >=4 chars guards against short tokens (e.g. "Ven") over-matching onto a
+  // longer registered name ("Vendelux"), which would let a doubtful source slip.
+  const firstTok = cand.split(/[\s,]+/)[0].toLowerCase().replace(/[^a-z0-9]/g,'').replace(/^(the|a|an)/,'');
+  if (firstTok && firstTok.length >= 4) {
+    for (const r of registered) {
+      const rn = norm(r);
+      if (rn === firstTok || rn.startsWith(firstTok + '')) return true;
+    }
+  }
   return false;
 }
 
