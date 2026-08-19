@@ -6,9 +6,7 @@ description: "One image of the whole wiki: every section and how it connects."
 
 # Map: one image, the whole wiki
 
-**Frameworks stay stable. Execution adapts.** Here's the entire wiki as a
-single tree: every section, how it connects, and where the depth
-lives. Bookmark it. It's the fastest way to orient.
+The tree below shows the wiki in one view: the sections, what each covers, and how they connect. Use the numbered list after it to find where to start.
 
 <svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" style={{ width: "100%", height: "auto", background: "#F7F6F2", borderRadius: 8, border: "1px solid #E2E1DC" }}>
   <defs>
@@ -169,4 +167,4 @@ lives. Bookmark it. It's the fastest way to orient.
 5. **Hired or stepping into a role?** Read the [Roles](/docs/roles) guides.
 6. **Need the numbers?** [Tools & Data](/docs/data) carries the named, dated benchmarks, and [Case Studies](/docs/case-studies) show the motions in practice.
 
-The map is the whole wiki at a glance. Bookmark it.
+Each numbered item links to its section page.
