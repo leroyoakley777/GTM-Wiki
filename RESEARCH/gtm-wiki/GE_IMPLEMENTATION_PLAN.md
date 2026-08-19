@@ -1,18 +1,18 @@
 ---
-title: "GE Standard — Implementation Plan"
+title: "GE Standard: Implementation Plan"
 tags: [gtm-wiki, plan, master-chief, fizz, bumble, honey, deploy]
 status: active
 created: 2026-08-19
 last_updated: 2026-08-19
 ---
 
-# GE Standard — Implementation Plan
+# GE Standard: Implementation Plan
 
 Owner: **Master Chief** (accountable for sequencing + verification). Inputs:
 `STANDARDS/GE_STANDARD.md` and `RESEARCH/gtm-wiki/GE_AUDIT_PRIORITIZED.md`.
 
 This plan was written after an **independent on-disk re-scan** of `docs/`, not
-from the audit's self-report. See "Verified state" below — one error in the
+from the audit's self-report. See "Verified state" below; one error in the
 audit was found and fixed here.
 
 ---
@@ -67,7 +67,7 @@ numbers, not round recollections. The plan below uses the file.
 
 Two independent streams (both gated by Bumble + Honey), one rounding stream.
 
-### Stream A — P0 rebuilds (Fizz, 21 pages)
+### Stream A: P0 rebuilds (Fizz, 21 pages)
 Rebuild each to GE anatomy: footnoted stats, shipped artifact, depth floor,
 `last_updated`, clean voice. Sub-order:
 
@@ -83,22 +83,22 @@ Rebuild each to GE anatomy: footnoted stats, shipped artifact, depth floor,
    `data/02-market-segmentation`, `04-pricing-as-gtm`, `05-outbound-response-rates`.
 4. **Case study**: `case-studies/04-community-led`.
 
-### Stream B — P1 footnoting pass (Bumble-led, 18 pages)
+### Stream B: P1 footnoting pass (Bumble-led, 18 pages)
 Surgical only: add numbered `[n]` markers to every bare stat, make the
 Sources section numbered, register anything missing, add `last_updated`.
-**No full rebuild.** This is the cheapest, highest-leverage pass — it makes
+**No full rebuild.** This is the cheapest pass; it makes
 `check:sources --strict` non-vacuous on 18 more pages. Launch **in parallel
 with Stream A** from the start.
 
 The 18 pure targets (from audit P1):
 case-studies/01, 02, 03, 05; channels/02, 03, 04, 05, 06, 08, 09;
 data/00, 01, 03, 06; playbooks/outbound-from-zero.
-(The other 6 P1 pages — channels/01, data/02, data/04, data/05, agentic/06,
-agentic/07 — get footnoted as part of their P0/P2 work, not here.)
+(The other 6 P1 pages: channels/01, data/02, data/04, data/05, agentic/06,
+agentic/07 get footnoted as part of their P0/P2 work, not here.)
 
-### Stream C — P2/P3 rounding (Fizz, 4 pages)
-P2: `agentic/06`, `agentic/07` — add footnoted stats + a 2nd artifact.
-P3: `foundations/00-what-is-gtm`, `00-gtm-strategy-framework` — add 2+
+### Stream C: P2/P3 rounding (Fizz, 4 pages)
+P2: `agentic/06`, `agentic/07`: add footnoted stats + a 2nd artifact.
+P3: `foundations/00-what-is-gtm`, `00-gtm-strategy-framework`: add 2+
 footnotes + a worked run-through / 2nd artifact.
 
 ---
@@ -116,14 +116,14 @@ A page is GE-READY only when all four are green.
 
 ---
 
-## Open owner decisions (Leroy — not my call, surfaced)
+## Open owner decisions (Leroy: not my call, surfaced)
 
-1. **Hero humility** — keep the home hero humble until the reference page
+1. **Hero humility**: keep the home hero humble until the reference page
    proves the bar? (flagged earlier in thread)
-2. **"Exceed" confirmation** — the standard defines exceed = depth + breadth
+2. **"Exceed" confirmation**: the standard defines exceed = depth + breadth
    + citation discipline + freshness stamp + artifacts-in-page. Awaiting his
    yes so Fizz/Bumble build to the right target.
-3. **gtmwiki.com DNS flip** (dotblock, owner boundary) — every ship is
+3. **gtmwiki.com DNS flip** (dotblock, owner boundary): every ship is
    invisible on the brand URL until this flips. Deploy holds the claim.
 
 ---

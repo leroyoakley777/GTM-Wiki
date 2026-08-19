@@ -54,6 +54,17 @@ const SRC = normalize(join(process.cwd(), 'src'));
 const SRC_PAGES = normalize(join(process.cwd(), 'src', 'pages'));
 const PAGE_EXT = /\.(md|mdx|js|jsx|tsx)$/;
 
+// S9 closes the whole hole: internal STANDARDS//RESEARCH/ prose is scanned
+// too, so "24 em dashes in GE_STANDARD" can never again be a human hand-count
+// (the morning's failure). The "The"-opening heading rule stays scoped to
+// reader-facing docs: internal files legitimately use descriptive "The ..."
+// headings (e.g. "The GE page anatomy"), and a blanket gate on them would
+// false-flag reference prose. Em dashes and promise-listing are unambiguous
+// slop everywhere, so they scan internal files too.
+const STANDARDS = normalize(join(process.cwd(), 'STANDARDS'));
+const RESEARCH = normalize(join(process.cwd(), 'RESEARCH'));
+const INTERNAL_ROOTS = [STANDARDS, RESEARCH];
+
 const EM_DASH = /—/g;
 
 const THE_OPENING = /^#{1,6}\s+The\s+/i;
@@ -100,7 +111,12 @@ function targetFiles(args) {
   if (args.includes('--staged')) return stagedFiles();
   const explicit = args.filter((a) => !a.startsWith('--'));
   if (explicit.length) return explicit.map((a) => normalize(a));
-  return [...walk(ROOT), ...walk(SRC), ...walk(SRC_PAGES, [], PAGE_EXT)];
+  return [
+    ...walk(ROOT),
+    ...walk(SRC),
+    ...walk(SRC_PAGES, [], PAGE_EXT),
+    ...INTERNAL_ROOTS.flatMap((r) => walk(r)),
+  ];
 }
 
 // ---------------------------------------------------------------------------
@@ -269,9 +285,10 @@ for (const f of files) {
   }
   const report = (device, line, snippet, level) => rows.push({ file: f, device, line, snippet, level });
   const isJs = /\.(js|jsx)$/.test(f);
+  const isInternal = INTERNAL_ROOTS.some((r) => normalize(f).startsWith(r + '/') || normalize(f) === r);
   const prose = isJs ? scanJsxProse(content) : scanProse(content, 1);
   checkEmDash(prose, report);
-  if (!isJs) checkTheHeading(prose, report);
+  if (!isJs && !isInternal) checkTheHeading(prose, report);
   checkPromiseListing(prose, report);
   checkTwoFragment(prose, report);
   checkUncitedStat(prose, report);

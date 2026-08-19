@@ -17,7 +17,7 @@ implementation plan; Honey gates the slop on every rebuild.
 pages). Measured on disk at current HEAD with a structural scan (word count,
 Sources section, `[n]` footnotes, code-fence artifacts, `last_updated`
 freshness stamp, H2 breadth). Note: the verified-state's "agentic 5" is an
-undercount — `agentic/07-building-a-gtm-copilot.md` exists, so agentic is 6.
+undercount: `agentic/07-building-a-gtm-copilot.md` exists, so agentic is 6.
 
 ## Headline counts (the gap at a glance)
 
@@ -35,7 +35,7 @@ close (P3).
 
 ---
 
-## P0 — thin flagship/foundation + top-level pages (fix first)
+## P0: thin flagship/foundation + top-level pages (fix first)
 
 These read as liabilities where readers start. Fix = rebuild to GE anatomy:
 footnote every stat (Bumble registers), ship an artifact, hit the word
@@ -66,12 +66,12 @@ floor, add `last_updated`, keep voice clean.
 | `case-studies/04-community-led.md` | 7,436 | Long, but 0 footnotes / 0 freshness / 0 artifact. Footnote the growth stats. |
 | `data/05-outbound-response-rates.md` | 2,039 | Below floor; 0 footnotes despite the whole page being numbers. |
 
-## P1 — footnoting pass (24 pages have a Sources section but zero `[n]`)
+## P1: footnoting pass (24 pages have a Sources section but zero `[n]`)
 
 These are the cheapest win: the gate already sees the source; the reader
 cannot link it. Fold every bare stat into a numbered `[n]` footnote, make
 the Sources section numbered, register anything missing (Bumble), and the
-True gate becomes non-vacuous everywhere. Does not require a full rebuild —
+True gate becomes non-vacuous everywhere. Does not require a full rebuild:
 surgical. 6 of the 24 are already captured in P0/P2 (channels/01-outbound,
 data/02, data/04, data/05, agentic/06, agentic/07); the 18 below are the
 pure footnoting targets. Pages (words, current code-fence count):
@@ -86,21 +86,21 @@ pure footnoting targets. Pages (words, current code-fence count):
 `playbooks/outbound-from-zero` (3,923, 5), `foundations/06-revenue-operations`
 (2,903, 1).
 
-## P2 — near-reference (one small gap each)
+## P2: near-reference (one small gap each)
 
 | Page | Gap |
 |------|-----|
 | `agentic/06-agent-vs-human-workflows.md` | Sources yes, freshness yes, 1 code fence; add footnoted stats + a 2nd artifact. |
 | `agentic/07-building-a-gtm-copilot.md` | Sources yes, freshness yes, 1 fence; add footnoted stats + worked example. |
 
-## P3 — already-clean (minor rounding)
+## P3: already-clean (minor rounding)
 
 | Page | Gap |
 |------|-----|
 | `foundations/00-what-is-gtm.md` | 1 footnote, 1 fence, freshness yes. Add 2+ more footnoted stats + a second artifact. |
 | `foundations/00-gtm-strategy-framework.md` | 3 footnotes, 1 fence, freshness yes. Add a worked run-through. |
 
-## DONE — the reference (the bar is met here)
+## DONE: the reference (the bar is met here)
 
 | Page | Notes |
 |------|-------|
@@ -111,9 +111,9 @@ pure footnoting targets. Pages (words, current code-fence count):
 ## Priority rationale
 
 1. **P0 first** because a thin flagship or top-level page actively costs
-   trust at the entry points of the topic graph — the exact opposite of
+   trust at the entry points of the topic graph, the exact opposite of
    Leroy's "everything not true/tasteful/insightful is a liability."
-2. **P1 is the highest-leverage cheap pass**: 24 pages go from
+2. **P1 is the highest-value cheap pass**: 24 pages go from
    gate-invisible to gate-visible with surgical footnoting, no full rebuild.
 3. **P2/P3** close the last few near-clean pages.
 

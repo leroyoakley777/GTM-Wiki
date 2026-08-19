@@ -51,11 +51,11 @@ S8. **One owner of the deployable whole per build.** Multi-agent work gets a nam
 
 S9. **The slop and state scan is a mandatory gate, not a courtesy.** Every page and every verified claim passes the automated scan first. Personal vigilance is the backup, not the control. Honey builds the scan (em-dash detector, two-fragment-contrast detector, "The"-heading check, promise-listing gate, uncited-stat detector) and wires it into the shared state gate so the next build does not depend on a human being awake.
 
-**Refinement (vigilance shrinks, not carries).** B1/B2 made the contract non-fakeable; S9's "personal vigilance is backup" still inverts reality. The 24 em dashes were caught by humans because the gate was too weak. The rule is the reverse: every human catch becomes a gate rule, so the machine catches it next time. Vigilance is the exception that shrinks, not the backup that carries the load.
+**Refinement (vigilance shrinks, not carries).** B1/B2 made the contract non-fakeable; S9's "personal vigilance is backup" still inverts reality. Humans caught the 24 em dashes because the gate was too weak. The rule is the reverse: every human catch becomes a gate rule, so the machine catches it next time. Vigilance is the exception that shrinks, not the backup that carries the load.
 
-S10. **Metrics or it did not happen.** Exceeding is defined by auditable counters, not vibe: depth gate per page type, broken-link count, unregistered-source count, detached-HEAD count, em-dash count, two-fragment-contrast count, "The"-opening-heading count, promise-listing count, and uncited-stat count. All are machine-countable and part of the per-page gate.
+S10. **Metrics or it did not happen.** Auditable counters define exceeding, not vibe: depth gate per page type, broken-link count, unregistered-source count, detached-HEAD count, em-dash count, two-fragment-contrast count, "The"-opening-heading count, promise-listing count, and uncited-stat count. All are machine-countable and part of the per-page gate.
 
-**Refinement (the metric that cannot be gamed).** S10 metrics must be enforced by the deploy pipeline, not reported into chat. A metric an agent reports can be gamed; a metric the build fails on cannot. The one that matters is binary and hard: does `origin/main` pass the full gate at deploy time.
+**Refinement (the metric that cannot be gamed).** The deploy pipeline enforces S10 metrics; chat does not. A metric an agent reports can be gamed; a metric the build fails on cannot. The one that matters is binary and hard: does `origin/main` pass the full gate at deploy time.
 
 ## S9: the scan becomes a gate
 

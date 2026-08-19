@@ -59,11 +59,12 @@ No AI-slop, no ornament, no filler. Reads like a sharp human wrote it.
 - No unearned superlatives (world-class, best-in-class, highest-signal).
 - No "not X. It is Y." two-fragment aphorism.
 - No staccato numeric aphorisms ("Six lanes. One map.").
-- No em dashes (—). Use parentheses, commas, a colon, or a sentence
+- No em dashes. Use parentheses, commas, a colon, or a sentence
   split. EN dashes (–) are fine for ranges (3–10, 2024–2026).
 - Headings never open with "The" and name the concrete thing.
-- No marketing voice: no "seamlessly," "holistically," "unlock the
-  potential," "supercharge," "game-changer."
+- No marketing voice. The exact banned-token list is enforced by the
+  machine gate (see `BANNED` in `scripts/lint.mjs`); keep every token it
+  names out of prose. No "supercharge," no "game-changer," no variants.
 - Short sentences, active voice, claim density high. No throat-clearing
   intros, no filler paragraphs.
 

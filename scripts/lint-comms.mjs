@@ -35,7 +35,14 @@ function walk(dir) {
 }
 
 const docs = join(process.cwd(), "docs");
-const files = walk(docs);
+const standards = join(process.cwd(), "STANDARDS");
+const research = join(process.cwd(), "RESEARCH");
+const roots = [docs, standards, research];
+// SOURCES_REGISTRY.md is structured data (source name + claim + page list),
+// not prose. A voice gate must not rewrite a source's recorded claim (e.g.
+// "in three months" is the vendor's own wording). Exclude the one data file;
+// all prose files walk the voice gate.
+const files = roots.flatMap((r) => walk(r)).filter((f) => !f.endsWith("SOURCES_REGISTRY.md"));
 let count = 0;
 const MAX_REPORT = 200;
 let reported = 0;
@@ -80,5 +87,5 @@ if (count > 0) {
   console.error(`\nCOMMS LINT FAILED: ${count} violation(s) (showing up to ${MAX_REPORT}). Fix before deploy.`);
   process.exit(1);
 }
-console.log("COMMS LINT PASS: no violations across docs/");
+console.log("COMMS LINT PASS: no violations across docs/, STANDARDS/, RESEARCH/");
 process.exit(0);

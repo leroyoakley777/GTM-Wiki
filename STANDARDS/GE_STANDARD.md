@@ -66,8 +66,8 @@ bearing.
    do.)
 8. **Run it today**  -  one section an operator can execute now.
 9. **Sources**  -  numbered list, `[Name](url)`, every URL registered.
-10. **Freshness stamp**  -  `last_updated: <date>` in frontmatter (underscore,
-    the anatomy key). A stale source is replaced and the replacement dated.
+10. **Freshness stamp**  -  `last_updated: <date>` in frontmatter (the `_`
+    form, the anatomy key). A stale source is replaced and the replacement dated.
 
 ## The measurable gate per page (the "exceeds grokipedia" bar)
 

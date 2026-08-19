@@ -33,6 +33,18 @@ const SRC = normalize(join(process.cwd(), 'src'));
 const SRC_PAGES = normalize(join(process.cwd(), 'src', 'pages'));
 const PAGE_EXT = /\.(md|mdx|js|jsx|tsx)$/;
 
+// Internal team meta (STANDARDS/ + RESEARCH/) is scanned too. The morning
+// failure was "24 em dashes in GE_STANDARD" being a human hand-count, never
+// machine-verified, because the gates only walked docs/ + src/pages. Internal
+// prose gets the same taste rules (em dash, banned tokens, promise-listing,
+// MDX trap) but NOT the docs-only structural rules: internal files carry a
+// different frontmatter schema, contain team meta by design, and link to
+// commit hashes / registry paths, so INTERNAL_META leak, "The"-heading,
+// cross-link, and sidebar_position checks stay scoped to reader-facing copy.
+const STANDARDS = normalize(join(process.cwd(), 'STANDARDS'));
+const RESEARCH = normalize(join(process.cwd(), 'RESEARCH'));
+const INTERNAL_ROOTS = [STANDARDS, RESEARCH];
+
 // Internal-team meta must NEVER ship as reader-facing docs/. The Gold Ship
 // Standard used to live here with a carve-out ("the spec, not a ship page")
 // and quietly shipped to the live site. It now lives in STANDARDS/ (outside
@@ -110,7 +122,12 @@ function targetFiles(args) {
   if (args.includes('--staged')) return stagedFiles();
   const explicit = args.filter((a) => !a.startsWith('--'));
   if (explicit.length) return explicit.map((a) => normalize(a));
-  return [...walk(ROOT), ...walk(SRC), ...walk(SRC_PAGES, [], PAGE_EXT)];
+  return [
+    ...walk(ROOT),
+    ...walk(SRC),
+    ...walk(SRC_PAGES, [], PAGE_EXT),
+    ...INTERNAL_ROOTS.flatMap((r) => walk(r)),
+  ];
 }
 
 // ---------------------------------------------------------------------------
@@ -268,6 +285,13 @@ function lintFile(file, report) {
   const rel = normalize(file);
   const repoRel = normalize(`./${rel.replace(process.cwd(), '').replace(/^\//, '')}`);
   const exempt = false; // no carve-outs: every docs/ page is a ship page and gets the full taste gate
+  // Internal team meta (STANDARDS/ + RESEARCH/): scanned for the prose taste
+  // rules (em dash, banned tokens, promise-listing, MDX trap) so slop can no
+  // longer hide in the standards the wiki is held to. Docs-only structural
+  // rules (leak guard, "The"-heading, cross-links, frontmatter contract) stay
+  // scoped to reader-facing copy because internal files carry team meta by
+  // design, link to commit hashes, and use a different frontmatter schema.
+  const isInternal = INTERNAL_ROOTS.some((r) => normalize(file).startsWith(r + '/') || normalize(file) === r);
   let content;
   try {
     content = readFileSync(file, 'utf8');
@@ -378,29 +402,41 @@ function lintFile(file, report) {
         report(file, `bare <digit MDX trap (use &lt;) on line ${i + 1}: ${text.trim().slice(0, 60)}`, 'ERROR');
       }
     });
-    // 4. "The"-opening headings (markdown headings only).
-    if (!isJs) {
+    // 4. "The"-opening headings (markdown headings only, reader-facing docs).
+    //    Internal files legitimately carry descriptive "The ..." headings
+    //    (e.g. "The GE page anatomy") — the heading rule targets slop cadence
+    //    on shipped pages, not internal reference prose.
+    if (!isJs && !isInternal) {
       for (const { line, text } of prose) {
         if (THE_OPENING.test(text)) {
           report(file, `heading opens with "The" on line ${line}`, 'ERROR');
         }
       }
     }
-    // 5. Internal-team meta leak guard: any docs/ page carrying coordination
-    // markers is internal, not content. Hard fail = it can never ship live.
-    for (let i = 0; i < INTERNAL_META.length; i++) {
-      if (INTERNAL_META[i].test(content)) {
-        report(file, `internal-team meta leak detected (marker ${i}) - move out of docs/`, 'ERROR');
+    // 5. Internal-team meta leak guard: only meaningful on reader-facing docs/.
+    //    A docs/ page carrying coordination markers is internal, not content.
+    //    Internal STANDARDS//RESEARCH/ files contain team meta BY DESIGN, so
+    //    the guard must not fire on them.
+    if (!isInternal) {
+      for (let i = 0; i < INTERNAL_META.length; i++) {
+        if (INTERNAL_META[i].test(content)) {
+          report(file, `internal-team meta leak detected (marker ${i}) - move out of docs/`, 'ERROR');
+        }
       }
     }
   }
 
-  // 6. Cross-links always checked (even exempt files may link).
-  checkLinks(file, content, report);
+  // 6. Cross-links always checked (even exempt files may link) — reader-facing
+  //    docs only. Internal files link to commit hashes, registry paths, and
+  //    repo-relative paths that the docs slug resolver would false-flag.
+  if (!isInternal) {
+    checkLinks(file, content, report);
+  }
 
   // 7. Soft: frontmatter completeness (WARN, not blocking). Markdown pages
-  // only — JSX page components carry no frontmatter and must not be flagged.
-  if (/\.(md|mdx)$/.test(file)) {
+  //    only — JSX page components carry no frontmatter and must not be flagged.
+  //    Internal files use a different schema (no sidebar_position); skip.
+  if (!isInternal && /\.(md|mdx)$/.test(file)) {
     if (!/^title:/m.test(content)) report(file, 'missing frontmatter `title:`', 'WARN');
     if (!/^description:/m.test(content)) report(file, 'missing frontmatter `description:`', 'WARN');
     if (!/^sidebar_position:/m.test(content)) report(file, 'missing frontmatter `sidebar_position:`', 'WARN');
