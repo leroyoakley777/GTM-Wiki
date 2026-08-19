@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Sales Process - the MEDDPICC Flow
 description: "Six stage-gated sales stages from qualification to closed-won, run on MEDDPICC: the activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis."
-last-updated: 2026-08-17
+last_updated: 2026-08-19
 status: active
 tags: [sales, meddpicc, flow, qualification, discovery, negotiation, closing, ae]
 domain: flows
@@ -334,31 +334,19 @@ economic buyer, not just procurement.
 - A proposal template that mirrors the decision criteria.
 - A negotiation plan: what you will concede, what you will not, and what each
   concession costs in margin.
+- The MSA, the contract tooling (such as Ironclad), and the order form.
 
-**Artifact this stage produces**
+**Artifacts this stage produces**
 
 - The proposal, plus a negotiation plan that records every concession and its
   margin cost, so leadership can see what the deal cost to win.
+- An implementation / adoption framework.
 
 **The real gate.** All MEDDPICC letters are filled out before this stage
 closes. Deployment scope and timeline are added to the MAP, the three Ys are
 updated, procurement relationships are established, the booking mechanism is
 confirmed through the partner where applicable, contract execution is
 coordinated, and customer success / post-sales support is introduced.
-
-**Resources sellers need**
-
-- Pricing and negotiation guidelines, including a discount authority table.
-- A proposal template that mirrors the decision criteria.
-- A negotiation plan: what you will concede, what you will not, and what each
-  concession costs in margin.
-- The MSA, the contract tooling (such as Ironclad), and the order form.
-
-**Artifacts this stage produces**
-
-- The proposal, plus a negotiation plan recording every concession and its
-  margin cost.
-- An implementation / adoption framework.
 
 **Exit criteria (hard gate)**
 
@@ -438,8 +426,7 @@ Top 5 accounts:
 
 The pipeline number is not a guess. To hold $100k of quota you need roughly
 $300k-$400k of qualified pipeline, because pipeline coverage of 3-4x is the
-healthy band for mid-market (getSpike SaaS benchmarks, 2026). Fill the top 5
-rows before you add row 6.
+healthy band for mid-market [1]. Fill the top 5 rows before you add row 6.
 
 ### PG 5x5 grid
 
@@ -539,10 +526,10 @@ wants fixed.
 **The arithmetic you should trust.** At $50k ACV (2026 base) and a 21% close
 rate, one win needs about five qualified opportunities. Five qualified opps
 times a 21% close rate is just over one win. The ~21% Opp to Closed-Won
-figure is Ebsta/Pavilion (2021-2024). SalesMotion (2026) puts qualified win
-rates near 29%, which still means three to four qualified opps per win. Hold
-four qualified opps and expect to lose one. That is a named base, not a
-guess. Quota is a pipeline problem before it is a closing problem.
+figure is Ebsta/Pavilion (2021-2024) [2]. SalesMotion (2026) puts qualified
+win rates near 29% [3], which still means three to four qualified opps per
+win. Hold four qualified opps and expect to lose one. That is a named base,
+not a guess. Quota is a pipeline problem before it is a closing problem.
 
 ---
 
@@ -626,3 +613,11 @@ This is the same discipline as the rest of the wiki: the flow gates the deal,
 the agent enforces the gate, and a deal only moves when the evidence is on
 record. A stalled deal becomes visible in the notes, not a surprise at
 proposal.
+
+---
+
+## Sources
+
+1. [getSpike: SaaS Marketing Benchmarks](https://getspike.ai/blog/saas-marketing-benchmarks/): pipeline coverage 3-4x qualified pipeline per quota is the healthy band for mid-market; 4-5x for enterprise (2026).
+2. [Ebsta & Pavilion: B2B Sales Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): opportunity to closed-won 21% average, down 4-6 points from 2021; SQL to opportunity 47% (2021-2024).
+3. [SalesMotion: Sales Win Rate Benchmarks 2026](https://salesmotion.io/blog/sales-win-rate-benchmarks-2026): qualified win rate ~29%; all-deal win rate ~21% (2026).
