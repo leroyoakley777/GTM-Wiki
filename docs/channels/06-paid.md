@@ -8,7 +8,7 @@ tags: [paid, channels, ads]
 
 # Paid Acquisition
 
-**Paid is the channel you can switch on and off with a credit card, and the only one that burns cash every second it is on.** It is the great scaler and the great eraser. Done right, it buys exactly as much pipeline as your sales team can close, then stops. Done badly, it converts cash into clicks and a dashboard that looks busy while the company quietly loses money.
+**Paid is the channel you scale with a budget change, and it burns cash from the second it is on.** Unlike most other channels, it buys pipeline directly, so the sizing question is simple: spend up to what your sales team can close, and stop when a customer stops repaying its acquisition cost. The rest of this page is how to measure that payback and keep the motion profitable.
 
 Paid advertising covers search, social, display, programmatic, and retargeting. The ad platforms differ, but the deciding variable is the same everywhere: **unit economics**. Does the lifetime gross margin of a customer repay what it costs to acquire them, and how fast?
 
