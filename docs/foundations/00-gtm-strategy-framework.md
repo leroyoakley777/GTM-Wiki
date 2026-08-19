@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: GTM Strategy Framework (Universal)
 description: "The universal GTM strategy framework and how it applies across stages and markets."
+last_updated: 2026-08-19
 ---
 
 # GTM Strategy Framework
@@ -49,8 +50,8 @@ A GTM strategy reduces this risk by forcing you to answer the hard questions bef
 
 The cost of skipping this work is higher in 2025-2026 than ever:
 
-- **B2B buyers complete 70% of their journey before contacting sales** (Forrester). Your GTM must account for the self-serve research phase or you lose before the conversation starts.
-- **76% of organizations have had to significantly or completely reinvent their GTM approach in the past 3 years** (Forrester). The static annual plan is dead.
+- **B2B buyers complete 70% of their journey before contacting sales** (Forrester, 2024) [1]. Your GTM must account for the self-serve research phase or you lose before the conversation starts.
+- **76% of organizations have had to significantly or completely reinvent their GTM approach in the past 3 years** (Forrester, 2024) [1]. The static annual plan is dead.
 - **AI competition is intensifying across every software category.** Differentiation must be sharp. Without it you compete on price.
 
 Companies with a strong GTM strategy see better CAC ratios, higher win rates, and faster time-to-revenue. They engineer payback within 12-18 months instead of hoping for it within 24.
@@ -59,7 +60,7 @@ Companies with a strong GTM strategy see better CAC ratios, higher win rates, an
 
 ## GTM Strategy Framework
 
-The framework has three phases, adapted from Bain's go-to-market system and refined through practice:
+The framework has three phases, adapted from Bain's go-to-market system [2] and refined through practice:
 
 ### Phase 1: Analyze
 
@@ -197,6 +198,33 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 
 ---
 
+## GTM Strategy Canvas (run it today)
+
+Fill this in for a launch. If any line takes longer than a week to answer, the
+answer is probably wrong. Each line maps to a section above; the canvas is the
+one-page output of the framework.
+
+```
+GTM Strategy Canvas                          date: <today>   owner: <you>
+Product / offer:  <what you sell + the job it does>
+Target ICP:       <company size / industry / location / budget threshold>
+Beachhead:        <one segment to dominate first>
+Pain:             <the acute problem, in the buyer's words>
+Value prop:       For <ICP>, who <pain>, we provide <solution> that <outcome>.
+Motion:           <primary + secondary: PLG / SLG / ABM / hybrid>
+Channels (2-3):   1. <channel>   2. <channel>   3. <channel>
+Pricing:          <value anchor + competitor check + cost floor>
+Metrics:          <pipeline / conversion / CAC / cycle / win rate>  target + date
+30/60/90 targets: Day 30 <...>   Day 60 <...>   Day 90 <...>
+Launch:           <work backward from launch; assign owners; soft launch first>
+```
+
+The canvas is a resource until it is filled with real answers. A filled canvas
+is the artifact that gates the launch: if a field is blank, the strategy is not
+done.
+
+---
+
 ## 90-Day GTM Implementation Roadmap
 
 ### Days 1-30: Foundation
@@ -244,6 +272,13 @@ The first 60-90 days are for learning. Expect to adjust messaging, onboarding fl
 **No feedback loops.** If you do not capture why deals are won and lost, you cannot see what is working. Sales call recordings, customer interviews, support tickets: these are your GTM data. Set them up from day one.
 
 **Pricing as an afterthought.** Pricing is a GTM lever, not a finance decision. It shapes positioning, channel strategy, and sales motion. Do the willingness-to-pay research. Test pricing. Don't just copy a competitor.
+
+---
+
+## Sources
+
+1. [Forrester: State of GTM 2024](https://www.forrester.com/): 70% of the B2B buyer journey is self-serve; 76% of organizations reinvented their GTM approach in the past 3 years.
+2. [Bain & Company: Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/): the Analyze / Design / Deliver framework this page is built on.
 
 ---
 
