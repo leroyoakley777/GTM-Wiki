@@ -60,15 +60,10 @@ export default function Home() {
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
-          <div className="gtm-hero__label">REFERENCE, NOT A BLOG</div>
-          <h1>GTM Playbook</h1>
+          <h1>Open GTM Wiki</h1>
           <p className="gtm-hero__thesis">
-            The artifact is in the page, not behind a vendor demo: the
-            outbound playbook's four cold emails with word counts, the
-            six MEDDPICC stages behind hard exit criteria and a worked
-            deal, and the agentic prompt and SOP that run the same
-            motion. Every figure is named and dated; a stale source is
-            replaced, and the replacement is dated too.
+            Thank you for visiting our page. If you would like to collaborate
+            on this, please email leroy.oakley777@gmail.com.
           </p>
           <div className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
