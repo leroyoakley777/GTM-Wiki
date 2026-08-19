@@ -21,4 +21,9 @@ if ! node scripts/lint.mjs $staged; then
   echo "Fix them (or, for a legit one-off, git commit --no-verify)."
   exit 1
 fi
+
+# S9 slop scan on the same staged files. Hard violations block; WARN
+# candidates (two-fragment, uncited dated-stat) print for the human eye.
+echo "gtm-wiki pre-commit: running S9 slop scan on staged files..."
+node scripts/scan-slop.mjs $staged
 exit 0
