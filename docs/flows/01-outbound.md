@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Outbound - the Runnable Flow
 description: The executable outbound motion as a sequence - decision gate, list build, channel and tooling, sequence, run and measure, handoff - with the artifact at every step, the throughput math on named bases, a worked run, objections, and the agentic SOP.
-last-updated: 2026-08-17
+last_updated: 2026-08-19
 status: active
 tags: [outbound, flow, cold-email, sdr, sequence, throughput, agentic]
 domain: flows
@@ -216,8 +216,83 @@ higher reply rates** than longer formats
 ([Martal, via Mailforge/Instantly](https://martal.ca/b2b-cold-email-statistics-lb/),
 2026). One ask per email. Value first. Write like a human.
 
-The copy is in the playbook and you should paste it from there. What
-this flow adds is the cadence and the branch points.
+The four emails below are the artifact this step must produce. They are
+templates with placeholders: the blank fields are what the signal,
+list, and ICP work from the earlier steps fills in. Every email stays
+under 90 words and makes exactly one ask.
+
+**Email 1 - the reason-to-reach plus one observation (no pitch).**
+
+```text
+Subject: quick question re: {their_signal}
+
+Hi {first},
+
+Saw {company} just {hired a VP of {segment} / announced a {funding}
+round / rolled out {tech} on {stack}}. Given that change, I wanted to
+ask: is {specific thing you noticed} on your radar right now?
+
+{One line of value: a concrete observation relevant to their
+situation, not a pitch.}
+
+Worth a 10-minute look?
+
+{Your first name}
+```
+
+**Email 2 (day 3-4) - a proof point or resource relevant to their
+situation.**
+
+```text
+Subject: re: {their_signal}: one thing to read
+
+Hi {first},
+
+Circling back. On the {specific change} front, this resource has been
+useful for teams running {same motion}: {link}.
+
+The short version: {one-line takeaway}. Figured it might save you the
+digging.
+
+If it's useful and you'd like to compare notes, happy to. Either way,
+good luck with {their_signal}.
+
+{Your first name}
+```
+
+**Email 3 (day 7-8) - a different angle, usually social proof or a
+question.**
+
+```text
+Subject: {first}, one quick question
+
+Hi {first},
+
+Not chasing, just curious. Teams in {segment} that took {the same
+action} typically see {one concrete outcome} within {timeframe}.
+
+Is that the kind of thing you're weighing, or is {their_signal}
+pointing somewhere else?
+
+{Your first name}
+```
+
+**Breakup (day 12-14) - an honest stop.**
+
+```text
+Subject: closing the loop
+
+Hi {first},
+
+I'll close this out rather than clutter your inbox. If the timing
+gets better ({specific trigger to watch for}), reply and we'll pick
+it up.
+
+Best,
+{Your first name}
+```
+
+The cadence that runs these, and the branch points between them:
 
 | Day | Touch | Channel | Content | Ask |
 |---|---|---|---|---|
@@ -501,6 +576,54 @@ reps hit quota in 2024**, down from historical norms
 ([Belkins, via Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide),
 2026), so most sellers are doing average work on a struggling channel.
 Plan outbound as one part of a mixed motion.
+
+---
+
+## Variants by company stage and ACV
+
+The flow is the same skeleton for every motion; the knobs differ by
+company stage and deal size. This is how the six steps change when you
+move between them.
+
+### Seed-stage (under $1M ARR, sub-$5k ACV)
+
+- **Step 0 bends the ACV rule.** Sub-$5k ACV is normally below the
+  floor, but a founder-led motion has zero marginal labor cost, so a
+  single founder sending to a tight 100-row list can make it work.
+  Keep the list small and the copy manual. Do not hire an SDR here.
+- **Step 4 runs on a smaller sample.** The 300+ sends per variant
+  floor assumes one motion. A seed team runs one variant on one list,
+  so the readout is slower and the "prove it" gate is what matters.
+- **Step 5 is the founder's calendar.** Handoff is a demo the founder
+  takes; the meeting standard is still written, because it decides
+  which of the few meetings get their time.
+
+### Mid-market (roughly $1M-$30M ARR, $5k-$50k ACV)
+
+- This is where the flow as written runs unchanged. The $139,120/year
+  SDR cost ([AiSDR, 2026](https://aisdr.com/blog/sdr-vs-ai-cost/))
+  pays out, the list tiers cleanly, and the 500-row base produces a
+  measurable 2-5 meetings per month.
+- **Step 2 needs a dedicated sender domain.** At this scale a shared
+  inbox burns a domain; the 2+ week warmup and 25-50/day cap are
+  non-negotiable ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
+
+### Enterprise ($30M+ ARR, $50k+ ACV)
+
+- **Step 1 moves from volume to account selection.** The list is tens
+  of accounts, not thousands. Every row earns deep research, and the
+  reason-to-reach is a multi-touch account narrative, not one signal.
+- **Step 3 stretches the sequence.** Multi-stakeholder deals need
+  touches aimed at different roles - champion, economic buyer, and
+  technical evaluator each get a distinct email path. The single
+  four-email sequence still opens, but it branches by stakeholder.
+- **Step 4 expects a different funnel.** At $50k+ ACV the reply rate
+  floor is lower and the deal rate is the score, not meetings booked.
+  The meetings-per-1,000-sends metric is a mid-market instrument.
+
+The flow you run is always the same six gates in order. Only the
+knobs - list size, sample floor, sequence branching, and the score -
+change with the company you are selling into.
 
 ---
 
