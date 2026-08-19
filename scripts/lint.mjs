@@ -19,6 +19,7 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, dirname, extname, basename, normalize } from 'node:path';
 import { execSync } from 'node:child_process';
+import YAML from 'js-yaml';
 
 // ---------------------------------------------------------------------------
 // Config
@@ -221,6 +222,44 @@ function checkLinks(file, content, report) {
   }
 }
 
+// 8. Front-matter well-formedness (HARD gate — a malformed or unclosed block
+// fails the Docusaurus build, taking the whole deploy down with it). Parse the
+// block with the real YAML engine instead of regex-soaking key presence, which
+// is exactly how the 2026-08-19 incident slipped through: the closing `---`
+// was embedded mid-line ('last_updated: ...\\n---'), so the block never closed
+// and YAML threw 'bad indentation of a mapping entry' — yet every key was still
+// line-anchored and passed the old presence check.
+function checkFrontmatter(file, content, report) {
+  const lines = content.split('\n');
+  if (lines[0].trim() !== '---') {
+    report(file, 'front matter must open with `---` on line 1', 'ERROR');
+    return;
+  }
+  // Find the closing `---` on its own line (from line 2 on).
+  let close = -1;
+  for (let i = 1; i < lines.length; i++) {
+    if (lines[i].trim() === '---') { close = i; break; }
+  }
+  if (close === -1) {
+    report(file, 'front matter never closes: no second `---` on its own line', 'ERROR');
+    return;
+  }
+  // Any `---` before the real close that is not on its own line means the block
+  // stayed open (the exact build-breaking defect we caught in the agentic/ dir).
+  for (let i = 1; i < close; i++) {
+    if (lines[i].includes('---') && lines[i].trim() !== '---') {
+      report(file, `front matter: closing delimiter embedded mid-line (line ${i + 1}); must be on its own line`, 'ERROR');
+    }
+  }
+  // Parse the block with js-yaml — the same engine Docusaurus uses. Any YAML
+  // error is a guaranteed build failure, so it is a hard lint error.
+  try {
+    YAML.load(lines.slice(1, close).join('\n'));
+  } catch (e) {
+    report(file, `front matter fails YAML parse: ${String((e && e.reason) || e).split('\n')[0]}`, 'ERROR');
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Per-file lint
 // ---------------------------------------------------------------------------
@@ -329,6 +368,12 @@ function lintFile(file, report) {
     if (!/^title:/m.test(content)) report(file, 'missing frontmatter `title:`', 'WARN');
     if (!/^description:/m.test(content)) report(file, 'missing frontmatter `description:`', 'WARN');
     if (!/^sidebar_position:/m.test(content)) report(file, 'missing frontmatter `sidebar_position:`', 'WARN');
+  }
+  // 8. Hard: front-matter well-formedness. A broken block fails the build, so
+  // it must fail lint too (runs pre-commit + as the Vercel build gate). JSX
+  // page components carry no frontmatter; skip them.
+  if (/\.(md|mdx)$/.test(file)) {
+    checkFrontmatter(file, content, report);
   }
 }
 
