@@ -50,21 +50,23 @@ no source, a confident number the writer could not defend in a meeting.
 
 No AI-slop, no ornament, no filler. Reads like a sharp human wrote it.
 
-**Hard rules (the banned list, enforced):**
-- Never the word "actual."
+**Hard rules (the banned list, enforced by the machine gate):**
+- The exact banned tokens live in `scripts/lint.mjs` (`BANNED`); this prose
+  names the families, the machine names the exact words. Keep every token
+  the machine flags out of prose.
 - No "real"-family filler: say the concrete thing (working, genuine,
   live, in practice).
 - No semicolon-joined prose. Split into two sentences.
 - No ornamental "the": only where grammar requires it.
-- No unearned superlatives (world-class, best-in-class, highest-signal).
+- No unearned superlatives: every superlative token the machine gate flags.
 - No "not X. It is Y." two-fragment aphorism.
 - No staccato numeric aphorisms ("Six lanes. One map.").
 - No em dashes. Use parentheses, commas, a colon, or a sentence
   split. EN dashes (–) are fine for ranges (3–10, 2024–2026).
 - Headings never open with "The" and name the concrete thing.
-- No marketing voice. The exact banned-token list is enforced by the
-  machine gate (see `BANNED` in `scripts/lint.mjs`); keep every token it
-  names out of prose. No "supercharge," no "game-changer," no variants.
+- No marketing voice. The machine gate enforces the exact banned-token
+  list (see `BANNED` in `scripts/lint.mjs`); keep every token it names
+  out of prose. No variants, no near-synonyms.
 - Short sentences, active voice, claim density high. No throat-clearing
   intros, no filler paragraphs.
 

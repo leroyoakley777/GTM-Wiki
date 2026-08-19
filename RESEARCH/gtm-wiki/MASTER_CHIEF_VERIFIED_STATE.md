@@ -15,7 +15,7 @@ Verified facts (disk + live DNS), not self-reports:
 
 2. **Page denominator = 43, not 62, not 40.** The earlier "62" counted ALL
    `.md` under docs/ INCLUDING 19 `index.md` hub pages (which depth/lint/source
-   gates correctly skip) and 4 phantom pages (roles 10 → actual 9 index-only;
+   gates correctly skip) and 4 phantom pages (roles 10 → 9 index-only;
    glossary 1 and tools 1 do not exist as content pages). Recounted at HEAD
    c149980b via `find docs -name '*.md' ! -name index.md` = **43 non-index
    content pages**. Independent counts confirmed: `last_updated` 6/43, Sources
@@ -26,10 +26,10 @@ Verified facts (disk + live DNS), not self-reports:
    freshness stamp and a Sources section. The fan-out denominator is 43.
 
 3. **True gate is LIVE.** Injected a fake source (ClearlyFakeCorp) into docs/
-   and ran the gate — caught in both warn and `--strict`. vercel.json
+   and ran the gate; caught in both warn and `--strict`. vercel.json
    buildCommand wires `validate-sources -- --strict`. So "0 unregistered" is a
    real green, not a vacuous pass. The gate walked all 43 files (its summary
-   "across N file(s)" counts only FAILING files, so a clean scan reports 0 — a
+   "across N file(s)" counts only FAILING files, so a clean scan reports 0; a
    0-file scan would print "no files to check" and exit 2, which did NOT happen).
    The real gap is structural: 19/43 pages have no Sources section for the gate
    to check.
@@ -95,11 +95,11 @@ headline claim instead of trusting the green self-report:
   marker text not being hyperlinked anchors is a non-blocking parity note).
 
 Honey's two non-blocking notes folded into the fan-out standard:
-1. `[n]` markers render as literal text, not hyperlinked anchors — optional
+1. `[n]` markers render as literal text, not hyperlinked anchors (optional
    polish; not required to clear the bar.
 2. "A no is a result. A maybe that wastes six weeks is not." is accepted as
    good operational voice, explicitly NOT the "X is not Y. It is Z." slop tell
-   — documented so the standard is silent-free.
+   (documented so the standard is silent-free).
 OPEN GAP: the "X is not Y. It is Z." two-fragment contrast (a separate tell
 from parallel delivery) is NOT caught by 2b/2b2. Honey owns the human-eye
 backstop for now; a distinct detector is deferred unless Leroy wants it hard.
@@ -111,20 +111,20 @@ measured against it. Gate stack per page: 2b + 2b2 + lint:comms + check:depth
 checklist (lint 0/0, sources strict 0, build clean, origin serving, then
 custom-domain health only after DNS flip).
 
-Batch 1 (closest to bar — carry as near-reference raw material):
-- case-studies/ (5 pages, 5/5 Sources, 4/5 code) — Fizz owns.
-- channels/ (9 pages, 8/9 Sources, 8/9 code) — Fizz owns.
+Batch 1 (closest to bar; carry as near-reference raw material):
+- case-studies/ (5 pages, 5/5 Sources, 4/5 code): Fizz owns.
+- channels/ (9 pages, 8/9 Sources, 8/9 code): Fizz owns.
 - docs/flows/01-outbound.md (demoted from reference pick; 4 fences, no
-  Sources) — Fizz owns, rebuild to anatomy.
+  Sources): Fizz owns, rebuild to anatomy.
 
 Batch 2 (foundations + data, thinnest structural gaps):
-- foundations/ (9 pages, 1/9 Sources, 2/9 code; 00 has 0 tables + 0 code) —
+- foundations/ (9 pages, 1/9 Sources, 2/9 code; 00 has 0 tables + 0 code):
   Honey owns the structural depth pass.
-- data/ (7 pages, 7/7 Sources, 5/7 code) — Honey owns.
+- data/ (7 pages, 7/7 Sources, 5/7 code): Honey owns.
 
 Batch 3 (remaining):
 - playbooks/ (1), top-level (intro/map/contributing), agentic (5, already
-  5/5 freshness) — assigned on Batch 1/2 completion.
+  5/5 freshness): assigned on Batch 1/2 completion.
 
 Bumble supports all batches: register every named+dated stat each rebuild
 footnotes, pre-landed so --strict passes. Deploy verifies per-page on origin
