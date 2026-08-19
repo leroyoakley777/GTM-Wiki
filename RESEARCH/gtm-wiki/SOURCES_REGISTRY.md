@@ -280,6 +280,13 @@ structurally uncommittable, not caught by an auditor later.
 | 221 | Peak | 2026 | SaaS M&A customer retention: gross dollar retention 85–95%, net dollar retention 110–120% | docs/data/04-pricing-as-gtm.md |
 | 222 | The Cold Start Problem | 2021 | Viral growth as a flavor of network effect; cold-start theory of network effects (Andrew Chen) | docs/channels/08-referral-viral.md |
 | 223 | Fullcast | 2026 | 3-layer AI GTM engine architecture (unified data / intelligence / orchestration); 5-step build blueprint; RevOps as natural owner; governance + human oversight; phased implementation | docs/agentic/07-building-a-gtm-copilot.md |
+| 224 | Product Marketing Alliance | n/a | Messaging principles: lead with the problem, be specific, use the buyer's language, proof beats claims, one idea per asset | docs/skills/03-messaging.md |
+| 225 | Geoffrey Moore | n/a | Crossing the Chasm positioning template: "For [target] who [need], our product is a [category] that [benefit]" | docs/skills/03-messaging.md |
+| 226 | dailyintelservice | 2026 | BAB vs FAB vs 4Ps vs PASTOR: framework structures + decision-based selection (BAB transformation, FAB product logic, 4Ps short-form, PASTOR trust/long-form) | docs/skills/03-messaging.md |
+| 227 | assetacademy.io | 2026 | Copywriting frameworks: PAS as beginner default, PASTOR skipped-Story step, copy-paste AI prompts | docs/skills/03-messaging.md |
+| 228 | Ray Edwards | n/a | PAS and PASTOR frameworks (Problem/Agitate/Solution; Problem/Amplify/Story/Transformation/Offer/Response); honest agitation | docs/skills/03-messaging.md |
+| 229 | readstoleads | n/a | From AIDA to PAS: AIDA attributed to E. St. Elmo Lewis; problem-first PAS structure | docs/skills/03-messaging.md |
+| 230 | cloudclicks | n/a | Ray Edwards PASTOR framework acronym; role in trust-based selling | docs/skills/03-messaging.md |
 
 ## Claim-verification status
 

@@ -65,6 +65,23 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Skills',
+      collapsed: false,
+      link: { type: 'doc', id: 'skills/index' },
+      items: [
+        'skills/prospecting',
+        'skills/outbound',
+        'skills/messaging',
+        'skills/signals',
+        'skills/abm',
+        'skills/pricing',
+        'skills/seo',
+        'skills/ads',
+        'skills/revops',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Roles',
       collapsed: false,
       items: [
