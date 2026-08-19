@@ -60,6 +60,7 @@ const sidebars = {
         'agentic/agentic-outbound',
         'agentic/guardrails-and-measurement',
         'agentic/agent-vs-human-workflows',
+        'agentic/building-a-gtm-copilot',
       ],
     },
     {

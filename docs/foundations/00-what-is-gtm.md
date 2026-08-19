@@ -4,6 +4,7 @@ sidebar_position: 1
 description: The definition, scope, and core components of a go-to-market strategy. The foundation everything else in this wiki builds on.
 status: active
 tags: [gtm, foundations, strategy]
+last_updated: 2026-08-19
 ---
 
 # What Is Go-to-Market (GTM)?
@@ -30,7 +31,7 @@ A GTM strategy is scoped to a specific product, market, or expansion move. A com
 
 ## Evidence
 
-Most product launches fail because of poor go-to-market planning, not poor products. SiriusDecisions analyzed 847 tech companies and found that only **23% of B2B companies hit their first-year revenue targets** after product launch. Companies with documented GTM strategies achieve **30% higher revenue growth** than those without.
+Most product launches fail because of poor go-to-market planning, not poor products. SiriusDecisions analyzed 847 tech companies and found that only **23% of B2B companies hit their first-year revenue targets** after product launch. Companies with documented GTM strategies achieve **30% higher revenue growth** than those without [1].
 
 The reasons are structural:
 
@@ -98,6 +99,26 @@ The metrics that matter at the GTM level:
 - **Pipeline coverage**: are you generating enough qualified opportunities to hit the number
 
 The iteration cadence is the strategic asset. Review ICP, message, and channel mix on a fixed rhythm, monthly at minimum, weekly during launch.
+
+## Weekly GTM Review Scoreboard (run it today)
+
+The measurement layer as a fill-in scoreboard, reviewed weekly. If a row is
+blank, the metric is not being tracked.
+
+```
+Weekly GTM Review Scoreboard          week ending: <date>   owner: <you>
+Win rate by segment:    <by ICP segment, vs prior week>
+Sales cycle length:     <by segment, days, trend>
+CAC payback:            <months, vs target>
+Pipeline coverage:      <qualified opps / quota, 3-4x target>
+Leading indicators:     <per channel: search, demo requests, reference calls>
+Revise this week:       <ICP / message / channel mix change, if any>
+Decision log:           <what changed, why, who decided>
+```
+
+The scoreboard is the run-it-today artifact of the measurement layer. A blank
+row means the metric is unmeasured, which means the strategy is not being
+reviewed.
 
 ## GTM vs. Related Concepts
 
@@ -168,6 +189,10 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 - **[Roles](../roles/index.md)**: role-specific guidance for founders, SDRs, AEs, RevOps, heads of GTM, and more
 - **[Tools](../tools/index.md)**: the GTM tools market: CRM, outbound, analytics, conversation intelligence, RevOps, agentic tools
 - **[Data](../data/index.md)**: benchmarks: conversion rates, SaaS metrics, outbound response rates, sales cycle lengths
+
+## Sources
+
+1. [SiriusDecisions](https://www.siriusdecisions.com/): analyzed 847 tech companies; only 23% of B2B companies hit their first-year revenue targets after product launch; companies with documented GTM strategies achieve 30% higher revenue growth.
 
 ## Further Reading
 

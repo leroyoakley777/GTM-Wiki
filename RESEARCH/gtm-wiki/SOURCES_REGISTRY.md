@@ -279,6 +279,7 @@ structurally uncommittable, not caught by an auditor later.
 | 220 | SaaS Mag | 2026 | Partner-sourced revenue median 24%, top-quartile 40% for B2B SaaS (ecosystem-led growth) | docs/channels/04-partner.md |
 | 221 | Peak | 2026 | SaaS M&A customer retention: gross dollar retention 85–95%, net dollar retention 110–120% | docs/data/04-pricing-as-gtm.md |
 | 222 | The Cold Start Problem | 2021 | Viral growth as a flavor of network effect; cold-start theory of network effects (Andrew Chen) | docs/channels/08-referral-viral.md |
+| 223 | Fullcast | 2026 | 3-layer AI GTM engine architecture (unified data / intelligence / orchestration); 5-step build blueprint; RevOps as natural owner; governance + human oversight; phased implementation | docs/agentic/07-building-a-gtm-copilot.md |
 
 ## Claim-verification status
 
