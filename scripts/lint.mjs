@@ -335,6 +335,42 @@ function lintFile(file, report) {
         report(file, `promise-listing anaphora (>=3 delivery clauses "X gives/includes/runs you Y" in one breath): "${snippet}..."`, 'ERROR');
       }
     }
+    // 2b2. Parallel-predicate anaphora: the SAME delivery verb repeated 3+
+    // times across "The <noun> <verb> ..." clauses in one breath. Complements
+    // 2b, which only fires on "<verb> you" or "The X <verb> the/you": 2b2
+    // catches the same-verb parallel list where the verb takes a different
+    // complement ("The outbound page hands a sequence. The sales page hands
+    // the gates. The agentic page hands the prompt."). Copulas are excluded
+    // deliberately: "The X is Y" is the backbone of reference prose, and a
+    // 3-in-400-char copula test false-flagged 18 legit pages (tested
+    // 2026-08-19). The AI-marketing tell is the delivery predicate, not "is".
+    {
+      const proseText = prose.map((p) => p.text).join(' ');
+      const PREDICATE = new RegExp(`\\bThe\\s+[\\w-]+(?:\\s+[\\w-]+)?\\s+(${DELIVERY_VERBS})\\b`, 'gi');
+      const hits = [];
+      let pm;
+      PREDICATE.lastIndex = 0;
+      while ((pm = PREDICATE.exec(proseText)) !== null) hits.push({ index: pm.index, verb: pm[1].toLowerCase() });
+      const byVerb = new Map();
+      for (const h of hits) {
+        if (!byVerb.has(h.verb)) byVerb.set(h.verb, []);
+        byVerb.get(h.verb).push(h.index);
+      }
+      let flagged = false;
+      for (const [verb, idxs] of byVerb) {
+        idxs.sort((a, b) => a - b);
+        for (let i = 0; i < idxs.length && !flagged; i++) {
+          let n = 1;
+          for (let j = i + 1; j < idxs.length && idxs[j] - idxs[i] <= 400; j++) n++;
+          if (n >= 3) {
+            const snippet = proseText.slice(idxs[i], idxs[i] + 120).replace(/\s+/g, ' ').trim();
+            report(file, `parallel-predicate anaphora (same delivery verb "${verb}" 3+ times in one breath "The X ${verb} Y"): "${snippet}..."`, 'ERROR');
+            flagged = true;
+            break;
+          }
+        }
+      }
+    }
     // 3. MDX bare-<digit build trap (whole file: it is a build breaker).
     lines.forEach((text, i) => {
       MDX_DIGIT_TRAP.lastIndex = 0;
