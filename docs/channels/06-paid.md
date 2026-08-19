@@ -12,7 +12,7 @@ tags: [paid, channels, ads]
 
 Paid advertising covers search, social, display, programmatic, and retargeting. The ad platforms differ, but the deciding variable is the same everywhere: **unit economics**. Does the lifetime gross margin of a customer repay what it costs to acquire them, and how fast?
 
-This page is the *where* of paid. It covers when paid is the right call, the benchmarks that tell you whether the motion is profitable, the stack, the rollout sequence, the failure modes, the handoffs, and the agentic layer that runs spend to payback.
+This page covers when paid is the right call, the benchmarks that tell you whether the motion is profitable, the stack, the rollout sequence, the failure modes, the handoffs, and the agentic layer that runs spend to payback.
 
 Read the [GTM Funnel](/docs/foundations/gtm-funnel) first, then the [Conversion Rate Benchmarks](/docs/data/conversion-rate-benchmarks) data page. This page sits on top of both.
 
