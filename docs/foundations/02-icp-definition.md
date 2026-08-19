@@ -2,6 +2,9 @@
 sidebar_position: 3
 title: Ideal Customer Profile (ICP) Definition
 description: "How to define, validate, and iterate on an Ideal Customer Profile: the cornerstone of any GTM strategy. Account-level, not persona-level. Built from data, not intuition."
+status: active
+tags: [gtm, foundations, icp, strategy, segmentation]
+last_updated: 2026-08-19
 ---
 
 # Ideal Customer Profile (ICP) Definition
@@ -30,10 +33,10 @@ The biggest early-stage mistake: building a buyer persona ("Marketing Mary, VP M
 
 Companies with a clearly defined ICP achieve significantly better outcomes than those without one:
 
-- **68% higher win rates** for B2B SaaS companies with a defined ICP (SiriusDecisions/Forrester research)
-- **30% more marketing-generated revenue** from well-defined ICPs (SiriusDecisions)
-- **14% higher pipeline conversion** from ICP-aligned account-based strategies (Gartner)
-- **86% of business buyers** say they are more likely to buy when their goals are understood (Salesforce State of Sales)
+- **68% higher win rates** for B2B SaaS companies with a defined ICP (SiriusDecisions/Forrester) [1]
+- **30% more marketing-generated revenue** from well-defined ICPs (SiriusDecisions) [1]
+- **14% higher pipeline conversion** from ICP-aligned account-based strategies (Gartner) [2]
+- **86% of business buyers** say they are more likely to buy when their goals are understood (Salesforce State of Sales) [3]
 
 The structural reasons:
 
@@ -175,7 +178,7 @@ The iteration loop:
 3. **Refine firmographic boundaries as you learn.** If every won deal in the last quarter was $10M-$30M ARR, your upper bound may be too high.
 4. **Test ICP expansions deliberately.** Once you dominate a beachhead, expand the ICP by one dimension at a time (new vertical, new size band, new geography) and measure the impact on win rate and sales cycle.
 
-81% of top-performing account-based organizations have high confidence that their ICP accurately represents their ideal accounts (Gartner). They earned that confidence through iteration, not declaration.
+81% of top-performing account-based organizations have high confidence that their ICP accurately represents their ideal accounts (Gartner) [2]. They earned that confidence through iteration, not declaration.
 
 ## Common Mistakes
 
@@ -195,6 +198,8 @@ The iteration loop:
 
 ## ICP at Different Stages
 
+The ICP document takes different variants by stage, by segment, and by maturity. The core contract stays the same; the precision and the operating cadence change.
+
 **Pre-product-market fit.** Your ICP is a hypothesis. You have early customers and a theory about who they are. The job is to validate that theory with more conversations and more data. Expect to revise. Expect to be wrong. The goal is to find the pattern that predicts who buys.
 
 **Early traction ($0-$2M ARR).** Your ICP is emerging from data. You have enough closed-won deals to see patterns. Narrow the ICP to the segment where you win fastest and retain best. Resist the urge to broaden too early. Focus is the advantage at this stage.
@@ -212,6 +217,12 @@ This wiki treats ICP as the first building block of any GTM strategy: the founda
 - **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)**: how ICP informs positioning and message architecture
 - **[Channels: Channels Bullseye](./01-gtm-channels-bullseye.md)**: how ICP determines which channels to test
 - **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)**: how ICP data feeds AI-powered outbound
+
+## Sources
+
+1. [SiriusDecisions/Forrester: Top Account-Based Marketing and Intent Data Statistics](https://www.foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): 68% higher win rates with a defined ICP; 30% more marketing-generated revenue.
+2. [Gartner: Account-Based Marketing Research](https://www.gartner.com/en/marketing/accounts/marketing): 14% higher pipeline conversion from ICP-aligned ABM; 81% of top-performing ABM orgs trust their ICP (2024).
+3. [Salesforce: State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): 86% of business buyers more likely to buy when their goals are understood (5,500 sales professionals, 27 countries, 2024).
 
 ## Further Reading
 
