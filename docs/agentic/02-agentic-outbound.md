@@ -2,7 +2,9 @@
 sidebar_position: 2
 title: Agentic Outbound
 description: "How to run outbound with agents end to end, from list to booked meeting."
-last_updated: 2026-08-18
+last_updated: 2026-08-19
+status: active
+tags: [agentic, outbound, playbook]
 ---
 
 # 02: Agentic Outbound
