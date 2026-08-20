@@ -2,7 +2,9 @@
 sidebar_position: 1
 title: The Agentic Stack
 description: "The agentic GTM stack: models, harnesses, tools, and guardrails, and how they fit together."
-last_updated: 2026-08-18
+last_updated: 2026-08-19
+status: active
+tags: [agentic, stack, architecture]
 ---
 
 # 01: The Agentic Stack
@@ -205,6 +207,25 @@ feel.
 - **Buying a single "AI SDR" and calling it a stack.** One autonomous
   agent is not a use. The use is in the layered system and the
   reply loop, not in the branded persona.
+
+---
+
+## Variant: by company stage and technical maturity
+
+The same five layers get assembled differently as a team grows. Match the
+starting scope to where you are.
+
+| Stage | Data layer | Research layer | Human-in-loop depth |
+|---|---|---|---|
+| Seed | One enrichment source, manual dedupes | Human-written briefs, agent assembler | Human approves every send |
+| Scale-up | Clay + Apollo waterfall, auto-dedup | Agent drafts brief, human approves | Pattern approval after 300+ sends |
+| Enterprise | Full CDP + intent + CRM sync | Agent briefs, sampled human review | Tiered: live approval on high-value |
+| Adding agentic to legacy stack | Existing warehouse, limited API access | Agent reads, human translates to system | Human translates every action |
+
+A seed company that buys a full orchestration platform drowns in
+configuration. An enterprise that hand-writes every brief leaves the
+volume ceiling in place. Build the layer that fits the stage, then add the
+next when the current one pays for itself.
 
 ---
 
