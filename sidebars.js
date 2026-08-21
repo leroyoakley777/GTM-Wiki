@@ -48,6 +48,7 @@ const sidebars = {
       link: { type: 'doc', id: 'playbooks/index' },
       items: [
         'playbooks/outbound-from-zero',
+        'playbooks/inbound-content-engine',
       ],
     },
     {
