@@ -291,6 +291,10 @@ structurally uncommittable, not caught by an auditor later.
 | 232 | GTM Savants | 2026 | 6-step AI go-to-market operating system (market/product/signal diagnosis, positioning as a system, messaging architecture, demand/sales/journey orchestration, adoption/retention/expansion, dashboards to decisions); competitive advantage = designing GTM as a system that learns faster than the market | docs/agentic/08-gtm-os-architecture.md |
 | 233 | SaaS Hero | 2026 | Unified GTM OS: five core components (centralized data layer, RevOps workflows with SLAs, AI-driven insights, orchestration platforms, revenue KPIs); 5-step build framework; siloed teams 2x CAC + slower pipeline velocity, unified 20-40% CAC reduction + 2x workflow speed + 17%+ ARR predictability | docs/agentic/08-gtm-os-architecture.md |
 | 234 | ZoomInfo GTM Predictions | 2026 | GTM evolves to a unified operating system; AI as "truth teller" exposing broken handoffs and misaligned metrics; unified data architecture non-negotiable; AI-native GTM (teams build custom purpose-specific agents); AI judged on revenue not promise | docs/agentic/08-gtm-os-architecture.md |
+| 235 | Traction (Weinberg & Mares) | 2014 | The Bullseye Framework: five-step channel-selection process (brainstorm, rank, prioritize, test, focus); 19 traction channels; inner/middle/outer rings | docs/foundations/01-gtm-channels-bullseye.md |
+| 236 | Brian Balfour | 2014 | Bullseye essay: channel strategy changes by growth phase; Thiel quote on one optimal distribution channel; test for CAC, volume, fit; Mint example (blogs then PR, 1M users in 6 mo) | docs/foundations/01-gtm-channels-bullseye.md |
+| 237 | Rise Marketing | 2026 | Bullseye Framework 2026 guide: 19 original channels reinterpreted for 2026 (borrowed audiences, AI search, lifecycle messaging); channel test design and assessment; framework limits | docs/foundations/01-gtm-channels-bullseye.md |
+| 238 | Peter Thiel | 2012 | One distribution channel is optimal; most businesses get zero channels to work; poor distribution is the #1 cause of failure (via CS183 notes / Zero to One) | docs/foundations/01-gtm-channels-bullseye.md |
 
 ## Claim-verification status
 
