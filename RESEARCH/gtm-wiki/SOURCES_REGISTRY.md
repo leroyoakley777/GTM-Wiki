@@ -296,6 +296,15 @@ structurally uncommittable, not caught by an auditor later.
 | 237 | Rise Marketing | 2026 | Bullseye Framework 2026 guide: 19 original channels reinterpreted for 2026 (borrowed audiences, AI search, lifecycle messaging); channel test design and assessment; framework limits | docs/foundations/01-gtm-channels-bullseye.md |
 | 238 | Peter Thiel | 2012 | One distribution channel is optimal; most businesses get zero channels to work; poor distribution is the #1 cause of failure (via CS183 notes / Zero to One) | docs/foundations/01-gtm-channels-bullseye.md |
 
+### Vetted 2026-08-25 batch (worker web-verified; claims from citing pages)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 239 | Demodesk | 2026 | BANT/MEDDIC/CHAMP/SPICED comparison; BANT fast filter for short cycles, MEDDIC for 5+ stakeholder committees; use BANT to screen then MEDDIC on progressing deals | docs/playbooks/sales-process-design.md |
+| 240 | ManageYourLeads | 2026 | Layered qualification (BANT screen -> CHAMP discovery -> MEDDIC on progressing deals); re-qualify at every gate; BANT vs MEDDIC vs CHAMP ACV fits | docs/playbooks/sales-process-design.md |
+| 241 | Default | 2026 | SDR-to-AE handoff best practices: AE needs qualification, intent, deal context, clear next step | docs/playbooks/sales-process-design.md |
+| 242 | Rework | 2026 | SDR-to-AE handoff SLA: SDR books qualified meeting, completes handoff record, attends first 15 min of discovery for warm handoff | docs/playbooks/sales-process-design.md |
+
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the
