@@ -166,9 +166,8 @@ of GTM. GTM Savants, 2026.
 The operating model also reframes who does what. In an agentic GTM
 model, autonomous agents handle the high-volume repetitive work while
 humans become designers, coaches, and decision-makers. This is the
-[agentic operating model](https://arisegtm.com/agentic-ai-for-revenue-teams)
-AriseGTM describes: agents as primary operators, humans as architects.
-AriseGTM, 2026.
+[AriseGTM](https://arisegtm.com/agentic-ai-for-revenue-teams) sells this model as deployed
+agents that run RevOps workflows and GTM execution: "not AI strategy decks." AriseGTM, 2026.
 
 ## How to execute
 
