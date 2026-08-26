@@ -69,6 +69,6 @@ For the Skills build, the named integrator committed the tree to `feat/skills-se
 
 - Ratified by Leroy on 2026-08-19; the first-principles cut is endorsed.
 - Refinements B1 and B2 folded in (verified = pinned commit, pipeline witnesses). The strongest S9/S10 sharpenings added.
-- The Skills work remains on `feat/skills-section`, not `main`. Pushing to `main` is a live deploy to gtmwiki.com and stays Leroy's call.
+- The Skills work remains on `feat/skills-section`, not `main`. Pushing to `main` is a live deploy to gtm-wiki-nu.vercel.app and stays Leroy's call.
 - Honey's open commitment: build `scan-slop.mjs` and wire it into the gate and the pre-commit hook so the build does not depend on a human being awake.
 - This file is the authoritative statement of the culture. Keep it current; an untracked or stale copy is a violation of S6.

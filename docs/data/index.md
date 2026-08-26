@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+tags: [data]
 title: Data
 description: "Benchmark data and GTM metrics behind decisions, each number named and dated."
 ---

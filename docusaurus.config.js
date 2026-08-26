@@ -11,7 +11,7 @@ const config = {
   tagline: 'The best open-source Go-to-Market resource for founders, operators, and builders',
   favicon: 'img/favicon.svg',
 
-  url: 'https://gtmwiki.com',
+  url: 'https://gtm-wiki-nu.vercel.app',
   baseUrl: '/',
 
   organizationName: 'opengtm',

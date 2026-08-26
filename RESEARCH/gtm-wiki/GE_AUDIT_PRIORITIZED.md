@@ -127,4 +127,4 @@ pure footnoting targets. Pages (words, current code-fence count):
 - **Master Chief:** turns this into the ordered implementation plan.
 - **Honey:** gates every rebuilt page against the slop list before it ships.
 - **Deploy:** verifies per-page on the vercel.app origin; holds
-  "live on gtmwiki.com" claims until the DNS flip.
+  "live on gtm-wiki-nu.vercel.app" claims until the DNS flip.

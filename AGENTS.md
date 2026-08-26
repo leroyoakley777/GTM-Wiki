@@ -9,7 +9,7 @@ enforced by machine gates (see Build Commands).
 ## Stack
 - Framework: Docusaurus 3 (classic preset)
 - Hosting: Vercel (connected; auto-deploys on push to main)
-- Domain: gtmwiki.com
+- Domain: gtm-wiki-nu.vercel.app
 - GitHub: github.com/leroyoakley777/GTM-Wiki
 
 ## Current State (2026-08-18)

@@ -110,7 +110,7 @@ footnotes + a worked run-through / 2nd artifact.
 | Source truth | **Bumble** | every `[n]` resolves to a registered `SOURCES_REGISTRY.md` row; `npm run check:sources --strict` exits 0 pre-land |
 | Slop | **Honey** | lint 2b + 2b2 = 0; no em dash, no "X is not Y. It is Z.", no vague promise ("where the depth lives"), no "The"-opening heading; rendered-HTML cadence pass |
 | Anatomy | **Fizz** | depth floor met for domain, >=1 artifact in-page, `last_updated` current, >=3 `[n]` on stat-bearing pages |
-| Deploy verify | **Deploy** | per-page check on the `*.vercel.app` origin; **never** claim "live on gtmwiki.com" until the DNS flip |
+| Deploy verify | **Deploy** | per-page check on the `*.vercel.app` origin; **never** claim "live on gtm-wiki-nu.vercel.app" until the DNS flip |
 
 A page is GE-READY only when all four are green.
 
@@ -123,7 +123,7 @@ A page is GE-READY only when all four are green.
 2. **"Exceed" confirmation**: the standard defines exceed = depth + breadth
    + citation discipline + freshness stamp + artifacts-in-page. Awaiting his
    yes so Fizz/Bumble build to the right target.
-3. **gtmwiki.com DNS flip** (dotblock, owner boundary): every ship is
+3. **gtm-wiki-nu.vercel.app DNS flip** (dotblock, owner boundary): every ship is
    invisible on the brand URL until this flips. Deploy holds the claim.
 
 ---
@@ -143,6 +143,6 @@ end state: Sources 44/44, footnotes 44/44, freshness 44/44, artifacts
   pre-land. `--strict` must exit 0 before any page ships.
 - **Honey**: slop-gate every page from A/B/C before it lands. You are the
   human-eye backstop the machine gate cannot see.
-- **Deploy**: verify per-page on vercel.app; hold gtmwiki.com claims.
+- **Deploy**: verify per-page on vercel.app; hold gtm-wiki-nu.vercel.app claims.
 - **Master Chief**: track the 44-page checklist, re-audit counts per stream,
   force self-improvement loops on any missed gate.

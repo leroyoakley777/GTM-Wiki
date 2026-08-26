@@ -34,11 +34,11 @@ Verified facts (disk + live DNS), not self-reports:
    The real gap is structural: 19/43 pages have no Sources section for the gate
    to check.
 
-4. **DNS blocker (owner-boundary).** `gtmwiki.com` -> `64.34.174.248`
+4. **DNS blocker (owner-boundary).** `gtm-wiki-nu.vercel.app` -> `64.34.174.248`
    (reverse `prod1.cangary.com`, stale host). NS `ns1/ns2.dotblock.com`. No
    CNAME to Vercel. Vercel origin `gtm-wiki-nu.vercel.app` returns 200.
    Fix = one of: (a) NS -> `ns1/ns2.vercel-dns.com`, or (b) A
-   `gtmwiki.com` -> `76.76.21.21`. No agent holds dotblock creds; needs Leroy.
+   `gtm-wiki-nu.vercel.app` -> `76.76.21.21`. No agent holds dotblock creds; needs Leroy.
 
 5. Reference candidate taste pass (Honey, 03:57Z) VERIFIED on disk:
    - Dup blocks in Stage 5 real: `**Resources sellers need**` and
@@ -72,7 +72,7 @@ Lane status:
   Sources-section presence; the gap is structural (19/43 pages have no
   Sources section for the gate to inspect).
 - Deploy: hold ships until reference clears + 2b committed; verify on
-  vercel.app origin only, never claim gtmwiki.com live until DNS flips.
+  vercel.app origin only, never claim gtm-wiki-nu.vercel.app live until DNS flips.
 - Leroy: (1) hero stays humble? (2) confirm "exceed" definition. (3) DNS
   flip (owner-boundary, dotblock).
 
@@ -128,4 +128,4 @@ Batch 3 (remaining):
 
 Bumble supports all batches: register every named+dated stat each rebuild
 footnotes, pre-landed so --strict passes. Deploy verifies per-page on origin
-only; holds "live on gtmwiki.com" claims until DNS flips.
+only; holds "live on gtm-wiki-nu.vercel.app" claims until DNS flips.
