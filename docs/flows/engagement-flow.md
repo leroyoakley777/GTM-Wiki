@@ -102,6 +102,46 @@ Here’s a concrete example of how a disposition flows through the layers for a 
 
 This disposition now contributes to the ledger that the examiner will use to evaluate future changes to the outbound email skill or scoring rules.
 
+## Worked Example: Scoring a Lead with the ICP Skill
+
+Here’s a concrete example of how the engagement flow works when scoring a lead using the ICP skill.
+
+1. **Task State**
+   - Working memory shows:
+     - Goal: “Score new inbound lead Acme Corp.”
+     - Progress: None yet.
+     - Evidence: Lead submitted form, matched ICP traits (employees 200-500, uses Salesforce).
+
+2. **Skill Invocation**
+   - The harness loads the **ICP scoring skill** (`skills/icp-score.md`) because the task state indicates scoring is needed.
+
+3. **Execution**
+   - The model (guided by the skill) decides to compute a score based on firmographic and technographic fields.
+   - The harness assembles the prompt, exposes the file read tool, and retrieves the account file (`accounts/acme-corp.md`).
+   - The skill reads the file, checks employee count and tech stack, and returns a score of 85 (out of 100).
+
+4. **Verification**
+   - The harness checks the skill result: a numeric score between 0-100.
+   - Because verification passes, the disposition is allowed to proceed.
+
+5. **Updated Task State**
+   - Working memory is updated:
+     - Goal: “Score new inbound lead Acme Corp.” (completed).
+     - Progress: “ICP score: 85” is now recorded as completed.
+     - Evidence: The disposition is stored in the outcome ledger (`evals/icp-score.jsonl`) with timestamp, actor, action, target, score, and inputs.
+
+This disposition now contributes to the ledger that the examiner will use to evaluate future changes to the ICP scoring skill.
+
+## Objection/Layer: What Could Break This Flow and How We Mitigate
+
+| Potential Failure | How It Happens | Mitigation in the OS |
+|-------------------|----------------|----------------------|
+| **Skill returns non-numeric output** | The ICP skill is edited to return a string label instead of a number. | The verification step checks that the output is a number; if not, the disposition is blocked and the agent is prompted to fix the skill. |
+| **File read fails (account file missing)** | The account file is misnamed or deleted. | The harness catches the file‑not‑found error and treats it as a verification failure; the agent must recreate the account file from the CRM before proceeding. |
+| **Model hallucinates tool arguments** | The model asks the skill to read a non‑existent field. | The skill validates that requested fields exist in the account file; if not, it returns an error that the harness treats as a verification failure. |
+| **Ledger append fails (disk full)** | The outcome ledger cannot be written due to storage issues. | The harness treats any failure to append the disposition as a verification failure; the operator is alerted to free storage. |
+| **Verification bypassed** | A change to the harness skips the verification check. | The quality gate (question 2) requires that every PR to the harness includes a test that verification is enforced; the examiner will also catch regressions because dispositions won’t be recorded. |
+
 ## Diagrams
 
 Below is a mermaid sequence diagram showing the four‑step loop and the layer interactions.

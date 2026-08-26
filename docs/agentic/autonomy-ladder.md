@@ -65,6 +65,30 @@ stateDiagram-v2
     Auto --> Propose : One error
 ```
 
+## Worked Example: Example for Autonomy Ladder
+
+Here’s a concrete example of how autonomy ladder works in practice.
+
+1. **Scenario Setup**
+   - Describe the starting state: goal, progress, evidence.
+2. **Step 1: [First Action]**
+   - What the agent does.
+3. **Step 2: [Second Action]**
+   - What happens next.
+4. **Step 3: [Third Action]**
+   - The outcome and verification.
+5. **Result**
+   - The final state and what was learned.
+
+## Objection/Layer: What Could Break This and How We Mitigate
+
+| Potential Failure | How It Happens | Mitigation in the OS |
+|-------------------|----------------|----------------------|
+| **Failure mode 1** | Description. | Mitigation. |
+| **Failure mode 2** | Description. | Mitigation. |
+| **Failure mode 3** | Description. | Mitigation. |
+
+
 ## Related Pages
 
 - [GTM OS Architecture](../agentic/00-gtm-os-architecture.md): Shows the 4‑layer model that the autonomy ladder operates within.

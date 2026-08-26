@@ -68,6 +68,30 @@ A PR adds a new outreach sequence under `skills/outreach/sequences/` while the d
   - **Evidence**: “Outreach automation added before disposition ledger reached 100 verified outcomes. Current count: 20.”
 - The PR is blocked, and the author must either wait until the ledger has enough outcomes or provide evidence that the sequence is safe to add (e.g., it is a pure copy of an existing sequence with no behavioral change).
 
+## Worked Example: Example for Build Order
+
+Here’s a concrete example of how build order works in practice.
+
+1. **Scenario Setup**
+   - Describe the starting state: goal, progress, evidence.
+2. **Step 1: [First Action]**
+   - What the agent does.
+3. **Step 2: [Second Action]**
+   - What happens next.
+4. **Step 3: [Third Action]**
+   - The outcome and verification.
+5. **Result**
+   - The final state and what was learned.
+
+## Objection/Layer: What Could Break This and How We Mitigate
+
+| Potential Failure | How It Happens | Mitigation in the OS |
+|-------------------|----------------|----------------------|
+| **Failure mode 1** | Description. | Mitigation. |
+| **Failure mode 2** | Description. | Mitigation. |
+| **Failure mode 3** | Description. | Mitigation. |
+
+
 ## Related Pages
 
 - [Quality Gate](./quality-gate.md) – how the gate enforces the build order.

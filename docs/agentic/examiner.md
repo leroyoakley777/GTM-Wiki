@@ -26,7 +26,8 @@ At a high level, the examiner follows this cycle for each proposed change to the
 
 The structured trace from the engagement flow (Task State → Skill Invocation → Execution → Verification → Updated Task State) is critical: it lets the examiner attribute each diagnosed failure to a specific memory component (e.g., stored skill, working‑state representation, invocation policy, checker) and propose a targeted repair. ## Key Properties
 
-- **Tests come from the record, not imagination** – the golden set is built from verified dispositions, so a failure captured once cannot recur silently. - **The judge is pinned and logged** – the model that grades semantic verdicts is drawn from a different model family than the model that produced the work, to avoid shared blind spots. - **The suite runs on every change** – the examiner’s runtime is a budget like any other; a slow suite gets run monthly and protects nothing, so we keep it fast enough to run on every change. - **Green suite proves the checks hold** – before trusting a verdict, we hand the grader a planted pass and a plausible fail to ensure the rubric cannot be gamed. ## Example: Evaluating a New Scoring Rule
+- **Tests come from the record, not imagination** – the golden set is built from verified dispositions, so a failure captured once cannot recur silently. - **The judge is pinned and logged** – the model that grades semantic verdicts is drawn from a different model family than the model that produced the work, to avoid shared blind spots. - **The suite runs on every change** – the examiner’s runtime is a budget like any other; a slow suite gets run monthly and protects nothing, so we keep it fast enough to run on every change. - **Green suite proves the checks hold** – before trusting a verdict, we hand the grader a planted pass and a plausible fail to ensure the rubric cannot be gamed. 
+## Example: Evaluating a New Scoring Rule
 
 Here’s a concrete example of how the examiner evaluates a proposed change to the scoring rules skill. 
 1. **Load the golden set**  
@@ -37,6 +38,38 @@ Here’s a concrete example of how the examiner evaluates a proposed change to t
    The examiner computes:  
    - Which accounts would have re‑ranked (e.g., moved from tier 2 to tier 1). - Which sends would have been blocked or allowed. - Which past outcomes the new rules would have predicted better or worse (e.g., precision on closed‑won lookalikes). 
 4. **Return a verdict**  
+## Worked Example: Tuning the Outreach Sequence Timing
+
+Here’s a concrete example of how the examiner evaluates a change to the outreach sequence timing skill.
+
+1. **Load the golden set**
+   - The examiner loads `evals/golden-set.jsonl`, which contains 1,200 verified dispositions from the past quarter.
+
+2. **Replay the proposed rules**
+   - The proposed change: increase the wait time between first and second email from 1 day to 2 days.
+   - For each disposition in the golden set, the executor runs the updated outreach sequence skill over the account and context at the time of the disposition.
+
+3. **Compare outcomes**
+   - The examiner computes:
+     - **Re‑ranking**: 3% of accounts moved from tier 3 to tier 2 (positive).
+     - **Blocked sends**: 0.5% increase in spam‑blocked sends (negative).
+     - **Outcome precision**: Predicted closed‑won lookalikes changed from 68% to 66% (slight negative).
+     - **Evidence**: “This change would have blocked 12 past winning sends due to increased spam complaints while only gaining 8 additional meetings from improved tiering.”
+
+4. **Return a verdict**
+   - Because the change harms key metrics (more blocked sends, lower precision) and does not pass the validation gate, the examiner returns a block with the evidence above.
+
+## Objection/Layer: What Could Break the Examiner and How We Mitigate
+
+| Potential Failure | How It Happens | Mitigation in the OS |
+|-------------------|----------------|----------------------|
+| **Golden set not representative** | The golden set only contains recent dispositions and misses seasonal patterns. | The golden set is refreshed weekly and stratified by time period, industry, and outcome type to ensure coverage. |
+| **Judge model drift** | The model used to grade semantic verdicts changes over time, making scores incomparable. | The judge model family and version are pinned and logged with every verdict; any change requires re‑validation against planted cases. |
+| **Examiner too slow** | The examiner’s runtime grows with the ledger size, causing it to be run only monthly. | The examiner is optimized to run on every change: it uses indexed lookups, caches skill procedures, and limits the golden set to a configurable maximum (e.g., 2,000 dispositions). |
+| **False positive verdict** | The examiner approves a change that later harms outcomes in production. | The examiner’s verdict is a *gate*, not a guarantee; the change still runs through the engagement flow verification on live dispositions, which will catch any regression. |
+| **Ledger tampering** | Someone manually edits the outcome ledger to influence the examiner. | The outcome ledger is append‑only and signed with a lightweight hash chain; any tampering breaks the chain and is detected on the next examiner run.
+
+
    If the change improves key metrics (e.g., precision lifts, reduces false positives) and passes the validation gate (no regression on a held‑out development set), the change is allowed to merge. Otherwise, it is blocked, and the examiner returns evidence explaining why (e.g., “this change would have blocked 23 past winning sends”). ## Diagrams
 
 Below is a mermaid sequence diagram showing the examiner loop and its connection to the engagement flow. ```mermaid

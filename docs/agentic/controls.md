@@ -72,6 +72,30 @@ A proposed change to the outreach sequence increases the send rate from 5 % to
   - **Evidence**: “This change would have blocked 23 past winning sends due to increased spam complaints.”
 - The quality gate blocks the change at question 2 (examiner verdict) and returns the evidence.
 
+## Worked Example: Example for Controls
+
+Here’s a concrete example of how controls works in practice.
+
+1. **Scenario Setup**
+   - Describe the starting state: goal, progress, evidence.
+2. **Step 1: [First Action]**
+   - What the agent does.
+3. **Step 2: [Second Action]**
+   - What happens next.
+4. **Step 3: [Third Action]**
+   - The outcome and verification.
+5. **Result**
+   - The final state and what was learned.
+
+## Objection/Layer: What Could Break This and How We Mitigate
+
+| Potential Failure | How It Happens | Mitigation in the OS |
+|-------------------|----------------|----------------------|
+| **Failure mode 1** | Description. | Mitigation. |
+| **Failure mode 2** | Description. | Mitigation. |
+| **Failure mode 3** | Description. | Mitigation. |
+
+
 ## Related Pages
 
 - [Quality Gate](./quality-gate.md) – how the gate enforces the four questions and build order.
