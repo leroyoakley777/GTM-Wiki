@@ -266,7 +266,7 @@ lets the agent learn from outcomes, then expand to the next lane. Each
 new lane repeats the five stages.
 
 For the technical structure of how agents stack into a use, see
-[01: The Agentic Stack](./01-agentic-stack.md). For the deeper question
+[01: The Agentic Stack](./agentic-stack). For the deeper question
 of what to automate and what to keep human, see
 [06: Agent vs Human Workflows](./agent-vs-human-workflows).
 
@@ -323,7 +323,7 @@ report to a governance framework you control.
   system too early and pull the plug.
 - **No human escalation for the judgment calls.** High-value deals, unusual
   exceptions, and regulated outreach must escalate to a human. The human
-  signs for the reputation. (See [01: The Agentic Stack](./01-agentic-stack.md),
+  signs for the reputation. (See [01: The Agentic Stack](./agentic-stack),
   "What NOT to automate.")
 
 ---
@@ -387,5 +387,5 @@ what make the lane measurable.
 
 ---
 
-*Next: [01: The Agentic Stack](./01-agentic-stack.md): the five-layer
+*Next: [01: The Agentic Stack](./agentic-stack): the five-layer
 use you build on top of this model.*

@@ -246,9 +246,11 @@ next when the current one pays for itself.
 
 ## Related pages
 
-- [00: What is Agentic GTM](./00-agentic-gtm-overview.md). The strategy
+- [00: What is Agentic GTM](./agentic-gtm-overview). The strategy
   behind the stack.
-- [02: Agentic Outbound](./02-agentic-outbound.md). Running the stack
+- [02: Agentic Outbound](./agentic-outbound). Running the stack
   for cold outreach.
-- [05: Guardrails and Measurement](./03-guardrails-and-measurement.md).
+- [03: Guardrails and Measurement](./guardrails-and-measurement).
   How to watch the use without trusting it.
+- [08: The GTM OS Architecture](./gtm-os-architecture). The three
+  layers this stack sits inside.
