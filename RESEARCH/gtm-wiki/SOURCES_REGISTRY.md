@@ -292,6 +292,14 @@ structurally uncommittable, not caught by an auditor later.
 | 233 | SaaS Hero | 2026 | Unified GTM OS: five core components (centralized data layer, RevOps workflows with SLAs, AI-driven insights, orchestration platforms, revenue KPIs); 5-step build framework; siloed teams 2x CAC + slower pipeline velocity, unified 20-40% CAC reduction + 2x workflow speed + 17%+ ARR predictability | docs/agentic/08-gtm-os-architecture.md |
 | 234 | ZoomInfo GTM Predictions | 2026 | GTM evolves to a unified operating system; AI as "truth teller" exposing broken handoffs and misaligned metrics; unified data architecture non-negotiable; AI-native GTM (teams build custom purpose-specific agents); AI judged on revenue not promise | docs/agentic/08-gtm-os-architecture.md |
 
+### Onboarding playbook batch (vetted 2026-08-26)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 235 | Amplitude (Product Benchmark Report) | 2025 | 7% day-7 return rule (top quartile); 69% of strong day-7 performers also strong at 3 months; more than 98% of value-less users churn within 2 weeks; top products retain 18.5% of users vs 3.8% median at 3 months; top-performer day-1 activation ~21%, day-7 ~12%, day-14 ~9% | docs/playbooks/customer-onboarding.md |
+| 236 | DigitalApplied (TTV framework) | 2026 | Avg B2B SaaS activation 37.5%, median 37% (Userpilot 2024, 62 companies); vertical spread 54.8% AI/ML to 5% FinTech; mid-scale cliff 17.6% at $10-50M ARR; TTV tier ladder (under 24h / 1-3d / 4-7d / 8-14d / over 14d); four-instrument measurement stack; expansion ARR ~25% of new ARR (2022) to ~40% (2024); McKinsey late-2025: ~18% of B2B SaaS set explicit onboarding goals at outset | docs/playbooks/customer-onboarding.md |
+| 237 | RevenueCat | 2026 | Activation-event validity: three tests (retention divergence, holds across segments, improving it moves outcomes); completion rate is a compliance metric, not activation | docs/playbooks/customer-onboarding.md |
+
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the

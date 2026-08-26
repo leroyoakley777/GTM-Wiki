@@ -8,5 +8,5 @@ description: "Playbooks: what to do against a specific situation, start to finis
 
 **Playbooks** are step-by-step execution guides. Each one assumes you have the foundations in place and are ready to run. They describe *how* to do the work, not just what the work is.
 
-- [00: Outbound From Zero](./outbound-from-zero.md): standing up outbound from scratch.
-- More coming soon.
+- [Outbound from Zero](./outbound-from-zero.md): standing up outbound from scratch.
+- [Customer Onboarding](./customer-onboarding.md): getting new customers to first value and renewal.
