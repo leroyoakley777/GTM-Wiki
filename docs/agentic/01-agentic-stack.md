@@ -2,7 +2,9 @@
 sidebar_position: 1
 title: The Agentic Stack
 description: "The agentic GTM stack: models, harnesses, tools, and guardrails, and how they fit together."
-last_updated: 2026-08-18
+last_updated: 2026-08-19
+status: active
+tags: [agentic, stack, architecture]
 ---
 
 # 01: The Agentic Stack
@@ -208,6 +210,25 @@ feel.
 
 ---
 
+## Variant: by company stage and technical maturity
+
+The same five layers get assembled differently as a team grows. Match the
+starting scope to where you are.
+
+| Stage | Data layer | Research layer | Human-in-loop depth |
+|---|---|---|---|
+| Seed | One enrichment source, manual dedupes | Human-written briefs, agent assembler | Human approves every send |
+| Scale-up | Clay + Apollo waterfall, auto-dedup | Agent drafts brief, human approves | Pattern approval after 300+ sends |
+| Enterprise | Full CDP + intent + CRM sync | Agent briefs, sampled human review | Tiered: live approval on high-value |
+| Adding agentic to legacy stack | Existing warehouse, limited API access | Agent reads, human translates to system | Human translates every action |
+
+A seed company that buys a full orchestration platform drowns in
+configuration. An enterprise that hand-writes every brief leaves the
+volume ceiling in place. Build the layer that fits the stage, then add the
+next when the current one pays for itself.
+
+---
+
 ## Further reading
 
 - [Smartlead: AI SDRs Compared in 2026](https://www.smartlead.ai/blog/ai-agents-for-outbound-sales).
@@ -225,9 +246,11 @@ feel.
 
 ## Related pages
 
-- [00: What is Agentic GTM](./00-agentic-gtm-overview.md). The strategy
+- [00: What is Agentic GTM](./agentic-gtm-overview). The strategy
   behind the stack.
-- [02: Agentic Outbound](./02-agentic-outbound.md). Running the stack
+- [02: Agentic Outbound](./agentic-outbound). Running the stack
   for cold outreach.
-- [05: Guardrails and Measurement](./03-guardrails-and-measurement.md).
+- [03: Guardrails and Measurement](./guardrails-and-measurement).
   How to watch the use without trusting it.
+- [08: The GTM OS Architecture](./gtm-os-architecture). The three
+  layers this stack sits inside.

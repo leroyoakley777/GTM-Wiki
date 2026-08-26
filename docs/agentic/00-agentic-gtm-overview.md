@@ -2,7 +2,9 @@
 sidebar_position: 0
 title: What Is Agentic GTM?
 description: "What agentic GTM is, when it applies, and where it replaces manual motion."
-last_updated: 2026-08-18
+last_updated: 2026-08-19
+status: active
+tags: [agentic, foundations, operating-model]
 ---
 
 # 00: What Is Agentic GTM?
@@ -264,7 +266,7 @@ lets the agent learn from outcomes, then expand to the next lane. Each
 new lane repeats the five stages.
 
 For the technical structure of how agents stack into a use, see
-[01: The Agentic Stack](./01-agentic-stack.md). For the deeper question
+[01: The Agentic Stack](./agentic-stack). For the deeper question
 of what to automate and what to keep human, see
 [06: Agent vs Human Workflows](./agent-vs-human-workflows).
 
@@ -314,15 +316,63 @@ report to a governance framework you control.
   failure is never the technology. It is the missing escalation rules and
   audit cadence.
 - **Adding AI to a human workflow instead of re-designing it.** Transcription
-  and ChatGPT drafts on top of a 2015 structure is not agentic GTM. It is
-  a slightly faster 2015 structure.
+  and ChatGPT drafts layered onto a 2015 structure produce a slightly faster
+  2015 structure, not an agentic operating model.
 - **Expecting day-one results.** Agentic systems improve through feedback
   loops and audit. Companies that expect instant ROI judge a maturing
   system too early and pull the plug.
 - **No human escalation for the judgment calls.** High-value deals, unusual
   exceptions, and regulated outreach must escalate to a human. The human
-  signs for the reputation. (See [01: The Agentic Stack](./01-agentic-stack.md),
+  signs for the reputation. (See [01: The Agentic Stack](./agentic-stack),
   "What NOT to automate.")
+
+---
+
+## Variant: by company stage and GTM maturity
+
+Agentic GTM looks different depending on where the company sits. The four
+pillars stay fixed; the starting lane and the governance cadence shift.
+
+| Company stage | First lane to prove | Data foundation needed | Governance cadence |
+|---|---|---|---|
+| Seed / early | Lead intake and enrichment | Spreadsheet-clean ICP, one enrichment source | Weekly audit from day one |
+| Scale-up (Series A–C) | Outbound prospecting | CRM with core fields 80%+ populated | Daily week 1, weekly by month 2 |
+| Enterprise | One business unit, not the whole org | Full field standardization across systems | Daily audit, quarterly autonomy review |
+| Established, adding agentic | A single repetitive workflow | Existing structured data, integration map | Tight escalation, slow autonomy ramp |
+
+A seed company that tries to automate the whole revenue org fails. An
+enterprise that stops at one pilot never sees the compounding return. Match
+the starting lane to the stage, then expand.
+
+---
+
+## SOP: stand up one agentic lane
+
+Use this prompt structure to brief an agent on the first lane. Replace the
+bracketed values with your own.
+
+```text
+Goal: run [lane: lead intake / outbound / data hygiene] as an agentic lane.
+
+Inputs:
+- ICP definition: [link or one-paragraph definition]
+- Source systems: [CRM, enrichment tool, Slack]
+- Approved process logic: [link to the documented process]
+
+Guardrails:
+- Human approves every send to a named person.
+- Escalate any [high-value deal / regulated vertical / low-confidence case].
+- Pause if delivery drops below 97%.
+
+Success metric: [reply rate / meetings per 1,000 / cost per meeting] must
+hold or improve versus the manual baseline before scaling.
+
+First week: [daily] human audit of a sample of agent decisions.
+```
+
+That prompt is the contract with the agent. Vague goals produce vague
+execution; a stated goal, named inputs, and an explicit success metric are
+what make the lane measurable.
 
 ---
 
@@ -337,5 +387,5 @@ report to a governance framework you control.
 
 ---
 
-*Next: [01: The Agentic Stack](./01-agentic-stack.md): the five-layer
+*Next: [01: The Agentic Stack](./agentic-stack): the five-layer
 use you build on top of this model.*

@@ -56,11 +56,13 @@ const sidebars = {
       collapsed: false,
       link: { type: 'doc', id: 'agentic/index' },
       items: [
+        'agentic/agentic-gtm-overview',
         'agentic/agentic-stack',
         'agentic/agentic-outbound',
         'agentic/guardrails-and-measurement',
         'agentic/agent-vs-human-workflows',
         'agentic/building-a-gtm-copilot',
+        'agentic/gtm-os-architecture',
       ],
     },
     {

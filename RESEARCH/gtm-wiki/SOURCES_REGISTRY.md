@@ -287,6 +287,10 @@ structurally uncommittable, not caught by an auditor later.
 | 228 | Ray Edwards | n/a | PAS and PASTOR frameworks (Problem/Agitate/Solution; Problem/Amplify/Story/Transformation/Offer/Response); honest agitation | docs/skills/03-messaging.md |
 | 229 | readstoleads | n/a | From AIDA to PAS: AIDA attributed to E. St. Elmo Lewis; problem-first PAS structure | docs/skills/03-messaging.md |
 | 230 | cloudclicks | n/a | Ray Edwards PASTOR framework acronym; role in trust-based selling | docs/skills/03-messaging.md |
+| 231 | GTMnow | 2025 | GTM AI Operating System: coordinated AI-driven backbone connecting marketing, sales, CS, product; 4 build models (internal operators as system designers, cross-functional tiger teams, internal AI+GTM hires, external agencies); signal-to-action loops; winners design systems not buy tools | docs/agentic/08-gtm-os-architecture.md |
+| 232 | GTM Savants | 2026 | 6-step AI go-to-market operating system (market/product/signal diagnosis, positioning as a system, messaging architecture, demand/sales/journey orchestration, adoption/retention/expansion, dashboards to decisions); competitive advantage = designing GTM as a system that learns faster than the market | docs/agentic/08-gtm-os-architecture.md |
+| 233 | SaaS Hero | 2026 | Unified GTM OS: five core components (centralized data layer, RevOps workflows with SLAs, AI-driven insights, orchestration platforms, revenue KPIs); 5-step build framework; siloed teams 2x CAC + slower pipeline velocity, unified 20-40% CAC reduction + 2x workflow speed + 17%+ ARR predictability | docs/agentic/08-gtm-os-architecture.md |
+| 234 | ZoomInfo GTM Predictions | 2026 | GTM evolves to a unified operating system; AI as "truth teller" exposing broken handoffs and misaligned metrics; unified data architecture non-negotiable; AI-native GTM (teams build custom purpose-specific agents); AI judged on revenue not promise | docs/agentic/08-gtm-os-architecture.md |
 
 ## Claim-verification status
 

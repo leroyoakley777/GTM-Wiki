@@ -2,7 +2,9 @@
 sidebar_position: 2
 title: Agentic Outbound
 description: "How to run outbound with agents end to end, from list to booked meeting."
-last_updated: 2026-08-18
+last_updated: 2026-08-19
+status: active
+tags: [agentic, outbound, playbook]
 ---
 
 # 02: Agentic Outbound
@@ -278,13 +280,13 @@ you debrief what won, what converted, what killed.
 
 ## Related
 
-- [Outbound from Zero](../playbooks/outbound-from-zero.md). The
+- [Outbound from Zero](../playbooks/outbound-from-zero). The
   manual playbook this agentic layer accelerates.
-- [Agentic GTM Overview](./00-agentic-gtm-overview.md). Where outbound
+- [Agentic GTM Overview](./agentic-gtm-overview). Where outbound
   sits in the broader agentic stack.
-- [The 5-Layer Agentic Stack](./01-agentic-stack.md). The compose,
+- [The 5-Layer Agentic Stack](./agentic-stack). The compose,
   data, and orchestration layers outbound depends on.
-- [Guardrails & Measurement](./03-guardrails-and-measurement.md). The
+- [Guardrails and Measurement](./guardrails-and-measurement). The
   quality bars that keep an agentic loop honest.
 
 ---
@@ -292,4 +294,4 @@ you debrief what won, what converted, what killed.
 *Synthesized from first-hand 0→1 outbound builds (Salesloft, Gladly,
 Apollo) plus agent-use work 2025–2026 and the 2026 AI SDR market
 data cited above. The motion hasn't changed. The use
-has. Next: [03: Guardrails & Measurement](./03-guardrails-and-measurement.md).*
+has. Next: [03: Guardrails and Measurement](./guardrails-and-measurement).*
