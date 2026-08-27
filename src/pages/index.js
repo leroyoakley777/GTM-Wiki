@@ -68,11 +68,11 @@ const stats = {
 
 export default function Home() {
   return (
-    <Layout title="Open GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders. Last updated: 2026-08-27.">
+    <Layout title="GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders. Last updated: 2026-08-27.">
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
-          <h1>Open GTM Wiki</h1>
+          <h1>GTM Wiki</h1>
           <p className="gtm-hero__thesis">
             building the best place to learn GTM
           </p>

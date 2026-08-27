@@ -1,4 +1,4 @@
-# Design POV — Open GTM Wiki
+# Design POV — GTM Wiki
 
 Written 2026-08-14. This document translates Mitch's quality bar into
 concrete, auditable criteria. The word "ELITE" means nothing to an agent.
@@ -6,7 +6,7 @@ This is what it means.
 
 ## The thesis
 
-The Open GTM Wiki is the definitive reference manual for go-to-market —
+The GTM Wiki is the definitive reference manual for go-to-market —
 the book every GTM operator keeps on their desk. Not a blog. Not a SaaS
 marketing page. Not a docs template. It is what you get when MIT-grade
 technical clarity meets heritage-editorial polish.

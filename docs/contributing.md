@@ -8,7 +8,7 @@ tags: ['contributing', 'gtm']
 
 # Contributing
 
-The Open GTM Wiki is open source and community-driven. High-signal
+The GTM Wiki is open source and community-driven. High-signal
 contributions are welcome.
 
 ## What makes a good contribution
@@ -20,7 +20,7 @@ contributions are welcome.
 
 ## How to contribute
 
-1. Fork the repo on [GitHub](https://github.com/opengtm/gtm-wiki).
+1. Fork the repo on [GitHub](https://github.com/leroyoakley777/GTM-Wiki).
 2. Add or edit a page under `docs/` with proper frontmatter (`sidebar_position`, `title`).
 3. Cross-link related pages with relative links.
 4. Open a PR with a short description of what you added and why.

@@ -7,7 +7,7 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Open GTM Wiki',
+  title: 'GTM Wiki',
   tagline: 'The best open-source Go-to-Market resource for founders, operators, and builders',
   favicon: 'img/favicon.png',
 
@@ -60,9 +60,9 @@ const config = {
       image: 'img/og-image.jpg?v=3',
       metadata: [{ name: 'color-scheme', content: 'light dark' }],
       navbar: {
-        title: 'Open GTM Wiki',
+        title: 'GTM Wiki',
         logo: {
-          alt: 'Open GTM Wiki Logo',
+          alt: 'GTM Wiki Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -98,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Open GTM Wiki. Built with ❤️ for the community.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GTM Wiki. Built with ❤️ for the community.`,
       },
       prism: {
         theme: lightCodeTheme,

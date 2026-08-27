@@ -20,7 +20,7 @@ The tree below shows the wiki in one view: the sections, what each covers, and h
 
   <!-- Root -->
   <rect x="300" y="24" width="360" height="64" rx="10" fill="url(#rootGrad)"/>
-  <text x="480" y="52" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Open GTM Wiki</text>
+  <text x="480" y="52" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">GTM Wiki</text>
   <text x="480" y="72" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-size="12">The whole wiki in one tree: every section, how it connects</text>
 
   <!-- Spine + rails -->

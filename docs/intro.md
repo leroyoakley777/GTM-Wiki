@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Welcome"
-description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 12:37:59 - UPDATED FOR LIVE"
+description: "Welcome to the GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 12:37:59 - UPDATED FOR LIVE"
 status: active
 tags: ['intro', 'gtm']
 ---
@@ -11,7 +11,7 @@ tags: ['intro', 'gtm']
 **🚀 Site updated: 2026-08-27 12:38:00**
 :::
 
-# Welcome to the Open GTM Wiki
+# Welcome to the GTM Wiki
 
 An open-source Go-to-Market resource for founders, VCs,
 SDRs, AEs, RevOps, and builders of all kinds.

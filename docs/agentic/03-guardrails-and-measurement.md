@@ -367,7 +367,7 @@ by* them. The use learns from the review, not from the volume.
 ---
 
 *Frameworks stay stable. Execution adapts, and only under guardrails.
-This section is part of the [Open GTM Wiki](../intro.md): foundations
+This section is part of the [GTM Wiki](../intro.md): foundations
 first, agents as use, humans as judgment.*
 
 ## Example Artifact

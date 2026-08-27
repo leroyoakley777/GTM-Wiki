@@ -1,4 +1,4 @@
-# Contributing to Open GTM Wiki
+# Contributing to GTM Wiki
 
 Thank you for helping build the best open-source GTM resource.
 
