@@ -1,11 +1,17 @@
 ---
-<!-- Force redeploy 2026-08-27T12:37:59.280868 -->\nsidebar_position: 1
+sidebar_position: 1
 title: "Welcome"
-description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 12:37:59 - UPDATED FOR LIVE\n"
+description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 12:37:59 - UPDATED FOR LIVE"
 status: active
 tags: ['intro', 'gtm']
 ---
-<!-- Force rebuild 2026-08-27T09:19:11.869222 -->\n# Welcome to the Open GTM Wiki
+<!-- Force redeploy 2026-08-27T12:37:59.280868 -->
+<!-- Force rebuild 2026-08-27T09:19:11.869222 -->
+<div class="notice">
+  **🚀 Site updated: 2026-08-27 12:38:00**
+</div>
+
+# Welcome to the Open GTM Wiki
 
 An open-source Go-to-Market resource for founders, VCs,
 SDRs, AEs, RevOps, and builders of all kinds.
@@ -20,7 +26,6 @@ framework is designed to be adapted to any business model or stage.
 - **Last updated:** 2026-08-27
 
 ## Explore GTM
-
 
 | Icon | Section | Description |
 |------|---------|-------------|
@@ -46,8 +51,8 @@ framework is designed to be adapted to any business model or stage.
 - **2026-08-26** – Added OS‑first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake‑capture).
 - **2026-08-20** – Added GTM OS Architecture and Engagement Flow pages.
 - **2026-08-18** – Initial launch of the GTM Wiki with core frameworks and playbooks.
-
 - **2026-08-27** – Added AE role page, updated og‑image, and refreshed homepage timestamp.
+
 ## Community & contribute
 
 - **GitHub:** [github.com/leroyoakley777/GTM-Wiki](https://github.com/leroyoakley777/GTM-Wiki) – Star, fork, open issues, submit pull requests.
@@ -68,13 +73,13 @@ Every page ships the real artifact, not a summary of one: the copy, the
 worked math, the tooling, the agent prompt. Pick a page and the work is
 there to copy, run, and adapt.
 
-|| Section | It answers | Start here if… |
-||---|---|---|
-|| [Map](./map.md) | One image, the whole wiki | You want the big picture first |
-|| [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
-|| [Playbooks](./playbooks/index.md) | What to do | You have a specific motion to run |
-|| [Agentic GTM](./agentic/index.md) | How to execute with agents | You're scaling an existing motion |
-|| [Roles](./roles/head-of-platforms/index.md) | Who does it | You're hiring or stepping into a role |
+||| Section | It answers | Start here if… |
+|||---|---|---|
+||| [Map](./map.md) | One image, the whole wiki | You want the big picture first |
+||| [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
+||| [Playbooks](./playbooks/index.md) | What to do | You have a specific motion to run |
+||| [Agentic GTM](./agentic/index.md) | How to execute with agents | You're scaling an existing motion |
+||| [Roles](./roles/head-of-platforms/index.md) | Who does it | You're hiring or stepping into a role |
 
 ## GTM Operating System
 
