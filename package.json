@@ -17,7 +17,8 @@
     "scan:slop": "node scripts/scan-slop.mjs",
     "check:depth": "node scripts/check-depth.mjs",
     "check:sources": "node scripts/validate-sources.mjs",
-    "check": "npm run lint && npm run lint:comms && npm run scan:slop && npm run check:depth && npm run check:sources",
+    "check:freshness": "node scripts/check-freshness.mjs",
+    "check": "npm run lint && npm run lint:comms && npm run scan:slop && npm run check:depth && npm run check:sources && npm run check:freshness",
     "setup:hooks": "git config core.hooksPath .githooks && chmod +x .githooks/pre-commit"
   },
   "dependencies": {
