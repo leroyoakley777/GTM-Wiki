@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Welcome"
-description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market."
+description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 - FORCED UPDATE"
 status: active
 tags: ['intro', 'gtm']
 ---
