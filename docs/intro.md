@@ -21,7 +21,6 @@ framework is designed to be adapted to any business model or stage.
 
 ## Explore GTM
 
-## Explore GTM
 
 | Icon | Section | Description |
 |------|---------|-------------|
