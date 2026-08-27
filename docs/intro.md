@@ -28,7 +28,7 @@ framework is designed to be adapted to any business model or stage.
 
 | Icon | Section | Description |
 |------|---------|-------------|
-| 🗺️ | [Map](./map.md) | One image, the whole wiki |
+| 🗺️ | [Map](./map.md) | Every section in one view |
 | 🎯 | [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think – durable strategy from 2015 to 2035 |
 | 📘 | [Playbooks](./playbooks/index.md) | What to do – situation‑specific runs |
 | 🤖 | [Agentic GTM](./agentic/index.md) | How to execute with agents, harnesses, and automation |
@@ -74,7 +74,7 @@ there to copy, run, and adapt.
 
 ||| Section | It answers | Start here if… |
 |||---|---|---|
-||| [Map](./map.md) | One image, the whole wiki | You want the big picture first |
+|||| [Map](./map.md) | Every section in one view | You want the big picture first |
 ||| [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think | You're building strategy from scratch |
 ||| [Playbooks](./playbooks/index.md) | What to do | You have a specific motion to run |
 ||| [Agentic GTM](./agentic/index.md) | How to execute with agents | You're scaling an existing motion |
