@@ -52,13 +52,18 @@ const sections = [
     desc: 'Full end-to-end motions, runnable start to finish, artifacts at every step.',
     to: '/docs/flows',
   },
+  {
+    index: '09',
+    title: 'Contribute',
+    desc: 'Help improve the wiki by adding new pages, fixing errors, or suggesting improvements.',
+    to: '/docs/contributing',
+  },
 ];
 
 const stats = {
   sections: '16',
   pages: '98',
   openSource: '100%',
-  vendorDecks: '0',
 };
 
 export default function Home() {
@@ -69,8 +74,7 @@ export default function Home() {
         <header className="gtm-hero">
           <h1>Open GTM Wiki</h1>
           <p className="gtm-hero__thesis">
-            The best place to learn go-to-market, and the best looking too.
-            Quality on a living topic graph - not a page count.
+            building the best place to learn GTM
           </p>
           <p className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
@@ -88,33 +92,29 @@ export default function Home() {
         {/* STATS */}
         <div className="gtm-stats">
           <div className="gtm-stat">
-            <div className="gtm-stat__number">{stats.pages}</div>
-            <div className="gtm-stat__label">Pages and growing</div>
+            <div className="gtm-stat__number>{stats.pages}</div>
+            <div className="gtm-stat__label>Pages and growing</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number">{stats.sections}</div>
-            <div className="gtm-stat__label">Reference sections</div>
+            <div className="gtm-stat__number>{stats.sections}</div>
+            <div className="gtm-stat__label>Reference sections</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number">{stats.openSource}</div>
-            <div className="gtm-stat__label">Open source</div>
-          </div>
-          <div className="gtm-stat">
-            <div className="gtm-stat__number">{stats.vendorDecks}</div>
-            <div className="gtm-stat__label">Vendor decks</div>
+            <div className="gtm-stat__number>{stats.openSource}</div>
+            <div className="gtm-stat__label>Open source</div>
           </div>
         </div>
 
         {/* EXPLORE GRID */}
         <section className="gtm-explore">
-          <div className="gtm-section-label">EXPLORE</div>
+          <div className="gtm-section-label>EXPLORE</div>
           <h2>Browse all sections</h2>
           <div className="gtm-grid">
             {sections.map((s) => (
               <Link key={s.index} className="gtm-card" to={useBaseUrl(s.to)}>
-                <div className="gtm-card__index">{s.index} / SECTION</div>
-                <div className="gtm-card__title">{s.title}</div>
-                <p className="gtm-card__desc">{s.desc}</p>
+                <div className="gtm-card__index>{s.index} / SECTION</div>
+                <div className="gtm-card__title>{s.title}</div>
+                <p className="gtm-card__desc>{s.desc}</p>
               </Link>
             ))}
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
 
         {/* RECENT UPDATES */}
         <section className="gtm-updates">
-          <div className="gtm-section-label">RECENT UPDATES</div>
+          <div className="gtm-section-label>RECENT UPDATES</div>
           <ul>
             <li><strong>2026-08-27</strong> - Added AE role page, updated og-image, refreshed homepage.</li>
             <li><strong>2026-08-26</strong> - Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
@@ -131,15 +131,12 @@ export default function Home() {
           </ul>
         </section>
 
-        {/* MANIFESTO */}
+        {/* OUR VIEW */}
         <section className="gtm-manifesto">
-          <div className="gtm-section-label">THESIS</div>
-          <blockquote>
-            Every production line has a Growth Formula: a sequence of volume metrics and
-            conversion rates spanning the entire customer lifecycle. Benchmark it, fix the
-            leak, compound.
-          </blockquote>
-          <div className="gtm-manifesto__cite">REVENUE ARCHITECTURE, THE GROWTH FORMULA</div>
+          <div className="gtm-section-label>OUR VIEW</div>
+          <p className="gtm-manifesto__text>
+            A living, open-source guide to go-to-market strategy, tactics, and execution - built by practitioners, for practitioners.
+          </p>
         </section>
       </div>
     </Layout>
