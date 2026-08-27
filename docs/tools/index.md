@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Tools
 description: "The GTM tools market and how tools map to motion."
+status: active
+tags: ['tools', 'index']
 ---
 
 # Tools

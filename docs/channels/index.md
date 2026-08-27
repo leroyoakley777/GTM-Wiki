@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Channels
 description: "How to find, evaluate, and execute on your single highest-use acquisition channel: outbound, inbound, product-led, and ABM."
+status: active
+tags: ['channels', 'index']
 ---
 
 # Channels

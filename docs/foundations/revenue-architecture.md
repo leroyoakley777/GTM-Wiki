@@ -118,6 +118,15 @@ Revenue Architecture is the spine. This wiki extends it in several steps directi
 
 Stop scaling inputs. Design a few, well-chosen GTM motions as production lines. Align each to lifetime value. Measure with growth formulas. Chase **durable growth through recurring impact**, the antidote to growth-at-all-costs.
 
+
+## Failure modes
+
+- Fail: Designing GTM motions without considering the factory model, leading to siloed teams and misaligned metrics.
+- When it breaks: When scaling exceeds the capacity of the weakest production line, causing bottlenecks and quality drops.
+- Pitfall: Focusing on volume metrics (like leads) without balancing with efficiency and quality metrics.
+- Risk: Ignoring the interdependence of GTM motions, leading to suboptimal resource allocation and internal competition.
+- Objection: "We need to customize each motion for each product" – often leads to complexity that outweighs benefits; standardization across motions improves efficiency.
+
 ## Further Reading
 
 - [Winning by Design: Revenue Architecture (book)](https://winningbydesign.com/resources/books/revenue-architecture/): Jacco van der Kooij's full framework

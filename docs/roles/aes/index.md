@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Roles: AEs"
 description: "What account executives do and the numbers they own."
+status: active
+tags: ['roles', 'index']
 ---
 
 # AEs

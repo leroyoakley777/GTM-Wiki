@@ -2,6 +2,8 @@
 sidebar_position: 99
 title: Contributing
 description: "How to contribute to the wiki: the standard, the page contract, and the gates."
+status: active
+tags: ['contributing', 'gtm']
 ---
 
 # Contributing

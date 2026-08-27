@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Glossary
 description: "Definitions of GTM terms used across the wiki."
+status: active
+tags: ['glossary', 'index']
 ---
 
 # Glossary

@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Marketing Leaders"
 description: "What marketing leaders own and measure."
+status: active
+tags: ['roles', 'index']
 ---
 
 # Marketing Leaders

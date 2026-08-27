@@ -3,6 +3,8 @@ sidebar_position: 1
 title: Agentic GTM
 description: "Agentic GTM section: running the same playbooks with agents, harnesses, and automation."
 last_updated: 2026-08-18
+status: active
+tags: ['agentic', 'index']
 ---
 
 # Agentic GTM

@@ -2,6 +2,8 @@
 sidebar_position: 4
 title: Pricing as GTM Benchmarks
 description: "Why pricing is a go-to-market lever: packaging, discounting, value metrics, and expansion pricing numbers that shape win rate and LTV."
+status: active
+tags: ['data', 'pricing', 'as']
 ---
 
 # Pricing as GTM Benchmarks
@@ -78,10 +80,7 @@ A pricing model with no natural expansion motion is a ceiling on the most effici
 
 The strongest pricing models are boring: clear packaging around buyer groups, disciplined discounting that rewards behavior, and a built-in expansion path. The 33% of B2B SaaS on value-based pricing are not all doing it right. But the ones who are tie their metric and packaging to how customers derive value. Discount discipline, not price level, is the differentiator. A company with a 5–20% discount band and a strong expansion motion will beat one with a lower price and no discount discipline every time.
 
----
-
-## Sources
-
+---\n\n## Failure modes\n\n- Fail: Setting prices based solely on cost-plus or competitor benchmarking without considering customer value.\n- When it breaks: When market conditions change (e.g., new entrant, economic shift) and pricing is not revisited.\n- Pitfall: Overcomplicating pricing tiers leading to confusion and increased sales cycle.\n- Risk: Ignoring price elasticity and demand curves, leading to lost revenue or lost market share.\n- Objection: \"Our product is too expensive\" – often a signaling of poor value communication rather than list price.\n\n## Sources\n
 - [SBI, State of B2B SaaS Pricing Benchmarks Report 2024](https://sbigrowth.com/tools-and-solutions/pricing-benchmarks-report-2024): 33% value-based, 40.8% good-better-best.
 - [SoftwarePricing, Value-Based Pricing Strategy for B2B SaaS](https://softwarepricing.com/blog/value-based-pricing-strategy/): customer groups, partitioned pricing, add-on example.
 - [MomentumNexus, The SaaS Pricing Strategy Guide 2026](https://www.momentumnexus.com/blog/saas-pricing-strategy-guide-2026/): +11.4%, $7,900/employee, 25–40% expansion.

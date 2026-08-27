@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Roles: Heads of GTM"
 description: "What a head of GTM owns and how the team is run."
+status: active
+tags: ['roles', 'index']
 ---
 
 # Heads of GTM

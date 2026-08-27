@@ -3,6 +3,7 @@ sidebar_position: 5
 title: Build Order
 description: The recommended sequence for constructing a GTM OS-close the loop before automating outreach.
 tags: [build, order, phases, gtm-os]
+status: active
 ---
 # Build Order
 

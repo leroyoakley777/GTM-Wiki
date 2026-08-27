@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Roles: VPs of Sales"
 description: "What a VP of Sales owns and how the number is built."
+status: active
+tags: ['roles', 'index']
 ---
 
 # VPs of Sales

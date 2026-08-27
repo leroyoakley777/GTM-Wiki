@@ -40,7 +40,7 @@ A positioning statement (the classic fill-in-the-blanks exercise) is not the sam
 
 ## Launches Fail at Messaging
 
-Most new product launches fail at the messaging layer, not the product layer. The product works. The buyer doesn't understand why it exists, who it's for, or what problem it solves better than what they already have.
+69% of startup project failures can be attributed to marketing-related causes, including ICP misalignment, messaging failure, poor positioning, and channel inefficiency (Digital Silk, 2026).
 
 April Dunford, who has positioned over 100 products and written the definitive practical guide on the topic, puts it this way: the unique greatness of offerings often feels obvious inside the company. Ask customers the same question and they frequently can't see anything interesting at all. That gap is a positioning failure.
 

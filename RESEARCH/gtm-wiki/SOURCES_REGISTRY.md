@@ -300,6 +300,7 @@ structurally uncommittable, not caught by an auditor later.
 | 236 | DigitalApplied (TTV framework) | 2026 | Avg B2B SaaS activation 37.5%, median 37% (Userpilot 2024, 62 companies); vertical spread 54.8% AI/ML to 5% FinTech; mid-scale cliff 17.6% at $10-50M ARR; TTV tier ladder (under 24h / 1-3d / 4-7d / 8-14d / over 14d); four-instrument measurement stack; expansion ARR ~25% of new ARR (2022) to ~40% (2024); McKinsey late-2025: ~18% of B2B SaaS set explicit onboarding goals at outset | docs/playbooks/customer-onboarding.md |
 | 237 | RevenueCat | 2026 | Activation-event validity: three tests (retention divergence, holds across segments, improving it moves outcomes); completion rate is a compliance metric, not activation | docs/playbooks/customer-onboarding.md |
 
+235| Digital Silk | 2026 | 69% of startup project failures can be attributed to marketing-related causes when you combine ICP misalignment, messaging failure, poor positioning, and channel inefficiency | docs/foundations/03-positioning-and-messaging.md
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the

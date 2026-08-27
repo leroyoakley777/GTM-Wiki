@@ -2,6 +2,8 @@
 sidebar_position: 2
 title: Market Segmentation Benchmarks
 description: "How B2B markets break down: the 95-5 rule, the four segmentation layers, personalization lifts, and TAM/SAM/SOM sizing baselines."
+status: active
+tags: ['data', 'market', 'segmentation']
 ---
 
 # Market Segmentation Benchmarks

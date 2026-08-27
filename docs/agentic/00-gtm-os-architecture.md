@@ -3,6 +3,7 @@ sidebar_position: 1
 title: GTM Operating System Architecture
 description: The 4-layer architecture of the GTM OS, showing how models, harness, skills, and tools compose into a governed whole.
 tags: [architecture, gtm-os, layers, harness, skills, tools, system-design]
+status: active
 ---
 
 # GTM Operating System Architecture

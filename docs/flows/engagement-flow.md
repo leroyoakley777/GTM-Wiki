@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Engagement Flow
 description: How dispositions flow through the GTM OS layers-from task state to skill invocation, execution, verification, and update.
 tags: [engagement, disposition, flow, task-state, skill, execution, verification]
+status: active
 ---
 
 # Engagement Flow

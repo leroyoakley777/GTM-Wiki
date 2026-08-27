@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Flows
 description: "The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them."
+status: active
+tags: ['flows', 'index']
 ---
 
 # Flows

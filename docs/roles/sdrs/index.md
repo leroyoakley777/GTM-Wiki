@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Roles: SDRs"
 description: "What SDRs do and the metrics that gate their motion."
+status: active
+tags: ['roles', 'index']
 ---
 
 # SDRs

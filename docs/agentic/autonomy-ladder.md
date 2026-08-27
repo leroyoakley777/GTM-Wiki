@@ -2,6 +2,8 @@
 sidebar_position: 3
 title: Autonomy Ladder
 description: How agents earn and lose autonomy based on verified outcomes and evidence.
+status: active
+tags: ['agentic', 'autonomy', 'ladder']
 ---
 
 

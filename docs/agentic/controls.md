@@ -3,6 +3,7 @@ sidebar_position: 6
 title: Controls
 description: Failure modes, mitigations, and how the GTM OS prevents silent regressions.
 tags: [controls, failure-modes, mitigations]
+status: active
 ---
 # Controls
 

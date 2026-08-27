@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: Case Studies
 description: "Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical."
+status: active
+tags: ['case-studies', 'index']
 ---
 
 # Case Studies

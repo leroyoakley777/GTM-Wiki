@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: "Welcome"
 description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market."
+status: active
+tags: ['intro', 'gtm']
 ---
 # Welcome to the Open GTM Wiki
 
@@ -13,22 +15,32 @@ framework is designed to be adapted to any business model or stage.
 
 ## Quick stats
 
-- **Pages:** 92
+- **Pages:** 98
 - **Topics:** 19
 - **Last updated:** 2026-08-26
 
 ## Explore GTM
 
-| | | |
-|---|---|---|
-| 🗺️ | **[Map](./map.md)** | One image, the whole wiki |
-| 🎯 | **[Core Frameworks](./foundations/00-gtm-strategy-framework.md)** | How to think – durable strategy from 2015 to 2035 |
-| 📘 | **[Playbooks](./playbooks/index.md)** | What to do – situation‑specific runs |
-| 🤖 | **[Agentic GTM](./agentic/index.md)** | How to execute with agents, harnesses, and automation |
-| 👥 | **[Roles](./roles/head-of-platforms/index.md)** | Who does it – hiring and role guides |
-| 💾 | **[Tools & Data](./tools/index.md)** | CRM, enrichment, intent data, and more |
-| 📚 | **[Resources](./resources/index.md)** | Books, free courses, newsletters, templates |
-| ☕ | **[Support](./support/index.md)** | Buy me a coffee, donate, contribute |
+## Explore GTM
+
+| Icon | Section | Description |
+|------|---------|-------------|
+| 🗺️ | [Map](./map.md) | One image, the whole wiki |
+| 🎯 | [Core Frameworks](./foundations/00-gtm-strategy-framework.md) | How to think – durable strategy from 2015 to 2035 |
+| 📘 | [Playbooks](./playbooks/index.md) | What to do – situation‑specific runs |
+| 🤖 | [Agentic GTM](./agentic/index.md) | How to execute with agents, harnesses, and automation |
+| 👥 | [Roles](./roles/head-of-platforms/index.md) | Who does it – hiring and role guides |
+| 💾 | [Tools & Data](./tools/index.md) | CRM, enrichment, intent data, and more |
+| 📚 | [Resources](./resources/index.md) | Books, free courses, newsletters, templates |
+| ☕ | [Support](./support/index.md) | Buy me a coffee, donate, contribute |
+| 🏭 | [Product Marketing](./product-marketing/index.md) | Positioning, messaging, launches, pricing, competitive enablement |
+| 🏛️ | [Culture](./culture/index.md) | Values, rituals, feedback loops, recognition |
+| 👔 | [Recruiting](./recruiting/index.md) | Sourcing, interview scorecards, offer process, onboarding |
+| 🔧 | [Enable­ment](./enablement/index.md) | Sales, CS, partner enablement, content library, LMS |
+| ⚙️ | [GTM Engineering](./gtm-engineering/index.md) | Data layer, model orchestration, skill/tool dev, CI/CD, observability, experimentation |
+| 📊 | [Channels](./channels/index.md) | Outbound, inbound, product‑led, partner, community, paid, events, referral |
+| 📈 | [Case Studies](./case-studies/index.md) | Before → after, working builds, transferable lessons |
+| 🔄 | [Flows](./flows/index.md) | Full end‑to‑end motions, runnable start to finish, artifacts at every step |
 
 ## Recent updates
 

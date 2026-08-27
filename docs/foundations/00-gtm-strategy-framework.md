@@ -3,6 +3,8 @@ sidebar_position: 1
 title: GTM Strategy Framework (Universal)
 description: "The universal GTM strategy framework and how it applies across stages and markets."
 last_updated: 2026-08-19
+status: active
+tags: ['foundations', 'gtm', 'strategy']
 ---
 
 # GTM Strategy Framework

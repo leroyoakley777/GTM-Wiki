@@ -3,6 +3,7 @@ sidebar_position: 4
 title: Quality Gate
 description: How the GTM OS enforces quality before any change deploys-using the four questions, agent approval, and the examiner.
 tags: [quality, gate, examiner, agentic]
+status: active
 ---
 # Quality Gate
 

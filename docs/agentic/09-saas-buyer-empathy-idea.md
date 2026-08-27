@@ -2,6 +2,8 @@
 sidebar_position: 9
 title: SaaS Buyer‑Enablement Idea
 description: Captured idea for helping sellers know what it's like to be a buyer.
+status: active
+tags: ['agentic', 'saas', 'buyer']
 ---
 
 
