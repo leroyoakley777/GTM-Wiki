@@ -24,7 +24,7 @@ Every change must answer **yes** to all four questions before it can proceed. If
    → For changes that touch skills, prompts, or agent-facing policies, an authorized agent must review and approve the change. This ensures the agent’s autonomy ladder is respected and that the agent’s trust in the system is not violated.
 
 4. **Does the change satisfy the build order?**  
-   → The change must not violate the recommended build order (see [Build Order](#build-order)). For example, you may not automate outreach (phase 4) before closing the loop (phase 3) is solid.
+   → The change must not violate the recommended build order (see [Build Order](./build-order.md)). For example, you may not automate outreach (phase 4) before closing the loop (phase 3) is solid.
 
 ## How the Gate Works
 
