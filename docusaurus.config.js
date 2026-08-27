@@ -9,7 +9,7 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: 'Open GTM Wiki',
   tagline: 'The best open-source Go-to-Market resource for founders, operators, and builders',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.png',
 
   url: 'https://gtm-wiki-nu.vercel.app',
   baseUrl: '/',
@@ -57,7 +57,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/og-image.jpg',
+      image: 'img/og-image.png',
       metadata: [{ name: 'color-scheme', content: 'light dark' }],
       navbar: {
         title: 'Open GTM Wiki',
