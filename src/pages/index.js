@@ -54,43 +54,53 @@ const sections = [
   },
 ];
 
+const stats = {
+  sections: '16',
+  pages: '98',
+  openSource: '100%',
+  vendorDecks: '0',
+};
+
 export default function Home() {
   return (
-    <Layout title="Open GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders.">
+    <Layout title="Open GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders. Last updated: 2026-08-27.">
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
           <h1>Open GTM Wiki</h1>
           <p className="gtm-hero__thesis">
-            Thank you for visiting our page. If you would like to collaborate
-            on this, please email leroy.oakley777@gmail.com.
+            The best place to learn go-to-market, and the best looking too.
+            Quality on a living topic graph — not a page count.
           </p>
-          <div className="gtm-hero__actions">
+          <p className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
               Start reading
             </Link>
             <Link className="gtm-hero__action gtm-hero__action--ghost" to={useBaseUrl('/docs/map')}>
               See the map
             </Link>
-          </div>
+          </p>
+          <p className="gtm-hero__note">
+            Collaborating? Email <a href="mailto:leroy.oakley777@gmail.com">leroy.oakley777@gmail.com</a>.
+          </p>
         </header>
 
         {/* STATS */}
         <div className="gtm-stats">
           <div className="gtm-stat">
-            <div className="gtm-stat__number">8</div>
-            <div className="gtm-stat__label">Reference sections</div>
-          </div>
-          <div className="gtm-stat">
-            <div className="gtm-stat__number">60</div>
+            <div className="gtm-stat__number">{stats.pages}</div>
             <div className="gtm-stat__label">Pages and growing</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number">100%</div>
+            <div className="gtm-stat__number">{stats.sections}</div>
+            <div className="gtm-stat__label">Reference sections</div>
+          </div>
+          <div className="gtm-stat">
+            <div className="gtm-stat__number">{stats.openSource}</div>
             <div className="gtm-stat__label">Open source</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number">0</div>
+            <div className="gtm-stat__number">{stats.vendorDecks}</div>
             <div className="gtm-stat__label">Vendor decks</div>
           </div>
         </div>
@@ -98,7 +108,7 @@ export default function Home() {
         {/* EXPLORE GRID */}
         <section className="gtm-explore">
           <div className="gtm-section-label">EXPLORE</div>
-          <h2>Browse all eight domains</h2>
+          <h2>Browse all sections</h2>
           <div className="gtm-grid">
             {sections.map((s) => (
               <Link key={s.index} className="gtm-card" to={useBaseUrl(s.to)}>
@@ -108,6 +118,17 @@ export default function Home() {
               </Link>
             ))}
           </div>
+        </section>
+
+        {/* RECENT UPDATES */}
+        <section className="gtm-updates">
+          <div className="gtm-section-label">RECENT UPDATES</div>
+          <ul>
+            <li><strong>2026-08-27</strong> — Added AE role page, updated og-image, refreshed homepage.</li>
+            <li><strong>2026-08-26</strong> — Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
+            <li><strong>2026-08-20</strong> — Added GTM OS Architecture and Engagement Flow pages.</li>
+            <li><strong>2026-08-18</strong> — Initial launch of the GTM Wiki with core frameworks and playbooks.</li>
+          </ul>
         </section>
 
         {/* MANIFESTO */}
