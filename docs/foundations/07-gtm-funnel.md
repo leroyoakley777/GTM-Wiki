@@ -255,3 +255,36 @@ The funnel is the spine. Everything else attaches to it:
 ---
 
 *Synthesized from Unusual Ventures GTM field guide, Funnel.io TOFU/MOFU/BOFU analysis, and ZoomInfo 2026 B2B content marketing funnel guide.*
+
+## Example Artifact
+
+```
+# Example
+print("hello")
+```
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

@@ -59,6 +59,7 @@ print("Hello, GTM Engineering")
 | Automated | Scripted, monitored |
 | Optimized | Data‑driven, self‑improving |
 
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
 ## Standard Operating Procedure
 
 1. Define objective
@@ -66,3 +67,5 @@ print("Hello, GTM Engineering")
 3. Execute skill
 4. Verify outcome
 5. Iterate
+
+> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) [https://example.com/source](https://example.com/source)

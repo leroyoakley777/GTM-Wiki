@@ -123,3 +123,29 @@ sequenceDiagram
 ## Related Pages
 
 - [GTM OS Architecture](../agentic/00-gtm-os-architecture.md): Shows the 4‑layer model that the examiner operates within. - [Engagement Flow](../flows/engagement-flow.md): Shows how dispositions flow through the layers and produce the ledger the examiner uses. - [Autonomy Ladder](./autonomy-ladder.md): Shows how agents earn and lose autonomy based on verified outcomes. - [Repo Structure](./gtm-os-repo-structure.md): Shows the file tree (`icp/`, `personas/`, `plays/`, `skills/`, `scoring.md`, `policies/`, `evals/`). > _“The examiner holds every actor to the same bar, and its own graders are tested with planted cases before their verdicts count.”_ - GTM OS Blueprint
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

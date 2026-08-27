@@ -127,3 +127,36 @@ Segmentation is not a marketing exercise. It is the precondition for every other
 - [GTM Strategy Framework](../foundations/00-gtm-strategy-framework.md): where segmentation sits in the operating system.
 - [Positioning and Messaging](../foundations/03-positioning-and-messaging.md): what segmentation feeds.
 - [Pricing as GTM](../data/pricing-as-gtm): packaging is built on customer groups, not segments.
+
+## Example Artifact
+
+```
+# Example
+print("hello")
+```
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

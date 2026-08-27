@@ -252,3 +252,36 @@ Competitive Analysis */}
 ---
 
 *Synthesized from April Dunford, Product Marketing Alliance (Daniel Kuperman/Atlassian), Zendesk, Geoffrey Moore, and Al Ries & Jack Trout.*
+
+## Example Artifact
+
+```
+# Example
+print("hello")
+```
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

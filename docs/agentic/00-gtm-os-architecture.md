@@ -90,3 +90,36 @@ The GTM OS is built as a **4-layer architecture**, where each layer has a distin
 - [Repo Structure](./gtm-os-repo-structure.md): Shows the file tree (`icp/`, `personas/`, `plays/`, etc.) that implements the layers
 
 > _“The GTM OS is not a dashboard-it’s a declared state machine where every layer decides something different about whether the design succeeds.”_ - GTM OS Blueprint
+
+## Example Artifact
+
+```
+# Example
+print("hello")
+```
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

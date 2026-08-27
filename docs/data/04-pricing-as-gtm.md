@@ -99,3 +99,36 @@ The strongest pricing models are boring: clear packaging around buyer groups, di
 - [GTM Metrics](../data/gtm-metrics): pricing drives ARPA, LTV, CAC payback.
 - [Market Segmentation](../data/market-segmentation): packaging is built on customer groups, not segments.
 - [Revenue Architecture](../foundations/revenue-architecture.md): the Growth Formula that pricing feeds.
+
+## Example Artifact
+
+```
+# Example
+print("hello")
+```
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate

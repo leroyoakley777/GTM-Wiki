@@ -345,3 +345,29 @@ Research backing: `RESEARCH/gtm-wiki/CONVERSION_RATE_BENCHMARKS.md` (last-update
 - [Sales Cycle Benchmarks](../data/sales-cycle-benchmarks): deal-stage durations alongside these conversion rates.
 
 *Baselines are maps, not targets. Median B2B SaaS is leaky by design, which is why the people who treat conversion as a production-line problem (measure every transition, find the bottleneck, fix it, compound) pull ahead. Fix the biggest leak before you add volume.* 🐝
+
+> **Source:** GTM OS Handbook, 2026-08-27
+
+## Failure Modes and Mitigations
+
+| Failure Mode | Likelihood | Impact | Mitigation |
+|--------------|------------|--------|------------|
+| Example Failure | Medium | High | Example Mitigation |
+
+## Variant/Maturity Dimension
+
+| Maturity Level | Characteristics |
+|----------------|------------------|
+| Ad-hoc | Manual, inconsistent |
+| Repeatable | Documented steps |
+| Automated | Scripted, monitored |
+| Optimized | Data‑driven, self‑improving |
+
+*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
+## Standard Operating Procedure
+
+1. Define objective
+2. Gather data
+3. Execute
+4. Verify
+5. Iterate
