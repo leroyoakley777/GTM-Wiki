@@ -60,11 +60,7 @@ const sections = [
   },
 ];
 
-const stats = {
-  sections: '16',
-  pages: '98',
-  openSource: '100%',
-};
+import stats from './stats.json';
 
 export default function Home() {
   return (
