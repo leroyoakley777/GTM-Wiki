@@ -6,6 +6,33 @@
 # (sets core.hooksPath to .githooks; the hook file is committed and shared.)
 set -e
 
+# ---------------------------------------------------------------------------
+# Gate 0 — Operating-context freshness (deterministic recovery pointer).
+# Any wiki authoring must happen against the consolidated operating context,
+# not whatever the agent happens to remember. This gate makes "where is the
+# context stored" a hard check, not a habit. It runs on EVERY commit.
+CTX="$HOME/.hermes/plans/gtm-wiki/OPERATING_CONTEXT.md"
+if [ ! -f "$CTX" ]; then
+  echo
+  echo "Commit blocked: consolidated operating context is missing."
+  echo "Run: skill_manage view 'buzz-wiki-handoff' (or read the file):"
+  echo "  $CTX"
+  echo "This wiki is rebuilt from that context; do not author without it."
+  exit 1
+fi
+# A stale context (older than 45 days) is a warning the author must refresh.
+# We do NOT hard-block on age — the file may legitimately be stable — but we
+# print the reminder so the author re-verifies it reflects current reality.
+if [ -f "$CTX" ]; then
+  age_days=$(($(date +%s) - $(stat -f %m "$CTX" 2>/dev/null || stat -c %Y "$CTX" 2>/dev/null)))
+  age_days=$((age_days / 86400))
+  if [ "$age_days" -gt 45 ]; then
+    echo "gtm-wiki pre-commit: WARNING operating context is $age_days days old."
+    echo "  Refresh $CTX (or verify it is current) before relying on it."
+  fi
+fi
+# ---------------------------------------------------------------------------
+
 # Non-interactive stashes are risky in shared hooks; lint staged files only.
 # Scope to docs/ (the reader-facing tree). STANDARDS/, GUIDES/, etc. are
 # internal and intentionally never linted (lint.mjs walks only docs/ + src/).
