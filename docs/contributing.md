@@ -1,10 +1,10 @@
 ---
 sidebar_position: 99
 title: Contributing
-description: "How to contribute to the GTM Wiki: what counts as a good contribution, the page contract, the gates every page must clear, and the pull request workflow."
+description: "How to contribute to the GTM Wiki: what counts as a good contribution, the page contract, the machine gates every page must clear, and the pull request workflow."
 last_updated: 2026-08-27
 status: active
-tags: [contributing, gtm, community, open-source]
+tags: [contributing, gtm, community, open-source, docs-as-code]
 ---
 
 # Contributing
@@ -33,19 +33,30 @@ The wiki covers the whole go-to-market landscape. Before you write, check
 whether the topic already exists under a related name. Cross-reference before
 you create. A duplicate is debt, not progress.
 
+A contribution does not have to be a new page. Finding a broken link, fixing
+a stale stat, adding a missing source row, or clarifying a confusing section
+all count. The work that maintainers value most is often the work that is not
+glamorous: a corrected number, a tightened paragraph, a source that actually
+supports the claim [1].
+
 ## Why it matters
 
 The wiki is a credibility piece. Every page is a proof of competence. A weak
 or wrong page costs trust before a reader reaches any content that matters.
 Open source contributions are how the graph grows beyond one author, and the
-demand is real: March 2025 was the largest single month of new open-source
-contributors in GitHub history, at 255,000 first-timers [1]. Nearly 20% of
-the most popular first-timer projects in 2025 were AI-focused [1], which is
+demand is real. March 2025 was the largest single month of new open-source
+contributors in GitHub history, at 255,000 first-timers [2]. Nearly 20% of
+the most popular first-timer projects in 2025 were AI-focused [2], which is
 the same territory this wiki leads with.
 
 Your contribution compounds. A well-sourced page stays useful for years. A
 page without a source becomes a liability the moment someone checks it. The
 gates below exist so every shipped page earns its place.
+
+One operator wrote ten contributions to a single project, and that was worth
+more than ten contributions to ten projects. Depth in one place beats a
+spread of shallow touches. Build relationships with one maintainer, one
+section, one topic. That is how trust and credit accrue [1].
 
 ## What counts as a good contribution
 
@@ -94,29 +105,83 @@ Every page also ships with these hard requirements:
 The full quality bar is the Gold Ship Standard: True, Tasteful, Insightful,
 Engaging. A page that fails any gate does not ship.
 
+## How the wiki is built: docs as code
+
+This wiki is a docs-as-code project. That phrase means the wiki runs on the
+same systems software teams use to build software. Pages are Markdown files
+in a Git repository. Changes move through pull requests. A reviewer reads the
+diff before it reaches readers. Automated checks run on every change, and a
+merge publishes the approved update.
+
+The model is deliberate. The wiki learned the hard way that eyeballs miss
+fabrication and slop. A single author editing a wiki page with no review can
+ship a wrong number and no one catches it. Docs-as-code puts every change
+through the same gate, whether it comes from a maintainer or a first-time
+contributor [3].
+
+The workflow is a loop, not a one-way door:
+
+1. Edit the Markdown file on a branch. The branch is a safe working copy.
+2. Open a pull request with a short note on what changed and why.
+3. A reviewer reads the exact lines changed.
+4. Automated checks confirm the site still builds and the links resolve.
+5. The change merges and deploys.
+
+Small fixes move through the loop quickly. Every published change passes
+through the same gate [3].
+
+## Machine gates
+
+The gates are machine-enforced, not aspirational. Four of them run on every
+commit:
+
+- **Lint.** `lint.mjs` rejects banned voice, broken frontmatter, and build
+  traps. A page that fails lint does not ship.
+- **Depth.** `check-depth.mjs` enforces the word floor and the page contract.
+- **Sources.** `validate-sources.mjs --strict` fails the build on any
+  unregistered citation. This is the True gate. It exists because a source
+  checker that only counted citations missed fabrication. The gate now
+  checks that every cited URL has a dated row in the source registry.
+- **Freshness.** Every page carries `last_updated`, and the freshness check
+  enforces the cadence. Data pages refresh every 90 days, frameworks every 6
+  months, case studies every 12 months. A stale source is a liability. When
+  you update a number, replace the old source and date the replacement.
+
+Do not treat the gates as a hurdle to clear at the end. Run them while you
+write. The wiki's build runs `npm run check` (lint, depth, sources) before it
+builds. A change that fails a gate fails the build.
+
 ## How to execute
 
 Follow this workflow. It mirrors the way the wiki's own build runs.
 
 1. **Fork the repository** on GitHub at
    [github.com/leroyoakley777/GTM-Wiki](https://github.com/leroyoakley777/GTM-Wiki).
-2. **Create a branch.** Never commit to `main` directly. Name it after the
+2. **Read the project before you write.** Look at the contributing docs and
+   the recent pull requests. Confirm the project is active and that
+   maintainers respond [1].
+3. **Find a gap.** Start from the [map](./map). Pick an issue that is labeled
+   for beginners if one exists, or propose a page the graph is missing.
+   For anything beyond a typo fix, open an issue or a draft pull request
+   before you invest a week [1].
+4. **Create a branch.** Never commit to `main` directly. Name it after the
    change, for example `docs/contributing-page`.
-3. **Clone and set up locally.** Run `npm install`, then `npm run setup:hooks`
+5. **Clone and set up locally.** Run `npm install`, then `npm run setup:hooks`
    to install the pre-commit gates.
-4. **Add or edit the page** under `docs/` with the page contract above.
-5. **Cross-link related pages** with relative links using the unprefixed slug.
+6. **Add or edit the page** under `docs/` with the page contract above.
+7. **Cross-link related pages** with relative links using the unprefixed slug.
    Docusaurus strips the leading `NN-` from a filename, so link to
    `./flows/sales-process-meddpicc`, never `./flows/03-sales-process-meddpicc`.
-6. **Verify locally.** Run `npm run check` for lint, depth, and sources, then
+8. **Verify locally.** Run `npm run check` for lint, depth, and sources, then
    `npm run build` to confirm it compiles. Fix everything that fails.
-7. **Open a pull request** with a short description of what you added and why.
-8. **Respond to review.** Reviewers are volunteers. When they ask for changes,
-   make them. If you cannot continue, say so and close cleanly.
+9. **Open a pull request** with a short description of what you added and why.
+   Paste the checklist from the next section into the body.
+10. **Respond to review.** Reviewers are volunteers. When they ask for changes,
+    make them. If you cannot continue, say so and close cleanly.
 
 Open a draft pull request early for a substantial contribution. Draft PRs
 let reviewers watch your progress and catch a wrong direction before you
-invest a week [2].
+invest a week [1].
 
 ## Page template
 
@@ -162,6 +227,9 @@ The failure modes and how to fix them.
 1. [Name](https://example.com)
 ```
 
+Replace the placeholder link with a real, registered source. A placeholder
+URL in the Sources section fails the build.
+
 ## Pull request checklist
 
 Paste this into your pull request body. Every box must be checked before a
@@ -205,25 +273,27 @@ review starts.
   shipped.
 - **One giant pull request.** A single PR that rewrites a whole section is
   hard to review and hard to merge. Split it into focused changes. Most teams
-  aim to keep pull request review under three business days [3], and small,
-  focused PRs are what make that possible.
-- **Opening a PR without checking the project.** Read the contributing docs
-  and check the recent pull requests before you write. Confirm the project is
-  active and that maintainers respond [2].
+  aim to keep pull request review under three business days [4], and small,
+  focused PRs are what make that possible. Keep a PR focused on one issue and
+  explain what changed and why [1].
+- **Walking away after opening.** When a reviewer requests changes, respond.
+  Opening a PR and disappearing is bad form. If you run out of time, tell the
+  maintainer so they can reopen the issue for someone else [1].
+- **Treating a rejection as failure.** A contribution may not merge. Ask for
+  the reason, respect the decision, and fork your own version if you
+  disagree [1].
 
 ## Why the gates are hard
 
-The gates are machine-enforced, not aspirational. `lint.mjs` rejects banned
-voice. `check-depth.mjs` enforces the word floor and page contract.
-`validate-sources.mjs --strict` fails the build on any unregistered citation.
-This is deliberate. The wiki learned the hard way that eyeballs miss
-fabrication and slop. A machine that fails a bad page protects the whole
-graph, so a reader never meets a claim that cannot be checked.
+The gates are not a style preference. They are the difference between a
+reference and a liability. A wrong page costs a reader a bad decision. A
+fabricated stat costs the wiki its credibility. The machine enforces the bar
+because a human cannot be trusted to enforce it on every page, every day.
 
-The gate cadence matters as much as the check. Data pages refresh every 90
-days, frameworks every 6 months, case studies every 12 months. A stale source
-is a liability. When you update a number, replace the old source and date the
-replacement.
+That is the honest reason the gates exist. The wiki has been burned by
+self-reported work that looked fine and was wrong. A machine that fails a bad
+page protects the whole graph, so a reader never meets a claim that cannot be
+checked.
 
 ## Further reading
 
@@ -237,7 +307,7 @@ replacement.
 
 ## Sources
 
-1. [GitHub Octoverse: A new developer joins GitHub every second](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
-2. [GitHub Open Source Guide: How to contribute to open source](https://opensource.guide/how-to-contribute/)
+1. [GitHub Open Source Guide: How to contribute to open source](https://opensource.guide/how-to-contribute/)
+2. [GitHub Octoverse: A new developer joins GitHub every second](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)
 3. [GitClear: Classic pull request stats](https://www.gitclear.com/help/pull_request_classic_stats_how_to_optimize_long_term_health)
 4. [Creative Commons: Pull request guidelines](https://opensource.creativecommons.org/contributing-code/pr-guidelines/)
