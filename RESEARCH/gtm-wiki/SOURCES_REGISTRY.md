@@ -301,6 +301,15 @@ structurally uncommittable, not caught by an auditor later.
 | 237 | RevenueCat | 2026 | Activation-event validity: three tests (retention divergence, holds across segments, improving it moves outcomes); completion rate is a compliance metric, not activation | docs/playbooks/customer-onboarding.md |
 
 235| Digital Silk | 2026 | 69% of startup project failures can be attributed to marketing-related causes when you combine ICP misalignment, messaging failure, poor positioning, and channel inefficiency | docs/foundations/03-positioning-and-messaging.md
+
+### Founders / first-sales-hire batch (vetted 2026-08-27)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 238 | Techstars (Steve Walsh) | Mar 2026 | Founder-led sales critical in first two years; first sales hire often a mistake too early; hire when you have pattern recognition to teach it (who we sell to, how the conversation goes, why customers buy) | docs/roles/founders/index.md |
+| 239 | Estner & Blank (MRR Unlocked) | Oct 2024 | Win first 10–100 customers yourself before hiring; first sales hire only after message-market fit; deal size drives structure (up to 10K ACV no SDRs, 10–100K mixed, over 100K specialized); full-cycle vs specialization by stage | docs/roles/founders/index.md |
+| 240 | Stage 2 Capital (Liz Christo) | 2024 | First GTM hire isn't always sales (marketer/CS possible); define success for next 9–12 months + scorecard (max 5 must-haves); hire for your stage not too senior (Oracle vet unlikely to find first 5 customers); don't step away from founder-led sales too soon | docs/roles/founders/index.md |
+| 241 | Hyrise (via Estner & Blank) | 2024 | Entrepreneur-in-residence profile for first seller: experimental mindset, quick adaptability, willing to do outbound; not a big-logo rep | docs/roles/founders/index.md |
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the
