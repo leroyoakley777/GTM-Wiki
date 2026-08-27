@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+<!-- Force redeploy 2026-08-27T12:37:59.280868 -->\nsidebar_position: 1
 title: "Welcome"
-description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 - UPDATED FOR LIVE\n"
+description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 12:37:59 - UPDATED FOR LIVE\n"
 status: active
 tags: ['intro', 'gtm']
 ---
