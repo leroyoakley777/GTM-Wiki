@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "Welcome"
-description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 - UPDATED FOR LIVE"
+description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market. Last updated: 2026-08-27 - UPDATED FOR LIVE\n"
 status: active
 tags: ['intro', 'gtm']
 ---
@@ -47,6 +47,7 @@ framework is designed to be adapted to any business model or stage.
 - **2026-08-20** – Added GTM OS Architecture and Engagement Flow pages.
 - **2026-08-18** – Initial launch of the GTM Wiki with core frameworks and playbooks.
 
+- **2026-08-27** – Added AE role page, updated og‑image, and refreshed homepage timestamp.
 ## Community & contribute
 
 - **GitHub:** [github.com/leroyoakley777/GTM-Wiki](https://github.com/leroyoakley777/GTM-Wiki) – Star, fork, open issues, submit pull requests.
