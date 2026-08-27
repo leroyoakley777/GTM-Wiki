@@ -7,9 +7,9 @@ tags: ['intro', 'gtm']
 ---
 <!-- Force redeploy 2026-08-27T12:37:59.280868 -->
 <!-- Force rebuild 2026-08-27T09:19:11.869222 -->
-<div class="notice">
-  **🚀 Site updated: 2026-08-27 12:38:00**
-</div>
+:::note
+**🚀 Site updated: 2026-08-27 12:38:00**
+:::
 
 # Welcome to the Open GTM Wiki
 
@@ -23,8 +23,7 @@ framework is designed to be adapted to any business model or stage.
 
 - **Pages:** 98
 - **Topics:** 19
-- **Last updated:** 2026-08-27
-
+- **Last updated:** 2026-08-27 12:43\n
 ## Explore GTM
 
 | Icon | Section | Description |
