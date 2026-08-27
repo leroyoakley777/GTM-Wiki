@@ -70,7 +70,7 @@ export default function Home() {
           <h1>Open GTM Wiki</h1>
           <p className="gtm-hero__thesis">
             The best place to learn go-to-market, and the best looking too.
-            Quality on a living topic graph — not a page count.
+            Quality on a living topic graph - not a page count.
           </p>
           <p className="gtm-hero__actions">
             <Link className="gtm-hero__action gtm-hero__action--primary" to={useBaseUrl('/docs/intro')}>
@@ -124,10 +124,10 @@ export default function Home() {
         <section className="gtm-updates">
           <div className="gtm-section-label">RECENT UPDATES</div>
           <ul>
-            <li><strong>2026-08-27</strong> — Added AE role page, updated og-image, refreshed homepage.</li>
-            <li><strong>2026-08-26</strong> — Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
-            <li><strong>2026-08-20</strong> — Added GTM OS Architecture and Engagement Flow pages.</li>
-            <li><strong>2026-08-18</strong> — Initial launch of the GTM Wiki with core frameworks and playbooks.</li>
+            <li><strong>2026-08-27</strong> - Added AE role page, updated og-image, refreshed homepage.</li>
+            <li><strong>2026-08-26</strong> - Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
+            <li><strong>2026-08-20</strong> - Added GTM OS Architecture and Engagement Flow pages.</li>
+            <li><strong>2026-08-18</strong> - Initial launch of the GTM Wiki with core frameworks and playbooks.</li>
           </ul>
         </section>
 
