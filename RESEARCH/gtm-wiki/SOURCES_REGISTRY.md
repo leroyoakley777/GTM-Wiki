@@ -310,6 +310,15 @@ structurally uncommittable, not caught by an auditor later.
 | 239 | Estner & Blank (MRR Unlocked) | Oct 2024 | Win first 10–100 customers yourself before hiring; first sales hire only after message-market fit; deal size drives structure (up to 10K ACV no SDRs, 10–100K mixed, over 100K specialized); full-cycle vs specialization by stage | docs/roles/founders/index.md |
 | 240 | Stage 2 Capital (Liz Christo) | 2024 | First GTM hire isn't always sales (marketer/CS possible); define success for next 9–12 months + scorecard (max 5 must-haves); hire for your stage not too senior (Oracle vet unlikely to find first 5 customers); don't step away from founder-led sales too soon | docs/roles/founders/index.md |
 | 241 | Hyrise (via Estner & Blank) | 2024 | Entrepreneur-in-residence profile for first seller: experimental mindset, quick adaptability, willing to do outbound; not a big-logo rep | docs/roles/founders/index.md |
+
+### SDR role batch (vetted 2026-08-27)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 242 | SalesHive (SDR Best Practices) | Jul 2026 | Benchmark 15 meetings booked/month with 80% show rate (12 held); ~83% of SDRs miss quota monthly; cold-call connect 3-10% and ~2.3% dial-to-meeting; SDRs generate 46-73% of pipeline conversion; avg rep 94.4 activities/day; ~2 hrs/day selling; ramp 3.1 months, tenure 1.8 years; structured onboarding cuts ramp to 6-8 weeks; base ~$60K median, OTE ~$85K, base 60-70% of pay; multi-channel lifts engagement ~287% | docs/roles/sdrs/index.md |
+| 243 | Crunchbase / The Bridge Group | Dec 2025 | Average SDR produces ~$3M pipeline/yr in SaaS; SDRs generate 30-45% of new revenue; outbound 15 SALs/month with ~20% drop-off (12 attended); 1 in 2 SALs leads to a next step; inbound low-intent conversion 5-10%, high-intent 75-80%; inbound rep handles ~15 leads/day | docs/roles/sdrs/index.md |
+| 244 | Martal (SDR Salary) | 2026 | Standard SDR comp 60-70% base / 30-40% commission; OTE ~$85K (base ~$55K); average SDR turnover ~40%; commission-heavy plans drive burnout and poor lead quality | docs/roles/sdrs/index.md |
+| 245 | SV Academy (SDR Salary Guide) | 2026 | SDR base salary by level: entry (0-1 yr) $50-60K, mid (1-3 yr) $60-75K, senior (3+ yr) $70-90K | docs/roles/sdrs/index.md |
 ## Claim-verification status
 
 - ✅ **Seeded from RESEARCH files** (rows 1–39): each row's backing file holds the
