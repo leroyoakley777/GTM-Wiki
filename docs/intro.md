@@ -17,7 +17,7 @@ framework is designed to be adapted to any business model or stage.
 
 - **Pages:** 98
 - **Topics:** 19
-- **Last updated:** 2026-08-26
+- **Last updated:** 2026-08-27
 
 ## Explore GTM
 
