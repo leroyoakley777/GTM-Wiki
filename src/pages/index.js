@@ -92,29 +92,29 @@ export default function Home() {
         {/* STATS */}
         <div className="gtm-stats">
           <div className="gtm-stat">
-            <div className="gtm-stat__number>{stats.pages}</div>
-            <div className="gtm-stat__label>Pages and growing</div>
+            <div className="gtm-stat__number">{stats.pages}</div>
+            <div className="gtm-stat__label">Pages and growing</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number>{stats.sections}</div>
-            <div className="gtm-stat__label>Reference sections</div>
+            <div className="gtm-stat__number">{stats.sections}</div>
+            <div className="gtm-stat__label">Reference sections</div>
           </div>
           <div className="gtm-stat">
-            <div className="gtm-stat__number>{stats.openSource}</div>
-            <div className="gtm-stat__label>Open source</div>
+            <div className="gtm-stat__number">{stats.openSource}</div>
+            <div className="gtm-stat__label">Open source</div>
           </div>
         </div>
 
         {/* EXPLORE GRID */}
         <section className="gtm-explore">
-          <div className="gtm-section-label>EXPLORE</div>
+          <div className="gtm-section-label">EXPLORE</div>
           <h2>Browse all sections</h2>
           <div className="gtm-grid">
             {sections.map((s) => (
               <Link key={s.index} className="gtm-card" to={useBaseUrl(s.to)}>
-                <div className="gtm-card__index>{s.index} / SECTION</div>
-                <div className="gtm-card__title>{s.title}</div>
-                <p className="gtm-card__desc>{s.desc}</p>
+                <div className="gtm-card__index">{s.index} / SECTION</div>
+                <div className="gtm-card__title">{s.title}</div>
+                <p className="gtm-card__desc">{s.desc}</p>
               </Link>
             ))}
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
 
         {/* RECENT UPDATES */}
         <section className="gtm-updates">
-          <div className="gtm-section-label>RECENT UPDATES</div>
+          <div className="gtm-section-label">RECENT UPDATES</div>
           <ul>
             <li><strong>2026-08-27</strong> - Added AE role page, updated og-image, refreshed homepage.</li>
             <li><strong>2026-08-26</strong> - Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
@@ -133,8 +133,8 @@ export default function Home() {
 
         {/* OUR VIEW */}
         <section className="gtm-manifesto">
-          <div className="gtm-section-label>OUR VIEW</div>
-          <p className="gtm-manifesto__text>
+          <div className="gtm-section-label">OUR VIEW</div>
+          <p className="gtm-manifesto__text">
             A living, open-source guide to go-to-market strategy, tactics, and execution - built by practitioners, for practitioners.
           </p>
         </section>
