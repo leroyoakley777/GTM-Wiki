@@ -5,7 +5,7 @@ description: "Welcome to the Open GTM Wiki: the best place to learn go-to-market
 status: active
 tags: ['intro', 'gtm']
 ---
-# Welcome to the Open GTM Wiki
+<!-- Force rebuild 2026-08-27T09:19:11.869222 -->\n# Welcome to the Open GTM Wiki
 
 An open-source Go-to-Market resource for founders, VCs,
 SDRs, AEs, RevOps, and builders of all kinds.
