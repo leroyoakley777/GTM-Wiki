@@ -17,7 +17,7 @@ This page explains the bar. Read it before you open a pull request. It takes
 five minutes and saves a review cycle.
 
 Start with the [map](./map) to see the full topic graph and find a gap, and
-[intro](./intro) for how to navigate the wiki.
+[intro](./intro) for how to use the wiki.
 
 ## Definition
 
@@ -29,7 +29,7 @@ A contribution is not a formatting tweak that adds no information, a rewrite
 that changes voice without adding facts, or a page that restates common
 knowledge. Those add noise and cost review time.
 
-The wiki covers the whole go-to-market landscape. Before you write, check
+The wiki covers the whole go-to-market space. Before you write, check
 whether the topic already exists under a related name. Cross-reference before
 you create. A duplicate is debt, not progress.
 
@@ -290,14 +290,15 @@ reference and a liability. A wrong page costs a reader a bad decision. A
 fabricated stat costs the wiki its credibility. The machine enforces the bar
 because a human cannot be trusted to enforce it on every page, every day.
 
-That is the honest reason the gates exist. The wiki has been burned by
-self-reported work that looked fine and was wrong. A machine that fails a bad
-page protects the whole graph, so a reader never meets a claim that cannot be
+That is the honest reason the gates exist. Burned by self-reported work that
+looked fine and was wrong, the wiki now fails bad pages by machine. A machine
+that fails a bad page protects the whole graph, so a reader never meets a
+claim that cannot be
 checked.
 
 ## Further reading
 
-- [Welcome and how to navigate](./intro)
+- [Welcome and how to use the wiki](./intro)
 - [Map of the wiki](./map)
 - [What is GTM](./foundations/what-is-gtm)
 - [The GTM strategy framework](./foundations/gtm-strategy-framework)
