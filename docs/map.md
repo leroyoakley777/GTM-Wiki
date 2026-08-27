@@ -4,6 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
+last_updated: 2026-08-27
 ---
 
 # Map

@@ -338,3 +338,12 @@ structurally uncommittable, not caught by an auditor later.
 `validate-sources` (when wired into Fizz's L1/L2) cross-checks every
 `[Name](url)` citation and every `Source:`-table cell in `docs/` against this
 registry. Unregistered citation → build failure.
+
+### Contributing / open-source process batch (vetted 2026-08-27)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 246 | GitHub Open Source Guide | 2024 | Canonical contributor checklist: check the project's CONTRIBUTING docs before contributing, open substantial-work issues before starting, open draft PRs early, test changes, contribute in the project's style | docs/contributing.md |
+| 247 | GitHub Octoverse | 2025 | March 2025 was the largest single month of new open-source contributors in GitHub history at 255,000 first-timers; nearly 20% of the top first-timer projects were AI-focused | docs/contributing.md |
+| 248 | GitClear | 2024 | Most teams target PR review under 3 business days; recommend PRs stay under 500 diff delta | docs/contributing.md |
+| 249 | Creative Commons | 2024 | Creative Commons aims to review pull requests within 5 business days | docs/contributing.md |
