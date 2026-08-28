@@ -117,7 +117,7 @@ The model is deliberate. The wiki learned the hard way that eyeballs miss
 fabrication and slop. A single author editing a wiki page with no review can
 ship a wrong number and no one catches it. Docs-as-code puts every change
 through the same gate, whether it comes from a maintainer or a first-time
-contributor [3].
+contributor.
 
 The workflow is a loop, not a one-way door:
 
@@ -128,7 +128,7 @@ The workflow is a loop, not a one-way door:
 5. The change merges and deploys.
 
 Small fixes move through the loop quickly. Every published change passes
-through the same gate [3].
+through the same gate.
 
 ## Machine gates
 
@@ -318,9 +318,11 @@ the failure points at the gates that need a sharper edge, not at the workflow.
   shipped.
 - **One giant pull request.** A single PR that rewrites a whole section is
   hard to review and hard to merge. Split it into focused changes. Most teams
-  aim to keep pull request review under three business days [4], and small,
+  target pull request review in under three business days [3], and small,
   focused PRs are what make that possible. Keep a PR focused on one issue and
-  explain what changed and why [1].
+  explain what changed and why [1]. Creative Commons aims to review pull
+  requests within five business days [4], so a good PR expects a reply inside
+  a week.
 - **Walking away after opening.** When a reviewer requests changes, respond.
   Opening a PR and disappearing is bad form. If you run out of time, tell the
   maintainer so they can reopen the issue for someone else [1].
@@ -338,8 +340,7 @@ because a human cannot be trusted to enforce it on every page, every day.
 That is the honest reason the gates exist. Burned by self-reported work that
 looked fine and was wrong, the wiki now fails bad pages by machine. A machine
 that fails a bad page protects the whole graph, so a reader never meets a
-claim that cannot be
-checked.
+claim that cannot be checked.
 
 ## Further reading
 
