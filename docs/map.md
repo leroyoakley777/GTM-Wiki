@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-08-27
+last_updated: 2026-08-28
 ---
 
 # Map
@@ -27,4 +27,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 12 | [Process](/docs/process/intake-capture) | 1 | The process section of the wiki. |
 | 13 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
 
-**13 sections · 79 pages · generated 2026-08-27**
+**13 sections · 79 pages · generated 2026-08-28**
