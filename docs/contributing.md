@@ -53,9 +53,9 @@ The scale of the movement backs the model. Open source drew 1.128 billion
 contributions to public and open-source repositories in 2025, up 13% year over
 year, and 60% of the ten most-contributed projects were AI-focused [2]. A
 community-built wiki in that same territory is not a niche bet. It is the
-normal way a reference like this compounds.
+normal way a reference like this grows.
 
-Your contribution compounds. A well-sourced page stays useful for years. A page
+Your contribution accrues. A well-sourced page stays useful for years. A page
 without a source becomes a liability the moment someone checks it. The gates
 below exist so every shipped page earns its place.
 
@@ -319,7 +319,7 @@ review starts.
 
 ## Agentic SOP: contribute a page
 
-The wiki is built by agents as well as people. The production line runs on the
+People and agents build this wiki. The production line runs on the
 same loop you just read. An agent can contribute a page end to end with the
 prompt below. It encodes the page contract and the gates into a repeatable
 sequence, so a run produces the same result whether a human or an agent drives
