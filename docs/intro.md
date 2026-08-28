@@ -172,9 +172,9 @@ claim; the wiki is the synthesis.
 a sanity check, not a goal. A target that beats the median is fine when your
 motion and market support it, but you have to know why.
 
-**Ignoring the agentic layer.** The agentic section is not a gimmick. It is
-the execution layer for the time we are in. If you are planning a GTM motion
-for the next 12 months without an agentic component, the plan is already dated.
+**Ignoring the agentic layer.** The agentic section is the execution layer for
+the time we are in, not a gimmick. If you are planning a GTM motion for the
+next 12 months without an agentic component, the plan is already dated.
 
 ## How to contribute
 
