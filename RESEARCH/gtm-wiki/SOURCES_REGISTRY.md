@@ -347,3 +347,4 @@ registry. Unregistered citation → build failure.
 | 247 | GitHub Octoverse | 2025 | March 2025 was the largest single month of new open-source contributors in GitHub history at 255,000 first-timers; nearly 20% of the top first-timer projects were AI-focused | docs/contributing.md |
 | 248 | GitClear | 2024 | Most teams target PR review under 3 business days; recommend PRs stay under 500 diff delta | docs/contributing.md |
 | 249 | Creative Commons | 2024 | Creative Commons aims to review pull requests within 5 business days | docs/contributing.md |
+| 250 | The Mom Test (Rob Fitzpatrick) | 2013 | People lie to be nice; three rules of customer conversation; commitment is the only reliable signal; past behavior beats future predictions; market risk is the biggest startup risk; run the numbers to separate usage from politeness; learning goals for first 3-5 conversations | docs/foundations/02-icp-definition.md, docs/playbooks/outbound-from-zero.md |
