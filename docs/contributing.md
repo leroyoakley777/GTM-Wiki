@@ -255,6 +255,51 @@ review starts.
 - [ ] Cross-links use the unprefixed slug.
 ```
 
+## Agentic SOP: contribute a page
+
+The wiki is built by agents as well as people. The production line runs on
+the same loop you just read. An agent can contribute a page end to end with
+the prompt below. It encodes the page contract and the gates into a repeatable
+sequence, so a run produces the same result whether a human or an agent drives
+it.
+
+Copy the block into a capable coding agent. It references this page, the map,
+and the source registry. Paste the output back through the checklist above
+before you open the pull request.
+
+```text
+You are contributing one page to the GTM Wiki at github.com/leroyoakley777/GTM-Wiki.
+Follow the contributing standard in docs/contributing.md exactly.
+
+1. Read docs/map.md. Confirm the page does not duplicate an existing topic.
+   If it overlaps, target the existing page with an edit, not a new page.
+2. Write the page under docs/ to the page anatomy: definition, why it
+   matters, framework or depth sections, how to execute, common mistakes,
+   further reading.
+3. Frontmatter carries title, sidebar_position, status, and last_updated
+   set to today's date.
+4. Ship one artifact in a code fence: a template, a grid, a worked example,
+   or a runnable SOP. Do not summarize the artifact. Show it.
+5. Every stat is a numbered [n] marker tied to a numbered Sources section.
+   No bare stat and no invented figure.
+6. Register every source you cite in RESEARCH/gtm-wiki/SOURCES_REGISTRY.md
+   with a dated row and the claim it supports. A citation without a row
+   fails the True gate.
+7. Cross-link related pages with relative links and the unprefixed slug.
+   Link to ./flows/sales-process-meddpicc, never to the NN- prefixed
+   filename.
+8. Escape any bare angle bracket before a digit as &lt;. A bare <digit is
+   parsed as MDX JSX and fails the build.
+9. Run npm run check for lint, depth, and sources, then npm run build.
+   Fix every failure. The True gate must pass with --strict.
+10. Open a pull request with the checklist from docs/contributing.md in the
+    body.
+```
+
+The prompt is the SOP the maintainers themselves use. If an agent can run it
+clean on the first pass, the page is ready for human review. If it cannot,
+the failure points at the gates that need a sharper edge, not at the workflow.
+
 ## Common mistakes
 
 - **Skipping the registry.** The most common build failure. Any cited URL not
