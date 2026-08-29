@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-08-28
+last_updated: 2026-08-29
 ---
 
 # Map
@@ -26,5 +26,6 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 11 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
 | 12 | [Process](/docs/process/intake-capture) | 1 | The process section of the wiki. |
 | 13 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
+| 14 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**13 sections · 79 pages · generated 2026-08-28**
+**14 sections · 81 pages · generated 2026-08-29**
