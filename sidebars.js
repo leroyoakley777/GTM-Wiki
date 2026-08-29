@@ -101,6 +101,16 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Book Library',
+      collapsed: false,
+      link: { type: 'doc', id: 'library/index' },
+      items: [
+        'library/best-sales-books',
+        'library/best-marketing-books',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Tools & Data',
       collapsed: true,
       items: [
