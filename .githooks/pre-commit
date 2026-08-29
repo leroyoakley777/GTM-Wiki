@@ -34,9 +34,13 @@ fi
 # ---------------------------------------------------------------------------
 
 # Non-interactive stashes are risky in shared hooks; lint staged files only.
-# Scope to docs/ (the reader-facing tree). STANDARDS/, GUIDES/, etc. are
-# internal and intentionally never linted (lint.mjs walks only docs/ + src/).
-staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^docs/.*\.(md|mdx)$' || true)
+# Scope to docs/ (the reader-facing tree) PLUS RESEARCH/ + STANDARDS/
+# (internal team meta). RESEARCH/gtm-wiki/SOURCES_REGISTRY.md is walked by
+# lint.mjs on every deploy (INTERNAL_ROOTS) — a banned token or em dash there
+# fails the whole deploy. It is written by the corpus ingest cron 4x/day, so
+# a poisoned registry can otherwise be committed invisibly and only die on
+# Vercel. Lint the internal roots at commit time too.
+staged=$(git diff --cached --name-only --diff-filter=ACM | grep -E '^(docs|RESEARCH|STANDARDS)/.*\.(md|mdx)$' || true)
 if [ -z "$staged" ]; then
   exit 0
 fi
