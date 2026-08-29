@@ -1,121 +1,98 @@
 ---
-sidebar_position: 2
-title: "GTM Channels Bullseye"
-description: "The GTM channels bullseye: how to pick the right channel for a motion."
+title: GTM Channels Bullseye
+sidebar_position: 10
 status: active
-tags: [gtm, channels, foundations, acquisition, strategy]
-last_updated: 2026-08-19
+last_updated: 2026-08-29
+description: A framework for picking the single GTM channel that will actually move the needle.
+tags: [channels, bullseye, traction, go-to-market]
 ---
 
-# 01: GTM Channels Bullseye Framework
+# GTM Channels Bullseye
 
-The bullseye framework finds your single highest-use acquisition channel instead of spreading effort across many at once. It is an evolution of the classic *Traction* bullseye method, updated for the 2025–2026 market.
+This page explains the Bullseye framework for choosing a go-to-market channel. It sits at the start of the GTM foundations section, right before the pages that cover individual channels in depth. It answers one question: which channel deserves your limited time and money.
 
-The loop has three passes: brainstorm broadly, test cheaply, then concentrate everything on the channel that wins.
+## Definition
 
-## Three Rings
+Bullseye is a testing framework for picking a customer acquisition channel. You brainstorm ideas across all 19 traction channels, rank them into three rings, test the most promising few, then double down on the single channel that wins [1][5]. The 19 channels are viral, PR, unconventional PR, SEM, social and display ads, offline ads, SEO, content marketing, email, engineering as marketing, targeting blogs, business development, sales, affiliates, existing platforms, trade shows, offline events, speaking, and community [4].
 
-### 1. Outer Ring: Brainstorm (Diverge)
+## Why it matters
 
-Generate at least one concrete idea for every major channel category below. Do not judge feasibility yet.
+Most startups fail because they cannot get enough customers before they run out of money, not because they cannot build a product. Almost every failed startup has a product; what they do not have is enough customers [1]. Getting this wrong is fatal. The fix is to treat traction as a first-class job, not an afterthought [2].
 
-#### 25+ Channel Categories (2026)
+A startup should spend 50% of its time on product development and 50% on traction development from the start. This is the 50/50 rule. It builds a customer base and gathers market feedback in parallel with the product, instead of ramping marketing only after the product ships [2].
 
-**Community & Product**
-- Product-Led Growth (PLG)
-- Community-Led Growth
-- Waitlist / Viral Loops
-- Engineering as Marketing
-- Viral Marketing / Word of Mouth
+Traction is the measurable evidence of customer demand: downloads, subscribers, and sales transactions. It is the single best way to improve a startup's odds of success, and it attracts investors, talent, partners, and publicity [3]. Without it, nothing else moves.
 
-**Content & Brand**
-- SEO
-- Content Marketing & Thought Leadership
-- Short-form Video & Audio
-- Public Relations (traditional + unconventional)
-- Speaking Engagements
+## Framework
 
-**Paid Acquisition**
-- Search Engine Marketing (SEM)
-- Social & Display Ads
-- Programmatic / Intent-based advertising
+The Bullseye framework has four steps [5]:
 
-**Targeted / Outbound**
-- Sales (SDR/AE motion)
-- Email / Nurture sequences
-- Targeted outreach (LinkedIn, X, niche communities)
+1. Brainstorm at least one idea for every one of the 19 channels.
+2. Rank the ideas into three rings: inner circle (most promising), potential, and long shots.
+3. Pick three from the inner ring and run cheap tests on each.
+4. Focus and double down on the single channel that wins.
 
-**Ecosystem & Partnerships**
-- Cloud Marketplaces (AWS, GCP, Azure)
-- Influencer & Creator programs
-- Business Development / Strategic partnerships
-- Affiliate / Referral programs
-- Platform integrations
+The framework exists because you cannot predict which channel will work. Only testing tells you [4].
 
-**High-Touch / Offline**
-- Trade shows & conferences
-- Offline events & meetups
-- Physical / out-of-home advertising
+Two supporting ideas sharpen the choice.
 
-### 2. Middle Ring: Test (Narrow)
+First, most startups find roughly 70% of their traction from a single channel. Doubling down on that core channel beats continuing to explore other channels [6].
 
-Select 3–5 promising channels and run cheap, fast, measurable tests.
+Second, you cannot use the framework in a vacuum. Define what traction means for your business, set a quantifiable traction goal, list the milestones essential to reach it, and focus limited resources strictly on that path. This is the Critical Path framework [7].
 
-**Test Design Rules**
-- Budget-time box each test (for example $2k or 2 weeks max)
-- Define a clear success metric before you start
-- Document learnings even when a test fails
+## How to execute
 
-### 3. Inner Ring: Focus (Bullseye)
+Run the process in a tight loop, not as a one-off exercise.
 
-Once you have data, pick one primary channel and go all-in until it saturates. This is where the majority of use is created.
+- List all 19 channels in a table. Do not skip any, even the ones that seem irrelevant to your industry [4][5].
+- Generate at least one concrete idea per channel. A vague idea is not testable [5].
+- Rank every idea into the three rings based on cost, reach, and fit. Be honest; optimism belongs in the inner ring only when evidence supports it [5].
+- Test three inner-ring channels cheaply. Cheap means low budget and fast, measured against your Critical Path goal [5][7].
+- Read the results. If a test does not hit its number, drop it and test the next candidate.
+- When one channel wins, put most of your resources there. Do not keep exploring [6].
 
-## 2026 Channel Prioritization Heuristics
+Below is a one-page cheat sheet you can paste into a working doc.
 
-| Situation | Recommended Starting Channels | Why |
-|---|---|---|
-| Early-stage / low budget | Community + Content + PLG | Lowest cost, highest learning |
-| AI / Developer tools | Engineering Marketing + Community + Integrations | Developers trust peers and code |
-| High-ACV B2B (over $50k) | ABM + Targeted Sales + Intent Data | Precision and relationships matter |
-| Prosumer / Creator tools | Short-form video + Community + Influencers | Authentic distribution wins |
-| Marketplace / Platform | Ecosystem + Integrations + Partnerships | Reuse existing user bases |
+```
+BULLSEYE CHANNEL SCORECARD
+Channel                Idea                    Ring          Test budget   Verdict
+---------------------- ----------------------- ------------- ------------- --------
+1.  Viral              Referral loop           Inner        $200 / 2 wks  TEST
+2.  PR                 Launch story            Potential    $100 / 1 wk   HOLD
+3.  Unconventional PR  Stunt at conf           Long shot    n/a           SKIP
+4.  SEM                Head-term ads           Inner        $500 / 2 wks  TEST
+5.  Social/display ads Retargeting set         Potential    n/a           HOLD
+6.  Offline ads        Billboard near venue    Long shot    n/a           SKIP
+7.  SEO                Cornerstone posts       Inner        $0  / 4 wks   TEST
+8.  Content marketing  Newsletter series       Potential    n/a           HOLD
+9.  Email              Cold outreach           Inner        $0  / 2 wks   TEST
+... (complete all 19)
+Next action: pick the three TEST rows with the best fit, run them,
+then double down on the single winner and drive 70% of traction there.
+```
 
-Three datapoints ground these picks. Referral and affiliate programs contribute 10–20% of MRR on average, up to 50% for specialized tools [1]. Product-led companies convert roughly 9% of free signups to paid, and 25–30% of activated users when product-qualified leads are in the loop [2]. Free trials gated on product-qualified leads convert about 2.8x higher than ungated trials [3]. None of these decide your channel alone, but they show where the advantage sits.
+## Common mistakes
 
-## Variants by Stage and Segment
-
-The right channel shifts as the company changes. Apply the heuristics with these modifiers.
-
-**By stage**
-- Seed (pre-product-market fit): community and content build the proof and the audience. Run cheap tests, expect to discard most of them.
-- Series A to B: pick one dominant channel and spend to saturate it. Add a second channel only after the first shows repeatable unit economics.
-- Series C and later: run multiple channels as a portfolio, each with its own owner and metric.
-
-**By segment**
-- Developer tools: engineering marketing and community carry outsized weight because the buyer evaluates code and peers, not ads.
-- High-ACV B2B: account-based motions win because a small number of accounts justifies a high-touch approach.
-- Prosumer and creator tools: short-form video and influencer distribution reach the buyer where they already consume.
-
-## When It Breaks
-
-The bullseye fails in predictable ways. Watch for these.
-
-- Testing too many channels at once. Three to five is the ceiling; more than that and no test gets enough budget to be conclusive.
-- Scaling before unit economics are understood. A channel that converts only at a loss is not a channel, it is a spend line.
-- Treating community as a broadcast channel. Community is not a megaphone; it compounds only when members get value first.
-- Copying what worked for a different business model. A marketplace channel plan does not survive contact with a high-ACV sales motion.
-- Picking the channel your competitor dominates. If a category is already saturated by a stronger player, the economics rarely favor you.
-
-## Run It This Week
-
-1. Write one idea per channel category from the list above. Aim for 25+ ideas in a single pass.
-2. Pick 3–5 to test. Give each a budget-time box, a success metric, and a deadline.
-3. Run the tests. Document the result even when a test fails.
-4. At the deadline, rank the tests by the metric you set. Keep the winner.
-5. Go all-in on the winner until it saturates, then re-run the loop.
+- Testing everything at once. A startup does not have the budget to run 19 channels in parallel, and parallel tests produce noisy data [4][5].
+- Relying on only familiar channels. Founders tend to consider only the channels they already know, which blinds them to the full range of options. This is channel bias [9].
+- Ignoring underused channels. The most underutilized channels in an industry are often the most promising, because you gain a competitive advantage by acquiring customers in ways your competitors are not [8].
+- Skipping the traction goal. Running tests without a Critical Path target means you cannot judge which channel actually won [7].
+- Stopping after the first test. Testing three inner-ring channels and then moving on is not the end; the winner needs sustained focus to reach 70% of traction [5][6].
 
 ## Sources
 
-1. [Rewardful: SaaS Affiliate Program Benchmarks](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): referral and affiliate MRR contribution 10–20%, up to 50% for specialized tools (2025).
-2. [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks): 600+ B2B SaaS survey, ~9% median free-to-paid and ~25–30% activated-to-paid with PQLs.
-3. [Gainsight: Product-Led Growth Index](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/): free trials using PQLs convert 2.8x higher (2022).
+- [1] [Traction, Weinberg and Mares](https://tractionbook.com): failed startups have products but not enough customers.
+- [2] [Traction, Weinberg and Mares](https://tractionbook.com): the 50/50 rule for product and traction time.
+- [3] [Traction, Weinberg and Mares](https://tractionbook.com): traction as measurable evidence of demand.
+- [4] [Traction, Weinberg and Mares](https://tractionbook.com): the list of 19 traction channels.
+- [5] [Traction, Weinberg and Mares](https://tractionbook.com): the Bullseye framework and its four steps.
+- [6] [Traction, Weinberg and Mares](https://tractionbook.com): roughly 70% of traction comes from a single channel.
+- [7] [Traction, Weinberg and Mares](https://tractionbook.com): the Critical Path framework.
+- [8] [Traction, Weinberg and Mares](https://tractionbook.com): underused channels offer competitive advantage.
+- [9] [Traction, Weinberg and Mares](https://tractionbook.com): channel bias and how it blinds founders.
+
+## Further reading
+
+- [Why Traction Comes First](foundations/02-traction-first)
+- [The Critical Path](foundations/03-critical-path)
+- [Channel Selection](foundations/04-channel-selection)
