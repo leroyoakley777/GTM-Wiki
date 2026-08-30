@@ -4,6 +4,7 @@ title: "Referral & Viral: Case Studies"
 description: "Dropbox, PayPal, Airbnb, Uber, and Robinhood: the documented referral and viral cases, the K-factor math, double-sided incentive economics, failure modes, and the agentic layer that runs a loop."
 status: active
 tags: [referral, viral, case-studies, channels]
+last_updated: 2026-08-30
 ---
 
 # Referral and Viral: Case Studies

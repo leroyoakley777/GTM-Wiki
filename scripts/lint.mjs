@@ -231,6 +231,21 @@ function checkLinks(file, content, report) {
     if (!target) continue;
     if (/^https?:\/\//.test(target)) continue; // external
     if (/^(mailto:|tel:|#)/.test(target)) continue; // anchors / mail
+    // VF3: bare "dir/NN-page" link targets. A relative target with NO leading
+    // "/" or "." plus an NN-prefixed page name is the exact Docusaurus
+    // NN-slug-stripping trap: "foundations/02-traction-first" resolves to
+    // "/docs/foundations/foundations/02-traction-first" (directory doubled),
+    // and the build only warns. Require an explicit "./", "../", or leading
+    // "/" so the target resolves against the current file, and the unprefixed
+    // slug (02-traction-first -> traction-first). Catch it here, hard-fail.
+    if (!INTERNAL_SLUG.test(target)) {
+      const t = target.split('#')[0].split('?')[0];
+      const lastSeg = t.split('/').pop();
+      if (target.includes('/') && /^\d{2}-/.test(lastSeg)) {
+        report(file, `bare NN-prefixed link target "${target}" — Docusaurus doubles the dir (/docs/foundations/foundations/...). Use a site-rooted ("/docs/<slug>") or ./-relative unprefixed target (${t.replace(/\d{2}-/, '')}).`, 'ERROR');
+        continue;
+      }
+    }
     if (INTERNAL_SLUG.test(target)) {
       if (!linkTargetExists(file, target)) {
         report(file, `broken cross-link [${target}]`, 'ERROR');
@@ -393,6 +408,45 @@ function lintFile(file, report) {
             break;
           }
         }
+      }
+    }
+    // SF2: literal backslash-n (the two-char sequence \\ then n) is an escaped
+    // newline that renders as broken text on the live page ("...\n\n## Failure
+    // modes..." shows the escape literally). Lint passes on it (it is valid
+    // markdown), sources pass, the build passes — only the reader sees the
+    // garbage. Reject it hard in prose (fenced code is exempt, where \\n can
+    // legitimately appear inside a string literal).
+    for (const { line, text } of prose) {
+      if (/\\n/.test(text)) {
+        report(file, `literal backslash-n on line ${line} — escaped newline renders as text: "${text.slice(0, 70)}"`, 'ERROR');
+      }
+    }
+    // SF3: compiler-slop blocks. Builders pasted the same verbatim template
+    // table (Variant/Maturity Dimension), placeholder "Example Failure /
+    // Example Mitigation" rows, a fake "Standard Operating Procedure" list,
+    // and fabricated "Worked Math Example"' with made-up revenue figures and
+    // example.com URLs onto 30 pages. These are not curated content — they are
+    // filler that passes every gate. Reject the exact markers hard. Each is a
+    // deterministic string test (no regex tuning needed), and each one is a
+    // ship-blocking defect, not a style note.
+    for (const { line, text } of prose) {
+      if (text.includes('Variant/Maturity Dimension')) {
+        report(file, `verbatim slop table "Variant/Maturity Dimension" on line ${line} — reused template, not curated content. Remove it.`, 'ERROR');
+      }
+      if (/Example\s+(Failure|Mitigation)\b/.test(text)) {
+        report(file, `placeholder table cell "Example ${text.match(/Example\s+(Failure|Mitigation)/)[1]}" on line ${line} — fabricated example, not real content. Replace with a real item or drop the row.`, 'ERROR');
+      }
+      if (text.includes('example.com')) {
+        report(file, `placeholder URL example.com on line ${line} — a fake citation. Cite a real source registered in SOURCES_REGISTRY or drop it.`, 'ERROR');
+      }
+      if (/Define objective/.test(text) && /Gather data/.test(text)) {
+        report(file, `generic "Standard Operating Procedure" template on line ${line} — empty boilerplate. Remove it.`, 'ERROR');
+      }
+      if (/Worked Math Example/.test(text)) {
+        report(file, `template "## Worked Math Example" on line ${line} — if it carries a made-up figure (\$100K, 25% conversion), it is fabricated. Remove or replace with a verified worked example using registered sources.`, 'ERROR');
+      }
+      if (/\b(TODO|FIXME):/i.test(text) || /\blorem ipsum\b/i.test(text)) {
+        report(file, `unfinished marker on line ${line}. Resolve it before shipping.`, 'ERROR');
       }
     }
     // 3. MDX bare-<digit build trap (whole file: it is a build breaker).

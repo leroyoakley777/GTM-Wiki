@@ -4,6 +4,7 @@ title: "Outbound: Case Studies"
 description: "Documented outbound motions that moved pipeline: Gong's founder-network handoff, Lavender's benchmark lift, an agency's personalization A/B, plus the mechanics, the worked math, segment variance, failure modes, measurement, and the agentic layer."
 status: active
 tags: [outbound, case-studies, channels]
+last_updated: 2026-08-30
 ---
 
 # Outbound: Case Studies

@@ -93,6 +93,4 @@ then double down on the single winner and drive 70% of traction there.
 
 ## Further reading
 
-- [Why Traction Comes First](foundations/02-traction-first)
-- [The Critical Path](foundations/03-critical-path)
-- [Channel Selection](foundations/04-channel-selection)
+See [Foundations](/docs/foundations) for the full GTM fundamentals map.

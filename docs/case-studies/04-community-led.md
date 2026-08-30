@@ -4,6 +4,7 @@ title: "Community-Led Growth: Case Studies"
 description: "Notion, Atlassian, Stack Overflow, Webflow, Miro, Hashnode, Circle, and Product Hunt: how community compounds into an acquisition and retention engine, with the documented numbers, the mechanics, the math, and the failure modes."
 status: active
 tags: [community-led, case-studies, channels]
+last_updated: 2026-08-30
 ---
 
 # Community-Led Growth: Case Studies
@@ -322,7 +323,6 @@ Not every product should run community, and the cases do not argue otherwise. Co
 The honest filter is the [Channels Bullseye](../foundations/gtm-channels-bullseye). Pick the single best channel first. If community is not that channel, it should be a deliberate secondary bet with a clear budget and a defined review, not an automatic line item.
 
 ---
-
 
 A community is a standing stream of work, and most of it can be automated. The pieces below are operational. Feed them to an agent and let it run the loop while a human owns the judgment calls.
 

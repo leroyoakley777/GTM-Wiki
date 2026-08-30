@@ -282,11 +282,11 @@ The failure modes and how to fix them.
 ## Further reading
 
 - Related wiki page: [map](./map)
-- External source: [Name](https://example.com)
+- External source: 
 
 ## Sources
 
-1. [Name](https://example.com)
+1. 
 ```
 
 Replace the placeholder link with a real, registered source. A placeholder URL

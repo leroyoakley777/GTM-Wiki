@@ -4,6 +4,7 @@ title: Placeholder
 description: Placeholder for Placeholder.
 status: active
 tags: [gtm-engineering]
+last_updated: 2026-08-30
 ---
 
 # CI/CD for GTM
@@ -50,16 +51,6 @@ print("Hello, GTM Engineering")
 | Data drift | Low | Medium | Monitor schema changes |
 | Agent overreach | Low | High | Enforce guardrails |
 
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
 ## Standard Operating Procedure
 
 1. Define objective
@@ -68,4 +59,4 @@ print("Hello, GTM Engineering")
 4. Verify outcome
 5. Iterate
 
-> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) [https://example.com/source](https://example.com/source)
+> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) 

@@ -4,9 +4,8 @@ title: Examiner Deep Dive
 description: How the examiner uses the ledger to validate changes and enable recursive self-improvement.
 status: active
 tags: ['agentic', 'examiner']
+last_updated: 2026-08-30
 ---
-
-
 
 # Examiner Deep Dive
 
@@ -17,7 +16,6 @@ The examiner is the mechanism that makes the GTM OS trustworthy. It ensures that
 ## How the Examiner Works
 
 At a high level, the examiner follows this cycle for each proposed change to the motion:
-
 
 1. **Load the golden set** – a verified subset of the outcome ledger (the operator‑owned file `evals/` or a dispositions log) that any version of the motion must handle correctly. 
 2. **Replay the proposed rules** – run the changed motion (e.g., a new scoring rule) over the operator’s recorded history. 
@@ -70,7 +68,6 @@ Here’s a concrete example of how the examiner evaluates a change to the outrea
 | **Examiner too slow** | The examiner’s runtime grows with the ledger size, causing it to be run only monthly. | The examiner is optimized to run on every change: it uses indexed lookups, caches skill procedures, and limits the golden set to a configurable maximum (e.g., 2,000 dispositions). |
 | **False positive verdict** | The examiner approves a change that later harms outcomes in production. | The examiner’s verdict is a *gate*, not a guarantee; the change still runs through the engagement flow verification on live dispositions, which will catch any regression. |
 | **Ledger tampering** | Someone manually edits the outcome ledger to influence the examiner. | The outcome ledger is append‑only and signed with a lightweight hash chain; any tampering breaks the chain and is detected on the next examiner run.
-
 
    If the change improves key metrics (e.g., precision lifts, reduces false positives) and passes the validation gate (no regression on a held‑out development set), the change is allowed to merge. Otherwise, it is blocked, and the examiner returns evidence explaining why (e.g., “this change would have blocked 23 past winning sends”). ## Diagrams
 
@@ -126,26 +123,3 @@ sequenceDiagram
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate

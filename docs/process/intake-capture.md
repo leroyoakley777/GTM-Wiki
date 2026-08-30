@@ -4,13 +4,13 @@ title: Intake Capture Process
 description: How every user dump is captured, classified, and turned into actionable tasks.
 tags: [process, intake, capture]
 status: active
+last_updated: 2026-08-30
 ---
 # Intake Capture Process
 
 Every time the user shares a dump (a link, a note, an idea, a problem), Hermes follows the **intake capture** workflow to ensure nothing is lost and everything is turned into trackable work.
 
 ## Four Steps
-
 
 1. **Capture** – The dump is saved as a raw file under `~/.hermes/inbox/raw/` with a timestamped name and the original source URL or description.
 2. **Classify** – The dump is read and classified into one of the known lanes (e.g., career, FTC, GTM wiki, idea bank, OS lesson, etc.).
@@ -70,7 +70,6 @@ Here’s a concrete example of how intake‑capture process works in practice.
 | **Failure mode 2** | Description. | Mitigation. |
 | **Failure mode 3** | Description. | Mitigation. |
 
-
 ## Related Skills
 
 - `intake-capture` – the skill that encapsulates this workflow (see `~/.hermes/skills/intake-capture/SKILL.md`).
@@ -79,28 +78,4 @@ Here’s a concrete example of how intake‑capture process works in practice.
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 [https://example.com/source](https://example.com/source)
+> **Source:** GTM OS Handbook, 2026-08-27 

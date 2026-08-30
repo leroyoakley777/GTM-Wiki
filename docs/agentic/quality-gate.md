@@ -4,13 +4,13 @@ title: Quality Gate
 description: How the GTM OS enforces quality before any change deploys-using the four questions, agent approval, and the examiner.
 tags: [quality, gate, examiner, agentic]
 status: active
+last_updated: 2026-08-30
 ---
 # Quality Gate
 
 The quality gate is the final checkpoint that decides whether a proposed change to the motion may be deployed. It combines human judgment, agentic oversight, and automated verification to ensure that every change adheres to the operating system’s principles.
 
 ## Four Questions
-
 
 Every change must answer **yes** to all four questions before it can proceed. If any answer is **no**, the change is blocked and returned with evidence.
 
@@ -110,7 +110,6 @@ Here’s a concrete example of how quality gate works in practice.
 | **Failure mode 2** | Description. | Mitigation. |
 | **Failure mode 3** | Description. | Mitigation. |
 
-
 ## Related Pages
 
 - [Examiner Deep Dive](./examiner.md) – how the examiner works.
@@ -122,28 +121,4 @@ Here’s a concrete example of how quality gate works in practice.
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 [https://example.com/source](https://example.com/source)
+> **Source:** GTM OS Handbook, 2026-08-27 

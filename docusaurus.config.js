@@ -17,8 +17,13 @@ const config = {
   organizationName: 'opengtm',
   projectName: 'gtm-wiki',
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+  // VF3: any link target that does not resolve (a relative path with no
+  // matching file, or a Markdown link that breaks) FAILS the build instead of
+  // warning. This makes "broken link ships to prod" a hard error, not a
+  // yellow flag that ships silently. Cross-link with the unprefixed slug per
+  // the NN-slug-stripping convention.
+  onBrokenMarkdownLinks: 'throw',
 
   i18n: {
     defaultLocale: 'en',

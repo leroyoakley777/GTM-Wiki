@@ -4,9 +4,8 @@ title: Autonomy Ladder
 description: How agents earn and lose autonomy based on verified outcomes and evidence.
 status: active
 tags: ['agentic', 'autonomy', 'ladder']
+last_updated: 2026-08-30
 ---
-
-
 
 # Autonomy Ladder
 
@@ -90,7 +89,6 @@ Here’s a concrete example of how autonomy ladder works in practice.
 | **Failure mode 2** | Description. | Mitigation. |
 | **Failure mode 3** | Description. | Mitigation. |
 
-
 ## Related Pages
 
 - [GTM OS Architecture](../agentic/00-gtm-os-architecture.md): Shows the 4‑layer model that the autonomy ladder operates within.
@@ -102,26 +100,3 @@ Here’s a concrete example of how autonomy ladder works in practice.
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate

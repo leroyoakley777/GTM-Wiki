@@ -4,6 +4,7 @@ title: GTM Operating System Architecture
 description: The 4-layer architecture of the GTM OS, showing how models, harness, skills, and tools compose into a governed whole.
 tags: [architecture, gtm-os, layers, harness, skills, tools, system-design]
 status: active
+last_updated: 2026-08-30
 ---
 
 # GTM Operating System Architecture
@@ -100,26 +101,3 @@ print("hello")
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate

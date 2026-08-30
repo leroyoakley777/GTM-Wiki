@@ -4,8 +4,8 @@ title: SaaS Buyer‑Enablement Idea
 description: Captured idea for helping sellers know what it's like to be a buyer.
 status: active
 tags: ['agentic', 'saas', 'buyer']
+last_updated: 2026-08-30
 ---
-
 
 # SaaS Enablement Idea: Help sellers know what it's like to be a buyer
 
@@ -42,28 +42,4 @@ print("hello")
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-*This dimension varies by segment (e.g., SMB, mid-market, enterprise).*
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 [https://example.com/source](https://example.com/source)
+> **Source:** GTM OS Handbook, 2026-08-27 

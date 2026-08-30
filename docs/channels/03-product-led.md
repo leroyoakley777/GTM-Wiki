@@ -511,65 +511,8 @@ benchmarks](https://productled.com/blog/product-led-growth-benchmarks)).
 
 > **Source:** GTM OS Handbook, 2026-08-27
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Example Failure | Medium | High | Example Mitigation |
-
-## Variant/Maturity Dimension
-
-| Maturity Level | Characteristics |
-|----------------|------------------|
-| Ad-hoc | Manual, inconsistent |
-| Repeatable | Documented steps |
-| Automated | Scripted, monitored |
-| Optimized | Data‑driven, self‑improving |
-
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute
-4. Verify
-5. Iterate
-
-## Worked Math Example
-Revenue: $100K in 2026.
-
-
-
-
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-> **Source:** GTM OS Handbook, 2026-08-27 [https://example.com/source](https://example.com/source)
-
-## Worked Math Example
-Revenue: $100K in 2026.
-
-
-
-
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-
-## Worked Math Example
-Revenue: $100K in 2026.
-
-
-
-
+ $125K revenue from 500 leads at a 25% conversion rate.
 
 In Q2 2026, a PLG campaign generated $500K revenue from 10,000 free signups at a 5% conversion rate.
-
-
-## Worked Math Example
-Revenue: $100K in 2026.
-
-
-
-
 
 In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.

@@ -4,6 +4,7 @@ title: "Product-Led Growth: Case Studies"
 description: "Slack, Calendly, Figma, Dropbox, Zoom, Notion, and Atlassian: the documented cases where the product's output is the distribution channel. Every number named and dated, the pattern underneath, the math worked, failure modes, and the agentic layer."
 status: active
 tags: [product-led, case-studies, channels]
+last_updated: 2026-08-30
 ---
 
 # Product-Led Growth: Case Studies
