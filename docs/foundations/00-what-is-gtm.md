@@ -1,17 +1,17 @@
 ---
-title: What Is Go-to-Market (GTM)?
 sidebar_position: 1
+title: What Is Go-to-Market (GTM)?
 description: The definition, scope, and core components of a go-to-market strategy. The foundation everything else in this wiki builds on.
 status: active
 tags: [gtm, foundations, strategy]
-last_updated: 2026-08-19
+last_updated: 2026-09-01
 ---
 
 # What Is Go-to-Market (GTM)?
 
 A go-to-market (GTM) strategy is the cross-functional revenue motion that defines **who you sell to, what you say, where you reach them, how you close them, and how you learn fast enough to keep winning.**
 
-A GTM strategy is the operating system a company uses to bring a product or service to a defined market and win revenue against competition: a more encompassing and durable frame than a launch deck or a marketing plan.
+A GTM strategy is the operating system a company uses to bring a product or service to a defined market and win revenue against competition. It is a more encompassing and durable frame than a launch deck or a marketing plan.
 
 If your GTM lives in a slide deck someone dusts off at the start of a quarter, your quarter is already in trouble.
 
@@ -29,7 +29,7 @@ Every GTM strategy answers five questions:
 
 A GTM strategy is scoped to a specific product, market, or expansion move. A company launching into a new vertical, releasing a new product, or entering a new geography runs a new GTM. The strategy changes when the market changes, not on a calendar.
 
-## Evidence
+## Why It Matters
 
 Most product launches fail because of poor go-to-market planning, not poor products. SiriusDecisions analyzed 847 tech companies and found that only **23% of B2B companies hit their first-year revenue targets** after product launch. Companies with documented GTM strategies achieve **30% higher revenue growth** than those without [1].
 
@@ -64,6 +64,7 @@ The output is a one-page ICP profile and a named list of 50–200 accounts that 
 Positioning is the deliberate choice of competitive alternative, unique attributes, and value for a specific market segment. It is one document. Product, marketing, and sales all write from it.
 
 A positioning statement names:
+
 - The competitive alternative you replace
 - The unique attributes you deliver
 - The value those attributes produce
@@ -77,9 +78,9 @@ This is the sequenced plan for how you reach, acquire, and retain customers. It 
 
 The current best practice is **channel sequencing**, not channel stacking. Pick two channels per demand state (not five) and instrument the leading indicator before you fund the channel. A demand state is where the buyer is in their journey:
 
-- **Early demand state:** expertise on two named topics plus peer community presence. Leading indicator: organic search and referral traffic on those topics.
-- **Mid demand state:** website demo flow plus case studies mapped to the ICP. Leading indicator: demo requests and case study completion.
-- **Late demand state:** reference calls and proof of value. Leading indicator: reference call conversion.
+- **Early demand state**: expertise on two named topics plus peer community presence. Leading indicator: organic search and referral traffic on those topics.
+- **Mid demand state**: website demo flow plus case studies mapped to the ICP. Leading indicator: demo requests and case study completion.
+- **Late demand state**: reference calls and proof of value. Leading indicator: reference call conversion.
 
 ### 4. Sales Motion and Pricing
 
@@ -102,8 +103,7 @@ The iteration cadence is the strategic asset. Review ICP, message, and channel m
 
 ## Weekly GTM Review Scoreboard (run it today)
 
-The measurement layer as a fill-in scoreboard, reviewed weekly. If a row is
-blank, the metric is not being tracked.
+The measurement layer as a fill-in scoreboard, reviewed weekly. If a row is blank, the metric is not being tracked.
 
 ```
 Weekly GTM Review Scoreboard          week ending: <date>   owner: <you>
@@ -116,9 +116,7 @@ Revise this week:       <ICP / message / channel mix change, if any>
 Decision log:           <what changed, why, who decided>
 ```
 
-The scoreboard is the run-it-today artifact of the measurement layer. A blank
-row means the metric is unmeasured, which means the strategy is not being
-reviewed.
+The scoreboard is the run-it-today artifact of the measurement layer. A blank row means the metric is unmeasured, which means the strategy is not being reviewed.
 
 ## GTM vs. Related Concepts
 
@@ -151,17 +149,11 @@ This wiki focuses on B2B GTM. The fundamentals apply to both, but channels, moti
 The build sequence is seven steps. Do them in order.
 
 1. **Define and validate your ICP.** Get 15 buyer conversations before spending a dollar on paid acquisition. If you cannot get 15, run 8 with current customers plus 5 with closed-lost accounts. Better than guessing.
-
 2. **Build your positioning and message architecture.** One document. All functions write from it.
-
 3. **Map the buying committee and demand states.** Who is in the decision? What proof do they need at each stage?
-
 4. **Sequence your channels.** Two channels per demand state. Instrument the leading indicator before you fund the channel.
-
 5. **Design the sales motion.** Process, team, comp, pricing: designed together, not in sequence.
-
 6. **Instrument measurement.** Leading indicators for every channel and motion. A single scoreboard all four functions look at in the weekly review.
-
 7. **Establish an iteration cadence.** Named owner. Documented decision log. Monthly review minimum.
 
 ## Common Mistakes
@@ -193,14 +185,19 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 ## Sources
 
 1. [SiriusDecisions](https://www.siriusdecisions.com/): analyzed 847 tech companies; only 23% of B2B companies hit their first-year revenue targets after product launch; companies with documented GTM strategies achieve 30% higher revenue growth.
+2. [ZoomInfo: Go-to-Market Strategy Complete 2026 Guide](https://pipeline.zoominfo.com/marketing/go-to-market-strategy): GTM Operating System framework, eight pillars, TAM/SAM/SOM/PAM market sizing, B2B vs B2C execution differences, monthly review cadence recommendation.
+3. [Stripe: What is a Go-to-Market Strategy?](https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups): component checklist, B2B vs B2C differences, 5-step creation process, risk/governance/compliance inclusion.
+4. [UpliftGTM: What Is a Go-to-Market Strategy? Complete Guide 2026](https://upliftgtm.com/blog/what-is-go-to-market-strategy): five-component model (market analysis, ICP, value proposition, channel/distribution, measurement), operating system framing, channel sequencing over stacking.
+5. [The Starr Conspiracy: How to Build a GTM Strategy in 2025](https://www.thestarrconspiracy.com/insights/trends/brief-how-to-build-go-to-market-strategy): five core components, GTM as living operating system, iteration cadence with named owner.
 
 ## Further Reading
 
 - [Stripe: What is a go-to-market strategy?](https://stripe.com/resources/more/what-is-a-go-to-market-strategy-a-quick-gtm-guide-for-startups): Clean definition and component breakdown
 - [The Starr Conspiracy: How to Build a GTM Strategy in 2025](https://www.thestarrconspiracy.com/insights/trends/brief-how-to-build-go-to-market-strategy): Practitioner framework with the five-component model and channel sequencing approach
+- [ZoomInfo: Go-to-Market Strategy Complete 2026 Guide](https://pipeline.zoominfo.com/marketing/go-to-market-strategy): GTM Operating System, market sizing cascade, build sequence, common failure modes
+- [UpliftGTM: B2B Go-to-Market Strategy 2025 Framework](https://upliftgtm.com/blog/b2b-go-to-market-strategy-2025-framework): Practical B2B framework with ICP tiers and motion selection
 - [Demandbase: What is a Go-To-Market Strategy?](https://www.demandbase.com/blog/what-is-a-go-to-market-gtm-strategy/): B2B-focused GTM fundamentals with ABM perspective
 - [6sense: B2B Go-to-Market Strategy & Fundamentals](https://6sense.com/guides/go-to-market/): B2B SaaS GTM guide with ICP and buying committee focus
-- [Maxio: Sales-Led vs Product-Led Growth in SaaS](https://www.maxio.com/blog/sales-led-vs-product-led-which-gtm-strategy-is-best-for-saas): GTM motion comparison
 
 ## Cross-References
 
@@ -210,3 +207,5 @@ This wiki treats GTM as a complete system, not a collection of tactics. The stru
 - [Foundations: Positioning and Messaging](./03-positioning-and-messaging.md): the positioning discipline in depth
 - [Channels: Channels Bullseye](./01-gtm-channels-bullseye.md): the channel selection framework
 - [Agentic: Agentic GTM Overview](../agentic/index.md): how AI changes the GTM motion
+
+*Synthesized from SiriusDecisions, ZoomInfo, Stripe, UpliftGTM, The Starr Conspiracy, Demandbase, and 6sense (2024-2026).*
