@@ -9,7 +9,7 @@ last_updated: 2026-09-02
 
 # Brand as GTM
 
-Brand is not decoration. It is a go-to-market lever. Most B2B teams treat
+Brand is a go-to-market lever, not decoration. Most B2B teams treat
 brand as the thing marketing does when it is not running ads: a logo, a
 color, a mission page, an afterthought. That is wrong, and it is expensive.
 
@@ -262,8 +262,8 @@ You have a real cohort and real win/loss data. This is where brand stops
 being founder instinct and becomes a system. Write the customer promise
 down. Name the distinctive assets. Pick the first Category Entry Point to
 own. Start publishing thought leadership in the category on a cadence. The
-goal is not reach. It is building a beachhead of memory in the one segment
-that is closing.
+The goal is a beachhead of memory in the one segment
+that is closing, not reach.
 
 ### Growth stage (100+ customers, land-and-expand)
 
