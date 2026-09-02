@@ -32,6 +32,15 @@ const REGISTRY = normalize(join(process.cwd(), 'docs', '..', 'RESEARCH', 'gtm-wi
 const STRICT = process.argv.includes('--strict');
 const LIST = process.argv.includes('--list');
 
+// Optional --file <path>: scan ONLY that one page (a staged probe copy) instead
+// of the whole docs/ tree. Lets the doers preflight a single new page without
+// being blocked by an unrelated stale citation elsewhere in docs/. Without it,
+// one old unregistered citation in an already-shipped page fails the preflight
+// for every worker — a false coupling between new work and old debt.
+const FILE_ARG_IDX = process.argv.indexOf('--file');
+const FILE_ONLY = (FILE_ARG_IDX !== -1 && process.argv[FILE_ARG_IDX + 1]);
+const FILE_PATH = FILE_ONLY ? normalize(process.argv[FILE_ARG_IDX + 1]) : null;
+
 // ---------------------------------------------------------------------------
 // Registry: source names the wiki is allowed to cite.
 // Seeded from RESEARCH/gtm-wiki/SOURCES_REGISTRY.md + the vetted benchmark set.
@@ -199,7 +208,7 @@ if (LIST) {
   process.exit(0);
 }
 
-const files = walk(ROOT);
+const files = FILE_ONLY ? [FILE_PATH] : walk(ROOT);
 if (!files.length) { console.error('validate-sources: no files to check'); process.exit(2); }
 
 const rows = [];
