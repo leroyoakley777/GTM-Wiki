@@ -205,10 +205,10 @@ STAGE: Advocacy
 
 ## Further Reading
 
-- [ICP Definition](foundations/icp-definition)
-- [GTM Metrics](foundations/gtm-metrics)
-- [Revenue Operations](foundations/revenue-operations)
-- [Buyers Journey](flows/buyers-journey)
-- [Sales Process MEDDPICC](flows/sales-process-meddpicc)
-- [Conversion Rate Benchmarks](data/conversion-rate-benchmarks)
-- [Funnel Data](data/funnel)
+- [ICP Definition](./icp-definition)
+- [GTM Metrics](./gtm-metrics)
+- [Revenue Operations](./revenue-operations)
+- [Buyers Journey](../flows/buyers-journey)
+- [Sales Process MEDDPICC](../flows/sales-process-meddpicc)
+- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks)
+- [Funnel Data](../data/funnel)

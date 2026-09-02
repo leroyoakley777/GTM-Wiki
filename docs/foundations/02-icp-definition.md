@@ -4,7 +4,7 @@ title: Ideal Customer Profile (ICP) Definition
 description: "How to define, validate, and iterate on an Ideal Customer Profile: the cornerstone of any GTM strategy. Account-level, not persona-level. Built from data, not intuition."
 status: active
 tags: [gtm, foundations, icp, strategy, segmentation]
-last_updated: 2026-08-19
+last_updated: 2026-09-02
 ---
 
 # Ideal Customer Profile (ICP) Definition
@@ -20,7 +20,7 @@ An ICP defines **which companies** you should target, in priority order. It desc
 **ICP answers one question**: which accounts are worth your time and resources right now?
 
 | Concept | Level | Question It Answers |
-|---|---|---|
+|---------|-------|---------------------|
 | TAM (Total Addressable Market) | Market | How big is the opportunity? |
 | ICP (Ideal Customer Profile) | Account | Which companies should we target? |
 | Buyer Persona | Individual | Who do we talk to inside that company? |
@@ -29,14 +29,14 @@ Most founders confuse TAM with ICP. TAM is everyone you could sell to. ICP is wh
 
 The biggest early-stage mistake: building a buyer persona ("Marketing Mary, VP Marketing at mid-market SaaS") without first defining the organization she works for. A persona tells you who to talk to. An ICP tells you where to find them and when they are ready to buy. Without the ICP, you are cold-calling people who have no budget and no urgency.
 
-## What a Defined ICP Returns
+## Why It Matters
 
 Companies with a clearly defined ICP achieve significantly better outcomes than those without one:
 
 - **68% higher win rates** for B2B SaaS companies with a defined ICP (SiriusDecisions/Forrester) [1]
 - **30% more marketing-generated revenue** from well-defined ICPs (SiriusDecisions) [1]
 - **14% higher pipeline conversion** from ICP-aligned account-based strategies (Gartner) [2]
-- **86% of business buyers** say they are more likely to buy when their goals are understood (Salesforce State of Sales) [3]
+- **86% of business buyers** say they are more likely to buy when their goals are understood (Salesforce State of Sales 2024) [3]
 
 The structural reasons:
 
@@ -110,7 +110,7 @@ The output is a prioritized account list ranked by expected value and readiness,
 ICP and buyer persona are related but distinct. Confusing them is expensive.
 
 | Dimension | ICP | Buyer Persona |
-|---|---|---|
+|-----------|-----|---------------|
 | Focus | Company / account | Individual / person |
 | Data type | Firmographics, triggers, technographics | Demographics, psychographics, behaviors |
 | Question answered | "Which companies should we target?" | "Who do we talk to inside that company?" |
@@ -215,14 +215,17 @@ This wiki treats ICP as the first building block of any GTM strategy: the founda
 - **[Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md)**: the universal strategy framework where ICP is building block one
 - **[Foundations: What Is GTM?](./00-what-is-gtm.md)**: the definition and scope of go-to-market
 - **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)**: how ICP informs positioning and message architecture
-- **[Channels: Channels Bullseye](./01-gtm-channels-bullseye.md)**: how ICP determines which channels to test
+- **[Foundations: Channels Bullseye](./01-gtm-channels-bullseye.md)**: how ICP determines which channels to test
 - **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)**: how ICP data feeds AI-powered outbound
+- **[Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md)**: standing up outbound using an ICP account list
 
 ## Sources
 
 1. [SiriusDecisions/Forrester: Top Account-Based Marketing and Intent Data Statistics](https://www.foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): 68% higher win rates with a defined ICP; 30% more marketing-generated revenue.
 2. [Gartner: Account-Based Marketing Research](https://www.gartner.com/en/marketing/accounts/marketing): 14% higher pipeline conversion from ICP-aligned ABM; 81% of top-performing ABM orgs trust their ICP (2024).
-3. [Salesforce: State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): 86% of business buyers more likely to buy when their goals are understood (5,500 sales professionals, 27 countries, 2024).
+3. [Salesforce: State of Sales 2024](https://www.salesforce.com/sales/state-of-sales/): 86% of business buyers more likely to buy when their goals are understood (5,500 sales professionals, 27 countries, 2024).
+4. [ZoomInfo: Ideal Customer Profile Guide](https://pipeline.zoominfo.com/marketing/ideal-customer-profile): Four-layer ICP framework (firmographics, technographics, behavioral signals, psychographics); Spekit case study: 43% more likely to qualify, 58% faster qualification.
+5. [Factors.ai: ICP Marketing Guide 2026](https://www.factors.ai/blog/icp-marketing-guide): 20-40% higher win rates, 15-30% shorter sales cycles with documented scored ICP; 5-step build process; quarterly refresh cadence.
 
 ## Further Reading
 
@@ -231,10 +234,13 @@ This wiki treats ICP as the first building block of any GTM strategy: the founda
 - [Lenny's Newsletter: How to Identify Your Ideal Customer Profile (ICP)](https://www.lennysnewsletter.com/p/how-to-identify-your-ideal-customer): practitioner stories from B2B founders on identifying ICP, with examples from Canva, Databricks, Front, Sprig
 - [Miro: Ideal Customer Profile vs Buyer Persona](https://miro.com/persona/ideal-customer-profile-vs-buyer-persona/): clear distinction between ICP, buyer persona, and target audience with examples
 - [Gartner: Account-Based Marketing research](https://www.gartner.com/en/marketing/accounts/marketing): ABM ICP confidence data and account-based strategy frameworks
+- [RightLeft Agency: Ideal Customer Profile (ICP) for B2B SaaS: Examples & Guide](https://rightleftagency.com/blog/ideal-customer-profile/): B2B SaaS-specific ICP examples and measurement frameworks
 
 ## Cross-References
 
 - [Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md): standing up outbound using an ICP account list
-
-{/* Roadmap: pages not yet written; add back as links when they land:
-GTM Metrics, Market Segmentation, Conversion Rate Benchmarks */}
+- [Data: Market Segmentation](../data/02-market-segmentation.md): TAM/SAM/SOM/PAM arithmetic that feeds ICP sizing
+- [Data: GTM Metrics](../data/gtm-metrics): metrics that validate ICP performance
+- [Channels: Channels Bullseye](./gtm-channels-bullseye): channel selection driven by ICP
+- [Roles: SDRs](../roles/sdrs/index.md): how SDRs use ICP for targeting
+- [Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md): AI-powered outbound fed by ICP data
