@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Revenue Architecture
 description: "Revenue architecture as the operating system of a recurring-revenue business: the revenue factory, four principles, six interconnected models, GTM motions as production lines, and the growth formula."
 status: active
-last_updated: 2026-08-28
+last_updated: 2026-09-02
 tags: [revenue-architecture, foundations, wbd, framework, revenue-factory, gtm-motions]
 domain: foundations
 parent: foundations/index
@@ -198,6 +198,55 @@ fit the unit economics the growth formula makes visible [1][9].
 When you execute this way, the results compound. Implementations across
 hundreds of companies drive improved forecast accuracy, shorter sales cycles,
 and stronger cross-functional alignment [1].
+
+## How revenue architecture varies by company stage
+
+The factory is not one design. It changes shape as the business moves through
+the growth stages. Applying a scale-stage architecture to a seed company, or
+a seed-stage architecture to a scale company, both break the system [1][2].
+
+### Seed (pre-product-market fit, 0 to 20 customers)
+
+You have no repeatable motion yet. Do not build a full factory. Run one
+motion, usually founder-led, and treat it as a learning line, not a production
+line. The revenue model is still a hypothesis: pricing and packaging change
+weekly. The data model is a spreadsheet. The growth formula is a sketch you
+rewrite after every customer conversation. The only architecture you need is
+the discipline to write the current model down and change it deliberately
+instead of letting it drift [1][2].
+
+### Early traction (20 to 100 customers, first repeatable motion)
+
+This is the GTMF transition: scaling repeatable growth. Name your first real
+motion and write its growth formula. Add a second motion only when the first
+is proven and the economics are explicit. Unify the data model now, before
+the second motion lands, or the two lines will each keep their own numbers.
+Match the motion to lifetime value from the start; the habit is hard to
+retrofit [1][2].
+
+### Growth stage (100+ customers, land-and-expand)
+
+Run at most three motions, each with its own growth formula and cost profile.
+This is where the six models must be designed together. A pricing change
+flows through the mathematical model into the GTM model and back into growth;
+change one in isolation and the factory breaks. NRR becomes the multiplier:
+a small net revenue retention edge compounds into a structural growth
+advantage [1][2][7][8].
+
+### Scale stage (hundreds of customers, multiple segments)
+
+The factory fragments by segment. A single motion cannot serve an enterprise
+land motion and a mid-market expansion motion. Break the architecture into
+per-segment variants: one production line for the core segment that made you,
+one for the expansion segment, one for the new-market wedge. Each variant
+shares the same data model and operating model but leads with a different
+motion and a different growth formula. Different ACV tiers anchor on different
+unit economics [1][2].
+
+The stage dimension matters because the factory is perishable. A seed team
+that files a full architecture away as done stalls against faster learners.
+A scale team that keeps one broad motion across segments dilutes every
+production line for every buyer [1][2].
 
 ## Common mistakes
 
