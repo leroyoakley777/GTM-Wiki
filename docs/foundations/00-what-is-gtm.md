@@ -87,7 +87,7 @@ Every GTM strategy must address these ten components:
 
 3. **Value proposition** - Articulate unique benefits addressing ICP pain points. Translate features to outcomes: "AI analytics engine means you identify cost savings 75% faster than manual analysis."
 
-4. **Product positioning** - Establish how your product fits the competitive landscape so value is clear and differentiated.
+4. **Product positioning** - Establish how your product fits among competitors so value is clear and differentiated.
 
 5. **Sales strategy** - Outline sales process, channels (direct, indirect, self-serve), and org structure needed to drive revenue.
 
