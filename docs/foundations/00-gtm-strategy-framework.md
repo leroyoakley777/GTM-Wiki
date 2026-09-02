@@ -44,7 +44,7 @@ Identify and segment ideal customer profiles using demographic, psychographic, a
 Articulate the unique benefits and differentiators that address your ICPs' specific pain points. Value propositions should be external-facing and benefit-driven, not focused on product features. See [Positioning and Messaging](../foundations/positioning-and-messaging).
 
 **4. Product positioning**  
-Establish how your product fits within the competitive field so its value is clear and differentiated. This is not a feature comparison. It is a frame that makes your ICP choose you over alternatives.
+Establish how your product fits within the competitive field so its value is clear and differentiated. This is a frame that makes your ICP choose you over alternatives, not a feature comparison.
 
 **5. Sales strategy**  
 Outline the sales process, channels (direct, indirect, self-serve), and organizational structure needed to drive revenue. The sales motion must align to the GTM motion: product-led, sales-led, or hybrid. See [GTM Funnel](../foundations/gtm-funnel) and [Sales Process Design](../foundations/gtm-funnel#how-to-execute).
