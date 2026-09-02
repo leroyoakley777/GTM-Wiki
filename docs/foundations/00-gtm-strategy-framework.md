@@ -1,496 +1,197 @@
 ---
+title: "GTM Strategy Framework"
 sidebar_position: 1
-title: GTM Strategy Framework (Universal)
-description: "The universal GTM strategy framework and how it applies across stages and markets: Analyze, Design, Deliver, the adaptive principles that keep it alive, the canvas, the 90-day plan, and the common mistakes."
-last_updated: 2026-09-02
 status: active
-tags: ['foundations', 'gtm', 'strategy']
+last_updated: 2026-09-02
+description: A GTM strategy aligns marketing, product, sales, and customer success around a shared plan for bringing a product to market. This page covers the framework, build sequence, and operating cadence.
+tags: [gtm-strategy, framework, icp, positioning, pricing, kpis]
 ---
 
 # GTM Strategy Framework
 
-This is the foundational framework every other page in this wiki builds on.
-Read this first. Understand it. Then go deeper into the specific sections.
+A GTM strategy is a comprehensive plan that details how a company brings a product or service to market. It covers market opportunity, customer profiles, value proposition, sales methodology, pricing model, and the cross-functional operating cadence that turns pipeline into revenue. A GTM strategy is not a marketing strategy. Marketing strategy lives inside GTM strategy.
 
-## Definition
+## Why it matters
 
-A **Go-to-Market (GTM) strategy** is a time-bound, cross-functional plan that
-defines how a company will bring a product or service to a specific market and
-generate revenue from it.
+Most companies confuse GTM tactics with GTM strategy. Tactics are the specific motions your teams execute: an outreach sequence, a campaign budget, a discounting threshold. Strategy gives structure to those activities so they are coordinated and purposeful.
 
-It answers four questions:
+Without a unified GTM strategy, SDRs call accounts alphabetically, marketing targets intent signals, and AEs select accounts based on personal preference. The ICP is solid. The execution is fragmented. Pipeline stalls. Internal friction grows.
 
-- **What** are you selling, and what problem does it solve?
-- **Who** are you targeting?
-- **Why** should they choose you over alternatives?
-- **How** will you reach them, convert them, and keep them?
+A GTM strategy prevents this by defining the shared framework that keeps sales, marketing, RevOps, and customer success working toward the same goals. It outlines market opportunity, defines the ICP, establishes positioning and pricing, and creates the cross-functional KPIs and operating cadence that turn pipeline into revenue.
 
-**GTM strategy is not marketing strategy.** Marketing builds awareness and
-demand continuously. GTM is a launch-specific plan with a defined window
-(usually 3-12 months), specific revenue targets, and a clear end state:
-validated product-market fit and repeatable, predictable revenue.
+The strongest GTM strategies are repeatable and adaptive. They keep teams aligned, provide a shared framework for how the company brings its offerings to market, and evolve as customers and market conditions change. Treat the GTM strategy like a product: review it at least monthly, not quarterly. Quarterly cycles surface problems too late to course-correct in modern B2B markets.
 
-Marketing is the always-on engine. GTM is the launch plan that gets the engine
-running in a new configuration.
+## Framework
 
-### When you need a GTM strategy
+### 10-element GTM strategy checklist
 
-You need a GTM strategy whenever you introduce something new to a market:
+Every GTM strategy should address these ten components. This extends the eight GTM Operating System pillars from GTM Partners into a working checklist your teams can ship against.
 
-- Launching a new product in an existing market
-- Taking an existing product into a new market (geography, segment, vertical)
-- Testing a new product in a new market (startup first launch)
-- Repositioning an existing product for a different buyer
+**1. Market sizing**  
+A tiered approach focuses GTM efforts on the most realistic and valuable opportunities:
 
-Even established companies with mature marketing functions need dedicated GTM
-plans for new launches. What worked for your last launch may not work for this
-one. Competition shifts. Buyer behavior changes. The plan should too.
+- **Total Addressable Market (TAM)** is the entirety of the market available to your business.
+- **Serviceable Addressable Market (SAM)** is the portion of your TAM it is feasible for your business to reach and serve.
+- **Serviceable Obtainable Market (SOM)** is the share of your SAM you can realistically capture.
+- **Prioritized Account Market (PAM)** is the best-fit accounts that have demonstrated they are in-market for your product, representing approximately the top 10% of accounts within your TAM.
 
----
+For a B2B SaaS targeting mid-market revenue ops teams, TAM might be 50,000 accounts, SAM 12,000, SOM 2,000, and PAM around 200 accounts showing intent in the last 14 days.
 
-## Positioning Failure, Not Product Failure
+**2. Target customer definition**  
+Identify and segment ideal customer profiles using demographic, psychographic, and behavioral data. See [ICP Definition](../foundations/icp-definition).
 
-**A large share of new product launches miss their revenue targets.** Most
-failures are positioning failures, not product failures. The product works.
-The message doesn't reach the right people in a way they understand. The
-channel is wrong. The pricing is off. The team is misaligned.
+**3. Value proposition**  
+Articulate the unique benefits and differentiators that address your ICPs' specific pain points. Value propositions should be external-facing and benefit-driven, not focused on product features. See [Positioning and Messaging](../foundations/positioning-and-messaging).
 
-A GTM strategy reduces this risk by forcing you to answer the hard questions
-before you spend money:
+**4. Product positioning**  
+Establish how your product fits within the competitive field so its value is clear and differentiated. This is not a feature comparison. It is a frame that makes your ICP choose you over alternatives.
 
-- Who exactly is this for?
-- Why will they care?
-- Where do they live and how do they buy?
-- What does success look like, and how will we know in 30/60/90 days?
+**5. Sales strategy**  
+Outline the sales process, channels (direct, indirect, self-serve), and organizational structure needed to drive revenue. The sales motion must align to the GTM motion: product-led, sales-led, or hybrid. See [GTM Funnel](../foundations/gtm-funnel) and [Sales Process Design](../foundations/gtm-funnel#how-to-execute).
 
-The cost of skipping this work is higher in 2025-2026 than ever:
+**6. Marketing strategy**  
+Demand generation, content, digital, and brand marketing tactics aligned with your broader GTM plan. Marketing strategy lives inside GTM strategy, not the other way around. See [Channels Bullseye](../foundations/gtm-channels-bullseye).
 
-- **B2B buyers complete 70% of their journey before contacting sales**
-  (Forrester, 2024) [1]. Your GTM must account for the self-serve research
-  phase or you lose before the conversation starts.
-- **76% of organizations have had to significantly or completely reinvent
-  their GTM approach in the past 3 years** (Forrester, 2024) [1]. The static
-  annual plan is dead.
-- **AI competition is intensifying across every software category.**
-  Differentiation must be sharp. Without it you compete on price.
+**7. Customer journey and experience**  
+Map how buyers move through each phase of the buying experience, including backward movement, and align messaging to each stage. See [GTM Funnel](../foundations/gtm-funnel).
 
-Companies with a strong GTM strategy see better CAC ratios, higher win rates,
-and faster time-to-revenue. They engineer payback within 12-18 months instead
-of hoping for it within 24.
+**8. Distribution channels**  
+Identify how the product reaches customers (direct sales, online purchase, resellers, third-party marketplaces) and mitigate channel conflicts. See [GTM Channels Bullseye](../foundations/gtm-channels-bullseye).
 
-The stakes are structural, not tactical. Bain studied 2,300 global companies
-across 2000-2010 and found only **9% sustained annual revenue plus profit
-growth**; sustained growers averaged a net promoter score of 30 versus 13 for
-the rest [2]. Growth is not the default state. A system that stays in sync
-with the market engineers it. That is what this framework builds.
+**9. Core metrics and KPIs**  
+Define measurable success criteria in four buckets: pipeline growth, conversion rates, customer acquisition cost (CAC), and customer lifetime value (LTV). See [GTM Metrics](../foundations/gtm-metrics).
 
----
+**10. Launch and enablement plans**  
+Coordinate internal teams and equip sales and support with the training, tools, and content needed for product launches, cross-sell, upsell, and ongoing customer support.
 
-## GTM Strategy Framework
+### Revenue Architecture lens
 
-The framework has three phases, adapted from Bain's go-to-market system [2]
-and refined through practice: **Analyze, Design, Deliver.** Each phase gates
-the next. You do not design a value prop you cannot back with evidence. You do
-not deliver a channel plan that does not map to a chosen buyer. The three
-phases below are not a menu. They are an order.
+Jacco van der Kooij's Revenue Architecture reframes GTM as a Recurring Revenue Factory. It is a system-driven model that replaces siloed, people-heavy execution with cross-functional GTM motions designed for efficiency, quality, and scale. The key insight: the SaaS crash came from GTM inefficiency, not lack of demand. Growth-at-all-costs inflated acquisition costs and destroyed long-term value.
 
-### Phase 1: Analyze
+Revenue Architecture operates on six critical models:
 
-Understand the market before you commit to a plan.
+- **Revenue Model** is how the business makes money (subscription, usage, hybrid).
+- **Data Model** is the unified data layer across GTM functions.
+- **Mathematical Model** is the unit economics that govern sustainable growth.
+- **Operating Model** is the cross-functional GTM motions as production lines.
+- **Growth Model** is how the company scales through phase shifts.
+- **GTM Model** is the motion selection and alignment framework.
 
-**Market sizing.** Use the TAM → SAM → SOM → PAM cascade:
+GTM motions act as production lines, each with distinct cost and revenue profiles. Companies must align GTM motion cost to customer lifetime value. Hypergrowth companies experience multiple phase shifts that require deliberate architecture, not reactive hiring.
 
-- **TAM (Total Addressable Market):** The entire market if you had 100%
-  share. Example: $10B globally for AI quality control software.
-- **SAM (Serviceable Available Market):** The segment you can reach.
-  Example: $2B in EU mid-market manufacturers.
-- **SOM (Serviceable Obtainable Market):** What you can capture based on
-  competitive positioning and resources. Example: $100M.
-- **PAM (Prioritized Account Market):** The top 10% of accounts showing
-  active buying signals. Example: $15M from 200 accounts already evaluating
-  similar solutions.
+## How to execute
 
-PAM is the layer most teams skip. Don't. It tells you where to focus your
-first dollar. Sizing details, the arithmetic, and the traps live in
-[Market Segmentation](../data/02-market-segmentation.md).
+### Build sequence (seven steps)
 
-**Segmentation.** Break the market into segments you can differentially serve:
+1. **Define the ICP** from at least 20 customer conversations. Do not guess. Talk to customers. Document the firmographics, technographics, pain points, and buying triggers that define your best-fit accounts.
+2. **Build positioning anchored in pain points**, not features. The positioning statement must answer: for [ICP], who [pain point], our product is a [category] that [benefit]. Unlike [alternative], we [differentiation].
+3. **Choose the GTM motion**: product-led, sales-led, hybrid, channel, or community-led. The motion dictates org structure, hiring, metrics, and cadence. See [Channels Bullseye](../foundations/gtm-channels-bullseye).
+4. **Define the pricing model**: usage-based, seat-based, tiered, or hybrid. Pricing must align to the GTM motion and the mathematical model. See [Pricing as GTM](../data/pricing-as-gtm).
+5. **Set KPIs in four buckets**: pipeline, conversion, efficiency (CAC payback), and retention (NRR). Every team owns a number that rolls up to revenue.
+6. **Align cross-functional teams on shared signals**, not shared dashboards. Shared signals mean marketing, sales, and CS act on the same buying signals, intent data, and customer health scores.
+7. **Design a feedback loop for monthly revision**. The GTM strategy is a living document. Review monthly with frontline sellers. Use always-on buying signal monitoring instead of stage-field forecasting.
 
-- **B2B:** Firmographic (company size, industry, revenue), technographic
-  (current tech stack), needs-based (specific problems and outcomes),
-  behavioral (buying patterns, budget cycles).
-- **B2C:** Demographic (age, income, location), psychographic (values,
-  lifestyle, attitudes), behavioral (purchase patterns, channel preferences).
+### Monthly operating cadence
 
-Segment until you find a group you can serve better than anyone else. That's
-your beachhead.
+- **Week 1:** Pipeline review. PAM health, coverage ratios, at-risk deals.
+- **Week 2:** Win/loss analysis. Pattern recognition, competitive intel, product gaps.
+- **Week 3:** Signal review. Intent data, usage signals, champion movements.
+- **Week 4:** Strategy tune. ICP refinement, positioning tweaks, motion adjustments.
 
-**Competitive analysis.** Map direct competitors (same product, same buyer),
-indirect competitors (different product, same job-to-be-done), and status quo
-(buyer does nothing or uses a spreadsheet). Understand their positioning,
-pricing, strengths, and weaknesses. Where is the gap you can own?
+This cadence replaces quarterly business reviews. It catches drift before it becomes a quarter miss.
 
-**Customer research.** Talk to buyers. The minimum viable research package:
+### One-page GTM strategy template
 
-- 15-30 customer interviews with target personas
-- Win/loss analysis on recent deals (why did they choose you or not?)
-- CRM data analysis to find patterns in existing customers
-- Surveys to quantify needs and willingness-to-pay
-- Analyst reports (Gartner, Forrester, IDC) for market context
-
-Do not skip this. Do not assume you know the buyer because you built the
-product.
-
----
-
-### Phase 2: Design
-
-Make specific choices. Vague strategies produce vague results.
-
-**Choose your beachhead segment.** Pick one segment to dominate first. Not
-three. Not "mid-market and enterprise." One. The beachhead should be:
-
-- Large enough to build a business on
-- Small enough to reach efficiently
-- Accessible through channels you can afford
-- Experiencing the problem acutely enough to buy now
-
-**Define your ICP (Ideal Customer Profile).** The company-level
-characteristics of your best-fit customers. Be specific:
-
-- Company size: 50-500 employees
-- Industry: B2B SaaS
-- Location: North America
-- Tech stack: Uses Salesforce and AWS
-- Budget threshold: $50K+ annual software spend
-- Problem urgency: Struggling with manual lead routing that's costing deals
-
-ICP is a filter, not a dream list. If a prospect doesn't match, you pass.
-Focus compounds. The full method, including exclusion criteria, is in
-[ICP Definition](../foundations/02-icp-definition.md).
-
-**Build buyer personas.** 2-3 named personas with concrete detail:
-
-> "Dana, VP of RevOps at a Series C SaaS company, 38 years old. Measured on
-> pipeline efficiency and sales cycle length. Main objection: implementation
-> time. She's burned by tools that took six months to deploy. Needs to see
-> ROI within one quarter."
-
-Give them names. Give them concrete constraints. Write for them.
-
-**Craft your value proposition.** Use this template:
-
-> For [ICP], who [pain point], we provide [solution] that [outcome].
-
-Example: "For RevOps leaders at scaling B2B SaaS companies who are losing
-deals to manual lead routing, we provide an automated lead assignment
-platform that reduces response time by 80% and increases rep productivity by
-30%."
-
-Test it with buyers. If they don't immediately nod, rewrite it. Positioning
-mechanics are in [Positioning and Messaging](../foundations/03-positioning-and-messaging.md).
-
-**Choose your GTM motion.** The growth motion shapes everything else:
-
-- **Product-Led Growth (PLG):** The product sells itself through free trials
-  or freemium. Works for low-complexity, self-serve products. User
-  acquisition is free or cheap. Conversion happens inside the product.
-- **Sales-Led Growth (SLG):** Sales teams drive acquisition through outbound
-  and inbound lead follow-up. Works for complex, high-ACV products requiring
-  demos, diagnostics, and relationship-building.
-- **Account-Based Marketing (ABM):** Targeted engagement with a defined set
-  of high-value accounts. Marketing and sales work as one unit on specific
-  accounts.
-- **Hybrid:** Most winning companies run 2+ motions. PLG for the bottom of
-  the funnel, SLG for enterprise. Community for awareness, outbound for
-  conversion.
-
-Pick your primary motion. Then pick your secondary. Don't run five motions at
-once when you're starting: you'll run out of money and attention.
-
-**Set pricing and packaging.** Three common approaches:
-
-- **Cost-plus:** Add a markup to costs. Simple, but ignores value and market.
-- **Value-based:** Price based on the value the customer perceives. Requires
-  research. Commands higher margins when you have differentiated value.
-- **Competitor-based:** Price relative to competitors: at parity, at a
-  premium, or at a discount. Good for positioning, bad if it's the only
-  logic.
-
-Most GTM strategies use a blend. Value-based as the anchor. Competitor-based
-as a sanity check. Cost-plus as the floor. The deeper economics live in
-[Pricing as GTM](../data/04-pricing-as-gtm.md).
-
----
-
-### Phase 3: Deliver
-
-Execute against the design. This is where most strategies fail: not in the
-thinking, in the doing.
-
-**Select 2-3 priority channels.** Channels are where your buyers live and how
-they buy. Match channels to your buyer persona:
-
-- If Dana reads Gartner reviews, gets cold emailed by SDRs, and attends RevOps
-  conferences: your channels are review sites, outbound, and events.
-- If your buyer discovers tools through peer recommendations on Slack
-  communities: your channel is community-led growth.
-
-Don't spread across 10 channels. Pick 2-3. Go deep. Measure. Double down on
-what works. Kill what doesn't. Use the [Channels Bullseye](../foundations/01-gtm-channels-bullseye.md)
-to make the call.
-
-**Build sales enablement materials.** Before launch, have these ready:
-
-- Pitch deck
-- One-pager / product sheet
-- Demo video or live demo flow
-- Objection handling guide
-- Competitive battle cards
-- Case studies (even if from beta customers)
-
-If your sales team launches without these, they'll improvise. Improvisation is
-not a strategy.
-
-**Instrument measurement.** Set up a shared dashboard that all GTM teams
-review weekly. Track:
-
-- Pipeline generated (by channel)
-- Conversion rates at each funnel stage
-- CAC by channel
-- Sales cycle length
-- Win rate
-- Time to first value for new customers
-
-Set specific numeric targets for days 30, 60, and 90 post-launch. Review
-quarterly. Adjust based on data. The metric definitions and benchmarks live in
-[GTM Metrics](../data/01-gtm-metrics.md) and
-[Conversion Rate Benchmarks](../data/00-conversion-rate-benchmarks.md).
-
-**Create feedback loops.** From day one:
-
-- Customer interviews at day 7 and day 30
-- In-product surveys at key milestones
-- Support ticket analysis for common issues
-- Sales call recordings to understand objections
-- Win/loss analysis on every deal
-
-The first 60-90 days are for learning. Expect to adjust messaging, onboarding
-flows, pricing presentation, and possibly features based on what you learn.
-One B2B company discovered through early feedback that their assumed primary
-use case was secondary: customers cared more about a "minor" feature. They
-pivoted positioning and tripled conversion rates in 45 days.
-
-**Plan the launch timeline.** Work backward from launch day. Assign clear
-ownership for every deliverable. Build in buffer. Soft launches are cheaper
-than public failures: use them to identify issues before scaling.
-
-### Operating principles that keep a system alive
-
-Bain's work on companies that sustain growth across years yields three
-principles that keep a GTM system alive after the launch [2]. Treat them as
-infrastructure, not initiatives:
-
-1. **Stay in Sync.** The system must shift as the market and the strategy
-   shift. A system tuned to last year's market is a liability this year. The
-   weekly review cadence below is the mechanism; without it the plan decays.
-2. **Focus on a Few.** Concentrate on a handful of genuinely excellent
-   capabilities rather than spreading thin. Samsung gained roughly six points
-   of global smartphone market share between 2006 and 2010 by adapting its
-   go-to-market system to the smartphone wave; Nokia gave back about the same
-   amount by holding the old playbook [2]. The difference was capacity to
-   focus and react, not product quality alone.
-3. **Tie It All Together.** Design and delivery must be integrated, and the
-   front line must understand the strategy behind what it sells. A front line
-   that cannot explain the pitch cannot sell it. Every rep, every channel,
-   every artifact refers back to the same value prop.
-
-These three principles are why a GTM strategy is a living system, not a
-document you file after launch. The annual plan is dead. The market does not
-move on your quarter.
-
----
-
-## GTM Strategy Canvas (run it today)
-
-Fill this in for a launch. If any line takes longer than a week to answer, the
-answer is probably wrong. Each line maps to a section above; the canvas is the
-one-page output of the framework.
+Paste this into a working doc. Fill every line before you build anything.
 
 ```
-GTM Strategy Canvas                          date: <today>   owner: <you>
-Product / offer:  <what you sell + the job it does>
-Target ICP:       <company size / industry / location / budget threshold>
-Beachhead:        <one segment to dominate first>
-Pain:             <the acute problem, in the buyer's words>
-Value prop:       For <ICP>, who <pain>, we provide <solution> that <outcome>.
-Motion:           <primary + secondary: PLG / SLG / ABM / hybrid>
-Channels (2-3):   1. <channel>   2. <channel>   3. <channel>
-Pricing:          <value anchor + competitor check + cost floor>
-Metrics:          <pipeline / conversion / CAC / cycle / win rate>  target + date
-30/60/90 targets: Day 30 <...>   Day 60 <...>   Day 90 <...>
-Launch:           <work backward from launch; assign owners; soft launch first>
+GTM STRATEGY ONE-PAGER
+Company:            Product:            Date:
+1. ICP              Firmographics, technographics, pain points, buying triggers
+2. PAM              Top 10% of TAM showing in-market intent (last 14 days)
+3. Value prop       For [ICP], who [pain], our product is a [category] that [benefit]
+4. Positioning      Category + differentiation vs the named alternative
+5. GTM motion       Product-led | Sales-led | Hybrid | Channel | Community
+6. Pricing model    Usage | Seat | Tiered | Hybrid   ACV: $___   Payback: ___ mo
+7. Channels         Primary: ___   Secondary: ___   (from the Bullseye)
+8. KPIs (4 buckets) Pipeline: ___   Conversion: ___   CAC payback: ___   NRR: ___
+9. Owners           RACI per motion: R=___, A=___, C=___, I=___
+10. Cadence         Monthly review: W1 pipeline, W2 win/loss, W3 signals, W4 tune
 ```
 
-The canvas is a resource until it is filled with real answers. A filled canvas
-is the artifact that gates the launch: if a field is blank, the strategy is not
-done.
+### Variants by GTM motion
 
-### Worked example
+The framework stays the same. The emphasis shifts by motion and by company stage.
 
-Here is the canvas filled for a real-style launch, to show the bar a done
-canvas clears.
+| Dimension | Product-led | Sales-led | Hybrid |
+|-----------|-------------|-----------|--------|
+| ICP signal | Usage threshold (PQL) | Firmographic + intent | Both |
+| Primary KPI | Activation, NRR | Pipeline, win rate | CAC payback, NRR |
+| Pricing | Self-serve tiers | Custom, usage-based | Tiered + sales assist |
+| Sales cycle | Days | Weeks to months | Weeks |
+| Org shape | Product + CS | SDR, AE, SE | PLG + sales overlay |
 
-```
-GTM Strategy Canvas                    date: 2026-09-01   owner: M. Touart
-Product / offer:  Automated lead-routing app for mid-market B2B SaaS
-Target ICP:       50-500 employees / B2B SaaS / North America / $50K+ software spend
-Beachhead:        Series B SaaS companies with 1-20 SDRs, 8-25 accounts per rep
-Pain:             "Manual lead routing costs us deals in the response-time gap"
-Value prop:       For RevOps leaders at scaling B2B SaaS who lose deals to manual
-                  routing, we provide automated assignment that cuts response time
-                  80% and raises rep productivity 30%.
-Motion:           Sales-led primary; inbound review-site secondary.
-Channels (2-3):   1. outbound SDR  2. G2/Capterra  3. RevOps events
-Pricing:          $12K/yr value-anchored (parity check vs LeanData), cost floor $3K
-Metrics:          pipeline $250K/mo, CAC < $1.8K, cycle < 60d, win rate > 22%
-30/60/90:         D30: 15 interviews done, ICP locked. D60: 2 channels live,
-                  soft launch. D90: full launch, weekly cadence running.
-Launch:           Soft launch Nov 1 (5 design partners); full launch Jan 15.
-```
+| Company stage | Emphasis |
+|---------------|----------|
+| Pre-PMF | ICP discovery, value prop, single channel |
+| $0 to $1M ARR | Motion selection, pricing, CAC payback |
+| $1M to $10M ARR | Repeatable motion, comp design, forecasting |
+| $10M to $100M ARR | Phase shifts, data model, expansion motion |
 
-Note what the filled canvas does: every field is specific, measurable, and
-owned. A canvas with "mid-market" instead of "9-25 accounts per rep" would not
-gate. The person reading this could execute it without a meeting.
+### Cross-functional alignment mechanics
 
----
+- **Single ICP, single PAM.** Marketing, sales, and CS work the same account list.
+- **Shared signal layer.** GTM intelligence (B2B data, buying signals, AI reasoning) sits above the CRM, not inside it.
+- **RACI on every motion.** Responsible, Accountable, Consulted, Informed for each GTM motion eliminates ownership gaps.
+- **Unified compensation design.** Sales comp, marketing bonuses, CS incentives all tie to the same revenue outcomes.
 
-## 90-Day GTM Implementation Roadmap
+## Common mistakes
 
-### Days 1-30: Foundation
+**1. Confusing marketing strategy with GTM strategy**  
+Marketing strategy answers how you create demand. GTM strategy includes ICP, sales motion, pricing model, cross-functional KPIs, and operating cadence. Marketing lives inside GTM.
 
-- Interview 15+ recent wins and 5+ losses
-- Lock ICP + exclusion criteria
-- Choose primary + secondary GTM motion
-- Define positioning and value proposition
-- Complete market sizing (TAM/SAM/SOM/PAM)
-- Map competitive market
+**2. Building the strategy once and letting it run**  
+The strongest GTM strategies are repeatable and adaptive. Monthly review cadence is the minimum. Quarterly is too slow.
 
-### Days 31-60: Build
+**3. Defining ICP by aspiration, not evidence**  
+Build the ICP from at least 20 customer conversations. Guessing produces a PAM that converts poorly and burns CAC.
 
-- Set pricing and packaging
-- Stand up 2-3 core channels
-- Build sales enablement materials
-- Instrument measurement and dashboards
-- Train the team on positioning and process
-- Run a soft launch or beta
+**4. Choosing a GTM motion before validating unit economics**  
+The motion must align to the mathematical model. A sales-led motion on a $5K ACV product with 18-month payback is a structural failure.
 
-### Days 61-90: Launch and Iterate
+**5. Siloed metrics**  
+Marketing owns MQLs. Sales owns pipeline. CS owns renewal. No one owns revenue. Unified KPIs in four buckets (pipeline, conversion, efficiency, retention) fix this.
 
-- Full launch
-- Weekly review cadence (pipeline, conversion, CAC, win rate)
-- Kill or double-down based on data
-- Adjust messaging, channels, and pricing based on feedback
-- Document what's working and what's not
+**6. No feedback loop**  
+Without a designed monthly revision process, the strategy becomes a PDF on a shared drive. The feedback loop is the mechanism that keeps the strategy alive.
 
----
-
-## Common Mistakes
-
-**No ICP or a too-broad ICP.** "SMBs in the US" is not an ICP. If you target
-everyone, you target no one. The beachhead should be narrow enough to dominate.
-Expand after you win.
-
-**Building before validating.** You don't need a finished product to start GTM
-planning. You need evidence that someone will pay. Talk to buyers before you
-overbuild. Win/loss analysis on lost deals is as valuable as analysis on won
-deals.
-
-**Confusing GTM with marketing.** Marketing is the always-on function. GTM is
-a time-bound plan with revenue targets and a defined end state. They overlap
-but they're not the same. Don't let "we have a marketing plan" substitute for
-"we have a GTM strategy."
-
-**Choosing too many channels.** Pick 2-3. Master them. Expand after you have
-repeatable motion in the first channels. Channel sprawl burns budget and focus.
-
-**Static planning.** The annual GTM plan is dead. Markets shift quarterly.
-Build in weekly review cadences. Be ready to pivot positioning, channels, or
-pricing based on what the data tells you in the first 90 days.
-
-**Skipping the soft launch.** A soft launch surfaces issues before they
-compound. Negative early reviews damage long-term adoption. Test with a small
-audience first. Fix. Then scale.
-
-**No feedback loops.** If you do not capture why deals are won and lost, you
-cannot see what is working. Sales call recordings, customer interviews,
-support tickets: these are your GTM data. Set them up from day one.
-
-**Pricing as an afterthought.** Pricing is a GTM lever, not a finance
-decision. It shapes positioning, channel strategy, and sales motion. Do the
-willingness-to-pay research. Test pricing. Don't just copy a competitor.
-
-**Building a static system.** The single biggest trap in the "Deliver" phase:
-building the launch, then walking away. The three operating principles are
-not a checklist to nod at. A strategy that is not reviewed weekly and adjusted
-quarterly decays into last year's playbook. That is exactly how sustained
-growth slips away.
-
----
+**7. Ignoring phase shifts**  
+Companies that scale from $1M to $10M to $100M ARR experience distinct phase shifts. Each shift requires deliberate architecture changes: org structure, motion mix, data model, compensation. Reactive hiring creates technical debt in the GTM system.
 
 ## Sources
 
-1. [Forrester: State of GTM 2024](https://www.forrester.com/): 70% of the
-   B2B buyer journey is self-serve; 76% of organizations reinvented their GTM
-   approach in the past 3 years.
-2. [Bain & Company: Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/):
-   the Analyze / Design / Deliver framework this page is built on; the three
-   operating principles; the 9%-growers finding and NPS 30 vs 13; the
-   Samsung/Nokia market-share shift.
-3. [HG Insights: SOM as share of SAM](https://www.hgdata.com/): early-growth
-   B2B companies capture 5-15% of SAM as SOM, which is why the SOM example
-   above uses $100M against a $2B SAM.
+- [1] [Revenue Architecture, Jacco van der Kooij, 2023](https://winningbydesign.com/resources/research/revenue-architecture-chapter-1/): the Recurring Revenue Factory, six models, and phase shifts.
+- [2] [Go-to-Market Strategy: The Complete Guide, ZoomInfo, 2026](https://pipeline.zoominfo.com/marketing/go-to-market-strategy): the 10-element checklist, TAM/SAM/SOM/PAM, and monthly review cadence.
+- [3] [How to build a GTM strategy, Go-to-Market Alliance, 2024](https://www.gotomarketalliance.com/ultimate-guide-to-building-a-gtm-strategy/): the five-step build framework and cross-functional collaboration.
+- [4] [GTM Strategy Framework, Gartner, 2025](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework): target market, demand generation, comp planning, and voice of the customer.
+- [5] [Traction, Weinberg and Mares, 2014](https://tractionbook.com): the Bullseye channel selection framework and the 50/50 rule.
 
----
+## Further reading
 
-## Cross-References
+- **Revenue Architecture** by Jacco van der Kooij (Winning by Design) is the foundational text for system-driven GTM. [Winning by Design: Chapter 1 preview](https://winningbydesign.com/resources/research/revenue-architecture-chapter-1/)
+- **GTM Operating System** by GTM Partners is the eight-pillar framework for GTM strategy. [ZoomInfo: Go-to-Market Strategy guide](https://pipeline.zoominfo.com/marketing/go-to-market-strategy)
+- **How to build a GTM strategy** is the Go-to-Market Alliance five-step framework. [Go-to-Market Alliance: Ultimate guide](https://www.gotomarketalliance.com/ultimate-guide-to-building-a-gtm-strategy/)
+- **Crossing the Chasm** by Geoffrey Moore is the classic on technology adoption lifecycle and GTM motion selection.
+- **The Bowtie Model** by Winning by Design is the recurring revenue funnel that replaces the traditional linear funnel. See [GTM Funnel](../foundations/gtm-funnel).
 
-- **[What is GTM?](./00-what-is-gtm.md)**: The definition and scope of GTM
-  as a discipline
-- **[ICP Definition](./02-icp-definition.md)**: How to build a rigorous ICP
-  with exclusion criteria
-- **[Positioning and Messaging](./03-positioning-and-messaging.md)**: Crafting
-  positioning that wins
-- **[Channels Bullseye](./01-gtm-channels-bullseye.md)**: Channel selection
-  framework
-- **[Market Segmentation](../data/02-market-segmentation.md)**: The
-  TAM/SAM/SOM/PAM arithmetic and traps
-- **[Pricing as GTM](../data/04-pricing-as-gtm.md)**: Value-based pricing as a
-  GTM lever
-- **[GTM Metrics](../data/01-gtm-metrics.md)**: The dashboard numbers this
-  framework gates on
+## Related pages
 
----
-
-## Further Reading
-
-- Bain & Company: [Creating an Adaptive Go-to-Market System](https://www.bain.com/insights/creating-an-adaptive-go-to-market-system/):
-  The Analyze/Design/Deliver framework this page is built on
-- Forrester Research: [The State of GTM 2024](https://www.forrester.com/):
-  76% of organizations have reinvented their GTM approach. 70% of B2B buyer
-  journey is self-serve
-- Asana: [Go to Market GTM Strategy: Definition & 9-Step Guide](https://asana.com/resources/go-to-market-gtm-strategy):
-  Practical step-by-step with examples
-- Elefante RevOps: [Creating a Winning GTM Strategy: Step-by-Step Guide](https://elefanterevops.com/blog/gtm-strategy):
-  2026 GTM planning with TAM/SAM/SOM/PAM and channel guidance
-- Slideworks: [Complete GTM Strategy Framework with Examples](https://slideworks.io/resources/go-to-market-gtm-strategy):
-  Bain/McKinsey-style framework with 8-step process
-- Gartner: [Go-to-Market Strategy Framework](https://www.gartner.com/en/sales/trends/go-to-market-strategy-framework):
-  Enterprise GTM framework with RACI alignment
-- GTM Alliance: [9 Types of GTM Strategy](https://www.gotomarketalliance.com/9-types-of-go-to-market-strategy/):
-  Overview of GTM motion types
-
----
-
-*Synthesized from Bain, Forrester, HG Insights, Asana, Elefante RevOps,
-Slideworks, Gartner, and GTM Alliance (2024-2026).*
+- [What is GTM](../foundations/what-is-gtm) covers definition and scope.
+- [ICP Definition](../foundations/icp-definition) covers building your ideal customer profile.
+- [Positioning and Messaging](../foundations/positioning-and-messaging) covers value prop and differentiation.
+- [GTM Metrics](../foundations/gtm-metrics) covers the four KPI buckets.
+- [GTM Funnel](../foundations/gtm-funnel) covers the bowtie model.
+- [GTM Channels Bullseye](../foundations/gtm-channels-bullseye) covers channel selection.
+- [Pricing as GTM](../data/pricing-as-gtm) covers pricing strategy as a GTM lever.
+- [Revenue Architecture](../foundations/revenue-architecture) covers the system view of GTM.
+- [Revenue Operations](../foundations/revenue-operations) covers the RevOps function in GTM.
