@@ -85,11 +85,11 @@ The strongest pricing models are boring: clear packaging around buyer groups, di
 
 ## Failure modes
 
-- **Failure:** setting prices based only on cost-plus or competitor benchmarking, without considering customer value.
-- **When it breaks:** market conditions change (new entrant, economic shift) and pricing is not revisited.
-- **Pitfall:** overcomplicating tiers, which confuses buyers and lengthens the sales cycle.
-- **Risk:** ignoring price elasticity and demand curves, which loses revenue or market share.
-- **Objection:** "our product is too expensive" often signals weak value communication, not a wrong list price.
+- Fail: Setting prices based solely on cost-plus or competitor benchmarking without considering customer value.
+- When it breaks: Market conditions change (new entrant, economic shift) and pricing is not revisited.
+- Pitfall: Overcomplicating pricing tiers leading to confusion and increased sales cycle.
+- Risk: Ignoring price elasticity and demand curves, leading to lost revenue or lost market share.
+- Objection: "Our product is too expensive" – often a signal of poor value communication rather than a true price problem.
 
 ## Sources
 

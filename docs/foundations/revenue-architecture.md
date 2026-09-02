@@ -218,6 +218,14 @@ and stronger cross-functional alignment [1].
   deal, or a self-serve motion on a strategic deal, both lose money. Match the
   line to the economics [1][9].
 
+## Failure modes
+
+- **Fail:** Treating revenue architecture as a static org chart. The model breaks when leaders optimize one production line without adjusting the others, because the six models are interconnected [2].
+- **When it breaks:** Growth phases shift. A motion tuned for self-serve in the first year misallocates the factory when the company moves to high-touch or platform stages [2].
+- **Pitfall:** Measuring activity instead of the growth formula. Watch the ratio of cost per dollar of growth, not the volume of leads or calls [1][3].
+- **Risk:** Ignoring unit economics in the motion. A high-touch motion on a small deal, or a self-serve motion on a strategic deal, loses money every cycle [1][9].
+- **Objection:** "We just need more leads." More top-of-funnel volume without fixing the system is not growth; the inefficiency data says the old model is failing [1][3].
+
 ## Further reading
 
 - [Winning by Design: Revenue Architecture](https://winningbydesign.com/resources/books/revenue-architecture/):

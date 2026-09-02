@@ -252,14 +252,13 @@ Competitive Analysis */}
 
 ---
 
+## Sources
+
+- Digital Silk, 2026. Startup failure statistics: 69% of startup project failures trace to marketing-related causes (ICP misalignment, messaging failure, poor positioning, channel inefficiency). Registered source #235.
+- April Dunford, *A Product Positioning Exercise*, 2026. The 5-step positioning framework; also argues the classic "For X who Y, we provide Z" template is a weak end product. Registered source #197.
+- Geoffrey Moore, *Crossing the Chasm*, 1991. Technology adoption life cycle and the "For [target] who [need], our product is a [category] that [benefit]" template. Registered source #274.
+- Al Ries and Jack Trout, *Positioning: The Battle for Your Mind*, 1981. Positioning as the battle for mental real estate relative to alternatives. Registered source #276.
+- Product Marketing Alliance, Daniel Kuperman (Atlassian). End-to-end positioning and messaging process. Registered source #224.
+
 *Synthesized from April Dunford, Product Marketing Alliance (Daniel Kuperman/Atlassian), Zendesk, Geoffrey Moore, and Al Ries & Jack Trout.*
-
-## Example Artifact
-
-```
-# Example
-print("hello")
-```
-
-> **Source:** GTM OS Handbook, 2026-08-27
 
