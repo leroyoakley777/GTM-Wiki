@@ -210,6 +210,26 @@ Someone should own this. Product marketing is the natural owner in most B2B orga
 
 ---
 
+## How Positioning Varies by Company Stage
+
+The right amount of positioning rigor depends on how much market evidence you have. Do not copy an enterprise positioning process onto a seed-stage startup. Do not run a scale-up on founder instinct.
+
+### Seed (pre-product-market fit, 0-20 customers)
+
+You have no market data. Your value hypothesis is a guess you test weekly. Run a lightweight version of Dunford's exercise as a working doc, not a finished document. Spend most of your cycle on buyer interviews, not positioning prose. The segments that care most will reveal themselves in conversation. Expect to rewrite the positioning every few weeks as you learn who actually cares. The only rule: write the current version down, date it, and change it deliberately instead of letting it drift silently with each pitch.
+
+### Series A-B (20-100 customers, first repeatable motion)
+
+You now have a real cohort and real win/loss data. Run the full five-step exercise. Document the positioning in the one-page template. Connect it to a defined ICP. Test it in channel with A/B variants on your first outbound and inbound tests. Review quarterly. The positioning stops being a question and becomes a stabilized asset the sales team can repeat.
+
+### Scale (100+ customers, land-and-expand)
+
+Positioning fragments by segment. A single statement cannot serve an enterprise land motion and a mid-market expansion motion. Split positioning into per-segment variants: one for the core segment that made you, one for the expansion segment, one for the new-market wedge you are pushing. Each variant shares the same product truth but leads with a different frame of reference and a different differentiator. Different ACV tiers anchor on different value. Run win/loss and message-test data monthly and feed the results back into each variant.
+
+The stage dimension matters because positioning is perishable. A seed team that files positioning away as done stalls against smarter competitors. A scale team that keeps one broad statement across segments dilutes every message for every buyer.
+
+---
+
 ## Common Mistakes
 
 **Positioning from the product's history, not its current value.** The team keeps the label it started with and can't see that buyers evaluate it in a different category. This is the most common and most expensive positioning failure. Let go of the origin story.
