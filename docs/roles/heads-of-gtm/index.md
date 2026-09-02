@@ -82,7 +82,7 @@ priorities. Forecasts miss. Territories overlap or leave gaps. No single
 function owns the seams between teams
 ([Fullcast](https://www.fullcast.com/content/revops-career-path/), 2026).
 
-Three things get fixed when a real GTM leader sits in the seat:
+A real GTM leader fixes these:
 
 1. **One definition of a customer.** Shared ICPs and unified lead scoring
    so sales and marketing agree on who is qualified
@@ -125,7 +125,7 @@ cycle. Revisit ICP, TAM, positioning, and pricing every quarter
 
 Decide how resources flow between functions based on what is working
 ([ZoomInfo](https://pipeline.zoominfo.com/sales/gtm-leader-guide), 2026).
-This is the highest-leverage work in the seat. The head of GTM moves
+This is the work that moves the seat most. The head of GTM moves
 budget and headcount toward the motion that produces revenue and away from
 the motion that does not.
 
@@ -191,7 +191,7 @@ A new head of GTM gets 90 days. Run them in thirds:
 - **Days 1-30: Diagnose.** Do not change anything. Map the funnel, the
   numbers, the tools, the handoffs. Find where revenue leaks. Write down
   what each function thinks the other is doing wrong.
-- **Days 31-60: Pick the highest-leverage fix.** One problem, not five.
+- **Days 31-60: Pick the fix that matters most.** One problem, not five.
   Usually it is the handoff, the forecast, or the definition of a qualified
   lead. Fix it end to end with authority.
 - **Days 61-90: Build the rhythm.** Stand up the weekly cadence: pipeline
