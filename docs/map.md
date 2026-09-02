@@ -13,7 +13,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 
 | # | Section | Pages | What it covers |
 |---|---------|-------|----------------|
-| 01 | [Frameworks](/docs/foundations) | 9 | Foundations: the ideas that stay true in 2015 and in 2035. |
+| 01 | [Frameworks](/docs/foundations) | 10 | Foundations: the ideas that stay true in 2015 and in 2035. |
 | 02 | [Channels](/docs/channels) | 9 | How to find, evaluate, and execute on your single highest-use acquisition channel: outbound, inbound, product-led, and ABM. |
 | 03 | [Playbooks](/docs/playbooks) | 3 | Playbooks: what to do against a specific situation, start to finish. |
 | 04 | [Agentic GTM](/docs/agentic) | 15 | Agentic GTM section: running the same playbooks with agents, harnesses, and automation. |
@@ -28,4 +28,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 13 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
 | 14 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**14 sections · 82 pages · generated 2026-09-02**
+**14 sections · 83 pages · generated 2026-09-02**
