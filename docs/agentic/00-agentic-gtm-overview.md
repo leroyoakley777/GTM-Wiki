@@ -328,7 +328,7 @@ report to a governance framework you control.
 
 ---
 
-## Variant: by company stage and GTM maturity
+## Variants: by company stage and GTM maturity
 
 Agentic GTM looks different depending on where the company sits. The four
 pillars stay fixed; the starting lane and the governance cadence shift.
