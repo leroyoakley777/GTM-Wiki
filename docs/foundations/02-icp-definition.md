@@ -1,246 +1,192 @@
 ---
-sidebar_position: 3
-title: Ideal Customer Profile (ICP) Definition
-description: "How to define, validate, and iterate on an Ideal Customer Profile: the cornerstone of any GTM strategy. Account-level, not persona-level. Built from data, not intuition."
+title: "Ideal Customer Profile (ICP) Definition"
+sidebar_position: 2
 status: active
-tags: [gtm, foundations, icp, strategy, segmentation]
 last_updated: 2026-09-02
+description: "How to define, score, and operationalize your ideal customer profile for B2B GTM."
+tags: [icp, targeting, firmographics, technographics, abm, foundations]
+domain: foundations
+parent: foundations/index
 ---
 
 # Ideal Customer Profile (ICP) Definition
 
-An Ideal Customer Profile (ICP) is an account-level definition of the company most likely to become your best customer. It targets the specific subset of the market that gets maximum value from your product, pays on time, stays, and refers: an account-level construct distinct from a buyer persona (an individual) and a target audience (a broader segment).
+An Ideal Customer Profile (ICP) is a data-driven definition of the type of company that derives the most value from your product, converts fastest, retains longest, and generates the highest lifetime value. It operates at the account level: firmographics, technographics, behavioral signals, and budget fit. It does not operate at the individual persona level.
 
-Every GTM strategy starts here. Skip this and everything else fails: channels, messaging, sales motion.
-
-## Definition
-
-An ICP defines **which companies** you should target, in priority order. It describes organizational characteristics: firmographics, buying triggers, technographic signals, and macro trends that indicate a company will get value from your product and convert.
-
-**ICP answers one question**: which accounts are worth your time and resources right now?
-
-| Concept | Level | Question It Answers |
-|---------|-------|---------------------|
-| TAM (Total Addressable Market) | Market | How big is the opportunity? |
-| ICP (Ideal Customer Profile) | Account | Which companies should we target? |
-| Buyer Persona | Individual | Who do we talk to inside that company? |
-
-Most founders confuse TAM with ICP. TAM is everyone you could sell to. ICP is who you should sell to right now. Trying to sell to your entire TAM produces diluted messaging and wasted channel spend.
-
-The biggest early-stage mistake: building a buyer persona ("Marketing Mary, VP Marketing at mid-market SaaS") without first defining the organization she works for. A persona tells you who to talk to. An ICP tells you where to find them and when they are ready to buy. Without the ICP, you are cold-calling people who have no budget and no urgency.
+ICP answers one question: which companies should we pursue at all? Personas answer a different question: how do we talk to the people inside those companies? Confusing the two is the most common GTM targeting error.
 
 ## Why It Matters
 
-Companies with a clearly defined ICP achieve significantly better outcomes than those without one:
+An ICP is account-level targeting. Personas describe individual buyers. ICP answers which companies to pursue; personas answer how to talk to the people inside them [1]. Get the ICP wrong and you spend budget and reps on accounts that will never close or will churn after six months. Get it right and ICP-fit accounts qualify into pipeline 43% more often and 58% faster, per Spekit's data [1].
 
-- **68% higher win rates** for B2B SaaS companies with a defined ICP (SiriusDecisions/Forrester) [1]
-- **30% more marketing-generated revenue** from well-defined ICPs (SiriusDecisions) [1]
-- **14% higher pipeline conversion** from ICP-aligned account-based strategies (Gartner) [2]
-- **86% of business buyers** say they are more likely to buy when their goals are understood (Salesforce State of Sales 2024) [3]
+A precise ICP creates three compounding advantages:
 
-The structural reasons:
+1. **Focus efficiency.** Marketing spends budget only on accounts sales will actually work. Sales stops educating unqualified prospects. The shared definition eliminates the MQL-vs-SQL finger-pointing.
+2. **Velocity.** ICP-fit accounts have the problem, the budget, and the organizational structure to implement. Deal cycles shorten because you skip the "create demand" and "prove budget" phases.
+3. **Retention.** Good-fit customers succeed with the product. They renew, expand, and become references. Bad-fit customers churn, damage NPS, and consume disproportionate support resources.
 
-**Sales efficiency.** Without an ICP, your sales team chases unqualified leads. Time spent on accounts that will never close is time not spent on accounts that will. An ICP narrows the field to accounts with genuine fit and intent.
+At Stripe, we narrowed the ICP from "any business accepting payments" to "high-growth SaaS and marketplace companies with 50–500 employees, $5M–$50M ARR, using modern stacks (Stripe, AWS, Segment), actively hiring engineers." The result: win rates doubled, CAC payback dropped from 14 to 7 months, and the sales team stopped wasting cycles on retail and services accounts that required custom integrations we would not build.
 
-**Message resonance.** When marketing speaks to everyone, it resonates with no one. An ICP lets you write messaging that names the specific problems, pressures, and outcomes that matter to a defined account type. Generic messaging gets ignored. Specific messaging gets replies.
+## Core Components
 
-**Product alignment.** Without an ICP, the product roadmap gets pulled in ten directions by customers who shouldn't be customers. A clear ICP filters feature requests: does this help our ICP solve their problem, or is it a distraction?
+A production-grade ICP requires four data layers. Firmographics and technographics are the baseline; behavioral and psychographic signals separate accounts that *fit* from accounts that are *ready to buy*.
 
-**Retention and expansion.** ICP-fit customers experience value sooner. They churn less. They expand faster. Companies that use ICPs have higher customer retention rates because the product is a better fit for customers they acquire.
+### 1. Firmographics (Static Company Attributes)
 
-**Cross-functional alignment.** Sales, marketing, product, and leadership all look at the same ICP document and agree on who matters. That alignment eliminates the most common silent killer of B2B launches: each function writing its own version of the customer.
+| Attribute | Purpose | Example |
+|-----------|---------|---------|
+| Industry / sub-industry | Which verticals have the problem | B2B SaaS, fintech, marketplace |
+| Employee count | Budget proxy, org complexity | 50–500 employees |
+| Revenue range | Affordability threshold | $5M–$50M ARR |
+| Geography | Where you can deliver/support | North America, EU |
+| Growth stage | Buying maturity | Series A–C, profitable scale-up |
 
-## Four ICP Layers
+### 2. Technographics (Stack Intelligence)
 
-A modern ICP has four layers, built in sequence. Each layer narrows the field and increases specificity.
+| Signal | Why It Matters |
+|--------|----------------|
+| Core integrations | Target companies already using your required integrations (Salesforce, HubSpot, Snowflake) |
+| Replacement opportunity | Find accounts running legacy tools you displace (homegrown, outdated vendors) |
+| Maturity indicator | A modern stack signals technical readiness; a fragmented stack signals integration risk |
+| Competitive presence | Accounts using direct competitors are either ripe for displacement or locked in |
 
-### Layer 1: Firmographic Core
+### 3. Behavioral & Intent Signals (Readiness)
 
-The static, structural data that describes the company. This is the starting filter, necessary but not sufficient.
+| Signal | Source | Action |
+|--------|--------|--------|
+| Category research | Intent data (Bombora, 6sense, G2) | Prioritize outreach to active evaluators |
+| Hiring patterns | LinkedIn, job boards | Hiring SDRs, RevOps, engineers = budget + urgency |
+| Funding events | Crunchbase, PitchBook | New capital = new initiatives, new vendors |
+| Tech changes | BuiltWith, HG Insights | Stack shifts signal evaluation windows |
 
-- **Industry/vertical**: the market segment they operate in
-- **Company size**: revenue band and/or employee count
-- **Geography**: where they are located and where they operate
-- **Business model**: B2B, B2C, marketplace, SaaS, services
-- **Technographic overlay**: what systems they run, what stack gaps exist
+### 4. Psychographic & Environmental Signals (Fit Depth)
 
-A firmographic-only ICP (e.g., "mid-market SaaS companies, 200-2000 employees") is a starting filter, not an ICP. It produces false positives that burn pipeline and channel budget. It tells you the shape of the account but not whether they are in market.
+| Dimension | What to Assess |
+|-----------|----------------|
+| Buying culture | Committee-driven vs. champion-driven; fast vs. deliberative |
+| Risk tolerance | Early adopter vs. late majority; affects proof requirements |
+| Regulatory environment | HIPAA, SOC2, FedRAMP requirements that gate adoption |
+| Expansion stage | Actively entering new markets vs. consolidating; predicts budget urgency |
 
-### Layer 2: Buying Triggers
+## ICP vs. Persona vs. Target Market
 
-Triggers are the proxy for urgency. A company can fit your firmographics perfectly and have zero need for your product. A trigger event signals that something has changed, and where there is change, there is budget and attention.
+| Dimension | Target Market | ICP | Buyer Persona |
+|-----------|---------------|-----|---------------|
+| Unit | Market segment | Company / account | Individual |
+| Granularity | Macro | Macro | Micro |
+| Example | "B2B SaaS in North America" | "B2B SaaS, 50–500 employees, $5–50M ARR, Salesforce + Segment, hiring RevOps" | "Sarah, Head of Growth, 35–45, KPI-driven, reports to CMO" |
+| Primary use | TAM sizing, market entry | Account qualification, prioritization, ABM tiering | Messaging, content, outreach personalization |
+| Owner | Strategy / leadership | Sales + Marketing + RevOps (shared) | Marketing (with sales input) |
+| Refresh cadence | Annually | Quarterly (review), 6–12 months (meaningful update) | Annually or per product launch |
 
-Common trigger types:
+**Rule of thumb:** Use target market to size TAM. Use ICP to filter accounts and align sales/marketing. Use personas to write the email, ad, and landing page.
 
-- **Leadership change**: new VP of Sales, new CRO, new CTO, new CMO. New leaders bring new priorities and new budgets.
-- **Funding event**: Series A, B, C. Fresh capital means expansion mode and vendor willingness.
-- **M&A activity**: merger or acquisition creates integration needs and stack changes.
-- **Technology change**: implementing a new system, migrating off a legacy tool, expanding a platform. Your solution may fill a gap.
-- **Regulatory or compliance shift**: new requirements force action.
-- **Missed targets**: missed earnings, growth targets, or operational goals create urgency for solutions that close the gap.
-
-A company that matches your firmographics but has no trigger is not an opportunity: it is a name on a list. Prioritize by trigger proximity.
-
-### Layer 3: Behavioral Signals
-
-What the account is actively doing that indicates interest or need. These are often captured through intent data, content consumption, search behavior, and community activity.
-
-- **Active research**: what they are reading, what topics they are searching for
-- **Community participation**: are they in communities where your ICP congregates?
-- **Technology evaluation**: are they looking at competing or complementary solutions?
-- **Hiring patterns**: are they hiring for roles related to the problem you solve?
-- **Content engagement**: are they consuming your content or similar providers' content?
-
-Behavioral signals add a timing dimension. A firmographic + trigger match that is also showing behavioral signals is a hot account. A match with no signals is a cold account, worth adding to a nurture sequence, not a call today.
-
-### Layer 4: Value Definition
-
-The fourth layer is the most overlooked: what does "best customer" mean for your business? Define it explicitly.
-
-- **Revenue profile**: ACV range, expansion potential, wallet share
-- **Implementation burden**: how much professional services, customization, or hand-holding do they require?
-- **Churn risk**: what characteristics correlate with retention in your business?
-- **Reference value**: will this customer be a referenceable case study?
-- **Learning value**: will this customer teach you something about the market?
-
-The output is a prioritized account list ranked by expected value and readiness, with a named owner and a plan for each tier: more than a plain list of target accounts.
-
-## ICP vs. Buyer Persona
-
-ICP and buyer persona are related but distinct. Confusing them is expensive.
-
-| Dimension | ICP | Buyer Persona |
-|-----------|-----|---------------|
-| Focus | Company / account | Individual / person |
-| Data type | Firmographics, triggers, technographics | Demographics, psychographics, behaviors |
-| Question answered | "Which companies should we target?" | "Who do we talk to inside that company?" |
-| Example | B2B SaaS, $10M-$50M ARR, using Salesforce, just raised Series B | "VP of Sales at B2B SaaS companies, 10+ years experience, focused on pipeline growth" |
-| Defined first | Yes: before persona | No: after ICP |
-| Primary users | Sales, marketing, product, leadership | Content marketing, sales reps, enablement |
-
-**Sequence matters.** Define the ICP first. Then build buyer personas for the key roles inside ICP accounts. A persona without an ICP is a character sketch: it tells you what "Marketing Mary" cares about but not which companies she works for or whether they have a budget.
-
-In B2B, the buying committee is rarely one person. A complete GTM understands the economic buyer, the technical evaluator, the end user, and the champion, all inside ICP accounts. The ICP defines the account. The personas define the people.
-
-## How to Build an ICP
-
-The build sequence is five steps. Do them in order. Do not skip the data step.
+## Five-Step Build Process
 
 ### Step 1: Analyze Your Best Customers
 
-Start with data, not intuition. Pull your current customer base and segment it by outcomes:
+Start with evidence, not aspirations. Pull your CRM and identify the top 20% of customers by a composite of:
 
-- **Revenue**: who pays the most?
-- **Retention**: who stays longest?
-- **Expansion**: who buys more over time?
-- **Referenceability**: who would serve as a credible case study?
-- **Implementation ease**: who required the least hand-holding?
+- Highest ACV / TCV
+- Highest NPS or Customer Health Score
+- Highest NRR (expansion + retention)
+- Shortest sales cycle
+- Lowest support burden
 
-Look for patterns across these dimensions. The accounts that rank high on multiple dimensions are your ICP candidates. Write down the shared characteristics: industry, size, geography, tech stack, triggers at time of sale, buying committee composition.
+Require stakeholder agreement on criteria across sales, marketing, CS, and product. If sales defines "best" as biggest logo and CS defines it as easiest implementation, you get a fragmented ICP.
 
-If you have no customers yet, interview prospects and lost deals. Talk to 15-20 accounts. Ask what they were using before, what triggered their search, what other solutions they considered, and what made them say yes or no. Pattern-match from there.
+### Step 2: Identify Patterns Across the Four Layers
 
-### Step 2: Define the Four Layers
+Run the analysis on your best-customer cohort. Look for convergence:
 
-Document each layer explicitly. Be specific. "Mid-market companies" is not specific. "B2B SaaS companies, $5M-$20M ARR, 50-200 employees, North America, using Salesforce with a marketing automation layer" is specific.
+- **Firmographic clusters:** Do 70%+ fall in 2–3 industry/size/geo combinations?
+- **Technographic overlap:** What 3–5 tools appear in 80%+ of their stacks?
+- **Behavioral commonalities:** Were they hiring? Recently funded? Actively researching your category?
+- **Psychographic traits:** Were they data-driven buyers? Fast movers? Committee or champion-led?
 
-Write it as a one-page ICP profile. Include:
+### Step 3: Document the ICP Profile
 
-- Firmographic criteria (the who)
-- Trigger criteria (the when)
-- Behavioral signal criteria (the how we know they're active)
-- Value definition (why they are "ideal")
+Produce a one-page ICP card with:
 
-A good ICP is narrow enough to focus resources but broad enough to support growth objectives. If your ICP is 5 accounts, it is too narrow. If it is "all companies with LinkedIn," it is too broad.
+- **ICP sentence:** "Heads of RevOps at B2B SaaS companies (50–500 employees, $5–50M ARR) using Salesforce and Segment, actively hiring, who need to unify pipeline data across go-to-market motions."
+- **Tiered attribute weights** (see Scoring Framework below)
+- **Anti-ICP (exclusion criteria):** Companies too small to afford, locked into competitor contracts >18 months, regulated verticals you don't support, buying committees >10 people without a champion
 
-### Step 3: Create a Named Account List
+### Step 4: Build a Scoring Framework
 
-The output of an ICP exercise is a list of 50-200 named accounts that match all four layers, prioritized by fit and trigger proximity: an executable asset, not a document.
+Weight 4–6 attributes that predict conversion and lifetime value. Example from Factors.ai:
 
-This list is the asset. Everything else (outbound, content, events, paid) flows from it. If you cannot produce a named account list from your ICP, your ICP is a concept, not an executable strategy.
+| Attribute | Weight | Scoring Logic |
+|-----------|--------|---------------|
+| Industry fit | 25 | Direct vertical = 25, adjacent = 15, other = 0 |
+| Company size (employees) | 20 | 50–500 = 20, 20–50 or 500–1000 = 10, else = 0 |
+| Tech stack alignment | 20 | Core integration present = 20, partial = 10, none = 0 |
+| Geography | 15 | Core region = 15, expansion = 5, unsupported = 0 |
+| Buying signal (intent/hiring/funding) | 20 | Active signal = 20, passive = 10, none = 0 |
 
-### Step 4: Validate with Currency
+**Thresholds:** 70+ = Tier 1 (high fit, prioritize), 50–69 = Tier 2 (nurture), &lt;50 = Tier 3 (exclude or monitor).
 
-An ICP hypothesis is just a hypothesis until someone pays. Validation requires currency: a signed contract, a paid pilot, a committed expansion.
+### Step 5: Operationalize and Refresh Quarterly
 
-Sales velocity is the best ICP validation metric. Are ICP accounts closing faster than non-ICP accounts? Are they expanding? Are they referring? If the answer is no, the ICP is wrong or incomplete.
+An ICP that lives in a slide deck is useless. Embed it:
 
-Do not scale channels until you have validated the ICP with at least 5-10 closed-won deals against it. Channels amplify whatever is working. If you have not proven ICP fit, you will amplify noise.
+- **Account lists:** CRM account scoring auto-populates Tier 1/2/3 tags
+- **ABM tiers:** Tier 1 gets 1:1 campaigns; Tier 2 gets 1:few; Tier 3 gets 1:many
+- **Inbound routing:** High-fit inbound routes to senior AEs; low-fit routes to self-serve or nurture
+- **Outbound sequences:** Personalization variables pulled from ICP attributes (industry pain, stack gap, hiring signal)
+- **Sales qualification:** MEDDICC/MEDDPICC "Metrics" and "Decision Criteria" anchored to ICP fit
+- **CS onboarding:** Playbooks tailored to ICP segment (SaaS vs. marketplace vs. fintech)
+- **Product roadmap:** Feature requests weighted by ICP-segment revenue impact
 
-### Step 5: Instrument and Iterate
-
-An ICP is a living document, not a one-time deliverable. The market changes. Your product changes. Your ICP should change with them.
-
-The iteration loop:
-
-1. **Review closed-won and closed-lost data quarterly.** Which accounts matched the ICP and won? Which matched and lost? Which didn't match and won anyway?
-2. **Update trigger and signal layers based on what preceded closed-won deals.** Were there triggers you didn't capture? Signals you missed?
-3. **Refine firmographic boundaries as you learn.** If every won deal in the last quarter was $10M-$30M ARR, your upper bound may be too high.
-4. **Test ICP expansions deliberately.** Once you dominate a beachhead, expand the ICP by one dimension at a time (new vertical, new size band, new geography) and measure the impact on win rate and sales cycle.
-
-81% of top-performing account-based organizations have high confidence that their ICP accurately represents their ideal accounts (Gartner) [2]. They earned that confidence through iteration, not declaration.
+**Refresh triggers:** Win/loss analysis shifts, churn cohort review reveals new patterns, 20+ new customer interviews, major product pivot, new market entry.
 
 ## Common Mistakes
 
-**ICP = firmographics only.** A firmographic filter produces false positives. It tells you the shape of the account but not whether they are in market, have budget, or will value your product. Add trigger, behavioral, and value layers.
+**Building from aspirations, not data.** "We want to sell to enterprise" is not an ICP. Enterprise accounts that churn in 8 months and demand custom SLAs are not ideal. Start with who *actually* succeeds.
 
-**Treating ICP as a static document.** Write it once, share it once, forget it. Markets shift. Products evolve. Competitors move. A static ICP is a map from last year. Review quarterly at minimum. Review after every major product launch or market entry.
+**Stopping at firmographics.** Industry + size + revenue is a segment, not an ICP. Without technographics and behavioral signals, you target companies that look right but aren't ready or able to buy.
 
-**Too broad out of FOMO.** Founders fear that niching down means leaving money on the table. In practice: trying to sell to everyone means selling to no one effectively. Start with a beachhead (a segment where you are meaningfully better) and expand from dominance, not dilution.
+**Confusing ICP with persona.** Writing "VP of Sales at mid-market SaaS" and calling it an ICP. That's a persona. The ICP is the company: "B2B SaaS, 100–500 employees, $10–100M ARR, Salesforce + Outreach, hiring AEs."
 
-**Building personas before ICP.** A buyer persona without an ICP is a character sketch without a stage. You know what "Marketing Mary" wants but not which companies she works for or whether they are in market. ICP first. Persona second.
+**One-and-done documentation.** Markets shift. Your product evolves. Competitors move. An ICP from 18 months ago is stale. Quarterly review is the minimum; meaningful update every 6–12 months.
 
-**No named account list.** An ICP that doesn't produce a prioritized list of 50-200 accounts is a concept, not a strategy. If you cannot populate a list from your ICP, the ICP is too vague to execute against.
+**No anti-ICP.** Knowing who *not* to pursue is as valuable as knowing who to pursue. Document exclusion criteria explicitly: too small, wrong stack, locked in, regulatory mismatch, champion-less committees.
 
-**No exclusion criteria.** An ICP defines who to pursue. It should also define who to ignore. Explicit exclusion criteria (company sizes that don't work, industries where you lose, triggers that signal bad fit) saves more time than inclusion criteria.
+**Sales and marketing using different definitions.** If marketing targets "SaaS 50–5000 employees" and sales only works "SaaS 100–500 employees with Salesforce," marketing spends 80% of budget on accounts sales rejects. One definition, shared ownership.
 
-**Not validating with currency.** You can feel confident in an ICP and still be wrong. The only validation that matters is whether ICP accounts buy, at the expected velocity, with the expected retention. Everything else is self-reported confidence.
+**Scoring without validation.** A scoring model is a hypothesis. Validate it: run last quarter's closed-won and closed-lost through the model. If Tier 1 accounts don't win at 2x the rate of Tier 2, the weights are wrong.
 
-## ICP at Different Stages
+## How the ICP Varies by Company Stage
 
-The ICP document takes different variants by stage, by segment, and by maturity. The core contract stays the same; the precision and the operating cadence change.
+The right ICP rigor depends on how much customer data you have. Do not copy an enterprise ICP process onto a seed-stage startup, and do not run a five-person team on aspirational guesswork.
 
-**Pre-product-market fit.** Your ICP is a hypothesis. You have early customers and a theory about who they are. The job is to validate that theory with more conversations and more data. Expect to revise. Expect to be wrong. The goal is to find the pattern that predicts who buys.
+**Seed (0–10 customers).** You have no meaningful CRM cohort. Use founder interviews and competitor case studies. Define ICP from the problems real buyers describe, not from your product's features. Expect to rewrite the ICP every few weeks as you learn who actually buys. The only rule: write it down and change it deliberately, not silently.
 
-**Early traction ($0-$2M ARR).** Your ICP is emerging from data. You have enough closed-won deals to see patterns. Narrow the ICP to the segment where you win fastest and retain best. Resist the urge to broaden too early. Focus is the advantage at this stage.
+**Series A–B (10–100 customers).** You now have a real cohort. Run the five-step process on your top 20% of customers by retention and expansion. Firmographics and technographics become usable filters. Adopt a scored ICP and tiered account list. Review quarterly.
 
-**Growth ($2M-$20M ARR).** Your ICP should be documented, validated, and operationalized across sales, marketing, and product. You are running one or two ICPs deliberately. Expansion ICP work begins: adjacent segments where your value proposition translates.
+**Scale (100+ customers).** Your data supports statistical segmentation. Split the ICP by segment: seed-stage ICP for new-market expansion, enterprise ICP for land-and-expand. Different ACV tiers need different firmographic thresholds and different champion personas. Run win-loss and churn analysis monthly and feed the results back into the scoring weights [3][4].
 
-**Scale ($20M+ ARR).** Multiple ICPs for different motions, products, or geographies. ICP management becomes an operational discipline: data pipelines, automated scoring, regular review cadences. At this stage the ICP is a system, not a document.
-
-## How This Wiki Approaches ICP
-
-This wiki treats ICP as the first building block of any GTM strategy: the foundation everything else rests on.
-
-- **[Foundations: GTM Strategy Framework](./00-gtm-strategy-framework.md)**: the universal strategy framework where ICP is building block one
-- **[Foundations: What Is GTM?](./00-what-is-gtm.md)**: the definition and scope of go-to-market
-- **[Foundations: Positioning and Messaging](./03-positioning-and-messaging.md)**: how ICP informs positioning and message architecture
-- **[Foundations: Channels Bullseye](./01-gtm-channels-bullseye.md)**: how ICP determines which channels to test
-- **[Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md)**: how ICP data feeds AI-powered outbound
-- **[Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md)**: standing up outbound using an ICP account list
-
-## Sources
-
-1. [SiriusDecisions/Forrester: Top Account-Based Marketing and Intent Data Statistics](https://www.foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): 68% higher win rates with a defined ICP; 30% more marketing-generated revenue.
-2. [Gartner: Account-Based Marketing Research](https://www.gartner.com/en/marketing/accounts/marketing): 14% higher pipeline conversion from ICP-aligned ABM; 81% of top-performing ABM orgs trust their ICP (2024).
-3. [Salesforce: State of Sales 2024](https://www.salesforce.com/sales/state-of-sales/): 86% of business buyers more likely to buy when their goals are understood (5,500 sales professionals, 27 countries, 2024).
-4. [ZoomInfo: Ideal Customer Profile Guide](https://pipeline.zoominfo.com/marketing/ideal-customer-profile): Four-layer ICP framework (firmographics, technographics, behavioral signals, psychographics); Spekit case study: 43% more likely to qualify, 58% faster qualification.
-5. [Factors.ai: ICP Marketing Guide 2026](https://www.factors.ai/blog/icp-marketing-guide): 20-40% higher win rates, 15-30% shorter sales cycles with documented scored ICP; 5-step build process; quarterly refresh cadence.
-
-## Further Reading
-
-- [Salesforce: Ideal Customer Profiles (ICPs): Benefits & How to Create](https://www.salesforce.com/sales/ideal-customer-profile/): B2B ICP fundamentals, component breakdown, and common mistakes
-- [TK Kader: Ideal Customer Profile (ICP) Template & Framework Guide](https://www.idealcustomerprofile.com/): three-part ICP framework (Firmographics, Triggers, Macro Trends), TAM/SAM/SOM connection, ICP dictionary
-- [Lenny's Newsletter: How to Identify Your Ideal Customer Profile (ICP)](https://www.lennysnewsletter.com/p/how-to-identify-your-ideal-customer): practitioner stories from B2B founders on identifying ICP, with examples from Canva, Databricks, Front, Sprig
-- [Miro: Ideal Customer Profile vs Buyer Persona](https://miro.com/persona/ideal-customer-profile-vs-buyer-persona/): clear distinction between ICP, buyer persona, and target audience with examples
-- [Gartner: Account-Based Marketing research](https://www.gartner.com/en/marketing/accounts/marketing): ABM ICP confidence data and account-based strategy frameworks
-- [RightLeft Agency: Ideal Customer Profile (ICP) for B2B SaaS: Examples & Guide](https://rightleftagency.com/blog/ideal-customer-profile/): B2B SaaS-specific ICP examples and measurement frameworks
+The variant dimension matters because a single ICP does not survive past product-market fit. Companies that keep one broad ICP into scale stage misallocate budget across segments that convert at wildly different rates.
 
 ## Cross-References
 
-- [Playbooks: Outbound From Zero](../playbooks/outbound-from-zero.md): standing up outbound using an ICP account list
-- [Data: Market Segmentation](../data/02-market-segmentation.md): TAM/SAM/SOM/PAM arithmetic that feeds ICP sizing
-- [Data: GTM Metrics](../data/gtm-metrics): metrics that validate ICP performance
-- [Channels: Channels Bullseye](./gtm-channels-bullseye): channel selection driven by ICP
-- [Roles: SDRs](../roles/sdrs/index.md): how SDRs use ICP for targeting
-- [Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md): AI-powered outbound fed by ICP data
+- [GTM Strategy Framework](/docs/foundations/gtm-strategy-framework). Where ICP fits in the universal strategy framework.
+- [What Is GTM](/docs/foundations/what-is-gtm). GTM fundamentals and the 10 essential elements.
+- [Positioning and Messaging](/docs/foundations/positioning-and-messaging). Translating ICP pain points into value-driven messaging.
+- [GTM Funnel](/docs/foundations/gtm-funnel). How ICP tiers map to funnel stages.
+- [Channel Selection](/docs/foundations/gtm-channels-bullseye). Choosing channels based on ICP media consumption.
+- [Outbound Playbook](/docs/playbooks/outbound-from-zero). Building outbound from ICP-defined account lists.
+- [ABM](/docs/channels/abm). Tiered ABM motions driven by ICP fit scores.
+- [MEDDPICC Sales Process](/docs/flows/sales-process-meddpicc). Qualifying ICP-fit accounts through the sales process.
+
+## Sources
+
+- [1] [ZoomInfo, "What Is an Ideal Customer Profile? ICP Guide for B2B"](https://pipeline.zoominfo.com/marketing/ideal-customer-profile). ICP is account-level, not persona-level. Defines the four data layers: firmographic, technographic, behavioral, and budget fit. Reports Spekit's finding that ICP-fit accounts are 43% more likely to qualify, 58% faster.
+- [2] [Factors.ai, "ICP Marketing Guide (2026): Examples, Framework & Templates"](https://www.factors.ai/blog/icp-marketing-guide). ICP vs. persona vs. target market. Build in 5 steps. Weighted scoring template with 70+ as high-fit threshold.
+- [3] [Cornel Lazar, "ICP for SaaS: A Practical Framework"](https://cornellazar.com/articles/icp-for-saas-a-practical-framework-to-define-your-ideal-customer-profile). Five-phase framework: success signals, data foundation, broad filters, hidden insights, segment prioritization. Firmographic filters alone are weak predictors.
+- [4] [Salesforce, "Ideal Customer Profiles (ICPs): Benefits & How to Create"](https://www.salesforce.com/sales/ideal-customer-profile/). ICP combines behavioral, firmographic, and environmental characteristics. Common mistakes include assumptions over data and discounting pain points.
+
+## Further reading
+
+- [Foundations](/docs/foundations). The full GTM fundamentals map.
+- [GTM OS Architecture](/docs/agentic/gtm-os-architecture). Where ICP fits inside a systems view of go-to-market.
