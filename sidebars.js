@@ -23,6 +23,7 @@ const sidebars = {
         'foundations/icp-definition',
         'foundations/positioning-and-messaging',
         'foundations/gtm-channels-bullseye',
+        'foundations/brand-as-gtm',
       ],
     },
     {
