@@ -32,9 +32,9 @@ When these four align with how customers derive value, pricing becomes a revenue
 
 ## Why It Matters
 
-Pricing is the highest-leverage GTM decision most teams underweight. Product, marketing, and sales get budgets and attention. Pricing gets a spreadsheet and a launch-day decision. That order is backwards.
+Pricing is the GTM decision most teams underweight. Product, marketing, and sales get budgets and attention. Pricing gets a spreadsheet and a launch-day decision. That order is backwards.
 
-The stakes show up in three places:
+The stakes show up across the funnel:
 
 - **Win rate.** Wrong pricing stalls deals in procurement. A price that does not map to customer value forces the salesperson to discount or lose.
 - **LTV.** The discount conceded to close a deal caps the lifetime value of the customer just won. The damage compounds across renewals and expansions.
