@@ -2,6 +2,9 @@
 title: "Ideal Customer Profile (ICP) Definition"
 sidebar_position: 2
 description: "Defines the company-level characteristics of accounts most likely to buy, succeed, and deliver the highest lifetime value. The ICP filters the market before you invest in persona-level messaging."
+status: active
+tags: [foundations, icp, targeting]
+last_updated: 2026-09-02
 ---
 
 An Ideal Customer Profile (ICP) defines the company-level characteristics of accounts most likely to buy, succeed with your product, and deliver the highest lifetime value. It filters the market to organizations worth pursuing before you invest a dollar in persona-level messaging or outbound sequences. The ICP operates at the account level; buyer personas operate at the individual level. Target market defines reach. ICP defines focus. Persona defines resonance.

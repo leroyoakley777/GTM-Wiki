@@ -2,6 +2,9 @@
 title: "What Is Go-to-Market (GTM)?"
 sidebar_position: 1
 description: "Definition, frameworks, and build sequence for a go-to-market strategy."
+status: active
+tags: [foundations, gtm, strategy]
+last_updated: 2026-09-02
 ---
 
 # What Is Go-to-Market (GTM)?

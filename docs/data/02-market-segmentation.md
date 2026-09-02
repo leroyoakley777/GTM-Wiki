@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Market Segmentation Benchmarks
 description: "How B2B markets break down: the 95-5 rule, the four segmentation layers, personalization lifts, and TAM/SAM/SOM sizing baselines."
 status: active
-last_updated: 2026-08-28
+last_updated: 2026-09-02
 tags: ['data', 'market', 'segmentation']
 ---
 
@@ -31,7 +31,7 @@ The single most important fact: **only ~5% of your market is actively buying at 
 | Personalized demo flows → meeting-to-close | **+30–45%** lift | [5] |
 | Strong ICP → win rate | **up to +68%** (agency-reported) | [6] |
 | SOM as share of SAM (early-growth B2B) | **5–15%** | [7] |
-| Segmentation methods (B2B) | firmographic, technographic, intent, persona, journey stage | [2] |
+| Segmentation methods (B2B) | firmographic, technographic, intent, persona, journey stage | [3] |
 
 ---
 
@@ -55,7 +55,7 @@ Website visits, content engagement, third-party intent data, topic surge. Finds 
 
 Decision-maker mindset: cost-control CFO vs growth-at-any-cost CFO. The payoff is **message-market fit**: you stop writing one deck for a market of ten thousand and write for a mindset. A segment that cannot name the buyer's job-to-be-done is not a segment [3].
 
-**The pattern across every framework:** firmographics set the boundary. The psychographic/behavioral/needs layers do the targeting.
+**The pattern across every framework:** firmographics set the boundary. The psychographic, behavioral, and needs-based layers do the targeting.
 
 ---
 
@@ -81,6 +81,14 @@ Gets you a target list, not a strategy. Two identical firmographic accounts can 
 ### Chasing the 95
 
 Spraying the ~95% of the market that is not buying. The cheapest way to waste a marketing budget is to target the whole addressable market instead of the in-market slice of it.
+
+### Segments you cannot activate
+
+A segment defined by data you cannot act on is a slide, not a strategy. If you segment by a psychographic trait but have no way to reach those buyers with a tailored message, the segment is decorative. Segmentation and activation have to be designed together [3].
+
+### Segmenting the company instead of the committee
+
+B2B decisions are made by groups of 6 to 10 stakeholders, not by accounts [3]. Segmenting only at the company level ignores that the CFO, the end user, and the champion each need a different message. The account is the target. The individuals are the audience.
 
 ---
 
@@ -120,16 +128,20 @@ SAM: 60% of TAM after geo/size/stack fit
 TAM: 100% of category revenue, no competition
 ```
 
+---
+
 ## Sources
 
-- [1] [Hey Sid, 2026](https://www.heysid.com/resources/b2b-market-segmentation-a-practical-framework): four layers, 95-5 rule.
-- [2] [Demandbase, What is B2B Market Segmentation?](https://www.demandbase.com/faq/b2b-market-segmentation-guide/): five methods.
-- [3] [ZoomInfo, B2B Customer Segmentation: The Complete Guide](https://pipeline.zoominfo.com/marketing/customer-segmentation): tiering table, failure modes.
-- [4] [McKinsey, Next in Personalization](https://www.nexoristech.com/insights/ai-personalization-roi): 10–15% revenue lift, 10–30% ROI.
-- [5] [Walnut, Interactive Demos & B2B Conversion Rates 2026](https://www.walnut.io/blog/product-demos/interactive-demos-conversion-rates-b2b-2026-data/): +30–45% meeting-to-close.
-- [6] [Right Left Agency, Ideal Customer Profile for B2B SaaS](https://rightleftagency.com/blog/ideal-customer-profile/): 68% win-rate claim.
-- [7] [HG Insights, 2026](https://hginsights.com/blog/tam-sam-som-the-complete-guide-to-market-sizing/): 5–15% SOM.
-- [8] [Antler, TAM, SAM & SOM](https://www.antler.co/blog/tam-sam-som): how to calculate market size.
+- [1] Hey Sid (Rikard Jonsson), B2B Market Segmentation: A Practical Framework, Aug 2026. [Link](https://www.heysid.com/resources/b2b-market-segmentation-a-practical-framework): four layers, 95-5 rule, Ehrenberg-Bass / LinkedIn B2B Institute. Registered source #317.
+- [2] Demandbase, 2026. [What is B2B Market Segmentation?](https://www.demandbase.com/faq/b2b-market-segmentation-guide/): five methods, firmographic vs technographic. Registered source #236.
+- [3] ZoomInfo, B2B Customer Segmentation: The Complete Guide, 2026. [Link](https://pipeline.zoominfo.com/marketing/customer-segmentation): tiering table, failure modes, buying committee sizing. Registered source #319.
+- [4] McKinsey, Next in Personalization, 2026. [Link](https://www.nexoristech.com/insights/ai-personalization-roi): 10–15% revenue lift, 10–30% ROI. Registered source #320.
+- [5] Walnut, Interactive Demos & B2B Conversion Rates 2026, 2026. [Link](https://www.walnut.io/blog/product-demos/interactive-demos-conversion-rates-b2b-2026-data/): +30–45% meeting-to-close. Registered source #321.
+- [6] Right Left Agency, Ideal Customer Profile for B2B SaaS, 2026. [Link](https://rightleftagency.com/blog/ideal-customer-profile/): 68% win-rate claim. Registered source #322.
+- [7] HG Insights (Susan Torrey), Market Sizing Guide: Calculating TAM, SAM, SOM, May 2026. [Link](https://hginsights.com/blog/market-sizing-the-complete-guide-to-calculating-tam-sam-som-and-building-a-data-driven-growth-strategy/): 5–15% SOM, top-down vs bottom-up methodology. Registered source #318.
+- [8] Antler, TAM, SAM & SOM: How To Calculate, 2025. [Link](https://www.antler.co/blog/tam-sam-som): bottom-up sizing formula, ICP count × ACV. Registered source #323.
+
+*Synthesized from Hey Sid (Rikard Jonsson), HG Insights (Susan Torrey), ZoomInfo, McKinsey, Walnut, Right Left Agency, and Antler.*
 
 ---
 
@@ -138,4 +150,6 @@ TAM: 100% of category revenue, no competition
 - [ICP Definition](../foundations/02-icp-definition.md): the account-level filter this data sharpens.
 - [GTM Strategy Framework](../foundations/00-gtm-strategy-framework.md): where segmentation sits in the operating system.
 - [Positioning and Messaging](../foundations/03-positioning-and-messaging.md): what segmentation feeds.
-- [Pricing as GTM](../data/pricing-as-gtm): packaging is built on customer groups, not segments.
+- [Pricing as GTM](../data/04-pricing-as-gtm.md): packaging is built on customer groups, not segments.
+- [Conversion Rate Benchmarks](./00-conversion-rate-benchmarks.md): what segmented funnel performance looks like.
+- [Outbound Response Rates](./05-outbound-response-rates.md): how segmentation lifts cold outbound metrics.
