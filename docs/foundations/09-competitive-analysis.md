@@ -27,7 +27,7 @@ Three terms sit in one system and are not interchangeable:
 
 - **Competitive intelligence** is the raw input. Facts about competitors: product changes, pricing, hiring, funding, reviews, sales tactics, and marketing messages. Intelligence is observational. You collect it. You do not decide anything from a single data point.
 - **Competitive analysis** is the processing layer. It turns raw intelligence into structured judgment: what is this competitor's strategy, where are they investing, where are they strong, where are they weak, what is their likely next move. Analysis requires judgment, so it needs a repeatable structure to stay consistent. [1]
-- **Competitive positioning** is the output. It is the strategic decisions you make from the analysis: which battles to fight, which to avoid, and how you train the team to handle competitive deals. Positioning is not a separate document. It is the competitive layer of your overall positioning architecture. [1]
+- **Competitive positioning** is the output. It is the strategic decisions you make from the analysis: which battles to fight, which to avoid, and how you train the team to handle competitive deals. Positioning is the competitive layer of your overall positioning architecture, not a separate document. [1]
 
 Skip the bottom layer and your analysis runs on assumptions. Skip the middle layer and your positioning runs on gut feel. Skip the top layer and your analysis is interesting but useless.
 
@@ -83,7 +83,7 @@ Your real competitive set comes from three data sources, not from opinion: [1]
 2. **Sales interviews.** Ask your top five reps who they see most often in deals. Reps surface competitors that never show up in CRM, especially the status quo and manual workarounds.
 3. **Buyer research.** In customer interviews, ask what else they evaluated before choosing you. Buyers name alternatives you never considered, including adjacent category players that solve the problem differently.
 
-One point of honesty here. A differentiated feature is only valuable if it is provably valuable to the customer's goal, valuable to a defined segment, and meaningful against the real alternatives the customer cares about. [3] A feature that beats a competitor you barely face is not differentiation. It is a distraction.
+One point of honesty here. A differentiated feature is only valuable if it is provably valuable to the customer's goal, valuable to a defined segment, and meaningful against the real alternatives the customer cares about. [3] A feature that beats a competitor you barely face is a distraction, not differentiation.
 
 ---
 
