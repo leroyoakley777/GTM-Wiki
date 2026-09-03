@@ -453,6 +453,20 @@ registry. Unregistered citation → build failure.
 | 315 | Bessemer Cloud Index (BVP) | 2026 | Public cloud/SaaS market benchmarks: Magic Number, NRR/NDR, and gross-margin benchmarks sourced from public-company data. Net Revenue Retention (NDR) is a key valuation driver; strong public SaaS companies sustain NDR above 110%. Magic Number above 0.75 is healthy and above 1.0 is excellent. | docs/foundations/05-gtm-metrics.md |
 | 316 | Marketing Mary, SaaS Marketing Strategy 2026 | 2026 | Stage-specific CAC benchmarks, GTM-model selection guidance (product-led vs sales-led), and marketing-metrics ownership. Median CAC payback for SaaS drifted from 10-14 months up to 12-18 months (2025-2026) as acquisition costs rose. Trial-to-paid ~10-20%, freemium-to-paid ~2-5%. | docs/foundations/05-gtm-metrics.md |
 
+### Outbound channel rebuild batch (vetted 2026-09-02)
+
+| # | Source | As-of | Key claims | Backing |
+|---|--------|-------|-----------|---------|
+| 325 | Instantly, Cold Email Benchmark Report 2026 | 2026 | 3.43% blended reply average across billions of interactions; 5.5% top quartile; 10.7%+ top 10%; positive reply 30-50% of total replies; delivery 97%+; meetings 3-10 per 1,000 sends | docs/channels/01-outbound.md |
+| 326 | Belkins, Cold Email Response Rates 2026 | 2026 | 0.45% average reply across 7.5M+ strict net-new cold emails sent in 2025; small campaigns (50 or fewer recipients) average 5.8% vs 2.1% for 500+ recipient lists | docs/channels/01-outbound.md |
+| 327 | Martal, B2B Cold Email Statistics 2026 (synthesizing GMass, Infraforge, GrowthList, Salesmate) | 2026 | 1-5% typical reply range, 5%+ solid, 8-12% good; Gmail/Microsoft transformer-based spam detection of templated sends; personalization lifts reply from 9% to 18% vs generic | docs/channels/01-outbound.md |
+| 328 | SalesHive, B2B SaaS Cold Email Benchmarks 2025-2026 | 2026 | 1-2 meetings booked per 100 sends as the honest target; 3-8% SaaS reply working range; healthy replies with under 1% meetings booked = follow-up/qualification gap, not copy | docs/channels/01-outbound.md |
+| 329 | Zeliq, Cold Email: The Complete B2B Guide to Booking Meetings in 2026 | Jul 2026 | 2026 benchmark table (reply 3-5% avg, 8-15% top; positive reply 25-40% of replies; meetings 0.5-2%; spam complaint under 0.1%); 6-8 touches over 21-30 days; 15% permanent warmup traffic; breakup email worth 20-30% of pipeline; template fatigue 4-6 weeks; cosmetic personalization sub-1% | docs/channels/01-outbound.md |
+| 330 | Leadriver, Cold Email Open Rate Benchmarks 2026 | 2026 | Apple Mail Privacy Protection inflates open rates 10-20 points; open rate is a relative/weekly signal only; positive replies and meetings booked resist MPP contamination | docs/channels/01-outbound.md |
+| 331 | LeadHaste, The Complete Guide to Cold Email 2026 | 2026 | 6-layer cold email system; never send from primary domain; 2-3 mailboxes per domain at 25-30 sends/day; weekly bounce/bi-weekly blacklist/monthly rotation/quarterly audit cadence; email is the engine, channels are amplifiers | docs/channels/01-outbound.md |
+| 332 | Autobound, Cold Email Guide 2026 (vendor source) | Feb 2026 | SPF/DKIM/DMARC required (Gmail rejects unauthenticated since Feb 2024); signal-based campaigns reach 15-25% reply, 5x generic; warmup ramp 10-25/day to target over 3-6 weeks; randomized 3-8 min send intervals | docs/channels/01-outbound.md |
+| 333 | Clay, B2B Cold Email Deliverability: 21 Best Practices | Apr 2026 | Divide daily send target by 50 for inboxes needed and by 100 for domains; warm every inbox 3+ weeks (5/day ramp, cap 50); 25-40% warmup response target; 3-week warmup raised open rates 30% vs 2-week | docs/channels/01-outbound.md |
+
 ### Market segmentation batch (vetted 2026-09-02)
 
 | # | Source | As-of | Key claims | Backing |

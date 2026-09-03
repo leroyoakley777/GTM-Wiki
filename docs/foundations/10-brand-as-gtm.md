@@ -181,7 +181,7 @@ moves that ratio. It is a capital investment in the unit economics.
 
 ### Step 1: Define the memory target
 
-Write down who you need to be remembered by and for what. Name the
+Write down who needs to remember you and for what. Name the
 segments and the buying-group roles. For each, write the single buying
 situation where you want to come to mind: a compliance deadline, a board
 mandate, a renewal decision, a failed incumbent.
