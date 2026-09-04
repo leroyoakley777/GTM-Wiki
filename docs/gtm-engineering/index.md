@@ -2,6 +2,8 @@
 sidebar_position: 1
 title: GTM Engineering
 description: The engineering backbone of a modern GTM OS-data layer, model orchestration, skill/tool dev, CI/CD, observability, and experimentation.
+status: active
+tags: [gtm-engineering]
 ---
 
 # GTM Engineering
