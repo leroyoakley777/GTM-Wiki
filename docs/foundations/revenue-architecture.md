@@ -246,24 +246,17 @@ that files a full architecture away as done stalls against faster learners.
 A scale team that keeps one broad motion across segments dilutes every
 production line for every buyer [1][2].
 
-## Common mistakes
+## Failure modes and how to fix them
 
-- Treating revenue architecture as a static org chart. The model breaks
-  when leaders optimize one production line without adjusting the others,
-  because the six models are interconnected [2].
-- Running too many motions. Each extra motion fragments the factory.
-  Restraint at small scale is a strength [1].
-- Siloing the teams. If marketing, sales, and success do not share a
-  language and a data model, the factory does not run [1][2].
-- Matching motion to first-year ACV. Matching to lifetime value is the
-  rule. First-year thinking misallocates the production lines [1].
-- Flipping one model in isolation. The six models are interconnected.
-  Change one without the others and the system breaks [2].
-- Treating growth as continuous. Growth is staged. Skipping a phase shift
-  or starting it too late costs years [2].
-- Ignoring unit economics in the motion. A high-touch motion on a small
-  deal, or a self-serve motion on a strategic deal, loses money. Match the
-  line to the economics [1][9].
+These are the ways the factory dies in practice, and the fix.
+
+- **Too many motions.** Each extra production line fragments cost and language. Fix: run at most three motions until a new product forces a fourth [1].
+- **Motion matched to first-year ACV.** A small deal on a high-touch line burns cash. A strategic deal on self-serve leaves value on the table. Sales-led CAC sits near $11,400 versus about $702 self-serve [9]. Fix: match the line to multi-year LTV, then write the growth formula so the mismatch is visible.
+- **One model flipped alone.** A pricing change that never hits the data model or the GTM model looks like a win in week one and a miss at renewal. Fix: change revenue, data, math, GTM, growth, and operating models as one set [2].
+- **Siloed numbers.** Marketing, sales, and success each keep a private dashboard. Fix: one data model and one language before you add a second motion [1][2].
+- **Stage mismatch.** A seed team files a full architecture and stops learning. A scale team keeps one broad motion across segments. Fix: seed runs one founder-led learning line; growth runs at most three motions; scale splits lines by segment [1][2].
+- **Growth treated as a smooth line.** Skipping a phase shift, or starting it late, costs years. Fix: plan the next stage 12 to 18 months ahead [2].
+- **Quota leak ignored.** Only about 43 to 47% of quota-carrying sellers hit quota [6]. Fix: treat quota attainment as a factory output, not a people problem, and repair the motion whose growth formula is leaking.
 
 ## Sources
 

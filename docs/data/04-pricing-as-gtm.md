@@ -111,16 +111,16 @@ Sales compensation is the most underestimated factor in pricing discipline. Rese
 
 AI-augmented reps handle 1,000+ contacts per day versus 50-80 for a manual SDR [46]. The implication for pricing: at that volume, discount discipline must be automated, not negotiated case by case. An AI agent can enforce the discount band by flagging any quote over 20% and routing it to a pricing committee before it sends. The agent does not replace the rep. It prevents the rep from making a $6.6M mistake.
 
-## Common Mistakes
+## Failure modes and how to fix them
 
-- **Discounting to close.** A discount conceded to close is a subsidy. It caps LTV and becomes the baseline for the next negotiation. Discounts over 40% produce smaller deals and slower closes [104].
-- **Pricing from cost or competitors.** Cost-plus caps you. Competitive benchmarks converge you. Both start from the wrong input.
-- **Packaging by ideology, not evidence.** Three editions from a template fit the average customer and no specific customer. Editions should emerge from how groups derive value.
-- **Partitioned pricing.** Breaking a package into many metered components reduces perceived value because it lowers perceived fairness, even at an identical total price. Buyers read granularity as friction.
-- **Situational pricing dressed as value-based.** Charging by the customer's circumstances, a deadline or a threat, works once and collapses on comparison. The damage comes when the customer learns someone else paid half.
-- **No expansion path.** A pricing model with no natural upgrade motion caps NRR. Land-and-expand is not optional for most SaaS.
-- **Static pricing.** Market conditions change: new entrant, economic shift, new value from the roadmap. Pricing that does not evolve with the product is a one-time exercise that decays.
-- **Ignoring comp.** Volume-based comp incentives bleed pricing. Fix the metric and the packaging, then align the comp, or the field erodes everything.
+These are the ways a pricing system breaks in the field, and the fix.
+
+- **Discounting to close.** A subsidy caps LTV and becomes the next deal's floor. Deals past 40% off close smaller and slower [104]. Fix: keep the 5-20% band; require a trade (annual prepay, multi-year) for anything above it; route quotes over 20% off to a deal desk.
+- **Wrong value metric.** Seats bill headcount while agents raise output. Fix: attach price to usage or outcome, then prove the metric on closed-won usage data before you rewrite the list [270].
+- **Template packaging.** Editions copied from a competitor fit the average buyer and no specific group. Fix: group buyers by how they derive value, then add on the capability only one group pays for.
+- **No expansion path.** Land-and-expand dies when the first package has nowhere to grow. Median NRR sits near 102%; the companies that hold NRR at or above 100% grew about 48% year over year [212][57]. Fix: put the next tier one cap-break away before the first contract signs.
+- **Comp that pays volume.** Late-quarter discounts of 35-37% versus 30% mid-quarter are a comp problem, not a list-price problem. Fix: tie discount authority to margin, not quota date.
+- **Cost-plus or competitor-copy list.** Both start from the wrong input. Fix: set list from revealed preference on cohorts with similar usage, then move price in small controlled steps.
 
 ## Pricing Configuration Artifact
 
@@ -149,6 +149,7 @@ Three. Rewrite one tier as a customer group, not a segment. Take the single feat
 
 ## Sources
 
+- [57] [ChartMogul, H1 2024 SaaS Retention Report](https://chartmogul.com): companies with NRR at or above 100% grew about 48% year over year.
 - [89] [SBI, State of B2B SaaS Pricing Benchmarks Report 2024](https://sbigrowth.com/tools-and-solutions/pricing-benchmarks-report-2024): 33% value-based, 40.8% good-better-best.
 - [102] [MomentumNexus, The SaaS Pricing Strategy Guide 2026](https://www.momentumnexus.com/blog/saas-pricing-strategy-guide-2026/): +11.4% price level, $7,900/employee, 25-40% expansion.
 - [104] [Lesia Polivod / Cacheflow, SaaS Discount Strategy 2026](https://medium.com/@lesiapolivod/saas-discount-strategy-2026-when-discounts-work-and-when-they-dont-e33dac0014fb): 5-20% optimal, over 40% hurts deals.

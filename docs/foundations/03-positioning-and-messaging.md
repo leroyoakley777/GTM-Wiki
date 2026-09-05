@@ -4,7 +4,7 @@ sidebar_position: 3
 description: "How to define positioning that puts your unique strengths at the center, then translate it into messaging that resonates across every buyer touchpoint."
 status: active
 tags: [foundations, positioning, messaging]
-last_updated: 2026-09-04
+last_updated: 2026-09-05
 ---
 
 # Positioning and Messaging
@@ -53,8 +53,8 @@ Two complementary frameworks dominate B2B positioning. Use both.
 
 ### April Dunford's 5-Step Process (Obviously Awesome)
 
-April Dunford's methodology treats positioning as a deliberate act
-of putting your unique strengths at the center [1]. It rejects the
+April Dunford's methodology (2019, restated 2024) treats positioning as a
+deliberate act of putting your unique strengths at the center [1][4]. It rejects the
 traditional positioning statement as a fill-in-the-blanks exercise
 that assumes positioning sits locked inside your head and produces
 statements nobody uses.
@@ -105,8 +105,8 @@ Proof: [Evidence that value is real]
 
 ### Geoffrey Moore's Positioning Statement (Crossing the Chasm)
 
-Moore's template forces explicit strategic choices before any
-marketing copy is written [2][3]. It is an internal alignment
+Moore's 2014 template forces explicit strategic choices before any
+marketing copy is written [2][3][5]. It is an internal alignment
 tool, not customer-facing text. The structure:
 
 ```
