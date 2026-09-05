@@ -39,16 +39,10 @@ STANDARDS/  (Gold Ship Standard, team meta — NEVER in docs/)
 - Pre-commit hooks: `npm run setup:hooks`
 
 ## Hermes ship protocol
-Hermes fails this repo when it commits before the deploy twin is green, or when
-it `--no-verify`s because `$HOME/.hermes/plans/gtm-wiki/OPERATING_CONTEXT.md`
-is missing. Do this on every ship:
-
-1. Read `AGENTS.md`, `STANDARDS/GOLD_SHIP_STANDARD.md`, and the operating context.
-2. Edit the page. Cross-link with the unprefixed slug. Register every new citation
-   in `RESEARCH/gtm-wiki/SOURCES_REGISTRY.md`. Stamp `last_updated`.
-3. Run `npm run lint:comms -- <touched files>` then `npm run ship:gate`.
-4. Commit only if both exit 0. Never `git commit --no-verify`.
-5. Push to `main` only with explicit OWNER-YES.
+Standing orders live in `STANDARDS/HERMES_SHIP.md`. Read that file at the
+start of every session. Continuous deploy is on: a page that passes
+`npm run ship:gate` may be committed and pushed to `main`. Vercel is the
+witness. One page per cycle. Never `git commit --no-verify`.
 
 `lint.mjs` and `lint-comms.mjs` have different banned lists. Comms is the one
 that caught `empower`, `leverage`, `unlock`, and `is earned by` / `be cancelled by`.
