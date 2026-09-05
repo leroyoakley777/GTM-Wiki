@@ -235,6 +235,25 @@ unqualified meetings.
 **The gate stays**: every meeting traces to a campaign. Every 2 weeks
 you debrief what won, what converted, what killed.
 
+## Variants by stage and ACV
+
+The same loop (list, sequence, send, triage, handoff) changes shape
+with deal size and company stage. The hybrid model stays. The human
+load and the volume cap move.
+
+| Stage or ACV | What the agent owns | What the human owns | Volume cap |
+|---|---|---|---|
+| Seed, founder-led, sub $8k ACV | Enrichment, first-draft sequences, reply labels | Every send, every meeting book | 25 to 50 sends per domain per day |
+| Early team, $8k to $25k ACV | List build, signal watch, draft variants, first-pass triage | Pattern approval, hot replies, weekly debrief | One proven sequence before a second |
+| Growth, $25k to $60k ACV | Multi-domain send, calendar holds, CRM writeback | Deal desk on exceptions, 2-week win/kill review | Scale only after reply rate holds above the 5.1% floor [127] |
+| Enterprise, $60k+ ACV | Research briefs and account maps | Narrative, multi-thread, legal and security review | Named accounts, not spray |
+
+A seed founder who buys an autonomous SDR is paying $35K to $65K a year
+to burn a domain [76]. An enterprise team that keeps a human on every
+generic bump is wasting the 1,000-contact daily capacity the hybrid
+model buys [46]. Match the human load to ACV, then raise autonomy only
+after the reply rate holds.
+
 ## Common mistakes (agentic edition)
 
 **Scaling a broken message**. The use sends 10x faster, so a weak offer
