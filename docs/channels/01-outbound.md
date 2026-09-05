@@ -182,7 +182,7 @@ The 21-30 day window shifts by stage. Seed-stage founders can compress to 10-14 
 
 ### SDR economics
 
-The math only works when the SDR's fully-loaded cost is covered by the meetings they book. At $139,120/year per SDR [39], a 3-10 meetings-per-1,000 rate means each meeting costs roughly $1,100-$3,800 in SDR comp alone. If your ACV is $10k and your close rate from meeting to deal is 20%, each SDR costs $5,500-$19,000 per won deal just on comp. The inflection point is where ACV covers the SDR cost per meeting and the close rate makes the unit economics positive. Below that inflection, founder-led outbound or agentic augmentation is the only path.
+The math only works when the meetings an SDR books cover the SDR's fully-loaded cost. At $139,120/year per SDR [39], a 3-10 meetings-per-1,000 rate means each meeting costs roughly $1,100-$3,800 in SDR comp alone. If your ACV is $10k and your close rate from meeting to deal is 20%, each SDR costs $5,500-$19,000 per won deal just on comp. The inflection point is where ACV covers the SDR cost per meeting and the close rate makes the unit economics positive. Below that inflection, founder-led outbound or agentic augmentation is the only path.
 
 
 ## How to Read These Numbers
