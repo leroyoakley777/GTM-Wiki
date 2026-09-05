@@ -48,7 +48,7 @@ see 2.8x more pipeline than teams attempting full replacement [16].
 Gartner gives the same verdict. By 2028 AI agents will outnumber
 sellers 10x. Fewer than 40 percent of sellers will report that their
 agents improved productivity. Over 40 percent of agentic AI projects
-will be cancelled by the end of 2027 [38].
+will cancel by the end of 2027 [38].
 
 The tools that survive will be the ones that lift the human, not replace
 the human. This page assumes the human-in-the-loop model.
@@ -66,7 +66,7 @@ $139,120 for a human SDR [76].
 A single AI-augmented SDR handles 1,000+ contacts per day versus 50 to 80
 for a manual rep [46].
 
-An AI-empowered SDR reaches 3x more prospects with tailored messages
+An AI-augmented SDR reaches 3x more prospects with tailored messages
 than they could by hand [109].
 
 The productivity math looks strong. But do not chase the volume
@@ -105,7 +105,7 @@ a one-line reason-to-reach. Every variant is human-approved before the
 first send. You only automate a pattern after you have seen hundreds of
 replies prove it.
 
-The framework runs in three stages, in order.
+The framework runs in sequence:
 
 1. **Prove the message**. Start with a small list, high-touch, all
    human judgment. Find the offer that gets replies. Never automate a
@@ -324,7 +324,7 @@ Agentic outbound checklist
 - [52] [Mailshake, 2025](https://mailshake.com/blog/the-state-of-cold-email-2025/): Only 5 percent of senders personalize every email.
 - [63] [UserGems, 2026](https://www.autobound.ai/blog/ai-sdr-tools-guide): AI SDR tools churn at 50 to 70 percent annually, roughly double human turnover.
 - [76] [Smartlead, 2026](https://levelupleads.io/blog/cold-email-benchmarks-2025-key-stats-every-marketer-should-know/): Fully-loaded autonomous AI SDR $35K to $65K per year; 1 to 3 percent reply rate for fully autonomous systems.
-- [109] [LevelUpLeads, 2025-2026](https://levelupleads.io/blog/cold-email-benchmarks-2025-key-stats-every-marketer-should-know/): AI-empowered SDR reaches 3x more prospects with tailored messages.
+- [109] [LevelUpLeads, 2025-2026](https://levelupleads.io/blog/cold-email-benchmarks-2025-key-stats-every-marketer-should-know/): AI-augmented SDR reaches 3x more prospects with tailored messages.
 - [116] [Instantly, 2025-2026](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/): Signal-based personalization reaches 15 to 25 percent reply rates; reply agents draft in under 5 minutes.
 - [127] [Haus Advisors via Belkins, 2025-2026](https://www.hausadvisors.com/blog/ai-outreach-statistics-2026): Industry average cold email reply 5.1 percent; most campaigns land between 1 and 5 percent.
 - [172] [Amplemarket, 2026](https://www.amplemarket.com/blog/best-ai-sales-agents): AI agent assembles per-prospect research brief a human would spend 15 to 30 minutes building; personalization model trains over time.
