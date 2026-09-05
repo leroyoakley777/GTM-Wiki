@@ -39,10 +39,11 @@ STANDARDS/  (Gold Ship Standard, team meta — NEVER in docs/)
 - Pre-commit hooks: `npm run setup:hooks`
 
 ## Hermes ship protocol
-Standing orders live in `STANDARDS/HERMES_SHIP.md`. Read that file at the
-start of every session. Continuous deploy is on: a page that passes
-`npm run ship:gate` may be committed and pushed to `main`. Vercel is the
-witness. One page per cycle. Never `git commit --no-verify`.
+Standing orders live in `STANDARDS/HERMES_SHIP.md`. The runnable Hermes
+skill is `skills/gtm-wiki-ship/SKILL.md` (install notes in
+`skills/gtm-wiki-ship/INSTALL.md`). Continuous deploy is on: a page that
+passes `npm run ship:gate` may be committed and pushed to `main`. Vercel is
+the witness. One page per cycle. Never `git commit --no-verify`.
 
 `lint.mjs` and `lint-comms.mjs` have different banned lists. Comms is the one
 that caught `empower`, `leverage`, `unlock`, and `is earned by` / `be cancelled by`.
