@@ -64,7 +64,7 @@ import stats from './stats.json';
 
 export default function Home() {
   return (
-    <Layout title="GTM Wiki" description="Open-source Go-to-Market resource for founders, operators, and builders. Last updated: 2026-08-27.">
+    <Layout title="GTM Wiki" description={`Open-source Go-to-Market resource for founders, operators, and builders. Last updated: ${stats.generatedAt}.`}>
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
@@ -120,10 +120,9 @@ export default function Home() {
         <section className="gtm-updates">
           <div className="gtm-section-label">RECENT UPDATES</div>
           <ul>
-            <li><strong>2026-08-27</strong> - Added AE role page, updated og-image, refreshed homepage.</li>
-            <li><strong>2026-08-26</strong> - Added OS-first architecture pages (engagement flow, examiner, autonomy ladder, quality gate, build order, controls, idea stub, intake-capture).</li>
-            <li><strong>2026-08-20</strong> - Added GTM OS Architecture and Engagement Flow pages.</li>
-            <li><strong>2026-08-18</strong> - Initial launch of the GTM Wiki with core frameworks and playbooks.</li>
+            {(stats.updates || []).map((u) => (
+              <li key={u.date}><strong>{u.date}</strong> - {u.text}</li>
+            ))}
           </ul>
         </section>
 
