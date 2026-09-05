@@ -9,7 +9,7 @@ last_updated: 2026-09-05
 
 # Pricing as a GTM Lever
 
-**Pricing is not a finance decision. It is a go-to-market lever.** The price you charge, the metric you attach it to, the way you package capabilities, and the discounts you allow all determine who buys, how fast they buy, and how long they stay. This page pairs with the [GTM Strategy Framework](/docs/foundations/gtm-strategy-framework).
+**Pricing is a go-to-market lever, not a finance decision.** The price you charge, the metric you attach it to, the way you package capabilities, and the discounts you allow all determine who buys, how fast they buy, and how long they stay. This page pairs with the [GTM Strategy Framework](/docs/foundations/gtm-strategy-framework).
 
 The single most important fact: **discounting is a pipeline-quality tax, not a neutral sales tool.** Discounts over 40% produce smaller deals and slower closes. Heavy-discount customers churn more than full-price customers. Pricing discipline is a growth engine, not a constraint.
 
@@ -99,13 +99,13 @@ A discount conceded to close is a subsidy. It buys the deal and caps the custome
 
 A pricing model with no natural upgrade motion caps NRR. The expansion revenue rate good/steady sits at 10-30% [212]. The top performers exceed 60% of new MRR from expansion [212]. Net revenue retention median sits at 102% [212]. Companies with NRR &gt;=100% grew roughly 48% year over year [57]. For B2B SaaS M&A, the customer-retention range compresses: gross dollar retention 85-95%, net dollar retention 110-120% [221].
 
-The land-and-expand motion is not optional for most SaaS. It is where unit economics work. The expansion path must exist before the first deal closes.
+The land-and-expand motion is a necessity for most SaaS, not an optional add-on. Unit economics only work when the expansion path exists before the first deal closes.
 
 ## How Discounting Erodes Revenue
 
-The discount that looks like a one-off deal becomes the baseline for the next negotiation. Over a portfolio, excess discounting consumes 6.6% of total vendor revenue. For a $100M company, that is $6.6M given away. The mechanism is not buyer pressure. It is sales comp structure pulling the opposite direction.
+The discount that looks like a one-off deal becomes the baseline for the next negotiation. Over a portfolio, excess discounting consumes 6.6% of total vendor revenue. For a $100M company, that is $6.6M given away. The mechanism behind this is sales comp structure pulling the opposite direction.
 
-Sales compensation is the most underestimated factor in pricing discipline. Research on enterprise software deals found 74% closed on the last day of the quarter, with late-quarter discounts averaging 35-37% versus 30% mid-quarter. That gap is not buyer behavior. It is reps pulling deals forward with deeper discounts to hit comp thresholds. If comp rewards volume over profitability, the team erodes pricing regardless of how well the model is designed.
+Sales compensation is the most underestimated factor in pricing discipline. Research on enterprise software deals found 74% closed on the last day of the quarter, with late-quarter discounts averaging 35-37% versus 30% mid-quarter. That gap reflects reps pulling deals forward with deeper discounts to hit comp thresholds. If comp rewards volume over profitability, the team erodes pricing regardless of how well the model is designed.
 
 ### Agentic discount enforcement
 
@@ -117,7 +117,7 @@ AI-augmented reps handle 1,000+ contacts per day versus 50-80 for a manual SDR [
 - **Pricing from cost or competitors.** Cost-plus caps you. Competitive benchmarks converge you. Both start from the wrong input.
 - **Packaging by ideology, not evidence.** Three editions from a template fit the average customer and no specific customer. Editions should emerge from how groups derive value.
 - **Partitioned pricing.** Breaking a package into many metered components reduces perceived value because it lowers perceived fairness, even at an identical total price. Buyers read granularity as friction.
-- **Situational pricing dressed as value-based.** Charging by the customer's circumstances, a deadline or a threat, works once and collapses on comparison. The damage is not the moment. It is when the customer learns someone else paid half.
+- **Situational pricing dressed as value-based.** Charging by the customer's circumstances, a deadline or a threat, works once and collapses on comparison. The damage comes when the customer learns someone else paid half.
 - **No expansion path.** A pricing model with no natural upgrade motion caps NRR. Land-and-expand is not optional for most SaaS.
 - **Static pricing.** Market conditions change: new entrant, economic shift, new value from the roadmap. Pricing that does not evolve with the product is a one-time exercise that decays.
 - **Ignoring comp.** Volume-based comp incentives bleed pricing. Fix the metric and the packaging, then align the comp, or the field erodes everything.
