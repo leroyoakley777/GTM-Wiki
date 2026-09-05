@@ -19,6 +19,7 @@
     "check:sources": "node scripts/validate-sources.mjs",
     "check:freshness": "node scripts/check-freshness.mjs",
     "check": "npm run lint && npm run lint:comms && npm run scan:slop && npm run check:depth && npm run check:sources -- --strict && npm run check:freshness",
+    "ship:gate": "npm run lint && npm run lint:comms && npm run scan:slop && npm run check:sources -- --strict && npm run check:freshness -- --strict && npm run build",
     "setup:hooks": "git config core.hooksPath .githooks && chmod +x .githooks/pre-commit"
   },
   "dependencies": {

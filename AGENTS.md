@@ -28,12 +28,32 @@ STANDARDS/  (Gold Ship Standard, team meta — NEVER in docs/)
 
 ## Build Commands
 - Dev: `npm start`
-- Full gate: `npm run check` (lint + depth + sources)
-- Lint: `npm run lint` (hard gate; also runs pre-deploy via vercel.json)
+- Full gate: `npm run check` (lint + lint-comms + slop + depth + sources)
+- Deploy twin: `npm run ship:gate` (same command Vercel runs, plus lint-comms)
+- Lint: `npm run lint` (taste + build traps)
+- Comms: `npm run lint:comms` (banned AI-tell tokens, passive "VERBed by", rule-of-three)
 - Depth: `npm run check:depth` (warn-only; --strict promotes to hard gate)
-- Sources: `npm run check:sources` (warn-only; `validate-sources.mjs --strict` is the hard gate, wired into vercel.json buildCommand)
+- Sources: `npm run check:sources -- --strict` (hard gate on Vercel)
+- Freshness: `npm run check:freshness -- --strict` (hard gate on Vercel)
 - Build: `npm run build`
 - Pre-commit hooks: `npm run setup:hooks`
+
+## Hermes ship protocol
+Hermes fails this repo when it commits before the deploy twin is green, or when
+it `--no-verify`s because `$HOME/.hermes/plans/gtm-wiki/OPERATING_CONTEXT.md`
+is missing. Do this on every ship:
+
+1. Read `AGENTS.md`, `STANDARDS/GOLD_SHIP_STANDARD.md`, and the operating context.
+2. Edit the page. Cross-link with the unprefixed slug. Register every new citation
+   in `RESEARCH/gtm-wiki/SOURCES_REGISTRY.md`. Stamp `last_updated`.
+3. Run `npm run lint:comms -- <touched files>` then `npm run ship:gate`.
+4. Commit only if both exit 0. Never `git commit --no-verify`.
+5. Push to `main` only with explicit OWNER-YES.
+
+`lint.mjs` and `lint-comms.mjs` have different banned lists. Comms is the one
+that caught `empower`, `leverage`, `unlock`, and `is earned by` / `be cancelled by`.
+If a sentence matches `\b(is|was|were|be|been)\s+\w+(ed|en|t)\s+by\b`, rewrite it
+in active voice before you commit.
 
 ## Conventions
 - Every page: frontmatter with sidebar_position + status.
