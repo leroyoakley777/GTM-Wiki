@@ -30,17 +30,14 @@ workflows with reasoning and decision-making: it sets a goal,
 breaks it into steps, executes across tools, and adapts when
 conditions change [1].
 
-Applied to go-to-market, agentic GTM means three things:
-
-- **Agents execute.** Lead routing, data hygiene, report
-  generation, campaign sequencing, prospect research, drafting
-  outreach, and first-line reply handling run continuously without
-  a human triggering each step.
-- **Humans design and govern.** Process architecture, exception
-  handling, strategy, and stakeholder relationships stay with
-  people.
-- **Systems learn continuously.** Every agent action is tracked,
-  outcomes are measured, and the model improves over time.
+Applied to go-to-market, agentic GTM splits work by strength.
+Agents execute the high-volume repetitive motion: lead routing,
+data hygiene, report generation, campaign sequencing, prospect
+research, drafting outreach, and first-line reply handling run
+continuously without a human triggering each step. People keep
+process architecture, exception handling, strategy, and stakeholder
+relationships. Every agent action is tracked and outcomes are
+measured, so the system learns continuously [1].
 
 The structural framing matters: agentic AI is bigger than any
 feature release or pilot tucked inside one team. It redesigns how
