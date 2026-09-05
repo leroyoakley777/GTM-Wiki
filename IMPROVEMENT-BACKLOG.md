@@ -9,8 +9,10 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 | ~~IB-001~~ | ~~Add missing `status: active` frontmatter to pages~~ | Low | High | Foundations, Agentic, Channels, Data, Flows, Playbooks, Skills |
 | ~~IB-002~~ | ~~Add missing `tags` frontmatter to pages~~ | Low | High | Foundations, Agentic, Channels, Data, Flows, Playbooks, Skills |
 | IB-003 | Add variant/maturity dimension section (by segment\|stage\|maturity\|variant) to agentic, channels, data, foundations, playbooks | Medium | High | Agentic (00,01,02,03), Channels (04-partner), Data (00,02,04,05), Foundations (03,07, revenue-architecture), Playbooks (outbound-from-zero) |
-| IB-004 | Add failure-modes section (fail/when it breaks/pitfall/risk/objection) to data/04-pricing-as-gtm.md and foundations/revenue-architecture.md | Low | High | Data/04-pricing-as-gtm.md, Foundations/revenue-architecture.md |
+| ~~IB-004~~ | ~~Add failure-modes section (fail/when it breaks/pitfall/risk/objection) to data/04-pricing-as-gtm.md and foundations/revenue-architecture.md~~ | Low | High | Data/04-pricing-as-gtm.md, Foundations/revenue-architecture.md |
 | IB-005 | Add worked math with named base to channels/03-product-led.md, flows/02-agentic-outbound.md, flows/04-buyers-journey.md | Medium | High | Channels/03-product-led.md, Flows/02-agentic-outbound.md, Flows/04-buyers-journey.md |
+
+> **✅ DONE (2026-09-05):** IB-004 verified complete on `main`. `04-pricing-as-gtm.md` carries a "Failure modes" table plus "Common Mistakes" (8 items); `revenue-architecture.md` carries "Common mistakes" (7 items). Depth gate: 10/10 and 9/9. Struck from active queue to stop re-dispatch.
 
 > **✅ DONE (2026-09-04):** IB-001/002 (frontmatter). Audited all 115 doc files on disk; all already carried `status:` and `tags:` except `docs/gtm-engineering/index.md`, which I added them to per convention (`status: active`, `tags: [gtm-engineering]`). Full gate green: lint 0/0, `npm run check` exit 0, `npm run build` compiles. Committed locally `470c1fcf`, NOT pushed (owner-yes gate). Removed from active queue to stop re-dispatch.
 
