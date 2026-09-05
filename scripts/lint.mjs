@@ -8,6 +8,11 @@
  *   - lint.mjs      (this)  = L2 taste + build-trap rules (Honey's banned list → code)
  *   - check-depth.mjs       = L1 structural depth / page contract (Fizz)
  *   - validate-sources.py   = Bumble's True-gate registry check (wired separately)
+ *   - scan-slop.mjs         = OWNS em dashes, "The"-headings, uncited stats
+ *   - lint-comms.mjs        = OWNS banned tokens, rule-of-three, passive scent
+ *   Do NOT add em-dash, banned-token, or rule-of-three rules here — they
+ * already have owners (see above). Anaphora/promise-listing stays shared:
+ * this file's version covers staged-file scope the slop scan lacks.
  *
  * Usage:
  *   node scripts/lint.mjs                # docs/ + src/pages (all reader-facing copy)

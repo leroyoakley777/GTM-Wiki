@@ -4,6 +4,12 @@
  * Author: Honey (slop gate). Part of TEAM_CULTURE.md S9: the slop scan is a
  * mandatory gate, not a courtesy. Every human catch should become a rule.
  *
+ * OWNS: em dashes (sole owner — lint.mjs and lint-comms.mjs must NOT add
+ * em-dash rules), "The"-opening headings, uncited dated stats.
+ * SHARED with lint.mjs: anaphora/promise-listing (kept in both: this file's
+ * version scans src/pages too). Do NOT add banned-token or rule-of-three
+ * rules here — those belong to lint-comms.mjs.
+ *
  * Device split (matches the Gold Ship boundary: exact rules are hard,
  * judgment rules are surfaced for the human eye):
  *

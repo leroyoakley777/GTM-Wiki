@@ -1,4 +1,9 @@
 // lint-comms.mjs — GTM Wiki comms-standard gate (hard fail on violation).
+// OWNS: banned AI-tell tokens, forced rule-of-three, passive-voice scent,
+// hypothetical-future phrasing, performative honesty.
+// Does NOT own: em dashes (scan-slop.mjs), anaphora/promise-listing (lint.mjs),
+// structural rules (lint.mjs). Add new rules here ONLY if they fit the list
+// above; otherwise put them in the owning scanner.
 // Scans docs/**/*.md for Google-style deviations: banned AI-tell tokens,
 // passive-voice scent, hypothetical future, performative honesty, forced rule-of-three.
 // Heap-safe + loop-safe: uses String.includes (no regex exec loops, no full-file split).
