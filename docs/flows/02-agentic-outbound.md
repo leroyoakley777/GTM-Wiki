@@ -25,7 +25,7 @@ The data is consistent across every source. Hybrid human-in-the-loop teams produ
 
 Read that third number twice. The agent that books the meeting is not the agent that wins it. The use removes the thinking bottleneck **between** the gate steps. A human keeps judgment on what goes out and on what a prospect says back.
 
-Gartner reaches the same verdict from the top down. By 2028 AI agents will outnumber sellers 10x, yet fewer than 40% of sellers will report the agents improved their productivity, and over 40% of agentic AI projects will be cancelled by the end of 2027 [1]. The tools that survive lift the human. They do not replace the human.
+Gartner reaches the same verdict from the top down. By 2028 AI agents will outnumber sellers 10x, yet fewer than 40% of sellers will report the agents improved their productivity, and buyers will cancel over 40% of agentic AI projects by the end of 2027 [1]. The tools that survive lift the human. They do not replace the human.
 
 **Acceptance gate:** you can state the augment-don't-replace rule as a design decision, not a slogan. If your plan is to buy one autonomous AI SDR and watch it book, stop and re-read [Agentic Outbound](/docs/agentic/agentic-outbound) before building anything.
 
@@ -302,7 +302,7 @@ From [Agent vs Human Workflows](/docs/agentic/agent-vs-human-workflows), based o
 | Outbound email drafting | Draft | Rep review before any send |
 | Pricing approvals | Draft / Recommend | Finance sign-off, no autonomous send |
 
-**The rule to carry in:** automate low-blast-radius, reversible, high-volume work. Keep a human at every customer-facing or financial gate. Start narrow, prove the control model, then scale. Stage 4 is earned by the control model, not by the model's cleverness.
+**The rule to carry in:** automate low-blast-radius, reversible, high-volume work. Keep a human at every customer-facing or financial gate. Start narrow, prove the control model, then scale. The control model earns Stage 4. Model cleverness does not.
 
 ---
 

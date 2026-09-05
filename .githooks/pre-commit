@@ -53,8 +53,23 @@ if ! node scripts/lint.mjs $staged; then
   exit 1
 fi
 
+echo "gtm-wiki pre-commit: running lint-comms on staged files..."
+if ! node scripts/lint-comms.mjs $staged; then
+  echo
+  echo "Commit blocked: lint-comms violations in staged files."
+  echo "Banned tokens include: leverage, robust, seamless, pivotal, unlock,"
+  echo "empower, streamline, foster, navigate, showcase, underscore, landscape,"
+  echo "testament, delve. Also blocked: passive 'is/was VERBed by', 'three steps',"
+  echo "'would then' / 'could then'."
+  exit 1
+fi
+
 # S9 slop scan on the same staged files. Hard violations block; WARN
 # candidates (two-fragment, uncited dated-stat) print for the human eye.
 echo "gtm-wiki pre-commit: running S9 slop scan on staged files..."
-node scripts/scan-slop.mjs $staged
+if ! node scripts/scan-slop.mjs $staged; then
+  echo
+  echo "Commit blocked: scan-slop hard violations in staged files."
+  exit 1
+fi
 exit 0

@@ -47,7 +47,11 @@ const roots = [docs, standards, research];
 // not prose. A voice gate must not rewrite a source's recorded claim (e.g.
 // "in three months" is the vendor's own wording). Exclude the one data file;
 // all prose files walk the voice gate.
-const files = roots.flatMap((r) => walk(r)).filter((f) => !f.endsWith("SOURCES_REGISTRY.md"));
+const explicit = process.argv.slice(2).filter((a) => !a.startsWith("-"));
+const files = (explicit.length
+  ? explicit
+  : roots.flatMap((r) => walk(r))
+).filter((f) => !f.endsWith("SOURCES_REGISTRY.md"));
 let count = 0;
 const MAX_REPORT = 200;
 let reported = 0;
