@@ -1,40 +1,25 @@
-# Contributing to GTM Wiki
+# Contributing
 
-Thank you for helping build the best open-source GTM resource.
+The live contribution standard is [docs/contributing.md](docs/contributing.md).
+Read that first. This file is the short repo version.
 
-## Contribution Guidelines
+## Bar
 
-### What We're Looking For
+A page ships only when `npm run ship:gate` exits 0.
 
-- **High-signal frameworks** that can be applied across industries
-- **Battle-tested playbooks** with clear "when to use" guidance
-- **Role-specific insights** for founders, SDRs, AEs, RevOps, etc.
-- **Practical templates** and calculators
-- **Clear, concise writing** — we value density over fluff
+- Every numbered stat has a source and a date
+- That source is registered in `RESEARCH/gtm-wiki/SOURCES_REGISTRY.md`
+- Voice clears `scripts/lint.mjs` and `scripts/lint-comms.mjs`
+- Links use the unprefixed slug
+- Frontmatter includes `status`, `tags`, and `last_updated`
 
-### What We Are NOT Looking For
+Do not put team notes in `docs/`. Those live in `STANDARDS/` or `RESEARCH/`.
 
-- Generic marketing advice
-- Company-specific case studies without universal lessons
-- Overly complex frameworks that only work for one type of business
-- Promotional content or affiliate links
+## Workflow
 
-## How to Contribute
+1. Fork or branch from `main`
+2. Edit one page
+3. Run `npm run ship:gate`
+4. Open a pull request with the gate result
 
-1. **Fork** the repository
-2. **Create a branch** (`feature/your-contribution-name`)
-3. **Write** your content in the appropriate folder under `docs/`
-4. **Submit a Pull Request**
-
-## Content Standards
-
-- Start with **first principles** whenever possible
-- Include **"When to Use"** and **"Common Pitfalls"** sections
-- Keep language practical and actionable
-- Credit sources where relevant
-
-## Questions?
-
-Open an issue or reach out on GitHub Discussions.
-
-Thank you for helping make GTM accessible and excellent for everyone.
+Questions: open a GitHub issue.

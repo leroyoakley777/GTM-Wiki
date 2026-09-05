@@ -23,3 +23,8 @@ build/
 
 # Neon
 .neon
+
+# Local agent / editor debris
+*.bak
+*.orig
+.scratch/
