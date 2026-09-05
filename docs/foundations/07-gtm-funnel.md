@@ -2,56 +2,122 @@
 title: GTM Funnel
 sidebar_position: 7
 status: active
-last_updated: 2026-09-02
+last_updated: 2026-09-04
 description: The GTM funnel maps the buyer journey from awareness to expansion with measurable stages and conversion benchmarks.
 tags: [funnel, metrics, buyer-journey, conversion]
 ---
 
 # GTM Funnel
 
-The GTM funnel defines the stages a prospect moves through from first touch to becoming a loyal customer who expands and refers others. It sits at the center of go-to-market execution because every channel tactic, sales motion, and revenue operation either feeds or optimizes one of these stages. A well-instrumented funnel turns vague pipeline anxiety into a shared language across marketing, sales, and customer success.
+The GTM funnel defines the stages a prospect moves through from
+first touch to becoming a loyal customer who expands and refers
+others. It sits at the center of go-to-market execution because
+every channel tactic, sales motion, and revenue operation either
+feeds or optimizes one of these stages. A well-instrumented funnel
+turns vague pipeline anxiety into a shared language across
+marketing, sales, and customer success.
 
 ## Definition
 
-A GTM funnel is a structured model that breaks the buyer journey into discrete, measurable stages. Each stage has entry criteria, exit criteria, conversion rates, and owning teams. The classic B2B funnel spans awareness, consideration, decision, onboarding, adoption, expansion, and advocacy. Modern funnels add product-qualified leads (PQLs) and usage-based signals for product-led motions. The funnel is not a linear pipeline; buyers loop back, skip stages, and enter from multiple channels. The model works when every stage has a clear definition, a single owner, and a service-level agreement (SLA) for handoffs [1].
+A GTM funnel is a structured model that breaks the buyer journey
+into discrete, measurable stages. Each stage carries entry
+criteria, exit criteria, conversion rates, and an owning team. The
+classic B2B funnel spans awareness, consideration, decision,
+onboarding, adoption, expansion, and advocacy. Modern funnels add
+product-qualified leads (PQLs) and usage-based signals for
+product-led motions. The funnel is not a linear pipeline: buyers
+loop back, skip stages, and enter from multiple channels. The model
+works when every stage has a clear definition, a single owner, and
+a service-level agreement (SLA) for handoffs [1].
 
-Stages map to specific metrics. Awareness tracks reach and impression share. Consideration measures engagement depth: content downloads, demo requests, webinar attendance. Decision captures opportunity creation, proposal sent, and close-won. Onboarding measures time-to-value and activation rate. Adoption tracks feature usage, license utilization, and health scores. Expansion measures net revenue retention (NRR), upsell attach rate, and cross-sell penetration. Advocacy tracks referral rate, NPS, and case study participation. Each metric rolls up to a north-star revenue number [2].
+Stages map to specific metrics. Awareness tracks reach and
+impression share. Consideration measures engagement depth: content
+downloads, demo requests, webinar attendance. Decision captures
+opportunity creation, proposals sent, and close-won. Onboarding
+measures time-to-value and activation rate. Adoption tracks feature
+usage, license utilization, and health scores. Expansion measures
+net revenue retention (NRR), upsell attach rate, and cross-sell
+penetration. Advocacy tracks referral rate, NPS, and case study
+participation. Each metric rolls up to a north-star revenue
+number [2].
 
-The funnel distinguishes between marketing-qualified leads (MQLs), sales-accepted leads (SALs), sales-qualified leads (SQLs), and product-qualified leads (PQLs). MQLs meet demographic and behavioral thresholds. SALs pass sales review for fit and timing. SQLs have confirmed budget, authority, need, and timeline (BANT) or MEDDPICC criteria. PQLs hit usage thresholds that signal buying intent. Clear definitions prevent "MQL inflation" where marketing celebrates volume while sales rejects quality [3].
+The funnel distinguishes between marketing-qualified leads (MQLs),
+sales-accepted leads (SALs), sales-qualified leads (SQLs), and
+product-qualified leads (PQLs). MQLs meet demographic and
+behavioral thresholds. SALs pass sales review for fit and timing.
+SQLs carry confirmed budget, authority, need, and timeline (BANT)
+or MEDDPICC criteria. PQLs hit usage thresholds that signal buying
+intent. Clear definitions prevent MQL inflation, where marketing
+celebrates volume while sales rejects quality [3].
 
 ## Why It Matters
 
-Without a defined funnel, teams optimize local metrics that do not roll up to revenue. Marketing celebrates lead volume while sales starves for qualified pipeline. Customer success onboards accounts that never adopt, driving churn. The cost of a broken funnel compounds: wasted spend on low-intent leads, elongated sales cycles from poor qualification, and expansion revenue left on the table because adoption signals are ignored. Companies with aligned funnels grow 19% faster and are 15% more profitable than peers with misaligned funnels [4].
+Without a defined funnel, teams optimize local metrics that do not
+roll up to revenue. Marketing celebrates lead volume while sales
+starves for qualified pipeline. Customer success onboards accounts
+that never adopt, driving churn. The cost of a broken funnel
+compounds: wasted spend on low-intent leads, elongated sales cycles
+from poor qualification, and expansion revenue left on the table
+because adoption signals go unread. Companies with aligned funnels
+grow 19 percent faster and run 15 percent more profitable than
+peers with misaligned funnels [4].
 
-A shared funnel creates a common language for forecasting. Finance models revenue from stage-weighted pipeline rather than rep gut feel. Product prioritizes features that move activation and adoption needles. Marketing allocates budget to channels that feed high-converting stages. Sales focuses effort on deals with verified MEDDPICC criteria. The funnel becomes the operating system for revenue decisions, not a reporting artifact [5].
+A shared funnel creates a common language for forecasting. Finance
+models revenue from stage-weighted pipeline rather than rep gut
+feel. Product prioritizes features that move activation and
+adoption needles. Marketing allocates budget to channels that feed
+high-converting stages. Sales focuses effort on deals with verified
+MEDDPICC criteria. The funnel becomes the operating system for
+revenue decisions, not a reporting artifact [5].
 
-Ignoring funnel instrumentation means flying blind on unit economics. Customer acquisition cost (CAC) by channel, payback period by segment, and LTV:CAC by cohort all require stage-level conversion data. When funnel data lives in spreadsheets instead of the CRM, it decays fast. The average B2B organization takes 60-70 days to plan territories using limited data inputs; a live funnel cuts that cycle dramatically [6].
+Ignoring funnel instrumentation means flying blind on unit
+economics. Customer acquisition cost (CAC) by channel, payback
+period by segment, and LTV-to-CAC by cohort all require stage-level
+conversion data. When funnel data lives in spreadsheets instead of
+the CRM, it decays fast. The average B2B organization takes 60 to
+70 days to plan territories using limited data inputs; a live
+funnel cuts that cycle dramatically [6].
 
 ## Framework
 
-The framework has four layers: stage definitions, conversion benchmarks, ownership and SLAs, and instrumentation.
+The framework has four layers: stage definitions, conversion
+benchmarks, ownership and SLAs, and instrumentation.
 
 ### Stage Definitions
 
-Each stage needs a name, entry trigger, exit criteria, and primary metric.
+Each stage needs a name, entry trigger, exit criteria, and primary
+metric.
 
-**Awareness**: Entry = target account visits website or sees ad. Exit = engages with content (scrolls, clicks, watches >30 seconds). Metric = engaged visit rate.
+**Awareness**: Entry is a target account visiting the website or
+seeing an ad. Exit is engaging with content (scrolls, clicks,
+watches more than 30 seconds). Metric is engaged visit rate.
 
-**Consideration**: Entry = content download, demo request, or webinar registration. Exit = attends demo or replies to outreach. Metric = demo attendance rate.
+**Consideration**: Entry is a content download, demo request, or
+webinar registration. Exit is attending the demo or replying to
+outreach. Metric is demo attendance rate.
 
-**Decision**: Entry = discovery call completed. Exit = proposal sent or contract signed. Metric = proposal-to-close rate.
+**Decision**: Entry is a completed discovery call. Exit is a
+proposal sent or contract signed. Metric is proposal-to-close rate.
 
-**Onboarding**: Entry = contract signed. Exit = first value realized (aha moment). Metric = time-to-value (TTV).
+**Onboarding**: Entry is a signed contract. Exit is first value
+realized (aha moment). Metric is time-to-value (TTV).
 
-**Adoption**: Entry = aha moment reached. Exit = usage >= 80% of licensed seats and core features active. Metric = adoption rate at 90 days.
+**Adoption**: Entry is the aha moment reached. Exit is usage at or
+above 80 percent of licensed seats with core features active.
+Metric is adoption rate at 90 days.
 
-**Expansion**: Entry = adoption threshold met. Exit = upsell or cross-sell closed. Metric = net revenue retention (NRR).
+**Expansion**: Entry is the adoption threshold met. Exit is an
+upsell or cross-sell closed. Metric is net revenue retention (NRR).
 
-**Advocacy**: Entry = NPS >= 9 or referenceable case study. Exit = referral submitted or review published. Metric = referral conversion rate.
+**Advocacy**: Entry is NPS at or above 9 or a referenceable case
+study. Exit is a referral submitted or review published. Metric is
+referral conversion rate.
 
 ### Conversion Benchmarks
 
-Benchmarks vary by motion (sales-led, product-led, hybrid) and ACV band. The table below shows median ranges from aggregated B2B SaaS data [7].
+Benchmarks vary by motion (sales-led, product-led, hybrid) and ACV
+band. The table below shows median ranges from aggregated B2B SaaS
+data [7].
 
 ```
 Stage                    | Sales-Led (ACV >50k) | Product-Led (ACV &lt;10k) | Hybrid (10k-50k)
@@ -71,63 +137,144 @@ Expanded to Advocate     | 10-15%               | 20-30%                 | 15-20
 
 Each stage has a primary owner and a handoff SLA to the next owner.
 
-- Awareness to Consideration: Marketing owns. SLA = MQL routed to sales within 5 minutes (inbound) or 24 hours (outbound).
-- Consideration to Decision: SDR/BDR qualifies. SLA = discovery call booked within 2 business days of MQL acceptance.
-- Decision: AE owns. SLA = proposal sent within 5 business days of discovery.
-- Onboarding: CS/Onboarding specialist owns. SLA = kickoff call within 3 business days of signature.
-- Adoption: CSM owns. SLA = health score review weekly; at-risk escalation within 24 hours.
-- Expansion: AE/CSM joint ownership. SLA = expansion opportunity created within 30 days of adoption signal.
-- Advocacy: Marketing/CS joint. SLA = referral ask within 14 days of NPS >= 9.
+- Awareness to Consideration: Marketing owns. SLA is MQL routed to
+  sales within 5 minutes (inbound) or 24 hours (outbound).
+- Consideration to Decision: SDR/BDR qualifies. SLA is a discovery
+  call booked within 2 business days of MQL acceptance.
+- Decision: AE owns. SLA is a proposal sent within 5 business days
+  of discovery.
+- Onboarding: CS/onboarding specialist owns. SLA is a kickoff call
+  within 3 business days of signature.
+- Adoption: CSM owns. SLA is a health score review weekly, with
+  at-risk escalation within 24 hours.
+- Expansion: AE/CSM joint ownership. SLA is an expansion
+  opportunity created within 30 days of the adoption signal.
+- Advocacy: Marketing/CS joint. SLA is a referral ask within 14
+  days of NPS at or above 9.
 
 ### Instrumentation
 
-Funnel data must live in the CRM as the system of record. Website and third-party intent signals feed the CRM so sellers see the full picture [8]. Required fields per stage: stage entered date, stage exited date, owner, conversion flag, disqualification reason (if lost), and leading indicators (meetings booked, content consumed, features used). Dashboards show cohort conversion trends, stage velocity, and leak points. Alerts fire when conversion drops >20% week-over-week or velocity exceeds SLA by >50%.
+Funnel data must live in the CRM as the system of record. Website
+and third-party intent signals feed the CRM so sellers see the full
+picture [8]. Required fields per stage: stage entered date, stage
+exited date, owner, conversion flag, disqualification reason (when
+lost), and leading indicators (meetings booked, content consumed,
+features used). Dashboards show cohort conversion trends, stage
+velocity, and leak points. Alerts fire when conversion drops more
+than 20 percent week-over-week or velocity exceeds SLA by more than
+50 percent.
 
 ## How to Execute
 
 ### Step 1: Audit Current State
 
-Map every touchpoint from ad click to renewal. Interview marketing, SDRs, AEs, CSMs, and product. Document current stage definitions, owners, and handoffs. Identify gaps: undefined stages, missing SLAs, orphaned leads, duplicate qualification. Score each stage on a 1-5 maturity scale: 1 = undefined, 2 = defined but not measured, 3 = measured but no SLA, 4 = SLA exists but not enforced, 5 = SLA enforced with alerts.
+Map every touchpoint from ad click to renewal. Interview
+marketing, SDRs, AEs, CSMs, and product. Document current stage
+definitions, owners, and handoffs. Identify gaps: undefined stages,
+missing SLAs, orphaned leads, duplicate qualification. Score each
+stage on a 1-to-5 maturity scale: 1 is undefined, 2 is defined but
+not measured, 3 is measured but has no SLA, 4 has an SLA that goes
+unenforced, 5 is an SLA enforced with alerts.
 
 ### Step 2: Define Stages and Thresholds
 
-Run a workshop with all revenue leaders. Agree on stage names, entry/exit criteria, and primary metrics. Use the framework table as a starting template. Customize for your motion: add PQL stage for product-led, add trial stage for freemium, add pilot stage for enterprise. Write definitions in a shared doc (Notion, Confluence) and link from CRM stage picklists.
+Run a workshop with all revenue leaders. Agree on stage names,
+entry and exit criteria, and primary metrics. Use the framework
+table as a starting template. Customize for your motion: add a PQL
+stage for product-led, add a trial stage for freemium, add a pilot
+stage for enterprise. Write definitions in a shared doc and link
+them from CRM stage picklists.
 
 ### Step 3: Set Benchmarks and Targets
 
-Start with industry medians from the benchmark table. Adjust for your ACV, sales cycle, and maturity. Early-stage companies typically convert lower at top of funnel but higher at bottom (founder-led sales). Mature companies convert higher at top (brand) but face competitive pressure at decision. Set quarterly improvement targets: aim for 5% relative improvement per stage per quarter. Compounding 5% monthly gains yield ~80% annual improvement [9].
+Start with industry medians from the benchmark table. Adjust for
+your ACV, sales cycle, and maturity. Early-stage companies
+typically convert lower at the top of the funnel but higher at the
+bottom (founder-led sales). Mature companies convert higher at the
+top (brand) but face competitive pressure at decision. Set
+quarterly improvement targets: aim for 5 percent relative
+improvement per stage per quarter. Compounding 5 percent monthly
+gains yields roughly 80 percent annual improvement [9].
 
 ### Step 4: Build CRM Architecture
 
-Create stage fields on Lead, Contact, Opportunity, and Account objects. Add required fields: stage_entered_date, stage_exited_date, conversion_flag, disqualification_reason, leading_indicator_score. Build validation rules: cannot move Opportunity to Proposal without MEDDPICC fields complete. Cannot move Account to Adopted without health score >= 70. Enable history tracking on all stage fields for cohort analysis.
+Create stage fields on Lead, Contact, Opportunity, and Account
+objects. Add required fields: stage entered date, stage exited
+date, conversion flag, disqualification reason,
+leading-indicator score. Build validation rules: an Opportunity
+cannot move to Proposal without complete MEDDPICC fields. An
+Account cannot move to Adopted without a health score at or above
+70. Enable history tracking on all stage fields for cohort
+analysis.
 
 ### Step 5: Implement Handoff Automation
 
-Use workflow rules or flows to enforce SLAs. When MQL created: assign to SDR queue, start 5-minute timer, alert if unclaimed. When SAL accepted: create discovery call task, start 2-day timer. When Opportunity moved to Proposal: create proposal task, start 5-day timer. When Contract signed: create Onboarding project, assign CSM, start 3-day kickoff timer. Escalation paths: SDR manager at 10 minutes, AE manager at 3 days, CS director at 5 days.
+Use workflow rules or flows to enforce SLAs. When an MQL is
+created: assign it to the SDR queue, start a 5-minute timer, and
+alert when unclaimed. When an SAL is accepted: create a discovery
+call task and start a 2-day timer. When an Opportunity moves to
+Proposal: create a proposal task and start a 5-day timer. When a
+contract is signed: create an onboarding project, assign a CSM, and
+start a 3-day kickoff timer. Escalation paths run to the SDR
+manager at 10 minutes, the AE manager at 3 days, and the CS
+director at 5 days.
 
 ### Step 6: Launch Dashboards and Reviews
 
-Build four dashboards: Funnel Overview (cohort conversion waterfall), Stage Velocity (median days per stage by segment), Leak Analysis (biggest drop-off points by channel/rep/segment), and Forecast Accuracy (stage-weighted pipeline vs actuals). Run weekly funnel review (30 min): marketing presents top-of-funnel trends, sales presents mid-funnel velocity, CS presents adoption/expansion signals. Run monthly deep dive (90 min): cohort analysis, benchmark comparison, experiment results.
+Build four dashboards: Funnel Overview (cohort conversion
+waterfall), Stage Velocity (median days per stage by segment), Leak
+Analysis (biggest drop-off points by channel, rep, and segment),
+and Forecast Accuracy (stage-weighted pipeline versus actuals). Run
+a weekly funnel review (30 minutes): marketing presents
+top-of-funnel trends, sales presents mid-funnel velocity, CS
+presents adoption and expansion signals. Run a monthly deep dive
+(90 minutes): cohort analysis, benchmark comparison, experiment
+results.
 
 ### Step 7: Run Optimization Experiments
 
-Treat each stage as an experiment surface. Top of funnel: test ad creative, landing page copy, content formats. Middle: test qualification scripts, demo formats, proposal templates. Bottom: test onboarding sequences, adoption nudges, expansion plays. Use the growth hacking cycle: analyze data -> gather insight -> generate ideas -> prioritize -> run tests -> review -> decide [10]. Run 20-30 experiments per week across the funnel; most fail, so volume finds wins [11].
+Treat each stage as an experiment surface. Top of funnel: test ad
+creative, landing page copy, and content formats. Middle: test
+qualification scripts, demo formats, and proposal templates.
+Bottom: test onboarding sequences, adoption nudges, and expansion
+plays. Use the growth hacking cycle: analyze data, gather insight,
+generate ideas, prioritize, run tests, review, decide [10]. Run
+20 to 30 experiments per week across the funnel; most fail, so
+volume finds wins [11].
 
 ## Common Mistakes
 
-**Vanity stage definitions**: Defining MQL as "anyone who downloads a whitepaper" inflates volume but kills conversion. Fix: require behavioral + firmographic fit (e.g., downloaded pricing page + target account + ICP tier 1).
+**Vanity stage definitions**: Defining MQL as "anyone who downloads
+a whitepaper" inflates volume but kills conversion. Fix it by
+requiring behavioral plus firmographic fit (for example, a pricing
+page download plus a target account plus ICP tier 1).
 
-**Missing PQL stage in product-led motion**: Treating all signups as MQLs buries high-intent users. Fix: define PQL by usage threshold (e.g., 3+ team members invited, 5+ core actions in 7 days) and route PQLs to sales with priority SLA.
+**Missing PQL stage in product-led motion**: Treating all signups
+as MQLs buries high-intent users. Fix it by defining PQL with a
+usage threshold (for example, 3 or more team members invited, 5 or
+more core actions in 7 days) and routing PQLs to sales with
+priority SLA.
 
-**No disqualification reasons**: Lost deals with "no reason" selected teach nothing. Fix: require structured loss reasons (budget, timing, competitor, product gap, no authority) and review monthly for product and messaging gaps.
+**No disqualification reasons**: Lost deals with "no reason"
+selected teach nothing. Fix it by requiring structured loss reasons
+(budget, timing, competitor, product gap, no authority) and
+reviewing monthly for product and messaging gaps.
 
-**SLA without enforcement**: A 5-minute MQL SLA that nobody monitors is theater. Fix: automate alerts, escalate to managers, include SLA adherence in comp plans.
+**SLA without enforcement**: A 5-minute MQL SLA that nobody
+monitors is theater. Fix it by automating alerts, escalating to
+managers, and including SLA adherence in comp plans.
 
-**Funnel data outside CRM**: Spreadsheets decay; CRM is the source of truth. Fix: push all web, intent, and product signals into CRM objects. Use reverse ETL if needed.
+**Funnel data outside CRM**: Spreadsheets decay; the CRM is the
+source of truth. Fix it by pushing all web, intent, and product
+signals into CRM objects. Use reverse ETL when needed.
 
-**Single funnel for all motions**: Enterprise, SMB, and self-serve have different stages and velocities. Fix: build separate funnel models per motion with roll-up to company north star.
+**Single funnel for all motions**: Enterprise, SMB, and self-serve
+carry different stages and velocities. Fix it by building separate
+funnel models per motion with a roll-up to the company north star.
 
-**Ignoring post-sale stages**: Funnel stops at close-won. Fix: treat onboarding, adoption, expansion, advocacy as funnel stages with equal rigor.
+**Ignoring post-sale stages**: Funnels that stop at close-won miss
+half the revenue. Fix it by treating onboarding, adoption,
+expansion, and advocacy as funnel stages with equal rigor.
 
 ## Example Artifact
 
@@ -191,24 +338,37 @@ STAGE: Advocacy
 
 ## Sources
 
-- [1] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Defines growth funnel stages and cross-functional ownership.
-- [2] (Revenue Operations (Diorio & Hummel), 2023): Describes funnel instrumentation and CRM as system of record.
-- [3] (Predictable Revenue (Aaron Ross & Marylou Tyler), 2011): Defines MQL, SAL, SQL qualification thresholds.
-- [4] (From Impossible to Inevitable (Aaron Ross & Jason Lemkin), 2016): Benchmarks for aligned funnel performance.
-- [5] (Revenue Operations (Diorio & Hummel), 2023): Management system pillars for revenue alignment.
-- [6] (Revenue Operations (Diorio & Hummel), 2023): Territory planning cycle and data input limitations.
-- [7] (Winning by Design, 2023): Aggregated B2B SaaS conversion benchmarks by motion and ACV.
-- [8] (Revenue Operations (Diorio & Hummel), 2023): Anonymous visitor data must live in CRM for intent signals.
-- [9] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Compounding 5% monthly gains yield ~80% annual improvement.
-- [10] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Growth hacking cycle: analyze, insight, ideas, prioritize, test, review, decide.
-- [11] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Leading growth teams run 20-30 experiments per week.
+- [1] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Defines
+  growth funnel stages and cross-functional ownership.
+- [2] (Revenue Operations (Diorio & Hummel), 2023): Describes
+  funnel instrumentation and CRM as system of record.
+- [3] (Predictable Revenue (Aaron Ross & Marylou Tyler), 2011):
+  Defines MQL, SAL, SQL qualification thresholds.
+- [4] (From Impossible to Inevitable (Aaron Ross & Jason Lemkin),
+  2016): Benchmarks for aligned funnel performance.
+- [5] (Revenue Operations (Diorio & Hummel), 2023): Management
+  system pillars for revenue alignment.
+- [6] (Revenue Operations (Diorio & Hummel), 2023): Territory
+  planning cycle and data input limitations.
+- [7] (Winning by Design, 2023): Aggregated B2B SaaS conversion
+  benchmarks by motion and ACV.
+- [8] (Revenue Operations (Diorio & Hummel), 2023): Anonymous
+  visitor data must live in CRM for intent signals.
+- [9] (Hacking Growth (Sean Ellis & Morgan Brown), 2017):
+  Compounding 5 percent monthly gains yield roughly 80 percent
+  annual improvement.
+- [10] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Growth
+  hacking cycle: analyze, insight, ideas, prioritize, test, review,
+  decide.
+- [11] (Hacking Growth (Sean Ellis & Morgan Brown), 2017): Leading
+  growth teams run 20 to 30 experiments per week.
 
 ## Further Reading
 
-- [ICP Definition](./icp-definition)
-- [GTM Metrics](./gtm-metrics)
-- [Revenue Operations](./revenue-operations)
-- [Buyers Journey](../flows/buyers-journey)
-- [Sales Process MEDDPICC](../flows/sales-process-meddpicc)
-- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks)
-- [Funnel Data](../data/funnel)
+- [ICP Definition](/docs/foundations/icp-definition)
+- [GTM Metrics](/docs/foundations/gtm-metrics)
+- [Revenue Operations](/docs/foundations/revenue-operations)
+- [Buyers Journey](/docs/flows/buyers-journey)
+- [Sales Process MEDDPICC](/docs/flows/sales-process-meddpicc)
+- [Conversion Rate Benchmarks](/docs/data/conversion-rate-benchmarks)
+- [Funnel Data](/docs/data/funnel)
