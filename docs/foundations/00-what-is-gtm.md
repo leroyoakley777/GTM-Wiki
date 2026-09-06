@@ -24,11 +24,12 @@ ideal customer profile looks correct on paper, but the pipeline stalls and
 internal friction rises. The strategy was not wrong. The coordination was
 missing.
 
-Companies with a structured GTM strategy close deals faster and spend less
-per acquisition than companies without one. A go-to-market strategy reduces
-risk by validating demand, testing messaging, and setting clear success
-metrics before a full-scale launch. The cost of skipping that step appears as
-wasted ad spend, stalled pipeline, and churned first customers.
+Forrester’s [2024 State of GTM report](https://www.forrester.com/) reports that
+76 percent of organizations have reinvented their GTM approach, and that 70
+percent of the B2B buyer journey is self-serve [136]. A go-to-market strategy reduces risk by validating demand,
+testing messaging, and setting clear success metrics before a full-scale
+launch. The cost of skipping that step appears as wasted ad spend, stalled
+pipeline, and churned first customers.
 
 ## GTM strategy versus the documents people confuse it with
 
@@ -116,7 +117,8 @@ gaps that compound later.
 
 1. Define the ICP from at least 20 customer conversations. Do not guess.
    Talk to customers and document the firmographics, technographics, pain
-   points, and triggers that mark your best-fit accounts [69].
+   points that mark your best-fit accounts. TK Kader’s ICP framework uses
+   firmographics, triggers, and macro trends as its core fields [69].
 2. Build positioning anchored in pain points, not features. The positioning
    statement must answer a clear question: for the ICP, who faces a specific
    pain, the product is a category that delivers a benefit. Unlike the
