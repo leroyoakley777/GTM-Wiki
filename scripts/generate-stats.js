@@ -89,8 +89,8 @@ function recentUpdates(prev) {
     const previousByDate = new Map((Array.isArray(prev) ? prev : []).map((item) => [item.date, item]));
     return generated.map((item) => {
       const previous = previousByDate.get(item.date);
-      const generatedCount = item.text.match(/Shipped (\\d+) reviewed pages?/i);
-      const previousCount = previous?.text.match(/Shipped (\\d+) reviewed pages?/i);
+      const generatedCount = item.text.match(/Shipped (\d+) reviewed pages?/i);
+      const previousCount = previous?.text.match(/Shipped (\d+) reviewed pages?/i);
       if (generatedCount && previousCount && Number(previousCount[1]) > Number(generatedCount[1])) {
         return previous;
       }
