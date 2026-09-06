@@ -83,9 +83,19 @@ function recentUpdates(prev) {
       if (!byDate.has(date)) byDate.set(date, []);
       byDate.get(date).push(subject);
     }
-    return [...byDate.entries()]
+    const generated = [...byDate.entries()]
       .slice(0, 4)
       .map(([date, subjects]) => ({ date, text: summarizeDay(subjects) }));
+    const previousByDate = new Map((prev || []).map((item) => [item.date, item]));
+    return generated.map((item) => {
+      const previous = previousByDate.get(item.date);
+      const generatedCount = item.text.match(/Shipped (\\d+) reviewed pages?/i);
+      const previousCount = previous?.text.match(/Shipped (\\d+) reviewed pages?/i);
+      if (generatedCount && previousCount && Number(previousCount[1]) > Number(generatedCount[1])) {
+        return previous;
+      }
+      return item;
+    });
   } catch {
     return prev;
   }
