@@ -86,7 +86,7 @@ function recentUpdates(prev) {
     const generated = [...byDate.entries()]
       .slice(0, 4)
       .map(([date, subjects]) => ({ date, text: summarizeDay(subjects) }));
-    const previousByDate = new Map((prev || []).map((item) => [item.date, item]));
+    const previousByDate = new Map(((prev && Array.isArray(prev.updates)) ? prev.updates : []).map((item) => [item.date, item]));
     return generated.map((item) => {
       const previous = previousByDate.get(item.date);
       const generatedCount = item.text.match(/Shipped (\\d+) reviewed pages?/i);
