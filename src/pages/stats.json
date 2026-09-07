@@ -3,8 +3,12 @@
   "sections": "12",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-07",
   "updates": [
+    {
+      "date": "2026-09-06",
+      "text": "Shipped 1 reviewed page; advanced IB-007."
+    },
     {
       "date": "2026-09-05",
       "text": "Shipped 15 reviewed pages; advanced IB-003, IB-004, IB-006."
@@ -16,10 +20,6 @@
     {
       "date": "2026-09-02",
       "text": "Shipped 24 reviewed pages; advanced IB-004, IB-006."
-    },
-    {
-      "date": "2026-09-01",
-      "text": "Shipped 3 reviewed pages."
     }
   ]
 }
