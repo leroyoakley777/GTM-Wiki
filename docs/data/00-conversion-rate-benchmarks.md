@@ -2,7 +2,7 @@
 sidebar_position: 0
 title: Conversion Rate Benchmarks
 description: Baseline conversion rates for every bowtie stage (visitor to lead, lead to MQL, MQL to SQL, SQL to opportunity, opportunity to closed-won, trial to paid) with named dated sources, the compounding math, how to read each rate, common mistakes, a worked example, and the agentic tracking SOP.
-last-updated: 2026-08-17
+last_updated: 2026-09-07
 status: active
 tags: [conversion, benchmarks, funnel, bowtie, growth-formula, data]
 domain: data
@@ -322,6 +322,54 @@ cannot make.
 3. **The agent never acts on a sample too small to judge.** A one-week blip is noise. Wait for a run of at least a few weeks before flagging a trend.
 
 ---
+
+## Variants by company stage
+
+Conversion rates look different at each stage of company growth, but the
+underlying leaks are the same. The difference is scope: what you can
+resourcing, what the dominant bottleneck is, and which lever moves the
+number fastest.
+
+The company-size table above covers the funnel-shape inversion (small wins
+top-funnel, large wins bottom-funnel). What changes at each stage is not the
+rates themselves but which transition is the constraint and how hard it is to
+move.
+
+|| Company stage | Dominant bottleneck | First fix | What the stage can resourcing |
+|---|---|---|---|
+| Seed / founder-led | Visitor to Lead (volume) | One high-intent offer, no traffic budget | Founder runs campaigns manually |
+| Early team (Series A-B) | MQL to SQL (qualification) | Active qualification + intent data | Hire a marketer who owns scoring rules |
+| Mid-market (Series C+) | SQL to Opportunity (sales handoff) | Sales acceptance + qualification standard | 1–2 reps + CRM routing in first hour |
+| Enterprise | Opportunity to Closed-Won (competition) | Deal review + forecast accuracy | RevOps + multi-touch attribution |
+
+A seed founder with 8,000 monthly visitors and a 2.0% rate generates 160 leads.
+At 31% lead-to-MQL and 13% MQL-to-SQL, that is 6–7 SQLs and roughly 3
+opportunities. The fix is not better bottom-funnel close technique, it is
+filling the top of the funnel or fixing the MQL-to-SQL gate so fewer leads
+evaporate.
+
+An enterprise moving 200,000 monthly visitors generates 4,000 leads. The same
+cascade yields ~120 SQLs and ~56 opportunities. The volume is large enough that
+bottom-funnel execution dominates: win-rate optimization, forecast accuracy,
+and deal-size expansion produce more incremental revenue than fixing a
+mid-funnel leak.
+
+**The handoff trap.** Early-stage companies often skip sales handoff discipline
+because the founder sells everything. At seed there is one seller and zero
+process. At Series A the first sales hire needs a scoring threshold (a lead is
+an SQL when it clears a 75-point score, not when marketing says so). At
+mid-market the handoff needs a CRM rule: any lead that hits 75 points routes
+to a rep within the first hour. First-hour contact converts ~53% vs baseline
+(Data Mania via [Landbase, 2026](https://www.landbase.com/blog/lead-qualification-statistics)).
+
+**The scaling trap.** A rate that holds at 13% MQL-to-SQL for one stage breaks
+when the company doubles in size. Larger companies see more inbound volume
+from more channels, which dilutes qualification. The mid-market fix is not
+more volume, it is re-segmentation: break the incoming funnel by source and
+company size, then apply stage-specific scoring rules.
+
+---
+
 ## Sources
 
 - [Ruler Analytics: Conversion Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): visitor-to-lead 2.6% average, 4.5% top quartile. Via Starr Conspiracy B2B Lead Gen Benchmarks 2025.

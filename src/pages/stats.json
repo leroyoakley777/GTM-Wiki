@@ -6,6 +6,10 @@
   "generatedAt": "2026-09-07",
   "updates": [
     {
+      "date": "2026-09-07",
+      "text": "Shipped 1 reviewed page; advanced IB-003."
+    },
+    {
       "date": "2026-09-06",
       "text": "Shipped 1 reviewed page; advanced IB-007."
     },
@@ -16,10 +20,6 @@
     {
       "date": "2026-09-04",
       "text": "Shipped 10 reviewed pages; advanced IB-001."
-    },
-    {
-      "date": "2026-09-02",
-      "text": "Shipped 24 reviewed pages; advanced IB-004, IB-006."
     }
   ]
 }
