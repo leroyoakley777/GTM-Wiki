@@ -117,10 +117,10 @@ The documented numbers:
 - **Calendly raised a $350 million Series B at a $3 billion valuation in
   January 2021** from OpenView and ICONIQ, after years of bootstrapping
   to profitability ([TechCrunch, Jan
-  2021](https://techcrunch.com/2021/01/26/daily-crunch-calendly-valued-at-3b/#:~:text=Series%20B%20round%20at%20a%20valuation%20of%20%243%20billion),
-  cited by [Contrary Research](https://research.contrary.com/report/calendly)).
+  2021](https://techcrunch.com/2021/01/26/daily-crunch-calendly-valued-at-3b/#:~:text=Series%20B%20round%20at%20a%20valuation%20of%20%243%20billion) [67],
+  cited by [Contrary Research](https://research.contrary.com/report/calendly) [56]).
 - **86% of the Fortune 500 use Calendly**, and Calendly for Enterprise
-  grew 61% year over year as of July 2024, per Calendly's own newsroom
+  grew 61% year over year as of July 2024 [158], per Calendly's own newsroom
   ([Calendly press release, 2024](https://calendly.com/newsroom/press-release/calendly-achieves-61-yoy-increase-in-enterprise-growth)).
   This is a `(vendor source)` figure.
 - **20 million users across 230 countries**, a self-reported figure
@@ -169,7 +169,7 @@ The documented numbers, drawn from Dropbox's own growth presentation by
 Sean Ellis and repeated across PLG analyses:
 
 - **Registered users went from 100,000 in September 2008 to 4 million in
-  December 2009: a 3,900% increase in 15 months**
+  December 2009: a 3,900% increase in 15 months [80]**
   ([Sean Ellis, SaaStr Annual deck, 2016](https://www.slideshare.net/seanellis/building-a-companywide-growth-culture-saastr-annual-2016),
   cited by [saasquatch, 2024](https://www.saasquatch.com/blog/dropbox-customer-referral-program-by-the-numbers/)).
 - **35% of all daily signups came from referrals at the program's peak**
@@ -196,7 +196,7 @@ The documented numbers:
 
 - **Daily meeting participants grew from 10 million in December 2019 to
   200 million in March 2020 to 300 million in April 2020: roughly 30x in
-  four months** ([Zoom blog, April 2020](https://www.zoom.com/en/blog/reflecting-looking-ahead/)).
+  four months [180]** ([Zoom blog, April 2020](https://www.zoom.com/en/blog/reflecting-looking-ahead/)).
 - **Reuters corrected the framing: the figure is 300 million daily
   meeting *participants*, not 300 million daily active users**. A single
   user counted in several meetings inflates the participant count
@@ -219,7 +219,7 @@ and block storage to nudge a growing team to Plus.
 The documented numbers:
 
 - **Notion went from 20 million users in 2022 to over 100 million by
-  2025, with more than 4 million paying customers** ([CNBC Disruptor
+  2025, with more than 4 million paying customers [161][99]** ([CNBC Disruptor
   50, May 2023](https://www.cnbc.com/2023/05/09/notion-disruptor-50.html);
   [Notion, "100 Million of You," 2025](https://www.notion.com/blog/100-million-of-you),
   cited by [Contrary Research](https://research.contrary.com/report/notion)).
@@ -399,7 +399,7 @@ funnel that leaks at the aha moment is paying to speed up a waste.
 economics collapse, and the company becomes a sales-led company with a
 free trial bolted on. Roughly **44% of free-trial companies already have
 sales reach out to more than half their signups**, double the freemium
-rate of 24% ([Lenny's × OpenView × Pendo, 2023](https://openviewpartners.com/2023-product-benchmarks/)).
+rate of 24% ([Lenny's × OpenView × Pendo, 2023](https://openviewpartners.com/2023-product-benchmarks/)) [110].
 
 **Fix:** sales enters late and only on users the product has qualified.
 The PQL trigger is the gate: the product signal, not a request. On the
