@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Partner / Channel
 description: When partnerships are the right channel, the four partner types, the comp model that makes them worth a partner's time, and the failure modes that kill the motion.
-last-updated: 2026-08-17
+last_updated: 2026-09-07
 status: active
 tags: [partner, channel, integration, referral, reseller, co-sell, agentic]
 domain: channels
@@ -221,8 +221,8 @@ never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guid
 
 ## How to Source and Qualify Partners
 
-Recruitment is the decision about whether to bring a partner in at all. A
-bad qualification at this stage cannot fixed by onboarding
+Recruitment is the decision about whether to bring a partner in at all. Bad
+qualification here makes onboarding a fix too late
 ([PartnerStandard](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method)).
 
 **The 4C qualification gate: every partner must clear all four.**
@@ -421,6 +421,30 @@ fails a gate. Return only rows that pass all four.
    not launch, stop sourcing and fix onboarding first.
 3. **Attribution is written down.** Do not let an agent guess who gets
    credit. The model is set before the first deal.
+
+---
+
+## Variants by company stage
+
+The partner motion scales differently at each stage. A seed founder cannot
+staff a partner team. An enterprise can underwrite full reseller enablement.
+The four-partner taxonomy above stays constant. The scope, the partner
+types you activate, and the human load shift.
+
+| Company stage | One partner type to start | Comp model | Human owner | Success gate |
+|---|---|---|---|---|
+| Seed / founder-led | One referral partner (a customer fan) | Non-monetary + small referral cut | Founder tracks the single relationship | First closed deal traces to the partner |
+| Early team (Series A-B) | One integration partner + one referral | Revenue share on closed deals | One partner manager (0.5 FTE) | 50%+ activation of signed partners ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)) |
+| Mid-market (Series C+) | Integration + referral + reseller lane | Tiered comp by partner type | Dedicated partner manager (1 FTE) | Partner-sourced pipeline reaches 10–20% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)) |
+| Enterprise | Full portfolio: integration, referral, reseller, channel | Multi-tier comp with MDF | Partner ops + dedicated reps | 35%+ partner-influenced pipeline ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)); multi-touch attribution set |
+
+A seed founder who signs five partners spreads attention across five
+relationships with no proven product to offer them. Mid-market and enterprise
+companies report 35% of new pipeline as partner-influenced or sourced, but
+the median partner-sourced revenue sits at 24% with top-quartile companies
+exceeding 40% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)). The gap between median and top-quartile narrows to
+those who activate partners: average programs see 10% activation while
+healthy ones hit 50% or higher ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)).
 
 ---
 
