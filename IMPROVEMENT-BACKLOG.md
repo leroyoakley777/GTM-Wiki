@@ -25,7 +25,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
-| IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | Multiple docs (see scan-slop output) |
+| ~~IB-007~~ | ~~Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n])~~ | Medium | Medium | `docs/case-studies/01-product-led.md` first pass; remaining source-list warnings are scanner noise |
 | IB-008 | Resolve scan-slop candidates: two-fragment contrast \"X is not Y. It is Z.\" | Medium | Medium | Multiple docs (see scan-slop output) |
 | IB-009 | Ensure every paragraph earns its place (Gate 4: Engaging) – remove filler, throat-clearing intros | Medium | Medium | All pages |
 | IB-010 | Ensure headings never open with \"The\" and name the concrete thing (Gate 2: Tasteful) | Low | Medium | All pages |
