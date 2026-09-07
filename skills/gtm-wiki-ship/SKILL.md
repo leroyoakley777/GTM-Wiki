@@ -121,7 +121,19 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
 
    Done when the push is accepted. Record the SHA. Never `--no-verify`.
 
-7. **Loop.** Mark the backlog item done only after the push lands. Start
+7. **Write the release receipt.** The throughput watchdog
+   (`~/.hermes/scripts/wiki-throughput-watch.py`) counts only hash-bound,
+   live-verified receipts. After the push lands, write to
+   `$HOME/.hermes/plans/gtm-wiki/releases/`:
+   - `<slug-path>.md` — exact copy of the shipped repo file (its sha256 is
+     the receipt's `candidate_hash`; e.g. `case-studies/product-led.md`).
+   - `<slug-path>.json` — `{"page": "<slug-path>", "candidate_hash": "<sha256>",
+     "live_fragments": ["<2+ exact strings, 20+ chars, from the LIVE page>"],
+     "verified_at": "<ISO 8601>", "origin": "https://gtm-wiki-nu.vercel.app"}`.
+   - Strip the `NN-` prefix from the path. Take fragments from the live URL
+     after deploy, never from the draft.
+
+8. **Loop.** Mark the backlog item done only after the push lands. Start
    the next open item. One page per cycle.
 
 ## Pitfalls
