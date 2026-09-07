@@ -8,12 +8,14 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 |----|-------|--------|--------|---------|
 | ~~IB-001~~ | ~~Add missing `status: active` frontmatter to pages~~ | Low | High | Foundations, Agentic, Channels, Data, Flows, Playbooks, Skills |
 | ~~IB-002~~ | ~~Add missing `tags` frontmatter to pages~~ | Low | High | Foundations, Agentic, Channels, Data, Flows, Playbooks, Skills |
-| ~~IB-003~~ | ~~Add variant/maturity dimension section (by segment|stage|maturity|variant) to agentic, channels, data, foundations, playbooks~~ | Medium | High | Agentic (00,01,02,03), Channels (04-partner), Data (00,02,04,05), Foundations (03,07, revenue-architecture), Playbooks (outbound-from-zero) |
+| IB-003 | Add variant/maturity dimension section (by segment|stage|maturity|variant) to agentic, channels, data, foundations, playbooks | Medium | High | Agentic (00,01,02,03), Channels (04-partner), Data (00,02,04,05), Foundations (03,07, revenue-architecture), Playbooks (outbound-from-zero) |
 | ~~IB-004~~ | ~~Add failure-modes section to data/04-pricing-as-gtm.md and foundations/revenue-architecture.md~~ | Low | High | Data/04-pricing-as-gtm.md, Foundations/revenue-architecture.md |
 | ~~IB-005~~ | ~~Add worked math with named base to channels/03-product-led.md, flows/02-agentic-outbound.md, flows/04-buyers-journey.md~~ | Medium | High | Channels/03-product-led.md, Flows/02-agentic-outbound.md, Flows/04-buyers-journey.md |
 
 > **DONE (2026-09-05):** IB-004. Page-level "Failure modes and how to fix them" now on `docs/data/04-pricing-as-gtm.md` and `docs/foundations/revenue-architecture.md`, with named citations. An earlier note counted Common Mistakes as the section; the H2 now exists on both pages.
 > **DONE (2026-09-05):** IB-006. Dunford (2019/2024) and Moore (2014) now carry year plus footnote on `docs/foundations/03-positioning-and-messaging.md`.
+> **REOPENED (2026-09-07):** IB-003 falsely closed after one page. Commit `0abb9720` shipped a variant section on `agentic/02` only. The row lists ~12 pages; a multi-page row closes only when every listed page has the section. IB-007 also reopened: one case study cited does not clear a repo-wide uncited-stat class.
+
 > **DONE (2026-09-06):** IB-003. Shipped live by the continuous-deploy ship lane in commit `0abb9720` (stage-and-ACV variants on `docs/agentic/02-agentic-outbound.md`, sources [127]/[76]/[46] registered, `ship:gate` exit 0). Verified live: `gtm-wiki-nu.vercel.app` returns 200, `npm run lint` 0/0 across 116 files. Removed from active queue to stop re-dispatch.
 
 > **DONE (2026-09-04):** IB-001/002 (frontmatter). Audited all 115 doc files on disk; all already carried `status:` and `tags:` except `docs/gtm-engineering/index.md`, which I added them to per convention (`status: active`, `tags: [gtm-engineering]`). Full gate green: lint 0/0, `npm run check` exit 0, `npm run build` compiles. Committed locally `470c1fcf`, NOT pushed (owner-yes gate). Removed from active queue to stop re-dispatch.
@@ -26,7 +28,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
-| ~~IB-007~~ | ~~Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n])~~ | Medium | Medium | `docs/case-studies/01-product-led.md` first pass; remaining source-list warnings are scanner noise |
+| IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | `docs/case-studies/01-product-led.md` done; remaining docs listed in scan-slop output pending |
 | IB-008 | Resolve scan-slop candidates: two-fragment contrast \"X is not Y. It is Z.\" | Medium | Medium | Multiple docs (see scan-slop output) |
 | IB-009 | Ensure every paragraph earns its place (Gate 4: Engaging) – remove filler, throat-clearing intros | Medium | Medium | All pages |
 | IB-010 | Ensure headings never open with \"The\" and name the concrete thing (Gate 2: Tasteful) | Low | Medium | All pages |
