@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Guardrails & Measurement
 description: "Guardrails and measurement for agentic GTM: what to watch, what to cap, how to grade."
-last_updated: 2026-08-18
+last_updated: 2026-09-07
 status: active
 tags: ['agentic', 'guardrails', 'and']
 ---
@@ -288,6 +288,27 @@ failure mode the agent did not specify and correct it before it
 compounds.
 
 ---
+
+## Variants by maturity stage
+
+Oversight scales with proof, not with enthusiasm. A new agent starts at
+full human review. Each stage below grants more autonomy only after the
+stage before it holds its numbers. This is the same ladder as
+[risk tiers](#guardrail-5-risk-tiers-determine-oversight), read over
+time instead of across a single workflow.
+
+| Maturity stage | Agent authority | Human oversight | Gate to the next stage |
+|---|---|---|---|
+| New variant, no send history | Drafts and enrichment only | 100% human approval of every message | 300+ sends on the pattern with reply rate at or above the floor |
+| Proven pattern | First sends on the approved pattern | 20% spot-check sample plus weekly review | Delivery at or above 97% and override rate under 5% for a full month |
+| Scaled pattern | Full sequence execution on the pattern | Exception review only, plus the weekly 30-minute rhythm | A quarter without a compliance or deliverability incident |
+| Trusted workflow | Actions in the Low and Medium risk tiers run on their own | Quarterly re-certification, live approval still required for High tiers | Permanent; a single unexplained decision reverts it one stage |
+
+Two failure directions exist. Move to a higher stage before the numbers
+hold, and you scale a message or a workflow that is quietly wrong. Stay
+at 100% review forever, and you pay human prices for machine volume. The
+[agent vs human workflows](./agent-vs-human-workflows) page covers the
+stage 0 question: which work deserves an agent at all.
 
 ## Common mistakes
 
