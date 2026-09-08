@@ -57,13 +57,39 @@ function pageLabel(file) {
     .replace(/\/\d+-/g, '/');
 }
 
-function summarizeDay(subjects, files) {
+function pageHref(file) {
+  const slug = pageLabel(file);
+  if (!slug || slug === 'map') return null;
+  return '/docs/' + slug;
+}
+
+function prettyLabel(file) {
+  const slug = pageLabel(file);
+  const leaf = slug.split('/').pop() || slug;
+  return leaf.replace(/-/g, ' ');
+}
+
+function dayItems(files) {
+  const seen = new Set();
+  const items = [];
+  for (const f of files || []) {
+    if (!/\.mdx?$/.test(f)) continue;
+    if (/\/index\.mdx?$/.test(f)) continue;
+    if (f === 'docs/map.md') continue;
+    const href = pageHref(f);
+    if (!href || seen.has(href)) continue;
+    seen.add(href);
+    items.push({ label: prettyLabel(f), href });
+  }
+  return items;
+}
+
+function summarizeDay(subjects, files, items) {
   const ids = [...new Set(subjects.flatMap((s) => s.match(/IB-\d{3}/g) || []))];
-  const pages = [...new Set((files || []).filter((f) => /\.mdx?$/.test(f) && !/\/index\.mdx?$/.test(f)).map(pageLabel))];
   const parts = [];
-  if (pages.length > 0) {
-    const shown = pages.slice(0, 4);
-    const extra = pages.length - shown.length;
+  if (items.length > 0) {
+    const shown = items.slice(0, 4).map((i) => i.label);
+    const extra = items.length - shown.length;
     parts.push(shown.join(', ') + (extra > 0 ? ` +${extra} more` : ''));
   } else if (subjects.some((s) => /^docs:/.test(s))) {
     parts.push('docs update');
@@ -107,11 +133,15 @@ function recentUpdates(prev) {
     }
     return [...byDate.entries()]
       .slice(0, 4)
-      .map(([date, { subjects, files }]) => ({ date, text: summarizeDay(subjects, files) }));
+      .map(([date, { subjects, files }]) => {
+        const items = dayItems(files);
+        return { date, text: summarizeDay(subjects, files, items), items };
+      });
   } catch {
     return prev;
   }
 }
+
 
 
 let prev = { updates: [] };

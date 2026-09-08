@@ -7,19 +7,115 @@
   "updates": [
     {
       "date": "2026-09-07",
-      "text": "Channels/partner, data/conversion-rate-benchmarks, agentic/guardrails-and-measurement · IB-003."
+      "text": "Partner, conversion rate benchmarks, guardrails and measurement · IB-003.",
+      "items": [
+        {
+          "label": "partner",
+          "href": "/docs/channels/partner"
+        },
+        {
+          "label": "conversion rate benchmarks",
+          "href": "/docs/data/conversion-rate-benchmarks"
+        },
+        {
+          "label": "guardrails and measurement",
+          "href": "/docs/agentic/guardrails-and-measurement"
+        }
+      ]
     },
     {
       "date": "2026-09-06",
-      "text": "Map, case-studies/product-led · IB-007."
+      "text": "Product led · IB-007.",
+      "items": [
+        {
+          "label": "product led",
+          "href": "/docs/case-studies/product-led"
+        }
+      ]
     },
     {
       "date": "2026-09-05",
-      "text": "Foundations/what-is-gtm, map, agentic/agentic-outbound, data/pricing-as-gtm +7 more · IB-003, IB-004, IB-006."
+      "text": "What is gtm, agentic outbound, pricing as gtm, positioning and messaging +6 more · IB-003, IB-004, IB-006.",
+      "items": [
+        {
+          "label": "what is gtm",
+          "href": "/docs/foundations/what-is-gtm"
+        },
+        {
+          "label": "agentic outbound",
+          "href": "/docs/agentic/agentic-outbound"
+        },
+        {
+          "label": "pricing as gtm",
+          "href": "/docs/data/pricing-as-gtm"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "revenue architecture",
+          "href": "/docs/foundations/revenue-architecture"
+        },
+        {
+          "label": "agentic outbound",
+          "href": "/docs/flows/agentic-outbound"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/flows/outbound"
+        },
+        {
+          "label": "agentic stack",
+          "href": "/docs/agentic/agentic-stack"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "events field",
+          "href": "/docs/channels/events-field"
+        }
+      ]
     },
     {
       "date": "2026-09-04",
-      "text": "Foundations/gtm-strategy-framework, foundations/gtm-metrics, foundations/gtm-funnel, foundations/gtm-channels-bullseye +5 more · IB-001."
+      "text": "Gtm strategy framework, gtm metrics, gtm funnel, gtm channels bullseye +4 more · IB-001.",
+      "items": [
+        {
+          "label": "gtm strategy framework",
+          "href": "/docs/foundations/gtm-strategy-framework"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/foundations/gtm-metrics"
+        },
+        {
+          "label": "gtm funnel",
+          "href": "/docs/foundations/gtm-funnel"
+        },
+        {
+          "label": "gtm channels bullseye",
+          "href": "/docs/foundations/gtm-channels-bullseye"
+        },
+        {
+          "label": "agentic gtm overview",
+          "href": "/docs/agentic/agentic-gtm-overview"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "icp definition",
+          "href": "/docs/foundations/icp-definition"
+        },
+        {
+          "label": "market segmentation",
+          "href": "/docs/data/market-segmentation"
+        }
+      ]
     }
   ]
 }
