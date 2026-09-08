@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-09-07
+last_updated: 2026-09-08
 ---
 
 # Map
@@ -25,7 +25,13 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 10 | [Flows](/docs/flows) | 5 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
 | 11 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
 | 12 | [Process](/docs/process/intake-capture) | 1 | The process section of the wiki. |
-| 13 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
-| 14 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
+| 13 | [Culture](/docs/culture) | 1 | How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind. |
+| 14 | [Enablement](/docs/enablement) | 1 | Sales enablement as an operating system: the artifacts reps actually use, the inspection loop that keeps them current, and the failure modes that turn enablement into a content graveyard. |
+| 15 | [Product Marketing](/docs/product-marketing) | 1 | Product marketing as the bridge between product and pipeline: positioning, proof, launch, and the enablement artifacts outbound and sales actually use. |
+| 16 | [Recruiting](/docs/recruiting) | 1 | How to hire GTM: what to select for, when to make the first sales hire, how ramp actually works, and the failure modes that fill a desk with the wrong people. |
+| 17 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
+| 18 | [Resources](/docs/resources) | 1 | Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page. |
+| 19 | [Support](/docs/support) | 1 | How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline. |
+| 20 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**14 sections · 84 pages · generated 2026-09-07**
+**20 sections · 90 pages · generated 2026-09-08**

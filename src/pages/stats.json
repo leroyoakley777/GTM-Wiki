@@ -3,8 +3,166 @@
   "sections": "12",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-08",
   "updates": [
+    {
+      "date": "2026-09-08",
+      "text": "Saas buyer empathy, autonomy ladder, build order, controls +34 more.",
+      "items": [
+        {
+          "label": "saas buyer empathy",
+          "href": "/docs/agentic/saas-buyer-empathy"
+        },
+        {
+          "label": "autonomy ladder",
+          "href": "/docs/agentic/autonomy-ladder"
+        },
+        {
+          "label": "build order",
+          "href": "/docs/agentic/build-order"
+        },
+        {
+          "label": "controls",
+          "href": "/docs/agentic/controls"
+        },
+        {
+          "label": "examiner",
+          "href": "/docs/agentic/examiner"
+        },
+        {
+          "label": "quality gate",
+          "href": "/docs/agentic/quality-gate"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/channels/referral-viral"
+        },
+        {
+          "label": "contributing",
+          "href": "/docs/contributing"
+        },
+        {
+          "label": "engagement flow",
+          "href": "/docs/flows/engagement-flow"
+        },
+        {
+          "label": "intake capture",
+          "href": "/docs/process/intake-capture"
+        },
+        {
+          "label": "guardrails and measurement",
+          "href": "/docs/agentic/guardrails-and-measurement"
+        },
+        {
+          "label": "building a gtm copilot",
+          "href": "/docs/agentic/building-a-gtm-copilot"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/case-studies/abm"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/case-studies/outbound"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/case-studies/referral-viral"
+        },
+        {
+          "label": "inbound",
+          "href": "/docs/channels/inbound"
+        },
+        {
+          "label": "community led",
+          "href": "/docs/channels/community-led"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/data/gtm-metrics"
+        },
+        {
+          "label": "market segmentation",
+          "href": "/docs/data/market-segmentation"
+        },
+        {
+          "label": "outbound response rates",
+          "href": "/docs/data/outbound-response-rates"
+        },
+        {
+          "label": "what is gtm",
+          "href": "/docs/foundations/what-is-gtm"
+        },
+        {
+          "label": "gtm channels bullseye",
+          "href": "/docs/foundations/gtm-channels-bullseye"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/foundations/gtm-metrics"
+        },
+        {
+          "label": "best marketing books",
+          "href": "/docs/library/best-marketing-books"
+        },
+        {
+          "label": "inbound content engine",
+          "href": "/docs/playbooks/inbound-content-engine"
+        },
+        {
+          "label": "customer onboarding",
+          "href": "/docs/playbooks/customer-onboarding"
+        },
+        {
+          "label": "messaging",
+          "href": "/docs/skills/messaging"
+        },
+        {
+          "label": "pricing",
+          "href": "/docs/skills/pricing"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/skills/abm"
+        },
+        {
+          "label": "seo",
+          "href": "/docs/skills/seo"
+        },
+        {
+          "label": "ci cd",
+          "href": "/docs/gtm-engineering/ci-cd"
+        },
+        {
+          "label": "data layer",
+          "href": "/docs/gtm-engineering/data-layer"
+        },
+        {
+          "label": "experimentation",
+          "href": "/docs/gtm-engineering/experimentation"
+        },
+        {
+          "label": "observability",
+          "href": "/docs/gtm-engineering/observability"
+        },
+        {
+          "label": "orchestration",
+          "href": "/docs/gtm-engineering/orchestration"
+        },
+        {
+          "label": "skills tools",
+          "href": "/docs/gtm-engineering/skills-tools"
+        }
+      ]
+    },
     {
       "date": "2026-09-07",
       "text": "Partner, conversion rate benchmarks, guardrails and measurement · IB-003.",
@@ -76,44 +234,6 @@
         {
           "label": "events field",
           "href": "/docs/channels/events-field"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "text": "Gtm strategy framework, gtm metrics, gtm funnel, gtm channels bullseye +4 more · IB-001.",
-      "items": [
-        {
-          "label": "gtm strategy framework",
-          "href": "/docs/foundations/gtm-strategy-framework"
-        },
-        {
-          "label": "gtm metrics",
-          "href": "/docs/foundations/gtm-metrics"
-        },
-        {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
-        },
-        {
-          "label": "gtm channels bullseye",
-          "href": "/docs/foundations/gtm-channels-bullseye"
-        },
-        {
-          "label": "agentic gtm overview",
-          "href": "/docs/agentic/agentic-gtm-overview"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
-        },
-        {
-          "label": "icp definition",
-          "href": "/docs/foundations/icp-definition"
-        },
-        {
-          "label": "market segmentation",
-          "href": "/docs/data/market-segmentation"
         }
       ]
     }
