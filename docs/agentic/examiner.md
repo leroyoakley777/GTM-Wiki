@@ -29,7 +29,6 @@ The structured trace from the engagement flow (Task State → Skill Invocation �
 - **Tests come from the record, not imagination** – the golden set is built from verified dispositions, so a failure captured once cannot recur silently. - **The judge is pinned and logged** – the model that grades semantic verdicts is drawn from a different model family than the model that produced the work, to avoid shared blind spots. - **The suite runs on every change** – the examiner’s runtime is a budget like any other; a slow suite gets run monthly and protects nothing, so we keep it fast enough to run on every change. - **Green suite proves the checks hold** – before trusting a verdict, we hand the grader a planted pass and a plausible fail to ensure the rubric cannot be gamed. 
 ## Example: Evaluating a New Scoring Rule
 
-Here’s a concrete example of how the examiner evaluates a proposed change to the scoring rules skill. 
 1. **Load the golden set**  
    The examiner retrieves the verified dispositions from the ledger (e.g., `evals/golden-set.jsonl`). This is a subset of outcomes that any version of the motion must handle correctly. 
 2. **Replay the proposed rules**  
@@ -39,8 +38,6 @@ Here’s a concrete example of how the examiner evaluates a proposed change to t
    - Which accounts would have re‑ranked (e.g., moved from tier 2 to tier 1). - Which sends would have been blocked or allowed. - Which past outcomes the new rules would have predicted better or worse (e.g., precision on closed‑won lookalikes). 
 4. **Return a verdict**  
 ## Worked Example: Tuning the Outreach Sequence Timing
-
-Here’s a concrete example of how the examiner evaluates a change to the outreach sequence timing skill.
 
 1. **Load the golden set**
    - The examiner loads `evals/golden-set.jsonl`, which contains 1,200 verified dispositions from the past quarter.

@@ -71,7 +71,7 @@ work as one ([GTM Partners](https://gtmpartners.com/), 2025).
 
 ## Why the seat exists
 
-The seat exists because revenue is a system problem, not a function
+Revenue is a system problem, not a function
 problem. A great sales team with weak marketing starves. A great marketing
 team with weak sales wastes budget. A great product with a misaligned
 motion goes nowhere. Someone has to own the whole funnel.

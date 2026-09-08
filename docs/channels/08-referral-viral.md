@@ -61,7 +61,7 @@ Skip it when any of these describe you.
 
 ## One number: the viral coefficient
 
-**The viral coefficient, k, is the number of new customers each existing customer produces on one loop cycle.** It is the single metric that separates compounding growth from a spike.
+**k is the number of new customers each existing customer produces on one loop cycle.**
 
 The naive formula: **k = I × C**, where I is the average number of invitations a user sends and C is the fraction of those invitations that convert to a new user. If each of your users invites two people and one in ten of those invites converts, k = 2 × 0.1 = 0.2.
 

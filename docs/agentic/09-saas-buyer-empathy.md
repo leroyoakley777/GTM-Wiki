@@ -28,28 +28,6 @@ Sellers often optimize for their own quota and outreach metrics without experien
 - How should we measure “buyer‑likeness”? (LM‑as‑judge, human panel, behavioral proxies?)
 - What distribution channel would give the high signal‑to‑noise for sellers? (In‑app tooltip, email tip‑of‑the‑day, Slack bot?)
 
-## Worked Example: Example for SaaS Buyer‑Enablement Idea
-
-Here’s a concrete example of how saas buyer‑enablement idea works in practice.
-
-1. **Scenario Setup**
-   - Describe the starting state: goal, progress, evidence.
-2. **Step 1: [First Action]**
-   - What the agent does.
-3. **Step 2: [Second Action]**
-   - What happens next.
-4. **Step 3: [Third Action]**
-   - The outcome and verification.
-5. **Result**
-   - The final state and what was learned.
-
-## Objection/Layer: What Could Break This and How We Mitigate
-
-| Potential Failure | How It Happens | Mitigation in the OS |
-|-------------------|----------------|----------------------|
-| **Failure mode 1** | Description. | Mitigation. |
-| **Failure mode 2** | Description. | Mitigation. |
-| **Failure mode 3** | Description. | Mitigation. |
 
 ## Related pages
 - [Agentic GTM](../agentic/index.md) – the broader motion‑as‑code operating system.
@@ -58,13 +36,5 @@ Here’s a concrete example of how saas buyer‑enablement idea works in practic
 
 ---
 
-## Example Artifact
-
-```
-# Example
-print("hello")
-```
 
 > **Source:** GTM OS Handbook, 2026-08-27
-
-> **Source:** GTM OS Handbook, 2026-08-27 

@@ -216,7 +216,7 @@ Under 125-word, personalized cold email outperforms long templated sends by abou
 
 ### Subject line
 
-The subject line has one job: earn the open from a stranger who did not ask for mail. It is not a slogan.
+Earn the open from a stranger who did not ask for mail. It is not a slogan.
 
 Patterns that survive 2026 filters:
 
@@ -237,7 +237,7 @@ Do not A/B subject lines until the body and the list are stable. Subject-line th
 
 ### First line
 
-The first line has to prove you are not a template. It names the signal. It does not name your product.
+Prove you are not a template. Name the signal. Do not name your product.
 
 Write the first line last. If you cannot write it without the company name and a merge field, you do not have a reason-to-reach.
 
@@ -639,7 +639,7 @@ The channel is the same; the knobs differ by stage and deal size.
 
 ### Founder-led outbound
 
-Founder-led outbound is the proving ground, not a permanent department. The founder writes the first 50 emails because only the founder knows which objections are real. Once 20 meetings have produced a repeatable reason-to-reach and an AE-ready handoff, document the sequence and hire. If the founder still has to invent the pitch on meeting 40, you do not have an outbound motion. You have a founder who can sell.
+The founder writes the first 50 emails because only the founder knows which objections are real. Once 20 meetings have produced a repeatable reason-to-reach and an AE-ready handoff, document the sequence and hire. If the founder still has to invent the pitch on meeting 40, you do not have an outbound motion. You have a founder who can sell.
 
 
 ## What good looks like at 30, 90, and 180 days

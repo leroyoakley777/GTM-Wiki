@@ -76,8 +76,6 @@ Thus, the engagement flow is not just about executing a single touch-it is the *
 
 ## Example: One Disposition Flow
 
-Here’s a concrete example of how a disposition flows through the layers for a simple outbound email send.
-
 1. **Task State**
    Working memory shows:
    - Unresolved goal: “Book a meeting with Acme Corp.”
@@ -105,8 +103,6 @@ Here’s a concrete example of how a disposition flows through the layers for a 
 This disposition now contributes to the ledger that the examiner will use to evaluate future changes to the outbound email skill or scoring rules.
 
 ## Worked Example: Scoring a Lead with the ICP Skill
-
-Here’s a concrete example of how the engagement flow works when scoring a lead using the ICP skill.
 
 1. **Task State**
    - Working memory shows:

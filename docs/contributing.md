@@ -129,8 +129,7 @@ Engaging. A page that fails any gate does not ship.
 
 ## How the wiki is built: docs as code
 
-This wiki is a docs-as-code project. That phrase means the wiki runs on the
-same systems software teams use to build software. Pages are Markdown files in
+Pages are Markdown files in
 a Git repository. Changes move through pull requests. A reviewer reads the diff
 before it reaches readers. Automated checks run on every change, and a merge
 publishes the approved update.
@@ -154,7 +153,7 @@ the same gate.
 
 ## Machine gates
 
-The gates are machine-enforced, not aspirational. Four of them run on every
+Four gates run on every
 commit:
 
 - **Lint.** `lint.mjs` rejects banned voice, broken frontmatter, and build
