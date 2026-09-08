@@ -165,9 +165,7 @@ discovery, decide whether the deal deserves your time. Apply the ICP filters
 first. A deal with no economic buyer, no pain, and no budget is not a deal, it
 is a meeting. See [ICP definition](../../foundations/02-icp-definition.md).
 
-Disqualify fast. The cost of a bad deal is not just the lost hours. It is the
-opportunity cost of the good deals you did not work. The best AEs are brutal
-about killing deals early. See the [sales process flow](../../flows/sales-process-meddpicc)
+Disqualify fast. A bad deal costs the hours and the pipeline slot an AE could have spent on a fit account. The best AEs kill bad deals early. See the [sales process flow](../../flows/sales-process-meddpicc)
 for the disqualification gates.
 
 ### 2. Run discovery to build the case

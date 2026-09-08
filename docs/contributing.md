@@ -52,8 +52,7 @@ same territory this wiki leads with.
 The scale of the movement backs the model. Open source drew 1.128 billion
 contributions to public and open-source repositories in 2025, up 13% year over
 year, and 60% of the ten most-contributed projects were AI-focused [2]. A
-community-built wiki in that same territory is not a niche bet. It is the
-normal way a reference like this grows.
+community-built wiki in that same territory is how a reference like this grows.
 
 Your contribution accrues. A well-sourced page stays useful for years. A page
 without a source becomes a liability the moment someone checks it. The gates
@@ -398,7 +397,7 @@ reference and a liability. A wrong page costs a reader a bad decision. A
 fabricated stat costs the wiki its credibility. The machine enforces the bar
 because a human cannot be trusted to enforce it on every page, every day.
 
-That is the honest reason the gates exist. Burned by self-reported work that
+That is why the gates exist. Burned by self-reported work that
 looked fine and was wrong, the wiki now fails bad pages by machine. A machine
 that fails a bad page protects the whole graph, so a reader never meets a claim
 that cannot be checked.

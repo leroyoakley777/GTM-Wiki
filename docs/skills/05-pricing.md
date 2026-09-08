@@ -37,7 +37,7 @@ Pricing turns the value you deliver into a number a buyer pays and a structure t
 
 Only 33% of B2B SaaS teams run value-based pricing, and 40.8% use good-better-best as their dominant packaging model [1]. That gap is the opportunity: most competitors still anchor to cost, so value-based pricing captures money they leave on the table. SaaS price levels rose 11.4% year over year in 2025 [2], and disciplined pricing keeps that inflation as margin while undisciplined discounting hands it to the buyer.
 
-Discounting is the lever that breaks the motion. The healthy band is 1 to 20% off list; discounts above 40% produce smaller deals and slower closes [3]. Net revenue retention runs about 102% at the median, and top performers push net dollar retention to 110 to 120% by pricing the expansion path into the package [4][5]. Customer acquisition cost payback sits near 12 months with an LTV to CAC floor of 3 to 1 [6]. A discount that drops LTV below that floor or pushes payback past 12 months is not generosity. It is a math error you funded.
+Discounting is the lever that breaks the motion. The healthy band is 1 to 20% off list; discounts above 40% produce smaller deals and slower closes [3]. Net revenue retention runs about 102% at the median, and top performers push net dollar retention to 110 to 120% by pricing the expansion path into the package [4][5]. Customer acquisition cost payback sits near 12 months with an LTV to CAC floor of 3 to 1 [6]. A discount that drops LTV below that floor or pushes payback past 12 months is a math error you funded.
 
 ## Mechanics
 

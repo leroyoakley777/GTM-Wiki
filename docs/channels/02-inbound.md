@@ -178,7 +178,7 @@ mid-range rates (SalesHive, 2026):
 | SQL → Opportunity | 45% (mid of 30–59%) | 9 | ~4 opps | ~5 |
 | Opportunity → Close | 26% (mid of 22–30%) | 4 | **~1 customer** | ~3 |
 
-**10,000 visitors → roughly 1 customer.** That is the honest shape of
+**10,000 visitors → roughly 1 customer.** That is the shape of
 the channel, and it is fine: each deal is worth tens of thousands in
 ACV. The 100 → 10 → 2 rule (SalesHive, 2026) is the planning tool: 100
 marketing leads → ~10 opportunities → ~2 deals. Agree to that math with
@@ -353,7 +353,7 @@ gets a compounding engine running without burning out the writer.
 4. Watch for the first low-KD rankings (4–6 week window, Ahrefs/SalesHive 2026). Measure visitor → lead on the new pages.
 5. Gate: two pages converting above your visitor → lead median (2–4%, SalesHive 2026).
 
-**Month 3: double down.**
+**Month 3: concentrate.**
 1. See which posts gained traction. Write the sequels and internal links to deepen them.
 2. Add a second cluster if the first shows life.
 3. Route inbound leads into the sales handoff with the response SLA (below).
@@ -386,7 +386,7 @@ no capture.
 
 ## Objections and edge cases
 
-| "Inbound won't work because…" | The honest answer |
+| "Inbound won't work because…" | What to do |
 |---|---|
 | "Nobody searches for our category yet." | Then inbound is the wrong channel today. Outbound, community, or events build the category first. Revisit inbound when the questions exist. |
 | "AI killed our SEO traffic." | The long-tail floor fell out (NP Digital, Oct 2025: B2B organic leads −47%). But AI-referral converts higher (5.8%, Ruler 2026). Pivot the same budget to being the cited answer, not just ranked. |

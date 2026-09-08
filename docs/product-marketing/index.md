@@ -21,7 +21,7 @@ This page covers what the function ships and how it fails. Read [Positioning and
 | Proof pack | Named customer, named outcome | Email 3 and discovery |
 | Competitive note | When we win, when we lose | Late-stage rescue, not email 1 |
 | Launch narrative | Why this, why now | Signal library for sequences |
-| Objection map | Honest answers | Reply handling |
+| Objection map | Working replies | Reply handling |
 
 Brand work still matters. Only about 5% of B2B buyers are in-market at a given time [312]. Product marketing that only talks to this quarter's pipeline leaves the other 95% with no memory of you. That is a [brand as GTM](/docs/foundations/brand-as-gtm) problem as much as a sales problem.
 

@@ -102,7 +102,7 @@ Expected value:      <ACV and expansion>
 Value hypothesis:    <the outcome the account wants, in their terms>
 Buying group:        <economic buyer / champion / technical evaluator / blocker>
 Competitive frame:   <who they compare us to and why>
-Key objection:       <what the group will doubt and the honest answer>
+Key objection:       <what the group will doubt, and the reply>
 Proof:               <the result, number, or named customer that backs the claim>
 
 Touches this quarter:

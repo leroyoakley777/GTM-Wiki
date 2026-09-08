@@ -9,7 +9,7 @@ last_updated: 2026-09-01
 
 # Inbound Content Engine
 
-An inbound content engine is a repeatable system that turns customer problems into search-visible assets that attract, educate, and convert your ICP. It is not a blog. It is not a content calendar. It is a machine with inputs (customer intelligence), a production line (hub-and-spoke architecture), and an output loop (distribution + measurement + reinvestment).
+An inbound content engine turns customer problems into search-visible assets that attract, educate, and convert your ICP. The inputs are customer intelligence. The production line is a hub-and-spoke architecture. The output loop is distribution, measurement, and reinvestment.
 
 This playbook covers building the engine from zero to growth-stage scale. For the channel strategy that feeds it, see [Channels: Inbound](../channels/02-inbound.md). For the agentic layer, see [Agentic: Agentic Outbound](../agentic/02-agentic-outbound.md) - the outbound pattern applies to inbound research and compose.
 
@@ -43,7 +43,7 @@ The engine runs on one architecture: **one anchor asset (hub) per quarter, 8-12 
 - One definitive resource per quarter: "Ultimate Guide to X," "State of Y Report," "Complete Playbook for Z"
 - Targets a high-volume head keyword (e.g., "b2b content marketing")
 - 5,000-10,000 words, original research or proprietary data where possible
-- Serves as the central node for internal linking
+- The central node for internal linking
 - Designed to earn backlinks and citations
 
 ### Spokes (Cluster Content)
@@ -258,7 +258,7 @@ Do not hire writers first. Hire the operator who builds the system.
 
 **Distribution:** Hub submitted to GSC, emailed to list, posted by CEO on LinkedIn, shared in RevGenius + Pavilion + Exit Five, added to sales leave-behinds. Each spoke gets same treatment on publish day.
 
-**Measurement:** Month 3 review - hub at 1,200 organic visits/mo, 3 keywords top 10, 45 backlinks. Spoke #3 and #10 drive 60% of conversions. Next quarter: double down on benchmarks + case studies.
+**Measurement:** Month 3 review - hub at 1,200 organic visits/mo, 3 keywords top 10, 45 backlinks. Spoke #3 and #10 drive 60% of conversions. Next quarter: write more benchmarks and case studies.
 
 ---
 

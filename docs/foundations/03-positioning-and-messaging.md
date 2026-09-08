@@ -69,7 +69,7 @@ and see what the product is today.
 **Step 2: Isolate your uniqueness.** List every attribute no
 competitor has: features, business model, supply chain, proprietary
 process, IP. Do not judge value yet. Capture raw differentiation.
-Even complexity serves as an asset in the right context, since
+Even complexity can be an asset in the right context, since
 enterprise buyers often equate configurability with power.
 
 **Step 3: Translate uniqueness to value.** Customers do not buy

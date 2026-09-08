@@ -82,7 +82,7 @@ where the source carries none. Vendor-sourced figures are flagged
 These numbers disagree with each other across sources in places. That is
 expected and useful. Sources define "qualified", and "quota" differently,
 and sample mixes swing results more than any tactic. Where sources
-disagree, the range is the honest answer.
+disagree, report the range.
 
 ---
 

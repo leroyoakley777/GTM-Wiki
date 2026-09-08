@@ -41,7 +41,7 @@ Messaging and copywriting is the repeatable process of converting audience insig
 
 Copy is where GTM decisions become reader-facing reality. A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one [1], but the claim still has to reach the buyer in words they act on. Positioning that is clear internally produces nothing until it is written for a specific reader.
 
-The stakes are measurable. A signal-based, personalized cold email reaches 15-25% reply rates versus low single digits for a generic blast [2]; 50-125 word emails earn about 50% higher reply rates than long templated sends [3]. The same offer, different words, different result. The frameworks exist because the difference is not talent. It is structure.
+The stakes are measurable. A signal-based, personalized cold email reaches 15-25% reply rates versus low single digits for a generic blast [2]; 50-125 word emails earn about 50% higher reply rates than long templated sends [3]. The same offer, different words, different result. The frameworks exist because the difference is structure, not talent.
 
 ## Three-layer model
 
@@ -64,7 +64,7 @@ This layer is the value claim and the frame it sits in. It comes from your posit
 - **The value claim.** For [ICP] who [pain], we provide [solution] that [outcome] [6].
 - **The frame of reference.** Who the buyer compares you to: direct competitors, the status quo, or a new category [6].
 - **The proof points.** The 2-3 facts that back the claim: a result, a number, a named customer [5].
-- **The objection.** What the reader will doubt and the honest answer.
+- **The objection.** What the reader will doubt, and the reply.
 
 Keep this to one claim per asset. A cold email makes one claim. A hero section makes one claim. A slide makes one claim. Stacking messages creates none [5].
 
@@ -72,7 +72,7 @@ Keep this to one claim per asset. A cold email makes one claim. A hero section m
 
 This is where you write. Pick a framework that matches the reader's decision problem, fill it with layer 1 and layer 2, and write the words the framework calls for. The rest of this page is the deep dive on those frameworks.
 
-## Deep dive: the copywriting frameworks
+## Copywriting frameworks
 
 A framework is a move order. It decides what the reader feels and in what sequence, and it ends with a request for a specific action. Frameworks differ in length, in the depth of the emotional build, and in which reader decision problem they solve. Match the framework to the problem, not to your favorite formula.
 

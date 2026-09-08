@@ -56,7 +56,7 @@ The Bullseye framework runs four steps [5]:
 2. Rank the ideas into three rings: inner circle (most promising),
    potential, and long shots.
 3. Pick three from the inner ring and run cheap tests on each.
-4. Focus and double down on the single channel that wins.
+4. Put the remaining budget on the single channel that wins.
 
 The framework exists because you cannot predict which channel will
 work. Only testing tells you [4].
@@ -108,7 +108,7 @@ Channel                Idea                    Ring          Test budget   Verdi
 9.  Email              Cold outreach           Inner        $0  / 2 wks   TEST
 ... (complete all 19)
 Next action: pick the three TEST rows with the best fit, run them,
-then double down on the single winner and drive 70 percent of traction there.
+then put remaining spend on the single winner and drive 70 percent of traction there.
 ```
 
 ## Bullseye in the AI era

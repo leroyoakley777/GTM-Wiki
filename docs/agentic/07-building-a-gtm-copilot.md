@@ -40,7 +40,7 @@ Apollo, 2026.
 
 ## Why it matters
 
-A copilot is not a productivity nicety. It is the execution layer that
+A copilot is the execution layer that
 lets a small revenue team run like a large one. The operating model has
 shifted. [AriseGTM](https://arisegtm.com) frames agentic GTM as autonomous
 AI agents as the primary operators of high-volume GTM work, with humans as
@@ -184,7 +184,7 @@ customer-facing financial commitment. Contact enrichment and lead routing
 fit. The first personalized message to a decision-maker does not.
 
 For the first workflow, use a ready-built tool rather than custom code.
-Amplemarket's research shows a single AI agent can assemble a
+Amplemarket reports a single AI agent can assemble a
 per-prospect research brief that a human would spend 15 to 30 minutes
 building by hand, and the personalization model trains over time.
 Amplemarket, 2026. Start with a tool that does one job well.

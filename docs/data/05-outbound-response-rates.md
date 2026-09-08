@@ -17,7 +17,7 @@ build, copy, deliverability, sequence. Here are the numbers the whole
 motion runs against, the arithmetic that turns a reply into a booked
 meeting, and where the common mistakes hide.
 
-Start with the honest framing. Cold outbound returns low, and single-channel
+Start with the working range. Cold outbound returns low, and single-channel
 returns are trending lower. A 3% reply rate is normal, not a copy failure.
 The gap that separates winning outbound from average outbound is channel
 strategy and list quality, not send volume.
@@ -72,9 +72,7 @@ the arithmetic behind "the list is the asset."
 | Positive replies | ~30% of replies (SalesHive, 2025) | ~5 |
 | Meetings booked | 3–10 per 1,000 sends (Instantly, 2025) | ~2–5 |
 
-So a 500-row list produces roughly 2–5 booked meetings. That is the honest
-number. To hit a target of 20 meetings a month you need roughly 2,000–5,000
-quality rows in motion per month.
+So a 500-row list produces roughly 2–5 booked meetings. To hit 20 meetings a month you need roughly 2,000–5,000 quality rows in motion per month.
 
 ### Conversion shortcut
 

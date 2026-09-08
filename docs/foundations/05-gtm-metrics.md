@@ -32,7 +32,7 @@ engine produces revenue efficiently. It is a decision tool, not a
 vanity count.
 
 The canonical framing comes from David Skok's SaaS Metrics 2.0
-[1]. SaaS is fundamentally different from traditional one-time
+[1]. SaaS differs from traditional one-time
 software. Revenue arrives in installments over the life of the
 customer. That creates two distinct sales you have to make:
 
@@ -70,7 +70,7 @@ operator rule of thumb.
 
 Traditional business metrics (bookings, gross revenue, EBITDA) do
 not capture the subscription dynamic. A SaaS company can look
-healthy on a P&L and still be fundamentally broken because the cost
+healthy on a P&L and still be broken because the cost
 to acquire each customer exceeds what that customer will ever pay
 back.
 

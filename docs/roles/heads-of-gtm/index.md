@@ -258,7 +258,7 @@ the one they need
   stale data amplifies errors at scale
   ([ZoomInfo](https://pipeline.zoominfo.com/sales/gtm-leader-guide), 2026).
 - **Running every motion at once.** Stacking channels and motions dilutes
-  focus. Pick the winner and double down. Most startups get the majority
+  focus. Pick the winner and put the budget there. Most startups get the majority
   of traction from a single channel
   ([Traction](https://www.tractionbook.com/), 2014).
 

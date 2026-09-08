@@ -87,7 +87,7 @@ Track rankings, clicks, and conversions, not just positions:
 - **Clicks and impressions.** Whether winning the result earns visits [4].
 - **Conversions.** Whether the traffic becomes pipeline. A page that ranks and does not convert is a page that wins the wrong query.
 
-Close the loop: prune or rebuild pages that do not convert, and double down on the query family that does.
+Close the loop: prune or rebuild pages that do not convert, and put the next cycle of work on the query family that does.
 
 ## Artifact: the topic map
 

@@ -128,7 +128,7 @@ you 25% end to end, not 100%. This is the same arithmetic as the [Funnel
 Benchmarks](../data/funnel) page, applied to behaviors instead of pipeline
 stages.
 
-### Participation: the honest engagement reality
+### Participation: what engagement looks like
 
 The classic model is the **90-9-1 rule** from Jakob Nielsen (NN/g, 2006):
 roughly 90% of members lurk, 9% contribute occasionally, and 1% create most

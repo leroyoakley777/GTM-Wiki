@@ -86,7 +86,7 @@ quality. Ambition changed the cadence.
 
 ---
 
-## Deep dive: Gong, the mechanism case
+## Gong: the mechanism case
 
 The [InsideScale case
 study](https://insidescale.com/case-study/gong/) describes Gong at the
@@ -116,7 +116,7 @@ public. It proves the mechanism exists, not any specific return.
 
 ---
 
-## Deep dive: Lavender, the message-quality case
+## Lavender: the message-quality case
 
 Lavender publishes a cold-email benchmark report built from its own
 scoring across 231,818 cold emails (Lavender blog, Mar 2026 , vendor
@@ -150,7 +150,7 @@ replies. Do not take the tier labels as gospel.
 
 ---
 
-## Deep dive: the agency A/B, personalization wins
+## Agency A/B: personalization wins
 
 The sharpest controlled comparison in this set is a sales-development
 agency's generic-versus-personalized test, published by Warmer.ai (2026

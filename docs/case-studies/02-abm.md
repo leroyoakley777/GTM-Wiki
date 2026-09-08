@@ -387,7 +387,7 @@ traditional demand gen, and revenue attribution to ABM reaches up to
 73% of total revenue in some orgs
 ([Huble, 111 ABM
 Statistics](https://huble.com/blog/account-based-marketing-statistics)).
-The win is not just more conversions. It is larger ones.
+The win is larger conversions, not only more of them.
 
 ---
 

@@ -75,7 +75,7 @@ Airbnb also ran the framing experiment that matters. One promotional email empha
 
 ### Uber: double-sided credits on both sides of a marketplace
 
-Uber ran referral programs for both riders and drivers, which is the correct shape for a two-sided marketplace. Rider referrals offered $20 in ride credit each side (Uber newsroom, first-party, Jan 2014). Driver referrals paid $5 cash per new rider (Uber partner blog, first-party). The rider program is the standard double-sided credit. The driver program pays cash because the driver's action (bringing in a rider) is more transactional and farther from the product's daily use. Viral-loops reports a 12x ROI on the referral channel (vendor source). The transferable lesson is not the multiple. It is that a marketplace needs a referral loop on each side, and the reward type (credit versus cash) should match each side's relationship to the product.
+Uber ran referral programs for both riders and drivers, which is the correct shape for a two-sided marketplace. Rider referrals offered $20 in ride credit each side (Uber newsroom, first-party, Jan 2014). Driver referrals paid $5 cash per new rider (Uber partner blog, first-party). The rider program is the standard double-sided credit. The driver program pays cash because the driver's action (bringing in a rider) is more transactional and farther from the product's daily use. Viral-loops reports a 12x ROI on the referral channel (vendor source). The transferable lesson is that a marketplace needs a referral loop on each side, and the reward type (credit versus cash) should match each side's relationship to the product.
 
 ### Robinhood: variable reward as a hook
 

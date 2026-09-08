@@ -31,7 +31,7 @@ Wiki pages it feeds: [Positioning and Messaging](../foundations/03-positioning-a
 
 ## Obviously Awesome (April Dunford, 2019)
 
-**The modern positioning playbook.** Positioning is not messaging, tagline, or brand story. It is the context you set for the market [2].
+**The modern positioning playbook.** Positioning is the context you set for the market, not a tagline or brand story [2].
 
 The ideas that matter:
 

@@ -217,7 +217,7 @@ and a named intervention for the band where most of your accounts sit.
 ## Step 4: Stand up the four-instrument measurement stack
 
 You cannot optimize what you have not instrumented. The structural problem
-in most onboarding is not strategy. It is instrumentation. McKinsey research
+in most onboarding is missing measurement. McKinsey research
 published in late 2025 suggests only about **18% of surveyed B2B SaaS
 companies** set explicit, measurable onboarding and adoption goals with
 customers at the outset

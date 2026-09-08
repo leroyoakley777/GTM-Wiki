@@ -192,7 +192,7 @@ position of strength. Broad targeting dilutes messaging and wastes CAC.
 
 ### Ignoring the feedback loop
 
-A GTM strategy is not a static document. It is an evolving roadmap. The most
+A GTM strategy is a working plan you revise from what you learn in market. The most
 successful organizations maintain strategic direction while incorporating
 continuous learning from implementation. Without a designed review process,
 the strategy calcifies while the market moves.

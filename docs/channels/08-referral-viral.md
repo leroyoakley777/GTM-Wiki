@@ -99,7 +99,7 @@ Every stage answers a different question. A weak stage breaks the loop, not just
 | B2B SaaS referral CAC | about $150 per customer, versus about $802 for paid search | [EmberTribe, 2026](https://embertribe.com/blog/cost-per-user-acquisition-2) |
 | Ecommerce referral CAC | $25–65 per customer | [Scrap.io, 2026](https://scrap.io/customer-acquisition-cost) |
 
-The willingness-to-action gap is the most useful number on this table. Eight in ten customers *want* to refer, and fewer than three in ten *do*. The gap is not the customer's fault. It is a missing mechanism: no share moment in the product, no prompt at the peak moment, no reward worth the effort. Your job is to close that gap, and the gap is why the global average referral rate sits at 2.35% while top programs clear 5%.
+The willingness-to-action gap is the most useful number on this table. Eight in ten customers *want* to refer, and fewer than three in ten *do*. The gap is a missing mechanism: no share moment in the product, no prompt at the peak moment, no reward worth the effort. Your job is to close that gap, and the gap is why the global average referral rate sits at 2.35% while top programs clear 5%.
 
 Vendor numbers (Extole, Exploding Topics, EmberTribe, Scrap.io) carry a bias incentive and are labeled as such. The Wharton figure is peer-reviewed and the one to hold in a meeting.
 

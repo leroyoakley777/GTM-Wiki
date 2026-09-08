@@ -37,7 +37,7 @@ right thing?"
 *(Source: Salesforce, "AI Guardrails: A Guide to Responsible AI":
 agentic AI moves the risk from output quality to action authorization.)*
 
-In short: guardrails for single-turn AI are a content problem.
+Guardrails for single-turn AI are a content problem.
 Guardrails for agentic workflows are a governance problem. Build the
 governance layer or do not hand the agent authority.
 

@@ -39,7 +39,7 @@ A beachhead that cannot mathematically carry 12 to 18 months of pipeline at real
 
 ## Why It Matters
 
-Segmentation matters because visionaries and pragmatists decide for fundamentally different reasons, and a single message cannot win both.
+Segmentation matters because visionaries and pragmatists decide for different reasons, and a single message cannot win both.
 Visionaries buy for breakthrough advantage and change while pragmatists buy for productivity gains and peer references, so the two groups decide on different logic [3].
 Visionaries will fund a pilot on slides plus API to get strategic edge, while pragmatists will not sign until they see deployment timeline, support model, and risk mitigation in writing [3][6].
 Crossing from visionaries to pragmatists requires reference customers inside the same segment, because pragmatists buy on peer proof from buyers like themselves [20].
