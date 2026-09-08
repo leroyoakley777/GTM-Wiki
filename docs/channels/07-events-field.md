@@ -88,7 +88,7 @@ benchmark so you can tell where an event leaks.
 | Creation to closed-won | 12.1% in-person 2025 avg; 14.2% virtual H1 2025 | HockeyStack 2025 [123] | Whether conversations convert |
 | Opportunity to close | 40% for event-sourced leads | HockeyStack 2025 [123] | The strongest BOFU channel studied |
 | Cost per trade show lead | ~$142 (range $100-$300) | CEIR [344]; Momencio 2026 [346] | Raw efficiency, before qualification |
-| Cost per qualified lead | 3-5x the reported lead figure | Momencio 2026 [346] | The number that matters, after removing non-buyers |
+| Cost per qualified lead | 3-5x the reported lead figure | Momencio 2026 [346] | Qualified cost, after removing non-buyers |
 
 Read the HockeyStack numbers as the load-bearing core: events represent roughly
 6% of B2B deal volume but convert from creation to closed-won at 12.1%, versus

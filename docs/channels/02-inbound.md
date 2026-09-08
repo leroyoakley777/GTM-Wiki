@@ -50,7 +50,7 @@ industries (2026). An AI referral is a click an assistant already
 researched and vetted before it sent the visitor. The visitor arrives
 further along the buying process, which is why the rate runs high.
 
-That single number is the read on where inbound is heading. Buyers do
+AI-referral conversion is the read on where inbound is heading. Buyers do
 their research with an assistant, then arrive more informed and later in
 the journey. 37% of marketers say leads are more informed thanks to AI,
 and nearly 70% say leads now come later in the buying process after

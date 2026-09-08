@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: GTM Metrics Benchmarks
 description: "Sourced, dated baselines for pipeline coverage, win rate, CAC payback, LTV:CAC, NRR, and quota attainment: plus the math that connects them, how to read each metric, a worked dashboard read, and an agentic SOP that surfaces breaches."
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [metrics, benchmarks, revenue-operations, pipeline, cac, nrr, quota-attainment, agentic]
 domain: data
@@ -256,9 +256,9 @@ not a unit-economics problem and not a retention problem.
 
 **The action.** Fix qualification (move qualified win rate toward 29% and
 stop dragging unqualified opps into the pipe), and rebuild the marketing
-engine's ability to produce qualified pipeline before spending more. The
-one number that needs attention is not CAC or NRR: it is qualified win
-rate and the spend that feeds it. Two fixes, not six.
+engine's ability to produce qualified pipeline before spending more.
+Qualified win rate and the spend that feeds it need attention, not CAC
+or NRR. Two fixes, not six.
 
 ---
 

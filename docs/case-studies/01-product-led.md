@@ -4,7 +4,7 @@ title: "Product-Led Growth: Case Studies"
 description: "Slack, Calendly, Figma, Dropbox, Zoom, Notion, and Atlassian: the documented cases where the product's output is the distribution channel. Every number named and dated, the pattern underneath, the math worked, failure modes, and the agentic layer."
 status: active
 tags: [product-led, case-studies, channels]
-last_updated: 2026-08-30
+last_updated: 2026-09-08
 ---
 
 # Product-Led Growth: Case Studies
@@ -54,9 +54,9 @@ makes and shares is the ad. It placed by the person who just got
   whether that moment produces something shareable, decides whether the
   loop spins.
 
-The number that matters most, from the channel page: **a good freemium
-self-serve free-to-paid rate is 3–5%, a great one 6–8%, and a good
-free-trial rate is 8–12% with great at 15–25%**
+**Free-to-paid conversion, from the channel page:** a good freemium
+self-serve rate is 3–5%, a great one 6–8%, and a good
+free-trial rate is 8–12% with great at 15–25%
 ([Lenny's Newsletter × OpenView × Pendo, 1,000+ product survey, Aug
 2023](https://openviewpartners.com/2023-product-benchmarks/)). Every case
 below is proof that a product can clear those bands at scale.

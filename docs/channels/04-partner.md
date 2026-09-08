@@ -191,7 +191,7 @@ partners are not even launched is measuring noise.
 | Partner-influenced share of new pipeline | **~35%** (mid-market/enterprise) | [PartnerStack, 2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships) | What a strong program reaches |
 | Cost per acquired lead | **30–40% lower** via partnerships than paid ads | [Genesys Growth, 2026](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders) | The core economic argument |
 
-**The activation number matters most.** Most affiliate programs see only
+**Activation rate is the gate.** Most affiliate programs see only
 **~10% activation**, while top programs with strong onboarding reach **50%
 or higher** ([Hamster Garage,
 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)). And a program sitting at **30% activation has a recruitment

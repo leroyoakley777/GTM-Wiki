@@ -7,11 +7,47 @@
   "updates": [
     {
       "date": "2026-09-08",
-      "text": "Outbound, positioning, messaging, frameworks +75 more.",
+      "text": "Abm, outbound, inbound, product led +75 more.",
       "items": [
+        {
+          "label": "abm",
+          "href": "/docs/case-studies/abm"
+        },
         {
           "label": "outbound",
           "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "inbound",
+          "href": "/docs/channels/inbound"
+        },
+        {
+          "label": "product led",
+          "href": "/docs/channels/product-led"
+        },
+        {
+          "label": "partner",
+          "href": "/docs/channels/partner"
+        },
+        {
+          "label": "community led",
+          "href": "/docs/channels/community-led"
+        },
+        {
+          "label": "paid",
+          "href": "/docs/channels/paid"
+        },
+        {
+          "label": "events field",
+          "href": "/docs/channels/events-field"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/channels/abm"
+        },
+        {
+          "label": "inbound content engine",
+          "href": "/docs/playbooks/inbound-content-engine"
         },
         {
           "label": "positioning",
@@ -114,10 +150,6 @@
           "href": "/docs/case-studies/product-led"
         },
         {
-          "label": "abm",
-          "href": "/docs/case-studies/abm"
-        },
-        {
           "label": "outbound",
           "href": "/docs/case-studies/outbound"
         },
@@ -130,36 +162,8 @@
           "href": "/docs/case-studies/referral-viral"
         },
         {
-          "label": "inbound",
-          "href": "/docs/channels/inbound"
-        },
-        {
-          "label": "product led",
-          "href": "/docs/channels/product-led"
-        },
-        {
-          "label": "partner",
-          "href": "/docs/channels/partner"
-        },
-        {
-          "label": "community led",
-          "href": "/docs/channels/community-led"
-        },
-        {
-          "label": "paid",
-          "href": "/docs/channels/paid"
-        },
-        {
-          "label": "events field",
-          "href": "/docs/channels/events-field"
-        },
-        {
           "label": "referral viral",
           "href": "/docs/channels/referral-viral"
-        },
-        {
-          "label": "abm",
-          "href": "/docs/channels/abm"
         },
         {
           "label": "contributing",
@@ -280,10 +284,6 @@
         {
           "label": "best sales books",
           "href": "/docs/library/best-sales-books"
-        },
-        {
-          "label": "inbound content engine",
-          "href": "/docs/playbooks/inbound-content-engine"
         },
         {
           "label": "customer onboarding",

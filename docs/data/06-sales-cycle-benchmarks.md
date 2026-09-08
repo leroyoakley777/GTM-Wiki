@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Sales Cycle Benchmarks
 description: How long B2B deals take by deal size and buying-committee size, the pipeline-velocity and forecast math that cycle length drives, and the agentic SOP to track it.
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [sales-cycle, benchmarks, forecast, pipeline-velocity, deal-size, buying-committee, data]
 domain: data
@@ -48,8 +48,8 @@ differently, and that alone swings numbers by weeks.
 | Average B2B win rate | **20-21%** | Ebsta x Pavilion, 2025 |
 | Expansion deal cycle | **52 days** | Ebsta x Pavilion, 2025 |
 
-**The number that matters most:** buying committees grew ~26% since
-2020 - 5.4 to 6.8 stakeholders, and 11-17 for enterprise
+Buying committees grew ~26% since
+2020 (5.4 to 6.8 stakeholders, 11-17 for enterprise)
 ([Gartner, 2024](https://www.gartner.com/en/sales/insights);
 [Ebsta x Pavilion, 2025](https://www.ebsta.com/)). Every added reviewer
 adds a review cycle, and every cycle adds days. Committee size is now a

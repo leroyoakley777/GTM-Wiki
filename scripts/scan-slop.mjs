@@ -19,7 +19,8 @@
  *     B. "The"-opening headings
  *     C. Promise-listing / parallel-predicate anaphora
  *        ("The X gives you Y. The Z gives you W.", same delivery verb 3+ times)
- *     F. Vague-score headings ("One number that matters most") — name the metric
+ *     F. Vague-score headings ("One number that matters most", "One number:")
+ *        and body copy that withholds the metric ("the number that matters")
  *
  *   WARN (exit 0, printed as candidates) — judgment devices where a blanket
  *   gate would false-flag accepted reference prose. Surfaced so the human eye
@@ -77,9 +78,14 @@ const EM_DASH = /—/g;
 
 const THE_OPENING = /^#{1,6}\s+The\s+/i;
 
-// Vague-score heading: "One number that matters most" and title-case variants.
+// Vague-score heading: "One number that matters most", "One number: ...".
 // Headings must name the metric. Human catch 2026-09-08.
-const SCORE_HEADING_SLOP = /^#{1,6}\s+.*\bnumbers?\s+that\s+matters?\s+most\b/i;
+const SCORE_HEADING_SLOP = /^#{1,6}\s+(?:One\s+number\b|.*\bnumbers?\s+that\s+matters?\b)/i;
+
+// Same device in body copy: "the number that matters (most)",
+// "the activation number matters most".
+const NUMBER_THAT_MATTERS = /\bnumbers?\s+that\s+matters?\b/i;
+const NUMBER_MATTERS_MOST = /\bnumbers?\s+matters?\s+most\b/i;
 
 // Delivery predicates — the proven AI-marketing tell class (see lint.mjs 2b/2b2).
 const DELIVERY_VERBS = '(?:gives|lets|shows|teaches|walks|takes|hands|offers|includes|carries|runs|brings|holds|delivers|provides|contains|ships|features|packs|loads|puts)';
@@ -192,6 +198,15 @@ function checkScoreHeadingSlop(prose, report) {
   for (const { line, text } of prose) {
     if (SCORE_HEADING_SLOP.test(text)) {
       report('heading withholds the metric ("one number that matters most")', line, text, 'HARD');
+    }
+  }
+}
+
+function checkNumberThatMatters(prose, report) {
+  for (const { line, text } of prose) {
+    if (/^#{1,6}\s+/.test(text)) continue;
+    if (NUMBER_THAT_MATTERS.test(text) || NUMBER_MATTERS_MOST.test(text)) {
+      report('prose withholds the metric ("the number that matters")', line, text, 'HARD');
     }
   }
 }
@@ -311,6 +326,7 @@ for (const f of files) {
   if (!isJs && !isInternal) {
     checkTheHeading(prose, report);
     checkScoreHeadingSlop(prose, report);
+    checkNumberThatMatters(prose, report);
   }
   checkPromiseListing(prose, report);
   checkTwoFragment(prose, report);

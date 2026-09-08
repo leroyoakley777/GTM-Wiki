@@ -53,7 +53,7 @@ product survey, Aug 2023](https://openviewpartners.com/2023-product-benchmarks/)
 A blended rate hides whether you are improving cohort over cohort or
 just pulling future conversion forward.
 
-The second number that matters as much: **free trials that route
+**Free trials that route
 users through a PQL gate convert 2.8x higher than trials that do not**
 ([Gainsight, Product-Led Growth Index, 2022](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)).
 Conversion is a discipline, not a product accident.

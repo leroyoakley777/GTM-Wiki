@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: RevOps
 description: "Run the data, tooling, and forecasting spine: the operating model, the metrics and coverage, the tooling stack, the forecast discipline, and the agentic SOP that keeps the numbers honest."
-last_updated: 2026-08-19
+last_updated: 2026-09-08
 status: active
 tags: [revops, revenue-operations, forecasting, crm, data, metrics, pipeline, agentic, skills]
 domain: skills
@@ -91,8 +91,6 @@ Track the spine against reality and correct course:
 RevOps is a loop, not a setup. The weekly review is where the spine earns its keep.
 
 ## Artifact: the forecast and coverage sheet
-
-One number, one math.
 
 ```text
 Quota:               $Q

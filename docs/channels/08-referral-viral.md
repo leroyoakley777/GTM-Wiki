@@ -4,7 +4,7 @@ title: Referral & Viral
 description: When referral and viral loops are the right channel, the viral-coefficient math, named and dated loop benchmarks, the channel stack, incentive economics, segment variants, failure modes, the agentic layer, and a documented case matrix.
 status: active
 tags: [referral, viral, channels]
-last_updated: 2026-08-30
+last_updated: 2026-09-08
 ---
 
 # Referral and Viral
@@ -59,7 +59,7 @@ Skip it when any of these describe you.
 
 ---
 
-## One number: the viral coefficient
+## Viral coefficient
 
 **k is the number of new customers each existing customer produces on one loop cycle.**
 

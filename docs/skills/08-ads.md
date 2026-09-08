@@ -2,7 +2,7 @@
 sidebar_position: 8
 title: Ads
 description: "Buy pipeline on paid platforms: which ad budget makes sense, the channel and platform choice, the creative and landing match, the payback discipline, and the agentic SOP that runs spend to payback."
-last_updated: 2026-08-19
+last_updated: 2026-09-08
 status: active
 tags: [ads, paid, ppc, performance, cpc, cpm, roi, agentic, skills]
 domain: skills
@@ -40,7 +40,7 @@ The benchmark reality sets the bar. Paid click-through is single digits at best 
 
 ### 1. Set the payback target before you spend
 
-The number that governs everything is the target CAC and its payback window. A common bar is 12 months payback, tightened from the 18-24 month norm of prior cycles [2]. Before any budget deploys, name:
+Target CAC and its payback window govern the spend. A common bar is 12 months payback, tightened from the 18-24 month norm of prior cycles [2]. Before any budget deploys, name:
 
 - **The target CAC.** The most you will pay for a customer and still hit the payback.
 - **The payback window.** The months of gross margin it takes to repay the acquisition.
@@ -87,7 +87,7 @@ Read pipeline and payback, and close the loop:
 - **Payback realized.** Whether the acquired customer repaid the acquisition inside the window.
 - **Pipeline absorbed.** Whether the sales team actually closed what the spend produced.
 
-A campaign that buys cheap clicks and no pipeline is not a win. The number that matters is whether the customer repaid the spend.
+A campaign that buys cheap clicks and no pipeline is not a win. Payback is whether the customer repaid the spend.
 
 ## Artifact: the budget and payback plan
 
