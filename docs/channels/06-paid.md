@@ -4,7 +4,7 @@ title: Paid Acquisition
 description: When paid is the right channel, the unit economics that make it work, the channel stack and benchmarks, failure modes, handoffs, and the agentic layer for running spend to payback.
 status: active
 tags: [paid, channels, ads]
-last_updated: 2026-08-30
+last_updated: 2026-09-08
 ---
 
 # Paid Acquisition
@@ -19,7 +19,7 @@ Read the [GTM Funnel](/docs/foundations/gtm-funnel) first, then the [Conversion 
 
 ---
 
-## One Number That Matters Most
+## CAC payback period
 
 **Payback period on CAC: the months of gross margin it takes one customer to repay what you spent to acquire them.** A healthy paid channel pays back in under 12 months. Great ones do it in under 6.
 

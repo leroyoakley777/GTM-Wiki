@@ -4,7 +4,7 @@ title: "ABM: Case Studies"
 description: "Snowflake, SAP Concur, BillingTree, Invoca, Schneider, iRidium, and DocuSign: the documented ABM wins with named, dated, vendor-flagged numbers, the three tiers, the worked pipeline math, and the agentic SOP."
 status: active
 tags: [abm, case-studies, channels]
-last_updated: 2026-08-30
+last_updated: 2026-09-08
 ---
 
 # ABM: Case Studies
@@ -24,9 +24,9 @@ return here for the proof.
 
 ---
 
-## One Number That Matters Most
+## Account win rate on the target list
 
-Account win rate on the target list. Most ABM reporting stops at
+Most ABM reporting stops at
 engagement: impressions, visits, touches. Those measure activity, not
 outcome. The number that tells you the program works is whether you
 win the accounts on the list at a higher rate than the rest of your

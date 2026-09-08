@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: Account-Based Marketing (ABM)
 description: When ABM is the right channel, the account-selection model, the one-to-one / one-to-few / one-to-many tiers, named-and-dated win-rate and ROI benchmarks, the account plan, sequencing, objections, failure modes, the case matrix, handoff, and the agentic SOP.
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [abm, channel, account-based-marketing, enterprise, intent, account-plan, agentic]
 domain: channels
@@ -37,9 +37,9 @@ studies](../case-studies/abm).
 
 ---
 
-## One Number That Matters Most
+## Account win rate on the target list
 
-**Account win rate on the target list.** Most teams report ABM success
+Most teams report ABM success
 with engagement or coverage numbers (impressions, visits, touches)
 which are activity, not outcome. The number that tells you the program
 is working is whether you are winning the accounts on the list at a

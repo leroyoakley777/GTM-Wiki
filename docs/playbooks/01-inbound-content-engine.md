@@ -4,7 +4,7 @@ title: Inbound Content Engine
 description: "Step-by-step playbook for building a B2B SaaS inbound content engine: strategy, hub model, production workflow, distribution, and measurement. Scales from team of one to growth stage."
 status: active
 tags: [playbooks, inbound, content, engine, seo, growth]
-last_updated: 2026-09-01
+last_updated: 2026-09-08
 ---
 
 # Inbound Content Engine
@@ -15,7 +15,7 @@ This playbook covers building the engine from zero to growth-stage scale. For th
 
 ---
 
-## One Number That Matters Most
+## Publishing cadence
 
 **8-16 blog posts per month** is the optimal publishing cadence for growth-stage SaaS building topic authority. Companies publishing 16+ posts generate 4.5x more leads than those publishing 0-4 [1]. Below 8 posts, you are not compounding. Above 16, diminishing returns set in unless you have a team.
 

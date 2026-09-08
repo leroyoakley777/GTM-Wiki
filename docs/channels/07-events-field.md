@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: Events & Field
 description: When events and field marketing are the right channel, the named-and-dated ROI and conversion benchmarks, the channel stack, sequencing, failure modes with fixes, handoff to sales, the agentic SOP, and the case matrix.
-last-updated: 2026-09-05
+last-updated: 2026-09-08
 status: active
 tags: [events, field, conference, webinar, field-marketing, trade-show, agentic]
 domain: channels
@@ -32,7 +32,7 @@ Field marketing is the subset that lives in a metro and a named list: dinner
 programs, roadshows, and exec briefings. It is the in-person arm of ABM. For the
 account-planning that pairs with it, read [ABM](/docs/channels/abm).
 
-## One Number That Matters Most
+## Return on event investment
 
 **Event-sourced closed-won revenue at 180 days, divided by all-in event spend.**
 That is ROEI, return on event investment. It is the number that tells leadership

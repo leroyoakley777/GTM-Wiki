@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Inbound
 description: When inbound is the right channel in an AI-search era, the funnel with named dated benchmarks, the AI-referral and organic numbers that now matter, content strategy and cadence, tools by role, a first-90-days sequence, an SMB vs enterprise case matrix, objections, failure modes and fixes, handoff, and the agentic SOP.
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [inbound, seo, content, funnel, ai-search, benchmarks, agentic, demand-gen]
 domain: channels
@@ -41,7 +41,7 @@ side, if that is where the use sits instead.
 
 ---
 
-## One number that matters most
+## AI-referral conversion
 
 **AI-referral traffic converts at ~5.8%, above organic search (4.9%),
 email (4.9%), and roughly even with paid search (5.4%)**, per Ruler

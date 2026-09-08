@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: Community-Led Growth
 description: When community is the right channel, the participation and referral funnel with named dated benchmarks, the platform stack, sequencing, objections, failure modes and fixes, handoff to sales and CS, how the motion shifts by segment and stage, documented cases, and the agentic SOP that seeds, moderates, and routes community signals.
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [community-led, community, channel, referrals, engagement, 90-9-1, ambassadors, flywheel, agentic]
 domain: channels
@@ -45,7 +45,7 @@ tier that PLG converts.
 
 ---
 
-## One Number That Matters Most
+## Member-initiated referrals
 
 **Member-initiated referrals: the share of new signups who arrive because
 a member brought them. A compounding community pushes this toward 30–50% of

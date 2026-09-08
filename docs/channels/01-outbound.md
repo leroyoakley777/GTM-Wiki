@@ -17,10 +17,9 @@ For step-by-step execution from nothing, see the [Outbound from Zero playbook](/
 
 Meetings booked per 1,000 sends is the score. Everything else is a diagnostic.
 
+## Meetings booked per 1,000 sends
 
-## One number that matters most
-
-Meetings booked per 1,000 sends: a healthy range is 3-10 [17]. That number rolls delivery, reply, and positive-reply rates into one diagnostic. If you book fewer than 3 meetings per 1,000 sends, do not add volume. The message, list, or offer is broken. If you book more than 10, you are leaving pipeline on the table and should scale the send.
+A healthy range is 3-10 [17]. That number rolls delivery, reply, and positive-reply rates into one diagnostic. If you book fewer than 3 meetings per 1,000 sends, do not add volume. The message, list, or offer is broken. If you book more than 10, you are leaving pipeline on the table and should scale the send.
 
 Do not track emails sent as a score. Sends do not pay the bill. Meetings do.
 

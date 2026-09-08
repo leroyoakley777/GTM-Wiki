@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Partner / Channel
 description: When partnerships are the right channel, the four partner types, the comp model that makes them worth a partner's time, and the failure modes that kill the motion.
-last_updated: 2026-09-07
+last_updated: 2026-09-08
 status: active
 tags: [partner, channel, integration, referral, reseller, co-sell, agentic]
 domain: channels
@@ -29,7 +29,7 @@ Growth](./product-led) pairs with the integration-partner motion.
 
 ---
 
-## One Number That Matters Most
+## Partner-sourced pipeline
 
 **Qualified partner-sourced pipeline as a share of new pipeline: a healthy
 target is 10–20% for a mature program.** That is the number that tells you

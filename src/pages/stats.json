@@ -7,8 +7,48 @@
   "updates": [
     {
       "date": "2026-09-08",
-      "text": "Agentic gtm overview, gtm os architecture, agentic stack, agentic outbound +72 more.",
+      "text": "Outbound, positioning, messaging, frameworks +75 more.",
       "items": [
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "positioning",
+          "href": "/docs/copywriting/positioning"
+        },
+        {
+          "label": "messaging",
+          "href": "/docs/copywriting/messaging"
+        },
+        {
+          "label": "frameworks",
+          "href": "/docs/copywriting/frameworks"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/flows/outbound"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "intro",
+          "href": "/docs/intro"
+        },
+        {
+          "label": "outbound from zero",
+          "href": "/docs/playbooks/outbound-from-zero"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/skills/outbound"
+        },
+        {
+          "label": "messaging",
+          "href": "/docs/skills/messaging"
+        },
         {
           "label": "agentic gtm overview",
           "href": "/docs/agentic/agentic-gtm-overview"
@@ -90,10 +130,6 @@
           "href": "/docs/case-studies/referral-viral"
         },
         {
-          "label": "outbound",
-          "href": "/docs/channels/outbound"
-        },
-        {
           "label": "inbound",
           "href": "/docs/channels/inbound"
         },
@@ -158,10 +194,6 @@
           "href": "/docs/data/sales-cycle-benchmarks"
         },
         {
-          "label": "outbound",
-          "href": "/docs/flows/outbound"
-        },
-        {
           "label": "agentic outbound",
           "href": "/docs/flows/agentic-outbound"
         },
@@ -192,10 +224,6 @@
         {
           "label": "icp definition",
           "href": "/docs/foundations/icp-definition"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
         },
         {
           "label": "gtm metrics",
@@ -246,10 +274,6 @@
           "href": "/docs/gtm-engineering/skills-tools"
         },
         {
-          "label": "intro",
-          "href": "/docs/intro"
-        },
-        {
           "label": "best marketing books",
           "href": "/docs/library/best-marketing-books"
         },
@@ -266,24 +290,12 @@
           "href": "/docs/playbooks/customer-onboarding"
         },
         {
-          "label": "outbound from zero",
-          "href": "/docs/playbooks/outbound-from-zero"
-        },
-        {
           "label": "intake capture",
           "href": "/docs/process/intake-capture"
         },
         {
           "label": "prospecting",
           "href": "/docs/skills/prospecting"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/skills/outbound"
-        },
-        {
-          "label": "messaging",
-          "href": "/docs/skills/messaging"
         },
         {
           "label": "signals",

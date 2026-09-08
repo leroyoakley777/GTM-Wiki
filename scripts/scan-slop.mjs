@@ -5,7 +5,8 @@
  * mandatory gate, not a courtesy. Every human catch should become a rule.
  *
  * OWNS: em dashes (sole owner — lint.mjs and lint-comms.mjs must NOT add
- * em-dash rules), "The"-opening headings, uncited dated stats.
+ * em-dash rules), "The"-opening headings, vague-score headings
+ * ("one number that matters most"), uncited dated stats.
  * SHARED with lint.mjs: anaphora/promise-listing (kept in both: this file's
  * version scans src/pages too). Do NOT add banned-token or rule-of-three
  * rules here — those belong to lint-comms.mjs.
@@ -18,6 +19,7 @@
  *     B. "The"-opening headings
  *     C. Promise-listing / parallel-predicate anaphora
  *        ("The X gives you Y. The Z gives you W.", same delivery verb 3+ times)
+ *     F. Vague-score headings ("One number that matters most") — name the metric
  *
  *   WARN (exit 0, printed as candidates) — judgment devices where a blanket
  *   gate would false-flag accepted reference prose. Surfaced so the human eye
@@ -74,6 +76,10 @@ const INTERNAL_ROOTS = [STANDARDS, RESEARCH];
 const EM_DASH = /—/g;
 
 const THE_OPENING = /^#{1,6}\s+The\s+/i;
+
+// Vague-score heading: "One number that matters most" and title-case variants.
+// Headings must name the metric. Human catch 2026-09-08.
+const SCORE_HEADING_SLOP = /^#{1,6}\s+.*\bnumbers?\s+that\s+matters?\s+most\b/i;
 
 // Delivery predicates — the proven AI-marketing tell class (see lint.mjs 2b/2b2).
 const DELIVERY_VERBS = '(?:gives|lets|shows|teaches|walks|takes|hands|offers|includes|carries|runs|brings|holds|delivers|provides|contains|ships|features|packs|loads|puts)';
@@ -179,6 +185,14 @@ function checkEmDash(prose, report) {
 function checkTheHeading(prose, report) {
   for (const { line, text } of prose) {
     if (THE_OPENING.test(text)) report('heading opens with "The"', line, text, 'HARD');
+  }
+}
+
+function checkScoreHeadingSlop(prose, report) {
+  for (const { line, text } of prose) {
+    if (SCORE_HEADING_SLOP.test(text)) {
+      report('heading withholds the metric ("one number that matters most")', line, text, 'HARD');
+    }
   }
 }
 
@@ -294,7 +308,10 @@ for (const f of files) {
   const isInternal = INTERNAL_ROOTS.some((r) => normalize(f).startsWith(r + '/') || normalize(f) === r);
   const prose = isJs ? scanJsxProse(content) : scanProse(content, 1);
   checkEmDash(prose, report);
-  if (!isJs && !isInternal) checkTheHeading(prose, report);
+  if (!isJs && !isInternal) {
+    checkTheHeading(prose, report);
+    checkScoreHeadingSlop(prose, report);
+  }
   checkPromiseListing(prose, report);
   checkTwoFragment(prose, report);
   checkUncitedStat(prose, report);

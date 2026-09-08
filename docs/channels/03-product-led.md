@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Product-Led Growth
 description: When product-led growth is the right channel, the signup-to-activation-to-pay funnel with named dated benchmarks, trial-model tradeoffs, growth loops, PQLs, tools, sequencing, sales handoff, the SMB vs enterprise case matrix, failure modes, and the agentic layer.
-last-updated: 2026-08-17
+last-updated: 2026-09-08
 status: active
 tags: [product-led, plg, channel, free-to-paid, activation, pql, growth-loops, self-serve, trial, agentic]
 domain: channels
@@ -38,7 +38,7 @@ on.
 
 ---
 
-## One Number That Matters Most
+## Free-to-paid conversion
 
 **Free-to-paid conversion: a good freemium self-serve rate is 3–5%,
 a great one 6–8%, and a good free-trial rate is 8–12%, great 15–25%.**
