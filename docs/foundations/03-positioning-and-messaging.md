@@ -4,10 +4,12 @@ sidebar_position: 3
 description: "How to define positioning that puts your unique strengths at the center, then translate it into messaging that resonates across every buyer touchpoint."
 status: active
 tags: [foundations, positioning, messaging]
-last_updated: 2026-09-05
+last_updated: 2026-09-08
 ---
 
 # Positioning and Messaging
+
+The craft view of this work now lives in the [Copywriting](/docs/copywriting) section: [positioning](/docs/copywriting/positioning), [messaging](/docs/copywriting/messaging), and [frameworks](/docs/copywriting/frameworks). This page is the foundations treatment of the strategy. Neither page ships recommended email copy.
 
 ## Definition
 

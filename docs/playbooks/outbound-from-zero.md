@@ -1,8 +1,9 @@
 ---
 sidebar_position: 2
 title: Outbound from Zero
-description: "The full-depth playbook for standing up a cold-outbound motion from nothing: email copy, day-by-day sequence, deliverability setup, budget math, objections, a worked build, and the agentic SOP."
-last-updated: 2026-08-17
+description: "The full-depth playbook for standing up a cold-outbound motion from nothing: sequence contract, day-by-day cadence, deliverability setup, budget math, objections, a worked build, and the agentic SOP."
+last-updated: 2026-09-08
+last_updated: 2026-09-08
 status: active
 tags: [outbound, playbook, cold-email, sdr, deliverability, agentic]
 domain: playbooks
@@ -20,10 +21,12 @@ needs one. It is written to be executed in that order, with an
 **acceptance gate at each step** before you move on. Skip a gate and the
 next step gets more expensive, not faster.
 
-This page ships to the depth bar: the email copy, a day-by-day
+This page ships to the depth bar: a sequence contract, a day-by-day
 sequence table, a deliverability setup you can follow, the budget math,
 objections with how to answer them, a worked end-to-end build, and the
 agentic SOP. Every number carries a named source and an "as of" date.
+It will not recommend email copy. Write the words from
+[Copywriting](/docs/copywriting).
 
 **Read the companion pages before you start:** the [Outbound
 channel](../channels/outbound) page explains *when* outbound is the
@@ -187,78 +190,17 @@ Keep each email in the **50–125 word** range. That length earns roughly
 ([Mailforge/Instantly, via Martal](https://martal.ca/b2b-cold-email-statistics-lb/),
 2026). One ask per email, value first, written like a human.
 
-### Email copy (paste this, then make it yours)
+### Sequence contract (write the words yourself)
 
-**Email 1: the reason-to-reach + one specific observation (no pitch).**
+This playbook will not recommend email copy. Write each touch from the
+[Copywriting](/docs/copywriting) claim and the row's reason-to-reach.
 
-```text
-Subject: quick question re: {their_signal}
-
-Hi {first},
-
-Saw {company} just {hired a VP of {segment} / announced a {funding}
-round / rolled out {tech} on {stack}}. Given that change, I wanted to
-ask: is {specific thing you noticed} on your radar right now?
-
-{One line of value: a concrete observation relevant to their
-situation, not a pitch.}
-
-Worth a 10-minute look?
-
-{Your first name}
-```
-
-**Email 2 (day 3–4): a proof point or resource relevant to *their*
-situation.**
-
-```text
-Subject: re: {their_signal}: one thing to read
-
-Hi {first},
-
-Circling back. On the {specific change} front, this resource has been
-useful for teams running {same motion}: {link}.
-
-The short version: {one-line takeaway}. Figured it might save you the
-digging.
-
-If it's useful and you'd like to compare notes, happy to. Either way,
-good luck with {their_signal}.
-
-{Your first name}
-```
-
-**Email 3 (day 7–8): a different angle, usually social proof or a
-question.**
-
-```text
-Subject: {first}, one quick question
-
-Hi {first},
-
-Not chasing, just curious. Teams in {segment} that took {the same
-action} typically see {one concrete outcome} within {timeframe}.
-
-Is that the kind of thing you're weighing, or is {their_signal}
-pointing somewhere else?
-
-{Your first name}
-```
-
-**Breakup (day 12–14): honest stop.**
-
-```text
-Subject: closing the loop
-
-Hi {first},
-
-I'll close this out rather than clutter your inbox. If the timing
-gets better ({specific trigger to watch for}), reply and we'll pick
-it up.
-
-Best,
-{Your first name}
-```
+| Touch | Job of the touch | Ask |
+|---|---|---|
+| Email 1 | Reason-to-reach plus one observation. No pitch. | Reply or a 10-minute look |
+| Email 2 (day 3–4) | Proof point or resource relevant to their situation | Read it. Compare notes |
+| Email 3 (day 7–8) | A different angle, usually social proof or a question | Answer one question |
+| Breakup (day 12–14) | Honest stop | Reply if timing improves |
 
 ### Day-by-day sequence table
 

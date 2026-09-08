@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Outbound - the Runnable Flow
 description: The executable outbound motion as a sequence, with the artifact at every step, throughput math on named bases, a worked run, objections, and the agentic SOP.
-last_updated: 2026-09-05
+last_updated: 2026-09-08
 status: active
 tags: [outbound, flow, cold-email, sdr, sequence, throughput, agentic]
 domain: flows
@@ -232,81 +232,22 @@ the 50-125 word range. That length earns roughly 50% higher reply rates
 than longer formats [40]. One ask per email. Value first. Write like a
 human.
 
-The four emails below are the artifact this step must produce. They are
-templates with placeholders: the blank fields are what the signal, list,
-and ICP work from the earlier steps fills in. Every email stays under 90
-words and makes exactly one ask.
+This step's artifact is a sequence contract, not a set of sample
+emails. Claims, frameworks, and the words themselves live in
+[Copywriting](/docs/copywriting). This flow will not recommend email
+copy.
 
-**Email 1 - the reason-to-reach plus one observation (no pitch).**
+Each touch has a job:
 
-```text
-Subject: quick question re: {their_signal}
+| Touch | Job of the touch | Ask |
+|---|---|---|
+| Email 1 | Reason-to-reach plus one observation. No pitch. | Reply or a 10-minute look |
+| Email 2 (day 3-4) | Proof point or resource relevant to their situation | Read it, compare notes |
+| Email 3 (day 7-8) | A different angle, usually social proof or a question | Answer one question |
+| Breakup (day 12-14) | An honest stop | Reply if timing improves |
 
-Hi {first},
-
-Saw {company} just {hired a VP of {segment} / announced a {funding}
-round / rolled out {tech} on {stack}}. Given that change, I wanted to
-ask: is {specific thing you noticed} on your radar right now?
-
-{One line of value: a concrete observation relevant to their
-situation, not a pitch.}
-
-Worth a 10-minute look?
-
-{Your first name}
-```
-
-**Email 2 (day 3-4) - a proof point or resource relevant to their
-situation.**
-
-```text
-Subject: re: {their_signal}: one thing to read
-
-Hi {first},
-
-Circling back. On the {specific change} front, this resource has been
-useful for teams running {same motion}: {link}.
-
-The short version: {one-line takeaway}. Figured it might save you the
-digging.
-
-If it's useful and you'd like to compare notes, happy to. Either way,
-good luck with {their_signal}.
-
-{Your first name}
-```
-
-**Email 3 (day 7-8) - a different angle, usually social proof or a
-question.**
-
-```text
-Subject: {first}, one quick question
-
-Hi {first},
-
-Not chasing, just curious. Teams in {segment} that took {the same
-action} typically see {one concrete outcome} within {timeframe}.
-
-Is that the kind of thing you're weighing, or is {their_signal}
-pointing somewhere else?
-
-{Your first name}
-```
-
-**Breakup (day 12-14) - an honest stop.**
-
-```text
-Subject: closing the loop
-
-Hi {first},
-
-I'll close this out rather than clutter your inbox. If the timing
-gets better ({specific trigger to watch for}), reply and we'll pick
-it up.
-
-Best,
-{Your first name}
-```
+Write each touch from the messaging claim and the row's reason-to-reach.
+Do not paste a recommended body from this wiki. There is not one.
 
 The cadence that runs these, and the branch points between them:
 

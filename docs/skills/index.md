@@ -29,7 +29,7 @@ Every page follows the same anatomy so you can run it cold:
 
 - [Prospecting](./prospecting): build account, contact, or both lists from ICP fit, enrichment, and signals. Trigger: a target list, ICP-fit prospects, or decision-makers.
 - [Outbound](./outbound): the cold email and call motion that turns a list into meetings. Trigger: a list and a value hypothesis ready to send.
-- [Messaging and copywriting](./messaging): turn who you sell to into words that work. The three-layer model and the email frameworks that structure the copy. Trigger: about to write something a buyer reads.
+- [Messaging](./messaging): turn who you sell to into a claim a writer can fill. Full craft in [Copywriting](../copywriting). Trigger: about to write something a buyer reads.
 - [Signals](./signals): read buying intent from profile views, job changes, and funding. Trigger: a signal fires and you must decide fast or let it cool.
 - [ABM](./abm): run few high-value accounts as a coordinated program. Trigger: a named account list and deal economics that justify the spend.
 - [Pricing](./pricing): set and defend price as a GTM motion. Trigger: a pricing decision, a discount request, or a packaging change.

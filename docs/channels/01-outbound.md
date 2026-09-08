@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Outbound
-description: "The operator's field manual for cold outbound: when to run it, how to diagnose every stage of the funnel, infrastructure that keeps you in the inbox, email and phone craft, list construction, reply handling, team design, and the failure modes that kill the motion."
+description: "The operator's field manual for cold outbound: when to run it, how to diagnose every stage of the funnel, infrastructure that keeps you in the inbox, list construction, reply handling, team design, and the failure modes that kill the motion."
 status: active
 tags: [outbound, channels, cold-email, cold-call, sdr, funnel, deliverability, sequencing]
 last_updated: 2026-09-08
@@ -11,7 +11,9 @@ last_updated: 2026-09-08
 
 Outbound is a targeted channel you pick on purpose. It works when you know exactly who the buyer is, the deal size covers the effort, and inbound or partnerships will not fill the pipe fast enough. Run well, it is the fastest repeatable pipeline you will build. Run badly, it burns budget and a sending domain [17].
 
-This page covers when outbound is the right call, how to judge whether the motion is healthy, how to build the list and the message, how to run phone and LinkedIn as amplifiers, how to staff and coach the desk, where it breaks, and how the numbers change by company stage. For step-by-step execution from nothing, see the [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero). For the runnable motion with sample emails, see [Outbound flow](/docs/flows/outbound). For the agentic layer, see [Agentic Outbound](/docs/agentic/agentic-outbound). For the raw benchmark tables, see [Outbound response rates](/docs/data/outbound-response-rates).
+This page covers when outbound is the right call, how to judge whether the motion is healthy, how to build the list, how to run phone and LinkedIn as amplifiers, how to staff and coach the desk, where it breaks, and how the numbers change by company stage. Words live in [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. This page will not recommend email copy.
+
+For step-by-step execution from nothing, see the [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero). For the runnable motion, see [Outbound flow](/docs/flows/outbound). For the agentic layer, see [Agentic Outbound](/docs/agentic/agentic-outbound). For the raw benchmark tables, see [Outbound response rates](/docs/data/outbound-response-rates).
 
 Meetings booked per 1,000 sends is the score. Everything else is a diagnostic.
 
@@ -101,7 +103,7 @@ Do not optimize the message until you have 300+ sends per variant. Small samples
 
 ## Infrastructure layer (where most teams skip ahead)
 
-Outbound died as a copy problem and came back as an infrastructure problem. Gmail and Microsoft now run transformer-based spam models trained on billions of emails, and they detect templated sends with high accuracy [327]. The visible part of cold email, the message, is maybe 20% of what makes it work. Build the layers in this order and skip none of them [331].
+Most teams start with copy. In 2026 the first failure is usually infrastructure. Gmail and Microsoft now run transformer-based spam models trained on billions of emails, and they detect templated sends with high accuracy [327]. Build the layers in this order and skip none of them [331].
 
 1. **Dedicated sending domains.** Never send cold email from your primary business domain. Buy close variations (getacme.com, acmehq.com) so a reputation hit on the sending domain cannot touch the domain your customers email you on [331].
 2. **Authentication.** SPF, DKIM, and DMARC configured before the first send. Google and Yahoo reject unauthenticated mail outright [332]. Score the setup with Mail-Tester or MXToolbox before launch; below 9 out of 10 means more homework [332].
@@ -210,91 +212,24 @@ Only about 5% of senders personalize every email [52]. Signal-driven references 
 Spend the research minutes on Tier 1. For Tier 2, the signal is the research. If the signal is not specific enough to write one concrete line, the row is not ready.
 
 
-## Email craft
+## Message constraints
 
-Under 125-word, personalized cold email outperforms long templated sends by about 50% on reply rate [327]. Short copy is a deliverability and attention choice, not a style choice.
+Copywriting does not live on this page. Write claims and frameworks in [Copywriting](/docs/copywriting). Outbound consumes that work. It does not invent it.
 
-### Subject line
+What outbound still constrains, because the channel punishes violations:
 
-Earn the open from a stranger who did not ask for mail. It is not a slogan.
+- **Length.** Under-125-word, personalized cold email outperforms long templated sends by about 50% on reply rate [327]. Short copy is a deliverability and attention choice.
+- **One problem, one proof, one ask.** Two asks cut reply rate because the reader now has a way to stall.
+- **Reason-to-reach in the first line.** If you cannot write the first line without the company name and a merge field, the row is not ready. Research sits above. Copy sits after.
+- **No "I hope this finds you well."** No attachments on email one. No calendar link on a cold first touch. One link at most, and only if it is the proof.
+- **Plain text.** HTML newsletters from a stranger look like marketing.
+- **Ask is a meeting or a redirect.** "If not you, who?" is a redirect. "Curious to hear your thoughts" asks the reader to do your job.
 
-Patterns that survive 2026 filters:
+Do not A/B subject lines until the body and the list are stable. Subject-line theater on a dead offer changes nothing. This page will not publish subject lines to test.
 
-- The signal itself: `Series C + three AppSec roles`
-- A named artifact: `the 404 on docs.acme.com`
-- A peer: `how [similar co] cut review time`
-- A question that only they can answer: `who owns vendor risk after the SOC2 push?`
+### Breakup as a touch, not as copy
 
-Patterns that die:
-
-- `Quick question`
-- `Touching base`
-- `Following up`
-- `Idea for [Company]`
-- Anything in title case that looks like an ad
-
-Do not A/B subject lines until the body and the list are stable. Subject-line theater on a dead offer changes nothing.
-
-### First line
-
-Prove you are not a template. Name the signal. Do not name your product.
-
-Write the first line last. If you cannot write it without the company name and a merge field, you do not have a reason-to-reach.
-
-### Body
-
-One problem. One proof. One ask. That is the whole email.
-
-```text
-Subject: <signal, not a slogan>
-
-<First name>, saw <specific signal this week>.
-Most <role> at <stage> hit <named problem> around then.
-It usually shows up as <quantified cost or delay>.
-
-We helped <similar company> get that to <outcome> in <time>.
-
-Worth 15 minutes to see if the same pattern holds at <company>?
-If not you, who owns <problem>?
-
-<Name>
-```
-
-Rules that keep this from rotting:
-
-- Under 125 words [327].
-- No "I hope this finds you well."
-- No attachments on email one.
-- No calendar link on email one unless the relationship is already warm. A calendar link on a cold first touch reads as entitlement.
-- One link at most, and only if it is the proof (a 90-second clip, a one-page teardown). Not your homepage.
-- Plain text. HTML newsletters from a stranger look like marketing.
-
-### Ask
-
-The ask is a meeting or a redirect ("if not you, who?"). It is not "curious to hear your thoughts," which asks the reader to do your job.
-
-Two asks that work:
-
-- Time-boxed: "Worth 15 minutes next week?"
-- Redirect: "If you do not own vendor risk, who does?"
-
-One ask per email. Two asks cut reply rate because the reader now has a way to stall.
-
-### Breakup email
-
-Do not skip the breakup email. The final touch often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline [329].
-
-A breakup is a close, not a guilt trip.
-
-```text
-Subject: closing the loop
-
-<First name>, I will assume this is not a priority and stop.
-If timing changes after <event you named>, happy to pick it up.
-Otherwise, good luck with <the thing they are actually doing>.
-```
-
-The courtesy is the point. The permission to stop is what makes the reply easy.
+Do not skip the last touch. It often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline [329]. A breakup is a close, not a guilt trip: permission to stop, a named event that would make timing change, then you stop. Write it from the same claim you used in touch one. Do not paste a recommended breakup from this wiki. There is not one.
 
 
 ## Sequence: multichannel over 21-30 days
@@ -339,32 +274,17 @@ Use the phone on Tier 1, after two emails, not as the first cold touch. Calling 
 
 Do not call at random volume to "hit dials." Dials without a reason produce the same spam-filter problem the inbox already has, just with a voicemail.
 
-### Talk track
+### Call constraints
 
-Keep it under 30 seconds before a question.
-
-```text
-<First name>, this is <Name> at <Company>.
-I emailed Tuesday about <signal>.
-I will be brief: teams like yours usually hit <problem> after <event>.
-We helped <peer> get that to <outcome>.
-Is that even on your plate, or am I talking to the wrong person?
-```
-
-Then stop talking. Top-performing reps listen more than they talk [341]. The call is won in the second minute, not the opener.
+Keep the first 30 seconds to a named signal, a named problem, and a question. Then stop talking. Top-performing reps listen more than they talk [341]. The call is won in the second minute, not the opener.
 
 If they are not the owner, ask for the redirect and end the call. A clean redirect is a win. A rambling pitch to the wrong person is how your name gets marked.
 
+This page will not publish a talk track to read from. Write the opener from the same reason-to-reach that earned the send. See [Copywriting](/docs/copywriting).
+
 ### Voicemail
 
-One sentence of signal, one sentence of ask, no pitch deck in audio form.
-
-```text
-<First name>, <Name> at <Company>. Saw the three AppSec roles after the Series C.
-Sent a note with how <peer> handled the same ramp. If useful, reply to that email.
-```
-
-Do not leave a voicemail on every dial. Leave one per sequence. Repeating the same 20 seconds trains them to swipe you away.
+One sentence of signal, one sentence of ask, no pitch deck in audio form. Leave one voicemail per sequence, not one per dial. Repeating the same 20 seconds trains them to swipe you away. Write it yourself from the row. Do not paste a script from this wiki.
 
 
 ## LinkedIn as amplifier
@@ -374,7 +294,7 @@ LinkedIn is not a second inbox for the same pitch. Used that way, it becomes the
 Use it as a proof of presence:
 
 - Day 5: a genuine reaction on something they wrote or shipped. No follow-up pitch in the comment.
-- Day 8: a connection request with no pitch in the note. "Noticed the AppSec hiring after the C. Connecting here in case the email missed you" is enough.
+- Day 8: a connection request with no pitch in the note. Name the same signal you used in email, then stop.
 - After they accept: one message that references the same signal as the email, not a new novel.
 
 If they ignore the connection, stop. LinkedIn volume that looks automated gets the account restricted and the brand marked. The platform is an amplifier of a working email motion, not a replacement for one [331].
@@ -663,7 +583,7 @@ SOP: run the outbound desk with an agent in the loop
 Given: a tiered list, a value hypothesis, authenticated domains.
 1. Agent drafts reasons-to-reach from named signals. Human rejects any row
    without a source they can defend.
-2. Agent fills the Tier 2 template. Human approves Tier 1 first lines.
+2. Agent fills Tier 2 sequence slots from the approved messaging claim. Human approves Tier 1 first lines.
 3. Agent enforces send caps (25-30/inbox/day) and warmup status [331][333].
 4. Agent pauses any domain with hard bounce above 2% or complaints above 0.1% [17][329].
 5. Agent routes positive replies to the human owner within 15 minutes [17].
@@ -673,15 +593,7 @@ Never invent a signal.
 Never let the agent argue with an opt-out.
 ```
 
-```text
-Prompt: draft the Tier 2 first line
-
-You are an outbound operator. Given company, role, named signal, and source,
-write one first line under 25 words. Name the signal. Do not name our product.
-No greeting. No "I noticed you work at." Output only the first line.
-```
-
-Keep the human in the loop for Tier 1 copy, compliance-sensitive accounts, and every live conversation. The agent scales research and cadence. You own the relationship.
+Keep the human in the loop for Tier 1 copy, compliance-sensitive accounts, and every live conversation. The agent scales research and cadence. You own the relationship. The agent does not invent email copy. Claims and frameworks live in [Copywriting](/docs/copywriting).
 
 
 ## Sources
@@ -715,8 +627,9 @@ Keep the human in the loop for Tier 1 copy, compliance-sensitive accounts, and e
 
 ## Further reading
 
+- [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. No recommended email copy.
 - [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero): the step-by-step execution runbook.
-- [Outbound - the Runnable Flow](/docs/flows/outbound): the executable motion with the four cold emails shipped in-page.
+- [Outbound - the Runnable Flow](/docs/flows/outbound): the executable motion. Sequence structure, not sample emails.
 - [Agentic Outbound](/docs/agentic/agentic-outbound): the same motion with an agent in the loop.
 - [Outbound skill](/docs/skills/outbound): the skill-level template and SOP.
 - [Outbound response rates](/docs/data/outbound-response-rates): the benchmark tables this page diagnoses against.

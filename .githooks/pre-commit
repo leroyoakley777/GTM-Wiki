@@ -24,11 +24,15 @@ fi
 # We do NOT hard-block on age — the file may legitimately be stable — but we
 # print the reminder so the author re-verifies it reflects current reality.
 if [ -f "$CTX" ]; then
-  age_days=$(($(date +%s) - $(stat -f %m "$CTX" 2>/dev/null || stat -c %Y "$CTX" 2>/dev/null)))
-  age_days=$((age_days / 86400))
-  if [ "$age_days" -gt 45 ]; then
-    echo "gtm-wiki pre-commit: WARNING operating context is $age_days days old."
-    echo "  Refresh $CTX (or verify it is current) before relying on it."
+  # GNU stat first (Linux). BSD `stat -f %m` on GNU stat is --file-system
+  # and prints a block of text, which used to blow up the arithmetic.
+  mtime=$(stat -c %Y "$CTX" 2>/dev/null || stat -f %m "$CTX" 2>/dev/null || echo "")
+  if [ -n "$mtime" ] && [ "$mtime" -eq "$mtime" ] 2>/dev/null; then
+    age_days=$(( ($(date +%s) - mtime) / 86400 ))
+    if [ "$age_days" -gt 45 ]; then
+      echo "gtm-wiki pre-commit: WARNING operating context is $age_days days old."
+      echo "  Refresh $CTX (or verify it is current) before relying on it."
+    fi
   fi
 fi
 # ---------------------------------------------------------------------------

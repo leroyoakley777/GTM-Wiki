@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 title: Outbound
-description: "The cold email and call motion that turns a prospecting list into meetings: the trigger, the sequence build, the email template, a worked payback example, and the agentic SOP that runs it."
-last_updated: 2026-08-19
+description: "The cold email and call motion that turns a prospecting list into meetings: the trigger, the sequence contract, a worked payback example, and the agentic SOP that runs it."
+last_updated: 2026-09-08
 status: active
 tags: [outbound, cold-email, sdr, sequencing, deliverability, agentic, skills]
 domain: skills
@@ -40,9 +40,9 @@ A defined ICP plus disciplined outbound is the fastest repeatable pipeline sourc
 
 Set up the domain and inboxes first. Use 2-3 inboxes per domain, cap at 50 sends per inbox per day, and run a 3-week warmup before any campaign [6]. Authenticate with SPF, DKIM, and DMARC; keep complaint rates under 0.3% and inbox placement at or above 80% [7]. A domain that fails deliverability wastes every message after it.
 
-### 2. Write the value-first email
+### 2. Write from a claim, not a template
 
-Lead with a signal or an insight, not your product. Offer the reader something useful in the first line: a benchmark, a observation, or an ungated resource. Keep it under 125 words [3]. Personalization that reaches 15-25% reply rates comes from signal-based targeting, not token-swapping the first name [8].
+Lead with a signal or an insight, not your product. Keep it under 125 words [3]. Personalization that reaches 15-25% reply rates comes from signal-based targeting, not token-swapping the first name [8]. The words themselves come from [Copywriting](/docs/copywriting). This skill will not recommend email copy.
 
 ### 3. Build the sequence
 
@@ -56,23 +56,17 @@ Cold calls convert at 2-3% connect rate, with top SDRs reaching 5-8% meetings [9
 
 Track reply rate, positive reply rate, and meetings booked per 1,000 sends. The healthy band is 3-10 meetings per 1,000 sends [10]. A sequence below it is a message problem or a list problem, not a volume problem.
 
-## Artifact: the cold email template
+## Artifact: the sequence contract
 
-This is the deliverable each send is built from. One variable block per signal.
+This is the deliverable each send is built from. One variable block per signal. Write the words from the [messaging claim](/docs/copywriting/messaging). Do not paste a recommended email from this wiki.
 
-```text
-Subject: <signal-specific, not "quick question">
-
-<First name>, saw that <specific signal: funded / hired / launched>.
-Most <their role> at <their stage> hit <named problem> around then,
-and it costs <quantified pain>.
-
-We helped <similar co> cut that to <outcome> in <time>.
-
-Worth a 15-minute look at how? If not you, who owns <problem> there?
-
-<Name>
-```
+| Field | Required | What it forces |
+|-------|----------|----------------|
+| Reason-to-reach | yes | A trigger that is true this week |
+| Claim | yes | One outcome, from positioning |
+| Proof | yes | Named result or it does not ship |
+| Ask | yes | Meeting or redirect, not both |
+| Word cap | yes | Under 125 [3] |
 
 Under 125 words. No "I hope this finds you well." No superlatives. The ask is one line.
 
@@ -107,7 +101,7 @@ An agent can run the sequence, personalize at signal scale, and surface replies,
 ```text
 Given: a tiered prospecting list and a value hypothesis per account.
 1. Load Tier 2 accounts into the sequence tool; assign owners.
-2. For each account, pull the strongest signal and fill the email template (one variable block).
+2. For each account, pull the strongest signal and fill the sequence contract (one variable block). Do not invent email copy.
 3. Enforce send caps (50/inbox/day, 2-3 inboxes/domain) and warmup status.
 4. Run the 4-touch cadence; stop any account on first reply.
 5. Route positive replies to the human owner; log meetings booked per 1,000 sends.
@@ -115,15 +109,7 @@ Given: a tiered prospecting list and a value hypothesis per account.
 Never send an unverified email. Never personalize from a signal you cannot name.
 ```
 
-**Prompt: personalize the Tier 2 email.**
-
-```text
-You are an outbound operator. Given an account, a named signal, and the value hypothesis,
-fill the cold email template. Keep under 125 words. Lead with the signal. Offer one useful
-thing in the first line. No superlatives, no "I hope this finds you well." Output only the email.
-```
-
-Keep the human in the loop for Tier 1 message approval, any send to a compliance-sensitive account, and the live meeting. The agent runs the cadence; you own the relationship.
+Keep the human in the loop for Tier 1 message approval, any send to a compliance-sensitive account, and the live meeting. The agent runs the cadence; you own the relationship. Drafting the words is a [Copywriting](/docs/copywriting) job.
 
 ## Sources
 

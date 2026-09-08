@@ -120,6 +120,7 @@ function pageType(file) {
     if (s === 'agentic') return 'agentic';
     if (s === 'data') return 'data';
     if (s === 'foundations') return 'foundations';
+    if (s === 'copywriting') return 'foundations';
     if (s === 'roles') return 'roles';
     if (s === 'tools') return 'tools';
   }

@@ -28,6 +28,17 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Copywriting',
+      collapsed: false,
+      link: { type: 'doc', id: 'copywriting/index' },
+      items: [
+        'copywriting/positioning',
+        'copywriting/messaging',
+        'copywriting/frameworks',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Channels',
       collapsed: false,
       link: { type: 'doc', id: 'channels/index' },

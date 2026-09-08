@@ -15,7 +15,8 @@ This page is a map of working material, not a bookmark dump. Start with the job 
 
 - [Outbound from Zero](/docs/playbooks/outbound-from-zero): stand the desk up.
 - [Outbound channel](/docs/channels/outbound): diagnose whether the motion is healthy.
-- [Outbound flow](/docs/flows/outbound): the runnable sequence with sample emails.
+- [Outbound flow](/docs/flows/outbound): the runnable sequence. Structure, not sample emails.
+- [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. No recommended email copy.
 - [Inbound content engine](/docs/playbooks/inbound-content-engine): the compounding side.
 - [Sales process / MEDDPICC](/docs/flows/sales-process-meddpicc): what happens after the meeting.
 
@@ -35,6 +36,7 @@ Every number in those pages should carry a named source and a date. If a stat on
 - [ICP definition](/docs/foundations/icp-definition)
 - [Channels Bullseye](/docs/foundations/gtm-channels-bullseye)
 - [Positioning and messaging](/docs/foundations/positioning-and-messaging)
+- [Copywriting](/docs/copywriting)
 - [Brand as GTM](/docs/foundations/brand-as-gtm)
 
 ## Book shelf

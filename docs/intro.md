@@ -4,7 +4,7 @@ sidebar_position: 1
 description: "The open reference for go-to-market: definitions, frameworks, playbooks, data, and agentic execution. Every page cited, every artifact runnable."
 status: active
 tags: [intro, gtm, welcome]
-last_updated: 2026-08-27
+last_updated: 2026-09-08
 ---
 
 # Welcome to the GTM Wiki
@@ -75,6 +75,8 @@ The wiki is a graph, not a stack. Pages group by the question they answer:
 
 - **Foundations** cover what stays true. ICP, positioning, pricing, metrics,
   the funnel, RevOps, segmentation, and competitive analysis.
+- **Copywriting** covers product positioning, messaging, and copywriting
+  frameworks. It does not ship recommended email copy.
 - **Channels** cover where you find customers. Outbound, inbound,
   product-led, partner, community, paid, events, referral, and ABM.
 - **Playbooks** cover what to do in a specific situation, start to finish.

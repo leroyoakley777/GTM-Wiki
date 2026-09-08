@@ -27,13 +27,14 @@ const paths = [
 
 const sections = [
   { index: '01', title: 'Foundations', desc: 'Strategy, ICP, positioning, funnel, metrics.', to: '/docs/foundations' },
-  { index: '02', title: 'Playbooks', desc: 'What to do against a named situation.', to: '/docs/playbooks' },
-  { index: '03', title: 'Agentic GTM', desc: 'Same playbooks with agents and guardrails.', to: '/docs/agentic' },
-  { index: '04', title: 'Channels', desc: 'Outbound, inbound, PLG, partner, paid, referral.', to: '/docs/channels' },
-  { index: '05', title: 'Roles', desc: 'Founder to VP Sales to Head of Platforms.', to: '/docs/roles' },
-  { index: '06', title: 'Tools & Data', desc: 'Stack map and the benchmarks behind calls.', to: '/docs/tools' },
-  { index: '07', title: 'Case Studies', desc: 'Before to after. What transferred.', to: '/docs/case-studies' },
-  { index: '08', title: 'Flows', desc: 'Full motions with artifacts at each step.', to: '/docs/flows' },
+  { index: '02', title: 'Copywriting', desc: 'Positioning, messaging, and frameworks. No recommended email copy.', to: '/docs/copywriting' },
+  { index: '03', title: 'Playbooks', desc: 'What to do against a named situation.', to: '/docs/playbooks' },
+  { index: '04', title: 'Agentic GTM', desc: 'Same playbooks with agents and guardrails.', to: '/docs/agentic' },
+  { index: '05', title: 'Channels', desc: 'Outbound, inbound, PLG, partner, paid, referral.', to: '/docs/channels' },
+  { index: '06', title: 'Roles', desc: 'Founder to VP Sales to Head of Platforms.', to: '/docs/roles' },
+  { index: '07', title: 'Tools & Data', desc: 'Stack map and the benchmarks behind calls.', to: '/docs/tools' },
+  { index: '08', title: 'Case Studies', desc: 'Before to after. What transferred.', to: '/docs/case-studies' },
+  { index: '09', title: 'Flows', desc: 'Full motions with artifacts at each step.', to: '/docs/flows' },
 ];
 
 function latestLine() {
