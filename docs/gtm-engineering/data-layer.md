@@ -1,62 +1,59 @@
 ---
-sidebar_position: 1
-title: Placeholder
-description: Placeholder for Placeholder.
+sidebar_position: 2
+title: Data Layer
+description: "The GTM data layer: one source of truth for accounts, signals, and outcomes, plus the failure modes that turn a CRM into folklore."
 status: active
-tags: [gtm-engineering]
-last_updated: 2026-08-30
+tags: [gtm-engineering, data, crm, revops]
+last_updated: 2026-09-08
 ---
 
-# Data Layer Engineering
+# Data Layer
 
-_Content coming soon._
+The data layer is the shared record of accounts, people, signals, and outcomes. Every sequence, score, and forecast reads from it. If the layer is wrong, outbound personalizes the wrong person and the board reads a fictional funnel.
 
-## Overview
+This page is the engineering view. Pair it with [Revenue operations](/docs/foundations/revenue-operations) and [Outbound](/docs/channels/outbound).
 
-This section provides an overview of the topic.
+## What belongs in the layer
 
-## Key Components
+| Object | Required fields | Used by |
+|--------|-----------------|---------|
+| Account | ICP score, tier, owner | List, ABM, forecast |
+| Person | Verified email, role, suppression | Send, compliance |
+| Signal | Type, source, date | First line, priority |
+| Touch | Channel, time, disposition | Sequence, coaching |
+| Outcome | Meeting held, opp, close | Score of the motion |
 
-- Component 1
-- Component 2
-- Component 3
+Stale contact data costs B2B teams an estimated 15-25% of revenue [301]. One in four GTM leaders do not trust that CRM data is current [301]. Trust is an engineering problem before it is a pep-talk problem.
 
-## Implementation
+## Design rules
 
-Steps to implement:
-1. Step one
-2. Step two
-3. Step three
+1. **One writer per field.** If SDR and marketing both write "stage," you have two stages.
+2. **Signals expire.** A job-change older than 60 days is not a reason-to-reach.
+3. **Suppression is global.** ESP and CRM share the list or you will email a person who opted out.
+4. **Outcomes beat activity.** Store held meetings and accepted opps as first-class events.
 
-## Best Practices
+A modern stack has to pass data, not just collect tools. Average B2B teams run tools from 23 vendors [301]. Integration is the product.
 
-- Practice A
-- Practice B
-- Practice C
+## How this differs by stage
 
-## Example Artifact
+- **Seed.** HubSpot or Attio plus a sheet. Do not build a warehouse.
+- **Series A.** CRM as system of record, enrichment in, engagement out [305].
+- **Scale.** Warehouse plus reverse ETL. RevOps owns hygiene [302].
 
-```
-# Example code or configuration
-print("Hello, GTM Engineering")
-```
+## Failure modes
 
-> **Source:** GTM Engineering Handbook, 2026-08-27
+- **Two CRMs.** Marketing automation and sales CRM drift within a month.
+- **Enrichment without verification.** Bounce rates blow past 2% and take domains with them [331].
+- **Activity objects with no outcome objects.** You can see sends. You cannot see pipeline.
+- **Agent writes that bypass the schema.** Made-up titles land in production sequences.
 
-## Failure Modes and Mitigations
+## Agentic layer
 
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Misconfiguration | Medium | High | Use validation scripts |
-| Data drift | Low | Medium | Monitor schema changes |
-| Agent overreach | Low | High | Enforce guardrails |
+Agents may propose field updates. They may not invent emails or overwrite suppression. Validate every write against the schema before it reaches a sending tool. See [GTM OS architecture](/docs/agentic/gtm-os-architecture).
 
-## Standard Operating Procedure
+## Sources
 
-1. Define objective
-2. Gather data
-3. Execute skill
-4. Verify outcome
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) 
+- [301] ZoomInfo GTM tech stack, 2026. Source registry #301.
+- [302] ZoomInfo RevOps stack, 2026. Source registry #302.
+- [305] Gangly sales stack, 2026. Source registry #305.
+- [331] LeadHaste, 2026: bounce hygiene. Source registry #331.

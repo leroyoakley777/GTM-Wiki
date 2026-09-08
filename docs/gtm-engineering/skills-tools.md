@@ -1,62 +1,59 @@
 ---
-sidebar_position: 1
-title: Placeholder
-description: Placeholder for Placeholder.
+sidebar_position: 4
+title: Skills and Tools
+description: "GTM skills as versioned procedures: what to write down, how to test it, and when a tool should call it."
 status: active
-tags: [gtm-engineering]
-last_updated: 2026-08-30
+tags: [gtm-engineering, skills, tools]
+last_updated: 2026-09-08
 ---
 
-# Skills & Tools Development
+# Skills and Tools
 
-_Content coming soon._
+A GTM skill is a written procedure an agent or a human can run the same way twice. A tool is the function that procedure is allowed to call. Mixing them produces a prompt that "just figures it out" and a motion nobody can audit.
 
-## Overview
+See the human-facing skills in [Skills](/docs/skills) and the stack map in [Tools](/docs/tools).
 
-This section provides an overview of the topic.
+## What a skill file contains
 
-## Key Components
+| Block | Purpose |
+|-------|---------|
+| Goal | The outcome (held meeting, clean list) |
+| Inputs | Account, signal, caps |
+| Steps | Ordered, skippable only with a reason |
+| Stop conditions | Opt-out, bounce, human asked to stop |
+| Output schema | Fields the CRM will accept |
+| Test cases | Two good, two should-fail |
 
-- Component 1
-- Component 2
-- Component 3
+Outbound already has this shape on the [outbound skill](/docs/skills/outbound) page. Engineering's job is to keep that shape in version control so a prompt change is a pull request, not a Slack edit.
 
-## Implementation
+## Tool tiers
 
-Steps to implement:
-1. Step one
-2. Step two
-3. Step three
+Gangly's four layers still hold: data, engagement, intelligence, CRM [305]. Apollo plus HubSpot is enough to start. A Series A stack that adds engagement and conversation intelligence runs hundreds of dollars per seat per month [305]. Do not buy the fourth layer to cover a missing skill file.
 
-## Best Practices
+## How this differs by stage
 
-- Practice A
-- Practice B
-- Practice C
+- **Seed.** Skills live in the playbook. Tools are whatever the founder already logs into.
+- **Team.** Skills become files. Tools get API keys and caps.
+- **Scale.** Skills have owners. Tools have a budget and a retirement date.
 
-## Example Artifact
+## Failure modes
 
+- **Tool first.** Ross Rich's warning: people, then process, then technology. Most teams reverse it [337].
+- **Skill files that describe vibes.** "Be consultative" is not a step.
+- **Duplicate skills.** Three "write first line" prompts drift in a week.
+- **No should-fail tests.** The skill never learns what it must refuse.
+
+## Agentic layer
+
+```text
+Given a skill file and an account payload:
+- Refuse if inputs missing.
+- Run steps in order.
+- Write outputs to the schema only.
+- Stop on any suppression flag.
 ```
-# Example code or configuration
-print("Hello, GTM Engineering")
-```
 
-> **Source:** GTM Engineering Handbook, 2026-08-27
+## Sources
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Misconfiguration | Medium | High | Use validation scripts |
-| Data drift | Low | Medium | Monitor schema changes |
-| Agent overreach | Low | High | Enforce guardrails |
-
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute skill
-4. Verify outcome
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) 
+- [305] Gangly sales stack, 2026. Source registry #305.
+- [337] GTM Podcast: people, process, then technology. Source registry #337.

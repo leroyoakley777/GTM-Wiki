@@ -1,62 +1,63 @@
 ---
-sidebar_position: 1
-title: Placeholder
-description: Placeholder for Placeholder.
+sidebar_position: 3
+title: Model Orchestration
+description: "How to put models in a GTM motion without letting them send, invent signals, or skip the human gate."
 status: active
-tags: [gtm-engineering]
-last_updated: 2026-08-30
+tags: [gtm-engineering, agents, orchestration]
+last_updated: 2026-09-08
 ---
 
 # Model Orchestration
 
-_Content coming soon._
+Orchestration is the wiring that decides which model does which job, with which context, under which cap. It is not "add AI to outbound." Sending was never the bottleneck. Thinking per row was. Models help only when the list and the offer already work. See [Agentic Outbound](/docs/agentic/agentic-outbound).
 
-## Overview
+## Split of labor
 
-This section provides an overview of the topic.
+| Job | Model may | Human must |
+|-----|-----------|------------|
+| Draft reason-to-reach | Propose from a named source | Reject unsourced lines |
+| Fill Tier 2 template | Yes, under 125 words [327] | Spot-check a sample |
+| Tier 1 first line | Draft only | Approve before send |
+| Reply to a human | Draft | Send |
+| Pause a hot domain | Recommend | Own the pause |
+| Opt-out | Never argue | Honor same day |
 
-## Key Components
+Caps still apply: 25-30 cold sends per mailbox per day, warmup intact [331][333]. A faster drafter does not raise the mailbox cap.
 
-- Component 1
-- Component 2
-- Component 3
+## Harness rules
 
-## Implementation
+1. **Context is retrieved, not remembered.** Pull the account, the signal, the last touch.
+2. **Claims come from a allow-list.** No invented customer names.
+3. **Cost and latency have budgets.** A 40-second draft that misses the 15-minute reply window is a failed tool [17].
+4. **Logs are inspectable.** You cannot coach a black box.
 
-Steps to implement:
-1. Step one
-2. Step two
-3. Step three
+## How this differs by stage
 
-## Best Practices
+- **Seed.** One prompt, one human, no orchestration platform.
+- **Team.** A harness that enforces caps and suppression.
+- **Scale.** Model routing by task (research vs draft vs classify) and an examiner on writes. See [Examiner](/docs/agentic/examiner).
 
-- Practice A
-- Practice B
-- Practice C
+## Failure modes
 
-## Example Artifact
+- **Autonomous send.** The fastest way to burn a domain and a brand.
+- **Invented signals.** Personalization that is false earns worse than generic [329].
+- **One model for every job.** Classification and copy want different constraints.
+- **No kill switch.** When complaints approach 0.3%, the harness stops the send [17].
 
+## Agentic SOP
+
+```text
+1. Load account + named signal + suppression state.
+2. Draft only if signal source is present.
+3. Enforce length and banned phrases.
+4. Route Tier 1 to human approval.
+5. Write an audit row: prompt, output, decision.
 ```
-# Example code or configuration
-print("Hello, GTM Engineering")
-```
 
-> **Source:** GTM Engineering Handbook, 2026-08-27
+## Sources
 
-## Failure Modes and Mitigations
-
-| Failure Mode | Likelihood | Impact | Mitigation |
-|--------------|------------|--------|------------|
-| Misconfiguration | Medium | High | Use validation scripts |
-| Data drift | Low | Medium | Monitor schema changes |
-| Agent overreach | Low | High | Enforce guardrails |
-
-## Standard Operating Procedure
-
-1. Define objective
-2. Gather data
-3. Execute skill
-4. Verify outcome
-5. Iterate
-
-> **Source:** GTM OS Handbook, 2026-08-27 and GTM OS Blueprint (2026-07-29) 
+- [17] Instantly: reply speed, complaint caps. Source registry #17.
+- [327] Martal: short personalized mail. Source registry #327.
+- [329] Zeliq: false personalization. Source registry #329.
+- [331] LeadHaste: send caps. Source registry #331.
+- [333] Clay: warmup and inbox math. Source registry #333.
