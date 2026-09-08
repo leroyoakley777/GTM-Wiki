@@ -2,7 +2,7 @@
 title: Market Segmentation
 sidebar_position: 2
 status: active
-last_updated: 2026-09-04
+last_updated: 2026-09-08
 description: How B2B teams segment markets by adoption stage, firmographics, and need to pick a beachhead, size TAM SAM SOM, and map segments to GTM motion.
 tags: [segmentation, beachhead, TAM-SAM-SOM, targeting, ABM, positioning]
 ---
@@ -270,4 +270,23 @@ Maturity rule: pre-fit teams should exit Further Reading with one counted beachh
 | 21 | Hygiene | Re-verify technographic flags quarterly; stale warehouse/CRM flags pollute Tier 1 [12] | [12] |
 | 22 | Starvation test | If beachhead cannot carry 12-18 months pipe at realistic win rates, widen/replace; it is community not market [14][13] | [14][13] |
 ```
+
+---
+
+## Variants by company stage
+
+The same segmentation discipline applies at every stage, but the scope of what is countable and what the dominant bottleneck is shifts. Early teams must pick one beachhead and prove it. Scaleups must layer tiers and route by motion. Enterprises must tie each tier to a named owner, a comp model, and an attribution rule.
+
+The table below maps coverage to stage, reusing the worked math from this page. At each step the change is not the segmentation model, it is how many rows carry a distinct owner, play, and proof pack.
+
+| Company stage | Segmentable scope | Coverage tiering | Success gate |
+|---|---|---|---|
+| Pre-product / founder-led | One underserved niche | Owner = founder; single play; no tiers | 3 closed wins or 5 paid pilots in the niche [11] |
+| Early team (Series A–B) | One beachhead segment | Owner = 1–2 reps; Tier 1 vs long-tail | Beachhead SOM supports 12–18 months of pipeline [13][14] |
+| Mid-market (Series C+) | Beachhead plus one adjacent | Owners by tier; ABM 1-to-1 on Tier 1 | Two to three same-segment references in Tier 1 [20] |
+| Enterprise | Full tiered portfolio | Strategic / scaled / self-serve with named comps | 35%+ pipeline tied to a segment with attribution [16][12] |
+
+For example, a pre-product founder who names a single 500–2,000 employee SaaS beachhead on Salesforce plus a warehouse with a RevOps hire signal is not trying to fill 3,200 accounts at once; that founder stops at counting the one niche, then sizes it against 12–18 months of founder-capacity [13][14]. An enterprise holds the same taxonomy but routes Tier 1 strategic buying committees to field with 1-to-1 plays, Tier 2 to inside plus ABM lite, and Tier 3 long tail to digital plus self-serve, weighting resources toward Tier 1 so pipeline concentrates rather than diluting across front [16][17][18].
+
+The failure mode at every stage is the same. Over-segment early and no owner is accountable. Under-segment later and Tier 1 dollars spread evenly until nothing compounds [18][5]. The rule of three stages above catches both: each stage names the one gate that must hold before adding scope.
 
