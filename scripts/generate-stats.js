@@ -48,21 +48,34 @@ const sectionDirs = fs.readdirSync(DOCS, { withFileTypes: true })
     return walk(dir, dir).length > 0;
   });
 
-function summarizeDay(subjects) {
-  const shipped = subjects.filter((s) => /^docs:/.test(s)).length;
+function pageLabel(file) {
+  return file
+    .replace(/^docs\//, '')
+    .replace(/\.mdx?$/, '')
+    .replace(/\/index$/, '')
+    .replace(/^\d+-/, '')
+    .replace(/\/\d+-/g, '/');
+}
+
+function summarizeDay(subjects, files) {
   const ids = [...new Set(subjects.flatMap((s) => s.match(/IB-\d{3}/g) || []))];
+  const pages = [...new Set((files || []).filter((f) => /\.mdx?$/.test(f) && !/\/index\.mdx?$/.test(f)).map(pageLabel))];
   const parts = [];
-  if (shipped > 0) {
-    parts.push(`shipped ${shipped} reviewed page${shipped === 1 ? '' : 's'}`);
+  if (pages.length > 0) {
+    const shown = pages.slice(0, 4);
+    const extra = pages.length - shown.length;
+    parts.push(shown.join(', ') + (extra > 0 ? ` +${extra} more` : ''));
+  } else if (subjects.some((s) => /^docs:/.test(s))) {
+    parts.push('docs update');
   }
   if (ids.length > 0) {
-    parts.push(`advanced ${ids.join(', ')}`);
+    parts.push(ids.join(', '));
   }
   if (parts.length === 0) {
-    const first = subjects[0].replace(/^(fix|feat|research|chore):\s*/, '');
+    const first = subjects[0].replace(/^(fix|feat|research|chore|docs):\s*/i, '');
     parts.push(first.charAt(0).toLowerCase() + first.slice(1));
   }
-  const text = parts.join('; ');
+  const text = parts.join(' · ');
   return text.charAt(0).toUpperCase() + text.slice(1) + '.';
 }
 
@@ -70,36 +83,36 @@ function recentUpdates(prev) {
   try {
     const raw = execFileSync(
       'git',
-      ['log', '--date=short', '--pretty=format:%ad%x01%s', '-80', '--', 'docs/'],
+      ['log', '--date=short', '--pretty=format:===%ad%x01%s', '--name-only', '-80', '--', 'docs/'],
       { encoding: 'utf8', cwd: ROOT }
     ).trim();
     if (!raw) return prev;
     const byDate = new Map();
+    let current = null;
     for (const line of raw.split('\n')) {
-      const tab = line.indexOf('\x01');
-      if (tab < 0) continue;
-      const date = line.slice(0, tab);
-      const subject = line.slice(tab + 1);
-      if (!byDate.has(date)) byDate.set(date, []);
-      byDate.get(date).push(subject);
-    }
-    const generated = [...byDate.entries()]
-      .slice(0, 4)
-      .map(([date, subjects]) => ({ date, text: summarizeDay(subjects) }));
-    const previousByDate = new Map((Array.isArray(prev) ? prev : []).map((item) => [item.date, item]));
-    return generated.map((item) => {
-      const previous = previousByDate.get(item.date);
-      const generatedCount = item.text.match(/Shipped (\d+) reviewed pages?/i);
-      const previousCount = previous?.text.match(/Shipped (\d+) reviewed pages?/i);
-      if (generatedCount && previousCount && Number(previousCount[1]) > Number(generatedCount[1])) {
-        return previous;
+      if (line.startsWith('===')) {
+        const payload = line.slice(3);
+        const tab = payload.indexOf('\x01');
+        if (tab < 0) continue;
+        const date = payload.slice(0, tab);
+        const subject = payload.slice(tab + 1);
+        if (!byDate.has(date)) byDate.set(date, { subjects: [], files: [] });
+        current = byDate.get(date);
+        current.subjects.push(subject);
+        continue;
       }
-      return item;
-    });
+      if (current && line.startsWith('docs/')) {
+        current.files.push(line.trim());
+      }
+    }
+    return [...byDate.entries()]
+      .slice(0, 4)
+      .map(([date, { subjects, files }]) => ({ date, text: summarizeDay(subjects, files) }));
   } catch {
     return prev;
   }
 }
+
 
 let prev = { updates: [] };
 try {
@@ -118,7 +131,7 @@ const stats = {
   sections: String(sectionDirs.length),
   openSource: '100%',
   vendorDecks: '0',
-  generatedAt: new Date().toISOString().slice(0, 10),
+  generatedAt: new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }),
   updates,
 };
 

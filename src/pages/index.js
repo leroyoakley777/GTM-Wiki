@@ -64,7 +64,7 @@ import stats from './stats.json';
 
 export default function Home() {
   return (
-    <Layout title="GTM Wiki" description={`Open-source Go-to-Market resource for founders, operators, and builders. Last updated: ${stats.generatedAt}.`}>
+    <Layout description={`Open-source Go-to-Market resource for founders, operators, and builders. Last updated: ${stats.generatedAt}.`}>
       <div className="container">
         {/* HERO */}
         <header className="gtm-hero">
