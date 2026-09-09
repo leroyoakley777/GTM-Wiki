@@ -3,19 +3,15 @@
   "sections": "13",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-09",
   "updates": [
     {
       "date": "2026-09-08",
-      "text": "Abm, outbound, inbound, product led +75 more.",
+      "text": "Product led, inbound, product led, partner +50 more · IB-003.",
       "items": [
         {
-          "label": "abm",
-          "href": "/docs/case-studies/abm"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/channels/outbound"
+          "label": "product led",
+          "href": "/docs/case-studies/product-led"
         },
         {
           "label": "inbound",
@@ -30,16 +26,44 @@
           "href": "/docs/channels/partner"
         },
         {
+          "label": "events field",
+          "href": "/docs/channels/events-field"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/channels/referral-viral"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/data/gtm-metrics"
+        },
+        {
+          "label": "sales cycle benchmarks",
+          "href": "/docs/data/sales-cycle-benchmarks"
+        },
+        {
+          "label": "ads",
+          "href": "/docs/skills/ads"
+        },
+        {
+          "label": "revops",
+          "href": "/docs/skills/revops"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/case-studies/abm"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
           "label": "community led",
           "href": "/docs/channels/community-led"
         },
         {
           "label": "paid",
           "href": "/docs/channels/paid"
-        },
-        {
-          "label": "events field",
-          "href": "/docs/channels/events-field"
         },
         {
           "label": "abm",
@@ -86,36 +110,8 @@
           "href": "/docs/skills/messaging"
         },
         {
-          "label": "agentic gtm overview",
-          "href": "/docs/agentic/agentic-gtm-overview"
-        },
-        {
-          "label": "gtm os architecture",
-          "href": "/docs/agentic/gtm-os-architecture"
-        },
-        {
-          "label": "agentic stack",
-          "href": "/docs/agentic/agentic-stack"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/agentic/agentic-outbound"
-        },
-        {
-          "label": "guardrails and measurement",
-          "href": "/docs/agentic/guardrails-and-measurement"
-        },
-        {
-          "label": "agent vs human workflows",
-          "href": "/docs/agentic/agent-vs-human-workflows"
-        },
-        {
-          "label": "building a gtm copilot",
-          "href": "/docs/agentic/building-a-gtm-copilot"
-        },
-        {
-          "label": "saas buyer empathy idea",
-          "href": "/docs/agentic/saas-buyer-empathy-idea"
+          "label": "market segmentation",
+          "href": "/docs/data/market-segmentation"
         },
         {
           "label": "saas buyer empathy",
@@ -138,84 +134,40 @@
           "href": "/docs/agentic/examiner"
         },
         {
-          "label": "gtm os repo structure",
-          "href": "/docs/agentic/gtm-os-repo-structure"
-        },
-        {
           "label": "quality gate",
           "href": "/docs/agentic/quality-gate"
-        },
-        {
-          "label": "product led",
-          "href": "/docs/case-studies/product-led"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/case-studies/outbound"
-        },
-        {
-          "label": "community led",
-          "href": "/docs/case-studies/community-led"
-        },
-        {
-          "label": "referral viral",
-          "href": "/docs/case-studies/referral-viral"
-        },
-        {
-          "label": "referral viral",
-          "href": "/docs/channels/referral-viral"
         },
         {
           "label": "contributing",
           "href": "/docs/contributing"
         },
         {
-          "label": "conversion rate benchmarks",
-          "href": "/docs/data/conversion-rate-benchmarks"
-        },
-        {
-          "label": "gtm metrics",
-          "href": "/docs/data/gtm-metrics"
-        },
-        {
-          "label": "market segmentation",
-          "href": "/docs/data/market-segmentation"
-        },
-        {
-          "label": "funnel",
-          "href": "/docs/data/funnel"
-        },
-        {
-          "label": "pricing as gtm",
-          "href": "/docs/data/pricing-as-gtm"
-        },
-        {
-          "label": "outbound response rates",
-          "href": "/docs/data/outbound-response-rates"
-        },
-        {
-          "label": "sales cycle benchmarks",
-          "href": "/docs/data/sales-cycle-benchmarks"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/flows/agentic-outbound"
-        },
-        {
-          "label": "sales process meddpicc",
-          "href": "/docs/flows/sales-process-meddpicc"
-        },
-        {
-          "label": "buyers journey",
-          "href": "/docs/flows/buyers-journey"
-        },
-        {
           "label": "engagement flow",
           "href": "/docs/flows/engagement-flow"
         },
         {
-          "label": "gtm strategy framework",
-          "href": "/docs/foundations/gtm-strategy-framework"
+          "label": "intake capture",
+          "href": "/docs/process/intake-capture"
+        },
+        {
+          "label": "guardrails and measurement",
+          "href": "/docs/agentic/guardrails-and-measurement"
+        },
+        {
+          "label": "building a gtm copilot",
+          "href": "/docs/agentic/building-a-gtm-copilot"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/case-studies/outbound"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/case-studies/referral-viral"
+        },
+        {
+          "label": "outbound response rates",
+          "href": "/docs/data/outbound-response-rates"
         },
         {
           "label": "what is gtm",
@@ -226,32 +178,28 @@
           "href": "/docs/foundations/gtm-channels-bullseye"
         },
         {
-          "label": "icp definition",
-          "href": "/docs/foundations/icp-definition"
-        },
-        {
           "label": "gtm metrics",
           "href": "/docs/foundations/gtm-metrics"
         },
         {
-          "label": "revenue operations",
-          "href": "/docs/foundations/revenue-operations"
+          "label": "best marketing books",
+          "href": "/docs/library/best-marketing-books"
         },
         {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
+          "label": "customer onboarding",
+          "href": "/docs/playbooks/customer-onboarding"
         },
         {
-          "label": "competitive analysis",
-          "href": "/docs/foundations/competitive-analysis"
+          "label": "pricing",
+          "href": "/docs/skills/pricing"
         },
         {
-          "label": "brand as gtm",
-          "href": "/docs/foundations/brand-as-gtm"
+          "label": "abm",
+          "href": "/docs/skills/abm"
         },
         {
-          "label": "revenue architecture",
-          "href": "/docs/foundations/revenue-architecture"
+          "label": "seo",
+          "href": "/docs/skills/seo"
         },
         {
           "label": "ci cd",
@@ -276,54 +224,80 @@
         {
           "label": "skills tools",
           "href": "/docs/gtm-engineering/skills-tools"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "text": "Partner, conversion rate benchmarks, guardrails and measurement · IB-003.",
+      "items": [
+        {
+          "label": "partner",
+          "href": "/docs/channels/partner"
         },
         {
-          "label": "best marketing books",
-          "href": "/docs/library/best-marketing-books"
+          "label": "conversion rate benchmarks",
+          "href": "/docs/data/conversion-rate-benchmarks"
         },
         {
-          "label": "best sales books",
-          "href": "/docs/library/best-sales-books"
+          "label": "guardrails and measurement",
+          "href": "/docs/agentic/guardrails-and-measurement"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "text": "Product led · IB-007.",
+      "items": [
+        {
+          "label": "product led",
+          "href": "/docs/case-studies/product-led"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "text": "What is gtm, agentic outbound, pricing as gtm, positioning and messaging +6 more · IB-003, IB-004, IB-006.",
+      "items": [
+        {
+          "label": "what is gtm",
+          "href": "/docs/foundations/what-is-gtm"
         },
         {
-          "label": "customer onboarding",
-          "href": "/docs/playbooks/customer-onboarding"
+          "label": "agentic outbound",
+          "href": "/docs/agentic/agentic-outbound"
         },
         {
-          "label": "intake capture",
-          "href": "/docs/process/intake-capture"
+          "label": "pricing as gtm",
+          "href": "/docs/data/pricing-as-gtm"
         },
         {
-          "label": "prospecting",
-          "href": "/docs/skills/prospecting"
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
         },
         {
-          "label": "signals",
-          "href": "/docs/skills/signals"
+          "label": "revenue architecture",
+          "href": "/docs/foundations/revenue-architecture"
         },
         {
-          "label": "pricing",
-          "href": "/docs/skills/pricing"
+          "label": "agentic outbound",
+          "href": "/docs/flows/agentic-outbound"
         },
         {
-          "label": "abm",
-          "href": "/docs/skills/abm"
+          "label": "outbound",
+          "href": "/docs/flows/outbound"
         },
         {
-          "label": "seo",
-          "href": "/docs/skills/seo"
+          "label": "agentic stack",
+          "href": "/docs/agentic/agentic-stack"
         },
         {
-          "label": "ads",
-          "href": "/docs/skills/ads"
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
         },
         {
-          "label": "revops",
-          "href": "/docs/skills/revops"
-        },
-        {
-          "label": "gtm tools overview",
-          "href": "/docs/tools/gtm-tools-overview"
+          "label": "events field",
+          "href": "/docs/channels/events-field"
         }
       ]
     }
