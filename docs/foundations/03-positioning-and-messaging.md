@@ -4,7 +4,7 @@ sidebar_position: 3
 description: "How to define positioning that puts your unique strengths at the center, then translate it into messaging that resonates across every buyer touchpoint."
 status: active
 tags: [foundations, positioning, messaging]
-last_updated: 2026-09-08
+last_updated: 2026-09-10
 ---
 
 # Positioning and Messaging
@@ -302,6 +302,29 @@ the messaging failed.
 Battlecards older than 90 days are liabilities. Assign ownership.
 Update on every competitive win and loss. Sales reps ignore stale
 cards, and they should.
+
+## Variants by company stage
+
+Positioning and messaging get assembled differently as a company
+grows. The frameworks stay the same. What changes is the size of the
+buyer set, the evidence you can offer, and how much of the work one
+or two people can carry.
+
+| Stage | Buyer set | Primary differentiator | Evidence | Messaging owner |
+|---|---|---|---|---|
+| Seed / founder-led | One early segment | Founder insight and speed | Customer interviews, live product | Founder |
+| Early team (Series A-B) | One to two segments | Product depth against incumbents | Early logos, reference calls | Founder plus first marketer |
+| Mid-market (Series C+) | Segments with distinct budgets | Category leadership | Named customers, benchmark data | Marketing lead owns the doc |
+| Enterprise / platform | Many buying personas and geos | Full category and ecosystem frame | Analyst reports, proof points per persona | Dedicated messaging program |
+
+A seed founder who builds a five-person messaging program before the
+first ten customers drowns in process they do not need. An enterprise
+marketer who treats positioning as a one-off workshop leaves every
+regional buyer with a frame built for a different market. Match the
+scope to the stage: run the full workshop when the betting is large,
+keep the statement in a single page while the founder carries the
+pitch, and enforce one source of truth the moment a second person
+touches customer-facing copy.
 
 ## Cross-References
 

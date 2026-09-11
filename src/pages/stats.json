@@ -3,8 +3,18 @@
   "sections": "13",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-10",
   "updates": [
+    {
+      "date": "2026-09-09",
+      "text": "Outbound response rates · IB-003.",
+      "items": [
+        {
+          "label": "outbound response rates",
+          "href": "/docs/data/outbound-response-rates"
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "text": "Product led, inbound, product led, partner +50 more · IB-003.",
@@ -252,52 +262,6 @@
         {
           "label": "product led",
           "href": "/docs/case-studies/product-led"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-05",
-      "text": "What is gtm, agentic outbound, pricing as gtm, positioning and messaging +6 more · IB-003, IB-004, IB-006.",
-      "items": [
-        {
-          "label": "what is gtm",
-          "href": "/docs/foundations/what-is-gtm"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/agentic/agentic-outbound"
-        },
-        {
-          "label": "pricing as gtm",
-          "href": "/docs/data/pricing-as-gtm"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
-        },
-        {
-          "label": "revenue architecture",
-          "href": "/docs/foundations/revenue-architecture"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/flows/agentic-outbound"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/flows/outbound"
-        },
-        {
-          "label": "agentic stack",
-          "href": "/docs/agentic/agentic-stack"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/channels/outbound"
-        },
-        {
-          "label": "events field",
-          "href": "/docs/channels/events-field"
         }
       ]
     }
