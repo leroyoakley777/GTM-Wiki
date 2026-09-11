@@ -6,6 +6,16 @@
   "generatedAt": "2026-09-10",
   "updates": [
     {
+      "date": "2026-09-10",
+      "text": "Positioning and messaging · IB-003.",
+      "items": [
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        }
+      ]
+    },
+    {
       "date": "2026-09-09",
       "text": "Outbound response rates · IB-003.",
       "items": [
@@ -252,16 +262,6 @@
         {
           "label": "guardrails and measurement",
           "href": "/docs/agentic/guardrails-and-measurement"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-06",
-      "text": "Product led · IB-007.",
-      "items": [
-        {
-          "label": "product led",
-          "href": "/docs/case-studies/product-led"
         }
       ]
     }

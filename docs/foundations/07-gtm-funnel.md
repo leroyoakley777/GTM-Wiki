@@ -2,7 +2,7 @@
 title: GTM Funnel
 sidebar_position: 7
 status: active
-last_updated: 2026-09-04
+last_updated: 2026-09-10
 description: The GTM funnel maps the buyer journey from awareness to expansion with measurable stages and conversion benchmarks.
 tags: [funnel, metrics, buyer-journey, conversion]
 ---
@@ -275,6 +275,51 @@ funnel models per motion with a roll-up to the company north star.
 **Ignoring post-sale stages**: Funnels that stop at close-won miss
 half the revenue. Fix it by treating onboarding, adoption,
 expansion, and advocacy as funnel stages with equal rigor.
+
+## Variants by company stage
+
+The funnel framework stays the same as a company grows. What changes
+is who owns each stage, how many motions you instrument, and which
+benchmark you fight for first. The table below maps each stage to the
+funnel shape it should run [3][4][5].
+
+| Company stage | Funnel shape | Primary owner | First benchmark to fix |
+|---|---|---|---|
+| Seed / founder-led | One motion, one segment, six stages | Founder | Top-of-funnel conversion |
+| Early team (Series A-B) | One product-led or sales-led motion | Founder-sales plus first marketer | Time-to-value |
+| Mid-market (Series C+) | Two to three motions, per-segment roll-up | RevOps owns SLAs and dashboards | Stage velocity versus SLA |
+| Enterprise | Separate funnel per motion and region | Dedicated funnel program | Forecast accuracy |
+
+A seed founder ships a single funnel with one line from awareness
+through expansion. The founder is the SDR, the AE, and the CSM, so
+handoff SLAs add process without value. Nail the entry and exit
+criteria first, then instrument the top of the funnel, where the leak
+is largest [3].
+
+An early team splits ownership between founder-led sales and a first
+marketer. Founder-led deals convert higher at the bottom of the
+funnel; the marketing motion feeds the top. At this stage the funnel
+begins to act as a shared language, but keep it to one motion until a
+second segment proves out [4].
+
+A mid-market team runs two to three motions and rolls each up to the
+company north star. RevOps owns the SLAs, the CRM fields, and the
+dashboards, because the funnel is now the operating system, not a
+reporting artifact [2][5]. Enforce the SLAs in the Ownership and SLAs
+section above; a stage without an enforced handoff acquires a leak you
+cannot see [8].
+
+An enterprise team builds a separate funnel per motion and region, then
+rolls each back to a single forecast. Reading one benchmark in
+isolation is dangerous here: the SQL-to-opportunity rate means nothing
+without its conversion table and cohort history. The gate becomes
+forecast accuracy, not any single stage number [10][11].
+
+The failure mode at every stage is adopting the funnel your neighbor
+runs instead of the one your motion needs. A seed team that copies an
+enterprise SLA matrix chokes on process. An enterprise team that runs
+one SMB funnel buries regional and motion signals. Match the funnel to
+the stage and instrument what you own.
 
 ## Example Artifact
 
