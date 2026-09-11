@@ -2,8 +2,8 @@
 sidebar_position: 2
 title: Outbound from Zero
 description: "The full-depth playbook for standing up a cold-outbound motion from nothing: sequence contract, day-by-day cadence, deliverability setup, budget math, objections, a worked build, and the agentic SOP."
-last-updated: 2026-09-08
-last_updated: 2026-09-08
+last-updated: 2026-09-11
+last_updated: 2026-09-11
 status: active
 tags: [outbound, playbook, cold-email, sdr, deliverability, agentic]
 domain: playbooks
@@ -440,6 +440,56 @@ vendor source).
 - **Skipping domain warmup**: deliverability dies, and the domain is burned forever.
 - **Treating a 3% reply rate as failure**: it's the normal baseline ([Woodpecker, 2026](https://woodpecker.co/blog/cold-email-statistics/)). Chase reply *rate via personalization*, not by sending more of the same.
 - **Measuring sends instead of meetings**: the score is pipeline, not volume.
+
+---
+
+## Variants by company stage and maturity
+
+The steps on this playbook stay the same at every stage. What changes is
+the bottleneck that blocks you, the volume you can safely run, and the
+metric that proves the motion works.
+
+| Company stage | What you run | Bottleneck | Success gate |
+|---|---|---|---|
+| Seed / founder-led | Single channel, founder-drafted copy, 25–50 sends/day per domain | Founder time | Reply rate above 3.43% (Woodpecker, 2026) and you handle every reply within 5 minutes |
+| Early team (Series A–B) | Email plus one more touch, one SDR owning the loop | Channel mix | Multi-channel reply moves toward 15–25% (Autobound, 100+ SaaS teams) |
+| Mid-market (Series C+) | Full sequence at volume, paid tooling, deliverability discipline | Domain reputation | Delivery holds at 97%+ (Instantly, 2026); meetings land at 3–10 per 1,000 sends |
+| Enterprise / mature | Signal-triggered rows with reasons-to-reach, agent-assisted reply triage | Attribution discipline | The motion closes enough pipeline per rep to beat quota, not just produce replies |
+
+A seed founder sends 25–50 cold emails per day from a personal domain
+and writes every message by hand. The 3.43% average reply rate
+(Woodpecker, 2026) is the ceiling, because the founder reads every reply
+and cannot scale volume faster than response time. The fix is not a
+higher send count, it is a second touch added only after the first one
+proves.
+
+An early team adds LinkedIn or a call touch to the sequence. The
+documented lift from multi-channel is 15–25% reply rate (Autobound, 100+
+SaaS teams), several times the single-channel baseline. The bottleneck
+shifts from "can we get replies" to "do we have channel variety." One
+SDR owns the whole loop, so the gate is throughput per person, not
+absolute volume.
+
+A mid-market team sends thousands of emails per day across several
+domains. Now the 97%+ delivery gate (Instantly, 2026) becomes urgent: a
+burned domain wipes out the entire funnel. Warmup, sender reputation,
+and the 25–50 sends/day per-domain cap matter more than any copy change.
+The meetings-per-1,000-sends metric (3–10 healthy range, Instantly 2025)
+replaces reply rate as the operational dial.
+
+An enterprise team triggers on signals (job changes, funding, website
+visits) rather than cold spray. The reply benchmark drops as the list
+tightens, but meetings per 1,000 sends stay inside the healthy band
+because each row carries a reason-to-reach. At this scale the gate is
+not reply rate, it is whether the motion produces enough pipeline per
+rep value to clear quota, and reply triage moves to an agent use with human
+approval of hot replies.
+
+The failure mode at every stage is the same mistake: running more of one
+channel instead of adding a distinct touch. A seed founder stacking a
+second email sequence is a domain risk, not a growth play. An enterprise
+adding a seventh channel without attribution is noise, not motion. Name
+your stage, then obey the success gate in its row.
 
 ---
 
