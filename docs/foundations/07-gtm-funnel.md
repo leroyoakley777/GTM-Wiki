@@ -2,7 +2,7 @@
 title: GTM Funnel
 sidebar_position: 7
 status: active
-last_updated: 2026-09-10
+last_updated: 2026-09-12
 description: The GTM funnel maps the buyer journey from awareness to expansion with measurable stages and conversion benchmarks.
 tags: [funnel, metrics, buyer-journey, conversion]
 ---
@@ -410,10 +410,10 @@ STAGE: Advocacy
 
 ## Further Reading
 
-- [ICP Definition](/docs/foundations/icp-definition)
-- [GTM Metrics](/docs/foundations/gtm-metrics)
-- [Revenue Operations](/docs/foundations/revenue-operations)
-- [Buyers Journey](/docs/flows/buyers-journey)
-- [Sales Process MEDDPICC](/docs/flows/sales-process-meddpicc)
-- [Conversion Rate Benchmarks](/docs/data/conversion-rate-benchmarks)
-- [Funnel Data](/docs/data/funnel)
+- [ICP Definition](../foundations/icp-definition)
+- [GTM Metrics](../foundations/gtm-metrics)
+- [Revenue Operations](../foundations/revenue-operations)
+- [Buyers Journey](../flows/buyers-journey)
+- [Sales Process MEDDPICC](../flows/sales-process-meddpicc)
+- [Conversion Rate Benchmarks](../data/conversion-rate-benchmarks)
+- [Funnel Data](../data/funnel)

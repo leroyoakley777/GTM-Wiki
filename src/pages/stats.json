@@ -3,8 +3,18 @@
   "sections": "13",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-11",
+  "generatedAt": "2026-09-12",
   "updates": [
+    {
+      "date": "2026-09-11",
+      "text": "Outbound from zero · IB-003.",
+      "items": [
+        {
+          "label": "outbound from zero",
+          "href": "/docs/playbooks/outbound-from-zero"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "text": "Gtm funnel, positioning and messaging · IB-003.",
@@ -248,24 +258,6 @@
         {
           "label": "skills tools",
           "href": "/docs/gtm-engineering/skills-tools"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-07",
-      "text": "Partner, conversion rate benchmarks, guardrails and measurement · IB-003.",
-      "items": [
-        {
-          "label": "partner",
-          "href": "/docs/channels/partner"
-        },
-        {
-          "label": "conversion rate benchmarks",
-          "href": "/docs/data/conversion-rate-benchmarks"
-        },
-        {
-          "label": "guardrails and measurement",
-          "href": "/docs/agentic/guardrails-and-measurement"
         }
       ]
     }
