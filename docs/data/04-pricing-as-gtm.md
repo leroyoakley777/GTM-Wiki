@@ -4,7 +4,7 @@ title: Pricing as a GTM Lever
 description: "Why pricing is a go-to-market lever, not a finance decision: value metric, packaging, discounting, and expansion pricing numbers that shape win rate and LTV."
 status: active
 tags: ['data', 'pricing', 'gtm']
-last_updated: 2026-09-05
+last_updated: 2026-09-13
 ---
 
 # Pricing as a GTM Lever
@@ -47,6 +47,20 @@ The metric is the realization ceiling. If it is wrong, no amount of discounting 
 | Consumption | Pay-per-event or pay-per-output | Forecasting becomes harder for the buyer |
 
 The per-seat model is losing its value link. When agents let a support team handle 3x volume at the same headcount, per-seat billing charges the same for tripled output. Consumption and outcome models solve this by attaching price to output, not headcount.
+
+### Variants by company stage and maturity
+
+Pricing changes shape as the business moves through stages. The model that works at seed price breaks at growth. The discipline that holds at scale is overkill for a first motion. Match the pricing system to the stage you are in, not the stage you are moving toward [270].
+
+**Seed (first customers, message-market fit).** Keep the model simple and change it often. You have no expansion base and no discount history. Charge for the value metric you believe in, prove it on the first closed-won accounts, and treat list price as a hypothesis. A pricing change is a growth decision, not a finance decision, because every early customer teaches you what the value metric should be [270][89].
+
+**Early traction (first repeatable motion).** This is where discount discipline starts to matter. The five-to-twenty-percent band becomes a guardrail once deals repeat; anything over 40% off stops closing marginal deals and starts shrinking existing ones [104]. Pick one packaging model, usually good-better-best, because 40.8% of B2B SaaS companies use it as their dominant approach and it maps to how buyers compare options [89].
+
+**Growth stage (land-and-expand, multiple segments).** Add the expansion path before the first contract signs. The expansion revenue rate for healthy companies sits at 10-30%, and the top performers exceed 60% of new MRR from expansion [212]. Net revenue retention median sits near 102% [212]. At this stage the pricing system must reward the behavior you want: annual prepay at 15-20% off for commitment, usage or outcome metrics for agent-driven volume, and a published rate card so renewals do not renegotiate from zero [104][270].
+
+**Scale stage (multiple segments, enterprise motions).** The pricing system fragments by segment, the way the revenue architecture does. A self-serve motion anchors on the $702 CAC floor; a sales-led motion carries the $11,400 ceiling [209]. That 16x spread means one pricing model cannot serve both. Consumption and outcome billing replace per-seat for agent-heavy usage, and the comp plan must tie discount authority to margin instead of quota date so late-quarter discounts of 35-37% do not erode the list [270][104].
+
+Maturity is the same axis from the other end. A seed team that files pricing away as done stalls against faster learners. A scale team that keeps one broad pricing model across segments dilutes every deal for every buyer. The stage and maturity dimensions describe the same movement: pricing as a system you redesign deliberately, not a list you set once [270][102].
 
 ## Layer 2: Packaging
 
