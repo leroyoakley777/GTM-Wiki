@@ -3,8 +3,18 @@
   "sections": "13",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-14",
   "updates": [
+    {
+      "date": "2026-09-13",
+      "text": "Pricing as gtm · IB-003.",
+      "items": [
+        {
+          "label": "pricing as gtm",
+          "href": "/docs/data/pricing-as-gtm"
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "text": "Gtm funnel · IB-003.",
@@ -36,16 +46,6 @@
         {
           "label": "positioning and messaging",
           "href": "/docs/foundations/positioning-and-messaging"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-09",
-      "text": "Outbound response rates · IB-003.",
-      "items": [
-        {
-          "label": "outbound response rates",
-          "href": "/docs/data/outbound-response-rates"
         }
       ]
     }

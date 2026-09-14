@@ -4,7 +4,7 @@ title: GTM Operating System Architecture
 description: The 4-layer architecture of the GTM OS, showing how models, harness, skills, and tools compose into a governed whole.
 tags: [architecture, gtm-os, layers, harness, skills, tools, system-design]
 status: active
-last_updated: 2026-08-30
+last_updated: 2026-09-14
 ---
 
 # GTM Operating System Architecture
@@ -83,8 +83,51 @@ The GTM OS is built as a **4-layer architecture**, where each layer has a distin
 4. **Replaceability:** Every component is replaceable without loss of state because state lives in the files/ledger, not in the components themselves.
 5. **Agentic alignment:** The architecture mirrors how humans work-models reason, harness orchestrates, skills are playbooks, tools are the systems we use.
 
+## Variants by company stage
+
+The four-layer architecture stays the same as a company grows. What
+changes is where the effort concentrates and how much autonomy each
+layer can hold. A seed founder runs the whole stack by hand. An
+enterprise formalizes each layer for a team.
+
+| Company stage | First layer to build | Bottleneck layer | Autonomy granted | Example configuration |
+|---|---|---|---|---|
+| Seed / founder-led | Layer 4 (tools and files) | Layer 2 (harness) | Human-in-the-loop only | One model, CRM as the single file home |
+| Early team (Series A-B) | Layer 3 (skills) | Layer 4 (context budget) | Bounded autonomy on one motion | Two models, a scoring skill, one playbook |
+| Mid-market (Series C+) | Layer 2 rules and limits | Layer 3 (skill sprawl) | Autonomy on repeatable lanes | Model tiering, role-level skills, enforced limits |
+| Enterprise | Layer 3 governance, Layer 2 audit | Layer 1 (model cost) | Escalated autonomy with review | Multi-model routing, per-team skills, quarterly audit |
+
+A seed founder concentrates the stack in the tools and files layer. One
+model drafts, tags, and updates the CRM. Keep the harness minimal here:
+orchestration adds process no one is available to run. Build a single
+linear lane until a second motion proves out.
+
+An early team adds a skills layer first. A scoring skill and one
+playbook turn the founder's judgment into repeatable steps. Watch the
+context budget at this stage. Each skill loaded competes for the same
+window, so keep skills short and load them on demand.
+
+A mid-market team has multiple motions to run, so the harness rules
+and limits carry the load. Enforce the cost, time, and iteration
+boundaries in Layer 2, and grant autonomy on lanes that already ran
+correctly by hand. The failure mode is skill sprawl: fifty skills with
+overlapping intent, none of them authoritative.
+
+An enterprise team splits governance from execution. Layer 3 defines
+per-team skills and role boundaries, has run under review, then a
+quarterly audit grants more autonomy or revokes it. Route work across
+models by cost of being wrong rather than by habit. The other failure
+mode is model cost creeping up because mid-tier work runs on the
+strongest model.
+
+The line at every stage is the same as the autonomy ladder: grant
+autonomy only after the lane earned it under human review. Match the
+layer emphasis to the stage, and the architecture scales without
+adding process ahead of value.
+
 ## Related Pages
 
+- [Agentic GTM Overview](./agentic-gtm-overview): How the pillars map to the operating system this architecture runs
 - [Engagement Flow](../flows/engagement-flow.md): Shows how dispositions flow through the layers
 - [Examiner Deep Dive](./examiner.md): Shows how the examiner uses the ledger to validate changes
 - [Autonomy Ladder](./autonomy-ladder.md): Shows how agents earn and lose autonomy across layers
