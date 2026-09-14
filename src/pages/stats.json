@@ -6,6 +6,16 @@
   "generatedAt": "2026-09-14",
   "updates": [
     {
+      "date": "2026-09-14",
+      "text": "Gtm os architecture · IB-003.",
+      "items": [
+        {
+          "label": "gtm os architecture",
+          "href": "/docs/agentic/gtm-os-architecture"
+        }
+      ]
+    },
+    {
       "date": "2026-09-13",
       "text": "Pricing as gtm · IB-003.",
       "items": [
@@ -32,20 +42,6 @@
         {
           "label": "outbound from zero",
           "href": "/docs/playbooks/outbound-from-zero"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-10",
-      "text": "Gtm funnel, positioning and messaging · IB-003.",
-      "items": [
-        {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
         }
       ]
     }
