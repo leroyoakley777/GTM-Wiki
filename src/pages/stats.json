@@ -6,6 +6,16 @@
   "generatedAt": "2026-09-15",
   "updates": [
     {
+      "date": "2026-09-15",
+      "text": "Inbound · IB-007.",
+      "items": [
+        {
+          "label": "inbound",
+          "href": "/docs/channels/inbound"
+        }
+      ]
+    },
+    {
       "date": "2026-09-14",
       "text": "Gtm os architecture · IB-003.",
       "items": [
@@ -32,16 +42,6 @@
         {
           "label": "gtm funnel",
           "href": "/docs/foundations/gtm-funnel"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-11",
-      "text": "Outbound from zero · IB-003.",
-      "items": [
-        {
-          "label": "outbound from zero",
-          "href": "/docs/playbooks/outbound-from-zero"
         }
       ]
     }
