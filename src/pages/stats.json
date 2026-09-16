@@ -6,6 +6,16 @@
   "generatedAt": "2026-09-16",
   "updates": [
     {
+      "date": "2026-09-16",
+      "text": "Gtm metrics · IB-007.",
+      "items": [
+        {
+          "label": "gtm metrics",
+          "href": "/docs/data/gtm-metrics"
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "text": "Outbound response rates, inbound · IB-007.",
       "items": [
@@ -36,16 +46,6 @@
         {
           "label": "pricing as gtm",
           "href": "/docs/data/pricing-as-gtm"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-12",
-      "text": "Gtm funnel · IB-003.",
-      "items": [
-        {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
         }
       ]
     }

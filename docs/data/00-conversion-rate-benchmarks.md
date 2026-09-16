@@ -2,7 +2,7 @@
 sidebar_position: 0
 title: Conversion Rate Benchmarks
 description: Baseline conversion rates for every bowtie stage (visitor to lead, lead to MQL, MQL to SQL, SQL to opportunity, opportunity to closed-won, trial to paid) with named dated sources, the compounding math, how to read each rate, common mistakes, a worked example, and the agentic tracking SOP.
-last_updated: 2026-09-07
+last_updated: 2026-09-16
 status: active
 tags: [conversion, benchmarks, funnel, bowtie, growth-formula, data]
 domain: data
@@ -16,14 +16,14 @@ This page pairs with the [GTM Metrics](../foundations/gtm-metrics) foundation, w
 
 Read the [Funnel](../data/funnel) data page for the stage definitions this table assumes.
 
-**Source rule, stated once, applies everywhere on this page:** sources define stages differently, especially MQL and SQL. Numbers below are presented as ranges with a named basis. Say "reported 13% (Salesforce 2024)", never "MQL to SQL is 13%". Every figure carries a source link and an "as of" date in the [Sources](#sources) section.
+**Source rule, stated once, applies everywhere on this page:** sources define stages differently, especially MQL and SQL. Numbers below are presented as ranges with a named basis. Say "reported 13% (Salesforce 2024) [1]", never "MQL to SQL is 13%". Every figure carries a source link, a footnote, and an "as of" date in the [Sources](#sources) section.
 
 ---
 ## Bottleneck to fix first
 
 **MQL to SQL (13%) is the largest, most consistent leak across B2B SaaS.**
 
-Salesforce's [State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025) (5,500 sales professionals, 27 countries) reports 13%. Landbase's [Lead Qualification Statistics 2026](https://www.landbase.com/blog/lead-qualification-statistics) lands on 13% as well. thedigitalbloom's [2025 roundup](https://thedigitalbloom.com/learn/pipeline-performance-benchmarks-2025/) widens the range to 15–21%.
+Salesforce's [State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025) (5,500 sales professionals, 27 countries) reports 13% [1]. Landbase's [Lead Qualification Statistics 2026](https://www.landbase.com/blog/lead-qualification-statistics) lands on 13% as well [2]. thedigitalbloom's [2025 roundup](https://thedigitalbloom.com/learn/pipeline-performance-benchmarks-2025/) widens the range to 15–21% [3].
 
 This is where pipeline value dies. You can pour more top-of-funnel volume in all day and it leaks out at this one transition. The cheapest, highest-use attack is better lead scoring plus intent data, not more volume.
 
@@ -123,7 +123,7 @@ common mistake is benchmarking a company against the wrong row and then
 "fixing" a stage that was already at its achievable ceiling.
 
 The exception to the top-funnel floor is the top 10% of performers, who run
-8–15% visitor to lead (PixelsWithin 2026). That band exists but is not typical,
+8–15% visitor to lead (PixelsWithin 2026) [8]. That band exists but is not typical,
 and it is usually earned by a tightly-articulated landing page plus a
 single, high-intent offer, not by more traffic.
 
@@ -133,7 +133,7 @@ The rates in the table are not interchangeable. Read each one against what it me
 
 ### Visitor to Lead (top-of-funnel, widest variance)
 
-This is the fraction of anonymous site visitors who become a known, captured lead (form fill, content download, demo request). The range is 1.4–2.6% typical, 4.5% top quartile (Ruler Analytics 2024), with the top 10% running 8–15% (PixelsWithin 2026 / First Page Sage). The spread is not noise: it is usually a positioning or landing-page problem, not a traffic problem. Before scaling traffic, check whether the page converts.
+This is the fraction of anonymous site visitors who become a known, captured lead (form fill, content download, demo request). The range is 1.4–2.6% typical, 4.5% top quartile (Ruler Analytics 2024) [4], with the top 10% running 8–15% (PixelsWithin 2026 / First Page Sage) [8][5]. The spread is not noise: it is usually a positioning or landing-page problem, not a traffic problem. Before scaling traffic, check whether the page converts.
 
 Company size cuts this roughly in half per tier, reported by First Page Sage / PixelsWithin:
 
@@ -149,11 +149,11 @@ A lead becomes an MQL when it matches your firmographic and behavioral fit rules
 
 ### MQL to SQL (the bottleneck)
 
-An MQL becomes an SQL when sales accepts it as worth pursuing. This is the transition where definitions diverge most, so treat the 13–21% range with care. The single biggest driver is whether you qualify actively. Landbase 2026 reports **qualified leads convert at ~40% vs ~11% unqualified**, a 4x gap. If you are not actively qualifying, you are feeding unqualified leads into a stage that rejects them.
+An MQL becomes an SQL when sales accepts it as worth pursuing. This is the transition where definitions diverge most, so treat the 13–21% range with care. The single biggest driver is whether you qualify actively. Landbase 2026 reports **qualified leads convert at ~40% vs ~11% unqualified** [2], a 4x gap. If you are not actively qualifying, you are feeding unqualified leads into a stage that rejects them.
 
 ### SQL to Opportunity and Opportunity to Closed-Won (bottom-funnel)
 
-These reflect sales execution and deal quality, not marketing. SQL to Opportunity 30–48% (Zeliq / First Page Sage / Ebsta-Pavilion 2024). Opportunity to Closed-Won 20–35%, with Ebsta/Pavilion reporting a 21% average that is down 4–6 points from 2021. Win rates have come down, so an older benchmark overstates the current number.
+These reflect sales execution and deal quality, not marketing. SQL to Opportunity 30–48% (Zeliq / First Page Sage / Ebsta-Pavilion 2024) [6][5][7]. Opportunity to Closed-Won 20–35%, with Ebsta/Pavilion reporting a 21% average that is down 4–6 points from 2021 [7]. Win rates have come down, so an older benchmark overstates the current number.
 
 ### Trial to Paid (PLG only)
 
@@ -173,7 +173,7 @@ A blended rate (e.g. "3% overall conversion") averages across segments and chann
 | Benchmarking against your own trend last | Panic over a quarterly dip | Compare against your own historical rate by channel and segment before touching the industry table |
 | Not segmenting before acting | Low aggregate rate leads to whole-funnel rework | Break it down by channel and company size. Often a mix problem, not a funnel problem |
 | Ignoring channel source mix | Top channel wins leads, loses deals | Track bottom-funnel quality per channel. Source mix matters more than raw lead volume |
-| Slow lead routing | Leads go cold while they wait | Route in the first hour. First-hour contact converts ~53% vs baseline (Data Mania via Landbase) |
+| Slow lead routing | Leads go cold while they wait | Route in the first hour. First-hour contact converts ~53% vs baseline (Data Mania via Landbase) [9] |
 | No active qualification | Unqualified leads flood MQL to SQL | Qualify actively. The rate quadruples (40% vs 11%, Landbase 2026) |
 | Chasing yesterday's win-rate | 21% (2024) benchmark looks like a miss | Recalibrate. Win rates are down 4–6 points from 2021 (Ebsta/Pavilion 2024) |
 
@@ -203,7 +203,7 @@ carry a benchmark forward, treat the "as of" date as part of the number.
 
 Rules that keep the table honest:
 
-1. **Date every source you quote.** "Reported 13% (Salesforce 2024)" is the
+1. **Date every source you quote.** "Reported 13% (Salesforce 2024) [1]" is the
    citation form. The year is load-bearing.
 2. **Prefer the newest report for any stage** when sources disagree, unless
    the older one is the more methodologically solid. Salesforce 2024 beats a
@@ -360,7 +360,7 @@ process. At Series A the first sales hire needs a scoring threshold (a lead is
 an SQL when it clears a 75-point score, not when marketing says so). At
 mid-market the handoff needs a CRM rule: any lead that hits 75 points routes
 to a rep within the first hour. First-hour contact converts ~53% vs baseline
-(Data Mania via [Landbase, 2026](https://www.landbase.com/blog/lead-qualification-statistics)).
+(Data Mania via [Landbase, 2026](https://www.landbase.com/blog/lead-qualification-statistics)) [9].
 
 **The scaling trap.** A rate that holds at 13% MQL-to-SQL for one stage breaks
 when the company doubles in size. Larger companies see more inbound volume
@@ -372,14 +372,15 @@ company size, then apply stage-specific scoring rules.
 
 ## Sources
 
-- [Ruler Analytics: Conversion Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): visitor-to-lead 2.6% average, 4.5% top quartile. Via Starr Conspiracy B2B Lead Gen Benchmarks 2025.
-- [Salesforce: State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): MQL to SQL 13%. 5,500 sales professionals, 27 countries.
-- [First Page Sage: B2B SaaS Funnel Conversion Benchmarks](https://firstpagesage.com/seo-blog/b2b-saas-funnel-conversion-benchmarks-fc/): industry and company-size tables (1.4% SMB visitor to lead, 36–47% lead to MQL, 36–48% SQL to opp, 31–43% close).
-- [PixelsWithin: B2B SaaS Conversion Benchmarks 2026](https://pixelswithin.com/b2b-saas-conversion-benchmarks-2026/): top 10% at 8–15% visitor to lead.
-- [Zeliq: B2B Conversion Rates by Industry](https://www.zeliq.com/blog/b2b-conversion-rates-by-industry): ranges including trial to paid (8–20% typical, 25–40% exceptional), SQL to opp 30–50%, close 20–35%.
-- [Landbase: Lead Qualification Statistics 2026](https://www.landbase.com/blog/lead-qualification-statistics): lead to MQL 31% average / 39% B2B SaaS. Qualified 40% vs 11% unqualified. Speed-to-lead: first-hour contact ~53%.
-- [thedigitalbloom: 2025 B2B SaaS Funnel Benchmarks](https://thedigitalbloom.com/learn/pipeline-performance-benchmarks-2025/): MQL to SQL 15–21%. Channel differentials: email 1.8%/46%, events 1.0%/24%/40%, PPC 0.7%/26%.
-- [Ebsta & Pavilion: B2B Sales Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): SQL to opp 47%, win rate 21% (down 4–6 points from 2021).
+- [1] [Salesforce: State of Sales 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): MQL to SQL 13%. 5,500 sales professionals, 27 countries (as of 2024).
+- [2] [Landbase: Lead Qualification Statistics 2026](https://www.landbase.com/blog/lead-qualification-statistics): lead to MQL 31% average / 39% B2B SaaS; qualified leads convert at 40% vs 11% unqualified; MQL to SQL 13% (as of 2026).
+- [3] [thedigitalbloom: 2025 B2B SaaS Funnel Benchmarks](https://thedigitalbloom.com/learn/pipeline-performance-benchmarks-2025/): MQL to SQL 15–21%. Channel differentials: email 1.8%/46%, events 1.0%/24%/40%, PPC 0.7%/26% (as of 2025).
+- [4] [Ruler Analytics: Conversion Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): visitor-to-lead 2.6% average, 4.5% top quartile. Via Starr Conspiracy B2B Lead Gen Benchmarks 2025 (as of 2024).
+- [5] [First Page Sage: B2B SaaS Funnel Conversion Benchmarks](https://firstpagesage.com/seo-blog/b2b-saas-funnel-conversion-benchmarks-fc/): industry and company-size tables (1.4% SMB visitor to lead, 36–47% lead to MQL, 36–48% SQL to opp, 31–43% close) (as of 2024).
+- [6] [Zeliq: B2B Conversion Rates by Industry](https://www.zeliq.com/blog/b2b-conversion-rates-by-industry): ranges including trial to paid (8–20% typical, 25–40% exceptional), SQL to opp 30–50%, close 20–35% (as of 2026).
+- [7] [Ebsta & Pavilion: B2B Sales Benchmark Report 2024](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-lead-generation-benchmarks-2025): SQL to opp 47%, win rate 21% (down 4–6 points from 2021) (as of 2024).
+- [8] [PixelsWithin: B2B SaaS Conversion Benchmarks 2026](https://pixelswithin.com/b2b-saas-conversion-benchmarks-2026/): top 10% at 8–15% visitor to lead; company size inverts the funnel (as of 2026).
+- [9] Data Mania (via Landbase, 2026): first-hour contact converts ~53% vs baseline (as of 2026).
 
 Research backing: `RESEARCH/gtm-wiki/CONVERSION_RATE_BENCHMARKS.md` (last-updated 2026-08-17).
 
