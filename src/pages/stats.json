@@ -3,12 +3,16 @@
   "sections": "13",
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "updates": [
     {
       "date": "2026-09-15",
-      "text": "Inbound · IB-007.",
+      "text": "Outbound response rates, inbound · IB-007.",
       "items": [
+        {
+          "label": "outbound response rates",
+          "href": "/docs/data/outbound-response-rates"
+        },
         {
           "label": "inbound",
           "href": "/docs/channels/inbound"
