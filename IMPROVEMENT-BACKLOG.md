@@ -30,6 +30,8 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
 | IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | `docs/case-studies/01-product-led.md` done; remaining docs listed in scan-slop output pending |
+
+> **TRACK (2026-09-15):** Owner lane footnoting the uncited-stat class today — `899424e2` (footnote uncited stats on `docs/channels/02-inbound.md`), `098c871f` (add footnote refs to `docs/data/05-outbound-response-rates.md`). Row stays OPEN (row touches multiple docs per SIP #12); one doc at a time is shipped live per the owner's continuous-deploy lane. Remaining docs from scan-slop output still pending.
 | IB-008 | Resolve scan-slop candidates: two-fragment contrast \"X is not Y. It is Z.\" | Medium | Medium | Multiple docs (see scan-slop output) |
 | IB-009 | Ensure every paragraph earns its place (Gate 4: Engaging) – remove filler, throat-clearing intros | Medium | Medium | All pages |
 | IB-010 | Ensure headings never open with \"The\" and name the concrete thing (Gate 2: Tasteful) | Low | Medium | All pages |
