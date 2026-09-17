@@ -136,19 +136,39 @@ body {
   color: var(--nous-ink);
 }
 
-/* ============ READING MEASURE ============ */
-/* Theme-classic caps the doc column at 75% with !important (>=997px, DocItem/Layout).
-   Theme module CSS loads after custom.css at equal specificity, so beat it with a
-   descendant selector (.main-wrapper is a stable Docusaurus wrapper). */
+/* ============ READING LAYOUT (round 2 — page-architecture spec) ============ */
+/* Content caps at 880px and travels WITH a fixed 260px TOC pane; the row
+   centers the cluster so wide viewports get symmetric margins, never a
+   one-sided hole. Type scale rises with viewport to keep the wider column
+   at ~85-92 chars. */
 @media (min-width: 997px) {
   .main-wrapper [class*='docItemCol'] {
-    /* ch units tie the cap to the measure target; 56ch in Inter 16px ≈ 72 chars/line measured */
-    max-width: min(75%, 56ch) !important;
+    flex: 1 1 auto;
+    max-width: min(880px, 100%) !important;
   }
-  /* the capped column frees row space — center the content+TOC cluster so the
-     leftover reads as balanced margins, not a hole on one side */
-  .main-wrapper .container > .row {
+  .main-wrapper .col.col--3:has(> [class*='theme-doc-toc-desktop']) {
+    flex: 0 0 260px;
+    max-width: 260px;
+  }
+  .main-wrapper [class*='docMainContainer'] .container > .row {
     justify-content: center;
+  }
+  /* the pane outline — promoted from TOC border to a defined component */
+  [class*='theme-doc-toc-desktop'] .table-of-contents {
+    border-left: 1px solid var(--nous-hairline-dark);
+    padding-left: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-wrapper [class*='docItemContainer'] .markdown {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main-wrapper [class*='docItemContainer'] .markdown {
+    font-size: 18px;
   }
 }
 
