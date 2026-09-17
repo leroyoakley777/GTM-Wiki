@@ -61,7 +61,7 @@
   "updates": [
     {
       "date": "2026-09-17",
-      "text": "Refresh generator outputs (stats updates + map date rollover).",
+      "text": "Ui: data hub benchmark table with named bases, freshness stamp (D1).",
       "items": []
     },
     {

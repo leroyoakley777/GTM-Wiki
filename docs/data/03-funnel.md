@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: Funnel Benchmarks
 description: How the funnel leaks stage by stage, with named and dated rates, the multiplicative leakage math that turns visitors into customers, how to read every stage healthy vs leaking, common mistakes and fixes, a worked diagnosis, and an agentic SOP for surfacing funnel health.
-last-updated: 2026-08-17
+last_updated: 2026-09-17
 status: active
 tags: [funnel, benchmarks, pipeline, leakage, conversion, mql, sql, agentic]
 domain: data
@@ -38,8 +38,8 @@ into.
 
 It is where marketing's leads either become pipeline or quietly die. Two
 independent sources land near the same point: SalesHive reports **13%**
-(B2B Digital Marketing Benchmarks, 2026) and MarketJoy reports **15%**
-midpoint on a 12–18% range (B2B Sales Pipeline Conversion Rates, 2024–25).
+(B2B Digital Marketing Benchmarks, 2026) [1] and MarketJoy reports **15%**
+midpoint on a 12–18% range (B2B Sales Pipeline Conversion Rates, 2024–25) [3].
 Raising MQL → SQL from 13% to 20% moves more pipeline than any
 top-of-funnel volume play, because every lead that clears this gate is worth
 more than the one that entered it. If you fix one stage, fix qualification.
@@ -94,8 +94,8 @@ rate, say *"reported 13% (SalesHive, 2026)"*, not *"MQL → SQL is 13%"*.
 Funnel math is multiplicative, so a small leak at one stage compounds
 through every stage below it. SalesHive's framing: **~100 marketing leads
 produce ~10 opportunities and ~2 deals** (10% lead-to-opportunity × 20% win
-rate, 2026). Kissmetrics' midpoint model shows ~80% drops at consecutive
-stages (Conversion Rate Benchmarks by Funnel Stage).
+rate, 2026) [2]. Kissmetrics' midpoint model shows ~80% drops at consecutive
+stages (Conversion Rate Benchmarks by Funnel Stage) [6].
 
 ### Worked example: 10,000 visitors to customers
 
@@ -123,7 +123,7 @@ protects every stage below it.
 ### 100 → 10 → 2 rule as a planning tool
 
 Set the stage math with sales before the quarter starts. Agree up front that
-the plan is **100 leads → 10 opportunities → 2 deals** (SalesHive, 2026). At
+the plan is **100 leads → 10 opportunities → 2 deals** (SalesHive, 2026) [2]. At
 pipeline review nobody is surprised, and you can see which stage broke the
 promise. If you booked 100 leads and got 3 deals, the answer is not "buy
 more leads"; it is which gate leaked.
@@ -159,7 +159,7 @@ A stage's health is not its rate: it is whether the rate is *moving* and
 ### MQL → SQL (13% SalesHive; 15% MarketJoy): the gate
 
 - **Healthy:** 13–21% for an average team. **Strong teams hit 30–40%** with
-  behavioral scoring and tight ICP coverage (SalesHive, 2026).
+  behavioral scoring and tight ICP coverage (SalesHive, 2026) [2].
 - **Leaking:** below ~10%. Almost always one of two causes: misaligned ICP
   definitions between marketing and sales, or low-intent lead generation.
   It is rarely lazy SDRs.
@@ -179,7 +179,7 @@ A stage's health is not its rate: it is whether the rate is *moving* and
 
 ### Opportunity → Close (22–30% SalesHive; 6–9% MarketJoy)
 
-- **Healthy:** 20–35% (First Page Sage / CausalFunnel). Bottom-funnel
+- **Healthy:** 20–35% (First Page Sage [4] / CausalFunnel [7]). Bottom-funnel
   converts better than intuition suggests: the leak is upstream in
   qualification, not here.
 - **Leaking:** if opportunities stall at close, check deal qualification
@@ -342,14 +342,14 @@ or above 30%.
 
 ## Sources
 
-- [SalesHive, B2B Digital Marketing Benchmarks for Lead Gen (2026)](https://saleshive.com/blog/b2b-lead-benchmarks-digital-marketing-gen): stage-by-stage rates (visitor→lead 2.3%, lead→MQL 31%, MQL→SQL 13%, SQL→opp 30–59%, opp→close 22–30%, cold call→meeting ~2.5%).
-- [SalesHive, Understanding the B2B Sales Funnel](https://saleshive.com/blog/understanding-the-b2b-sales-funnel): MQL→SQL ~15%, 100 leads → 10 opps → 2 deals, strong teams 30–40%.
-- [MarketJoy, B2B Sales Pipeline Conversion Rates (2024–25)](https://marketjoy.com/b2b-sales-pipeline-conversion-rates-marketjoy-data/): alternative stage boundaries (lead→MQL 22%, MQL→SQL 15%, SQL→opp 11%, opp→closed 7%).
-- [First Page Sage, B2B SaaS Funnel Conversion Benchmarks](https://firstpagesage.com/seo-blog/b2b-saas-funnel-conversion-benchmarks-fc/): opp→close 20–35%.
-- [First Page Sage, Sales Funnel Conversion Rate Benchmarks (2026)](https://firstpagesage.com/seo-blog/sales-funnel-conversion-rate-benchmarks-report/): by industry.
-- [Kissmetrics, Conversion Rate Benchmarks by Funnel Stage](https://kissmetrics.io/blog/conversion-rate-benchmarks): multiplicative ~80% drops at consecutive stages.
-- [CausalFunnel, 2026 B2B SaaS Funnel Conversion Benchmarks](https://www.causalfunnel.com/blog/b2b-saas-funnel-conversion-benchmarks-2026-data-insights/): opportunity → customer 30–40%.
-- [HiBob, Understanding your sales funnel conversion rates](https://www.hibob.com/blog/sales-funnel-conversion-rate/): funnel reference.
+- [1] [SalesHive, B2B Digital Marketing Benchmarks for Lead Gen (2026)](https://saleshive.com/blog/b2b-lead-benchmarks-digital-marketing-gen): stage-by-stage rates (visitor→lead 2.3%, lead→MQL 31%, MQL→SQL 13%, SQL→opp 30–59%, opp→close 22–30%, cold call→meeting ~2.5%).
+- [2] [SalesHive, Understanding the B2B Sales Funnel](https://saleshive.com/blog/understanding-the-b2b-sales-funnel): MQL→SQL ~15%, 100 leads → 10 opps → 2 deals, strong teams 30–40%.
+- [3] [MarketJoy, B2B Sales Pipeline Conversion Rates (2024–25)](https://marketjoy.com/b2b-sales-pipeline-conversion-rates-marketjoy-data/): alternative stage boundaries (lead→MQL 22%, MQL→SQL 15%, SQL→opp 11%, opp→closed 7%).
+- [4] [First Page Sage, B2B SaaS Funnel Conversion Benchmarks](https://firstpagesage.com/seo-blog/b2b-saas-funnel-conversion-benchmarks-fc/): opp→close 20–35%.
+- [5] [First Page Sage, Sales Funnel Conversion Rate Benchmarks (2026)](https://firstpagesage.com/seo-blog/sales-funnel-conversion-rate-benchmarks-report/): by industry.
+- [6] [Kissmetrics, Conversion Rate Benchmarks by Funnel Stage](https://kissmetrics.io/blog/conversion-rate-benchmarks): multiplicative ~80% drops at consecutive stages.
+- [7] [CausalFunnel, 2026 B2B SaaS Funnel Conversion Benchmarks](https://www.causalfunnel.com/blog/b2b-saas-funnel-conversion-benchmarks-2026-data-insights/): opportunity → customer 30–40%.
+- [8] [HiBob, Understanding your sales funnel conversion rates](https://www.hibob.com/blog/sales-funnel-conversion-rate/): funnel reference.
 
 **Research file:** the source for this page is
 `/Users/leroyoakley/.buzz/RESEARCH/gtm-wiki/FUNNEL_BENCHMARKS.md` (compiled
