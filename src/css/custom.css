@@ -142,12 +142,13 @@ body {
    descendant selector (.main-wrapper is a stable Docusaurus wrapper). */
 @media (min-width: 997px) {
   .main-wrapper [class*='docItemCol'] {
-    /* ch units tie the cap to the measure target; 50ch in Inter 16px ≈ 69 chars/line measured */
-    max-width: min(75%, 50ch) !important;
+    /* ch units tie the cap to the measure target; 56ch in Inter 16px ≈ 72 chars/line measured */
+    max-width: min(75%, 56ch) !important;
   }
-  /* the capped column frees row space — pin the desktop TOC to the right edge */
-  .main-wrapper .col.col--3:has(> [class*='theme-doc-toc-desktop']) {
-    margin-left: auto;
+  /* the capped column frees row space — center the content+TOC cluster so the
+     leftover reads as balanced margins, not a hole on one side */
+  .main-wrapper .container > .row {
+    justify-content: center;
   }
 }
 
