@@ -7,8 +7,12 @@
   "updates": [
     {
       "date": "2026-09-16",
-      "text": "Gtm metrics · IB-007.",
+      "text": "Conversion rate benchmarks, gtm metrics · IB-007.",
       "items": [
+        {
+          "label": "conversion rate benchmarks",
+          "href": "/docs/data/conversion-rate-benchmarks"
+        },
         {
           "label": "gtm metrics",
           "href": "/docs/data/gtm-metrics"
