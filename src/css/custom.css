@@ -226,10 +226,68 @@ body {
   background: transparent;
 }
 
-/* ============ TABLES — designed, not default ============ */
+/* ============ ADMONITIONS — flat left-rule blocks, no SaaS boxes ============ */
+.admonition {
+  border-radius: 0;
+  border: none;
+  border-left: 2px solid var(--nous-blue);
+  background: var(--nous-blue-soft);
+  box-shadow: none;
+  padding: 1rem 1.25rem;
+}
+
+.admonition [class*='admonitionHeading'] {
+  font-family: var(--nous-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--nous-ink);
+  margin-bottom: 0.5rem;
+}
+
+.admonition [class*='admonitionIcon'] {
+  display: none;
+}
+
+.admonition [class*='admonitionContent'] {
+  color: var(--nous-slate);
+  font-size: 0.95rem;
+}
+
+/* ============ SOURCES SECTION — mono metadata treatment ============ */
+.markdown h2[id='sources'] {
+  font-family: var(--nous-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+/* no dashed divider under the Sources heading — it is metadata, not prose */
+.markdown h2[id='sources']::after {
+  display: none;
+}
+
+.markdown h2[id='sources'] + ul li,
+.markdown h2[id='sources'] ~ ul li {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--nous-slate);
+}
+
+.markdown h2[id='sources'] + ul,
+.markdown h2[id='sources'] ~ ul {
+  font-size: 0.85rem;
+}
+
+/* ============ TABLES — horizontal scroll inside the measure ============ */
 .markdown table {
-  display: table;
+  display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
   border-collapse: collapse;
   font-size: 0.9rem;
   margin: 1.5rem 0;
