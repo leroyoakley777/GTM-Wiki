@@ -61,8 +61,13 @@
   "updates": [
     {
       "date": "2026-09-17",
-      "text": "Ui: data hub benchmark table with named bases, freshness stamp (D1).",
-      "items": []
+      "text": "Funnel.",
+      "items": [
+        {
+          "label": "funnel",
+          "href": "/docs/data/funnel"
+        }
+      ]
     },
     {
       "date": "2026-09-16",
