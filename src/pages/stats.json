@@ -61,8 +61,12 @@
   "updates": [
     {
       "date": "2026-09-17",
-      "text": "Funnel.",
+      "text": "Outbound, funnel · IB-007.",
       "items": [
+        {
+          "label": "outbound",
+          "href": "/docs/case-studies/outbound"
+        },
         {
           "label": "funnel",
           "href": "/docs/data/funnel"
