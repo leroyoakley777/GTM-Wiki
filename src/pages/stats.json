@@ -1,10 +1,69 @@
 {
   "pages": "80",
   "sections": "13",
+  "sectionCounts": [
+    {
+      "id": "agentic",
+      "pages": 15
+    },
+    {
+      "id": "case-studies",
+      "pages": 5
+    },
+    {
+      "id": "channels",
+      "pages": 9
+    },
+    {
+      "id": "copywriting",
+      "pages": 3
+    },
+    {
+      "id": "data",
+      "pages": 7
+    },
+    {
+      "id": "flows",
+      "pages": 5
+    },
+    {
+      "id": "foundations",
+      "pages": 11
+    },
+    {
+      "id": "gtm-engineering",
+      "pages": 6
+    },
+    {
+      "id": "library",
+      "pages": 2
+    },
+    {
+      "id": "playbooks",
+      "pages": 3
+    },
+    {
+      "id": "process",
+      "pages": 1
+    },
+    {
+      "id": "skills",
+      "pages": 9
+    },
+    {
+      "id": "tools",
+      "pages": 1
+    }
+  ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-17",
   "updates": [
+    {
+      "date": "2026-09-17",
+      "text": "Refresh generator outputs (stats updates + map date rollover).",
+      "items": []
+    },
     {
       "date": "2026-09-16",
       "text": "Conversion rate benchmarks, gtm metrics · IB-007.",
@@ -40,16 +99,6 @@
         {
           "label": "gtm os architecture",
           "href": "/docs/agentic/gtm-os-architecture"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-13",
-      "text": "Pricing as gtm · IB-003.",
-      "items": [
-        {
-          "label": "pricing as gtm",
-          "href": "/docs/data/pricing-as-gtm"
         }
       ]
     }

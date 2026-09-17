@@ -156,9 +156,16 @@ if (updates.length === 0 && prev.updates.length > 0) {
   updates.push(...prev.updates);
 }
 
+// Per-section page counts for the homepage cards (id = docs/ dir name).
+const sectionCounts = sectionDirs.map((id) => ({
+  id,
+  pages: walk(path.join(DOCS, id), path.join(DOCS, id)).length,
+}));
+
 const stats = {
   pages: String(allPages.length),
   sections: String(sectionDirs.length),
+  sectionCounts,
   openSource: '100%',
   vendorDecks: '0',
   generatedAt: new Date().toLocaleDateString('en-CA', { timeZone: 'America/New_York' }),

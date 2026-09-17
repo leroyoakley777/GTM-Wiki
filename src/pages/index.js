@@ -4,6 +4,25 @@ import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import stats from './stats.json';
 
+// Card → docs/ dir mapping for per-section page counts (single source: stats.json).
+const cardDirs = {
+  Foundations: ['foundations'],
+  Copywriting: ['copywriting'],
+  Playbooks: ['playbooks'],
+  'Agentic GTM': ['agentic'],
+  Channels: ['channels'],
+  'Tools & Data': ['tools', 'data', 'glossary'],
+  'Case Studies': ['case-studies'],
+  Flows: ['flows'],
+};
+
+function pagesFor(title) {
+  const dirs = cardDirs[title] || [];
+  const counts = (stats.sectionCounts || []).filter((s) => dirs.includes(s.id));
+  if (counts.length === 0) return null;
+  return counts.reduce((n, s) => n + s.pages, 0);
+}
+
 const paths = [
   {
     kicker: '01 / Start',
@@ -72,6 +91,21 @@ export default function Home() {
           <div className="gtm-ship__meta">{stats.pages} pages · {stats.sections} sections · open source</div>
         </div>
 
+        <div className="gtm-stats">
+          <div className="gtm-stat">
+            <div className="gtm-stat__number">{stats.pages}</div>
+            <div className="gtm-stat__label">Pages</div>
+          </div>
+          <div className="gtm-stat">
+            <div className="gtm-stat__number">{stats.sections}</div>
+            <div className="gtm-stat__label">Sections</div>
+          </div>
+          <div className="gtm-stat">
+            <div className="gtm-stat__number">{stats.openSource}</div>
+            <div className="gtm-stat__label">Open source</div>
+          </div>
+        </div>
+
         <section className="gtm-paths">
           <div className="gtm-section-label">Three doors</div>
           <h2>Pick a job, not a catalog</h2>
@@ -89,7 +123,7 @@ export default function Home() {
         <section className="gtm-updates">
           <div className="gtm-section-label">Recent ships</div>
           <ul className="gtm-updates__list">
-            {updates.map((u) => (
+            {updates.slice(0, 3).map((u) => (
               <li key={u.date} className="gtm-updates__row">
                 <div className="gtm-updates__date">{u.date}</div>
                 <div className="gtm-updates__body">
@@ -116,7 +150,9 @@ export default function Home() {
           <div className="gtm-grid">
             {sections.map((s) => (
               <Link key={s.index} className="gtm-card" to={useBaseUrl(s.to)}>
-                <div className="gtm-card__index">{s.index} / section</div>
+                <div className="gtm-card__index">
+                  {s.index} / section{pagesFor(s.title) != null ? ` · ${pagesFor(s.title)} pages` : ''}
+                </div>
                 <div className="gtm-card__title">{s.title}</div>
                 <p className="gtm-card__desc">{s.desc}</p>
               </Link>
