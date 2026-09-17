@@ -65,6 +65,8 @@
   --nous-faint: #6d6d76;
   --nous-hairline-dark: rgba(255, 255, 255, 0.16);
   --nous-hairline-faint: rgba(255, 255, 255, 0.08);
+  /* brightened tint so blue-soft surfaces stay visible on near-black */
+  --nous-blue-soft: rgba(59, 130, 246, 0.12);
   --ifm-background-color: #0d0d0e;
   --ifm-background-surface-color: #131315;
   --ifm-heading-color: #f2f2f3;
@@ -424,7 +426,8 @@ body {
 /* ============ EDIT THIS PAGE — mono metadata ============ */
 .theme-edit-this-page,
 .theme-edit-this-page span,
-.theme-doc-footer-edit-meta-row a {
+.theme-doc-footer-edit-meta-row a,
+.theme-last-updated {
   font-family: var(--nous-mono) !important;
   font-size: 0.72rem;
   text-transform: uppercase;

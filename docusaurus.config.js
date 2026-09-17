@@ -38,6 +38,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/leroyoakley777/gtm-wiki/edit/main/',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
