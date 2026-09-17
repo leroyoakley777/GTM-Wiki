@@ -112,16 +112,17 @@ body {
   padding-top: 0.25rem;
 }
 
-/* Section dividers: the dashed technical-manual rule */
+/* Section dividers: the dashed technical-manual rule (hairline, not glyph text) */
 .markdown > h2::after {
-  content: '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -';
+  content: '';
   display: block;
-  font-family: var(--nous-mono);
-  font-size: 0.7rem;
-  font-weight: 400;
-  color: var(--nous-faint);
-  letter-spacing: 0.5px;
+  height: 1px;
   margin-top: 1rem;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--nous-hairline-dark) 0 6px,
+    transparent 6px 12px
+  );
 }
 
 .markdown p {
@@ -131,6 +132,17 @@ body {
 
 .markdown strong {
   color: var(--nous-ink);
+}
+
+/* ============ READING MEASURE ============ */
+/* Theme-classic caps the doc column at 75% with !important (>=997px, DocItem/Layout).
+   Theme module CSS loads after custom.css at equal specificity, so beat it with a
+   descendant selector (.main-wrapper is a stable Docusaurus wrapper). */
+@media (min-width: 997px) {
+  .main-wrapper [class*='docItemCol'] {
+    /* ch units tie the cap to the measure target; 50ch in Inter 16px ≈ 69 chars/line measured */
+    max-width: min(75%, 50ch) !important;
+  }
 }
 
 /* ============ LINKS ============ */
