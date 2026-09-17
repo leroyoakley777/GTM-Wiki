@@ -33,6 +33,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 > **TRACK (2026-09-15):** Owner lane footnoting the uncited-stat class today — `899424e2` (footnote uncited stats on `docs/channels/02-inbound.md`), `098c871f` (add footnote refs to `docs/data/05-outbound-response-rates.md`). Row stays OPEN (row touches multiple docs per SIP #12); one doc at a time is shipped live per the owner's continuous-deploy lane. Remaining docs from scan-slop output still pending.
 > **TRACK (2026-09-16):** Owner lane shipped `docs/data/01-gtm-metrics.md` (`c45c0373`) then `docs/data/00-conversion-rate-benchmarks.md` (`7a6c47bd`), both footnoting the uncited-stat class with `[n]` markers. Row stays OPEN while `docs/data/03-funnel.md` and other scan-slop candidates remain.
+> **TRACK (2026-09-17):** Ship lane footnoted `docs/case-studies/03-outbound.md` (`597b8a12`, live-verified on gtm-wiki-nu.vercel.app; receipt in plans/gtm-wiki/releases). Row stays OPEN — next candidates from scan-slop: `docs/case-studies/04-community-led.md` (13), `docs/channels/06-paid.md` (33), `docs/channels/08-referral-viral.md` (20).
 | IB-008 | Resolve scan-slop candidates: two-fragment contrast \"X is not Y. It is Z.\" | Medium | Medium | Multiple docs (see scan-slop output) |
 | IB-009 | Ensure every paragraph earns its place (Gate 4: Engaging) – remove filler, throat-clearing intros | Medium | Medium | All pages |
 | IB-010 | Ensure headings never open with \"The\" and name the concrete thing (Gate 2: Tasteful) | Low | Medium | All pages |
