@@ -4,7 +4,7 @@ title: "Outbound: Case Studies"
 description: "Documented outbound motions that moved pipeline: Gong's founder-network handoff, Lavender's benchmark lift, an agency's personalization A/B, plus the mechanics, the worked math, segment variance, failure modes, measurement, and the agentic layer."
 status: active
 tags: [outbound, case-studies, channels]
-last_updated: 2026-08-30
+last_updated: 2026-09-17
 ---
 
 # Outbound: Case Studies
@@ -167,8 +167,8 @@ jumped from 45 to 170 (Warmer.ai, 2026 , vendor source).
 
 The second Warmer.ai case reinforces the same point at a different
 scale. A lead-generation agency saw reply move from 2.3% to 11.7%, a
-409% improvement, and booked 47 qualified meetings (Warmer.ai, 2026,
-vendor source).
+409% improvement, and booked 47 qualified meetings [183] (Warmer.ai,
+2026, vendor source).
 
 Both cases are vendor-sourced and self-reported. Warmer.ai sells AI
 personalization, so it has a bias toward showing personalization
@@ -323,7 +323,7 @@ produces a bad motion regardless of copy.
 
 **Generic copy.** Template email at template volume returns template
 numbers. The agency A/B above is the proof: generic replied at 4.7%,
-personalized at 13.2% (Warmer.ai, 2026 , vendor source). Fix: personal
+personalized at 13.2% (Warmer.ai, 2026, vendor source) [183]. Fix: personal
 research on the top 20% of the list, a signal-specific line on the rest.
 
 **No follow-up cadence.** Ambition emailed 578 prospects and got 6
@@ -462,10 +462,11 @@ email.
 
 **Step 5: run and measure.** Send to the 100 perfect-fit rows first.
 At 300+ sends per variant, the reply rate was 4.1%, above the 3.43%
-average (Woodpecker, 2026). Delivery held at 98%, above the 97% gate
-(Instantly, 2025). Meetings booked ran 3–4 per 1,000 sends, inside the
-healthy 3–10 band (Instantly, 2025). Positive-reply rate ran about 35%
-of replies, above the 30% line (SalesHive, 2025). Keep the winning
+average (Woodpecker, 2026) [2]. Delivery held at 98%, above the 97%
+gate (Instantly, 2026) [17]. Meetings booked ran 3–4 per 1,000 sends,
+inside the healthy 3–10 band (Instantly, 2026) [325]. Positive-reply
+rate ran about 35% of replies, above the 30% line (SalesHive, 2025)
+[192]. Keep the winning
 variant and scale to the remaining 400 rows.
 
 **Step 6: handoff.** Write the meeting standard (a GC with the problem
@@ -484,7 +485,7 @@ proven.
 
 - [InsideScale: Gong case study](https://insidescale.com/case-study/gong/): founder-network to out-of-network pipeline.
 - [Lavender: Cold Email Benchmark Report and department learnings](https://lavender.ai/blog/the-cold-email-benchmark-report): 231,818-email sample, A-grade reply lifts by department. (vendor source)
-- [Lavender: Cold Email Personalization Process](https://lavender.ai/blog/how-to-build-a-cold-email-personalization-process): 50–250% reply lift from personalization, Jan 2023. (vendor source)
+- [Lavender: Cold Email Personalization Process](https://lavender.ai/blog/how-to-build-a-cold-email-personalization-process): 50–250% reply lift from personalization, Jan 2023. (vendor source) [111]
 - [Apollo: Outbound Sales Pipeline Guide](https://www.apollo.io/academy/guides/pipeline-generation): $0 to $200K revenue and $1M pipeline in several steps months. (vendor source)
 - [Warmer.ai: Agency Cold Email Results Before and After AI Personalization](https://warmer.ai/blog/agency-cold-email-results-before-after-ai-personalization): lead-gen and SDR-agency A/B numbers. (vendor source)
 - [Ambition: The Importance of Persistence in Cold Emails](https://ambition.com/blog/entry/2015-1-22-importance-persistence-cold-emails/): follow-up cadence response data, 2015.
