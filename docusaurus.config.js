@@ -73,12 +73,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'gtmWiki',
-            position: 'left',
-            label: 'Wiki',
-          },
-          {
             href: 'https://github.com/leroyoakley777/gtm-wiki',
             label: 'GitHub',
             position: 'right',

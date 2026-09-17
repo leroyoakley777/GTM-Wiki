@@ -145,6 +145,10 @@ body {
     /* ch units tie the cap to the measure target; 50ch in Inter 16px ≈ 69 chars/line measured */
     max-width: min(75%, 50ch) !important;
   }
+  /* the capped column frees row space — pin the desktop TOC to the right edge */
+  .main-wrapper .col.col--3:has(> [class*='theme-doc-toc-desktop']) {
+    margin-left: auto;
+  }
 }
 
 /* ============ LINKS ============ */
@@ -423,6 +427,78 @@ body {
   color: var(--nous-blue);
 }
 
+/* ============ CUSTOM FOOTER — dashed rule + mono metadata ============ */
+.gtm-footer {
+  border-top: 1px dashed var(--nous-hairline-dark);
+  background-color: var(--nous-white);
+  color: var(--nous-slate);
+  padding: 2.5rem 0 2rem;
+  margin-top: 3rem;
+}
+
+[data-theme='dark'] .gtm-footer {
+  background-color: #0d0d0e;
+}
+
+.gtm-footer__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  font-family: var(--nous-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--nous-faint);
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--nous-hairline-faint);
+  margin-bottom: 1.5rem;
+}
+
+.gtm-footer__cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 4rem;
+}
+
+.gtm-footer__title {
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--nous-ink);
+  margin-bottom: 0.75rem;
+}
+
+.gtm-footer__col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gtm-footer__col li {
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+}
+
+.gtm-footer__col a {
+  color: var(--nous-slate);
+  text-decoration: none;
+}
+
+.gtm-footer__col a:hover {
+  color: var(--nous-blue);
+}
+
+.gtm-footer__copy {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--nous-hairline-faint);
+  font-family: var(--nous-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--nous-faint);
+}
+
 /* ============ EDIT THIS PAGE — mono metadata ============ */
 .theme-edit-this-page,
 .theme-edit-this-page span,
@@ -444,6 +520,48 @@ body {
   border: 1px solid var(--nous-hairline-dark);
   border-radius: 0 !important;
   background: var(--nous-paper);
+}
+
+/* ============ TOC RAIL — "On this page" label + active marker ============ */
+.table-of-contents::before {
+  content: 'On this page';
+  display: block;
+  font-family: var(--nous-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--nous-faint);
+  margin-bottom: 0.75rem;
+}
+
+.table-of-contents__link--active {
+  color: var(--nous-blue);
+  font-weight: 600;
+}
+
+/* ============ SEARCH MODAL — flat, hairline, paper ============ */
+[class*='searchModal'] {
+  border-radius: 0;
+}
+
+[class*='searchModal'] [class*='searchBar'],
+[class*='searchQueryInput'] {
+  border-radius: 0 !important;
+}
+
+[class*='searchQueryInput'] {
+  border: 1px solid var(--nous-hairline-dark) !important;
+  background: var(--nous-paper) !important;
+  font-family: var(--nous-mono);
+}
+
+[class*='searchResultItem'] {
+  border-radius: 0;
+}
+
+[class*=searchResultItem] mark {
+  background: var(--nous-blue-soft);
+  color: var(--nous-blue);
 }
 
 /* ============ HERO (landing page) ============ */
