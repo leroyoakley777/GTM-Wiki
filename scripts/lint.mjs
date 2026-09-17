@@ -194,7 +194,13 @@ const LINK_RE = /\]\(([^)]+)\)/g;
 
 // Does a file path resolve? Handles exact file, index.md dirs, and the
 // Docusaurus NN- prefix stripping (01-outbound.md -> slug "outbound").
+// Static assets (svg/png/...) resolve as exact files: Docusaurus serves
+// static/ at the site root, so generated pages (map.md) may reference
+// /img/foo.svg or ../static/img/foo.svg and both must pass.
+const ASSET_RE = /\.(svg|png|jpe?g|gif|webp|ico|pdf)$/i;
+
 function fileExistsBySlug(abs) {
+  if (ASSET_RE.test(abs) && existsSync(abs)) return true;
   const candidates = [abs + '.md', abs + '.mdx', join(abs, 'index.md')];
   for (const c of candidates) if (existsSync(c)) return true;
   const dir = dirname(abs);
@@ -220,8 +226,13 @@ function linkTargetExists(sourceFile, slug) {
   let abs;
   if (s.startsWith('/')) {
     s = s.replace(/^\/+/, '');
-    if (!s.startsWith('docs/')) s = 'docs/' + s;
-    abs = normalize(join(process.cwd(), s));
+    if (ASSET_RE.test(s)) {
+      // site-rooted asset: static/ is served at the site root
+      abs = normalize(join(process.cwd(), 'static', s));
+    } else {
+      if (!s.startsWith('docs/')) s = 'docs/' + s;
+      abs = normalize(join(process.cwd(), s));
+    }
   } else {
     abs = normalize(join(dirname(sourceFile), s));
   }

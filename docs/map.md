@@ -11,6 +11,8 @@ last_updated: 2026-09-17
 
 The whole wiki in one view. This page is generated from the docs tree, so it always matches what is published. Add a section to `docs/` and it appears here on the next build.
 
+![Topic graph: define, write, run, automate](/img/topic-graph.svg)
+
 | # | Section | Pages | What it covers |
 |---|---------|-------|----------------|
 | 01 | [Frameworks](/docs/foundations) | 11 | Foundations: the ideas that stay true in 2015 and in 2035. |

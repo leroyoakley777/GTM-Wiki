@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="'JetBrains Mono', ui-monospace, Menlo, monospace">
+  <!-- GTM Wiki topic graph — HUD face per ~/.hermes/DESIGN.md (maps wear HUD, not SITE) -->
+  <rect width="1200" height="640" fill="#000000"/>
+
+  <!-- corner brackets -->
+  <g stroke="#0053fd" stroke-width="1.5" fill="none">
+    <path d="M 24 44 L 24 24 L 44 24"/>
+    <path d="M 1156 24 L 1176 24 L 1176 44"/>
+    <path d="M 1176 596 L 1176 616 L 1156 616"/>
+    <path d="M 44 616 L 24 616 L 24 596"/>
+  </g>
+
+  <!-- metadata labels -->
+  <text x="48" y="46" fill="#0053fd" font-size="13" letter-spacing="2">TOPIC GRAPH</text>
+  <text x="1152" y="46" fill="#666666" font-size="11" letter-spacing="1.5" text-anchor="end">13 SECTIONS · 80 PAGES</text>
+
+  <!-- faint reticle rings behind the agentic node (the moat) -->
+  <g stroke="#0053fd" stroke-opacity="0.22" fill="none">
+    <circle cx="905" cy="330" r="56"/>
+    <circle cx="905" cy="330" r="86"/>
+    <path d="M 905 230 L 905 250 M 905 410 L 905 430 M 805 330 L 825 330 M 985 330 L 1005 330"/>
+  </g>
+
+  <!-- edges: the cross-link spine -->
+  <g stroke="#0053fd" stroke-opacity="0.55" stroke-width="1.25" fill="none">
+    <path d="M 218 330 L 388 330"/>              <!-- foundations -> copywriting -->
+    <path d="M 530 330 L 660 250"/>              <!-- copywriting -> playbooks -->
+    <path d="M 530 330 L 660 410"/>              <!-- copywriting -> channels -->
+    <path d="M 772 250 L 862 315"/>              <!-- playbooks -> agentic -->
+    <path d="M 772 410 L 862 345"/>              <!-- channels -> agentic -->
+    <path d="M 300 545 L 300 430 M 300 545 L 660 430 M 300 545 L 862 370" stroke-opacity="0.35" stroke-dasharray="4 5"/> <!-- data spine (dashed) -->
+    <path d="M 218 330 L 300 545" stroke-opacity="0.35" stroke-dasharray="4 5"/>
+  </g>
+
+  <!-- glow dots at edge junctions -->
+  <g fill="#0053fd">
+    <circle cx="905" cy="330" r="4"/>
+    <circle cx="459" cy="330" r="3"/>
+    <circle cx="300" cy="545" r="3"/>
+  </g>
+
+  <!-- nodes: mono-labeled marks -->
+  <g stroke="#0053fd" stroke-width="1.5" fill="#000000">
+    <rect x="118" y="300" width="100" height="60"/>
+    <rect x="388" y="300" width="142" height="60"/>
+    <rect x="660" y="215" width="112" height="60"/>
+    <rect x="660" y="380" width="112" height="60"/>
+  </g>
+  <!-- agentic: the moat, brighter stroke -->
+  <rect x="849" y="300" width="112" height="60" stroke="#0053fd" stroke-width="2.5" fill="#000000"/>
+
+  <g fill="#ffffff" font-size="14" text-anchor="middle" letter-spacing="1">
+    <text x="168" y="326">FOUNDATIONS</text>
+    <text x="168" y="344" fill="#666666" font-size="10">11 PAGES</text>
+    <text x="459" y="326">COPYWRITING</text>
+    <text x="459" y="344" fill="#666666" font-size="10">3 PAGES</text>
+    <text x="716" y="241">PLAYBOOKS</text>
+    <text x="716" y="259" fill="#666666" font-size="10">3 PAGES</text>
+    <text x="716" y="406">CHANNELS</text>
+    <text x="716" y="424" fill="#666666" font-size="10">9 PAGES</text>
+    <text x="905" y="326">AGENTIC GTM</text>
+    <text x="905" y="344" fill="#0053fd" font-size="10">15 PAGES</text>
+  </g>
+
+  <!-- data spine nodes -->
+  <g stroke="#0053fd" stroke-opacity="0.7" stroke-width="1.25" fill="#000000">
+    <rect x="248" y="515" width="104" height="60" stroke-dasharray="5 4"/>
+  </g>
+  <g fill="#ffffff" font-size="13" text-anchor="middle" letter-spacing="1">
+    <text x="300" y="541">DATA + TOOLS</text>
+    <text x="300" y="559" fill="#666666" font-size="10">8 PAGES</text>
+  </g>
+
+  <!-- flow annotation -->
+  <text x="48" y="600" fill="#666666" font-size="11" letter-spacing="1.5">DEFINE → WRITE → RUN → AUTOMATE</text>
+  <text x="1152" y="600" fill="#666666" font-size="11" letter-spacing="1.5" text-anchor="end">GTM-WIKI · OPEN SOURCE</text>
+</svg>
