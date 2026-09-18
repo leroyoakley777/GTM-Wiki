@@ -136,40 +136,55 @@ body {
   color: var(--nous-ink);
 }
 
-/* ============ READING LAYOUT (round 2 — page-architecture spec) ============ */
-/* Content caps at 880px and travels WITH a fixed 260px TOC pane; the row
-   centers the cluster so wide viewports get symmetric margins, never a
-   one-sided hole. Type scale rises with viewport to keep the wider column
-   at ~85-92 chars. */
+/* ============ READING LAYOUT (round 3 — Grokipedia imitation) ============ */
+/* Grokipedia article anatomy: serif article body (~65-70ch measure), sans UI,
+   right rail as a bordered fact-box, left nav that blends into the page. */
 @media (min-width: 997px) {
   .main-wrapper [class*='docItemCol'] {
     flex: 1 1 auto;
-    max-width: min(880px, 100%) !important;
+    max-width: min(760px, 100%) !important;
   }
   .main-wrapper .col.col--3:has(> [class*='theme-doc-toc-desktop']) {
-    flex: 0 0 260px;
-    max-width: 260px;
+    flex: 0 0 300px;
+    max-width: 300px;
   }
   .main-wrapper [class*='docMainContainer'] .container > .row {
     justify-content: center;
   }
-  /* the pane outline — promoted from TOC border to a defined component */
-  [class*='theme-doc-toc-desktop'] .table-of-contents {
-    border-left: 1px solid var(--nous-hairline-dark);
-    padding-left: 1.25rem;
-  }
 }
 
-@media (min-width: 1200px) {
-  .main-wrapper [class*='docItemContainer'] .markdown {
-    font-size: 17px;
-  }
+/* Article prose: serif, book-like, generous leading */
+.main-wrapper [class*='docItemContainer'] .markdown {
+  font-family: var(--nous-serif);
+  font-size: 17px;
+}
+
+/* Grokipedia density: tighter leading than the SaaS default */
+.main-wrapper [class*='docItemContainer'] .markdown p {
+  line-height: 1.7;
 }
 
 @media (min-width: 1536px) {
   .main-wrapper [class*='docItemContainer'] .markdown {
     font-size: 18px;
   }
+}
+
+/* Tables are data surfaces: sans cells under mono headers (Grokipedia infobox voice) */
+.main-wrapper [class*='docItemContainer'] .markdown td,
+.main-wrapper [class*='docItemContainer'] .markdown th {
+  font-family: var(--ifm-font-family-base);
+}
+
+/* Admonitions are UI: sans */
+.admonition,
+.admonition [class*='admonitionContent'] {
+  font-family: var(--ifm-font-family-base);
+}
+
+/* Massive serif article title */
+.main-wrapper [class*='docItemContainer'] .markdown h1 {
+  font-size: 2.75rem;
 }
 
 /* ============ LINKS ============ */
@@ -543,7 +558,9 @@ body {
   background: var(--nous-paper);
 }
 
-/* ============ TOC RAIL — "On this page" label + active marker ============ */
+/* ============ TOC PANE — Grokipedia infobox treatment ============ */
+/* Bordered fact-box: thin hairline frame, sharp corners, white ground,
+   mono label. Sits in the right rail like an encyclopedia infobox. */
 .table-of-contents::before {
   content: 'On this page';
   display: block;
@@ -553,6 +570,12 @@ body {
   letter-spacing: 0.1em;
   color: var(--nous-faint);
   margin-bottom: 0.75rem;
+}
+
+[class*='theme-doc-toc-desktop'] .table-of-contents {
+  border: 1px solid var(--nous-hairline-dark);
+  background: var(--nous-white);
+  padding: 1.1rem 1.25rem;
 }
 
 .table-of-contents__link--active {
