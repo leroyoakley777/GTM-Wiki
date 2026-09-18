@@ -48,7 +48,10 @@
   --ifm-link-color: var(--nous-blue);
   --ifm-link-hover-color: var(--nous-blue-bright);
   --ifm-code-font-size: 90%;
-  --ifm-leading: 1.75;
+  /* LENGTH, not unitless: Infima consumes this as margin-bottom for paragraphs
+     and lists and as the heading rhythm multiplier — unitless values are
+     invalid CSS and collapse every block gap to zero. */
+  --ifm-leading: 1.4rem;
   --ifm-global-radius: 0;
   --ifm-toc-border-color: var(--nous-hairline-faint);
   --ifm-navbar-height: 64px;
