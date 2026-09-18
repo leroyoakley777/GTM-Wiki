@@ -29,7 +29,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
-| IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | `docs/case-studies/01-product-led.md` done; remaining docs listed in scan-slop output pending |
+| IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | `docs/case-studies/01-product-led.md` done; 09-18: channels/06-paid + channels/04-partner footnoted [n], live-verified; remaining docs listed in scan-slop output pending |
 
 > **TRACK (2026-09-15):** Owner lane footnoting the uncited-stat class today — `899424e2` (footnote uncited stats on `docs/channels/02-inbound.md`), `098c871f` (add footnote refs to `docs/data/05-outbound-response-rates.md`). Row stays OPEN (row touches multiple docs per SIP #12); one doc at a time is shipped live per the owner's continuous-deploy lane. Remaining docs from scan-slop output still pending.
 > **TRACK (2026-09-16):** Owner lane shipped `docs/data/01-gtm-metrics.md` (`c45c0373`) then `docs/data/00-conversion-rate-benchmarks.md` (`7a6c47bd`), both footnoting the uncited-stat class with `[n]` markers. Row stays OPEN while `docs/data/03-funnel.md` and other scan-slop candidates remain.
