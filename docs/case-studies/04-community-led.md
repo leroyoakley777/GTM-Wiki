@@ -88,7 +88,7 @@ The load-bearing decisions are worth copying.
 
 ### Atlassian
 
-Atlassian built a 4.5M+ member community that supports a self-service engine serving 240,000+ businesses and 10M monthly users (Community Inc, 2024) `(vendor source)` [153]. Its CRO reports sales and marketing spend under 15% of revenue for 20 consecutive years, on $3B+ revenue (Community Inc, 2024) `(vendor source)` [153]. Community is structural to that efficiency, not a side project.
+Atlassian built a 4.5M+ member community that supports a self-service engine serving 240,000+ businesses and 10M monthly users (Community Inc, 2024) `(vendor source)` <sup><a href="#sources">[153]</a></sup>. Its CRO reports sales and marketing spend under 15% of revenue for 20 consecutive years, on $3B+ revenue (Community Inc, 2024) `(vendor source)` <sup><a href="#sources">[153]</a></sup>. Community is structural to that efficiency, not a side project.
 
 Two programs carry the weight.
 
@@ -112,7 +112,7 @@ Miro reported 60M+ users as of September 2023 (Contrary Research, 2023) `(vendor
 
 Hashnode grew from 100,000 to 1M monthly active users in one year, hosting 60,000 active blogs (BusinessWire, August 2021) `(vendor source)`. It is a developer blogging community where the writing itself is both the product and the growth engine.
 
-Circle is the community infrastructure play. It served 4.1M active users and 10,000+ communities by end of 2023 and reached $68M ARR by May 2026 (Sacra, 2026) `(analyst source)` [86]. The growth of the venue shows that community is a durable distribution layer worth building for.
+Circle is the community infrastructure play. It served 4.1M active users and 10,000+ communities by end of 2023 and reached $68M ARR by May 2026 (Sacra, 2026) `(analyst source)` <sup><a href="#sources">[86]</a></sup>. The growth of the venue shows that community is a durable distribution layer worth building for.
 
 Product Hunt is the launch community. It receives roughly 200–300 product submissions a day (Product Hunt team) `(vendor source)`. Notion's own history shows the power of the venue: a strong Product Hunt launch gave the product early momentum, and the community the launch surfaced became the seed of the later community-led engine (Community Inc, 2024).
 
@@ -176,9 +176,9 @@ Do not skip the revenue wiring. A community that cannot prove it feeds the funne
 
 Community economics are not usually visible as a single line item. The numbers come from comparing what community does against what the alternatives cost.
 
-**Support deflection.** Common Room's 2024 State of Community report found that community-led support reduces support tickets by an estimated 30–40% `(vendor source)` [154]. Work that math against a named base. If a company spends $1M a year on tier-one support and a community cuts that load by a third, the community saves about $330,000 a year before it creates a single new lead. That saving alone can fund the community team.
+**Support deflection.** Common Room's 2024 State of Community report found that community-led support reduces support tickets by an estimated 30–40% `(vendor source)` <sup><a href="#sources">[154]</a></sup>. Work that math against a named base. If a company spends $1M a year on tier-one support and a community cuts that load by a third, the community saves about $330,000 a year before it creates a single new lead. That saving alone can fund the community team.
 
-**Sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue, per its CRO (Community Inc, 2024) `(vendor source)` [153]. That is roughly $450M a year in combined spend, against a self-service model where thousands of new customers land each quarter without a sales interaction (Community Inc, 2024). The community forum and content flywheel are load-bearing parts of that efficiency.
+**Sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue, per its CRO (Community Inc, 2024) `(vendor source)` <sup><a href="#sources">[153]</a></sup>. That is roughly $450M a year in combined spend, against a self-service model where thousands of new customers land each quarter without a sales interaction (Community Inc, 2024). The community forum and content flywheel are load-bearing parts of that efficiency.
 
 **Support use.** Notion ran support for 20M users with fewer than 10 customer success people, according to its CRO (Community Inc, 2024) `(vendor source)`. The community absorbed the questions that would otherwise land on paid staff. The ratio shows how much support a well-run community can absorb.
 
@@ -200,7 +200,7 @@ Community-led growth looks different depending on who the user is and what the p
 
 **B2B SaaS with a practitioner audience.** B2B communities work when there is a craft to learn and a peer network to join. Atlassian's 4.5M+ member community supports a portfolio that lands in 240,000+ businesses (Community Inc, 2024) `(vendor source)`. The community does support deflection, product feedback, and expansion advocacy inside accounts. The motion is less about virality and more about retention and upsell.
 
-**Community infrastructure.** Some companies build the venue rather than live in one. Circle serves 10,000+ communities and 4.1M active users, and reached $68M ARR by May 2026 (Sacra, 2026) `(analyst source)` [86]. That is the tell that community is a genuine distribution layer, not a side project.
+**Community infrastructure.** Some companies build the venue rather than live in one. Circle serves 10,000+ communities and 4.1M active users, and reached $68M ARR by May 2026 (Sacra, 2026) `(analyst source)` <sup><a href="#sources">[86]</a></sup>. That is the tell that community is a genuine distribution layer, not a side project.
 
 The general rule: match the venue to the user's native behavior. Developers will post code where it is useful. Consumer users will show off where they are seen. B2B practitioners will answer where their peers are. Building a venue that contradicts the audience's habits is how communities become ghost towns.
 
@@ -232,9 +232,9 @@ The documented cases also show what kills communities. Each failure has a named 
 
 Community measurement is a stack, not a single number. Each layer answers a different question, and all of them should be reported together.
 
-**Active member share.** The share of members who contribute in a period. The channel benchmark is 10–20% of members (Community Inc, 2024 synthesis) [153]. This tells you whether the community has life.
+**Active member share.** The share of members who contribute in a period. The channel benchmark is 10–20% of members (Community Inc, 2024 synthesis) <sup><a href="#sources">[153]</a></sup>. This tells you whether the community has life.
 
-**Question-answer velocity.** The time from a question to an accepted answer, and the share of questions answered. Stack Overflow's 11-minute average is the high bar (Skillademia, July 2026) `(vendor source)` [78]. The channel target is over 70% of questions answered.
+**Question-answer velocity.** The time from a question to an accepted answer, and the share of questions answered. Stack Overflow's 11-minute average is the high bar (Skillademia, July 2026) `(vendor source)` <sup><a href="#sources">[78]</a></sup>. The channel target is over 70% of questions answered.
 
 **Trial signups from community.** Members who came through a community referral, a community link, or a community-created piece of content. This is the closest the channel gets to a conversion line. It only works if UTM and product tagging are in place, which is where community meets the [funnel](../data/funnel).
 
@@ -357,13 +357,13 @@ The agent does the triage, the drafting, and the routing. The human owns tone, j
 
 Walk the loop against named bases to see how the numbers compound.
 
-**Base 1: Notion's support use.** Notion ran support for 20M users with fewer than 10 customer success people (Community Inc, 2024) `(vendor source)` [153]. Assume tier-one support costs about $50,000 per head fully loaded. Ten heads is $500,000 a year. If the community deflects even a quarter of the support load, that is $125,000 a year not spent, and it scales as the user base grows without hiring linearly.
+**Base 1: Notion's support use.** Notion ran support for 20M users with fewer than 10 customer success people (Community Inc, 2024) `(vendor source)` <sup><a href="#sources">[153]</a></sup>. Assume tier-one support costs about $50,000 per head fully loaded. Ten heads is $500,000 a year. If the community deflects even a quarter of the support load, that is $125,000 a year not spent, and it scales as the user base grows without hiring linearly.
 
-**Base 2: Atlassian's sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue (Community Inc, 2024) `(vendor source)` [153]. A typical enterprise software company spends 30–50% of revenue on sales and marketing. At $3B revenue, the difference between 15% and 35% is roughly $600M a year. Community and content are not the only reason Atlassian holds that gap, but the 4.5M+ member forum and the content flywheel are structural to the self-service model (Community Inc, 2024) `(vendor source)`.
+**Base 2: Atlassian's sales and marketing efficiency.** Atlassian kept sales and marketing under 15% of revenue for 20 years on $3B+ revenue (Community Inc, 2024) `(vendor source)` <sup><a href="#sources">[153]</a></sup>. A typical enterprise software company spends 30–50% of revenue on sales and marketing. At $3B revenue, the difference between 15% and 35% is roughly $600M a year. Community and content are not the only reason Atlassian holds that gap, but the 4.5M+ member forum and the content flywheel are structural to the self-service model (Community Inc, 2024) `(vendor source)`.
 
 **Base 3: referral share as the acquisition engine.** The channel page sets member-initiated referral share at 30–50% of new signups. Take a company adding 10,000 new signups a month. At a 40% referral share, 4,000 signups a month come from members, with CAC near zero. If a paid channel delivers those same 4,000 at $200 CAC, that is $800,000 a month the community replaces. The community has to be maintained, but it is a depreciating-cost asset that compounds, while paid CAC only rises.
 
-**Base 4: support deflection at a mid-market company.** Use Common Room's 30–40% support ticket reduction (Common Room, 2024) `(vendor source)` [154]. A company with 500,000 support tickets a year at $5 per ticket resolution spends $2.5M a year. A community that deflects a third of those tickets saves roughly $830,000 a year. Against that, the cost of one community manager and one community platform is a small fraction of the saving.
+**Base 4: support deflection at a mid-market company.** Use Common Room's 30–40% support ticket reduction (Common Room, 2024) `(vendor source)` <sup><a href="#sources">[154]</a></sup>. A company with 500,000 support tickets a year at $5 per ticket resolution spends $2.5M a year. A community that deflects a third of those tickets saves roughly $830,000 a year. Against that, the cost of one community manager and one community platform is a small fraction of the saving.
 
 These are illustrative arithmetic on named, vendor-reported bases. The mechanism transfers. The exact multiples are company-specific.
 
@@ -395,7 +395,7 @@ What is safe to take from the cases is the mechanism: meet members where they ar
 
 ## Honest caveat
 
-Most of these figures are vendor-reported or secondary-sourced. Notion, Atlassian, Miro, Webflow, Hashnode, and Product Hunt all report their own numbers, and vendors have an incentive to show the best case. The 30–40% support deflection figure comes from Common Room, a vendor with a reason to see community as valuable `(vendor source)` [154]. Circle's revenue figure is an analyst estimate, not a filing (Sacra, 2026) `(analyst source)` [86].
+Most of these figures are vendor-reported or secondary-sourced. Notion, Atlassian, Miro, Webflow, Hashnode, and Product Hunt all report their own numbers, and vendors have an incentive to show the best case. The 30–40% support deflection figure comes from Common Room, a vendor with a reason to see community as valuable `(vendor source)` <sup><a href="#sources">[154]</a></sup>. Circle's revenue figure is an analyst estimate, not a filing (Sacra, 2026) `(analyst source)` <sup><a href="#sources">[86]</a></sup>.
 
 The exceptions that should be read as cautionary are the ones about fragility, not growth. Stack Overflow's question decline from 1.8M in 2020 to about 1.2M in 2024 (Skillademia, July 2026) `(vendor source)` is a documented case of an incumbent community losing the question flow to AI. It is the counter-evidence to the happy path, and it belongs in the same analysis.
 

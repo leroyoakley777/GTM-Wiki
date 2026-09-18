@@ -45,7 +45,7 @@ that traces to the event within a defined window is the outcome.
 
 Do not track "leads collected" or "badge scans" as the score. 98% of teams
 struggle to justify event spend to leadership, and 86% cannot attribute ROI back
-to events [62]. The teams that defend their budgets close that attribution chain
+to events <sup><a href="#sources">[62]</a></sup>. The teams that defend their budgets close that attribution chain
 operationally, before the event ends.
 
 ## When Events Is the Right Channel
@@ -55,19 +55,19 @@ one best channel before you commit. Events win when all three are true.
 
 **High ACV and a committee buying process.** In-person trust matters when a deal
 runs many months and many stakeholders. The average B2B purchase now involves 13
-stakeholders [43], and Gartner's 2025 research puts the committee at 9-11, up from
-5-7 in 2017, reaching up to 25 for enterprise technology purchases [38]. An event
+stakeholders <sup><a href="#sources">[43]</a></sup>, and Gartner's 2025 research puts the committee at 9-11, up from
+5-7 in 2017, reaching up to 25 for enterprise technology purchases <sup><a href="#sources">[38]</a></sup>. An event
 puts several of those people in one room at once.
 
 **Your ICP attends in density.** The event is only worth its cost if your buyer
 is in the room. Buying authority at trade shows runs 81% of attendees, and 72% of
-attendees plan to buy at least one product they see (CEIR [344]). A 50,000-attendee
+attendees plan to buy at least one product they see (CEIR <sup><a href="#sources">[344]</a></sup>). A 50,000-attendee
 mega-show is worthless if your buyer is not among them.
 
 **The format beats your alternative per meeting.** Compare cost per qualified
 meeting at the event against outbound's same number. Trade show leads run about
-$142 each (CEIR [344]), and it takes 3.5 calls to close a trade show lead versus
-4.5 for a cold lead (CEIR [344]). Events win when the per-meeting economics hold.
+$142 each (CEIR <sup><a href="#sources">[344]</a></sup>), and it takes 3.5 calls to close a trade show lead versus
+4.5 for a cold lead (CEIR <sup><a href="#sources">[344]</a></sup>). Events win when the per-meeting economics hold.
 
 If none of these is true, events are the wrong channel. A low-ACV product with a
 scattered buyer cannot justify the spend. Skip the show and put the budget into
@@ -83,17 +83,17 @@ benchmark so you can tell where an event leaks.
 
 | Stage | Healthy benchmark | Source (as of) | What it tells you |
 |---|---|---|---|
-| Registrations to attendee | ~57% (webinars); 49% live | ON24 2025 [345]; Zoom 2026 | Whether your promotion works |
-| Lead creation to qualified | 5.50% in-person; 6.41% virtual; 4.82% other channels | HockeyStack 2025 [123] (198 SaaS cos, 2.6M deals) | Whether your ICP is in the room |
-| Creation to closed-won | 12.1% in-person 2025 avg; 14.2% virtual H1 2025 | HockeyStack 2025 [123] | Whether conversations convert |
-| Opportunity to close | 40% for event-sourced leads | HockeyStack 2025 [123] | The strongest BOFU channel studied |
-| Cost per trade show lead | ~$142 (range $100-$300) | CEIR [344]; Momencio 2026 [346] | Raw efficiency, before qualification |
-| Cost per qualified lead | 3-5x the reported lead figure | Momencio 2026 [346] | Qualified cost, after removing non-buyers |
+| Registrations to attendee | ~57% (webinars); 49% live | ON24 2025 <sup><a href="#sources">[345]</a></sup>; Zoom 2026 | Whether your promotion works |
+| Lead creation to qualified | 5.50% in-person; 6.41% virtual; 4.82% other channels | HockeyStack 2025 <sup><a href="#sources">[123]</a></sup> (198 SaaS cos, 2.6M deals) | Whether your ICP is in the room |
+| Creation to closed-won | 12.1% in-person 2025 avg; 14.2% virtual H1 2025 | HockeyStack 2025 <sup><a href="#sources">[123]</a></sup> | Whether conversations convert |
+| Opportunity to close | 40% for event-sourced leads | HockeyStack 2025 <sup><a href="#sources">[123]</a></sup> | The strongest BOFU channel studied |
+| Cost per trade show lead | ~$142 (range $100-$300) | CEIR <sup><a href="#sources">[344]</a></sup>; Momencio 2026 <sup><a href="#sources">[346]</a></sup> | Raw efficiency, before qualification |
+| Cost per qualified lead | 3-5x the reported lead figure | Momencio 2026 <sup><a href="#sources">[346]</a></sup> | Qualified cost, after removing non-buyers |
 
 Read the HockeyStack numbers as the load-bearing core: events represent roughly
 6% of B2B deal volume but convert from creation to closed-won at 12.1%, versus
 4.82% for other channels, and event-sourced leads close from opportunity at 40%
-[HockeyStack 2025 [123]]. In plain terms, events touch few deals but win a
+[HockeyStack 2025 <sup><a href="#sources">[123]</a></sup>]. In plain terms, events touch few deals but win a
 disproportionate share of them.
 
 **The honest comparison is events versus your other channels, not events versus
@@ -109,14 +109,14 @@ an engineered series of named conversations. The difference decides the ROI.
 **The engineered event runs four steps:**
 
 1. **Pick the event for the ICP, not for the size.** Only 13% of teams rate their
-   event selection as fully data-driven [62]. The rest pick on organizer claims and
+   event selection as fully data-driven <sup><a href="#sources">[62]</a></sup>. The rest pick on organizer claims and
    reputation. Pick on verified attendee density.
 2. **Pre-book meetings before the show opens.** Pre-event planning determines 76%
-   of attendee agendas before arrival (Event Marketing Research 2025 [351]). A
+   of attendee agendas before arrival (Event Marketing Research 2025 <sup><a href="#sources">[351]</a></sup>). A
    booth that was not on the calendar before the show is not on the calendar at
    the show. 70% of teams cite lack of attendee-list visibility as their top
    barrier to pre-booking, and 55% start outreach under four weeks before an event,
-   well short of the 8-12 week cadence top programs run [62].
+   well short of the 8-12 week cadence top programs run <sup><a href="#sources">[62]</a></sup>.
 3. **Go with a target-account list.** 20 named accounts, a reason to meet each,
    and a follow-up plan already written. The event becomes a pipeline stage for
    named accounts, not a party.
@@ -125,25 +125,25 @@ an engineered series of named conversations. The difference decides the ROI.
 
 The booth is just the venue. The pre-booked, named-account conversation is the
 motion. Teams that staff pre-event outbound 10-12 weeks ahead hit benchmarks.
-Teams that staff it in the final two weeks fall short [62].
+Teams that staff it in the final two weeks fall short <sup><a href="#sources">[62]</a></sup>.
 
 ## Channel Stack and Benchmarks
 
 ### Conferences and trade shows
 
 The highest-cost, highest-trust format. All-in exhibiting runs $10,000-$30,000
-per booth, plus $2,500-$5,000 to staff it (Tradeshow Labs 2025 [348]). The U.S.
+per booth, plus $2,500-$5,000 to staff it (Tradeshow Labs 2025 <sup><a href="#sources">[348]</a></sup>). The U.S.
 B2B trade show market reached $15.78 billion in 2024, first time above pre-COVID
-levels (CEIR Index 2024 [344]).
+levels (CEIR Index 2024 <sup><a href="#sources">[344]</a></sup>).
 
 Benchmarks:
 
 - 91% of attendees leave with a more positive brand perception of the companies
-  they engage with (ZoomInfo 2026 [179]).
+  they engage with (ZoomInfo 2026 <sup><a href="#sources">[179]</a></sup>).
 - 77% of exhibitors report positive ROI when measured properly (CEIR via
-  PureExhibits 2026 [344][350]).
+  PureExhibits 2026 <sup><a href="#sources">[344]</a></sup><sup><a href="#sources">[350]</a></sup>).
 - 52% of marketers attribute at least half of their 2024 closed-won deals to
-  events [123].
+  events <sup><a href="#sources">[123]</a></sup>.
 
 Conferences fail when treated as brand spend. They work when every dollar is tied
 to a pre-booked, named-account meeting.
@@ -153,23 +153,23 @@ to a pre-booked, named-account meeting.
 Recurring meetups of your users or a community's. Low cost, high retention value.
 They surface expansion opportunities and reference customers. A customer-only
 dinner at a major conference, roughly $15,000 all-in, surfaced 6 expansion
-opportunities and 4 reference customers for one B2B SaaS company [62].
+opportunities and 4 reference customers for one B2B SaaS company <sup><a href="#sources">[62]</a></sup>.
 
 ### Field events
 
 Owned dinners, roadshows, and exec briefings in a metro, aimed at a named list.
 The format that reaches executives cold SDRs cannot reach. A cybersecurity company
 running quarterly dinners in five cities spent about $280,000 across twenty
-dinners and generated $3.2 million in event-sourced pipeline in year one [62].
+dinners and generated $3.2 million in event-sourced pipeline in year one <sup><a href="#sources">[62]</a></sup>.
 For hard-to-reach executive buyer personas, field programs beat inside sales on
 cost per ICP meeting.
 
 ### Webinars
 
 The owned, live, low-cost format. Webinars convert registrations to attendees at
-roughly 57% (ON24 2025 Webinar Benchmarks [345]), at an average cost per lead of
-$72 (Visitor Queue via Zoom 2026 [347]). Virtual B2B events converted from
-creation to closed-won at 14.2% in H1 2025 [123]. Webinars are the scale engine
+roughly 57% (ON24 2025 Webinar Benchmarks <sup><a href="#sources">[345]</a></sup>), at an average cost per lead of
+$72 (Visitor Queue via Zoom 2026 <sup><a href="#sources">[347]</a></sup>). Virtual B2B events converted from
+creation to closed-won at 14.2% in H1 2025 <sup><a href="#sources">[123]</a></sup>. Webinars are the scale engine
 of the stack. They rarely close a deal alone but feed the funnel cheaply.
 
 ### Sponsorship kits
@@ -181,7 +181,7 @@ your people into rooms where your buyers already are), never as the motion itsel
 ## Sequencing and Rollout
 
 Events run on a timeline, not a week-of scramble. The highest-performing programs
-run an 8-12 week cadence. Most teams run under four weeks [62]. A representative
+run an 8-12 week cadence. Most teams run under four weeks <sup><a href="#sources">[62]</a></sup>. A representative
 sequence:
 
 | Window | Action |
@@ -197,7 +197,7 @@ sequence:
 
 Rollout rule: start with one format and one event. Prove the per-meeting economics,
 then expand. A program that pre-books 13 show-floor meetings and 4 post-show at a
-tier-2 conference is a healthy outcome for a mid-market company [62]. Do not scale
+tier-2 conference is a healthy outcome for a mid-market company <sup><a href="#sources">[62]</a></sup>. Do not scale
 the calendar until one event clears the ROI gate.
 
 ## Objections, and How to Answer Them
@@ -205,7 +205,7 @@ the calendar until one event clears the ROI gate.
 | Reply | What it means | How to answer |
 |---|---|---|
 | "Events are too expensive" | They see all-in cost, not per-meeting value | Show cost per qualified meeting versus outbound ($400-$600 per cold lead) and the 40% opportunity-to-close rate |
-| "We can't prove event ROI" | Measurement is not set up | It is the top reported barrier [43]. Close the attribution chain before the event, not after |
+| "We can't prove event ROI" | Measurement is not set up | It is the top reported barrier <sup><a href="#sources">[43]</a></sup>. Close the attribution chain before the event, not after |
 | "Nobody shows up" | Wrong event or weak promotion | Check ICP density and pre-booking. Fix selection, not the booth |
 | "Badge scans are up, why cut the budget?" | They are measuring activity | Badge scans are data entry. Score is closed-won revenue at 180 days |
 | "We go to the big show every year" | Habit, not strategy | Attendance is vanity. Buyer density in the room is the score |
@@ -222,12 +222,12 @@ at the event, stop going.
 - **No pre-booked meetings.** Every meeting at the event is an accident. Fix: staff
   pre-event outbound 8-12 weeks ahead. Pre-event planning sets 76% of agendas.
 - **Wrong events.** Picking on organizer claims instead of verified attendee data.
-  Only 13% of teams pick fully on data [62]. Fix: score events on ICP density
+  Only 13% of teams pick fully on data <sup><a href="#sources">[62]</a></sup>. Fix: score events on ICP density
   before you spend.
 - **No follow-up discipline.** The trust fades within days. A meeting without a
   booked next step within a week is a wasted flight. Fix: first follow-up within
   24 hours, next step booked before the event ends.
-- **Low ROI and nobody can say why.** 86% cannot attribute ROI to events [62]. Fix:
+- **Low ROI and nobody can say why.** 86% cannot attribute ROI to events <sup><a href="#sources">[62]</a></sup>. Fix:
   trace every conversation to an account and a source in the CRM, then measure
   closed-won at 90 and 180 days.
 - **Sponsorships with no motion behind them.** Logo placement alone. Fix:
@@ -314,7 +314,7 @@ booth play.
 | Dimension | Enterprise | SMB / mid-market |
 |---|---|---|
 | Format | Conferences, field dinners, exec briefings | Webinars, tier-2 conferences, user groups |
-| Buying committee | 9-13 stakeholders [38][43] | 1-4 people |
+| Buying committee | 9-13 stakeholders <sup><a href="#sources">[38]</a></sup><sup><a href="#sources">[43]</a></sup> | 1-4 people |
 | Sales cycle | 6-9+ months; over $100K ACV | ~90 days; under $25K ACV |
 | Primary metric | Closed-won revenue at 180 days, ACV | Pipeline created, cost per meeting |
 | Per-account effort | Deep, named-account plans | Semi-customized, reusable plays |
@@ -342,14 +342,14 @@ matrix generalizes the pattern.
 
 | Company / program | Format | Result | Source (as of) |
 |---|---|---|---|
-| Voltage | Tier-1 conference sponsorship + pre-booked meetings | 300% increase in late-stage pipeline | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/voltage/) [62] |
-| Rocketium | DMEXCO sponsorship + predicted-attendee outreach | Doubled pre-event meetings, 12 booked, several converted in 60 days | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/rocketium/) [62] |
-| Mid-market cybersecurity | Tier-1 conference + private CISO dinner | 22 of 28 invited attended; 3 of 8 stuck accounts became opportunities in 60 days | Vendelux event examples, 2026 [62] |
-| Enterprise B2B SaaS | Tier-1 trade show, pre-booking | 76 meetings pre-booked via predicted-attendee data | Vendelux event examples, 2026 [62] |
-| B2B SaaS company | 22-person side dinner | $18,000 all-in; 5 of 22 became opportunities within 60 days | Vendelux event examples, 2026 [62] |
-| Cybersecurity company | Quarterly dinners, 5 cities, $280K/yr | $3.2M event-sourced pipeline in year one | Vendelux event examples, 2026 [62] |
-| Seqera | Data-driven selection across 9 conferences | 75% reduction in event research time, redirected to pre-event outreach | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/seqera/) [62] |
-| Marketo | Marketing Nation Summit (virtual) | 12,000 registrants, 3,500 qualified leads, $2.3M pipeline | MarketingSherpa via TheMarketingAgency.ca, 2025 [349] |
+| Voltage | Tier-1 conference sponsorship + pre-booked meetings | 300% increase in late-stage pipeline | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/voltage/) <sup><a href="#sources">[62]</a></sup> |
+| Rocketium | DMEXCO sponsorship + predicted-attendee outreach | Doubled pre-event meetings, 12 booked, several converted in 60 days | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/rocketium/) <sup><a href="#sources">[62]</a></sup> |
+| Mid-market cybersecurity | Tier-1 conference + private CISO dinner | 22 of 28 invited attended; 3 of 8 stuck accounts became opportunities in 60 days | Vendelux event examples, 2026 <sup><a href="#sources">[62]</a></sup> |
+| Enterprise B2B SaaS | Tier-1 trade show, pre-booking | 76 meetings pre-booked via predicted-attendee data | Vendelux event examples, 2026 <sup><a href="#sources">[62]</a></sup> |
+| B2B SaaS company | 22-person side dinner | $18,000 all-in; 5 of 22 became opportunities within 60 days | Vendelux event examples, 2026 <sup><a href="#sources">[62]</a></sup> |
+| Cybersecurity company | Quarterly dinners, 5 cities, $280K/yr | $3.2M event-sourced pipeline in year one | Vendelux event examples, 2026 <sup><a href="#sources">[62]</a></sup> |
+| Seqera | Data-driven selection across 9 conferences | 75% reduction in event research time, redirected to pre-event outreach | [Vendelux case study, 2026](https://vendelux.com/resources/case-studies/seqera/) <sup><a href="#sources">[62]</a></sup> |
+| Marketo | Marketing Nation Summit (virtual) | 12,000 registrants, 3,500 qualified leads, $2.3M pipeline | MarketingSherpa via TheMarketingAgency.ca, 2025 <sup><a href="#sources">[349]</a></sup> |
 
 **The transferable takeaway:** every case that worked pre-booked named-account
 meetings before the event, and every one measured pipeline and closed-won revenue,

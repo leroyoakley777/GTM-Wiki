@@ -103,15 +103,15 @@ every number below. The trend lines, all named and dated:
   drop 25% by 2026 as AI chatbots and virtual agents capture queries.
 - **Bain & Company (Feb 2025)** measured organic web traffic down
   15–25% across sectors as answers move into zero-click surfaces.
-- **Onely / ABM Agency (2025)** [5] found 73% of B2B websites lost
+- **Onely / ABM Agency (2025)** <sup><a href="#sources">[5]</a></sup> found 73% of B2B websites lost
   significant organic traffic between 2024 and 2025, with an average
   decline of 34% year over year.
 - **Seer Interactive (Nov 2025)** analyzed 3,119 queries across 42
   organizations and measured a 61% drop in organic CTR on queries where
   Google AI Overviews appear, from 1.76% to 0.61%.
-- **NP Digital (Oct 2025)** [7] tracked B2B organic leads down 47% from
-  January to October 2025 [7]. 57% of B2B searches now end without a
-  website click, up from 35% in 2024 [7].
+- **NP Digital (Oct 2025)** <sup><a href="#sources">[7]</a></sup> tracked B2B organic leads down 47% from
+  January to October 2025 <sup><a href="#sources">[7]</a></sup>. 57% of B2B searches now end without a
+  website click, up from 35% in 2024 <sup><a href="#sources">[7]</a></sup>.
 
 One counterpoint keeps the panic honest: **Graphite / Similarweb (2026)**
 looked at the top 40,000 US sites and found Google organic traffic down
@@ -128,7 +128,7 @@ What the shift means in practice:
    quoted in the answer, not just ranked in a list.
 2. **The visitors who arrive are worth more.** Because the assistant
    pre-qualified them, the residual click converts higher: the 5.8%
-   AI-referral rate (Ruler, 2026) over 4.9% for organic [1].
+   AI-referral rate (Ruler, 2026) over 4.9% for organic <sup><a href="#sources">[1]</a></sup>.
 3. **Deep answers beat broad articles.** Assistants cite the page that
    fully and structurally answers the question, not the one that fluffs
    around it. Content written for a person who already read the summary
@@ -162,8 +162,8 @@ Benchmarks](../data/conversion-rate-benchmarks):
 | Opportunity → Customer | 20–35% | n/a | Ebsta/Pavilion 2024 (21% avg, down 4–6 points from 2021). Zeliq 20–35%. First Page Sage 31–43% |
 
 **MQL → SQL is the largest, most consistent leak in B2B SaaS.** Three
-independent sources land near the same point: Salesforce (13%, 2024) [14],
-SalesHive (13%, 2026) [12], and MarketJoy (15%, 2024–25). Fix
+independent sources land near the same point: Salesforce (13%, 2024) <sup><a href="#sources">[14]</a></sup>,
+SalesHive (13%, 2026) <sup><a href="#sources">[12]</a></sup>, and MarketJoy (15%, 2024–25). Fix
 qualification and you protect every stage below it. Pouring more
 top-of-funnel volume into a stage that leaks at 13% is buying more waste.
 
@@ -187,18 +187,18 @@ sales before the quarter, and pipeline review stops being a fight about
 
 ### How to read each stage: healthy vs leaking
 
-- **Visitor → Lead (2.3% avg, SalesHive 2026)** [12]. Healthy is 2–4% on
+- **Visitor → Lead (2.3% avg, SalesHive 2026)** <sup><a href="#sources">[12]</a></sup>. Healthy is 2–4% on
   your core segment, stable week over week. Below ~1.5%, or flat while
   traffic climbs, is a leak. A rising visitor count with a dropping
   conversion usually means the traffic mix changed (lower-intent sources
   added), not that the page broke. Fix positioning and page clarity
   before buying more traffic: doubling traffic on a 1% page doubles a
   leak.
-- **MQL → SQL (13%, Salesforce 2024 / SalesHive 2026)** [14]. This is the
+- **MQL → SQL (13%, Salesforce 2024 / SalesHive 2026)** <sup><a href="#sources">[14]</a></sup>. This is the
   gate. A high MQL count with a low SQL rate is the tell that your
   scoring rewards engagement over fit. Fix the definition of an MQL, not
   the scoring threshold.
-- **Opportunity → Customer (21% avg, Ebsta/Pavilion 2024)** [16]. Below ~20%
+- **Opportunity → Customer (21% avg, Ebsta/Pavilion 2024)** <sup><a href="#sources">[16]</a></sup>. Below ~20%
   is a sales-process problem: discovery, value, or champion. Note this
   rate has fallen 4–6 points since 2021 as buyers consolidate vendors
   and committees grow.
@@ -233,11 +233,11 @@ chases ranking.
 
 - **Content marketing / SEO CPL: ~$35 ($15–75).** Compare paid social at
   ~$152, display at ~$180, trade shows at ~$395 (The Starr Conspiracy,
-  analysis of DashThis / Cognism / Klipfolio campaign data, 2025 [9].
+  analysis of DashThis / Cognism / Klipfolio campaign data, 2025 <sup><a href="#sources">[9]</a></sup>.
   Median B2B CPL across all channels ~$116).
 - **Content generates 3x more leads than outbound and costs 62% less**
   (DemandSage, 2026).
-- **SEO / organic runs ~$30 per qualified lead** (Zeliq, 2025) [11], and the
+- **SEO / organic runs ~$30 per qualified lead** (Zeliq, 2025) <sup><a href="#sources">[11]</a></sup>, and the
   effective CPL keeps falling each quarter as content compounds (Zeliq,
   2025).
 - SalesHive (2026) puts fully-loaded content/SEO CPL at $80–200 over
@@ -254,7 +254,7 @@ chases ranking.
   weeks** on a fresh site (Ahrefs / SalesHive SEO guidance, 2026). That
   is where a new inbound program earns its first wins, not on the
   head terms your competitors have owned for years.
-- **96.6% of Google clicks go to first-page results** (Ahrefs, 2026) [13].
+- **96.6% of Google clicks go to first-page results** (Ahrefs, 2026) <sup><a href="#sources">[13]</a></sup>.
   There is no consolation prize for page two.
 
 Strategy that follows from the numbers: win the long-tail, low-KD
@@ -285,8 +285,8 @@ brilliant posts and silence builds nothing that lasts.
    leaving an address is a number with no future. Every post needs one
    clear next step: a guide download, a template, a webinar signup.
    Email on the back end is the compounding multiplier: it converts at
-   ~4.9% (Ruler, 2026) [1] and is a top ROI channel for B2B (HubSpot,
-   State of Marketing) [2].
+   ~4.9% (Ruler, 2026) <sup><a href="#sources">[1]</a></sup> and is a top ROI channel for B2B (HubSpot,
+   State of Marketing) <sup><a href="#sources">[2]</a></sup>.
 2. **Write for the post-AI reader.** Your page will often be read after
    the assistant already gave the summary. Add the depth, the caveats,
    the worked examples, and the specifics the summary skipped. That is
@@ -352,7 +352,7 @@ gets a compounding engine running without burning out the writer.
 2. Build a pillar/cluster structure around one theme.
 3. Run the first CRO tests on the highest-traffic pages.
 4. Watch for the first low-KD rankings (4–6 week window, Ahrefs/SalesHive 2026). Measure visitor → lead on the new pages.
-5. Gate: two pages converting above your visitor → lead median (2–4%, SalesHive 2026) [12].
+5. Gate: two pages converting above your visitor → lead median (2–4%, SalesHive 2026) <sup><a href="#sources">[12]</a></sup>.
 
 **Month 3: concentrate.**
 1. See which posts gained traction. Write the sequels and internal links to deepen them.
@@ -512,7 +512,7 @@ and the funnel stage with the largest leak.
 3. **Report funnel, not output.** Pageviews and posts published are
    vanity. The score is pipeline influenced and cost per customer.
 4. **Keep the citation bar high.** Structured, factual, sourced answers
-   earn the AI referrals that convert at 5.8% (Ruler, 2026) [1].
+   earn the AI referrals that convert at 5.8% (Ruler, 2026) <sup><a href="#sources">[1]</a></sup>.
    Fabricated
    or shallow content kills the exact advantage that makes inbound work
    now.

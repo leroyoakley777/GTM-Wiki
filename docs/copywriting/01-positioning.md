@@ -47,12 +47,12 @@ Trend:       [optional: the change that makes this urgent now]
 
 If a row is a slogan, you are not done. "Better user experience" is not a value. "Answer the customer while they are still on the phone" is a value.
 
-Dunford's 2019/2024 method treats this card as the output of a process, not a fill-in-the-blank that assumes the answers are already in your head [197][257].
+Dunford's 2019/2024 method treats this card as the output of a process, not a fill-in-the-blank that assumes the answers are already in your head <sup><a href="#sources">[197]</a></sup><sup><a href="#sources">[257]</a></sup>.
 
 
 ## Dunford process, compressed
 
-April Dunford's five moves, in order [197][257]:
+April Dunford's five moves, in order <sup><a href="#sources">[197]</a></sup><sup><a href="#sources">[257]</a></sup>:
 
 1. **Drop the origin story.** Most products start in one market and drift into another. Holding the original category highlights what you cannot do and puts you against entrenched incumbents.
 2. **List uniqueness without judging it.** Features, business model, process, IP, even complexity. Capture the raw set first.
@@ -60,12 +60,12 @@ April Dunford's five moves, in order [197][257]:
 4. **Name who cares a lot.** Many people like the value. A few urgently need it. Industry, size, stack, buying motion, pain intensity. "SMBs" is not an audience.
 5. **Pick the market frame.** The category tells buyers how to evaluate you. An existing category ramps faster. A new category raises the ceiling and the cost.
 
-The competitive alternative is often not a vendor. It is an intern, a spreadsheet, or doing nothing [257]. That alternative sets the minimum bar you have to beat.
+The competitive alternative is often not a vendor. It is an intern, a spreadsheet, or doing nothing <sup><a href="#sources">[257]</a></sup>. That alternative sets the minimum bar you have to beat.
 
 
 ## Moore statement, as an alignment tool
 
-Geoffrey Moore's 2014 template is for internal alignment, not a homepage hero [225]. It forces the same choices onto one page:
+Geoffrey Moore's 2014 template is for internal alignment, not a homepage hero <sup><a href="#sources">[225]</a></sup>. It forces the same choices onto one page:
 
 ```text
 For [target customer]
@@ -105,7 +105,7 @@ Copy that ignores the card reads as generic even when the sentences are fluent.
 - **Positioning as a tagline.** A punchy line with no category, alternative, or proof. Fix: fill the card. Then write the line.
 - **Positioning as a feature list.** Ten differentiators, no audience. Fix: pick the one value the best-fit customer will pay for.
 - **Copy as a substitute.** Rewriting the homepage weekly because win rates are low. Fix: the [ICP](/docs/foundations/icp-definition) and this card first.
-- **Category soup.** A new name nobody can file. Fix: borrow a known category unless you have the budget to teach a new one [257].
+- **Category soup.** A new name nobody can file. Fix: borrow a known category unless you have the budget to teach a new one <sup><a href="#sources">[257]</a></sup>.
 - **Competing with a ghost.** Positioning against a vendor the buyer does not consider. Fix: start from what they would do if you disappeared.
 
 ## Variants by company stage

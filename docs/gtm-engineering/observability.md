@@ -15,14 +15,14 @@ Observability is how you know the motion is sick before the quarter is. Dashboar
 
 | Signal | Healthy band | Alert |
 |--------|--------------|-------|
-| Delivery | 97%+ [17] | Pause domain |
-| Hard bounce | under 2% [331] | Pause domain |
-| Complaints | under 0.1%, hard stop near 0.3% [17][329] | Pause all cold volume |
-| Reply | diagnose under 2% [329] | Inspect list and copy |
-| Meetings / 1,000 sends | 3-10 [17] | Do not add volume if under 3 |
+| Delivery | 97%+ <sup><a href="#sources">[17]</a></sup> | Pause domain |
+| Hard bounce | under 2% <sup><a href="#sources">[331]</a></sup> | Pause domain |
+| Complaints | under 0.1%, hard stop near 0.3% <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[329]</a></sup> | Pause all cold volume |
+| Reply | diagnose under 2% <sup><a href="#sources">[329]</a></sup> | Inspect list and copy |
+| Meetings / 1,000 sends | 3-10 <sup><a href="#sources">[17]</a></sup> | Do not add volume if under 3 |
 | Agent error rate | near zero invented fields | Block writes |
 
-Open rate is a relative weekly signal only. Apple Mail Privacy Protection inflates it 10-20 points [330]. Do not page anyone about opens.
+Open rate is a relative weekly signal only. Apple Mail Privacy Protection inflates it 10-20 points <sup><a href="#sources">[330]</a></sup>. Do not page anyone about opens.
 
 ## Logs worth keeping
 
@@ -31,7 +31,7 @@ Open rate is a relative weekly signal only. Apple Mail Privacy Protection inflat
 - Every bounce and complaint: raw provider code.
 - Every meeting: held or not, AE accept or not.
 
-Without template version on the send, you cannot attribute a reply-rate drop to fatigue [329].
+Without template version on the send, you cannot attribute a reply-rate drop to fatigue <sup><a href="#sources">[329]</a></sup>.
 
 ## How this differs by stage
 
@@ -48,7 +48,7 @@ Without template version on the send, you cannot attribute a reply-rate drop to 
 
 ## Agentic layer
 
-The harness should stop sends when bounce or complaint alerts fire, then open a task for a human. Do not "retry tomorrow" on a domain that tripped enforcement [17].
+The harness should stop sends when bounce or complaint alerts fire, then open a task for a human. Do not "retry tomorrow" on a domain that tripped enforcement <sup><a href="#sources">[17]</a></sup>.
 
 ## Sources
 

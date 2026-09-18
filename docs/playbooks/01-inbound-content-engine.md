@@ -17,7 +17,7 @@ This playbook covers building the engine from zero to growth-stage scale. For th
 
 ## Publishing cadence
 
-**8-16 blog posts per month** is the optimal publishing cadence for growth-stage SaaS building topic authority. Companies publishing 16+ posts generate 4.5x more leads than those publishing 0-4 [1]. Below 8 posts, you are not compounding. Above 16, diminishing returns set in unless you have a team.
+**8-16 blog posts per month** is the optimal publishing cadence for growth-stage SaaS building topic authority. Companies publishing 16+ posts generate 4.5x more leads than those publishing 0-4 <sup><a href="#sources">[1]</a></sup>. Below 8 posts, you are not compounding. Above 16, diminishing returns set in unless you have a team.
 
 ---
 
@@ -198,7 +198,7 @@ Every quarter, audit the hub performance:
 | Growth | $5-50M | 8-16 | 3-7 | 10-20% | 60-70% |
 | Scale | $50M+ | 16-30+ | 10+ | 5-10% | 50-60% |
 
-**Growth-stage benchmarks (Jam 7, 2026) [2]:**
+**Growth-stage benchmarks (Jam 7, 2026) <sup><a href="#sources">[2]</a></sup>:**
 
 - 8-16 posts/month optimal for topic authority
 - Marketing budget 10-20% of ARR

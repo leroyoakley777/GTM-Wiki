@@ -583,6 +583,24 @@ body {
   font-weight: 600;
 }
 
+/* ============ CITATION SUPERS — Grokipedia voice ============ */
+/* Mono, blue, superscript; no underline chrome from the body-link rule. */
+.main-wrapper [class*='docItemContainer'] .markdown sup {
+  font-size: 0.78em;
+  line-height: 0;
+}
+
+.main-wrapper [class*='docItemContainer'] .markdown sup a {
+  font-family: var(--nous-mono);
+  font-size: 0.78em;
+  color: var(--nous-blue);
+  border-bottom: none;
+}
+
+.main-wrapper [class*='docItemContainer'] .markdown sup a:hover {
+  color: var(--nous-blue-bright);
+}
+
 /* ============ SEARCH MODAL — flat, hairline, paper ============ */
 [class*='searchModal'] {
   border-radius: 0;

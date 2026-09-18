@@ -26,19 +26,19 @@ Pick the framework from the reader's problem, not from a favorite formula. Fill 
 | High-ticket, needs trust and a story before the ask | PASTOR | Problem, Amplify, Story, Transformation, Offer, Response |
 | Needs urgency in a single hook | 4 Us | Useful, Urgent, Unique, Ultra-specific |
 
-A common long-form sequence is 4Ps for the hook, BAB for the opening transformation, PASTOR for the main narrative, and FAB for offer details or objections [226]. That is a page or a deck, not a cold email.
+A common long-form sequence is 4Ps for the hook, BAB for the opening transformation, PASTOR for the main narrative, and FAB for offer details or objections <sup><a href="#sources">[226]</a></sup>. That is a page or a deck, not a cold email.
 
 
 ## PAS: Problem, Agitate, Solution
 
-A short framework for an audience that already feels the problem. Name the problem, make the cost concrete, then present the fix [227][228].
+A short framework for an audience that already feels the problem. Name the problem, make the cost concrete, then present the fix <sup><a href="#sources">[227]</a></sup><sup><a href="#sources">[228]</a></sup>.
 
 **When.** Problem-aware readers. Short assets. Any copy where you do not have room to build a story.
 
 **Move order.**
 
 - **Problem.** The specific frustration they feel now. Precise, not generic.
-- **Agitate.** The cost of leaving it unsolved. Real cost, not melodrama. Hype costs trust [228].
+- **Agitate.** The cost of leaving it unsolved. Real cost, not melodrama. Hype costs trust <sup><a href="#sources">[228]</a></sup>.
 - **Solution.** The offer as the direct fix, with one proof point.
 
 **Where it fails.** The writer skips the problem and leads with the product, or agitates into theater. If the reader does not feel the problem, PAS has nothing to stand on. Go back to [messaging](/docs/copywriting/messaging) and verify the felt problem.
@@ -46,7 +46,7 @@ A short framework for an audience that already feels the problem. Name the probl
 
 ## AIDA: Attention, Interest, Desire, Action
 
-The oldest general framework, credited to E. St. Elmo Lewis. Attention stops the reader, interest holds them, desire makes the outcome wanted, action asks for a step [229].
+The oldest general framework, credited to E. St. Elmo Lewis. Attention stops the reader, interest holds them, desire makes the outcome wanted, action asks for a step <sup><a href="#sources">[229]</a></sup>.
 
 **When.** Longer pieces, sales pages, launches, and readers who are not yet committed to the problem.
 
@@ -62,7 +62,7 @@ The oldest general framework, credited to E. St. Elmo Lewis. Attention stops the
 
 ## BAB: Before, After, Bridge
 
-Paint the current state, paint the better state, then show the path between them. Contrast is the mechanism [226].
+Paint the current state, paint the better state, then show the path between them. Contrast is the mechanism <sup><a href="#sources">[226]</a></sup>.
 
 **When.** Transformation offers, results-oriented products, anything with a visible before and after the reader can picture.
 
@@ -77,7 +77,7 @@ Paint the current state, paint the better state, then show the path between them
 
 ## FAB: Feature, Advantage, Benefit
 
-The feature is what the product has. The advantage is why that matters in use. The benefit is what it changes for the buyer [226]. FAB forces the translation from what you built to what they get.
+The feature is what the product has. The advantage is why that matters in use. The benefit is what it changes for the buyer <sup><a href="#sources">[226]</a></sup>. FAB forces the translation from what you built to what they get.
 
 **When.** Comparison content, pricing tables, implementation notes, objection handling, feature-heavy products.
 
@@ -92,7 +92,7 @@ The feature is what the product has. The advantage is why that matters in use. T
 
 ## 4Ps: Promise, Picture, Proof, Push
 
-A short-form sequence: the claim, the imagined result, the credibility, the action [226].
+A short-form sequence: the claim, the imagined result, the credibility, the action <sup><a href="#sources">[226]</a></sup>.
 
 **When.** Ads, hero sections, short blocks, anything where momentum matters more than diagnosis.
 
@@ -100,7 +100,7 @@ A short-form sequence: the claim, the imagined result, the credibility, the acti
 
 - **Promise.** One specific, believable claim tied to the reader's main desire.
 - **Picture.** A short scene of the result.
-- **Proof.** A number, a named result, a testimonial. Bigger promise, harder proof [226].
+- **Proof.** A number, a named result, a testimonial. Bigger promise, harder proof <sup><a href="#sources">[226]</a></sup>.
 - **Push.** A direct next step with a reason to act now.
 
 **Where it fails.** A promise with thin proof. The Picture raises an expectation the Proof does not meet.
@@ -108,7 +108,7 @@ A short-form sequence: the claim, the imagined result, the credibility, the acti
 
 ## PASTOR: Problem, Amplify, Story, Transformation, Offer, Response
 
-Ray Edwards's long-form framework. It earns trust before the ask by adding a story and a named transformation [228][230].
+Ray Edwards's long-form framework. It earns trust before the ask by adding a story and a named transformation <sup><a href="#sources">[228]</a></sup><sup><a href="#sources">[230]</a></sup>.
 
 **When.** High-ticket offers, sales pages, trust-sensitive motions that need objection handling and a structured close.
 
@@ -116,7 +116,7 @@ Ray Edwards's long-form framework. It earns trust before the ask by adding a sto
 
 - **Problem.** The problem they are stuck in.
 - **Amplify.** The consequence of leaving it unsolved.
-- **Story and Solution.** Someone who faced the problem and the solution that helped. This is the step most writers skip, and it is the step that earns trust [227].
+- **Story and Solution.** Someone who faced the problem and the solution that helped. This is the step most writers skip, and it is the step that earns trust <sup><a href="#sources">[227]</a></sup>.
 - **Transformation.** The shift in outcomes.
 - **Offer.** What it is, what it costs, what it includes.
 - **Response.** The specific next step.
@@ -126,7 +126,7 @@ Ray Edwards's long-form framework. It earns trust before the ask by adding a sto
 
 ## 4 Us: Useful, Urgent, Unique, Ultra-specific
 
-A filter for a single hook or headline, not a full structure. Score the line on four tests: useful, urgent, unique, ultra-specific [226].
+A filter for a single hook or headline, not a full structure. Score the line on four tests: useful, urgent, unique, ultra-specific <sup><a href="#sources">[226]</a></sup>.
 
 **When.** Headlines, subject lines you write yourself, the first line of any asset where you have one chance to earn the read.
 
@@ -140,8 +140,8 @@ This wiki will not recommend a subject line. The filter is yours to run on lines
 ## Principles that sit above every framework
 
 - **Claim first, framework second.** A framework does not rescue a missing position. See [Positioning](/docs/copywriting/positioning) and [Messaging](/docs/copywriting/messaging).
-- **One idea per asset.** Extra ideas go to the next page or the next conversation [224].
-- **Agitate with cost, not theater.** Readers punish exaggeration [228].
+- **One idea per asset.** Extra ideas go to the next page or the next conversation <sup><a href="#sources">[224]</a></sup>.
+- **Agitate with cost, not theater.** Readers punish exaggeration <sup><a href="#sources">[228]</a></sup>.
 - **Match length to trust.** PAS and 4Ps are short. PASTOR is long because the story is doing work. Using the long form on a low-trust, low-attention surface wastes the read.
 - **No swipe file.** Do not paste a recommended email from this wiki, because this wiki will not publish one. Outbound copy is written per row from a reason-to-reach. See [Outbound](/docs/channels/outbound).
 
@@ -149,8 +149,8 @@ This wiki will not recommend a subject line. The filter is yours to run on lines
 
 - **Writing before the layers.** Fluent and unconvincing. Fix: audience line and claim line before a framework.
 - **Framework as decoration.** PAS laid on a muddy claim. Fix: the framework exposes a weak claim; it does not fix it.
-- **One framework for everything.** PAS on a high-ticket offer that needs trust, or PASTOR on a 60-word ad. Fix: pick from the grid [226].
-- **Skipped story in PASTOR.** A six-step PAS with a new name. Fix: the story is the mechanism [227].
+- **One framework for everything.** PAS on a high-ticket offer that needs trust, or PASTOR on a 60-word ad. Fix: pick from the grid <sup><a href="#sources">[226]</a></sup>.
+- **Skipped story in PASTOR.** A six-step PAS with a new name. Fix: the story is the mechanism <sup><a href="#sources">[227]</a></sup>.
 - **Asking the framework to be an email template.** This page structures thinking. It does not replace a reason-to-reach.
 
 ## Variants by company stage and surface

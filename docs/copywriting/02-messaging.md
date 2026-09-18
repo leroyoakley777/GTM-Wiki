@@ -11,7 +11,7 @@ last_updated: 2026-09-08
 
 Messaging translates positioning into language a buyer hears. Positioning decides the place you occupy. Messaging decides the claim, the frame, and the proof that travel through website, sales call, ad, and deck.
 
-It is still not copy. Copy is the sentence. Messaging is the approved meaning those sentences have to carry. Dunford (2019, restated 2024) treats positioning as context, not a tagline; messaging is what the buyer hears after that context is set [257].
+It is still not copy. Copy is the sentence. Messaging is the approved meaning those sentences have to carry. Dunford (2019, restated 2024) treats positioning as context, not a tagline; messaging is what the buyer hears after that context is set <sup><a href="#sources">[257]</a></sup>.
 
 
 ## Job of a message
@@ -25,7 +25,7 @@ A message has to do four things at once:
 
 If you cannot write those four lines, you are not ready to pick a framework. A framework applied to a muddy claim produces muddy copy that is easier to read and no more convincing.
 
-Product Marketing Alliance's working rules match that bar: lead with the problem, be specific, use the buyer's language, let proof beat adjectives, and keep one idea per asset [224].
+Product Marketing Alliance's working rules match that bar: lead with the problem, be specific, use the buyer's language, let proof beat adjectives, and keep one idea per asset <sup><a href="#sources">[224]</a></sup>.
 
 
 ## Claim template
@@ -41,11 +41,11 @@ Objection we will hear: [the doubt].
 Reply: [the true answer, not a dodge].
 ```
 
-Moore's structure sits underneath: for a target who has a need, this product is a category that delivers a benefit [225]. Messaging is the buyer-facing compression of that internal statement.
+Moore's structure sits underneath: for a target who has a need, this product is a category that delivers a benefit <sup><a href="#sources">[225]</a></sup>. Messaging is the buyer-facing compression of that internal statement.
 
 Rules:
 
-- **One claim per asset.** A hero, a cold first touch, a slide, an ad. Stacking claims creates none [224].
+- **One claim per asset.** A hero, a cold first touch, a slide, an ad. Stacking claims creates none <sup><a href="#sources">[224]</a></sup>.
 - **The problem is theirs, not yours.** "We built a platform that..." is a product tour. "Review time blows past the SLA after you hire the third AppSec engineer" is a problem they recognize.
 - **Proof is specific.** "Customers love us" is an adjective. A named customer plus a named time or dollar change is a proof point.
 - **The objection is written down.** If you cannot name the doubt, the buyer will, and you will improvise.
@@ -84,7 +84,7 @@ The frame decides the first line of every asset. A competitor frame leads with d
 
 These are messaging rules, not style tips:
 
-- Use the words the buyer uses in interviews and win/loss notes, not the words the product team prefers [224].
+- Use the words the buyer uses in interviews and win/loss notes, not the words the product team prefers <sup><a href="#sources">[224]</a></sup>.
 - Cut unearned superlatives. If a claim needs "leading" or "best" to work, the proof is missing.
 - Prefer nouns and verbs over atmosphere. "Cuts reconciliation from two days to 20 minutes" beats "transforms finance operations."
 - One ask per asset, matching the stage. A first touch asks for a next step. A pricing page asks for a plan. Mixing asks gives the reader a way to stall.
@@ -95,7 +95,7 @@ These rules apply to ads, pages, decks, and outbound alike. They are not a licen
 ## Failure modes
 
 - **Messaging as a synonym for copy.** A Google Doc of headlines with no positioning card underneath. Fix: fill [positioning](/docs/copywriting/positioning) first.
-- **One claim, many messages.** Three value props in one hero. Fix: one claim on the asset; the rest wait for a later page or a later conversation [224].
+- **One claim, many messages.** Three value props in one hero. Fix: one claim on the asset; the rest wait for a later page or a later conversation <sup><a href="#sources">[224]</a></sup>.
 - **Proof-free ambition.** Big outcome, no named result. Fix: shrink the claim to the proof you have, or get the proof.
 - **Internal jargon on a buyer page.** "Unified orchestration layer" to a VP who said "our reps work out of four tools." Fix: borrow their sentence.
 - **Persona drift.** Marketing writes for the user. Sales sells to the economic buyer. Fix: same pillars, different emphasis, same card.

@@ -23,7 +23,7 @@ This page is the engineering view. Pair it with [Revenue operations](/docs/found
 | Touch | Channel, time, disposition | Sequence, coaching |
 | Outcome | Meeting held, opp, close | Score of the motion |
 
-Stale contact data costs B2B teams an estimated 15-25% of revenue [301]. One in four GTM leaders do not trust that CRM data is current [301]. Trust is an engineering problem before it is a pep-talk problem.
+Stale contact data costs B2B teams an estimated 15-25% of revenue <sup><a href="#sources">[301]</a></sup>. One in four GTM leaders do not trust that CRM data is current <sup><a href="#sources">[301]</a></sup>. Trust is an engineering problem before it is a pep-talk problem.
 
 ## Design rules
 
@@ -32,18 +32,18 @@ Stale contact data costs B2B teams an estimated 15-25% of revenue [301]. One in 
 3. **Suppression is global.** ESP and CRM share the list or you will email a person who opted out.
 4. **Outcomes beat activity.** Store held meetings and accepted opps as first-class events.
 
-A modern stack has to pass data, not just collect tools. Average B2B teams run tools from 23 vendors [301]. Integration is the product.
+A modern stack has to pass data, not just collect tools. Average B2B teams run tools from 23 vendors <sup><a href="#sources">[301]</a></sup>. Integration is the product.
 
 ## How this differs by stage
 
 - **Seed.** HubSpot or Attio plus a sheet. Do not build a warehouse.
-- **Series A.** CRM as system of record, enrichment in, engagement out [305].
-- **Scale.** Warehouse plus reverse ETL. RevOps owns hygiene [302].
+- **Series A.** CRM as system of record, enrichment in, engagement out <sup><a href="#sources">[305]</a></sup>.
+- **Scale.** Warehouse plus reverse ETL. RevOps owns hygiene <sup><a href="#sources">[302]</a></sup>.
 
 ## Failure modes
 
 - **Two CRMs.** Marketing automation and sales CRM drift within a month.
-- **Enrichment without verification.** Bounce rates blow past 2% and take domains with them [331].
+- **Enrichment without verification.** Bounce rates blow past 2% and take domains with them <sup><a href="#sources">[331]</a></sup>.
 - **Activity objects with no outcome objects.** You can see sends. You cannot see pipeline.
 - **Agent writes that bypass the schema.** Made-up titles land in production sequences.
 

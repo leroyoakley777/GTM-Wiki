@@ -37,7 +37,7 @@ A contribution does not have to be a new page. Finding a broken link, fixing a
 stale stat, adding a missing source row, or clarifying a confusing section all
 count. The work maintainers value most is often the work that is not glamorous:
 a corrected number, a tightened paragraph, a source that actually supports the
-claim [1].
+claim <sup><a href="#sources">[1]</a></sup>.
 
 ## Why it matters
 
@@ -45,13 +45,13 @@ The wiki is a credibility piece. Every page is a proof of competence. A weak
 or wrong page costs trust before a reader reaches any content that matters.
 Open source contributions are how the graph grows beyond one author, and the
 demand is real. March 2025 was the largest single month of new open-source
-contributors in GitHub history, at 255,000 first-timers [2]. Nearly 20% of the
-most popular first-timer projects in 2025 were AI-focused [2], which is the
+contributors in GitHub history, at 255,000 first-timers <sup><a href="#sources">[2]</a></sup>. Nearly 20% of the
+most popular first-timer projects in 2025 were AI-focused <sup><a href="#sources">[2]</a></sup>, which is the
 same territory this wiki leads with.
 
 The scale of the movement backs the model. Open source drew 1.128 billion
 contributions to public and open-source repositories in 2025, up 13% year over
-year, and 60% of the ten most-contributed projects were AI-focused [2]. A
+year, and 60% of the ten most-contributed projects were AI-focused <sup><a href="#sources">[2]</a></sup>. A
 community-built wiki in that same territory is how a reference like this grows.
 
 Your contribution accrues. A well-sourced page stays useful for years. A page
@@ -61,7 +61,7 @@ below exist so every shipped page earns its place.
 One operator wrote ten contributions to a single project, and that was worth
 more than ten contributions to ten projects. Depth in one place beats a spread
 of shallow touches. Build relationships with one maintainer, one section, one
-topic. That is how trust and credit accrue [1].
+topic. That is how trust and credit accrue <sup><a href="#sources">[1]</a></sup>.
 
 ## What counts as a good contribution
 
@@ -180,11 +180,11 @@ Follow this workflow. It mirrors the way the wiki's own build runs.
    [github.com/leroyoakley777/GTM-Wiki](https://github.com/leroyoakley777/GTM-Wiki).
 2. **Read the project before you write.** Look at the contributing docs and the
    recent pull requests. Confirm the project is active and that maintainers
-   respond [1].
+   respond <sup><a href="#sources">[1]</a></sup>.
 3. **Find a gap.** Start from the [map](./map). Pick an issue labeled for
    beginners if one exists, or propose a page the graph is missing. For
    anything beyond a typo fix, open an issue or a draft pull request before you
-   invest a week [1].
+   invest a week <sup><a href="#sources">[1]</a></sup>.
 4. **Create a branch.** Never commit to `main` directly. Name it after the
    change, for example `docs/contributing-page`.
 5. **Clone and set up locally.** Run `npm install`, then `npm run setup:hooks`
@@ -202,7 +202,7 @@ Follow this workflow. It mirrors the way the wiki's own build runs.
 
 Open a draft pull request early for a substantial contribution. Draft PRs let
 reviewers watch your progress and catch a wrong direction before you invest a
-week [1].
+week <sup><a href="#sources">[1]</a></sup>.
 
 ## What happens after you submit
 
@@ -210,18 +210,18 @@ The review is not a black box. Set expectations before you open the pull
 request, so you read the silence correctly.
 
 - **Respond promptly and professionally.** Feedback can feel harsh. Maintainers
-  focus on the content, not the person. Take the note, revise, and reply [5].
+  focus on the content, not the person. Take the note, revise, and reply <sup><a href="#sources">[5]</a></sup>.
 - **Keep one pull request open.** When changes are requested, do not open a new
   pull request. Make the changes in the existing one. A new PR loses the
-  context of the review [5].
+  context of the review <sup><a href="#sources">[5]</a></sup>.
 - **Expect a reply inside a week.** Creative Commons aims to review pull
-  requests within 5 business days [4]. Most teams target pull request review in
-  under 3 business days [3]. A good PR expects a reply inside a week.
+  requests within 5 business days <sup><a href="#sources">[4]</a></sup>. Most teams target pull request review in
+  under 3 business days <sup><a href="#sources">[3]</a></sup>. A good PR expects a reply inside a week.
 - **Follow up without pinging.** If the pull request sits for weeks, leave one
   polite comment asking for feedback. Do not tag maintainers by handle.
-  Maintainers balance open source work with full-time jobs [5].
+  Maintainers balance open source work with full-time jobs <sup><a href="#sources">[5]</a></sup>.
 - **Ask when it does not merge.** If the contribution is declined, ask for the
-  reason. The answer is context for the next attempt [5].
+  reason. The answer is context for the next attempt <sup><a href="#sources">[5]</a></sup>.
 
 Reviewers are people with a day job. The wiki is maintained in spare hours.
 Write a pull request that a reviewer can approve in one pass, and the loop stays

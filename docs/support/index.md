@@ -16,10 +16,10 @@ This page covers how support connects to pipeline and product. Pair it with [Rev
 ## Why support belongs in GTM
 
 - **It hears the product in the customer's words.** That language belongs in outbound first lines and in positioning, not only in a help center.
-- **It sees expansion earlier than sales.** A team asking how to add seats or a new workspace is an expansion signal. Community-led programs have cut ticket volume 30-40% in vendor-reported studies, which frees time for this kind of reading [154].
-- **It is often the only human a mid-market buyer still trusts.** Notion ran support for a huge user base with a tiny success team by pushing answers into community and product [202]. Most B2B teams do not get that luxury. They get a queue. Design the queue so the useful signal is captured.
+- **It sees expansion earlier than sales.** A team asking how to add seats or a new workspace is an expansion signal. Community-led programs have cut ticket volume 30-40% in vendor-reported studies, which frees time for this kind of reading <sup><a href="#sources">[154]</a></sup>.
+- **It is often the only human a mid-market buyer still trusts.** Notion ran support for a huge user base with a tiny success team by pushing answers into community and product <sup><a href="#sources">[202]</a></sup>. Most B2B teams do not get that luxury. They get a queue. Design the queue so the useful signal is captured.
 
-RevOps exists in part to sit across sales, marketing, and success so these signals have a home [199][302].
+RevOps exists in part to sit across sales, marketing, and success so these signals have a home <sup><a href="#sources">[199]</a></sup><sup><a href="#sources">[302]</a></sup>.
 
 ## Working loop
 
@@ -31,19 +31,19 @@ RevOps exists in part to sit across sales, marketing, and success so these signa
 | Feature request from an ICP account | Product | Weighted, not a popularity contest |
 | "We are evaluating [competitor]" | AE + PMM | Win/loss, not a surprise at renewal |
 
-Almost 60% of B2B buyers would stop doing business with a vendor based on a bad mobile experience alone [259]. Support sees those cuts in real time. If that ticket dies in a tag called "bug," GTM learns at cancellation.
+Almost 60% of B2B buyers would stop doing business with a vendor based on a bad mobile experience alone <sup><a href="#sources">[259]</a></sup>. Support sees those cuts in real time. If that ticket dies in a tag called "bug," GTM learns at cancellation.
 
 ## How this differs by stage
 
 - **Seed.** Founders read every ticket. That is the job.
 - **Growth.** A support lead tags ICP versus non-ICP. Only ICP patterns change roadmap and outbound copy.
-- **Scale.** Support, CS, and sales share definitions. Community can take repeat questions [154][202]. Human support stays on high-ACV and high-risk accounts.
+- **Scale.** Support, CS, and sales share definitions. Community can take repeat questions <sup><a href="#sources">[154]</a></sup><sup><a href="#sources">[202]</a></sup>. Human support stays on high-ACV and high-risk accounts.
 
 ## Failure modes
 
 - **Queue as a factory.** Fast replies, zero captured signal.
 - **CS and support fighting the same customer.** Two owners, no owner.
-- **Outbound that ignores support language.** SDRs invent metaphors the customer never uses. Reply rates stay at the generic 3.43% band [325].
+- **Outbound that ignores support language.** SDRs invent metaphors the customer never uses. Reply rates stay at the generic 3.43% band <sup><a href="#sources">[325]</a></sup>.
 - **Hiding severity.** If support cannot say "this is costing renewals," the forecast is fiction.
 
 ## Agentic layer

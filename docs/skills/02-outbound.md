@@ -13,18 +13,18 @@ parent: skills/index
 
 Outbound is the skill of sending cold email and running cold calls to book meetings with ICP-fit accounts. You run it when you have a list and a value hypothesis and need pipeline faster than inbound will deliver it.
 
-Outbound is the scaler you control. Unlike inbound, which compounds but takes quarters, outbound produces meetings on the schedule you set, as long as deliverability and message quality hold [1].
+Outbound is the scaler you control. Unlike inbound, which compounds but takes quarters, outbound produces meetings on the schedule you set, as long as deliverability and message quality hold <sup><a href="#sources">[1]</a></sup>.
 
 ## When to use this skill
 
 Run outbound when:
 
 - You have a verified prospecting list and a value hypothesis per account.
-- Pipeline coverage is below the 3-5x quota band and you need meetings this quarter [2].
+- Pipeline coverage is below the 3-5x quota band and you need meetings this quarter <sup><a href="#sources">[2]</a></sup>.
 - The ICP is tight enough that a surgical message beats a broad one.
 - An agent can run the sequence while a human owns the relationship.
 
-Do not run it as a volume play. Under 125-word, personalized cold email outperforms long templated sends by about 50% on reply rate [3]; blasting 1,000 generic emails buys spam, not meetings.
+Do not run it as a volume play. Under 125-word, personalized cold email outperforms long templated sends by about 50% on reply rate <sup><a href="#sources">[3]</a></sup>; blasting 1,000 generic emails buys spam, not meetings.
 
 ## Definition
 
@@ -32,17 +32,17 @@ Outbound is a repeatable send-and-call motion: a targeted list, a value-first me
 
 ## Why it matters
 
-A defined ICP plus disciplined outbound is the fastest repeatable pipeline source for a tight-ICP motion [4]. The cost is real: a fully-loaded SDR runs about $139,120 per year [5], and a burned domain costs far more in lost deliverability. The skill exists to make the spend produce meetings at a known payback, not to maximize sends.
+A defined ICP plus disciplined outbound is the fastest repeatable pipeline source for a tight-ICP motion <sup><a href="#sources">[4]</a></sup>. The cost is real: a fully-loaded SDR runs about $139,120 per year <sup><a href="#sources">[5]</a></sup>, and a burned domain costs far more in lost deliverability. The skill exists to make the spend produce meetings at a known payback, not to maximize sends.
 
 ## Mechanics
 
 ### 1. Protect deliverability before you send
 
-Set up the domain and inboxes first. Use 2-3 inboxes per domain, cap at 50 sends per inbox per day, and run a 3-week warmup before any campaign [6]. Authenticate with SPF, DKIM, and DMARC; keep complaint rates under 0.3% and inbox placement at or above 80% [7]. A domain that fails deliverability wastes every message after it.
+Set up the domain and inboxes first. Use 2-3 inboxes per domain, cap at 50 sends per inbox per day, and run a 3-week warmup before any campaign <sup><a href="#sources">[6]</a></sup>. Authenticate with SPF, DKIM, and DMARC; keep complaint rates under 0.3% and inbox placement at or above 80% <sup><a href="#sources">[7]</a></sup>. A domain that fails deliverability wastes every message after it.
 
 ### 2. Write from a claim, not a template
 
-Lead with a signal or an insight, not your product. Keep it under 125 words [3]. Personalization that reaches 15-25% reply rates comes from signal-based targeting, not token-swapping the first name [8]. The words themselves come from [Copywriting](/docs/copywriting). This skill will not recommend email copy.
+Lead with a signal or an insight, not your product. Keep it under 125 words <sup><a href="#sources">[3]</a></sup>. Personalization that reaches 15-25% reply rates comes from signal-based targeting, not token-swapping the first name <sup><a href="#sources">[8]</a></sup>. The words themselves come from [Copywriting](/docs/copywriting). This skill will not recommend email copy.
 
 ### 3. Build the sequence
 
@@ -50,11 +50,11 @@ A 4-touch sequence over 10-14 days beats a single send. Space touches so the rea
 
 ### 4. Call the high-value tier
 
-Cold calls convert at 2-3% connect rate, with top SDRs reaching 5-8% meetings [9]. Reserve calls for Tier 1 accounts where a human conversation is worth more than an email. Call after the second email, not as the first touch.
+Cold calls convert at 2-3% connect rate, with top SDRs reaching 5-8% meetings <sup><a href="#sources">[9]</a></sup>. Reserve calls for Tier 1 accounts where a human conversation is worth more than an email. Call after the second email, not as the first touch.
 
 ### 5. Measure and iterate
 
-Track reply rate, positive reply rate, and meetings booked per 1,000 sends. The healthy band is 3-10 meetings per 1,000 sends [10]. A sequence below it is a message problem or a list problem, not a volume problem.
+Track reply rate, positive reply rate, and meetings booked per 1,000 sends. The healthy band is 3-10 meetings per 1,000 sends <sup><a href="#sources">[10]</a></sup>. A sequence below it is a message problem or a list problem, not a volume problem.
 
 ## Artifact: the sequence contract
 
@@ -66,25 +66,25 @@ This is the deliverable each send is built from. One variable block per signal. 
 | Claim | yes | One outcome, from positioning |
 | Proof | yes | Named result or it does not ship |
 | Ask | yes | Meeting or redirect, not both |
-| Word cap | yes | Under 125 [3] |
+| Word cap | yes | Under 125 <sup><a href="#sources">[3]</a></sup> |
 
 Under 125 words. No "I hope this finds you well." No superlatives. The ask is one line.
 
 ## A worked example
 
-A Series B SaaS spends on outbound to hit pipeline coverage. Fully-loaded SDR cost is $139,120 per year [5]. The SDR sends 50 emails per day across 3 inboxes, 5 days a week: about 1,000 sends per month, or 12,000 per year.
+A Series B SaaS spends on outbound to hit pipeline coverage. Fully-loaded SDR cost is $139,120 per year <sup><a href="#sources">[5]</a></sup>. The SDR sends 50 emails per day across 3 inboxes, 5 days a week: about 1,000 sends per month, or 12,000 per year.
 
-At a 5.8% blended reply rate [1], that is about 696 replies per year. Positive replies run above 30% of replies [1], so roughly 210 positive replies. At the 3-10 meetings per 1,000 sends band [10], 12,000 sends yield 36-120 meetings per year.
+At a 5.8% blended reply rate <sup><a href="#sources">[1]</a></sup>, that is about 696 replies per year. Positive replies run above 30% of replies <sup><a href="#sources">[1]</a></sup>, so roughly 210 positive replies. At the 3-10 meetings per 1,000 sends band <sup><a href="#sources">[10]</a></sup>, 12,000 sends yield 36-120 meetings per year.
 
-Take the midpoint, 78 meetings. If 21% close (the ~21% Opp to Closed-Won benchmark) [11], that is about 16 new customers. If average ACV is $30,000, outbound books about $480,000 in new ARR against $139,120 of SDR cost: a payback well inside 12 months. The arithmetic is a named base, not a guess; change the send volume or the reply rate and the meeting count moves with it.
+Take the midpoint, 78 meetings. If 21% close (the ~21% Opp to Closed-Won benchmark) <sup><a href="#sources">[11]</a></sup>, that is about 16 new customers. If average ACV is $30,000, outbound books about $480,000 in new ARR against $139,120 of SDR cost: a payback well inside 12 months. The arithmetic is a named base, not a guess; change the send volume or the reply rate and the meeting count moves with it.
 
 ## Failure modes and how to fix them
 
-- **Deliverability ignored.** One unauthenticated domain burns the whole program. Fix: SPF/DKIM/DMARC set, warmup run, caps enforced [6][7].
-- **Volume over relevance.** Generic blasts land in spam and train filters against you. Fix: under 125 words, signal-led, one variable block [3].
+- **Deliverability ignored.** One unauthenticated domain burns the whole program. Fix: SPF/DKIM/DMARC set, warmup run, caps enforced <sup><a href="#sources">[6]</a></sup><sup><a href="#sources">[7]</a></sup>.
+- **Volume over relevance.** Generic blasts land in spam and train filters against you. Fix: under 125 words, signal-led, one variable block <sup><a href="#sources">[3]</a></sup>.
 - **No sequence, just a send.** A single email catches the reader only if they are reading that day. Fix: 4-touch, 10-14 day cadence, stop on reply.
 - **Calling first.** Cold calls as a first touch waste the human on unqualified accounts. Fix: email to warm, call the Tier 1 follow-up.
-- **Measuring sends, not meetings.** Sends are vanity; meetings per 1,000 sends is the real yield [10]. Fix: track the band, not the count.
+- **Measuring sends, not meetings.** Sends are vanity; meetings per 1,000 sends is the real yield <sup><a href="#sources">[10]</a></sup>. Fix: track the band, not the count.
 
 ## How the skill differs by segment and maturity
 
@@ -105,7 +105,7 @@ Given: a tiered prospecting list and a value hypothesis per account.
 3. Enforce send caps (50/inbox/day, 2-3 inboxes/domain) and warmup status.
 4. Run the 4-touch cadence; stop any account on first reply.
 5. Route positive replies to the human owner; log meetings booked per 1,000 sends.
-6. Flag any domain with complaint rate >0.3% or inbox placement &lt;80% and pause sends [7].
+6. Flag any domain with complaint rate >0.3% or inbox placement &lt;80% and pause sends <sup><a href="#sources">[7]</a></sup>.
 Never send an unverified email. Never personalize from a signal you cannot name.
 ```
 

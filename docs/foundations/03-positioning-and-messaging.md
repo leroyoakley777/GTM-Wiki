@@ -56,7 +56,7 @@ Two complementary frameworks dominate B2B positioning. Use both.
 ### April Dunford's 5-Step Process (Obviously Awesome)
 
 April Dunford's methodology (2019, restated 2024) treats positioning as a
-deliberate act of putting your unique strengths at the center [1][4]. It rejects the
+deliberate act of putting your unique strengths at the center <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[4]</a></sup>. It rejects the
 traditional positioning statement as a fill-in-the-blanks exercise
 that assumes positioning sits locked inside your head and produces
 statements nobody uses.
@@ -108,7 +108,7 @@ Proof: [Evidence that value is real]
 ### Geoffrey Moore's Positioning Statement (Crossing the Chasm)
 
 Moore's 2014 template forces explicit strategic choices before any
-marketing copy is written [2][3][5]. It is an internal alignment
+marketing copy is written <sup><a href="#sources">[2]</a></sup><sup><a href="#sources">[3]</a></sup><sup><a href="#sources">[5]</a></sup>. It is an internal alignment
 tool, not customer-facing text. The structure:
 
 ```
@@ -259,7 +259,7 @@ messaging doc. Anything that does not trace to it gets cut.
 
 **1. Writing a positioning statement and calling it done.** The
 statement is the output of the work, not the work itself. Dunford
-calls this the false sense that you are done [1]. Markets shift.
+calls this the false sense that you are done <sup><a href="#sources">[1]</a></sup>. Markets shift.
 Competitors move. Buyers evolve. Positioning is a living document:
 review quarterly, revise annually.
 

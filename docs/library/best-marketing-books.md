@@ -15,7 +15,7 @@ tags: [library, marketing, books, positioning, messaging]
 
 ## Positioning (Al Ries & Jack Trout, 1981)
 
-**The book that invented the discipline.** Positioning is what you do to the mind of the prospect, not what you do to the product [1].
+**The book that invented the discipline.** Positioning is what you do to the mind of the prospect, not what you do to the product <sup><a href="#sources">[1]</a></sup>.
 
 The ideas that matter:
 
@@ -31,7 +31,7 @@ Wiki pages it feeds: [Positioning and Messaging](../foundations/03-positioning-a
 
 ## Obviously Awesome (April Dunford, 2019)
 
-**The modern positioning playbook.** Positioning is the context you set for the market, not a tagline or brand story [2].
+**The modern positioning playbook.** Positioning is the context you set for the market, not a tagline or brand story <sup><a href="#sources">[2]</a></sup>.
 
 The ideas that matter:
 
@@ -48,7 +48,7 @@ Wiki pages it feeds: [Positioning and Messaging](../foundations/03-positioning-a
 
 ## Made to Stick (Chip & Dan Heath, 2007)
 
-**The book on ideas that survive.** Sticky ideas are simple, unexpected, concrete, credible, emotional, and told as stories (SUCCESs) [3].
+**The book on ideas that survive.** Sticky ideas are simple, unexpected, concrete, credible, emotional, and told as stories (SUCCESs) <sup><a href="#sources">[3]</a></sup>.
 
 The ideas that matter:
 
@@ -65,7 +65,7 @@ Wiki pages it feeds: [Messaging](../skills/03-messaging.md).
 
 ## Building a StoryBrand (Donald Miller, 2017)
 
-**The book on making the customer the hero.** Brands that cast themselves as the hero lose. The customer is the hero. The brand is the guide [4].
+**The book on making the customer the hero.** Brands that cast themselves as the hero lose. The customer is the hero. The brand is the guide <sup><a href="#sources">[4]</a></sup>.
 
 The ideas that matter:
 
@@ -81,7 +81,7 @@ Wiki pages it feeds: [Messaging](../skills/03-messaging.md), [Story and Brand](.
 
 ## Marketing Rebellion (Mark Schaefer, 2019)
 
-**The book on marketing after the trust collapse.** Nearly 80% of consumers do not trust corporate advertising in any form [5].
+**The book on marketing after the trust collapse.** Nearly 80% of consumers do not trust corporate advertising in any form <sup><a href="#sources">[5]</a></sup>.
 
 The ideas that matter:
 
@@ -97,7 +97,7 @@ Wiki pages it feeds: [Community-Led](../channels/05-community-led.md), [Referral
 
 ## Hooked (Nir Eyal, 2014)
 
-**The book on building habit-forming products.** Retention is a loop: Trigger, Action, Variable Reward, Investment [6].
+**The book on building habit-forming products.** Retention is a loop: Trigger, Action, Variable Reward, Investment <sup><a href="#sources">[6]</a></sup>.
 
 The ideas that matter:
 
@@ -113,7 +113,7 @@ Wiki pages it feeds: [Product-Led](../channels/03-product-led.md), [GTM Metrics]
 
 ## Crossing the Chasm (Geoffrey Moore, 1991)
 
-**The book on crossing from early adopters to the mainstream.** The gap between visionaries and pragmatists kills most high-tech products [7].
+**The book on crossing from early adopters to the mainstream.** The gap between visionaries and pragmatists kills most high-tech products <sup><a href="#sources">[7]</a></sup>.
 
 The ideas that matter:
 

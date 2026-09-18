@@ -32,9 +32,9 @@ Messaging is the repeatable process of converting audience insight and a value c
 
 ## Why it matters
 
-Copy is where GTM decisions become reader-facing. A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one [1], but the claim still has to reach the buyer in words they act on. Positioning that is clear internally produces nothing until it is written for a specific reader.
+Copy is where GTM decisions become reader-facing. A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one <sup><a href="#sources">[1]</a></sup>, but the claim still has to reach the buyer in words they act on. Positioning that is clear internally produces nothing until it is written for a specific reader.
 
-The stakes are measurable. A signal-based, personalized cold email reaches 15-25% reply rates versus low single digits for a generic blast [2]; 50-125 word emails earn about 50% higher reply rates than long templated sends [3]. The same offer, different structure, different result. The frameworks exist because the difference is structure, not talent. They live in [Frameworks](/docs/copywriting/frameworks), not as a swipe file of emails.
+The stakes are measurable. A signal-based, personalized cold email reaches 15-25% reply rates versus low single digits for a generic blast <sup><a href="#sources">[2]</a></sup>; 50-125 word emails earn about 50% higher reply rates than long templated sends <sup><a href="#sources">[3]</a></sup>. The same offer, different structure, different result. The frameworks exist because the difference is structure, not talent. They live in [Frameworks](/docs/copywriting/frameworks), not as a swipe file of emails.
 
 ## Artifact: claim card plus framework pick
 
@@ -55,13 +55,13 @@ Pick the framework from the reader's decision problem. The grid and the move ord
 
 - **Writing before the layers.** Fluent and unconvincing. Fix: name the reader and the claim in one line each before you write.
 - **Framework as decoration.** PAS on a muddy claim. Fix: [positioning](/docs/copywriting/positioning) and [messaging](/docs/copywriting/messaging) first.
-- **One framework for everything.** PAS on a high-ticket offer that needs trust, or PASTOR on a 60-word ad. Fix: pick from the decision grid [7].
-- **Agitation into hype.** Overstating the pain until the reader disbelieves the copy. Fix: agitate with the concrete cost [9].
+- **One framework for everything.** PAS on a high-ticket offer that needs trust, or PASTOR on a 60-word ad. Fix: pick from the decision grid <sup><a href="#sources">[7]</a></sup>.
+- **Agitation into hype.** Overstating the pain until the reader disbelieves the copy. Fix: agitate with the concrete cost <sup><a href="#sources">[9]</a></sup>.
 - **Asking the wiki for an email to send.** Outbound copy is written per row from a reason-to-reach. This wiki does not publish sample emails.
 
 ## How the skill differs by segment and maturity
 
-- **By segment.** SMB buyers decide faster and respond to shorter, benefit-led structures (BAB, 4Ps). Enterprise involves a committee: FAB for the technical proof, PASTOR for the economic buyer's trust [4].
+- **By segment.** SMB buyers decide faster and respond to shorter, benefit-led structures (BAB, 4Ps). Enterprise involves a committee: FAB for the technical proof, PASTOR for the economic buyer's trust <sup><a href="#sources">[4]</a></sup>.
 - **By maturity.** A new motion should test one framework across a small set and read conversion data before scaling. A mature motion can map frameworks to surfaces.
 - **By channel pairing.** Pair this skill with [outbound](./outbound) for the channel mechanics, [prospecting](./prospecting) for the audience layer, and [Copywriting](/docs/copywriting) for the craft.
 

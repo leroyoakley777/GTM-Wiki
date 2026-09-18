@@ -15,7 +15,7 @@ tags: [library, sales, books, outbound, negotiation]
 
 ## Predictable Revenue (Aaron Ross & Marylou Tyler, 2011)
 
-**The book that made outbound a repeatable system.** Ross built the sales machine that generated $100M in recurring revenue at Salesforce.com [1].
+**The book that made outbound a repeatable system.** Ross built the sales machine that generated $100M in recurring revenue at Salesforce.com <sup><a href="#sources">[1]</a></sup>.
 
 The ideas that matter:
 
@@ -32,7 +32,7 @@ Wiki pages it feeds: [Outbound](../channels/01-outbound.md), [Outbound from Zero
 
 ## Challenger Sale (CEB, 2011)
 
-**The research that ended "build rapport, then pitch."** A CEB study of 6,000+ B2B reps found seller skills cluster into five profiles, and only one wins consistently [2].
+**The research that ended "build rapport, then pitch."** A CEB study of 6,000+ B2B reps found seller skills cluster into five profiles, and only one wins consistently <sup><a href="#sources">[2]</a></sup>.
 
 The ideas that matter:
 
@@ -48,7 +48,7 @@ Wiki pages it feeds: [Sales Process (MEDDPICC)](../flows/03-sales-process-meddpi
 
 ## Never Split the Difference (Chris Voss, 2016)
 
-**The negotiation playbook from a former FBI hostage negotiator.** Negotiation runs on emotion and hidden information, not logic [3].
+**The negotiation playbook from a former FBI hostage negotiator.** Negotiation runs on emotion and hidden information, not logic <sup><a href="#sources">[3]</a></sup>.
 
 The ideas that matter:
 
@@ -66,7 +66,7 @@ Wiki pages it feeds: [Sales Process (MEDDPICC)](../flows/03-sales-process-meddpi
 
 ## Sales Acceleration Formula (Mark Roberge, 2013)
 
-**The book that made sales hiring and training formulaic.** Roberge built HubSpot's sales org from the first hire to $100M ARR [4].
+**The book that made sales hiring and training formulaic.** Roberge built HubSpot's sales org from the first hire to $100M ARR <sup><a href="#sources">[4]</a></sup>.
 
 The ideas that matter:
 
@@ -82,7 +82,7 @@ Wiki pages it feeds: [Revenue Operations](../foundations/06-revenue-operations.m
 
 ## From Impossible to Inevitable (Aaron Ross & Jason Lemkin, 2016)
 
-**The hypergrowth playbook for companies at $500K–$4M ARR.** Seven ingredients, from pipeline to destiny [5].
+**The hypergrowth playbook for companies at $500K–$4M ARR.** Seven ingredients, from pipeline to destiny <sup><a href="#sources">[5]</a></sup>.
 
 The ideas that matter:
 
@@ -98,7 +98,7 @@ Wiki pages it feeds: [GTM Strategy Framework](../foundations/00-gtm-strategy-fra
 
 ## Mom Test (Rob Fitzpatrick, 2013)
 
-**The book that fixes customer conversations.** People lie to be nice. The book gives you the rules that force the truth [6].
+**The book that fixes customer conversations.** People lie to be nice. The book gives you the rules that force the truth <sup><a href="#sources">[6]</a></sup>.
 
 The ideas that matter:
 
@@ -114,7 +114,7 @@ Wiki pages it feeds: [ICP Definition](../foundations/02-icp-definition.md), [Out
 
 ## Challenger Customer (CEB, 2015)
 
-**The sequel to The Challenger Sale, for the buying group.** ~5,000-person study on who in a buying group drives the deal [7].
+**The sequel to The Challenger Sale, for the buying group.** ~5,000-person study on who in a buying group drives the deal <sup><a href="#sources">[7]</a></sup>.
 
 The ideas that matter:
 

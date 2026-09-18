@@ -13,12 +13,12 @@ parent: foundations/index
 
 Revenue architecture is the operating system this wiki is built on. It comes
 from Jacco van der Kooij and Winning by Design, and it is the spine that holds
-the rest of the topic graph together [1][2].
+the rest of the topic graph together <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 Design a recurring-revenue business as one integrated system, not as a
 collection of departments. Marketing, sales, and customer success are
 production stages on a single assembly line that shares one language and one
-set of metrics [1]. This page explains the model, why it replaces
+set of metrics <sup><a href="#sources">[1]</a></sup>. This page explains the model, why it replaces
 growth-at-all-costs, how to execute it, and where teams break it.
 
 Read this page first. It is the nucleus. Every other page in this wiki
@@ -32,31 +32,31 @@ establishes here.
 Revenue architecture is the practice of designing and operating a
 recurring-revenue business as a factory. Raw materials go in, a finished
 product comes out, and every station is measured against its contribution to
-the whole [1][2].
+the whole <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 The core metaphor is the revenue factory. Marketing, sales, and success
 are not silos with separate goals. They are stages on one production line
-[1][2]. The factory exists to deliver recurring impact to customers.
+<sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>. The factory exists to deliver recurring impact to customers.
 Recurring impact produces recurring revenue. Quality is decisive. Volume is
-not [1].
+not <sup><a href="#sources">[1]</a></sup>.
 
 The framework replaces siloed, people-heavy execution with system-driven GTM
-motions built for efficiency, quality, and scale [1]. It is designed for
+motions built for efficiency, quality, and scale <sup><a href="#sources">[1]</a></sup>. It is designed for
 subscription and recurring-revenue businesses whose growth is measurable and
-repeatable, not one-off transactions [2].
+repeatable, not one-off transactions <sup><a href="#sources">[2]</a></sup>.
 
 ## Why it matters
 
 The old growth model is broken. From 2021 to 2025, the cost to acquire a
 dollar of growth nearly doubled while annual growth fell by more than half
-[3].
+<sup><a href="#sources">[3]</a></sup>.
 
 For years, growth-at-all-costs was the default. Companies bought top-of-funnel
 volume, spent more than they recovered, and called the gap "growth." The
 market tolerated it while capital was cheap. When capital tightened, the model
-collapsed [1][3].
+collapsed <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[3]</a></sup>.
 
-The market splits into three segments by efficiency [4].
+The market splits into three segments by efficiency <sup><a href="#sources">[4]</a></sup>.
 
 - The $1 zone: companies that generate profit while they grow.
 - The $2 to $4 zone: efficient growth with manageable acquisition costs.
@@ -65,51 +65,51 @@ The market splits into three segments by efficiency [4].
 Winning by Design's analysis of more than 70 public companies shows the
 pattern: high GTM inefficiency tracks with high revenue volatility. Companies
 whose cost-per-dollar-of-growth passes $3 trend worse, not better, and only a
-dozen or so companies perform the way the model intends [5].
+dozen or so companies perform the way the model intends <sup><a href="#sources">[5]</a></sup>.
 
 The benchmark pressure is real on the operational side too. Only about 43 to
 47% of quota-carrying sellers hit quota, which means the factory leaks at the
-outcome stage for most teams [6]. The fix is not "do the same GTM cheaper."
+outcome stage for most teams <sup><a href="#sources">[6]</a></sup>. The fix is not "do the same GTM cheaper."
 It is a different way of running the business: design a few well-chosen
 motions as production lines, align each to lifetime value, measure with
-growth formulas, and chase durable growth through recurring impact [1][5].
+growth formulas, and chase durable growth through recurring impact <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[5]</a></sup>.
 
 ## Framework
 
 The framework rests on four principles and six interconnected models that must
-work together [1][2].
+work together <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ### Four principles
 
 1. Recurring revenue focus. Built for SaaS and subscription businesses
-   with predictable growth patterns, not one-off transactions [2].
+   with predictable growth patterns, not one-off transactions <sup><a href="#sources">[2]</a></sup>.
 2. Revenue factory model. Turn siloed functions into one cohesive
-   revenue-generating machine [2].
+   revenue-generating machine <sup><a href="#sources">[2]</a></sup>.
 3. Scientific frameworks. Data-driven models and formulas that replace
-   guesswork in revenue operations [2].
+   guesswork in revenue operations <sup><a href="#sources">[2]</a></sup>.
 4. Unified language. Common frameworks and metrics across marketing,
-   sales, and customer success [2].
+   sales, and customer success <sup><a href="#sources">[2]</a></sup>.
 
 ### Six interconnected models
 
-1. Revenue model: how you monetize (pricing, packaging, billing) [2].
-2. Data model: how you measure (metrics, analytics, sources of truth) [2].
+1. Revenue model: how you monetize (pricing, packaging, billing) <sup><a href="#sources">[2]</a></sup>.
+2. Data model: how you measure (metrics, analytics, sources of truth) <sup><a href="#sources">[2]</a></sup>.
 3. Mathematical model: how metrics relate (conversion rates, formulas,
-   unit economics) [2].
-4. GTM model: how you go to market (segments, channels, motions) [2].
-5. Growth model: how you scale (expansion, retention, lifecycle) [2].
+   unit economics) <sup><a href="#sources">[2]</a></sup>.
+4. GTM model: how you go to market (segments, channels, motions) <sup><a href="#sources">[2]</a></sup>.
+5. Growth model: how you scale (expansion, retention, lifecycle) <sup><a href="#sources">[2]</a></sup>.
 6. Operational model: how you organize (process, org structure,
-   governance) [2].
+   governance) <sup><a href="#sources">[2]</a></sup>.
 
 None of the six stands alone. Change one and the others move. A pricing change
 is a revenue-model decision, but it flows through the mathematical model into
-the GTM model and back into growth. Design them together [1][2].
+the GTM model and back into growth. Design them together <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ### GTM motions are production lines
 
 The factory runs on GTM motions. A motion is a way of going to market.
 Each motion is a production line with a distinct cost profile and a distinct
-revenue profile [1].
+revenue profile <sup><a href="#sources">[1]</a></sup>.
 
 Ranked by human touch, the motions are:
 
@@ -122,26 +122,26 @@ Ranked by human touch, the motions are:
 Match the motion to lifetime value, not first-year contract value. A large
 strategic deal that renews for years needs high or dedicated touch. A small
 self-serve product does not. Match the motion to multi-year economics, or you
-either underserve your best customers or overspend on your worst [1].
+either underserve your best customers or overspend on your worst <sup><a href="#sources">[1]</a></sup>.
 
 The operating rules:
 
 - Run at most three motions until material scale. More motions fragment
-  the factory [1].
+  the factory <sup><a href="#sources">[1]</a></sup>.
 - Add a new product to justify breaking out into new motions, not just
-  another sales channel [1].
+  another sales channel <sup><a href="#sources">[1]</a></sup>.
 - Interoperability matters. Running multiple motions without a unified
-  operating model kills efficiency. The motions must share one system [1].
+  operating model kills efficiency. The motions must share one system <sup><a href="#sources">[1]</a></sup>.
 
 ### Growth formula
 
 Every production line has a growth formula: a sequence of volume metrics
 and conversion rates that spans the whole customer lifecycle, from acquisition
-through onboarding, retention, and expansion [1].
+through onboarding, retention, and expansion <sup><a href="#sources">[1]</a></sup>.
 
 This replaces the funnel with a bowtie. The funnel ends at "won." The
 bowtie continues through retention and expansion, because in recurring
-revenue, what happens after the sale drives most of the value [1]. A
+revenue, what happens after the sale drives most of the value <sup><a href="#sources">[1]</a></sup>. A
 representative formula:
 
 ```text
@@ -152,14 +152,14 @@ representative formula:
 The growth formula makes a motion's unit economics explicit. You can see where
 a motion makes or loses money, and which single conversion rate to improve.
 Small gains compound: a handful of modest conversion-rate fixes can lift a
-motion's revenue dramatically [1].
+motion's revenue dramatically <sup><a href="#sources">[1]</a></sup>.
 
 The math rewards retention as much as acquisition. Net revenue retention
 (NRR) is the recurring-revenue multiplier: a healthy subscription base sits at
-a median NRR of roughly 102% [7], and companies with NRR at or above 100% grew
-about 48% year over year in recent data [8]. A small NRR edge compounds into a
+a median NRR of roughly 102% <sup><a href="#sources">[7]</a></sup>, and companies with NRR at or above 100% grew
+about 48% year over year in recent data <sup><a href="#sources">[8]</a></sup>. A small NRR edge compounds into a
 structural growth advantage, which is exactly the compounding the factory is
-built to produce [1].
+built to produce <sup><a href="#sources">[1]</a></sup>.
 
 ## How to execute
 
@@ -167,41 +167,41 @@ Execution is a sequence, not a one-time design.
 
 1. Design the revenue model first. Decide how you monetize before you pick
    motions. Pricing, packaging, and billing set the constraints for everything
-   else [2].
+   else <sup><a href="#sources">[2]</a></sup>.
 2. Name your motions. Pick at most three, matched to lifetime value. Do
-   not start with more. A motion that does not fit the factory is a tax [1].
+   not start with more. A motion that does not fit the factory is a tax <sup><a href="#sources">[1]</a></sup>.
 3. Write a growth formula per motion. Sketch the volume and conversion
    chain from acquisition to expansion. This makes the unit economics
-   explicit [1][2].
+   explicit <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 4. Unify the data model. One source of truth for metrics, shared across
-   marketing, sales, and success. No single team gets its own numbers [1][2].
+   marketing, sales, and success. No single team gets its own numbers <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 5. Align the GTM model to the factory. Segments, channels, and messaging
-   feed the production lines you chose [2].
+   feed the production lines you chose <sup><a href="#sources">[2]</a></sup>.
 6. Operate the whole thing. Process, org structure, and governance are the
-   operational model that holds the other five together [2].
+   operational model that holds the other five together <sup><a href="#sources">[2]</a></sup>.
 7. Set a growth-stage roadmap. Growth is staged, not continuous. You move
    through PMF (finding initial traction), GTMF (scaling repeatable growth),
    hypergrowth, and finally compound growth. Each transition is a deliberate
-   phase shift in the GTM system, not a smooth line [2].
+   phase shift in the GTM system, not a smooth line <sup><a href="#sources">[2]</a></sup>.
 8. Revisit at breakpoints. Prepare for each phase shift 12 to 18 months
-   ahead, and treat a botched shift as a years-long setback [1][2].
+   ahead, and treat a botched shift as a years-long setback <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 Ground the economics with your own numbers before you spend. A sales-led
 motion carries a very different acquisition cost than a self-serve one. The
-median sales-led CAC runs about $11,400 versus about $702 self-serve [9]. If
+median sales-led CAC runs about $11,400 versus about $702 self-serve <sup><a href="#sources">[9]</a></sup>. If
 you match a small deal to high-touch cost, you burn cash. If you match a large
 recurring deal to self-serve, you leave value on the table. The motion has to
-fit the unit economics the growth formula makes visible [1][9].
+fit the unit economics the growth formula makes visible <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[9]</a></sup>.
 
 When you execute this way, the results compound. Implementations across
 hundreds of companies drive improved forecast accuracy, shorter sales cycles,
-and stronger cross-functional alignment [1].
+and stronger cross-functional alignment <sup><a href="#sources">[1]</a></sup>.
 
 ## How revenue architecture varies by company stage
 
 The factory is not one design. It changes shape as the business moves through
 the growth stages. Applying a scale-stage architecture to a seed company, or
-a seed-stage architecture to a scale company, both break the system [1][2].
+a seed-stage architecture to a scale company, both break the system <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ### Seed (pre-product-market fit, 0 to 20 customers)
 
@@ -211,7 +211,7 @@ line. The revenue model is still a hypothesis: pricing and packaging change
 weekly. The data model is a spreadsheet. The growth formula is a sketch you
 rewrite after every customer conversation. The only architecture you need is
 the discipline to write the current model down and change it deliberately
-instead of letting it drift [1][2].
+instead of letting it drift <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ### Early traction (20 to 100 customers, first repeatable motion)
 
@@ -220,7 +220,7 @@ motion and write its growth formula. Add a second motion only when the first
 is proven and the economics are explicit. Unify the data model now, before
 the second motion lands, or the two lines will each keep their own numbers.
 Match the motion to lifetime value from the start; the habit is hard to
-retrofit [1][2].
+retrofit <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ### Growth stage (100+ customers, land-and-expand)
 
@@ -229,7 +229,7 @@ This is where the six models must be designed together. A pricing change
 flows through the mathematical model into the GTM model and back into growth;
 change one in isolation and the factory breaks. NRR becomes the multiplier:
 a small net revenue retention edge compounds into a structural growth
-advantage [1][2][7][8].
+advantage <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup><sup><a href="#sources">[7]</a></sup><sup><a href="#sources">[8]</a></sup>.
 
 ### Scale stage (hundreds of customers, multiple segments)
 
@@ -239,24 +239,24 @@ per-segment variants: one production line for the core segment that made you,
 one for the expansion segment, one for the new-market wedge. Each variant
 shares the same data model and operating model but leads with a different
 motion and a growth formula. Different ACV tiers anchor on different
-unit economics [1][2].
+unit economics <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 The stage dimension matters because the factory is perishable. A seed team
 that files a full architecture away as done stalls against faster learners.
 A scale team that keeps one broad motion across segments dilutes every
-production line for every buyer [1][2].
+production line for every buyer <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
 
 ## Failure modes and how to fix them
 
 These are the ways the factory dies in practice, and the fix.
 
-- **Too many motions.** Each extra production line fragments cost and language. Fix: run at most three motions until a new product forces a fourth [1].
-- **Motion matched to first-year ACV.** A small deal on a high-touch line burns cash. A strategic deal on self-serve leaves value on the table. Sales-led CAC sits near $11,400 versus about $702 self-serve [9]. Fix: match the line to multi-year LTV, then write the growth formula so the mismatch is visible.
-- **One model flipped alone.** A pricing change that never hits the data model or the GTM model looks like a win in week one and a miss at renewal. Fix: change revenue, data, math, GTM, growth, and operating models as one set [2].
-- **Siloed numbers.** Marketing, sales, and success each keep a private dashboard. Fix: one data model and one language before you add a second motion [1][2].
-- **Stage mismatch.** A seed team files a full architecture and stops learning. A scale team keeps one broad motion across segments. Fix: seed runs one founder-led learning line; growth runs at most three motions; scale splits lines by segment [1][2].
-- **Growth treated as a smooth line.** Skipping a phase shift, or starting it late, costs years. Fix: plan the next stage 12 to 18 months ahead [2].
-- **Quota leak ignored.** Only about 43 to 47% of quota-carrying sellers hit quota [6]. Fix: treat quota attainment as a factory output, not a people problem, and repair the motion whose growth formula is leaking.
+- **Too many motions.** Each extra production line fragments cost and language. Fix: run at most three motions until a new product forces a fourth <sup><a href="#sources">[1]</a></sup>.
+- **Motion matched to first-year ACV.** A small deal on a high-touch line burns cash. A strategic deal on self-serve leaves value on the table. Sales-led CAC sits near $11,400 versus about $702 self-serve <sup><a href="#sources">[9]</a></sup>. Fix: match the line to multi-year LTV, then write the growth formula so the mismatch is visible.
+- **One model flipped alone.** A pricing change that never hits the data model or the GTM model looks like a win in week one and a miss at renewal. Fix: change revenue, data, math, GTM, growth, and operating models as one set <sup><a href="#sources">[2]</a></sup>.
+- **Siloed numbers.** Marketing, sales, and success each keep a private dashboard. Fix: one data model and one language before you add a second motion <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
+- **Stage mismatch.** A seed team files a full architecture and stops learning. A scale team keeps one broad motion across segments. Fix: seed runs one founder-led learning line; growth runs at most three motions; scale splits lines by segment <sup><a href="#sources">[1]</a></sup><sup><a href="#sources">[2]</a></sup>.
+- **Growth treated as a smooth line.** Skipping a phase shift, or starting it late, costs years. Fix: plan the next stage 12 to 18 months ahead <sup><a href="#sources">[2]</a></sup>.
+- **Quota leak ignored.** Only about 43 to 47% of quota-carrying sellers hit quota <sup><a href="#sources">[6]</a></sup>. Fix: treat quota attainment as a factory output, not a people problem, and repair the motion whose growth formula is leaking.
 
 ## Sources
 

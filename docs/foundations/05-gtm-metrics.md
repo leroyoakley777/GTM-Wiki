@@ -32,7 +32,7 @@ engine produces revenue efficiently. It is a decision tool, not a
 vanity count.
 
 The canonical framing comes from David Skok's SaaS Metrics 2.0
-[1]. SaaS differs from traditional one-time
+<sup><a href="#sources">[1]</a></sup>. SaaS differs from traditional one-time
 software. Revenue arrives in installments over the life of the
 customer. That creates two distinct sales you have to make:
 
@@ -40,7 +40,7 @@ customer. That creates two distinct sales you have to make:
 2. Keep the customer long enough to make the unit economics work.
 
 Skok frames the core question simply: can you make more profit
-from your customers than it costs to acquire them? [1] When the
+from your customers than it costs to acquire them? <sup><a href="#sources">[1]</a></sup> When the
 answer is no, no amount of top-line growth saves you. You are
 filling a leaky bucket.
 
@@ -48,10 +48,10 @@ That two-sale reality is the reason the metric set exists. The
 economic pillars of any SaaS business are acquiring customers (what
 it costs, and how efficiently), retaining customers (how many stay,
 and how much they expand), and monetizing customers (what the
-lifetime value is, and whether it exceeds acquisition cost) [1].
+lifetime value is, and whether it exceeds acquisition cost) <sup><a href="#sources">[1]</a></sup>.
 
 The framework below, adapted from Ben Murray's Five Pillar SaaS
-Metrics Framework [2], expands those pillars into five categories
+Metrics Framework <sup><a href="#sources">[2]</a></sup>, expands those pillars into five categories
 that cover the full business.
 
 ### What a metric is not
@@ -74,7 +74,7 @@ healthy on a P&L and still be broken because the cost
 to acquire each customer exceeds what that customer will ever pay
 back.
 
-This is the leaky-bucket problem [1]. You can grow ARR every
+This is the leaky-bucket problem <sup><a href="#sources">[1]</a></sup>. You can grow ARR every
 quarter and still go out of business. The growth comes from new
 acquisition. The acquisition costs more than the customer returns.
 Every new customer deepens the hole.
@@ -90,7 +90,7 @@ Ignoring the two-sale reality produces three failure modes:
 - **Panic at the trough.** Losses widen right after
   product-market fit, leaders cut spend at the worst possible
   moment, and growth stalls. The cash-flow trough is expected, but
-  most teams treat it as a crisis [1].
+  most teams treat it as a crisis <sup><a href="#sources">[1]</a></sup>.
 
 Metrics fix these failures only when you actually use them. They
 make the leaks visible early. They make the trough predictable.
@@ -100,7 +100,7 @@ They tell you when to spend and when to cut.
 
 ## Framework: the five pillars
 
-Ben Murray's Five Pillar SaaS Metrics Framework [2] organizes every
+Ben Murray's Five Pillar SaaS Metrics Framework <sup><a href="#sources">[2]</a></sup> organizes every
 metrics decision into five categories. Not every pillar matters at
 every stage. Early-stage companies focus on acquisition and
 retention. Mature companies need all five.
@@ -148,7 +148,7 @@ Key metrics:
   contraction, offset by expansions (upsells, cross-sells, seat
   growth). NRR of 120 percent means existing customers generate 20
   percent more revenue than a year ago. Strong public SaaS
-  companies sustain NDR well above 110 percent [3]. Below 100
+  companies sustain NDR well above 110 percent <sup><a href="#sources">[3]</a></sup>. Below 100
   percent means you shrink without new sales.
 - **Logo churn rate.** Percentage of customers lost in a period.
   Distinct from revenue churn. Low logo churn with high revenue
@@ -158,7 +158,7 @@ Key metrics:
   When renewals slip, NRR follows.
 
 What to watch: NRR above 110 percent is the minimum viable target
-for healthy growth-stage SaaS [3]. Below that, your expansion
+for healthy growth-stage SaaS <sup><a href="#sources">[3]</a></sup>. Below that, your expansion
 motion does not work, and you rely entirely on new acquisition,
 which is the most expensive way to grow.
 
@@ -176,7 +176,7 @@ Key metrics:
   Not sales or marketing.
 - **Recurring gross margin.** Gross margin on the recurring stream
   specifically. It should exceed blended gross margin when services
-  drag you down [2].
+  drag you down <sup><a href="#sources">[2]</a></sup>.
 - **Revenue mix.** The proportion of recurring versus services and
   consulting. A high services mix depresses valuation and margins.
 
@@ -187,7 +187,7 @@ before scaling.
 ### Pillar 4: Financial profile
 
 This pillar tracks the balance between growth and profitability
-[2].
+<sup><a href="#sources">[2]</a></sup>.
 
 Key metrics:
 
@@ -201,13 +201,13 @@ Key metrics:
   spend to generate each dollar of new ARR. Under 1.5x is
   efficient. Above 2x is concerning. Above 3x is a red flag.
 - **SaaS Cash Flow Trough.** The period where upfront acquisition
-  costs exceed incoming revenue, creating a cash dip [1]. Every
+  costs exceed incoming revenue, creating a cash dip <sup><a href="#sources">[1]</a></sup>. Every
   SaaS company goes through it. It deepens as growth accelerates.
   Understanding it prevents panic when losses widen after
   product-market fit.
 
 What to watch: the cash-flow trough is the most misunderstood
-phenomenon in SaaS finance [1]. As soon as the product shows
+phenomenon in SaaS finance <sup><a href="#sources">[1]</a></sup>. As soon as the product shows
 traction, investors expect losses to narrow. They will not:
 accelerating growth requires more spend, which deepens the trough
 before it recovers. Plan for it. Raise the cash. Do not hit the
@@ -228,18 +228,18 @@ Key metrics:
 - **CAC Payback Period.** Months to recover upfront CAC from
   gross-margin contribution. CAC divided by (ARPA x gross margin
   percent). Payback under 12 months is excellent. 12 to 18 months
-  is acceptable for growth stage. Above 18 months is a warning [4].
+  is acceptable for growth stage. Above 18 months is a warning <sup><a href="#sources">[4]</a></sup>.
 - **LTV:CAC ratio.** Lifetime value divided by acquisition cost.
-  The canonical benchmark is above 3:1 as the minimum viable [1].
+  The canonical benchmark is above 3:1 as the minimum viable <sup><a href="#sources">[1]</a></sup>.
   The best SaaS businesses run 5:1 to 8:1. Below 3:1, you likely
   lose money on each customer. Below 1:1, stop scaling until this
   is fixed.
 - **Magic Number.** Near-term sales-efficiency metric. (Quarterly
   ARR growth x 4) divided by prior-quarter sales and marketing
   spend. Above 0.75 is healthy. Above 1.0 is excellent. Below 0.5
-  means you spend faster than you grow [3].
+  means you spend faster than you grow <sup><a href="#sources">[3]</a></sup>.
 - **ROSE.** Recurring revenue per dollar of total employee and
-  contractor investment [2]. Ben Murray's preferred efficiency
+  contractor investment <sup><a href="#sources">[2]</a></sup>. Ben Murray's preferred efficiency
   metric. It accounts for contractors and the full org cost. You
   cannot scale without ROSE improving over time.
 
@@ -284,7 +284,7 @@ cohort, not just the aggregate.
 ### LTV:CAC ratio
 
 LTV divided by CAC. A ratio of 3:1 or higher is the minimum viable
-benchmark [1]. Below 3:1, you are likely unprofitable per customer
+benchmark <sup><a href="#sources">[1]</a></sup>. Below 3:1, you are likely unprofitable per customer
 and should not scale acquisition. The 3:1 threshold comes from
 Skok's analysis of hundreds of SaaS businesses and has held across
 public and private companies.
@@ -308,7 +308,7 @@ months. Excellent.
 Payback above 18 months signals acquisition too expensive for the
 price point, or pricing too low for the cost of acquisition. Median
 CAC payback for SaaS drifted from 10 to 14 months up to 12 to 18
-months in 2025-2026 as acquisition costs rose [4].
+months in 2025-2026 as acquisition costs rose <sup><a href="#sources">[4]</a></sup>.
 
 ### Net Revenue Retention (NRR)
 
@@ -318,7 +318,7 @@ churn and contractions, divided by starting revenue.
 NRR above 100 percent means existing customers grow faster than
 they leave. NRR above 110 percent is the minimum target for
 healthy growth-stage SaaS. Strong public SaaS companies sustain NDR
-above 110 percent [3].
+above 110 percent <sup><a href="#sources">[3]</a></sup>.
 
 NRR below 100 percent is a crisis. You lose revenue from the
 existing base and must add new customers just to stay flat. No
@@ -333,7 +333,7 @@ It annualizes the ARR growth and divides by the spend that produced
 it. Above 0.75 means each dollar of S&M spend produces at least
 $0.75 of annualized ARR. Above 1.0 is exceptional. Below 0.5 means
 spend does not generate enough incremental ARR to justify
-investment [3].
+investment <sup><a href="#sources">[3]</a></sup>.
 
 Common confusion: Magic Number is not LTV:CAC. Magic Number
 measures near-term spend efficiency this quarter. LTV:CAC measures
@@ -378,11 +378,11 @@ stack. NRR becomes critical: expansion revenue should contribute
 meaningfully. When NRR sits below 110 percent, fix the retention
 and expansion motion before scaling acquisition further. Track
 Magic Number every quarter. When it drops below 0.5, cut spend or
-fix conversion [3].
+fix conversion <sup><a href="#sources">[3]</a></sup>.
 
 **Scale stage ($25M+ ARR).** Full stack with segmentation. Break
 metrics down by segment, channel, and cohort. Strong public SaaS
-companies run NDR above 120 percent [3]. Rule of 40 above 40. CAC
+companies run NDR above 120 percent <sup><a href="#sources">[3]</a></sup>. Rule of 40 above 40. CAC
 payback under 12 months for efficient growth.
 
 ### Metric stack one-pager
@@ -487,7 +487,7 @@ churn plus high revenue churn spells concentration risk. A few
 large accounts drive most revenue, and losing one is catastrophic.
 Track both.
 
-**Mistake 5: Ignoring the cash-flow trough.** [1] When growth
+**Mistake 5: Ignoring the cash-flow trough.** <sup><a href="#sources">[1]</a></sup> When growth
 accelerates, losses widen before they narrow. It is expected. It is
 not a sign of failure. Do not cut spend at the worst possible
 moment. Plan the capital and communicate the trough to the board.
@@ -522,14 +522,14 @@ carries a named source.
 
 | Metric | Benchmark range | Healthy target |
 |---|---|---|
-| CAC payback | 12-18 months, median 2025-2026 [4] | Under 12 months |
-| LTV:CAC | 3:1 to 8:1 | Above 3:1 minimum, above 5:1 excellent [1] |
-| Magic Number | 0.5 to 1.2 | Above 0.75 [3] |
-| NRR / NDR | 110%+ for strong public SaaS [3] | Above 110% |
+| CAC payback | 12-18 months, median 2025-2026 <sup><a href="#sources">[4]</a></sup> | Under 12 months |
+| LTV:CAC | 3:1 to 8:1 | Above 3:1 minimum, above 5:1 excellent <sup><a href="#sources">[1]</a></sup> |
+| Magic Number | 0.5 to 1.2 | Above 0.75 <sup><a href="#sources">[3]</a></sup> |
+| NRR / NDR | 110%+ for strong public SaaS <sup><a href="#sources">[3]</a></sup> | Above 110% |
 | Gross margin (SaaS) | 70-85% | Above 75% |
 | Rule of 40 | Variable by stage | Above 40 from $5M+ ARR |
 | Burn multiple | Under 1.5x efficient | Under 1.5x |
-| Trial-to-paid | 10-20% trial, 2-5% freemium [4] | Above 15% trial |
+| Trial-to-paid | 10-20% trial, 2-5% freemium <sup><a href="#sources">[4]</a></sup> | Above 15% trial |
 
 For conversion-rate benchmarks by funnel stage, see
 [conversion-rate
@@ -578,11 +578,11 @@ benchmarks](/docs/data/sales-cycle-benchmarks).
 - [Bessemer Cloud
   Index](https://www.bvp.com/atlas/bessemer-cloud-index).
   Public-market benchmarks for cloud and SaaS. Magic Number, NRR,
-  and gross-margin anchors. [3]
+  and gross-margin anchors. <sup><a href="#sources">[3]</a></sup>
 - [Marketing Mary, SaaS Marketing Strategy
   2026](https://www.marketingmary.ai/blog/saas-marketing-strategy).
   Stage-specific CAC benchmarks and GTM-model selection guidance.
-  [4]
+  <sup><a href="#sources">[4]</a></sup>
 - [Gainsight, 35-Metric Guide for SaaS
   Teams](https://www.gainsight.com/essential-guide/the-essential-guide-to-business-metrics/).
   A broad reference covering sales, marketing, and company-level

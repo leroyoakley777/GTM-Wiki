@@ -27,7 +27,7 @@ Run pricing when any of these is true:
 - An agent needs a deterministic rule to quote, approve, and route without a human in every thread.
 - Expansion revenue is flat and the packaging has no natural upgrade path.
 
-Do not run it as a one-time finance exercise. Price set once and never defended erodes through every discount request until the list is fiction [1].
+Do not run it as a one-time finance exercise. Price set once and never defended erodes through every discount request until the list is fiction <sup><a href="#sources">[1]</a></sup>.
 
 ## Definition
 
@@ -35,9 +35,9 @@ Pricing turns the value you deliver into a number a buyer pays and a structure t
 
 ## Why it matters
 
-Only 33% of B2B SaaS teams run value-based pricing, and 40.8% use good-better-best as their dominant packaging model [1]. That gap is the opportunity: most competitors still anchor to cost, so value-based pricing captures money they leave on the table. SaaS price levels rose 11.4% year over year in 2025 [2], and disciplined pricing keeps that inflation as margin while undisciplined discounting hands it to the buyer.
+Only 33% of B2B SaaS teams run value-based pricing, and 40.8% use good-better-best as their dominant packaging model <sup><a href="#sources">[1]</a></sup>. That gap is the opportunity: most competitors still anchor to cost, so value-based pricing captures money they leave on the table. SaaS price levels rose 11.4% year over year in 2025 <sup><a href="#sources">[2]</a></sup>, and disciplined pricing keeps that inflation as margin while undisciplined discounting hands it to the buyer.
 
-Discounting is the lever that breaks the motion. The healthy band is 1 to 20% off list; discounts above 40% produce smaller deals and slower closes [3]. Net revenue retention runs about 102% at the median, and top performers push net dollar retention to 110 to 120% by pricing the expansion path into the package [4][5]. Customer acquisition cost payback sits near 12 months with an LTV to CAC floor of 3 to 1 [6]. A discount that drops LTV below that floor or pushes payback past 12 months is a math error you funded.
+Discounting is the lever that breaks the motion. The healthy band is 1 to 20% off list; discounts above 40% produce smaller deals and slower closes <sup><a href="#sources">[3]</a></sup>. Net revenue retention runs about 102% at the median, and top performers push net dollar retention to 110 to 120% by pricing the expansion path into the package <sup><a href="#sources">[4]</a></sup><sup><a href="#sources">[5]</a></sup>. Customer acquisition cost payback sits near 12 months with an LTV to CAC floor of 3 to 1 <sup><a href="#sources">[6]</a></sup>. A discount that drops LTV below that floor or pushes payback past 12 months is a math error you funded.
 
 ## Mechanics
 
@@ -47,7 +47,7 @@ Pick the unit the customer pays for so it scales with the outcome you deliver: p
 
 ### 2. Build good-better-best around buyer groups
 
-Build three tiers around distinct buyer groups, not around feature tiers of one buyer. Good serves the individual contributor. Better serves the team lead or department. Best serves the VP or enterprise buyer. Each tier caps the value metric at a level that pushes the buyer to the next tier as they grow, which is the expansion engine. 40.8% of B2B SaaS uses this shape because it captures value across groups without custom quotes [1].
+Build three tiers around distinct buyer groups, not around feature tiers of one buyer. Good serves the individual contributor. Better serves the team lead or department. Best serves the VP or enterprise buyer. Each tier caps the value metric at a level that pushes the buyer to the next tier as they grow, which is the expansion engine. 40.8% of B2B SaaS uses this shape because it captures value across groups without custom quotes <sup><a href="#sources">[1]</a></sup>.
 
 ### 3. Set the list price at the value anchor
 
@@ -55,7 +55,7 @@ Set list at the value-based anchor, not the cost-plus floor. Record the value me
 
 ### 4. Grant discounts only for a traded behavior
 
-Discount to reward a behavior you want: annual prepay, multi-year commitment, or case-study rights. Never discount to rescue a wrong-sized deal or a weak value prop. The optimal band is 1 to 20% [3]. Above it, require a trade and an approver. A discount for behavior you want is pricing. A discount conceded to close is a subsidy.
+Discount to reward a behavior you want: annual prepay, multi-year commitment, or case-study rights. Never discount to rescue a wrong-sized deal or a weak value prop. The optimal band is 1 to 20% <sup><a href="#sources">[3]</a></sup>. Above it, require a trade and an approver. A discount for behavior you want is pricing. A discount conceded to close is a subsidy.
 
 ### 5. Defend price with a deal desk and authority table
 
@@ -63,7 +63,7 @@ Route every discount above the AE's band to a named approver. The deal desk owns
 
 ### 6. Price the expansion path before the sale closes
 
-Build the upgrade trigger into the packaging so growth is automatic, not a renegotiation. Land-and-expand only works when the Better and Best tiers sit one cap-break away from Good. A package with no upgrade path caps the most efficient revenue you will ever have [4][5].
+Build the upgrade trigger into the packaging so growth is automatic, not a renegotiation. Land-and-expand only works when the Better and Best tiers sit one cap-break away from Good. A package with no upgrade path caps the most efficient revenue you will ever have <sup><a href="#sources">[4]</a></sup><sup><a href="#sources">[5]</a></sup>.
 
 ## Artifact: the pricing and packaging grid
 
@@ -102,16 +102,16 @@ Northwind Analytics sells a workflow product with a fully-loaded cost to serve o
 
 **Step 2 - margin at list.** At $15,000 list against $4,000 cost, contribution is $11,000 per year, a 73.3% margin. That is the number every discount is measured against.
 
-**Step 3 - discount authority math on margin.** A 20% discount drops price to $12,000 and contribution to $8,000. A 20% price cut removed 27% of the contribution. To recover the lost $3,000 of contribution you need 38% more customers at list, or one expansion upgrade to the Better tier. A 40% discount drops price to $9,000 and contribution to $5,000, a 55% cut in contribution from a 40% price cut, and Cacheflow's data shows deals above 40% close smaller and slower [3]. The AE may grant up to 15% for an annual prepay under the authority table; anything above 20% pauses the deal for the VP and a re-quote.
+**Step 3 - discount authority math on margin.** A 20% discount drops price to $12,000 and contribution to $8,000. A 20% price cut removed 27% of the contribution. To recover the lost $3,000 of contribution you need 38% more customers at list, or one expansion upgrade to the Better tier. A 40% discount drops price to $9,000 and contribution to $5,000, a 55% cut in contribution from a 40% price cut, and Cacheflow's data shows deals above 40% close smaller and slower <sup><a href="#sources">[3]</a></sup>. The AE may grant up to 15% for an annual prepay under the authority table; anything above 20% pauses the deal for the VP and a re-quote.
 
-**Step 4 - payback check.** With CAC payback near 12 months and an LTV to CAC floor of 3 to 1 [6], a 40% discount compresses LTV (less expansion room, higher churn risk on subsidized buyers) and pushes both ratios the wrong way. The arithmetic is a named base, not a guess: change the list, the cost, or the discount and the contribution moves with it.
+**Step 4 - payback check.** With CAC payback near 12 months and an LTV to CAC floor of 3 to 1 <sup><a href="#sources">[6]</a></sup>, a 40% discount compresses LTV (less expansion room, higher churn risk on subsidized buyers) and pushes both ratios the wrong way. The arithmetic is a named base, not a guess: change the list, the cost, or the discount and the contribution moves with it.
 
 ## Failure modes and how to fix them
 
-- **Cost-plus anchoring.** Pricing to internal cost leaves value on the table and invites discounting. Fix: anchor to the value metric and the quantified outcome [1].
-- **Discounting to close.** Conceding margin with no trade erodes contribution and trains buyers to ask. Fix: discount only for prepay or multi-year; use the authority table [3].
-- **Packaging by segment, not buyer group.** One buyer stretched across tiers forces cross-tier horse-trading and invisible discounts. Fix: build good-better-best around buyer groups [1].
-- **No expansion path.** A package with no upgrade trigger caps net revenue retention near the median instead of the top band. Fix: put the upsell one cap-break away [4][5].
+- **Cost-plus anchoring.** Pricing to internal cost leaves value on the table and invites discounting. Fix: anchor to the value metric and the quantified outcome <sup><a href="#sources">[1]</a></sup>.
+- **Discounting to close.** Conceding margin with no trade erodes contribution and trains buyers to ask. Fix: discount only for prepay or multi-year; use the authority table <sup><a href="#sources">[3]</a></sup>.
+- **Packaging by segment, not buyer group.** One buyer stretched across tiers forces cross-tier horse-trading and invisible discounts. Fix: build good-better-best around buyer groups <sup><a href="#sources">[1]</a></sup>.
+- **No expansion path.** A package with no upgrade trigger caps net revenue retention near the median instead of the top band. Fix: put the upsell one cap-break away <sup><a href="#sources">[4]</a></sup><sup><a href="#sources">[5]</a></sup>.
 - **One-off custom quotes.** Ad hoc pricing erodes trust and makes renewals impossible to compare. Fix: deal desk plus the approval table; no quote outside the bands without sign-off.
 - **Negotiating before value.** Talking price with no value hypothesis lets the buyer set the frame. Fix: state the quantified value first, then the number.
 
@@ -119,7 +119,7 @@ Northwind Analytics sells a workflow product with a fully-loaded cost to serve o
 
 - **By segment.** SMB: two or three self-serve tiers, product-led price, almost no negotiation. Mid-market: good-better-best with a real discount band and a manager approver. Enterprise: custom packaging per account, multi-year terms, and a committee that prices the expansion up front.
 - **By maturity.** A new motion should price narrow: prove the value metric on 10 accounts before adding tiers. A mature motion can run broad tiers, a deal desk, and an automated expansion motion.
-- **By channel pairing.** Outbound-led teams need tight discount authority so cold-sourced deals keep margin [3]. ABM-led teams customize packaging per named account [./abm]. Product-led teams let packaging drive free-to-paid conversion, so the grid is the motion.
+- **By channel pairing.** Outbound-led teams need tight discount authority so cold-sourced deals keep margin <sup><a href="#sources">[3]</a></sup>. ABM-led teams customize packaging per named account [./abm]. Product-led teams let packaging drive free-to-paid conversion, so the grid is the motion.
 
 ## Agentic layer
 

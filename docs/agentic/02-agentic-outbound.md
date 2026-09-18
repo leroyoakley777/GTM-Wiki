@@ -32,23 +32,23 @@ sends, and books with no human in the path. Tools like Artisan (Ava)
 and 11x (Alice) sell this. The pitch is seductive: feed it your ICP and
 watch it work. The results have not matched the pitch. AI SDR tools
 churn at 50 to 70 percent annually, roughly double the turnover of
-human reps they replace [63].
+human reps they replace <sup><a href="#sources">[63]</a></sup>.
 
 Autonomous agents convert meetings to qualified opportunities at 15
 percent versus 25 percent for human SDRs. That 40 percent gap comes
 from weak objection handling, shallow relationship building, and
-degraded judgment at scale [46].
+degraded judgment at scale <sup><a href="#sources">[46]</a></sup>.
 
 **Human-in-the-loop** makes each SDR more productive. The agent does
 the data-heavy work: monitoring signals, researching prospects,
 drafting campaigns, classifying replies. A human reviews and approves
 what gets sent. Teams that use AI to augment humans, not replace them,
-see 2.8x more pipeline than teams attempting full replacement [16].
+see 2.8x more pipeline than teams attempting full replacement <sup><a href="#sources">[16]</a></sup>.
 
 Gartner gives the same verdict. By 2028 AI agents will outnumber
 sellers 10x. Fewer than 40 percent of sellers will report that their
 agents improved productivity. Over 40 percent of agentic AI projects
-will cancel by the end of 2027 [38].
+will cancel by the end of 2027 <sup><a href="#sources">[38]</a></sup>.
 
 The tools that survive will be the ones that lift the human, not replace
 the human. This page assumes the human-in-the-loop model.
@@ -56,32 +56,32 @@ the human. This page assumes the human-in-the-loop model.
 ## Economics
 
 A human SDR costs about $139,120 per year fully loaded. An AI SDR
-platform runs $1,000 to $5,000 per month, or $12K to $60K per year [39].
+platform runs $1,000 to $5,000 per month, or $12K to $60K per year <sup><a href="#sources">[39]</a></sup>.
 
-Cost per lead drops from $262 to $39, an 85 percent reduction [47].
+Cost per lead drops from $262 to $39, an 85 percent reduction <sup><a href="#sources">[47]</a></sup>.
 
 An AI SDR platform costs $35K to $65K per year fully loaded, versus
-$139,120 for a human SDR [76].
+$139,120 for a human SDR <sup><a href="#sources">[76]</a></sup>.
 
 A single AI-augmented SDR handles 1,000+ contacts per day versus 50 to 80
-for a manual rep [46].
+for a manual rep <sup><a href="#sources">[46]</a></sup>.
 
 An AI-augmented SDR reaches 3x more prospects with tailored messages
-than they could by hand [109].
+than they could by hand <sup><a href="#sources">[109]</a></sup>.
 
 The productivity math looks strong. But do not chase the volume
 number. Chase the reply rate.
 
 The industry average cold email reply rate is 5.1 percent, with most
-campaigns landing between 1 and 5 percent [127].
+campaigns landing between 1 and 5 percent <sup><a href="#sources">[127]</a></sup>.
 
 Advanced personalization, the specific signal-driven references, lifts
-replies to 18 percent versus about 9 percent for generic templates [3].
+replies to 18 percent versus about 9 percent for generic templates <sup><a href="#sources">[3]</a></sup>.
 
 Signal-based personalization, a trigger event plus a relevant value
-proposition, reaches 15 to 25 percent reply rates [116].
+proposition, reaches 15 to 25 percent reply rates <sup><a href="#sources">[116]</a></sup>.
 
-Only 5 percent of senders personalize every email [52].
+Only 5 percent of senders personalize every email <sup><a href="#sources">[52]</a></sup>.
 
 The people who do see 2 to 3x better results. AI is the only practical
 way to reach that 5 percent at scale.
@@ -132,7 +132,7 @@ spray. What changes is how fast you get to the good 500.
 The best modern agents monitor hundreds of live buyer signals: job
 changes, funding rounds, hiring surges, tech-stack changes, and
 competitive displacement. They build a per-prospect research brief that
-a human would spend 15 to 30 minutes assembling by hand [172].
+a human would spend 15 to 30 minutes assembling by hand <sup><a href="#sources">[172]</a></sup>.
 
 That brief is what makes the personalization genuine, not templated.
 
@@ -149,10 +149,10 @@ Humans keep the judgment.
 The sequence structure stays: Email 1 is the reason-to-reach, Email 2
 is proof or a resource, Email 3 is a different angle, then a breakup.
 Keep it short. Emails of 50 to 125 words earn roughly 50 percent
-higher reply rates than longer formats [40].
+higher reply rates than longer formats <sup><a href="#sources">[40]</a></sup>.
 
 One ask per email. A CTA that feels personal beats a generic
-"let's talk" [3].
+"let's talk" <sup><a href="#sources">[3]</a></sup>.
 
 What agents add:
 
@@ -161,10 +161,10 @@ What agents add:
 - **Personalization at scale**. The research brief fills the specific
   line, for example "I saw [company] announced [trigger]" without you
   writing it 500 times. This takes reply rates from 3 to 5 percent up
-  to 15 to 18 percent [116].
+  to 15 to 18 percent <sup><a href="#sources">[116]</a></sup>.
 - **Tone control**. You paste 3 emails you love. The compose layer
   matches that voice. Your voice, not generic AI copy. Each approval
-  trains the model to match your style over time [172].
+  trains the model to match your style over time <sup><a href="#sources">[172]</a></sup>.
 
 **The gate stays**: every variant is human-approved before the first
 send. After 300+ sends per variant, the use can carry the proven
@@ -176,14 +176,14 @@ a message before it is proven.
 Delivery is the easy part. The orchestrator handles cadence, warmup,
 domain rotation, and sending caps. Keep send volume sane. Start with 25
 to 50 emails per day per domain during a controlled launch. Scale 10 to
-20 percent per week while watching deliverability [16].
+20 percent per week while watching deliverability <sup><a href="#sources">[16]</a></sup>.
 
 Domain hygiene is non-negotiable. A fresh domain you burn in a week
 because "the AI makes it easy" is a domain you lose forever.
 
 The agentic win that matters is triage. This is where AI reply handling
 pays for itself. Modern reply agents classify intent and draft a
-response in under 5 minutes [116].
+response in under 5 minutes <sup><a href="#sources">[116]</a></sup>.
 
 | Incoming reply | Agent action | Human action |
 |---|---|---|
@@ -208,7 +208,7 @@ Positive replies stay above 30 percent. Meetings per 1,000 sends land
 between 3 and 10.
 
 AI-personalized campaigns typically land 3 to 8 percent reply rates,
-with 5 percent as the baseline to beat [116].
+with 5 percent as the baseline to beat <sup><a href="#sources">[116]</a></sup>.
 
 Add these use-health metrics:
 
@@ -220,7 +220,7 @@ Add these use-health metrics:
 | Time-to-first-response | under 15 min for hot replies | The loop converts replies into meetings |
 | Human override rate | under 5 percent | The use is not saying things you would veto |
 
-Track meetings booked and pipeline generated, not emails sent [16].
+Track meetings booked and pipeline generated, not emails sent <sup><a href="#sources">[16]</a></sup>.
 
 Sends are vanity. Meetings are revenue.
 
@@ -245,27 +245,27 @@ load and the volume cap move.
 |---|---|---|---|
 | Seed, founder-led, sub $8k ACV | Enrichment, first-draft sequences, reply labels | Every send, every meeting book | 25 to 50 sends per domain per day |
 | Early team, $8k to $25k ACV | List build, signal watch, draft variants, first-pass triage | Pattern approval, hot replies, weekly debrief | One proven sequence before a second |
-| Growth, $25k to $60k ACV | Multi-domain send, calendar holds, CRM writeback | Deal desk on exceptions, 2-week win/kill review | Scale only after reply rate holds above the 5.1% floor [127] |
+| Growth, $25k to $60k ACV | Multi-domain send, calendar holds, CRM writeback | Deal desk on exceptions, 2-week win/kill review | Scale only after reply rate holds above the 5.1% floor <sup><a href="#sources">[127]</a></sup> |
 | Enterprise, $60k+ ACV | Research briefs and account maps | Narrative, multi-thread, legal and security review | Named accounts, not spray |
 
 A seed founder who buys an autonomous SDR is paying $35K to $65K a year
-to burn a domain [76]. An enterprise team that keeps a human on every
+to burn a domain <sup><a href="#sources">[76]</a></sup>. An enterprise team that keeps a human on every
 generic bump is wasting the 1,000-contact daily capacity the hybrid
-model buys [46]. Match the human load to ACV, then raise autonomy only
+model buys <sup><a href="#sources">[46]</a></sup>. Match the human load to ACV, then raise autonomy only
 after the reply rate holds.
 
 ## Common mistakes (agentic edition)
 
 **Scaling a broken message**. The use sends 10x faster, so a weak offer
 dies 10x faster. Prove the message first. This is the number one
-killer and the reason 50 to 70 percent of AI SDR deployments churn [63].
+killer and the reason 50 to 70 percent of AI SDR deployments churn <sup><a href="#sources">[63]</a></sup>.
 
 **Buying autonomous replacement**. Autonomous agents degrade quality at
 scale and cost $2,000 to $5,000+ per month while covering far fewer
-capabilities than a platform that lifts your existing reps [76].
+capabilities than a platform that lifts your existing reps <sup><a href="#sources">[76]</a></sup>.
 
 Augment, do not replace. The data is clear: 2.8x more pipeline for the
-hybrid model [16].
+hybrid model <sup><a href="#sources">[16]</a></sup>.
 
 **Fake personalization**. Brief coverage below 90 percent means the
 "specific" lines are placeholders. Buyers can smell it.

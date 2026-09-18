@@ -18,21 +18,21 @@ This page is a diligence and coaching guide. Pair it with [GTM metrics](/docs/da
 | Question | Healthy pattern | Smell |
 |----------|-----------------|-------|
 | Can they name the ICP? | Written disqualifiers, named accounts | "Mid-market SaaS" as the whole answer |
-| Where does pipeline come from? | One primary channel with math [252] | Eight channels, each "strategic" |
-| Does outbound math work? | 3-10 meetings per 1,000 sends [17] | Send volume as the win |
-| Does sales convert? | Opp-to-close near ~21% average, known by segment [29][8] | Meetings high, revenue flat |
-| Are unit economics adult? | LTV:CAC above 3:1, payback that the company can fund [313] | Growth with no payback story |
-| Is NRR real? | Strong public SaaS still hovers near 110% NDR [315][340] | Logo growth hiding net-revenue holes |
+| Where does pipeline come from? | One primary channel with math <sup><a href="#sources">[252]</a></sup> | Eight channels, each "strategic" |
+| Does outbound math work? | 3-10 meetings per 1,000 sends <sup><a href="#sources">[17]</a></sup> | Send volume as the win |
+| Does sales convert? | Opp-to-close near ~21% average, known by segment <sup><a href="#sources">[29]</a></sup><sup><a href="#sources">[8]</a></sup> | Meetings high, revenue flat |
+| Are unit economics adult? | LTV:CAC above 3:1, payback that the company can fund <sup><a href="#sources">[313]</a></sup> | Growth with no payback story |
+| Is NRR real? | Strong public SaaS still hovers near 110% NDR <sup><a href="#sources">[315]</a></sup><sup><a href="#sources">[340]</a></sup> | Logo growth hiding net-revenue holes |
 
-Masters of Scale's warning still applies: how you go to market is as important as the product you construct [324]. Diligence that stops at the demo misses the company that cannot sell twice.
+Masters of Scale's warning still applies: how you go to market is as important as the product you construct <sup><a href="#sources">[324]</a></sup>. Diligence that stops at the demo misses the company that cannot sell twice.
 
 ## Stage-appropriate GTM
 
 - **Pre-product-market fit.** Founder selling. No SDR army. Look for repeating reasons-to-buy, not a sequence tool screenshot.
-- **Early scale.** One channel working. First specialized hires. Quota attainment will not look like a mature machine. B2B quota hit rates sat at 27-30% in 2024 [15].
-- **Scale.** Coverage bands 3-5x [9], forecast integrity, and a leader who owns seams [300]. Magic Number and NRR start to matter in valuation conversations [315].
+- **Early scale.** One channel working. First specialized hires. Quota attainment will not look like a mature machine. B2B quota hit rates sat at 27-30% in 2024 <sup><a href="#sources">[15]</a></sup>.
+- **Scale.** Coverage bands 3-5x <sup><a href="#sources">[9]</a></sup>, forecast integrity, and a leader who owns seams <sup><a href="#sources">[300]</a></sup>. Magic Number and NRR start to matter in valuation conversations <sup><a href="#sources">[315]</a></sup>.
 
-Headcount that shrinks while growth holds can be discipline. For companies under $1M ARR, median headcount fell from 12 to 7 between 2023 and 2024 as teams stayed lean [340]. Headcount that grows ahead of a proven channel is a burn story.
+Headcount that shrinks while growth holds can be discipline. For companies under $1M ARR, median headcount fell from 12 to 7 between 2023 and 2024 as teams stayed lean <sup><a href="#sources">[340]</a></sup>. Headcount that grows ahead of a proven channel is a burn story.
 
 ## Coaching founders
 
@@ -43,15 +43,15 @@ Ask for the motion in artifacts, not adjectives:
 - Three call recordings, not a methodology name.
 - The handoff note an AE actually receives.
 
-If outbound is "about to scale" and delivery is under 97% or reply is under 2%, they are about to scale a leak [17][329].
+If outbound is "about to scale" and delivery is under 97% or reply is under 2%, they are about to scale a leak <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[329]</a></sup>.
 
 ## Failure modes investors miss
 
-- **Pipeline coverage as comfort.** Hitting 4x with 8% close is worse than 2.2x with 25% close [12].
+- **Pipeline coverage as comfort.** Hitting 4x with 8% close is worse than 2.2x with 25% close <sup><a href="#sources">[12]</a></sup>.
 - **Founder-only revenue dressed as a machine.**
-- **Vendor benchmarks used as targets.** Instantly and AiSDR numbers are directional and often vendor-sourced [17][39].
-- **Category slide with no beachhead.** Crossing the chasm without a segment [274].
-- **Top-seller concentration ignored.** If 14% of sellers produce 80% of revenue, the next hire plan is the company [339].
+- **Vendor benchmarks used as targets.** Instantly and AiSDR numbers are directional and often vendor-sourced <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[39]</a></sup>.
+- **Category slide with no beachhead.** Crossing the chasm without a segment <sup><a href="#sources">[274]</a></sup>.
+- **Top-seller concentration ignored.** If 14% of sellers produce 80% of revenue, the next hire plan is the company <sup><a href="#sources">[339]</a></sup>.
 
 ## Agentic layer
 

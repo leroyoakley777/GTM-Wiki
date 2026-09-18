@@ -24,7 +24,7 @@ Run prospecting when any of these is true:
 - A signal (funding, hiring, leadership change) names accounts worth reaching now.
 - An agent needs a deterministic input to enrich, score, and route.
 
-Do not run it when you have not defined the ICP. Prospecting without an ICP produces volume, not pipeline [1].
+Do not run it when you have not defined the ICP. Prospecting without an ICP produces volume, not pipeline <sup><a href="#sources">[1]</a></sup>.
 
 ## Definition
 
@@ -32,13 +32,13 @@ Prospecting turns market fit into a working list. It combines three inputs: firm
 
 ## Why it matters
 
-A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one [2]. Prospecting is the step that makes that advantage operational: it is where the ICP stops being a slide and becomes accounts your team can call. Done badly, it floods the CRM with names that never convert and erodes sender reputation before the first reply.
+A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one <sup><a href="#sources">[2]</a></sup>. Prospecting is the step that makes that advantage operational: it is where the ICP stops being a slide and becomes accounts your team can call. Done badly, it floods the CRM with names that never convert and erodes sender reputation before the first reply.
 
 ## Mechanics
 
 ### 1. Start from the ICP, not the database
 
-Load the ICP definition first. It tells you the firmographics (company size, industry, tech stack) and the buyer titles to target [3]. Filter the account universe to fit before you enrich contacts. Filtering first cuts enrichment cost and keeps the list tight.
+Load the ICP definition first. It tells you the firmographics (company size, industry, tech stack) and the buyer titles to target <sup><a href="#sources">[3]</a></sup>. Filter the account universe to fit before you enrich contacts. Filtering first cuts enrichment cost and keeps the list tight.
 
 ### 2. Build the account list
 
@@ -58,11 +58,11 @@ For each account, find the buyers your ICP names. Enrich for:
 - A deliverable contact channel (verified work email or LinkedIn).
 - Signals attached to the person (profile viewed your team, changed jobs into the buyer role).
 
-Verification matters more than volume. A bounced email hurts deliverability for the whole domain [4].
+Verification matters more than volume. A bounced email hurts deliverability for the whole domain <sup><a href="#sources">[4]</a></sup>.
 
 ### 4. Score and tier
 
-Score each account-contact pair on fit and signal. Tier 1 gets human outreach first; Tier 2 goes to an agent-driven sequence; Tier 3 waits for a stronger signal. The 95-5 rule says only about 5% of the market is in-market at any moment, so tiering protects your best message for the accounts that can buy now [5].
+Score each account-contact pair on fit and signal. Tier 1 gets human outreach first; Tier 2 goes to an agent-driven sequence; Tier 3 waits for a stronger signal. The 95-5 rule says only about 5% of the market is in-market at any moment, so tiering protects your best message for the accounts that can buy now <sup><a href="#sources">[5]</a></sup>.
 
 ### 5. Load and assign
 
@@ -97,21 +97,21 @@ A mid-market SaaS sells workflow software to operations leaders at companies wit
 
 **Step 4 - tiering.** All 90 are Tier 1 by signal strength, but capacity is 30 personalized sends this week. The 30 with the strongest fit (prior vendor in the stack) get human outreach; the other 60 go to the agent sequence.
 
-**Step 5 - load.** All 90 load into the sequence tool with owners. The arithmetic: 90 accounts x a 5.8% blended cold reply rate [1] implies about 5 replies this cycle, of which roughly 1-2 book a meeting at a 3-10 meetings per 1,000 sends benchmark [6]. The list is sized to capacity, not to a vanity count.
+**Step 5 - load.** All 90 load into the sequence tool with owners. The arithmetic: 90 accounts x a 5.8% blended cold reply rate <sup><a href="#sources">[1]</a></sup> implies about 5 replies this cycle, of which roughly 1-2 book a meeting at a 3-10 meetings per 1,000 sends benchmark <sup><a href="#sources">[6]</a></sup>. The list is sized to capacity, not to a vanity count.
 
 ## Failure modes and how to fix them
 
 - **List without an owner.** A 1,000-row sheet with no assignment decays in a week. Fix: assign every row before you enrich the next batch.
-- **Volume over verification.** Unverified emails burn domain reputation and land in spam. Fix: verify before send; route unverified contacts to LinkedIn only [4].
+- **Volume over verification.** Unverified emails burn domain reputation and land in spam. Fix: verify before send; route unverified contacts to LinkedIn only <sup><a href="#sources">[4]</a></sup>.
 - **No signal tiering.** Sending the same message to in-market and cold accounts wastes the good copy. Fix: Tier 1 human, Tier 2 agent, Tier 3 hold.
 - **Stale list treated as live.** A quarter-old list has churned contacts and dead signals. Fix: stamp `as-of` and rebuild signals every 90 days.
-- **Prospecting before the ICP exists.** Produces names, not pipeline [1]. Fix: finish ICP definition first [3].
+- **Prospecting before the ICP exists.** Produces names, not pipeline <sup><a href="#sources">[1]</a></sup>. Fix: finish ICP definition first <sup><a href="#sources">[3]</a></sup>.
 
 ## How the skill differs by segment and maturity
 
-- **By segment.** SMB: fewer accounts, self-serve buyers, lean on product signals. Enterprise: longer lists per account (buying committees of 11-17), enrich the whole committee, not one buyer [7].
+- **By segment.** SMB: fewer accounts, self-serve buyers, lean on product signals. Enterprise: longer lists per account (buying committees of 11-17), enrich the whole committee, not one buyer <sup><a href="#sources">[7]</a></sup>.
 - **By maturity.** A new motion should prospect narrow and deep (prove the ICP on 50 accounts) before wide. A mature motion can prospect broad and let the agent tier.
-- **By channel.** Outbound-led teams prospect for email-ready contacts; ABM-led teams prospect for account-level fit and load into the ABM program [8].
+- **By channel.** Outbound-led teams prospect for email-ready contacts; ABM-led teams prospect for account-level fit and load into the ABM program <sup><a href="#sources">[8]</a></sup>.
 
 ## Agentic layer
 
@@ -134,7 +134,7 @@ Never invent a contact or a signal. If enrichment returns nothing, mark the row 
 
 ```text
 You are a prospecting operator. Given one account, one buyer, their verified signal,
-and the value hypothesis, write one cold email under 125 words [9]. Lead with the
+and the value hypothesis, write one cold email under 125 words <sup><a href="#sources">[9]</a></sup>. Lead with the
 signal, not the product. Offer something useful (an insight, a benchmark, a resource)
 in the first line. No "I hope this finds you well." No superlatives. Output only the email.
 ```

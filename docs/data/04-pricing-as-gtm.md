@@ -50,17 +50,17 @@ The per-seat model is losing its value link. When agents let a support team hand
 
 ### Variants by company stage and maturity
 
-Pricing changes shape as the business moves through stages. The model that works at seed price breaks at growth. The discipline that holds at scale is overkill for a first motion. Match the pricing system to the stage you are in, not the stage you are moving toward [270].
+Pricing changes shape as the business moves through stages. The model that works at seed price breaks at growth. The discipline that holds at scale is overkill for a first motion. Match the pricing system to the stage you are in, not the stage you are moving toward <sup><a href="#sources">[270]</a></sup>.
 
-**Seed (first customers, message-market fit).** Keep the model simple and change it often. You have no expansion base and no discount history. Charge for the value metric you believe in, prove it on the first closed-won accounts, and treat list price as a hypothesis. A pricing change is a growth decision, not a finance decision, because every early customer teaches you what the value metric should be [270][89].
+**Seed (first customers, message-market fit).** Keep the model simple and change it often. You have no expansion base and no discount history. Charge for the value metric you believe in, prove it on the first closed-won accounts, and treat list price as a hypothesis. A pricing change is a growth decision, not a finance decision, because every early customer teaches you what the value metric should be <sup><a href="#sources">[270]</a></sup><sup><a href="#sources">[89]</a></sup>.
 
-**Early traction (first repeatable motion).** This is where discount discipline starts to matter. The five-to-twenty-percent band becomes a guardrail once deals repeat; anything over 40% off stops closing marginal deals and starts shrinking existing ones [104]. Pick one packaging model, usually good-better-best, because 40.8% of B2B SaaS companies use it as their dominant approach and it maps to how buyers compare options [89].
+**Early traction (first repeatable motion).** This is where discount discipline starts to matter. The five-to-twenty-percent band becomes a guardrail once deals repeat; anything over 40% off stops closing marginal deals and starts shrinking existing ones <sup><a href="#sources">[104]</a></sup>. Pick one packaging model, usually good-better-best, because 40.8% of B2B SaaS companies use it as their dominant approach and it maps to how buyers compare options <sup><a href="#sources">[89]</a></sup>.
 
-**Growth stage (land-and-expand, multiple segments).** Add the expansion path before the first contract signs. The expansion revenue rate for healthy companies sits at 10-30%, and the top performers exceed 60% of new MRR from expansion [212]. Net revenue retention median sits near 102% [212]. At this stage the pricing system must reward the behavior you want: annual prepay at 15-20% off for commitment, usage or outcome metrics for agent-driven volume, and a published rate card so renewals do not renegotiate from zero [104][270].
+**Growth stage (land-and-expand, multiple segments).** Add the expansion path before the first contract signs. The expansion revenue rate for healthy companies sits at 10-30%, and the top performers exceed 60% of new MRR from expansion <sup><a href="#sources">[212]</a></sup>. Net revenue retention median sits near 102% <sup><a href="#sources">[212]</a></sup>. At this stage the pricing system must reward the behavior you want: annual prepay at 15-20% off for commitment, usage or outcome metrics for agent-driven volume, and a published rate card so renewals do not renegotiate from zero <sup><a href="#sources">[104]</a></sup><sup><a href="#sources">[270]</a></sup>.
 
-**Scale stage (multiple segments, enterprise motions).** The pricing system fragments by segment, the way the revenue architecture does. A self-serve motion anchors on the $702 CAC floor; a sales-led motion carries the $11,400 ceiling [209]. That 16x spread means one pricing model cannot serve both. Consumption and outcome billing replace per-seat for agent-heavy usage, and the comp plan must tie discount authority to margin instead of quota date so late-quarter discounts of 35-37% do not erode the list [270][104].
+**Scale stage (multiple segments, enterprise motions).** The pricing system fragments by segment, the way the revenue architecture does. A self-serve motion anchors on the $702 CAC floor; a sales-led motion carries the $11,400 ceiling <sup><a href="#sources">[209]</a></sup>. That 16x spread means one pricing model cannot serve both. Consumption and outcome billing replace per-seat for agent-heavy usage, and the comp plan must tie discount authority to margin instead of quota date so late-quarter discounts of 35-37% do not erode the list <sup><a href="#sources">[270]</a></sup><sup><a href="#sources">[104]</a></sup>.
 
-Maturity is the same axis from the other end. A seed team that files pricing away as done stalls against faster learners. A scale team that keeps one broad pricing model across segments dilutes every deal for every buyer. The stage and maturity dimensions describe the same movement: pricing as a system you redesign deliberately, not a list you set once [270][102].
+Maturity is the same axis from the other end. A seed team that files pricing away as done stalls against faster learners. A scale team that keeps one broad pricing model across segments dilutes every deal for every buyer. The stage and maturity dimensions describe the same movement: pricing as a system you redesign deliberately, not a list you set once <sup><a href="#sources">[270]</a></sup><sup><a href="#sources">[102]</a></sup>.
 
 ## Layer 2: Packaging
 
@@ -76,7 +76,7 @@ The evidence from the archive example: enterprise customers consumed high volume
 
 ### Good-better-best as the dominant model
 
-Of B2B SaaS companies, 40.8% use the good-better-best tiering model as their dominant approach [89]. This model wins because it matches how buyers evaluate options: a no-frills entry tier for trials, a mainstream tier for most teams, and an enterprise tier with governance and support for large orgs.
+Of B2B SaaS companies, 40.8% use the good-better-best tiering model as their dominant approach <sup><a href="#sources">[89]</a></sup>. This model wins because it matches how buyers evaluate options: a no-frills entry tier for trials, a mainstream tier for most teams, and an enterprise tier with governance and support for large orgs.
 
 ### Failure modes
 
@@ -95,23 +95,23 @@ The empirical method: run controlled, incremental price changes against customer
 
 ### Price-level inflation under pressure
 
-B2B software price inflation ran 12-16.4% per year through 2026 [271]. SaaS price level rose 11.4% in 2025 alone [102]. SaaS spend per employee sits at $7,900 per year, up 27% in two years [102]. Renewal conversations now carry a buyer who has absorbed years of increases and asks for cuts. The tension is real: price to reflect value or price to retain. The companies that hold rate do so by tying price to measurable outcomes, not line items.
+B2B software price inflation ran 12-16.4% per year through 2026 <sup><a href="#sources">[271]</a></sup>. SaaS price level rose 11.4% in 2025 alone <sup><a href="#sources">[102]</a></sup>. SaaS spend per employee sits at $7,900 per year, up 27% in two years <sup><a href="#sources">[102]</a></sup>. Renewal conversations now carry a buyer who has absorbed years of increases and asks for cuts. The tension is real: price to reflect value or price to retain. The companies that hold rate do so by tying price to measurable outcomes, not line items.
 
 ### CAC pressure from the pricing floor
 
-The self-serve CAC floor is $702. The sales-led ceiling is $11,400 [209]. That 16x spread is the pricing system's gravitational force. Every dollar of unnecessary discount in a sales-led motion pushes ARPA down and CAC payback out. Every dollar of unnecessary complexity in a self-serve tier pushes conversion rate down. Pricing is the lever that moves both.
+The self-serve CAC floor is $702. The sales-led ceiling is $11,400 <sup><a href="#sources">[209]</a></sup>. That 16x spread is the pricing system's gravitational force. Every dollar of unnecessary discount in a sales-led motion pushes ARPA down and CAC payback out. Every dollar of unnecessary complexity in a self-serve tier pushes conversion rate down. Pricing is the lever that moves both.
 
 ## Discount Discipline
 
 Not all discounts are equal. The data separates them cleanly.
 
-A discount for behavior you want is pricing. Annual prepay at 15-20% off rewards a commitment that lowers churn and accelerates cash. Slack, Zoom, and HubSpot standardize this [104].
+A discount for behavior you want is pricing. Annual prepay at 15-20% off rewards a commitment that lowers churn and accelerates cash. Slack, Zoom, and HubSpot standardize this <sup><a href="#sources">[104]</a></sup>.
 
-A discount conceded to close is a subsidy. It buys the deal and caps the customer's lifetime value. Heavy-discount customers show higher price sensitivity and higher churn. The optimal discount range sits at 5-20%. Beyond 40%, the discount stops closing marginal deals and starts shrinking existing ones [104].
+A discount conceded to close is a subsidy. It buys the deal and caps the customer's lifetime value. Heavy-discount customers show higher price sensitivity and higher churn. The optimal discount range sits at 5-20%. Beyond 40%, the discount stops closing marginal deals and starts shrinking existing ones <sup><a href="#sources">[104]</a></sup>.
 
 ### Expansion path
 
-A pricing model with no natural upgrade motion caps NRR. The expansion revenue rate good/steady sits at 10-30% [212]. The top performers exceed 60% of new MRR from expansion [212]. Net revenue retention median sits at 102% [212]. Companies with NRR &gt;=100% grew roughly 48% year over year [57]. For B2B SaaS M&A, the customer-retention range compresses: gross dollar retention 85-95%, net dollar retention 110-120% [221].
+A pricing model with no natural upgrade motion caps NRR. The expansion revenue rate good/steady sits at 10-30% <sup><a href="#sources">[212]</a></sup>. The top performers exceed 60% of new MRR from expansion <sup><a href="#sources">[212]</a></sup>. Net revenue retention median sits at 102% <sup><a href="#sources">[212]</a></sup>. Companies with NRR &gt;=100% grew roughly 48% year over year <sup><a href="#sources">[57]</a></sup>. For B2B SaaS M&A, the customer-retention range compresses: gross dollar retention 85-95%, net dollar retention 110-120% <sup><a href="#sources">[221]</a></sup>.
 
 The land-and-expand motion is a necessity for most SaaS, not an optional add-on. Unit economics only work when the expansion path exists before the first deal closes.
 
@@ -123,16 +123,16 @@ Sales compensation is the most underestimated factor in pricing discipline. Rese
 
 ### Agentic discount enforcement
 
-AI-augmented reps handle 1,000+ contacts per day versus 50-80 for a manual SDR [46]. The implication for pricing: at that volume, discount discipline must be automated, not negotiated case by case. An AI agent can enforce the discount band by flagging any quote over 20% and routing it to a pricing committee before it sends. The agent does not replace the rep. It prevents the rep from making a $6.6M mistake.
+AI-augmented reps handle 1,000+ contacts per day versus 50-80 for a manual SDR <sup><a href="#sources">[46]</a></sup>. The implication for pricing: at that volume, discount discipline must be automated, not negotiated case by case. An AI agent can enforce the discount band by flagging any quote over 20% and routing it to a pricing committee before it sends. The agent does not replace the rep. It prevents the rep from making a $6.6M mistake.
 
 ## Failure modes and how to fix them
 
 These are the ways a pricing system breaks in the field, and the fix.
 
-- **Discounting to close.** A subsidy caps LTV and becomes the next deal's floor. Deals past 40% off close smaller and slower [104]. Fix: keep the 5-20% band; require a trade (annual prepay, multi-year) for anything above it; route quotes over 20% off to a deal desk.
-- **Wrong value metric.** Seats bill headcount while agents raise output. Fix: attach price to usage or outcome, then prove the metric on closed-won usage data before you rewrite the list [270].
+- **Discounting to close.** A subsidy caps LTV and becomes the next deal's floor. Deals past 40% off close smaller and slower <sup><a href="#sources">[104]</a></sup>. Fix: keep the 5-20% band; require a trade (annual prepay, multi-year) for anything above it; route quotes over 20% off to a deal desk.
+- **Wrong value metric.** Seats bill headcount while agents raise output. Fix: attach price to usage or outcome, then prove the metric on closed-won usage data before you rewrite the list <sup><a href="#sources">[270]</a></sup>.
 - **Template packaging.** Editions copied from a competitor fit the average buyer and no specific group. Fix: group buyers by how they derive value, then add on the capability only one group pays for.
-- **No expansion path.** Land-and-expand dies when the first package has nowhere to grow. Median NRR sits near 102%; the companies that hold NRR at or above 100% grew about 48% year over year [212][57]. Fix: put the next tier one cap-break away before the first contract signs.
+- **No expansion path.** Land-and-expand dies when the first package has nowhere to grow. Median NRR sits near 102%; the companies that hold NRR at or above 100% grew about 48% year over year <sup><a href="#sources">[212]</a></sup><sup><a href="#sources">[57]</a></sup>. Fix: put the next tier one cap-break away before the first contract signs.
 - **Comp that pays volume.** Late-quarter discounts of 35-37% versus 30% mid-quarter are a comp problem, not a list-price problem. Fix: tie discount authority to margin, not quota date.
 - **Cost-plus or competitor-copy list.** Both start from the wrong input. Fix: set list from revealed preference on cohorts with similar usage, then move price in small controlled steps.
 

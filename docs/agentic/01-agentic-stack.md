@@ -23,7 +23,7 @@ engine. An AI SDR is a single tool. The agentic stack is the system that
 tool sits inside. Buyers keep conflating the two, and it costs them
 pipeline. Smartlead separates them cleanly: autonomous AI SDRs, AI
 assistants that augment a human, and AI prospecting tools that only handle
-data [76]. Most working stacks use a mix of all three. None of them, on
+data <sup><a href="#sources">[76]</a></sup>. Most working stacks use a mix of all three. None of them, on
 its own, is the stack.
 
 The stack has five layers:
@@ -52,14 +52,14 @@ without adding a rep for every thousand contacts.
 
 The cost math is stark. Smartlead's comparison puts the fully-loaded annual
 cost of a truly autonomous AI SDR at $35K to $65K per agent per year: data,
-infrastructure, warmup, and oversight included [76]. That is less than one
+infrastructure, warmup, and oversight included <sup><a href="#sources">[76]</a></sup>. That is less than one
 junior SDR's loaded cost. The stack is a deliberate capital decision to
 trade a variable labor line for a fixed tooling line, real production
 infrastructure, not a toy.
 
 But the reason it matters is speed of iteration, not the cost. Clay makes
 the point: the best teams treat GTM as an engineering system built on data,
-orchestration, execution, and agents [18]. When every step from list-build
+orchestration, execution, and agents <sup><a href="#sources">[18]</a></sup>. When every step from list-build
 to follow-up is code, you can test a new message, a new segment, or a new
 trigger in days instead of quarters. You learn faster than competitors who
 run manual motion. In a market where message and list rot monthly,
@@ -81,10 +81,10 @@ enrich: firmographics, tech stack, intent signals, and the named person
 with a verified contact. The output is a row that carries fit and reach.
 Clay is the tool most technical teams reach for here because it runs
 waterfall enrichment across a hundred-plus providers and applies AI
-row-by-row [18]. Apollo is the other common source for raw lists to refine
+row-by-row <sup><a href="#sources">[18]</a></sup>. Apollo is the other common source for raw lists to refine
 in Clay. Instantly describes the exact modern pattern: Clay sources
 contacts, enriches with intent signals, and pushes them into a sequence
-[17].
+<sup><a href="#sources">[17]</a></sup>.
 
 Data quality is the floor of the whole stack. Garbage rows produce garbage
 messages no matter how good your LLM is.
@@ -99,7 +99,7 @@ AI is only as clever as the prompt and inputs given to the AI. Feed a thin
 prompt with generic data and you get generic, spam-sounding copy. Feed a
 research brief and you get copy that names a concrete problem in a named
 company. Amplemarket's agent assembles a per-prospect research brief that a
-human would spend 15 to 30 minutes building by hand [172].
+human would spend 15 to 30 minutes building by hand <sup><a href="#sources">[172]</a></sup>.
 
 ### Layer 3: Compose
 
@@ -117,7 +117,7 @@ SmartAgents requires you to bring your own sending infrastructure. On
 shared pools your volume poisons your reputation. Smartlead documents one
 customer who ran 30K emails a month on shared infrastructure, watched
 reply rates fall from 6 percent to under 2 percent over six weeks, and
-recovered on dedicated infrastructure in two weeks [16]. The delivery layer
+recovered on dedicated infrastructure in two weeks <sup><a href="#sources">[16]</a></sup>. The delivery layer
 is where campaigns quietly die.
 
 ### Layer 5: Triage
@@ -200,14 +200,14 @@ baseline.
 
 Do not chase full autonomy. The data says hybrid wins. Smartlead's analysis
 puts hybrid human-plus-AI setups at 8% to 15% reply rates versus 1% to 3%
-for fully autonomous systems at scale [76]. The gap is substantial:
+for fully autonomous systems at scale <sup><a href="#sources">[76]</a></sup>. The gap is substantial:
 a pipeline that feeds your AEs versus one that starves them.
 
 SuperAGI's comparison puts the productivity of an AI-augmented rep at
-1,000+ contacts per day versus 50 to 80 for a manual rep [46]. But
+1,000+ contacts per day versus 50 to 80 for a manual rep <sup><a href="#sources">[46]</a></sup>. But
 autonomous agents convert meetings to qualified opportunities at 15% versus
 25% for human SDRs, a 40% gap driven by weak objection handling, shallow
-relationship building, and degraded judgment at scale [63].
+relationship building, and degraded judgment at scale <sup><a href="#sources">[63]</a></sup>.
 
 The autonomy you should chase is in the prep layers (data, research,
 compose), where volume matters and judgment is low-stakes. Keep a human in
@@ -220,19 +220,19 @@ Signal-based outbound is the single biggest lever on reply rate.
 Kyle Poyar's research cited in the Smartlead piece puts signal-triggered
 outreach (leadership changes, funding rounds, hiring surges, tech adoption)
 at 14% to 25% reply rates, against a 3.43% cold email industry average from
-Hunter.io's 2026 State of Cold Email report [127]. The gap between signal
+Hunter.io's 2026 State of Cold Email report <sup><a href="#sources">[127]</a></sup>. The gap between signal
 and average is the difference a pipeline that feeds your AEs makes and one
 that starves them.
 cost-per-lead drops from $262 to $39, an 85% reduction, when you move from
-manual to agentic [47]. The stack is the natural home for this: the data
+manual to agentic <sup><a href="#sources">[47]</a></sup>. The stack is the natural home for this: the data
 layer watches for the signal, and the moment it fires, research composes a
 brief around a concrete, current event in the account. That is
 personalization a prospect can feel.
 
 The sender model compounds this. Clay sets inbox ceilings at 50 per day per
 inbox, 2 to 3 inboxes per domain, 3 to 4 domains per console, with a
-3-week warmup minimum [18]. Smartlead documents shared-infrastructure reply
-decay from 6% to under 2% in six weeks [16]. If you skip warmup or pile
+3-week warmup minimum <sup><a href="#sources">[18]</a></sup>. Smartlead documents shared-infrastructure reply
+decay from 6% to under 2% in six weeks <sup><a href="#sources">[16]</a></sup>. If you skip warmup or pile
 volume on a fresh domain, you trade tomorrow's reputation for today's send
 count.
 

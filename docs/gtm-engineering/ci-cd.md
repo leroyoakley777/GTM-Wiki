@@ -28,12 +28,12 @@ What does not: raw contact lists, private emails, API keys.
 | Gate | Fails when |
 |------|------------|
 | Schema | Output field missing or extra |
-| Caps | Proposed volume exceeds 25-30/inbox [331] |
+| Caps | Proposed volume exceeds 25-30/inbox <sup><a href="#sources">[331]</a></sup> |
 | Claims | Customer name not on the allow-list |
 | Freshness | Signal older than the expiry window |
 | Source | A new stat with no registry row |
 
-Do not optimize a message variant before 300 sends [329]. The CI system can block "ship 12 subject lines" the same way it blocks an untested function.
+Do not optimize a message variant before 300 sends <sup><a href="#sources">[329]</a></sup>. The CI system can block "ship 12 subject lines" the same way it blocks an untested function.
 
 ## How this differs by stage
 

@@ -25,9 +25,9 @@ Read the [GTM Funnel](/docs/foundations/gtm-funnel) first, then the [Conversion 
 
 That single number, more than CTR, CPM, or cost-per-lead, tells you whether paid is a business or a donation. Cheap clicks that never become paying customers are expensive. Cost per lead is a scoreboard, not a verdict. Payback against gross margin is the verdict.
 
-**What the medians say.** Aleph (getaleph.com, 2025 data, 342 companies) reports the median B2B SaaS CAC payback at 16 months in 2025, improved from 18 months in 2024, an 11% gain in one year [1]. The top quartile pays back in 6 months or less. Companies growing above 50% a year pay back in a median 10 months. Companies growing 21–30% take 22 months. The spread between a 6-month and a 24-month payback decides how much capital you can recycle back into growth.
+**What the medians say.** Aleph (getaleph.com, 2025 data, 342 companies) reports the median B2B SaaS CAC payback at 16 months in 2025, improved from 18 months in 2024, an 11% gain in one year <sup><a href="#sources">[1]</a></sup>. The top quartile pays back in 6 months or less. Companies growing above 50% a year pay back in a median 10 months. Companies growing 21–30% take 22 months. The spread between a 6-month and a 24-month payback decides how much capital you can recycle back into growth.
 
-Optifai (optif.ai, 2026) splits the median by segment: SMB (under $15K ACV) 8–12 months, mid-market ($15K–$100K ACV) 14–18 months, enterprise (above $100K ACV) 18–24 months, overall median 15 months [2]. Its health bands: top tier under 12 months, good 12–18, concerning 18–24, critical above 24.
+Optifai (optif.ai, 2026) splits the median by segment: SMB (under $15K ACV) 8–12 months, mid-market ($15K–$100K ACV) 14–18 months, enterprise (above $100K ACV) 18–24 months, overall median 15 months <sup><a href="#sources">[2]</a></sup>. Its health bands: top tier under 12 months, good 12–18, concerning 18–24, critical above 24.
 
 These are baselines, not targets. They are the band you benchmark against, not the number you promise a board.
 
@@ -70,18 +70,18 @@ Every stage spends money, so every stage is a leak. The table below gives health
 |---|---|---|---|
 | Search CTR | 3%+ | 3.17% average search CTR (Store Growers 2026) | Ad relevance and offer pull |
 | Display CTR | 0.46% | Google Display average (Store Growers 2026) | Creative pull in low-intent inventory |
-| Paid visitor to lead | 0.7–2.6% | PPC 0.7% (thedigitalbloom 2025) [20], visitor-to-lead 1.4–2.6% (Ruler Analytics 2024) [18] | Whether the landing page earns the click |
+| Paid visitor to lead | 0.7–2.6% | PPC 0.7% (thedigitalbloom 2025) <sup><a href="#sources">[20]</a></sup>, visitor-to-lead 1.4–2.6% (Ruler Analytics 2024) <sup><a href="#sources">[18]</a></sup> | Whether the landing page earns the click |
 | Lead to MQL | 31% avg | 31% average, 39% B2B SaaS (Landbase 2026) | Fit of captured traffic to ICP |
 | MQL to SQL | 13–21% | 13% (Salesforce 2024), 15–21% (thedigitalbloom 2025) | Qualification quality |
 | SQL to opportunity | 30–48% | 30–50% (Zeliq), 47% (Ebsta/Pavilion 2024) | Sales qualification execution |
 | Opportunity to closed-won | 20–35% | 21% avg, down 4–6 points from 2021 (Ebsta/Pavilion 2024) | Sales close capability |
 | CAC payback | under 12 months | Median 16 months, top quartile 6 (Aleph 2025), 8–12 SMB, 15 overall (Optifai 2026) | Whole-loop profitability |
 
-The fatal trap is optimizing the top while the bottom leaks. A strong 3% search CTR with a broken MQL-to-SQL stage just buys volume to lose money at a higher rate. MQL to SQL at 13% (Salesforce 2024) [18] is the largest, most consistent leak in B2B SaaS. Qualified leads convert at roughly 40% versus 11% for unqualified (Landbase 2026) [18], a four-fold gap. Qualification, not more traffic, is the cheapest lever.
+The fatal trap is optimizing the top while the bottom leaks. A strong 3% search CTR with a broken MQL-to-SQL stage just buys volume to lose money at a higher rate. MQL to SQL at 13% (Salesforce 2024) <sup><a href="#sources">[18]</a></sup> is the largest, most consistent leak in B2B SaaS. Qualified leads convert at roughly 40% versus 11% for unqualified (Landbase 2026) <sup><a href="#sources">[18]</a></sup>, a four-fold gap. Qualification, not more traffic, is the cheapest lever.
 
 **Company size inverts the funnel** (First Page Sage / PixelsWithin): SMB (under $10M) runs roughly 2.3% visitor to lead, mid-market around 1.4%, enterprise around 0.7%. If you sell to enterprise, expect weak top-funnel and strong bottom-funnel, and do not "fix" a stage that is already at its ceiling.
 
-**Worked example: the leak costs more than the volume.** Take 1,000 paid leads at the median cascade: 31% to MQL (Landbase 2026) [18] gives 310 MQLs, 13% to SQL (Salesforce 2024) [18] gives 40 SQLs, 47% to opportunity (Ebsta/Pavilion 2024) [18] gives 19 opportunities, 21% to closed-won gives 4 deals. Move MQL to SQL from 13% to 31% and the same 1,000 leads produce 9 deals. Same spend, more than double the closed-won. Fix the widest drop before adding budget.
+**Worked example: the leak costs more than the volume.** Take 1,000 paid leads at the median cascade: 31% to MQL (Landbase 2026) <sup><a href="#sources">[18]</a></sup> gives 310 MQLs, 13% to SQL (Salesforce 2024) <sup><a href="#sources">[18]</a></sup> gives 40 SQLs, 47% to opportunity (Ebsta/Pavilion 2024) <sup><a href="#sources">[18]</a></sup> gives 19 opportunities, 21% to closed-won gives 4 deals. Move MQL to SQL from 13% to 31% and the same 1,000 leads produce 9 deals. Same spend, more than double the closed-won. Fix the widest drop before adding budget.
 
 ---
 
@@ -89,7 +89,7 @@ The fatal trap is optimizing the top while the bottom leaks. A strong 3% search 
 
 Forward math tells you what volume produces. Reverse math tells you what a target requires, and it exposes whether paid can carry the plan alone.
 
-**Setup:** a $500K quarter at $25K ACV needs 20 deals. Apply the median cascade: 21% close, 47% SQL to opportunity, 13% MQL to SQL, 31% lead to MQL (sources in the funnel table above) [18]. PPC visitor to lead runs 0.7% (thedigitalbloom 2025) [20], and search CPC averages $5.26 (WordStream 2025) [6].
+**Setup:** a $500K quarter at $25K ACV needs 20 deals. Apply the median cascade: 21% close, 47% SQL to opportunity, 13% MQL to SQL, 31% lead to MQL (sources in the funnel table above) <sup><a href="#sources">[18]</a></sup>. PPC visitor to lead runs 0.7% (thedigitalbloom 2025) <sup><a href="#sources">[20]</a></sup>, and search CPC averages $5.26 (WordStream 2025) <sup><a href="#sources">[6]</a></sup>.
 
 | Reverse step | Math | Result |
 |---|---|---|
@@ -103,9 +103,9 @@ Forward math tells you what volume produces. Reverse math tells you what a targe
 
 **The read:** median-efficiency paid alone cannot carry a $500K quarter. Roughly $3.8M of spend to make $500K is a loss. Two levers fix it.
 
-**Lever one: fix MQL to SQL.** Raise it from 13% to 31% (the upper bound, thedigitalbloom 2025) [20]. MQLs needed drop from ~1,558 to ~653, clicks to ~301,000, spend to ~$1.6M. Still not profitable, but the direction is clear: conversion beats volume every time.
+**Lever one: fix MQL to SQL.** Raise it from 13% to 31% (the upper bound, thedigitalbloom 2025) <sup><a href="#sources">[20]</a></sup>. MQLs needed drop from ~1,558 to ~653, clicks to ~301,000, spend to ~$1.6M. Still not profitable, but the direction is clear: conversion beats volume every time.
 
-**Lever two: pair paid with cheaper channels.** Inbound CAC at $200 and partner at $150 (Optifai, N=939) [3] both sit well below paid's $350. Run paid for the highest-intent slice and let compounding channels carry the rest. Paid should feed the funnel, not own it.
+**Lever two: pair paid with cheaper channels.** Inbound CAC at $200 and partner at $150 (Optifai, N=939) <sup><a href="#sources">[3]</a></sup> both sit well below paid's $350. Run paid for the highest-intent slice and let compounding channels carry the rest. Paid should feed the funnel, not own it.
 
 Do this math before you launch. A budget with no reverse math is a hope.
 
@@ -119,15 +119,15 @@ Each platform has a different cost structure and a different job. Know both befo
 
 **Job:** capture existing demand. Highest-intent inventory in the channel.
 
-**Benchmarks:** WordStream (2024) reported average CPC $4.66 and average cost per lead $66.69 [5]. WordStream (2025) reported average CPL rising to $70.11, a 5.13% year-over-year increase, with average CPC at $5.26 and average conversion rate at 7.52% [6]. Average search CTR sits at 3.17% (Store Growers 2026) [9].
+**Benchmarks:** WordStream (2024) reported average CPC $4.66 and average cost per lead $66.69 <sup><a href="#sources">[5]</a></sup>. WordStream (2025) reported average CPL rising to $70.11, a 5.13% year-over-year increase, with average CPC at $5.26 and average conversion rate at 7.52% <sup><a href="#sources">[6]</a></sup>. Average search CTR sits at 3.17% (Store Growers 2026) <sup><a href="#sources">[9]</a></sup>.
 
-**Reality check:** search conversion rates vary wildly by industry: Finance and Insurance around 2.55%, Automotive repair near 14.67% (WordStream 2025) [6]. Benchmark against your own industry row, not the blend. digitalapplied (2026) [4] reports B2B SaaS paid-search CAC at $1,180 and notes Google paid-search CAC rose 18% in two years while conversion stayed flat. The efficiency gains are gone. You buy intent at a premium.
+**Reality check:** search conversion rates vary wildly by industry: Finance and Insurance around 2.55%, Automotive repair near 14.67% (WordStream 2025) <sup><a href="#sources">[6]</a></sup>. Benchmark against your own industry row, not the blend. digitalapplied (2026) <sup><a href="#sources">[4]</a></sup> reports B2B SaaS paid-search CAC at $1,180 and notes Google paid-search CAC rose 18% in two years while conversion stayed flat. The efficiency gains are gone. You buy intent at a premium.
 
 ### Meta (Facebook and Instagram)
 
 **Job:** create and accelerate demand. Volume leader for top-of-funnel lead capture.
 
-**Benchmarks:** WordStream (2025) reports traffic-campaign CPC averaging around $0.77, with leads-objective CPC varying by industry from $0.74 (restaurants) to $9.78 (dentists) [7]. Triple Whale (2025) [8] reports Meta CPA averaging $38.19, CPM $14.19 (up 20% year over year), CTR 2.19%. WordStream's Facebook benchmarks put average cost per action (CPA) near $19.68 across industries [7].
+**Benchmarks:** WordStream (2025) reports traffic-campaign CPC averaging around $0.77, with leads-objective CPC varying by industry from $0.74 (restaurants) to $9.78 (dentists) <sup><a href="#sources">[7]</a></sup>. Triple Whale (2025) <sup><a href="#sources">[8]</a></sup> reports Meta CPA averaging $38.19, CPM $14.19 (up 20% year over year), CTR 2.19%. WordStream's Facebook benchmarks put average cost per action (CPA) near $19.68 across industries <sup><a href="#sources">[7]</a></sup>.
 
 **Reality check:** Meta lead quality is structurally weaker than search. A cheap lead that never qualifies is not cheap. Judge Meta on qualified cost, not raw CPL.
 
@@ -135,15 +135,15 @@ Each platform has a different cost structure and a different job. Know both befo
 
 **Job:** reach decision-makers in a B2B context. The premium social layer.
 
-**Benchmarks:** average CPC $5.58 globally (TheB2BHouse 2026) [10]. HockeyStack (2025) [11] reports CPC rising from $10.48 in Q1 to $15.72 in Q3, with CTR 0.82–0.96%. Enterprise SaaS cost per lead runs $80–$180 for lead-gen forms and $120–$250 for landing pages. Mid-market buyers land at $60–$120 (Stackmatix 2026) [12]. SaaS CPL routinely passes $100 (adbacklog 2025) [13].
+**Benchmarks:** average CPC $5.58 globally (TheB2BHouse 2026) <sup><a href="#sources">[10]</a></sup>. HockeyStack (2025) <sup><a href="#sources">[11]</a></sup> reports CPC rising from $10.48 in Q1 to $15.72 in Q3, with CTR 0.82–0.96%. Enterprise SaaS cost per lead runs $80–$180 for lead-gen forms and $120–$250 for landing pages. Mid-market buyers land at $60–$120 (Stackmatix 2026) <sup><a href="#sources">[12]</a></sup>. SaaS CPL routinely passes $100 (adbacklog 2025) <sup><a href="#sources">[13]</a></sup>.
 
-**Reality check:** LinkedIn is the most expensive B2B lead source by intent-adjusted cost. A $120 CPL that converts at 20% to SQL costs $600 per SQL (Stackmatix) [12]. Use it where the target list is small and the ACV justifies it.
+**Reality check:** LinkedIn is the most expensive B2B lead source by intent-adjusted cost. A $120 CPL that converts at 20% to SQL costs $600 per SQL (Stackmatix) <sup><a href="#sources">[12]</a></sup>. Use it where the target list is small and the ACV justifies it.
 
 ### Programmatic and display
 
 **Job:** reach and retarget at scale, low intent.
 
-**Benchmarks:** standard display CPM $1.50–$4.00, native $5.00–$12.00, in-stream video $12.00–$25.00, connected TV $25.00–$45.00 (SearchLab 2026) [14]. Google Display runs near $3 CPM versus around $38 CPM for Google Search (PostAffiliatePro 2025) [15]. Display CTR averages 0.46% (Store Growers 2026) [9].
+**Benchmarks:** standard display CPM $1.50–$4.00, native $5.00–$12.00, in-stream video $12.00–$25.00, connected TV $25.00–$45.00 (SearchLab 2026) <sup><a href="#sources">[14]</a></sup>. Google Display runs near $3 CPM versus around $38 CPM for Google Search (PostAffiliatePro 2025) <sup><a href="#sources">[15]</a></sup>. Display CTR averages 0.46% (Store Growers 2026) <sup><a href="#sources">[9]</a></sup>.
 
 **Reality check:** programmatic is where fraud concentrates (see failure modes). Budget for high invalid-traffic rates and demand viewability guarantees. Programmatic is a reach play, not a conversion play.
 
@@ -173,7 +173,7 @@ Teams over-index on last-click because it is easy and the platform defaults to i
 
 A click buys a visitor, not a lead. The landing page decides whether the visitor converts, and paid conversion is the cheapest conversion to destroy.
 
-**Message match.** The ad promise and the landing page headline must match. A visitor who clicks a discount ad and lands on a page that says nothing about price leaves. Mismatch is the most common cause of a paid CVR far below the platform average of 7.52% (WordStream 2025) [6].
+**Message match.** The ad promise and the landing page headline must match. A visitor who clicks a discount ad and lands on a page that says nothing about price leaves. Mismatch is the most common cause of a paid CVR far below the platform average of 7.52% (WordStream 2025) <sup><a href="#sources">[6]</a></sup>.
 
 **One offer per page.** A page asking the visitor to do several things converts on none. Name one action and remove competing links.
 
@@ -221,9 +221,9 @@ Run this on a regular cadence, not once. Auctions and organic share both shift, 
 
 **"Our CAC is too high."** CAC alone is not a verdict. Payback against gross margin is. A high CAC with fast payback beats a low CAC with no payback. Compare apples to your own margin, not to a headline.
 
-**"It worked before, so we scaled."** Auctions move. WordStream (2025) [6] shows Google CPL up 5.13% year over year, and Triple Whale (2025) [8] shows Meta CPM up 20%. A campaign that cleared payback at one auction price may not at another. Re-prove economics at every scale step.
+**"It worked before, so we scaled."** Auctions move. WordStream (2025) <sup><a href="#sources">[6]</a></sup> shows Google CPL up 5.13% year over year, and Triple Whale (2025) <sup><a href="#sources">[8]</a></sup> shows Meta CPM up 20%. A campaign that cleared payback at one auction price may not at another. Re-prove economics at every scale step.
 
-**"Cheap leads are good."** A cheap lead that never qualifies is a cost, not a win. Cost per SQL and cost per customer are the metrics that matter. Search CPL of $66.69 (WordStream 2024) [5] is meaningless if the SQL rate collapses.
+**"Cheap leads are good."** A cheap lead that never qualifies is a cost, not a win. Cost per SQL and cost per customer are the metrics that matter. Search CPL of $66.69 (WordStream 2024) <sup><a href="#sources">[5]</a></sup> is meaningless if the SQL rate collapses.
 
 **"We can just hire an agency."** An agency runs the platform, not the economics. You still own payback, incrementality, and the bottom of the funnel. Outsourcing execution without owning the math transfers work, not responsibility.
 
@@ -251,11 +251,11 @@ Last-click attribution overcredits the bottom and hides the channels that warmed
 
 A winning ad decays. CTR and CVR fall as the audience sees the same creative repeatedly, and cost climbs. Teams keep paying for ads that have stopped working.
 
-**Fix:** treat creative as a pipeline, not a set. Rotate variants on a schedule, test new angles continuously, and pause ads below a spend floor without fresh results. WordStream (2025) [6] and Triple Whale (2025) [8] both show the platform averages moving yearly: your creative must move faster than the market.
+**Fix:** treat creative as a pipeline, not a set. Rotate variants on a schedule, test new angles continuously, and pause ads below a spend floor without fresh results. WordStream (2025) <sup><a href="#sources">[6]</a></sup> and Triple Whale (2025) <sup><a href="#sources">[8]</a></sup> both show the platform averages moving yearly: your creative must move faster than the market.
 
 ### Ad fraud
 
-Fraud wastes budget on bots and fake clicks. Anura (2024) [16] estimated global ad fraud losses above $140 billion in 2024 and put programmatic fraud rates around 50%, affiliate around 45%, and general digital around 25%, roughly $1 in every $4 at risk. TrafficGuard (2026) [17] reports brands lose 15–25% of annual ad spend to non-human traffic, with search campaigns seeing 14–22% invalid traffic.
+Fraud wastes budget on bots and fake clicks. Anura (2024) <sup><a href="#sources">[16]</a></sup> estimated global ad fraud losses above $140 billion in 2024 and put programmatic fraud rates around 50%, affiliate around 45%, and general digital around 25%, roughly $1 in every $4 at risk. TrafficGuard (2026) <sup><a href="#sources">[17]</a></sup> reports brands lose 15–25% of annual ad spend to non-human traffic, with search campaigns seeing 14–22% invalid traffic.
 
 **Fix:** buy from trusted inventory, demand viewability and fraud filters, use third-party verification, and watch for impossible metrics: high CTR with zero conversions is a red flag. Budget a fraud discount into your CAC model. A $100 CPL is a $125 CPL once you account for a 20% fraud rate.
 
@@ -275,7 +275,7 @@ CTR is vanity when the bottom leaks. Optimize for closed-won and payback, and le
 
 Paid-sourced leads are a contract with sales, not a delivery.
 
-**Define the handoff explicitly.** State what marketing promises at the handoff point and what sales promises back. Speed matters: first-hour contact converts around 53% versus baseline (Data Mania via Landbase, 2026) [21]. A paid lead that sits is a paid lead that rots.
+**Define the handoff explicitly.** State what marketing promises at the handoff point and what sales promises back. Speed matters: first-hour contact converts around 53% versus baseline (Data Mania via Landbase, 2026) <sup><a href="#sources">[21]</a></sup>. A paid lead that sits is a paid lead that rots.
 
 **Agree on SQL criteria before you buy volume.** If sales accepts only BANT-qualified leads and paid produces form fills, the handoff fails on day one. Align on what a qualified lead is, then buy to it.
 
@@ -348,7 +348,7 @@ Run both with separate budgets, separate metrics, and separate verdicts. Blendin
 
 ### SMB vs. enterprise
 
-**SMB:** low ACV, high volume, fast decisions. Payback must be fast (8–12 months per Optifai 2026) [2] or the economics break. Self-serve and product-led motion makes paid a volume engine. A $350 CAC on a $99/month product fails. On a $2,000 ACV it may clear payback. Match the CPL to the ACV.
+**SMB:** low ACV, high volume, fast decisions. Payback must be fast (8–12 months per Optifai 2026) <sup><a href="#sources">[2]</a></sup> or the economics break. Self-serve and product-led motion makes paid a volume engine. A $350 CAC on a $99/month product fails. On a $2,000 ACV it may clear payback. Match the CPL to the ACV.
 
 **Enterprise:** high ACV, long sales cycle, buying committee of 6–10. Paid generates meetings and pipeline, not closed-won on a single touch. Payback stretches to 18–24 months because the deal is large. Budget for a long tail between click and close, and measure paid on pipeline created and SQL cost, not immediate payback. Programmatic and LinkedIn, not just search, matter here because you are warming a committee, not catching a single searcher.
 
@@ -367,7 +367,7 @@ Paid does not replace compounding channels. It amplifies them.
 - **Outbound ([outbound](./outbound))** enters at MOFU and targets accounts with intent. Paid search catches the same accounts at the moment they search. Run both with coordinated account lists and compare pipeline quality per dollar.
 - **Inbound ([inbound](./inbound))** compounds from SEO and content. Paid accelerates the same funnel with faster top-of-funnel volume, and paid brand campaigns lift branded search that inbound converts.
 - **Product-led ([product-led](./product-led))** converts free users to paid. Paid drives trial starts, and the [conversion benchmarks](/docs/data/conversion-rate-benchmarks) put trial-to-paid at 8–20% typical. Paid works here only if onboarding converts.
-- **Partners and referrals** deliver the lowest CAC at $150 (Optifai, N=939) [3]. Paid is the throttle you pull when partner supply saturates.
+- **Partners and referrals** deliver the lowest CAC at $150 (Optifai, N=939) <sup><a href="#sources">[3]</a></sup>. Paid is the throttle you pull when partner supply saturates.
 
 Paid should fund growth, never become the growth itself. The engine underneath is compounding. If there is no compounding channel, paid is borrowing tomorrow's revenue today.
 

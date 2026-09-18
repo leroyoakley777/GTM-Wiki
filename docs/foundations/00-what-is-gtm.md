@@ -26,7 +26,7 @@ missing.
 
 Forrester’s [2024 State of GTM report](https://www.forrester.com/) reports that
 76 percent of organizations have reinvented their GTM approach, and that 70
-percent of the B2B buyer journey is self-serve [136]. A go-to-market strategy reduces risk by validating demand,
+percent of the B2B buyer journey is self-serve <sup><a href="#sources">[136]</a></sup>. A go-to-market strategy reduces risk by validating demand,
 testing messaging, and setting clear success metrics before a full-scale
 launch. The cost of skipping that step appears as wasted ad spend, stalled
 pipeline, and churned first customers.
@@ -61,7 +61,7 @@ stage and motion, then extend it with the ten elements below.
 
 Every GTM strategy must answer ten questions. This list adapts the eight GTM
 Operating System pillars from GTM Partners into a working checklist teams
-can ship against [184].
+can ship against <sup><a href="#sources">[184]</a></sup>.
 
 1. Market sizing (TAM, SAM, SOM, PAM). Tier your opportunity so energy
    flows to the most realistic and valuable slice.
@@ -118,11 +118,11 @@ gaps that compound later.
 1. Define the ICP from at least 20 customer conversations. Do not guess.
    Talk to customers and document the firmographics, technographics, pain
    points that mark your best-fit accounts. TK Kader’s ICP framework uses
-   firmographics, triggers, and macro trends as its core fields [69].
+   firmographics, triggers, and macro trends as its core fields <sup><a href="#sources">[69]</a></sup>.
 2. Build positioning anchored in pain points, not features. The positioning
    statement must answer a clear question: for the ICP, who faces a specific
    pain, the product is a category that delivers a benefit. Unlike the
-   alternative, the product wins because of a defensible difference [265].
+   alternative, the product wins because of a defensible difference <sup><a href="#sources">[265]</a></sup>.
 3. Choose the GTM motion. Product-led, sales-led, channel, or
    community-led. The motion dictates org structure, hiring, metrics, and
    cadence. See [Channel Selection](/docs/foundations/gtm-channels-bullseye).

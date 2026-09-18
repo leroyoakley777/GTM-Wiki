@@ -21,11 +21,11 @@ Measure the run against the [Outbound Response Rate Benchmarks](/docs/data/outbo
 
 ## Augment, do not replace
 
-The data is consistent across every source. Hybrid human-in-the-loop teams produce **2.8x more pipeline** than teams attempting full replacement of their SDRs [1]. Autonomous AI SDR tools churn at **50–70% annually**, roughly double the turnover of the human reps they replace [2]. Autonomous agents convert meetings to qualified opportunities at **15% versus 25% for human SDRs**, a 40% gap driven by weak objection handling, shallow relationship building, and degraded judgment at scale [4].
+The data is consistent across every source. Hybrid human-in-the-loop teams produce **2.8x more pipeline** than teams attempting full replacement of their SDRs <sup><a href="#sources">[1]</a></sup>. Autonomous AI SDR tools churn at **50–70% annually**, roughly double the turnover of the human reps they replace <sup><a href="#sources">[2]</a></sup>. Autonomous agents convert meetings to qualified opportunities at **15% versus 25% for human SDRs**, a 40% gap driven by weak objection handling, shallow relationship building, and degraded judgment at scale <sup><a href="#sources">[4]</a></sup>.
 
 Read that third number twice. The agent that books the meeting is not the agent that wins it. The use removes the thinking bottleneck **between** the gate steps. A human keeps judgment on what goes out and on what a prospect says back.
 
-Gartner reaches the same verdict from the top down. By 2028 AI agents will outnumber sellers 10x, yet fewer than 40% of sellers will report the agents improved their productivity, and buyers will cancel over 40% of agentic AI projects by the end of 2027 [1]. The tools that survive lift the human. They do not replace the human.
+Gartner reaches the same verdict from the top down. By 2028 AI agents will outnumber sellers 10x, yet fewer than 40% of sellers will report the agents improved their productivity, and buyers will cancel over 40% of agentic AI projects by the end of 2027 <sup><a href="#sources">[1]</a></sup>. The tools that survive lift the human. They do not replace the human.
 
 **Acceptance gate:** you can state the augment-don't-replace rule as a design decision, not a slogan. If your plan is to buy one autonomous AI SDR and watch it book, stop and re-read [Agentic Outbound](/docs/agentic/agentic-outbound) before building anything.
 
@@ -45,7 +45,7 @@ The layer stack the flow runs on is the [Agentic Stack](/docs/agentic/agentic-st
 
 ## Architecture: the layer stack the flow runs on
 
-Five execution layers. Layers 1–3 are preparation, layer 4 is delivery, layer 5 is the loop that keeps learning [3].
+Five execution layers. Layers 1–3 are preparation, layer 4 is delivery, layer 5 is the loop that keeps learning <sup><a href="#sources">[3]</a></sup>.
 
 | Layer | What the agent does | Human checkpoint |
 |---|---|---|
@@ -57,7 +57,7 @@ Five execution layers. Layers 1–3 are preparation, layer 4 is delivery, layer 
 
 Each layer passes structured output to the next. Data emits a row with a company, an ICP-fit score, a reason-to-reach, a verified email, and a decision-maker contact. Research enriches that row with a brief. Compose writes from the brief plus tone rules. Orchestrate sends on cadence. Triage routes every reply and alerts a human.
 
-**If the brief is thin, the message is thin.** A thin research layer poisons everything downstream. The whole use is only as good as the layer that feeds it [5].
+**If the brief is thin, the message is thin.** A thin research layer poisons everything downstream. The whole use is only as good as the layer that feeds it <sup><a href="#sources">[5]</a></sup>.
 
 ---
 
@@ -79,27 +79,27 @@ Once the message is proven, the use runs each layer. This section is the runnabl
 
 The rule "a 500-row list that matches the ICP beats a 50,000-row spray" does not change. What changes is how fast you get to the good 500. An agent sources, dedupes, and enriches from the data layer in hours instead of the days a human spends searching row by row.
 
-Modern agents monitor **hundreds of live buyer signals** (job changes, funding rounds, hiring surges, tech-stack changes, competitive displacement) and assemble a per-prospect research brief a human would spend 15–30 minutes building by hand [6]. That brief is what makes the personalization genuine, not templated.
+Modern agents monitor **hundreds of live buyer signals** (job changes, funding rounds, hiring surges, tech-stack changes, competitive displacement) and assemble a per-prospect research brief a human would spend 15–30 minutes building by hand <sup><a href="#sources">[6]</a></sup>. That brief is what makes the personalization genuine, not templated.
 
 The gate stays absolute. Every row needs a first name, a verified email, and a one-line reason-to-reach. **No reason, no row.** The agent may *propose* rows. You still sign off on the final list before anything is sent. The 20% "perfect fit" tier still gets the deepest research.
 
-Signal-driven outbound is the single biggest lever on reply rate. Signal-triggered outreach (leadership changes, funding rounds, hiring surges, tech adoption) reaches **14–25% reply rates**, against a **3.43% cold-email industry average** [7]. The use is the natural home for this: the data layer watches for the signal, and the moment it fires, research composes a brief around a concrete current event in the account.
+Signal-driven outbound is the single biggest lever on reply rate. Signal-triggered outreach (leadership changes, funding rounds, hiring surges, tech adoption) reaches **14–25% reply rates**, against a **3.43% cold-email industry average** <sup><a href="#sources">[7]</a></sup>. The use is the natural home for this: the data layer watches for the signal, and the moment it fires, research composes a brief around a concrete current event in the account.
 
 **Acceptance gate for 2.1:** every row on the final list has a first name, a verified email, a one-line reason-to-reach grounded in a live signal, and your score. Cut any row that lacks a reason. A 500-row list with 300 rows lacking a reason is a 300-row list plus 200 spray rows.
 
 ### 2.2 Personalization at scale
 
-The sequence structure stays: Email 1 (reason-to-reach plus one observation), Email 2 (proof or resource), Email 3 (different angle), breakup. Keep each email in the **50–125 word** range: that length earns roughly **50% higher reply rates** than longer formats [8]. One ask per email. A CTA that names the specific issue ("open to a 15-minute chat next week about [specific issue]") beats generic "let's talk" [9].
+The sequence structure stays: Email 1 (reason-to-reach plus one observation), Email 2 (proof or resource), Email 3 (different angle), breakup. Keep each email in the **50–125 word** range: that length earns roughly **50% higher reply rates** than longer formats <sup><a href="#sources">[8]</a></sup>. One ask per email. A CTA that names the specific issue ("open to a 15-minute chat next week about [specific issue]") beats generic "let's talk" <sup><a href="#sources">[9]</a></sup>.
 
 What the compose layer adds:
 
 - **Variant generation.** Draft five versions of each email from the brief. You pick the voice. The use learns your pick.
-- **Personalization at scale.** The research brief fills the specific line ("I saw [company] announced [trigger]") without you writing it 500 times. This is what lifts reply rates from the 3–5% single-channel baseline toward 15–18% [10]. Signal-based personalization, a trigger event plus a relevant value prop, reaches **15–25% reply rates** [11].
-- **Tone control.** You paste three emails you love. The compose layer matches that voice. Your voice, not generic AI copy. Every approval trains the model toward your style over time [6].
+- **Personalization at scale.** The research brief fills the specific line ("I saw [company] announced [trigger]") without you writing it 500 times. This is what lifts reply rates from the 3–5% single-channel baseline toward 15–18% <sup><a href="#sources">[10]</a></sup>. Signal-based personalization, a trigger event plus a relevant value prop, reaches **15–25% reply rates** <sup><a href="#sources">[11]</a></sup>.
+- **Tone control.** You paste three emails you love. The compose layer matches that voice. Your voice, not generic AI copy. Every approval trains the model toward your style over time <sup><a href="#sources">[6]</a></sup>.
 
-The opportunity is concentrated. Only **5% of senders personalize every email** [12], and the senders who do see **2–3x better results** [13]. An agent is the only practical way to join that 5% at scale. That is the whole opportunity.
+The opportunity is concentrated. Only **5% of senders personalize every email** <sup><a href="#sources">[12]</a></sup>, and the senders who do see **2–3x better results** <sup><a href="#sources">[13]</a></sup>. An agent is the only practical way to join that 5% at scale. That is the whole opportunity.
 
-Advanced personalization (specific, signal-driven references) lifts replies to **18% versus about 9% for generic templates** [14].
+Advanced personalization (specific, signal-driven references) lifts replies to **18% versus about 9% for generic templates** <sup><a href="#sources">[14]</a></sup>.
 
 **Acceptance gate for 2.2:** brief coverage is above 90% of sends, and a human approved the pattern before it sent at scale. If brief coverage drops below 90%, the "specific" lines are placeholders, the personalization is fake, and prospects can smell it.
 
@@ -117,13 +117,13 @@ Delivery is the plumbing, and the plumbing is where campaigns quietly die. The o
 | Bounces + unsubscribes | Removed instantly and automatically | ISP trust and legal compliance |
 | Domain rotation | At scale | Spread volume, isolate failures |
 
-**The hard cap does not move just because an agent makes sending easy.** Keep send volume at **25–50 emails per day per domain** during a controlled launch, scaling 10–20% per week while watching deliverability [1]. A fresh domain you burn in a week because "the AI makes it easy" is a domain you lose forever.
+**The hard cap does not move just because an agent makes sending easy.** Keep send volume at **25–50 emails per day per domain** during a controlled launch, scaling 10–20% per week while watching deliverability <sup><a href="#sources">[1]</a></sup>. A fresh domain you burn in a week because "the AI makes it easy" is a domain you lose forever.
 
-**The delivery gate:** if delivery rate dips below 97%, the use pauses (not slows, pauses) until the cause is found [3].
+**The delivery gate:** if delivery rate dips below 97%, the use pauses (not slows, pauses) until the cause is found <sup><a href="#sources">[3]</a></sup>.
 
-The sender model matters as much as the records. On shared sending infrastructure your volume poisons your reputation. One documented customer ran 30,000 emails a month on shared infrastructure, watched reply rates fall from 6% to under 2% over six weeks, and recovered to a stable level in two weeks after moving to dedicated infrastructure [15]. Deliverability is part of the architecture, not a vendor detail.
+The sender model matters as much as the records. On shared sending infrastructure your volume poisons your reputation. One documented customer ran 30,000 emails a month on shared infrastructure, watched reply rates fall from 6% to under 2% over six weeks, and recovered to a stable level in two weeks after moving to dedicated infrastructure <sup><a href="#sources">[15]</a></sup>. Deliverability is part of the architecture, not a vendor detail.
 
-Compliance never delegates. CAN-SPAM, GDPR, and CCPA require opt-outs honored instantly, a sender identified, and a physical address present. An agent does not get a pass on any of them [3].
+Compliance never delegates. CAN-SPAM, GDPR, and CCPA require opt-outs honored instantly, a sender identified, and a physical address present. An agent does not get a pass on any of them <sup><a href="#sources">[3]</a></sup>.
 
 **Acceptance gate for 2.3:** the domain is dedicated and warmed 2+ weeks, SPF/DKIM/DMARC pass, the send cap is set, delivery holds above 97%, and unsubscribe handling is automatic. Send nothing until all are true.
 
@@ -131,7 +131,7 @@ Compliance never delegates. CAN-SPAM, GDPR, and CCPA require opt-outs honored in
 
 This is the agentic win that pays for the whole use. The bottleneck in outbound has never been sending. It is the thinking per row and the speed of reply handling.
 
-Modern reply agents classify intent and draft a response **in under 5 minutes** [10], then route by intent:
+Modern reply agents classify intent and draft a response **in under 5 minutes** <sup><a href="#sources">[10]</a></sup>, then route by intent:
 
 | Incoming reply | Agent action | Human action |
 |---|---|---|
@@ -140,7 +140,7 @@ Modern reply agents classify intent and draft a response **in under 5 minutes** 
 | "Not right now" | Tag nurture, schedule a follow-up | None. Automated, respects unsubscribe |
 | "Unsubscribe" | Remove instantly, honor it | None. Never re-contact |
 
-**The metric that matters is time-to-first-response.** Manual teams die on this. A hot reply (interested, budget, clear need) must be handled in **under 15 minutes**. The gap between a human checking the inbox twice a day and an agent triaging in minutes is the single biggest lever most teams leave on the table [11].
+**The metric that matters is time-to-first-response.** Manual teams die on this. A hot reply (interested, budget, clear need) must be handled in **under 15 minutes**. The gap between a human checking the inbox twice a day and an agent triaging in minutes is the single biggest lever most teams leave on the table <sup><a href="#sources">[11]</a></sup>.
 
 Every reply routes to a campaign and a message variant. Every hot reply has a human in the path before it sends. The 15-minute SLA becomes automatic because the agent drafts instantly and the human approves.
 
@@ -150,7 +150,7 @@ Every reply routes to a campaign and a message variant. Every hot reply has a hu
 
 ## Stage 3: Guard the quality bar (use-health metrics)
 
-The funnel metrics from [Outbound from Zero](/docs/playbooks/outbound-from-zero) remain the scoreboard, and they hold with an agent in the loop. AI-personalized campaigns typically land **3–8% reply rates**, with 5% as the baseline to beat [11].
+The funnel metrics from [Outbound from Zero](/docs/playbooks/outbound-from-zero) remain the scoreboard, and they hold with an agent in the loop. AI-personalized campaigns typically land **3–8% reply rates**, with 5% as the baseline to beat <sup><a href="#sources">[11]</a></sup>.
 
 Add the use-health metrics on top:
 
@@ -164,9 +164,9 @@ Add the use-health metrics on top:
 
 **Acceptance gate for Stage 3:** triage accuracy above 95%, override rate under 5%, hot replies answered inside 15 minutes, and brief coverage above 90%. If any slips, the loop is scaling garbage. Shrink it. The answer to a slipping gate is never more agents.
 
-Track meetings booked and pipeline generated, **not emails sent**. Emails sent is a vanity metric. Meetings are revenue [1].
+Track meetings booked and pipeline generated, **not emails sent**. Emails sent is a vanity metric. Meetings are revenue <sup><a href="#sources">[1]</a></sup>.
 
-**Cost per meeting booked** is the killer metric, before and after the use. If agents do not improve it, they are a tax [3].
+**Cost per meeting booked** is the killer metric, before and after the use. If agents do not improve it, they are a tax <sup><a href="#sources">[3]</a></sup>.
 
 ---
 
@@ -243,11 +243,11 @@ A representative build, step by step, so you can see the whole thing hold togeth
 
 **Company.** A $4M ARR SaaS in construction-project management, no outbound engine. **ICP.** Construction GCs and subs with 20–200 employees tracking projects in spreadsheets. **ACV.** ~$12k. **Team.** One SDR plus an agent use.
 
-1. **Prove the message.** Sent to 100 perfect-fit rows by hand, a four-email sequence under 90 words each. At 300+ sends the reply rate was **4.1%**, above the **3.43%** cold-email average [16]. Delivery held at 98%, above the 97% gate. Positive-reply rate ran about 35%, above the 30% bar [17]. The winning variant was kept.
+1. **Prove the message.** Sent to 100 perfect-fit rows by hand, a four-email sequence under 90 words each. At 300+ sends the reply rate was **4.1%**, above the **3.43%** cold-email average <sup><a href="#sources">[16]</a></sup>. Delivery held at 98%, above the 97% gate. Positive-reply rate ran about 35%, above the 30% bar <sup><a href="#sources">[17]</a></sup>. The winning variant was kept.
 2. **Automate the list.** The data layer sourced and enriched rows for the remaining 400 prospects, monitoring hiring surges and funding rounds. Each row got a reason-to-reach. The SDR scored fit and cut rows that lacked a signal. Brief coverage ran above 90%.
 3. **Automate compose and orchestration.** The compose layer drafted per-row emails from the research briefs in the approved voice. A dedicated sending domain with SPF/DKIM/DMARC passing, two weeks of warmup, capped at 30 sends/day to start.
 4. **Run triage.** Hot replies surfaced within 5 minutes and were approved and answered inside the 15-minute window. Price questions were answered from an approved FAQ. Unsubscribes were removed instantly. Triage accuracy ran above 95%, override rate under 5%.
-5. **Measure.** Meetings booked landed at **3–4 per 1,000 sends**, inside the healthy 3–10 range [18]. The funnel held: delivery above 97%, reply rate above the single-channel average, positive-reply rate above 30%.
+5. **Measure.** Meetings booked landed at **3–4 per 1,000 sends**, inside the healthy 3–10 range <sup><a href="#sources">[18]</a></sup>. The funnel held: delivery above 97%, reply rate above the single-channel average, positive-reply rate above 30%.
 6. **Handoff.** The meeting standard was written ("a GC with the problem and budget, scheduling a demo"). Every meeting traced to a campaign. The 2-week debrief fed wins back into a new look-alike list.
 
 **Result within ~8 weeks.** Roughly 15–20 qualified meetings from ~2,000 rows in motion, at a fraction of the manual headcount. The manual SDR cost $139,120 in 2026, and the agent use covered that salary with meetings still to spare. Nothing burned, nothing scaled before it was proven, and the domain stayed healthy.
@@ -256,15 +256,15 @@ A representative build, step by step, so you can see the whole thing hold togeth
 
 ## Failure modes (agentic edition)
 
-- **Scaling a broken message.** The use sends 10x faster, so a weak offer dies 10x faster. Prove the message first. This is the number one killer, and it is why 50–70% of AI SDR deployments churn [2].
-- **Buying "replace your SDRs."** Autonomous agents degrade quality at scale, and hybrid teams out-produce them 2.8x on pipeline [1]. Augment, do not replace.
+- **Scaling a broken message.** The use sends 10x faster, so a weak offer dies 10x faster. Prove the message first. This is the number one killer, and it is why 50–70% of AI SDR deployments churn <sup><a href="#sources">[2]</a></sup>.
+- **Buying "replace your SDRs."** Autonomous agents degrade quality at scale, and hybrid teams out-produce them 2.8x on pipeline <sup><a href="#sources">[1]</a></sup>. Augment, do not replace.
 - **Fake personalization.** Brief coverage under 90% means the "specific" lines are placeholders. Prospects can smell it. If you cannot beat a 5% reply rate on personalization, you are sending generic mail and paying an agent to say so.
 - **No triage owner.** Replies hit an inbox with no SLA and the loop dies quietly. The 15-minute response window is the whole point.
 - **Trusting the approval slide too early.** Skipping human approval on a "proven pattern" before hundreds of replies prove it. Slide once, the model learns a bad habit, and it scales.
 - **Domain hygiene skipped.** Agents make it easy to send more, faster, and burn a domain in days instead of weeks. 25–50 sends/day per domain, ramp 10–20% a week, watch delivery above 97%.
 - **Measuring sends.** Pipeline and meetings are the score. Emails sent is vanity.
-- **Ignoring the sender model.** Volume on shared infrastructure poisons the domain. One customer watched reply rates fall from 6% to under 2% over six weeks before moving to dedicated infrastructure [15].
-- **Chasing full autonomy.** Hybrid setups run **8–15% reply rates versus 1–3% for fully autonomous systems at scale** [15]. Chase autonomy in the prep layers: data, research, compose. Keep a human on anything that goes to a named person and on anything a prospect says back.
+- **Ignoring the sender model.** Volume on shared infrastructure poisons the domain. One customer watched reply rates fall from 6% to under 2% over six weeks before moving to dedicated infrastructure <sup><a href="#sources">[15]</a></sup>.
+- **Chasing full autonomy.** Hybrid setups run **8–15% reply rates versus 1–3% for fully autonomous systems at scale** <sup><a href="#sources">[15]</a></sup>. Chase autonomy in the prep layers: data, research, compose. Keep a human on anything that goes to a named person and on anything a prospect says back.
 
 ---
 
@@ -291,7 +291,7 @@ Every branch that routes sideways is a gate failing. The flow does not continue 
 
 ## Autonomy placement per workflow
 
-From [Agent vs Human Workflows](/docs/agentic/agent-vs-human-workflows), based on the four-stage autonomy ladder: Draft, Recommend, Execute with approval, Autonomous [19].
+From [Agent vs Human Workflows](/docs/agentic/agent-vs-human-workflows), based on the four-stage autonomy ladder: Draft, Recommend, Execute with approval, Autonomous <sup><a href="#sources">[19]</a></sup>.
 
 | Workflow | Autonomy stage | Guardrail |
 |---|---|---|

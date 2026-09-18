@@ -16,19 +16,19 @@ Orchestration is the wiring that decides which model does which job, with which 
 | Job | Model may | Human must |
 |-----|-----------|------------|
 | Draft reason-to-reach | Propose from a named source | Reject unsourced lines |
-| Fill Tier 2 template | Yes, under 125 words [327] | Spot-check a sample |
+| Fill Tier 2 template | Yes, under 125 words <sup><a href="#sources">[327]</a></sup> | Spot-check a sample |
 | Tier 1 first line | Draft only | Approve before send |
 | Reply to a human | Draft | Send |
 | Pause a hot domain | Recommend | Own the pause |
 | Opt-out | Never argue | Honor same day |
 
-Caps still apply: 25-30 cold sends per mailbox per day, warmup intact [331][333]. A faster drafter does not raise the mailbox cap.
+Caps still apply: 25-30 cold sends per mailbox per day, warmup intact <sup><a href="#sources">[331]</a></sup><sup><a href="#sources">[333]</a></sup>. A faster drafter does not raise the mailbox cap.
 
 ## Harness rules
 
 1. **Context is retrieved, not remembered.** Pull the account, the signal, the last touch.
 2. **Claims come from a allow-list.** No invented customer names.
-3. **Cost and latency have budgets.** A 40-second draft that misses the 15-minute reply window is a failed tool [17].
+3. **Cost and latency have budgets.** A 40-second draft that misses the 15-minute reply window is a failed tool <sup><a href="#sources">[17]</a></sup>.
 4. **Logs are inspectable.** You cannot coach a black box.
 
 ## How this differs by stage
@@ -40,9 +40,9 @@ Caps still apply: 25-30 cold sends per mailbox per day, warmup intact [331][333]
 ## Failure modes
 
 - **Autonomous send.** The fastest way to burn a domain and a brand.
-- **Invented signals.** Personalization that is false earns worse than generic [329].
+- **Invented signals.** Personalization that is false earns worse than generic <sup><a href="#sources">[329]</a></sup>.
 - **One model for every job.** Classification and copy want different constraints.
-- **No kill switch.** When complaints approach 0.3%, the harness stops the send [17].
+- **No kill switch.** When complaints approach 0.3%, the harness stops the send <sup><a href="#sources">[17]</a></sup>.
 
 ## Agentic SOP
 

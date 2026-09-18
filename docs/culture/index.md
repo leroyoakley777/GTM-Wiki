@@ -17,10 +17,10 @@ This page is the operator view. For the seat that owns the system, see [Heads of
 
 Culture decides four things that no CRM field can save:
 
-- **What gets inspected.** Dashboards or sample work. Revenue Builders puts it plainly: deals are won on systems and people, not dashboard inspection [336].
-- **What gets celebrated.** Meetings booked, or meetings an AE will work. Outbound that scores sends trains the desk to spray [341].
-- **What gets told upward.** A forecast built from real stages, or a forecast built from hope. Quota attainment across B2B sat at 27-30% in 2024 [15]. A culture that punishes bad news produces a prettier number and a worse quarter.
-- **Who gets coached.** One skill at a time on real work, or a pep talk after missed quota [262].
+- **What gets inspected.** Dashboards or sample work. Revenue Builders puts it plainly: deals are won on systems and people, not dashboard inspection <sup><a href="#sources">[336]</a></sup>.
+- **What gets celebrated.** Meetings booked, or meetings an AE will work. Outbound that scores sends trains the desk to spray <sup><a href="#sources">[341]</a></sup>.
+- **What gets told upward.** A forecast built from real stages, or a forecast built from hope. Quota attainment across B2B sat at 27-30% in 2024 <sup><a href="#sources">[15]</a></sup>. A culture that punishes bad news produces a prettier number and a worse quarter.
+- **Who gets coached.** One skill at a time on real work, or a pep talk after missed quota <sup><a href="#sources">[262]</a></sup>.
 
 If those four drift, tools will not pull them back.
 
@@ -30,24 +30,24 @@ Write the habits into the week, not the handbook.
 
 | Cadence | Habit | Why it exists |
 |---------|-------|---------------|
-| Daily | Same-day handling of positive replies | Speed is a culture choice [17] |
-| Weekly | Review 10 pieces of real work (emails, calls, demos) | Inspection beats slogans [336] |
-| Weekly | One skill, one rep, one standard | Multi-skill coaching fails [262] |
+| Daily | Same-day handling of positive replies | Speed is a culture choice <sup><a href="#sources">[17]</a></sup> |
+| Weekly | Review 10 pieces of real work (emails, calls, demos) | Inspection beats slogans <sup><a href="#sources">[336]</a></sup> |
+| Weekly | One skill, one rep, one standard | Multi-skill coaching fails <sup><a href="#sources">[262]</a></sup> |
 | Monthly | Recycle bad-fit pipeline in public | Quiet sandbagging dies in daylight |
-| Quarterly | Re-state ICP and disqualifiers | Firmographics go stale [317] |
+| Quarterly | Re-state ICP and disqualifiers | Firmographics go stale <sup><a href="#sources">[317]</a></sup> |
 
-Transformative leadership in the Revenue Builders framing develops reps, winning builds pride, and pride is what people join [336]. That loop does not start with an offsite. It starts with a manager who will sit on a call recording on a Tuesday.
+Transformative leadership in the Revenue Builders framing develops reps, winning builds pride, and pride is what people join <sup><a href="#sources">[336]</a></sup>. That loop does not start with an offsite. It starts with a manager who will sit on a call recording on a Tuesday.
 
 ## How culture differs by stage
 
 - **Seed.** The founder is the culture. If the founder inflates pipeline on the board slide, every later hire learns to do the same.
-- **First sales team.** Culture is the stand-up and the deal review. Hire for coachability and curiosity before polish [262].
+- **First sales team.** Culture is the stand-up and the deal review. Hire for coachability and curiosity before polish <sup><a href="#sources">[262]</a></sup>.
 - **Scale.** Culture is whether enablement, RevOps, and managers share one definition of a qualified opportunity. Split definitions are how two teams "hit number" and the company misses.
 
 ## Failure modes
 
-- **Activity as morality.** 150 emails a week at a 2.8% reply rate is a busy desk, not a good one [341].
-- **Kindness without standards.** A leader everyone likes and nobody respects will not hold a number [279].
+- **Activity as morality.** 150 emails a week at a 2.8% reply rate is a busy desk, not a good one <sup><a href="#sources">[341]</a></sup>.
+- **Kindness without standards.** A leader everyone likes and nobody respects will not hold a number <sup><a href="#sources">[279]</a></sup>.
 - **Hero culture.** One closer carries the book. The motion never becomes teachable, so it cannot hire.
 - **Silence after a miss.** If the only safe story is a good story, the forecast is fiction.
 

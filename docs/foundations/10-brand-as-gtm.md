@@ -17,7 +17,7 @@ The commercial job of brand is narrow and specific. Brand builds memory
 with the buyers who are not in the market today so they think of you first
 when they enter the market next month, next quarter, or next year. It does
 not sell to the person in your pipeline now. It sells to the person who
-will be in your pipeline later. [1]
+will be in your pipeline later. <sup><a href="#sources">[1]</a></sup>
 
 This page covers why brand compounds, the framework that turns it into a
 system, how to execute it without a big brand team, and the failure modes
@@ -32,7 +32,7 @@ they talk to a salesperson. It is the memory structure that connects what
 you do to the moments when a buyer needs it.
 
 A working definition from the operator's side: brand is what the 95% of
-your market who are not buying right now believe about you. [4]
+your market who are not buying right now believe about you. <sup><a href="#sources">[4]</a></sup>
 
 Three layers make up brand in a GTM context:
 
@@ -49,7 +49,7 @@ Three layers make up brand in a GTM context:
 Brand is not your positioning. Positioning decides the slot you claim in
 the buyer's mind. Brand is the work of installing and holding that slot.
 Positioning is strategy. Brand is the asset that makes the strategy
-perceptible. [5]
+perceptible. <sup><a href="#sources">[5]</a></sup>
 
 Brand is not messaging either. Messaging is what you say in a specific
 asset. Brand is the durable impression that survives any single asset. A
@@ -66,7 +66,7 @@ starts from zero awareness. That is the most expensive way to run GTM.
 
 The 95-5 rule is the foundation of the argument. Only about 5% of your
 B2B market is in-market at any moment. The other 95% are out of market:
-not looking, not comparing, not ready to buy. [4]
+not looking, not comparing, not ready to buy. <sup><a href="#sources">[4]</a></sup>
 
 If you only run performance marketing, you only reach the 5%. That is
 fine until the 5% is exhausted, which happens fast in a small market. The
@@ -77,7 +77,7 @@ Brand reaches the 95%. It builds memory so that when those buyers enter
 the market, your name is already in their consideration set. That is why
 brand and performance are complements, not rivals. Brand fills the barrel
 of awareness. Performance taps it. Skip brand and you try to sell from an
-empty barrel. [2]
+empty barrel. <sup><a href="#sources">[2]</a></sup>
 
 The commercial effects of a strong brand are measurable and compound:
 
@@ -94,14 +94,14 @@ The commercial effects of a strong brand are measurable and compound:
 The cost side is real too. BCG found that mature B2B brand marketing
 improves ROMI and reinforces the results of performance marketing. Yet
 nearly a quarter of firms spend under 20% of budget on brand. The market
-underweights the exact lever that makes every other lever work better. [3]
+underweights the exact lever that makes every other lever work better. <sup><a href="#sources">[3]</a></sup>
 
 ---
 
 ## Framework
 
 Brand as GTM runs on four connected decisions. Treat them as one system,
-not four projects. [3]
+not four projects. <sup><a href="#sources">[3]</a></sup>
 
 ### 1. Audience: who you build memory with
 
@@ -113,12 +113,12 @@ Define the segments by how revenue is created, not by org chart. For each
 Tier 1 segment, map the buying-group roles that influence the deal: the
 economic buyer, the champion, the technical evaluator, the procurement
 gatekeeper. Each role needs a distinct message and a distinct reason to
-remember you. [3]
+remember you. <sup><a href="#sources">[3]</a></sup>
 
 A practical discipline: a segment coverage target. Aim to have a
 contactable buying group mapped on more than 70% of your Tier 1 accounts
 within two quarters. If you cannot name the buying group, you cannot
-build brand with them. [3]
+build brand with them. <sup><a href="#sources">[3]</a></sup>
 
 ### 2. Promise: the one thing you stand for
 
@@ -130,7 +130,7 @@ memory when they think of you.
 A weak promise is generic and unverifiable: "We help you grow." A strong
 promise is specific and provable: "Make compliant, profitable growth
 predictable." The second ladders into proof: "Close audits 40% faster."
-[3]
+<sup><a href="#sources">[3]</a></sup>
 
 The promise is the spine. Every segment proposition and every product
 proof hangs off it. When the promise is clear, messaging has a center of
@@ -153,7 +153,7 @@ market. Three models dominate:
 Pick the architecture by business triggers, not preference: M&A, regional
 expansion, and portfolio complexity all push toward more distinct brands.
 The wrong architecture splits your memory budget across brands that
-compete for the same mind. [3]
+compete for the same mind. <sup><a href="#sources">[3]</a></sup>
 
 ### 4. Governance: who owns it and how it is measured
 
@@ -172,7 +172,7 @@ LTV / CAC = (ARPA x Gross Margin % x Average Tenure) / CAC
 ```
 
 After brand programs scale, a benchmark movement of plus 0.2 to 0.5 in
-LTV-to-CAC is a reasonable target. [3] Brand is not a soft expense when it
+LTV-to-CAC is a reasonable target. <sup><a href="#sources">[3]</a></sup> Brand is not a soft expense when it
 moves that ratio. It is a capital investment in the unit economics.
 
 ---
@@ -189,7 +189,7 @@ mandate, a renewal decision, a failed incumbent.
 This is the Category Entry Point work. Anchor brand to the real situations
 buyers already use to think about the category, not to an abstract
 position. Buyers do not think in category jargon. They think in moments.
-[1]
+<sup><a href="#sources">[1]</a></sup>
 
 ### Step 2: Pick distinctive assets
 
@@ -197,7 +197,7 @@ Choose a small set of visual and verbal assets that are unique to you and
 repeat them relentlessly: a color, a shape, a phrase, a format. Distinctive
 assets are what make memory form faster. The test is not "do we like
 this?" It is "could a buyer see this out of context and name the brand?"
-[1]
+<sup><a href="#sources">[1]</a></sup>
 
 Most teams change these assets constantly because internal audiences get
 bored. That is the fastest way to destroy the memory you are trying to
@@ -213,7 +213,7 @@ In practice: brand content (thought leadership, category education,
 positioning narratives) feeds the 95% who are out of market. Performance
 channels (search, retargeting, outbound) convert the 5% who are in market.
 The same buyer moves through both. Measure the handoff, not the two
-programs in isolation. [2]
+programs in isolation. <sup><a href="#sources">[2]</a></sup>
 
 ### Step 4: Measure brand like finance
 
@@ -222,13 +222,13 @@ survive a CFO:
 
 - **Brand lift.** Movement in aided awareness, consideration, and
   preference in priority segments. Set a target: plus 5 points of aided
-  awareness, plus 4 points of consideration, over a defined window. [3]
+  awareness, plus 4 points of consideration, over a defined window. <sup><a href="#sources">[3]</a></sup>
 - **Message resonance.** The share of the target audience who recall your
   promise unprompted. A plus 5 to 10 point lift in six to nine months is a
-  reasonable goal. [3]
+  reasonable goal. <sup><a href="#sources">[3]</a></sup>
 - **Cost and price effects.** Movement in CAC and price realization
   attributable to brand. The brand program is working when CAC falls and
-  willingness to pay rises for the same segment. [3]
+  willingness to pay rises for the same segment. <sup><a href="#sources">[3]</a></sup>
 
 ### Step 5: Assign the cadence
 
@@ -301,11 +301,11 @@ commercial effect.
 **Running brand and performance as rivals.** The brand team and the
 performance team with separate budgets and no handoff. Each makes the
 other worse when they are split. Brand fills the barrel. Performance taps
-it. They are one funnel. [2]
+it. They are one funnel. <sup><a href="#sources">[2]</a></sup>
 
 **Chasing only the 5%.** Pure performance marketing reaches only the
 buyers already in market. When the 5% is exhausted, pipeline dries up.
-Brand is what feeds the pipeline for the next quarter. [4]
+Brand is what feeds the pipeline for the next quarter. <sup><a href="#sources">[4]</a></sup>
 
 **Changing distinctive assets constantly.** Internal teams get bored and
 demand a refresh. Every change resets the memory you are building. The
@@ -313,20 +313,20 @@ repeat of a distinctive asset is the asset.
 
 **Generic, unverifiable promises.** "We help you grow" sounds good and
 proves nothing. A promise that cannot be verified is decoration, not
-strategy. Make it specific and provable. [3]
+strategy. Make it specific and provable. <sup><a href="#sources">[3]</a></sup>
 
 **Vanity metrics.** Impressions and likes with no line of sight to
 consideration or revenue. They feel like progress and prove nothing to the
-CFO. Measure lift, resonance, and cost effects. [3]
+CFO. Measure lift, resonance, and cost effects. <sup><a href="#sources">[3]</a></sup>
 
 **No owner and no cadence.** Brand with no named owner and no quarterly
 review drifts into a service team that ships campaigns on request. It
-needs a revenue owner and a finance partner. [3]
+needs a revenue owner and a finance partner. <sup><a href="#sources">[3]</a></sup>
 
 **Copying consumer-brand ubiquity.** Coke and Apple run brand-led campaigns
 because everyone already knows them. A B2B company with low awareness that
 copies that play wastes budget. B2B brand must be tied to real buying
-situations and measured against demand capture. [2]
+situations and measured against demand capture. <sup><a href="#sources">[2]</a></sup>
 
 ---
 
@@ -334,20 +334,20 @@ situations and measured against demand capture. [2]
 
 - **Fail:** Treating brand as a one-time launch asset. The model breaks
   when the team ships a brand identity and moves on, because memory
-  decays without reinforcement. [1]
+  decays without reinforcement. <sup><a href="#sources">[1]</a></sup>
 - **When it breaks:** A growth-stage team that split brand from performance
   sees acquisition cost rise exactly when it should be falling, because
-  the awareness barrel drained and the 5% ran out. [2][4]
+  the awareness barrel drained and the 5% ran out. <sup><a href="#sources">[2]</a></sup><sup><a href="#sources">[4]</a></sup>
 - **Pitfall:** Measuring the brand program by creative output instead of
   by brand lift and cost effect. Output tells you marketing was busy.
-  Lift tells you buyers changed. [3]
+  Lift tells you buyers changed. <sup><a href="#sources">[3]</a></sup>
 - **Risk:** Over-segmenting brand into so many messages that no segment
   receives enough repetition to build memory. Fragmentation beats
-  resonance. [3]
+  resonance. <sup><a href="#sources">[3]</a></sup>
 - **Objection:** "We cannot afford brand." The 95-5 rule is the answer.
   You cannot afford to reach only the 5%. Brand is the cheapest way to
   buy future pipeline, and the underinvestment data shows most teams
-  already spend too little. [3][4]
+  already spend too little. <sup><a href="#sources">[3]</a></sup><sup><a href="#sources">[4]</a></sup>
 
 ---
 

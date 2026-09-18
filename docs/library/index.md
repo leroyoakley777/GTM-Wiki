@@ -26,7 +26,7 @@ Each entry follows the same rule: **the book in one line, then the ideas that ea
 
 ## Example Artifact
 
-The one-line filter this library applies to every book [1]:
+The one-line filter this library applies to every book <sup><a href="#sources">[1]</a></sup>:
 
 ```
 Does the book change a decision I make this week?

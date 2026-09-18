@@ -43,7 +43,7 @@ baselines to beat, not targets to hit.
 | B2B reps hitting quota, 2024 | 27–30% | Belkins via Autobound |
 
 Two rows carry the load. The single-channel cold email reply rate sits at
-3.43% on average (Woodpecker, 2026) [1], with 5–10% called good and 10%+ called
+3.43% on average (Woodpecker, 2026) <sup><a href="#sources">[1]</a></sup>, with 5–10% called good and 10%+ called
 excellent. Multi-channel sequences from top teams run 15–25%
 (Autobound, 100+ SaaS teams). That spread is the whole argument for
 reading outbound as a channel mix rather than a cold-email volume play.
@@ -89,7 +89,7 @@ reply → meeting → opportunity → deal.
 ### Single-channel cold email is sinking
 
 Blended B2B cold email reply rate sits at 5.8%, down from 6.8% in 2023
-(SalesHive, 2025) [3]. Inbox saturation keeps pushing it lower. A 3–5% reply
+(SalesHive, 2025) <sup><a href="#sources">[3]</a></sup>. Inbox saturation keeps pushing it lower. A 3–5% reply
 rate on cold email is the normal baseline, not a red flag on your copy.
 
 This is why optimizing a cold-email subject line inside a saturated inbox
@@ -110,7 +110,7 @@ built-in advantage that copy alone cannot buy.
 ### Read the trailing signal
 
 Only 27–30% of B2B reps hit quota in 2024, down from historical norms
-(Belkins via Autobound) [8]. Most sellers run average work on a struggling
+(Belkins via Autobound) <sup><a href="#sources">[8]</a></sup>. Most sellers run average work on a struggling
 single channel. Treat outbound as one part of a mixed motion, not the whole
 engine.
 
@@ -276,13 +276,13 @@ The reply-rate benchmarks on this page do not change by stage. What changes is t
 | Mid-market (Series C+) | Full multi-touch sequence | Domain reputation | Delivery holds at 97%+ (Instantly, 2026); meetings scale at 3–10 per 1,000 sends |
 | Enterprise | Signal-triggered, full orchestration | Attribution discipline | 27–30% rep quota attainment (Belkins via Autobound, 2024) with multi-touch attribution set |
 
-A seed founder sends 30 cold emails per day from a personal Gmail. The 3.43% average reply rate (Woodpecker, 2026) [1] is the ceiling, because the founder reads every reply and cannot scale the channel faster than response time. The fix is not a higher reply rate, it is a second channel.
+A seed founder sends 30 cold emails per day from a personal Gmail. The 3.43% average reply rate (Woodpecker, 2026) <sup><a href="#sources">[1]</a></sup> is the ceiling, because the founder reads every reply and cannot scale the channel faster than response time. The fix is not a higher reply rate, it is a second channel.
 
 An early team adds LinkedIn or call touches to the sequence. The documented lift from multi-channel is 15–25% reply rate (Autobound, 100+ SaaS teams), several times the single-channel baseline. The bottleneck shifts from "can we get replies" to "do we have enough channel variety."
 
-A mid-market team sends thousands of emails per day. Now the 97%+ delivery gate (Instantly, 2026) [4] becomes urgent: a burned domain wipes out the whole funnel. Warmup, sender reputation, and 25–50 sends/day per domain cap matter. The meetings-per-1,000-sends metric (3–10 healthy range, Instantly 2025) replaces reply rate as the operational dial.
+A mid-market team sends thousands of emails per day. Now the 97%+ delivery gate (Instantly, 2026) <sup><a href="#sources">[4]</a></sup> becomes urgent: a burned domain wipes out the whole funnel. Warmup, sender reputation, and 25–50 sends/day per domain cap matter. The meetings-per-1,000-sends metric (3–10 healthy range, Instantly 2025) replaces reply rate as the operational dial.
 
-An enterprise team triggers on signals (job changes, funding, website visits) rather than cold spray. The reply benchmark drops as the list tightens, but meetings per 1,000 sends stay inside the healthy band because each row carries a reason-to-reach. At this scale only 27–30% of reps hit quota (Belkins via Autobound, 2024) [8]: the gate is not reply rate, it is whether the motion produces enough pipeline per rep to clear quota.
+An enterprise team triggers on signals (job changes, funding, website visits) rather than cold spray. The reply benchmark drops as the list tightens, but meetings per 1,000 sends stay inside the healthy band because each row carries a reason-to-reach. At this scale only 27–30% of reps hit quota (Belkins via Autobound, 2024) <sup><a href="#sources">[8]</a></sup>: the gate is not reply rate, it is whether the motion produces enough pipeline per rep to clear quota.
 
 The failure mode at every stage is the same mistake: running one more of the same channel instead of adding a distinct touch. A seed founder adding a second email sequence is not a growth play, it is a domain risk. An enterprise adding a seventh channel without attribution is noise, not motion. The right move at each stage is named in the success gate column above.
 

@@ -24,7 +24,7 @@ Run RevOps when:
 - Sales, marketing, and CS run on separate tools that do not talk to each other.
 - You need to know, at a given moment, what the pipeline covers and whether the forecast is credible.
 
-Do not run it as a rename of your CRM admin. RevOps is a business function that owns the numbers end to end, not a person who keeps the fields clean [1]. It only matters when it makes the revenue machine measurable.
+Do not run it as a rename of your CRM admin. RevOps is a business function that owns the numbers end to end, not a person who keeps the fields clean <sup><a href="#sources">[1]</a></sup>. It only matters when it makes the revenue machine measurable.
 
 ## Definition
 
@@ -32,9 +32,9 @@ RevOps is the repeatable process of building and running the data, tooling, and 
 
 ## Why it matters
 
-The numbers are the moat. RevOps is scarce relative to the problem it solves: it sits under 1% of total B2B software headcount, and a RevOps person supports a growing base of sellers over time [1]. Better lead quality and tooling drive up to 30% lower go-to-market cost and 10-20% higher sales productivity [2], and RevOps hiring demand grew over 300% in 18 months [2].
+The numbers are the moat. RevOps is scarce relative to the problem it solves: it sits under 1% of total B2B software headcount, and a RevOps person supports a growing base of sellers over time <sup><a href="#sources">[1]</a></sup>. Better lead quality and tooling drive up to 30% lower go-to-market cost and 10-20% higher sales productivity <sup><a href="#sources">[2]</a></sup>, and RevOps hiring demand grew over 300% in 18 months <sup><a href="#sources">[2]</a></sup>.
 
-The stakes of a weak spine are direct. Structured forecasting analysis is correlated with hitting quota, and teams that rely on manual judgment miss more often [3]. Coverage that is too thin leaves quota undefended, while a credible forecast gives the business a number it can plan around [4]. RevOps is the discipline that keeps the number honest.
+The stakes of a weak spine are direct. Structured forecasting analysis is correlated with hitting quota, and teams that rely on manual judgment miss more often <sup><a href="#sources">[3]</a></sup>. Coverage that is too thin leaves quota undefended, while a credible forecast gives the business a number it can plan around <sup><a href="#sources">[4]</a></sup>. RevOps is the discipline that keeps the number honest.
 
 ## Mechanics
 
@@ -44,7 +44,7 @@ Name who owns what across the revenue process, so the data is someone's job:
 
 - **The metric owner.** The person accountable for each stage of the funnel.
 - **The tooling owner.** The person who keeps the CRM, data, and integrations clean.
-- **The forecast owner.** The person who runs the pipeline review and owns the number [1].
+- **The forecast owner.** The person who runs the pipeline review and owns the number <sup><a href="#sources">[1]</a></sup>.
 
 Without owners, the spine has no steward and the data rots.
 
@@ -52,10 +52,10 @@ Without owners, the spine has no steward and the data rots.
 
 Define the metrics that run the business, each with one definition, and hold them consistent across teams:
 
-- **Pipeline coverage.** Open pipeline to quota. The healthy band is 3-5x, sized by win rate [4].
-- **Conversion rates.** The stage-to-stage rates: visitor to lead, MQL to SQL, SQL to opportunity, opportunity to closed-won [5].
+- **Pipeline coverage.** Open pipeline to quota. The healthy band is 3-5x, sized by win rate <sup><a href="#sources">[4]</a></sup>.
+- **Conversion rates.** The stage-to-stage rates: visitor to lead, MQL to SQL, SQL to opportunity, opportunity to closed-won <sup><a href="#sources">[5]</a></sup>.
 - **Velocity and cycle.** Time to move through stages and time to close.
-- **Unit economics.** CAC, LTV, and the LTV:CAC floor [6].
+- **Unit economics.** CAC, LTV, and the LTV:CAC floor <sup><a href="#sources">[6]</a></sup>.
 
 One definition each. A metric that means different things to sales and marketing is not a metric; it is two arguments.
 
@@ -73,10 +73,10 @@ Tooling is the plumbing. It does not fix a bad metric definition, but it lets a 
 
 A forecast is a claim with an arithmetic base. Run it so it stays credible:
 
-- **Coverage first.** Is the pipeline sufficient to hit the number, sized by win rate [4]?
-- **Stage-weighted.** Weight each deal by its historical close rate at its stage, not by gut [5].
+- **Coverage first.** Is the pipeline sufficient to hit the number, sized by win rate <sup><a href="#sources">[4]</a></sup>?
+- **Stage-weighted.** Weight each deal by its historical close rate at its stage, not by gut <sup><a href="#sources">[5]</a></sup>.
 - **Committed vs pipeline.** Separate what is committed from what is aspirational.
-- **Weekly cadence.** Review the number weekly and catch drift early [3].
+- **Weekly cadence.** Review the number weekly and catch drift early <sup><a href="#sources">[3]</a></sup>.
 
 A credible forecast answers "what is the number and what is the math" in one sentence. If it cannot, it is a hope, not a forecast.
 
@@ -84,8 +84,8 @@ A credible forecast answers "what is the number and what is the math" in one sen
 
 Track the spine against reality and correct course:
 
-- **Forecast accuracy.** Did the forecast match what closed? Review the variance and why [3].
-- **Coverage by segment.** Is coverage healthy where quota lives, not just in aggregate [4]?
+- **Forecast accuracy.** Did the forecast match what closed? Review the variance and why <sup><a href="#sources">[3]</a></sup>.
+- **Coverage by segment.** Is coverage healthy where quota lives, not just in aggregate <sup><a href="#sources">[4]</a></sup>?
 - **Tool and data health.** Are fields clean, owners set, and integrations running?
 
 RevOps is a loop, not a setup. The weekly review is where the spine earns its keep.
@@ -94,9 +94,9 @@ RevOps is a loop, not a setup. The weekly review is where the spine earns its ke
 
 ```text
 Quota:               $Q
-Coverage band:       3-5x open pipeline to quota [4]
+Coverage band:       3-5x open pipeline to quota <sup><a href="#sources">[4]</a></sup>
 Current open pipe:   $P   (coverage = P / Q)
-Blended win rate:    W%  [5]
+Blended win rate:    W%  <sup><a href="#sources">[5]</a></sup>
 
 Stage-weighted forecast:
 Stage           | Value | Close rate | Weighted
@@ -111,25 +111,25 @@ If coverage < 3x, the gap is a pipeline problem, not a forecast problem.
 
 ## Worked example
 
-A B2B SaaS has a $4M quarterly quota and runs a blended win rate around 29% on qualified deals [5]. Its open pipeline stands at $14M, so coverage is 3.5x, inside the healthy 3-5x band [4].
+A B2B SaaS has a $4M quarterly quota and runs a blended win rate around 29% on qualified deals <sup><a href="#sources">[5]</a></sup>. Its open pipeline stands at $14M, so coverage is 3.5x, inside the healthy 3-5x band <sup><a href="#sources">[4]</a></sup>.
 
 The forecast uses stage weights: $2M committed at 90%, $4M opportunity at 45%, and $6M qualified at 25%. The weighted forecast is 0.9(2M) + 0.45(4M) + 0.25(6M) = $1.8M + $1.8M + $1.5M = $5.1M against a $4M quota, a conservative-but-credible position with the committed base covering nearly half the number.
 
-The weekly review watches coverage and accuracy. If a pipeline gap opens below 3x, the call is not "why is the forecast off" but "what are we doing about coverage" [4]. The sheet is the arithmetic; the review is the discipline. Both are RevOps.
+The weekly review watches coverage and accuracy. If a pipeline gap opens below 3x, the call is not "why is the forecast off" but "what are we doing about coverage" <sup><a href="#sources">[4]</a></sup>. The sheet is the arithmetic; the review is the discipline. Both are RevOps.
 
 ## Failure modes and how to fix them
 
-- **RevOps as CRM admin.** You clean fields but no one owns the forecast. Fix: name the metric, tooling, and forecast owners [1].
+- **RevOps as CRM admin.** You clean fields but no one owns the forecast. Fix: name the metric, tooling, and forecast owners <sup><a href="#sources">[1]</a></sup>.
 - **No metric definition.** Sales and marketing argue over what a lead is. Fix: one definition per metric, held across teams.
-- **Coverage ignored.** The forecast misses because the pipeline was thin all along. Fix: watch the 3-5x band before the quarter, not after [4].
-- **Gut forecasts.** Deals weighted by hope instead of stage close rates. Fix: stage-weight every deal [5].
+- **Coverage ignored.** The forecast misses because the pipeline was thin all along. Fix: watch the 3-5x band before the quarter, not after <sup><a href="#sources">[4]</a></sup>.
+- **Gut forecasts.** Deals weighted by hope instead of stage close rates. Fix: stage-weight every deal <sup><a href="#sources">[5]</a></sup>.
 - **Fragmented tools.** Marketing and sales run on silos and the data never joins. Fix: a single source of truth and clean integrations.
-- **No weekly loop.** The forecast drifts for a month before anyone notices. Fix: weekly cadence and catch drift early [3].
+- **No weekly loop.** The forecast drifts for a month before anyone notices. Fix: weekly cadence and catch drift early <sup><a href="#sources">[3]</a></sup>.
 
 ## How the skill differs by segment and maturity
 
 - **By segment.** SMB RevOps runs lean: a lighter metric set, fewer tools, and the founder or head of GTM owning the number. Enterprise RevOps runs a full spine: committees, multi-owner deals, and complex attribution.
-- **By maturity.** A new company needs the metric spine and one tool owner before it scales. A mature company needs the integrated stack and the forecast discipline that scales with headcount [1].
+- **By maturity.** A new company needs the metric spine and one tool owner before it scales. A mature company needs the integrated stack and the forecast discipline that scales with headcount <sup><a href="#sources">[1]</a></sup>.
 - **By channel pairing.** RevOps consumes the pipeline the channels produce and feeds the [funnel](../foundations/07-gtm-funnel.md), [forecast and coverage](../foundations/06-revenue-operations.md), and the [metrics data](../data/01-gtm-metrics.md) page.
 
 ## Agentic layer
@@ -140,7 +140,7 @@ An agent can assemble the coverage and forecast sheet, check field health, flag 
 
 ```text
 Given: the metric spine, open pipeline, stage close rates, and quota.
-1. Compute coverage = open pipeline / quota. Flag if outside the 3-5x band [4].
+1. Compute coverage = open pipeline / quota. Flag if outside the 3-5x band <sup><a href="#sources">[4]</a></sup>.
 2. Weight each deal by its stage close rate; compute the forecast total.
 3. Separate committed from aspirational pipeline in the number.
 4. Check field, owner, and integration health; flag gaps.

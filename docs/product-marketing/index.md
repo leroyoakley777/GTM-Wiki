@@ -23,7 +23,7 @@ This page covers what the function ships and how it fails. Read [Positioning and
 | Launch narrative | Why this, why now | Signal library for sequences |
 | Objection map | Working replies | Reply handling |
 
-Brand work still matters. Only about 5% of B2B buyers are in-market at a given time [312]. Product marketing that only talks to this quarter's pipeline leaves the other 95% with no memory of you. That is a [brand as GTM](/docs/foundations/brand-as-gtm) problem as much as a sales problem.
+Brand work still matters. Only about 5% of B2B buyers are in-market at a given time <sup><a href="#sources">[312]</a></sup>. Product marketing that only talks to this quarter's pipeline leaves the other 95% with no memory of you. That is a [brand as GTM](/docs/foundations/brand-as-gtm) problem as much as a sales problem.
 
 ## Working loop with outbound and sales
 
@@ -32,9 +32,9 @@ Brand work still matters. Only about 5% of B2B buyers are in-market at a given t
 3. Sales brings back objections from live calls.
 4. Product marketing updates the map. Enablement replaces the old card.
 
-If outbound reply rates sit under 2% with clean delivery, treat that as a message or audience problem before you treat it as an SDR problem [329]. Product marketing owns half of that diagnosis.
+If outbound reply rates sit under 2% with clean delivery, treat that as a message or audience problem before you treat it as an SDR problem <sup><a href="#sources">[329]</a></sup>. Product marketing owns half of that diagnosis.
 
-Personalization that works is signal plus a true claim, not a merge field [52][327]. PMM that ships slogans forces SDRs to invent specifics row by row. That does not scale.
+Personalization that works is signal plus a true claim, not a merge field <sup><a href="#sources">[52]</a></sup><sup><a href="#sources">[327]</a></sup>. PMM that ships slogans forces SDRs to invent specifics row by row. That does not scale.
 
 ## How the seat differs by stage
 
@@ -42,15 +42,15 @@ Personalization that works is signal plus a true claim, not a merge field [52][3
 - **First PMM hire.** Hire when there are enough deals to see patterns and enough reps to need artifacts. Not when the website feels embarrassing.
 - **Scale.** Split launch, competitive, and sales content. Keep one owner for the source of truth so three decks do not drift.
 
-Crossing the chasm still applies: pragmatists buy the whole product, including proof and support, not the core feature list [274]. Enterprise outbound that pitches features into a committee is PMM falling down on the job.
+Crossing the chasm still applies: pragmatists buy the whole product, including proof and support, not the core feature list <sup><a href="#sources">[274]</a></sup>. Enterprise outbound that pitches features into a committee is PMM falling down on the job.
 
 ## Failure modes
 
 - **Positioning that cannot disqualify.** If every company is a fit, outbound has no list.
 - **Launch as a press event.** A launch with no reason-to-reach for the ICP is a blog post.
 - **Competitive decks on email one.** Cold buyers did not ask for a bake-off.
-- **Artifacts that live outside the workflow.** If the AE cannot find the story in the CRM or the sequence tool, the story does not exist [304].
-- **Ignoring win/loss.** Win rate math only helps if someone reads the losses [342].
+- **Artifacts that live outside the workflow.** If the AE cannot find the story in the CRM or the sequence tool, the story does not exist <sup><a href="#sources">[304]</a></sup>.
+- **Ignoring win/loss.** Win rate math only helps if someone reads the losses <sup><a href="#sources">[342]</a></sup>.
 
 ## Agentic layer
 

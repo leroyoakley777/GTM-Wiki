@@ -9,7 +9,7 @@ last_updated: 2026-09-08
 
 # Enablement
 
-Enablement is the system that puts the right artifact in a rep's hands at the moment of the conversation. It is not a slide library. Reps do not lose deals because the wiki was incomplete. They lose deals because the talk track, the one-pager, or the competitive note was missing in the workflow [304].
+Enablement is the system that puts the right artifact in a rep's hands at the moment of the conversation. It is not a slide library. Reps do not lose deals because the wiki was incomplete. They lose deals because the talk track, the one-pager, or the competitive note was missing in the workflow <sup><a href="#sources">[304]</a></sup>.
 
 This page covers what to ship, how to keep it alive, and how the job changes by stage. Pair it with [Outbound](/docs/channels/outbound) for the motion and [RevOps](/docs/roles/revops) for the system of record.
 
@@ -25,28 +25,28 @@ A working enablement function owns four artifacts and one loop.
 | Competitive notes | Late stage | Honest "when we lose" plus "when we win" |
 | Inspection loop | Every week | Tape review against the current artifact, not last quarter's deck |
 
-Zylo frames enablement tools as the layer that gives reps content and context inside the motion rather than in a side folder [304]. If the artifact lives only in Drive, it does not exist.
+Zylo frames enablement tools as the layer that gives reps content and context inside the motion rather than in a side folder <sup><a href="#sources">[304]</a></sup>. If the artifact lives only in Drive, it does not exist.
 
 ## Build order
 
 1. **Write the current best path.** Not every path. The sequence, the discovery questions, the handoff note. See [Outbound from Zero](/docs/playbooks/outbound-from-zero).
-2. **Certify on that path.** Exams and certifications make training measurable [262]. A 20-minute written test on ICP beats a two-day kickoff nobody recalls.
-3. **Inspect live work.** Conversation intelligence belongs here, not as a surveillance toy [303][305]. Coach one skill at a time [262].
+2. **Certify on that path.** Exams and certifications make training measurable <sup><a href="#sources">[262]</a></sup>. A 20-minute written test on ICP beats a two-day kickoff nobody recalls.
+3. **Inspect live work.** Conversation intelligence belongs here, not as a surveillance toy <sup><a href="#sources">[303]</a></sup><sup><a href="#sources">[305]</a></sup>. Coach one skill at a time <sup><a href="#sources">[262]</a></sup>.
 4. **Retire stale assets.** A battlecard dated 14 months ago is a liability. Delete it in public.
 
-The commercial enablement pillar in the Revenue Operations management system exists to keep people and assets aligned [259]. Alignment is a weekly act.
+The commercial enablement pillar in the Revenue Operations management system exists to keep people and assets aligned <sup><a href="#sources">[259]</a></sup>. Alignment is a weekly act.
 
 ## How enablement differs by stage
 
 - **Seed / founder-led.** Enablement is a Notion page the founder updates after every fifth call. Do not hire a head of enablement to write fiction about a motion that still changes daily.
 - **First team.** One enablement generalist or a manager who treats coaching as the job. Artifacts fit in a single folder.
-- **Scale.** Enablement splits from RevOps. RevOps owns systems and definitions. Enablement owns skill and content. Stage 2 Capital puts specialization after GTM fit, not before [299].
+- **Scale.** Enablement splits from RevOps. RevOps owns systems and definitions. Enablement owns skill and content. Stage 2 Capital puts specialization after GTM fit, not before <sup><a href="#sources">[299]</a></sup>.
 
 ## Failure modes
 
 - **Content without inspection.** Beautiful decks, unchanged win rates.
-- **Kickoff as a substitute for ramp.** A two-day event is not a 90-day skill plan [262].
-- **Coaching every skill at once.** Nothing moves [262].
+- **Kickoff as a substitute for ramp.** A two-day event is not a 90-day skill plan <sup><a href="#sources">[262]</a></sup>.
+- **Coaching every skill at once.** Nothing moves <sup><a href="#sources">[262]</a></sup>.
 - **Enablement as internal marketing.** Launch emails about new one-pagers that reps never open.
 - **No owner for retirement.** The library grows until nobody trusts it.
 

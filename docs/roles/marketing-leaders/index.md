@@ -9,15 +9,15 @@ last_updated: 2026-09-08
 
 # Marketing Leaders
 
-A marketing leader owns demand and memory. Sales owns the conversation once a buyer will take one. A head of GTM owns the system that connects the two [300]. When marketing is scored only on MQLs, the handoff becomes a fight and outbound gets used as a mop.
+A marketing leader owns demand and memory. Sales owns the conversation once a buyer will take one. A head of GTM owns the system that connects the two <sup><a href="#sources">[300]</a></sup>. When marketing is scored only on MQLs, the handoff becomes a fight and outbound gets used as a mop.
 
 This page covers the seat. Pair it with [Inbound](/docs/channels/inbound), [Brand as GTM](/docs/foundations/brand-as-gtm), [Channels Bullseye](/docs/foundations/gtm-channels-bullseye), and [Product marketing](/docs/product-marketing).
 
 ## What the seat owns
 
-- **Channel choice.** One inner-ring channel at a time, tested cheaply, then doubled [252]. Spreading across eight "priority channels" is how none of them get a fair shot.
-- **Memory with the 95%.** Only about 5% of B2B buyers are in-market now [312]. Brand work exists for the rest. Cutting brand to fund this quarter's MQLs raises CAC later [310][311].
-- **Definition of a lead.** MQL to SQL conversion is a known bottleneck, often in the mid-teens [26][27]. If marketing and sales do not share the definition, the conversion rate is a political number.
+- **Channel choice.** One inner-ring channel at a time, tested cheaply, then doubled <sup><a href="#sources">[252]</a></sup>. Spreading across eight "priority channels" is how none of them get a fair shot.
+- **Memory with the 95%.** Only about 5% of B2B buyers are in-market now <sup><a href="#sources">[312]</a></sup>. Brand work exists for the rest. Cutting brand to fund this quarter's MQLs raises CAC later <sup><a href="#sources">[310]</a></sup><sup><a href="#sources">[311]</a></sup>.
+- **Definition of a lead.** MQL to SQL conversion is a known bottleneck, often in the mid-teens <sup><a href="#sources">[26]</a></sup><sup><a href="#sources">[27]</a></sup>. If marketing and sales do not share the definition, the conversion rate is a political number.
 - **Handoff SLA.** Speed to a demo request is a marketing-ops problem as much as a sales problem.
 
 ## Working with outbound
@@ -28,22 +28,22 @@ Outbound sits beside marketing. It is the channel you run while inbound compound
 - Proof (stories, teardown pages, benchmarks).
 - Signals worth routing to the desk (intent, high-fit inbound that stalled).
 
-If cold reply rates sit under 2% with clean delivery, the problem is message or audience [329]. Marketing leadership belongs in that diagnosis. "Sales needs to follow up harder" is not a strategy.
+If cold reply rates sit under 2% with clean delivery, the problem is message or audience <sup><a href="#sources">[329]</a></sup>. Marketing leadership belongs in that diagnosis. "Sales needs to follow up harder" is not a strategy.
 
-Paid can scale a working message and erase a budget when it does not. See [Paid](/docs/channels/paid). CAC payback still belongs on the marketing leader's wall [6].
+Paid can scale a working message and erase a budget when it does not. See [Paid](/docs/channels/paid). CAC payback still belongs on the marketing leader's wall <sup><a href="#sources">[6]</a></sup>.
 
 ## How the seat differs by stage
 
 - **Seed.** Founder-led content plus founder-led outbound. No CMO required.
 - **First marketing leader.** Usually a player-coach who can write and instrument. Hire after a channel has shown a pulse.
-- **Scale.** Brand, demand, product marketing, and ops split. The leader's job becomes allocation and shared metrics with sales [306].
+- **Scale.** Brand, demand, product marketing, and ops split. The leader's job becomes allocation and shared metrics with sales <sup><a href="#sources">[306]</a></sup>.
 
 ## Failure modes
 
-- **MQL theater.** Volume up, SQL down [26].
-- **Channel collectibles.** Five tools, no bullseye [252].
-- **Brand as decoration.** Creativity without category entry points [309].
-- **War with sales over lead quality.** That war is a missing definition, not a personality conflict [300].
+- **MQL theater.** Volume up, SQL down <sup><a href="#sources">[26]</a></sup>.
+- **Channel collectibles.** Five tools, no bullseye <sup><a href="#sources">[252]</a></sup>.
+- **Brand as decoration.** Creativity without category entry points <sup><a href="#sources">[309]</a></sup>.
+- **War with sales over lead quality.** That war is a missing definition, not a personality conflict <sup><a href="#sources">[300]</a></sup>.
 - **Ignoring the product-led path** when the product can sell a seat without a meeting. See [Product-led](/docs/channels/product-led).
 
 ## Agentic layer

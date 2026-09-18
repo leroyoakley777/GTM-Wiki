@@ -28,7 +28,7 @@ Outbound already has this shape on the [outbound skill](/docs/skills/outbound) p
 
 ## Tool tiers
 
-Gangly's four layers still hold: data, engagement, intelligence, CRM [305]. Apollo plus HubSpot is enough to start. A Series A stack that adds engagement and conversation intelligence runs hundreds of dollars per seat per month [305]. Do not buy the fourth layer to cover a missing skill file.
+Gangly's four layers still hold: data, engagement, intelligence, CRM <sup><a href="#sources">[305]</a></sup>. Apollo plus HubSpot is enough to start. A Series A stack that adds engagement and conversation intelligence runs hundreds of dollars per seat per month <sup><a href="#sources">[305]</a></sup>. Do not buy the fourth layer to cover a missing skill file.
 
 ## How this differs by stage
 
@@ -38,7 +38,7 @@ Gangly's four layers still hold: data, engagement, intelligence, CRM [305]. Apol
 
 ## Failure modes
 
-- **Tool first.** Ross Rich's warning: people, then process, then technology. Most teams reverse it [337].
+- **Tool first.** Ross Rich's warning: people, then process, then technology. Most teams reverse it <sup><a href="#sources">[337]</a></sup>.
 - **Skill files that describe vibes.** "Be consultative" is not a step.
 - **Duplicate skills.** Three "write first line" prompts drift in a week.
 - **No should-fail tests.** The skill never learns what it must refuse.

@@ -28,7 +28,7 @@ wiki clicks into place.
 Agentic AI does not assist with isolated tasks. It drives entire
 workflows with reasoning and decision-making: it sets a goal,
 breaks it into steps, executes across tools, and adapts when
-conditions change [1].
+conditions change <sup><a href="#sources">[1]</a></sup>.
 
 Applied to go-to-market, agentic GTM splits work by strength.
 Agents execute the high-volume repetitive motion: lead routing,
@@ -37,11 +37,11 @@ research, drafting outreach, and first-line reply handling run
 continuously without a human triggering each step. People keep
 process architecture, exception handling, strategy, and stakeholder
 relationships. Every agent action is tracked and outcomes are
-measured, so the system learns continuously [1].
+measured, so the system learns continuously <sup><a href="#sources">[1]</a></sup>.
 
 The structural framing matters: agentic AI is bigger than any
 feature release or pilot tucked inside one team. It redesigns how
-revenue organizations operate at enterprise scale [2].
+revenue organizations operate at enterprise scale <sup><a href="#sources">[2]</a></sup>.
 
 The critical distinction is goal versus rule. Automation follows a
 fixed rule. An agent follows a goal. A sequence that sends email
@@ -49,7 +49,7 @@ number 3 on day 6 to everyone is automation. An agent that watches
 a trigger such as a job change, a funding announcement, or a
 website visit, then researches the account, writes a personalized
 message, sends it on the right channel, and routes the reply to a
-human is agentic [3].
+human is agentic <sup><a href="#sources">[3]</a></sup>.
 
 ---
 
@@ -64,7 +64,7 @@ but the underlying structure never changed. A RevOps manager still
 spends four hours every Monday building pipeline reports. A
 marketing ops specialist still manually segments lists before every
 campaign. An SDR manager still reassigns leads that fell through
-the cracks [4].
+the cracks <sup><a href="#sources">[4]</a></sup>.
 
 The math from that source is uncomfortable. At a typical mid-size
 SaaS company:
@@ -91,7 +91,7 @@ Forrester's 2026 predictions frame the strategic stakes: leading
 companies distribute their bets across agentic ecosystems and shift
 talent as AI agents take over routine work, while disciplined
 enterprises invest in AI governance and fluency training to manage
-risk [5]. The operative phrase is shift talent around. Agentic GTM
+risk <sup><a href="#sources">[5]</a></sup>. The operative phrase is shift talent around. Agentic GTM
 does not eliminate the team. It repositions the team from operators
 to architects. People stop running the machine and start designing
 it.
@@ -111,7 +111,7 @@ a pillar and the numbers collapse.
 ## Framework: the four pillars
 
 An agentic GTM operating model rests on four interdependent
-pillars. Miss any one and the model breaks down [4].
+pillars. Miss any one and the model breaks down <sup><a href="#sources">[4]</a></sup>.
 
 ### Pillar 1: Structured data foundation
 
@@ -197,7 +197,7 @@ one drifts and degrades. The companies that fail with agentic AI
 almost always fail at governance, not technology. Leaders must
 frame agentic AI as performance infrastructure rather than
 replacement logic, and deploy it with transparent data-analysis
-standards [2].
+standards <sup><a href="#sources">[2]</a></sup>.
 
 ---
 
@@ -289,15 +289,15 @@ endorsements:
   outbound agents that research accounts, write personalized
   messages, send on the right channel, and route replies. 11x
   brands its agents as AI employees that operate goal-driven (book
-  a set number of meetings per week) rather than step-by-step [1].
+  a set number of meetings per week) rather than step-by-step <sup><a href="#sources">[1]</a></sup>.
 - **Domain-specific models.** Landbase trains its GTM-1 engine on
   millions of campaigns and sales conversations, which specializes
-  the model for B2B outreach rather than generic chat [1].
+  the model for B2B outreach rather than generic chat <sup><a href="#sources">[1]</a></sup>.
 - **Signal-driven action.** Agents trigger on job changes, funding
   announcements, and website visits rather than firing on a fixed
-  schedule [6].
+  schedule <sup><a href="#sources">[6]</a></sup>.
 - **Pipeline generation.** Unify reports that its AI-driven system
-  now generates 30 percent of its pipeline autonomously [7].
+  now generates 30 percent of its pipeline autonomously <sup><a href="#sources">[7]</a></sup>.
 
 The lesson is not which tool to buy. The lesson is the pattern:
 agents specialize, they act on signals, they optimize continuously,

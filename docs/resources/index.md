@@ -44,13 +44,13 @@ Every number in those pages should carry a named source and a date. If a stat on
 - [Best sales books](/docs/library/best-sales-books)
 - [Best marketing books](/docs/library/best-marketing-books)
 
-Use the books as source material. Do not quote them as if they were 2026 benchmarks. Traction still earns its place for channel focus [252]. Sales Acceleration Formula still earns its place for hiring and coaching [262].
+Use the books as source material. Do not quote them as if they were 2026 benchmarks. Traction still earns its place for channel focus <sup><a href="#sources">[252]</a></sup>. Sales Acceleration Formula still earns its place for hiring and coaching <sup><a href="#sources">[262]</a></sup>.
 
 ## How this list fails
 
 - **A pile of links with no job.** If you cannot say which page you will run this week, you are collecting.
-- **Vendor blogs as scripture.** Instantly, Clay, and AiSDR numbers are useful and biased. The pages label vendor sources when that is the case [17][39].
-- **Stale copies.** Templates fatigue in 4-6 weeks on live outbound [329]. Resource lists go stale too. Prefer the live wiki page over a screenshot in Slack.
+- **Vendor blogs as scripture.** Instantly, Clay, and AiSDR numbers are useful and biased. The pages label vendor sources when that is the case <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[39]</a></sup>.
+- **Stale copies.** Templates fatigue in 4-6 weeks on live outbound <sup><a href="#sources">[329]</a></sup>. Resource lists go stale too. Prefer the live wiki page over a screenshot in Slack.
 
 ## Sources
 

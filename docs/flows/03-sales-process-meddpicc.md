@@ -426,7 +426,7 @@ Top 5 accounts:
 
 The pipeline number is not a guess. To hold $100k of quota you need roughly
 $300k-$400k of qualified pipeline, because pipeline coverage of 3-4x is the
-healthy band for mid-market [1]. Fill the top 5 rows before you add row 6.
+healthy band for mid-market <sup><a href="#sources">[1]</a></sup>. Fill the top 5 rows before you add row 6.
 
 ### PG 5x5 grid
 
@@ -526,8 +526,8 @@ wants fixed.
 **The arithmetic you should trust.** At $50k ACV (2026 base) and a 21% close
 rate, one win needs about five qualified opportunities. Five qualified opps
 times a 21% close rate is just over one win. The ~21% Opp to Closed-Won
-figure is Ebsta/Pavilion (2021-2024) [2]. SalesMotion (2026) puts qualified
-win rates near 29% [3], which still means three to four qualified opps per
+figure is Ebsta/Pavilion (2021-2024) <sup><a href="#sources">[2]</a></sup>. SalesMotion (2026) puts qualified
+win rates near 29% <sup><a href="#sources">[3]</a></sup>, which still means three to four qualified opps per
 win. Hold four qualified opps and expect to lose one. That is a named base,
 not a guess. Quota is a pipeline problem before it is a closing problem.
 

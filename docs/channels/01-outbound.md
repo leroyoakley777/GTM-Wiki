@@ -9,7 +9,7 @@ last_updated: 2026-09-08
 
 # Outbound
 
-Outbound is a targeted channel you pick on purpose. It works when you know exactly who the buyer is, the deal size covers the effort, and inbound or partnerships will not fill the pipe fast enough. Run well, it is the fastest repeatable pipeline you will build. Run badly, it burns budget and a sending domain [17].
+Outbound is a targeted channel you pick on purpose. It works when you know exactly who the buyer is, the deal size covers the effort, and inbound or partnerships will not fill the pipe fast enough. Run well, it is the fastest repeatable pipeline you will build. Run badly, it burns budget and a sending domain <sup><a href="#sources">[17]</a></sup>.
 
 This page covers when outbound is the right call, how to judge whether the motion is healthy, how to build the list, how to run phone and LinkedIn as amplifiers, how to staff and coach the desk, where it breaks, and how the numbers change by company stage. Words live in [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. This page will not recommend email copy.
 
@@ -19,13 +19,13 @@ Meetings booked per 1,000 sends is the score. Everything else is a diagnostic.
 
 ## Meetings booked per 1,000 sends
 
-A healthy range is 3-10 [17]. That number rolls delivery, reply, and positive-reply rates into one diagnostic. If you book fewer than 3 meetings per 1,000 sends, do not add volume. The message, list, or offer is broken. If you book more than 10, you are leaving pipeline on the table and should scale the send.
+A healthy range is 3-10 <sup><a href="#sources">[17]</a></sup>. That number rolls delivery, reply, and positive-reply rates into one diagnostic. If you book fewer than 3 meetings per 1,000 sends, do not add volume. The message, list, or offer is broken. If you book more than 10, you are leaving pipeline on the table and should scale the send.
 
 Do not track emails sent as a score. Sends do not pay the bill. Meetings do.
 
-A second number sits next to it: **positive replies as a share of total replies**. Healthy programs land 25-40% of replies as positive [329]. A 12% reply rate full of "unsubscribe" and "never contact me" is worse than a 4% reply rate that books meetings.
+A second number sits next to it: **positive replies as a share of total replies**. Healthy programs land 25-40% of replies as positive <sup><a href="#sources">[329]</a></sup>. A 12% reply rate full of "unsubscribe" and "never contact me" is worse than a 4% reply rate that books meetings.
 
-A third number belongs to leadership, not the SDR: **pipeline dollars created per fully-loaded SDR dollar**. A single SDR runs about $139,120/year fully loaded [39]. If that SDR does not produce several times that in qualified pipeline, the motion is a cost center.
+A third number belongs to leadership, not the SDR: **pipeline dollars created per fully-loaded SDR dollar**. A single SDR runs about $139,120/year fully loaded <sup><a href="#sources">[39]</a></sup>. If that SDR does not produce several times that in qualified pipeline, the motion is a cost center.
 
 
 ## When outbound is the right channel
@@ -33,7 +33,7 @@ A third number belongs to leadership, not the SDR: **pipeline dollars created pe
 Use the [Channels Bullseye](/docs/foundations/gtm-channels-bullseye) to pick your one best channel before you commit. Outbound wins when all three hold:
 
 - **The ICP is tight and the TAM is nameable.** You can list the companies and the humans who own the problem. Outbound cannot compensate for a fuzzy ICP. It just reaches a fuzzy audience faster.
-- **ACV is roughly $5k or above.** Below that, the human cost per meeting eats the deal. A single SDR runs about $139,120/year fully loaded [39]. There is no hard floor, but the economics tighten fast under ~$5k ACV.
+- **ACV is roughly $5k or above.** Below that, the human cost per meeting eats the deal. A single SDR runs about $139,120/year fully loaded <sup><a href="#sources">[39]</a></sup>. There is no hard floor, but the economics tighten fast under ~$5k ACV.
 - **Inbound or content will not fill the pipe in your time.** Outbound is the channel you run while the compounding channels (content, SEO, PLG) mature.
 
 If none of those are true, build content or partnerships first. Outbound against a bad ICP is paying to speed up a mistake.
@@ -57,10 +57,10 @@ Outbound is a repeatable motion that turns a scored list of accounts into qualif
 
 Outbound is not:
 
-- A volume contest. Salesloft's 2023 Revenue Team Benchmark Report covered 570 million sales interactions. SDRs sent about 150 emails per week on average and earned a 2.8% reply rate. Personalization sat between 10% and 14% across industries, which means most email carried none [341]. Activity without relevance is how you train filters and buyers to ignore you.
+- A volume contest. Salesloft's 2023 Revenue Team Benchmark Report covered 570 million sales interactions. SDRs sent about 150 emails per week on average and earned a 2.8% reply rate. Personalization sat between 10% and 14% across industries, which means most email carried none <sup><a href="#sources">[341]</a></sup>. Activity without relevance is how you train filters and buyers to ignore you.
 - A replacement for positioning. A clever first line cannot carry a product nobody wants.
-- A marketing channel. Marketing builds memory with the 95% of buyers who are out of market [312]. Outbound talks to the 5% who have a reason to take a meeting now.
-- A place to hide a weak AE team. If meetings book and nothing closes, look at handoff quality and AE conversion before you fire the SDR motion [328].
+- A marketing channel. Marketing builds memory with the 95% of buyers who are out of market <sup><a href="#sources">[312]</a></sup>. Outbound talks to the 5% who have a reason to take a meeting now.
+- A place to hide a weak AE team. If meetings book and nothing closes, look at handoff quality and AE conversion before you fire the SDR motion <sup><a href="#sources">[328]</a></sup>.
 
 The craft lives in four layers, in this order: **infrastructure, list, message, follow-through.** Most teams invert that order. They write copy first, buy a list second, and discover deliverability on the day they send.
 
@@ -79,36 +79,36 @@ The 2026 numbers first, then what each one diagnoses:
 
 | Metric | 2026 market picture | Source |
 |--------|---------------------|--------|
-| Cold email reply rate (blended average) | 3.43% across billions of interactions; top quartile 5.5%; top 10% above 10.7% [325] | Instantly, Cold Email Benchmark Report 2026 |
-| Cold email reply rate (strict net-new, single send) | 0.45% across 7.5M+ sends [326] | Belkins, 2026 |
-| Cold email reply rate (working B2B range) | 1-5% typical; 5%+ solid; 8-12% good [327] | Martal, 2026 |
-| Meetings booked per 100 sends | 1-2 is the working target [328] | SalesHive, 2026 |
-| Positive reply rate | 25-40% of total replies [329] | Zeliq, 2026 |
-| Spam complaint tripwire | under 0.1%; Google and Yahoo enforce under 0.3% [17] | Instantly / Google sender requirements |
-| Open rate (cold) | Inflated by Apple Mail Privacy Protection; treat as a relative signal only [330] | Leadriver, 2026 |
-| Cold call connect rate | 2-3% typical; top SDRs convert 5-8% of connects into meetings [14] | SalesGenie, 2026 |
-| Multi-channel reply, top teams | 15-25% [16] | Autobound, 2026 |
-| Cold email to deal | about 0.2%, or one deal per ~500 emails [3] | Focus Digital via Martal, 2026 |
+| Cold email reply rate (blended average) | 3.43% across billions of interactions; top quartile 5.5%; top 10% above 10.7% <sup><a href="#sources">[325]</a></sup> | Instantly, Cold Email Benchmark Report 2026 |
+| Cold email reply rate (strict net-new, single send) | 0.45% across 7.5M+ sends <sup><a href="#sources">[326]</a></sup> | Belkins, 2026 |
+| Cold email reply rate (working B2B range) | 1-5% typical; 5%+ solid; 8-12% good <sup><a href="#sources">[327]</a></sup> | Martal, 2026 |
+| Meetings booked per 100 sends | 1-2 is the working target <sup><a href="#sources">[328]</a></sup> | SalesHive, 2026 |
+| Positive reply rate | 25-40% of total replies <sup><a href="#sources">[329]</a></sup> | Zeliq, 2026 |
+| Spam complaint tripwire | under 0.1%; Google and Yahoo enforce under 0.3% <sup><a href="#sources">[17]</a></sup> | Instantly / Google sender requirements |
+| Open rate (cold) | Inflated by Apple Mail Privacy Protection; treat as a relative signal only <sup><a href="#sources">[330]</a></sup> | Leadriver, 2026 |
+| Cold call connect rate | 2-3% typical; top SDRs convert 5-8% of connects into meetings <sup><a href="#sources">[14]</a></sup> | SalesGenie, 2026 |
+| Multi-channel reply, top teams | 15-25% <sup><a href="#sources">[16]</a></sup> | Autobound, 2026 |
+| Cold email to deal | about 0.2%, or one deal per ~500 emails <sup><a href="#sources">[3]</a></sup> | Focus Digital via Martal, 2026 |
 
 Four readings of that table:
 
-1. **Reply rate is the truth.** Email-client proxies and tracking pixels cannot inflate it. If your reply rate sits under 2%, the problem is targeting or copy, not deliverability [329].
-2. **Positive replies beat raw replies.** A 12% reply rate where half the replies are angry is worse than a 7% reply rate that is all qualified interest. Track positive replies and meetings booked, not total replies [329].
-3. **Open rate is half-broken.** Apple Mail Privacy Protection inflates opens by 10-20 points. Use it to compare campaigns against each other in the same week, never against an absolute target [330].
-4. **Single-send net-new is brutal.** Belkins measured 0.45% across 7.5 million strict net-new sends [326]. Sequence, signal, and list quality are what move you from that floor toward the 3.43% blended average and the 8-12% "good" band [325][327].
+1. **Reply rate is the truth.** Email-client proxies and tracking pixels cannot inflate it. If your reply rate sits under 2%, the problem is targeting or copy, not deliverability <sup><a href="#sources">[329]</a></sup>.
+2. **Positive replies beat raw replies.** A 12% reply rate where half the replies are angry is worse than a 7% reply rate that is all qualified interest. Track positive replies and meetings booked, not total replies <sup><a href="#sources">[329]</a></sup>.
+3. **Open rate is half-broken.** Apple Mail Privacy Protection inflates opens by 10-20 points. Use it to compare campaigns against each other in the same week, never against an absolute target <sup><a href="#sources">[330]</a></sup>.
+4. **Single-send net-new is brutal.** Belkins measured 0.45% across 7.5 million strict net-new sends <sup><a href="#sources">[326]</a></sup>. Sequence, signal, and list quality are what move you from that floor toward the 3.43% blended average and the 8-12% "good" band <sup><a href="#sources">[325]</a></sup><sup><a href="#sources">[327]</a></sup>.
 
 Do not optimize the message until you have 300+ sends per variant. Small samples produce noise, and noise produces confident wrong answers.
 
 
 ## Infrastructure layer (where most teams skip ahead)
 
-Most teams start with copy. In 2026 the first failure is usually infrastructure. Gmail and Microsoft now run transformer-based spam models trained on billions of emails, and they detect templated sends with high accuracy [327]. Build the layers in this order and skip none of them [331].
+Most teams start with copy. In 2026 the first failure is usually infrastructure. Gmail and Microsoft now run transformer-based spam models trained on billions of emails, and they detect templated sends with high accuracy <sup><a href="#sources">[327]</a></sup>. Build the layers in this order and skip none of them <sup><a href="#sources">[331]</a></sup>.
 
-1. **Dedicated sending domains.** Never send cold email from your primary business domain. Buy close variations (getacme.com, acmehq.com) so a reputation hit on the sending domain cannot touch the domain your customers email you on [331].
-2. **Authentication.** SPF, DKIM, and DMARC configured before the first send. Google and Yahoo reject unauthenticated mail outright [332]. Score the setup with Mail-Tester or MXToolbox before launch; below 9 out of 10 means more homework [332].
-3. **Mailbox warmup.** Warm every new inbox for at least 3 weeks before live campaigns. Start at 5 warmup emails per day, ramp by 5 per day, cap at 50 [333]. Keep roughly 15% of daily volume on warmup traffic forever to maintain the engagement signal [329].
-4. **Volume math.** Each mailbox caps at 25-30 cold sends per day. Divide your daily target by 50 for inboxes needed, by 100 for domains [333]. A 500-per-day program needs roughly 7-8 domains with 2-3 mailboxes each [331].
-5. **Ongoing health.** Weekly bounce checks (under 2% hard bounces per domain), bi-weekly blacklist scans, monthly mailbox rotation, quarterly full infrastructure audit [331].
+1. **Dedicated sending domains.** Never send cold email from your primary business domain. Buy close variations (getacme.com, acmehq.com) so a reputation hit on the sending domain cannot touch the domain your customers email you on <sup><a href="#sources">[331]</a></sup>.
+2. **Authentication.** SPF, DKIM, and DMARC configured before the first send. Google and Yahoo reject unauthenticated mail outright <sup><a href="#sources">[332]</a></sup>. Score the setup with Mail-Tester or MXToolbox before launch; below 9 out of 10 means more homework <sup><a href="#sources">[332]</a></sup>.
+3. **Mailbox warmup.** Warm every new inbox for at least 3 weeks before live campaigns. Start at 5 warmup emails per day, ramp by 5 per day, cap at 50 <sup><a href="#sources">[333]</a></sup>. Keep roughly 15% of daily volume on warmup traffic forever to maintain the engagement signal <sup><a href="#sources">[329]</a></sup>.
+4. **Volume math.** Each mailbox caps at 25-30 cold sends per day. Divide your daily target by 50 for inboxes needed, by 100 for domains <sup><a href="#sources">[333]</a></sup>. A 500-per-day program needs roughly 7-8 domains with 2-3 mailboxes each <sup><a href="#sources">[331]</a></sup>.
+5. **Ongoing health.** Weekly bounce checks (under 2% hard bounces per domain), bi-weekly blacklist scans, monthly mailbox rotation, quarterly full infrastructure audit <sup><a href="#sources">[331]</a></sup>.
 
 Scale this layer before you write a word of copy. Great copy sent through broken infrastructure produces nothing.
 
@@ -123,13 +123,13 @@ The warmup ramp is linear, not hockey-stick. Teams that ramp too fast trigger sp
 | Day 8-14 | 20-35 | Hit consistent daily volume |
 | Day 15-21 | 35-50 | Full production ramp |
 
-After launch, keep 15% of daily volume cycling through warmup traffic on each domain. This maintains the engagement signal Gmail and Microsoft attribute to your domains [329]. Clay reports a 3-week warmup raised open rates 30% versus a 2-week warmup [333]. Do not cut week three to "get campaigns live."
+After launch, keep 15% of daily volume cycling through warmup traffic on each domain. This maintains the engagement signal Gmail and Microsoft attribute to your domains <sup><a href="#sources">[329]</a></sup>. Clay reports a 3-week warmup raised open rates 30% versus a 2-week warmup <sup><a href="#sources">[333]</a></sup>. Do not cut week three to "get campaigns live."
 
 ### Domain recovery when you already burned one
 
 A burned sending domain takes 60-90 days to recover. Do not keep sending through it "to see if it comes back." Pause cold volume on that domain. Keep only warmup and internal traffic. Stand up a fresh sending domain and start the 3-week ramp. Treat the burned domain as a spare that returns to rotation only after blacklist scans stay clean and Mail-Tester holds 9/10.
 
-If complaints crossed 0.3%, you are in Google and Yahoo enforcement territory [17]. Recovery is slower than the original warmup. Budget a quarter, not a week.
+If complaints crossed 0.3%, you are in Google and Yahoo enforcement territory <sup><a href="#sources">[17]</a></sup>. Recovery is slower than the original warmup. Budget a quarter, not a week.
 
 ### Tooling stack
 
@@ -140,12 +140,12 @@ A working outbound infrastructure needs four tools in sequence:
 - **Deliverability monitor** for inbox placement and spam score checks (Mail-Tester, MXToolbox, or GlockApps).
 - **Data provider** for verified emails and trigger signals (Apollo, Clay, or other verified-data providers).
 
-For a seed-stage founder motion, Apollo plus a CRM is enough to start [305]. A Series A desk that already has a few SDRs usually adds a sales-engagement layer and conversation intelligence. Do not buy the Series A stack on day one. The list and the message fail first. Tools do not fix either.
+For a seed-stage founder motion, Apollo plus a CRM is enough to start <sup><a href="#sources">[305]</a></sup>. A Series A desk that already has a few SDRs usually adds a sales-engagement layer and conversation intelligence. Do not buy the Series A stack on day one. The list and the message fail first. Tools do not fix either.
 
 
 ## Account selection and list construction
 
-The list is the asset, not the copy. A 500-row list that matches the ICP beats a 50,000-row spray every time. Belkins found small targeted campaigns of 50 recipients or fewer average 5.8% response against 2.1% for lists of 500+ [326]. Volume is not the shortcut. Specificity is.
+The list is the asset, not the copy. A 500-row list that matches the ICP beats a 50,000-row spray every time. Belkins found small targeted campaigns of 50 recipients or fewer average 5.8% response against 2.1% for lists of 500+ <sup><a href="#sources">[326]</a></sup>. Volume is not the shortcut. Specificity is.
 
 ### Row contract
 
@@ -167,7 +167,7 @@ Every row that earns a send carries all of these fields. Missing one field means
 
 ### How to score the account
 
-Firmographics select for resemblance, not demand [317]. A 200-person Series B in your ICP industry is a lookalike. A 200-person Series B that just hired three security engineers, opened a new region, or swapped a competitor is a reason.
+Firmographics select for resemblance, not demand <sup><a href="#sources">[317]</a></sup>. A 200-person Series B in your ICP industry is a lookalike. A 200-person Series B that just hired three security engineers, opened a new region, or swapped a competitor is a reason.
 
 Score in two passes:
 
@@ -185,9 +185,9 @@ If everything is Tier 1, nothing is. Caps exist so the desk can finish the week.
 
 ### Data quality
 
-Unverified emails are how bounce rates blow past 2% and take the domain with them [331]. Verify before the first send. Re-verify lists older than 60 days. Job-change data goes stale fast. A title that was true in January is often wrong in June.
+Unverified emails are how bounce rates blow past 2% and take the domain with them <sup><a href="#sources">[331]</a></sup>. Verify before the first send. Re-verify lists older than 60 days. Job-change data goes stale fast. A title that was true in January is often wrong in June.
 
-Stale contact data costs B2B teams an estimated 15-25% of revenue [301]. Outbound feels that cost first because the first impression is an email to the wrong person.
+Stale contact data costs B2B teams an estimated 15-25% of revenue <sup><a href="#sources">[301]</a></sup>. Outbound feels that cost first because the first impression is an email to the wrong person.
 
 
 ## Research that earns a send
@@ -206,7 +206,7 @@ Bad reasons-to-reach:
 - "I see you work at [Company]." (Merge field.)
 - "Loved your LinkedIn post." (They can smell the scrape.)
 
-Only about 5% of senders personalize every email [52]. Signal-driven references lift reply rates from roughly 9% to 18% versus generic templates [327]. Campaigns that reference a specific buying signal reach 15-25% reply rates against the 3.43% generic baseline [116][332]. The research bar is the whole gap.
+Only about 5% of senders personalize every email <sup><a href="#sources">[52]</a></sup>. Signal-driven references lift reply rates from roughly 9% to 18% versus generic templates <sup><a href="#sources">[327]</a></sup>. Campaigns that reference a specific buying signal reach 15-25% reply rates against the 3.43% generic baseline <sup><a href="#sources">[116]</a></sup><sup><a href="#sources">[332]</a></sup>. The research bar is the whole gap.
 
 Spend the research minutes on Tier 1. For Tier 2, the signal is the research. If the signal is not specific enough to write one concrete line, the row is not ready.
 
@@ -217,7 +217,7 @@ Copywriting does not live on this page. Write claims and frameworks in [Copywrit
 
 What outbound still constrains, because the channel punishes violations:
 
-- **Length.** Under-125-word, personalized cold email outperforms long templated sends by about 50% on reply rate [327]. Short copy is a deliverability and attention choice.
+- **Length.** Under-125-word, personalized cold email outperforms long templated sends by about 50% on reply rate <sup><a href="#sources">[327]</a></sup>. Short copy is a deliverability and attention choice.
 - **One problem, one proof, one ask.** Two asks cut reply rate because the reader now has a way to stall.
 - **Reason-to-reach in the first line.** If you cannot write the first line without the company name and a merge field, the row is not ready. Research sits above. Copy sits after.
 - **No "I hope this finds you well."** No attachments on email one. No calendar link on a cold first touch. One link at most, and only if it is the proof.
@@ -228,12 +228,12 @@ Do not A/B subject lines until the body and the list are stable. Subject-line th
 
 ### Breakup as a touch, not as copy
 
-Do not skip the last touch. It often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline [329]. A breakup is a close, not a guilt trip: permission to stop, a named event that would make timing change, then you stop. Write it from the same claim you used in touch one. Do not paste a recommended breakup from this wiki. There is not one.
+Do not skip the last touch. It often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline <sup><a href="#sources">[329]</a></sup>. A breakup is a close, not a guilt trip: permission to stop, a named event that would make timing change, then you stop. Write it from the same claim you used in touch one. Do not paste a recommended breakup from this wiki. There is not one.
 
 
 ## Sequence: multichannel over 21-30 days
 
-Cold email sequences in 2026 run 6-8 touches over 21-30 days. Under five touches you leave reply rate on the table; above ten you train the inbox to filter your sender [329]. Each touch carries a different angle, a different proof, a different ask. If touch four repeats touch one, you are teaching the prospect to ignore you.
+Cold email sequences in 2026 run 6-8 touches over 21-30 days. Under five touches you leave reply rate on the table; above ten you train the inbox to filter your sender <sup><a href="#sources">[329]</a></sup>. Each touch carries a different angle, a different proof, a different ask. If touch four repeats touch one, you are teaching the prospect to ignore you.
 
 A working frame:
 
@@ -249,8 +249,8 @@ A working frame:
 
 Two rules from the data:
 
-- **Do not skip the breakup email.** The final touch often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline [329].
-- **Email is the engine; channels are amplifiers.** Multichannel sequences generate roughly 40% higher engagement than single-channel [327], but a well-built email system with clean infrastructure outperforms a sloppy multichannel approach every time. Add channels once email fundamentals produce consistent results [331]. Top teams running multi-channel motions reach 15-25% reply [16]. That band is earned. It is not a default.
+- **Do not skip the breakup email.** The final touch often posts the highest reply rate of the sequence. Cutting it removes 20-30% of total pipeline <sup><a href="#sources">[329]</a></sup>.
+- **Email is the engine; channels are amplifiers.** Multichannel sequences generate roughly 40% higher engagement than single-channel <sup><a href="#sources">[327]</a></sup>, but a well-built email system with clean infrastructure outperforms a sloppy multichannel approach every time. Add channels once email fundamentals produce consistent results <sup><a href="#sources">[331]</a></sup>. Top teams running multi-channel motions reach 15-25% reply <sup><a href="#sources">[16]</a></sup>. That band is earned. It is not a default.
 
 Stop the sequence the moment a reply lands. Continuing to mail someone who already answered is how you turn a maybe into a never.
 
@@ -261,7 +261,7 @@ The 21-30 day window shifts by stage. Seed-stage founders can compress to 10-14 
 
 ## Phone: the channel most desks retired too early
 
-Salesloft's analysis of 570 million interactions found the phone still beat email as a way for SDRs to reach people, across every industry in the study [341]. Connect rates sit at 2-3%, with top SDRs turning 5-8% of connects into meetings [14]. Those numbers look small until you remember a held conversation is worth more than a thread of polite emails.
+Salesloft's analysis of 570 million interactions found the phone still beat email as a way for SDRs to reach people, across every industry in the study <sup><a href="#sources">[341]</a></sup>. Connect rates sit at 2-3%, with top SDRs turning 5-8% of connects into meetings <sup><a href="#sources">[14]</a></sup>. Those numbers look small until you remember a held conversation is worth more than a thread of polite emails.
 
 Use the phone on Tier 1, after two emails, not as the first cold touch. Calling first wastes the human on accounts that have not seen a reason to care.
 
@@ -275,7 +275,7 @@ Do not call at random volume to "hit dials." Dials without a reason produce the 
 
 ### Call constraints
 
-Keep the first 30 seconds to a named signal, a named problem, and a question. Then stop talking. Top-performing reps listen more than they talk [341]. The call is won in the second minute, not the opener.
+Keep the first 30 seconds to a named signal, a named problem, and a question. Then stop talking. Top-performing reps listen more than they talk <sup><a href="#sources">[341]</a></sup>. The call is won in the second minute, not the opener.
 
 If they are not the owner, ask for the redirect and end the call. A clean redirect is a win. A rambling pitch to the wrong person is how your name gets marked.
 
@@ -296,12 +296,12 @@ Use it as a proof of presence:
 - Day 8: a connection request with no pitch in the note. Name the same signal you used in email, then stop.
 - After they accept: one message that references the same signal as the email, not a new novel.
 
-If they ignore the connection, stop. LinkedIn volume that looks automated gets the account restricted and the brand marked. The platform is an amplifier of a working email motion, not a replacement for one [331].
+If they ignore the connection, stop. LinkedIn volume that looks automated gets the account restricted and the brand marked. The platform is an amplifier of a working email motion, not a replacement for one <sup><a href="#sources">[331]</a></sup>.
 
 
 ## Reply handling and the 15-minute rule
 
-A hot reply handled in under 15 minutes is the single biggest lever most teams leave on the table [17]. Outbound is won after the send, in the thread.
+A hot reply handled in under 15 minutes is the single biggest lever most teams leave on the table <sup><a href="#sources">[17]</a></sup>. Outbound is won after the send, in the thread.
 
 Classify every reply the day it lands:
 
@@ -325,12 +325,12 @@ A booked meeting that does not hold is a calendar artifact, not a meeting. Confi
 - The reason-to-reach restated so they remember why they said yes.
 - A short prep note to the AE: signal, role, what "yes" looked like, what would make this a bad-fit account.
 
-Show rate is an outbound metric. If holds sit well below booked, the problem is qualification or invite quality, not copy [328].
+Show rate is an outbound metric. If holds sit well below booked, the problem is qualification or invite quality, not copy <sup><a href="#sources">[328]</a></sup>.
 
 
 ## Handoff to the AE
 
-SalesHive's diagnostic still holds: if replies look healthy but meetings booked sit below 1% of sends, the gap is weak follow-up or loose qualification on positive replies, not copy [328]. The next failure lives one stage later. Meetings happen and nothing becomes pipeline because the handoff was a time on a calendar with no context.
+SalesHive's diagnostic still holds: if replies look healthy but meetings booked sit below 1% of sends, the gap is weak follow-up or loose qualification on positive replies, not copy <sup><a href="#sources">[328]</a></sup>. The next failure lives one stage later. Meetings happen and nothing becomes pipeline because the handoff was a time on a calendar with no context.
 
 A handoff that an AE will work includes:
 
@@ -352,16 +352,16 @@ Here is what a healthy outbound motion yields, walked from a named base. Start w
 
 | Stage | Rate (named base) | 500 rows |
 |-------|-------------------|----------|
-| Delivery | 97%+ [17] | ~485 delivered |
-| Reply | 3.43% blended average [325] | ~17 replies |
-| Positive reply | 30-50% of replies [329] | ~5-8 positive |
-| Meetings booked | 3-10 per 1,000 sends [17] | ~2-5 meetings |
+| Delivery | 97%+ <sup><a href="#sources">[17]</a></sup> | ~485 delivered |
+| Reply | 3.43% blended average <sup><a href="#sources">[325]</a></sup> | ~17 replies |
+| Positive reply | 30-50% of replies <sup><a href="#sources">[329]</a></sup> | ~5-8 positive |
+| Meetings booked | 3-10 per 1,000 sends <sup><a href="#sources">[17]</a></sup> | ~2-5 meetings |
 
 A 500-row list produces roughly **2-5 booked meetings**. To land a target of 20 meetings/month, work the meetings-per-1,000 base: at 10 per 1,000 you need about 2,000 rows in motion each month; at 3 per 1,000 you need about 6,700. Plan for **2,000-6,700 quality rows in motion per month** and build a repeatable list-generation loop to feed it.
 
-The list is the asset for a reason: it is the only stage you can scale without raising the reply rate. The lever that changes the reply rate is signal and specificity, not volume. Campaigns that reference a specific buying signal (funding round, leadership change, hiring surge) reach 15-25% reply rates, several times the 3.43% generic baseline [116][332]. Belkins found the same pattern from the other side: small targeted campaigns (50 recipients or fewer) average 5.8% response against 2.1% for lists of 500+ [326].
+The list is the asset for a reason: it is the only stage you can scale without raising the reply rate. The lever that changes the reply rate is signal and specificity, not volume. Campaigns that reference a specific buying signal (funding round, leadership change, hiring surge) reach 15-25% reply rates, several times the 3.43% generic baseline <sup><a href="#sources">[116]</a></sup><sup><a href="#sources">[332]</a></sup>. Belkins found the same pattern from the other side: small targeted campaigns (50 recipients or fewer) average 5.8% response against 2.1% for lists of 500+ <sup><a href="#sources">[326]</a></sup>.
 
-Cold email converts to a deal at about 0.2%, or one deal per ~500 emails [3]. That is why meetings-per-1,000 and AE conversion both have to work. Outbound that books meetings into a 21% opportunity-to-close motion [29] is a pipeline engine. Outbound that books meetings into a 5% close rate is an expensive calendar filler.
+Cold email converts to a deal at about 0.2%, or one deal per ~500 emails <sup><a href="#sources">[3]</a></sup>. That is why meetings-per-1,000 and AE conversion both have to work. Outbound that books meetings into a 21% opportunity-to-close motion <sup><a href="#sources">[29]</a></sup> is a pipeline engine. Outbound that books meetings into a 5% close rate is an expensive calendar filler.
 
 ### Monthly planning from the named base
 
@@ -377,9 +377,9 @@ The difference between the two columns is the entire opportunity in outbound tod
 
 ### SDR economics on the same base
 
-The math only works when the meetings an SDR books cover the SDR's fully-loaded cost. At $139,120/year per SDR [39], a 3-10 meetings-per-1,000 rate means each meeting costs roughly $1,100-$3,800 in SDR comp alone.
+The math only works when the meetings an SDR books cover the SDR's fully-loaded cost. At $139,120/year per SDR <sup><a href="#sources">[39]</a></sup>, a 3-10 meetings-per-1,000 rate means each meeting costs roughly $1,100-$3,800 in SDR comp alone.
 
-Walk a mid-market example. One SDR, 1,000 quality sends per month, 12,000 per year. At the 3-10 meetings-per-1,000 band that is 36-120 meetings per year [17]. Take the midpoint, 78 meetings. If 21% of opportunities close [29] and two-thirds of held meetings become opportunities, you land on the order of 10-16 new customers. At $30,000 ACV that is roughly $300,000-$480,000 in new ARR against $139,120 of SDR cost. At $8,000 ACV the same motion is tight. At $3,000 ACV it is underwater.
+Walk a mid-market example. One SDR, 1,000 quality sends per month, 12,000 per year. At the 3-10 meetings-per-1,000 band that is 36-120 meetings per year <sup><a href="#sources">[17]</a></sup>. Take the midpoint, 78 meetings. If 21% of opportunities close <sup><a href="#sources">[29]</a></sup> and two-thirds of held meetings become opportunities, you land on the order of 10-16 new customers. At $30,000 ACV that is roughly $300,000-$480,000 in new ARR against $139,120 of SDR cost. At $8,000 ACV the same motion is tight. At $3,000 ACV it is underwater.
 
 The inflection point is where ACV covers the SDR cost per meeting and the close rate makes the unit economics positive. Below that inflection, founder-led outbound or agentic augmentation is the only path.
 
@@ -390,7 +390,7 @@ Do not hire an SDR to invent the motion. Hire an SDR to run a motion a founder a
 
 ### What one full-time SDR can actually run
 
-A production mailbox cap of 25-30 cold sends per day [331] and a 3-inbox setup puts a hard ceiling near 300-450 quality sends per week before deliverability breaks. That is not the same as 150 emails per week of mixed activity [341]. Decide which number you are managing. Quality sends with reasons-to-reach take research time. If you demand both 400 researched sends and 40 connects a day, you will get neither.
+A production mailbox cap of 25-30 cold sends per day <sup><a href="#sources">[331]</a></sup> and a 3-inbox setup puts a hard ceiling near 300-450 quality sends per week before deliverability breaks. That is not the same as 150 emails per week of mixed activity <sup><a href="#sources">[341]</a></sup>. Decide which number you are managing. Quality sends with reasons-to-reach take research time. If you demand both 400 researched sends and 40 connects a day, you will get neither.
 
 A workable weekly shape for one outbound SDR:
 
@@ -400,7 +400,7 @@ A workable weekly shape for one outbound SDR:
 | Live send and sequence ops | 6-8 | Launch, pause, bounce triage |
 | Phone on Tier 1 | 6-8 | Follow-up dials, not random dials |
 | Reply handling | 5-6 | Same-day threads, booking, handoff notes |
-| Call review and coaching | 2 | One skill per week [262] |
+| Call review and coaching | 2 | One skill per week <sup><a href="#sources">[262]</a></sup> |
 | Admin and CRM | 2-3 | Hygiene, not "updating Salesforce as the job" |
 
 If research is the first thing cut when the week gets loud, reply rate is the next thing that falls.
@@ -414,7 +414,7 @@ A new SDR does not produce the run-rate in week one. Give them:
 - Week 4-8: full desk, still reviewed.
 - Month 3: judge them on meetings held and accepted opportunities, not on activity volume.
 
-Internally promoted employees stay longer and perform better than external hires in the Sales Acceleration Formula research [262]. If you have a support or CS person who already talks to the ICP, look there before you buy another "hungry closer" who has never prospected.
+Internally promoted employees stay longer and perform better than external hires in the Sales Acceleration Formula research <sup><a href="#sources">[262]</a></sup>. If you have a support or CS person who already talks to the ICP, look there before you buy another "hungry closer" who has never prospected.
 
 ### Pod design
 
@@ -425,7 +425,7 @@ Separate inbound SDR and outbound SDR the moment volume justifies it [see the SD
 
 ## Coaching and the weekly operating rhythm
 
-Great CROs stop managing numbers and start building people and process. Deals are won on systems, not dashboard inspection [336]. The outbound version of that sentence: inspect the sample, not the dashboard.
+Great CROs stop managing numbers and start building people and process. Deals are won on systems, not dashboard inspection <sup><a href="#sources">[336]</a></sup>. The outbound version of that sentence: inspect the sample, not the dashboard.
 
 Once a week, the manager and the SDR sit on:
 
@@ -435,7 +435,7 @@ Once a week, the manager and the SDR sit on:
 - Meetings held versus meetings booked.
 - Opportunities accepted versus meetings held.
 
-Coach one skill at a time [262]. "Be better at outbound" is not a coaching note. "Your first line is a merge field. Rewrite 20 of them from the signal column before Thursday" is a coaching note.
+Coach one skill at a time <sup><a href="#sources">[262]</a></sup>. "Be better at outbound" is not a coaching note. "Your first line is a merge field. Rewrite 20 of them from the signal column before Thursday" is a coaching note.
 
 ### Dashboard that is allowed to exist
 
@@ -453,7 +453,7 @@ Dials, sends, and LinkedIn clicks are supporting diagnostics. Promote them to th
 
 ## Compliance and reputation
 
-Google and Yahoo enforce a complaint rate under 0.3% and expect authenticated mail [17]. Stay under 0.1% if you want a margin of safety [329]. Honor every opt-out the day it arrives. Keep suppression lists in the sending tool and the CRM so a recycled sequence cannot resurrect a "never contact."
+Google and Yahoo enforce a complaint rate under 0.3% and expect authenticated mail <sup><a href="#sources">[17]</a></sup>. Stay under 0.1% if you want a margin of safety <sup><a href="#sources">[329]</a></sup>. Honor every opt-out the day it arrives. Keep suppression lists in the sending tool and the CRM so a recycled sequence cannot resurrect a "never contact."
 
 Honor regional rules before you send:
 
@@ -470,15 +470,15 @@ Do not change copy, list, and infrastructure in the same week. You will not know
 
 | Symptom | First cause to test | Do not do this |
 |---------|---------------------|----------------|
-| Delivery under 97% | Domain, DNS, bounce, blacklist [17][331] | Rewrite the first line |
-| Reply under 2% | List fit or message [329] | Add 3 more mailboxes |
-| Replies high, positives low | Offer, ICP, or ask [329] | Celebrate the reply rate |
-| Positives high, meetings low | Follow-up speed or qualification [328] | Buy more leads |
-| Meetings high, opportunities low | Handoff packet or AE conversion [328] | Fire the SDR motion |
+| Delivery under 97% | Domain, DNS, bounce, blacklist <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[331]</a></sup> | Rewrite the first line |
+| Reply under 2% | List fit or message <sup><a href="#sources">[329]</a></sup> | Add 3 more mailboxes |
+| Replies high, positives low | Offer, ICP, or ask <sup><a href="#sources">[329]</a></sup> | Celebrate the reply rate |
+| Positives high, meetings low | Follow-up speed or qualification <sup><a href="#sources">[328]</a></sup> | Buy more leads |
+| Meetings high, opportunities low | Handoff packet or AE conversion <sup><a href="#sources">[328]</a></sup> | Fire the SDR motion |
 | Opportunities high, wins low | Positioning, pricing, or product | Scale sends |
-| Reply rate falling over 4-6 weeks | Template fatigue [329] | Double the volume of the tired template |
+| Reply rate falling over 4-6 weeks | Template fatigue <sup><a href="#sources">[329]</a></sup> | Double the volume of the tired template |
 
-Templates fatigue. The same email that pulled 12% replies in January pulls 4% in May because half the ICP has now seen it twice. Refresh copy every 4-6 weeks [329]. Refresh the signal source even sooner.
+Templates fatigue. The same email that pulled 12% replies in January pulls 4% in May because half the ICP has now seen it twice. Refresh copy every 4-6 weeks <sup><a href="#sources">[329]</a></sup>. Refresh the signal source even sooner.
 
 
 ## Outbound infrastructure checklist
@@ -507,22 +507,22 @@ OUTBOUND INFRASTRUCTURE CHECKLIST
 ## Why outbound compounds when it works
 
 - **The list is the asset, not the copy.** A 500-row list that matches the ICP beats a 50,000-row spray every time. Every row needs a first name, a verified email, and a one-line reason-to-reach: a trigger, a change, a gap. No reason, no row.
-- **Signal beats sequence.** Job changes, funding rounds, hiring surges, and tech-stack changes build better lists than static firmographics [116].
-- **Personalization is the differentiator, and it is rare.** Only about 5% of senders personalize every email [52]. Signal-driven references lift reply rates from roughly 9% to 18% versus generic templates [327].
-- **The reply is where outbound is won or lost.** A hot reply handled in under 15 minutes is the single biggest lever most teams leave on the table [17].
+- **Signal beats sequence.** Job changes, funding rounds, hiring surges, and tech-stack changes build better lists than static firmographics <sup><a href="#sources">[116]</a></sup>.
+- **Personalization is the differentiator, and it is rare.** Only about 5% of senders personalize every email <sup><a href="#sources">[52]</a></sup>. Signal-driven references lift reply rates from roughly 9% to 18% versus generic templates <sup><a href="#sources">[327]</a></sup>.
+- **The reply is where outbound is won or lost.** A hot reply handled in under 15 minutes is the single biggest lever most teams leave on the table <sup><a href="#sources">[17]</a></sup>.
 - **Volume without signal is noise.** Adding sends to a generic template does not increase meetings linearly. It increases spam complaints and burns domains. The compound lever is signal density per 1,000 sends, not raw send volume.
 - **Domains outlast campaigns.** A burned sending domain takes 60-90 days to recover. Build 3+ domains from day one so you can rotate without stopping the motion.
-- **Phone still works.** Across 570 million interactions, the phone beat email as a way for SDRs to get in touch [341]. Use it where the account is worth the human minute.
+- **Phone still works.** Across 570 million interactions, the phone beat email as a way for SDRs to get in touch <sup><a href="#sources">[341]</a></sup>. Use it where the account is worth the human minute.
 - **Handoff is part of outbound.** A meeting that an AE declines is a wasted yes, not pipeline.
 
 
 ## How to read these numbers
 
-1. **Diagnose before you scale.** Delivery below 97% is a domain or list problem. Reply below 2% is a message or audience problem [329]. Fix the broken stage; adding volume to a broken stage just scales the leak.
-2. **Chase reply rate, not send volume.** The blended average is 3.43% [325]. Signal-driven personalization reaches 15-25% [116]. The gap between generic and specific is the whole opportunity.
+1. **Diagnose before you scale.** Delivery below 97% is a domain or list problem. Reply below 2% is a message or audience problem <sup><a href="#sources">[329]</a></sup>. Fix the broken stage; adding volume to a broken stage just scales the leak.
+2. **Chase reply rate, not send volume.** The blended average is 3.43% <sup><a href="#sources">[325]</a></sup>. Signal-driven personalization reaches 15-25% <sup><a href="#sources">[116]</a></sup>. The gap between generic and specific is the whole opportunity.
 3. **Benchmark against your own trend first.** Industry ranges are the map; your campaign history is the territory. A motion moving from 2% to 4% reply is improving even if it has not hit the top of the range.
-4. **Templates fatigue.** The same email that pulled 12% replies in January pulls 4% in May because half the ICP has now seen it twice. Refresh copy every 4-6 weeks [329].
-5. **Quota attainment is a system metric.** B2B reps hitting quota sat at 27-30% in 2024 [15]. If your whole desk misses, look at ICP, offer, and AE conversion before you look at individual grit.
+4. **Templates fatigue.** The same email that pulled 12% replies in January pulls 4% in May because half the ICP has now seen it twice. Refresh copy every 4-6 weeks <sup><a href="#sources">[329]</a></sup>.
+5. **Quota attainment is a system metric.** B2B reps hitting quota sat at 27-30% in 2024 <sup><a href="#sources">[15]</a></sup>. If your whole desk misses, look at ICP, offer, and AE conversion before you look at individual grit.
 
 
 ## Failure modes
@@ -530,19 +530,19 @@ OUTBOUND INFRASTRUCTURE CHECKLIST
 The two places outbound dies most often are the same every time:
 
 - **Scaling volume before proving the message.** You end up with 10x the noise and a burned domain. The 300+ sends per variant rule exists to stop this.
-- **No handoff discipline.** Meetings get booked but nobody qualifies them, nothing closes, and the motion looks broken when it was only unfinished. SalesHive's diagnostic: if replies look healthy but meetings booked sit below 1% of sends, the gap is weak follow-up or loose qualification on positive replies, not copy [328].
+- **No handoff discipline.** Meetings get booked but nobody qualifies them, nothing closes, and the motion looks broken when it was only unfinished. SalesHive's diagnostic: if replies look healthy but meetings booked sit below 1% of sends, the gap is weak follow-up or loose qualification on positive replies, not copy <sup><a href="#sources">[328]</a></sup>.
 
 Other ways it breaks, less common but just as fatal:
 
-- **Sending without warmup.** The first 100 emails go to spam, the next 1,000 go to spam by association, and the domain reputation needs about three months to recover [329].
-- **Cosmetic personalization.** A merge-field opener like "Hi [first name], hope the team at [company] is doing well" is detected as templated in two seconds and earns a sub-1% reply rate [329].
-- **Pitching in the first email.** The first cold email is an opening question, not a brochure [329].
+- **Sending without warmup.** The first 100 emails go to spam, the next 1,000 go to spam by association, and the domain reputation needs about three months to recover <sup><a href="#sources">[329]</a></sup>.
+- **Cosmetic personalization.** A merge-field opener like "Hi [first name], hope the team at [company] is doing well" is detected as templated in two seconds and earns a sub-1% reply rate <sup><a href="#sources">[329]</a></sup>.
+- **Pitching in the first email.** The first cold email is an opening question, not a brochure <sup><a href="#sources">[329]</a></sup>.
 - **Optimizing subject lines while the offer is broken.** Polish on a dead product changes nothing.
 - **Buying a list without reasons-to-reach.** Cold spray with no personalization gets no replies, and it burns the domain's reputation.
-- **Hiring SDRs to invent ICP.** The first sales hire's job is to accelerate a motion that already works, not to discover product-market fit in a sequence tool [262].
-- **Activity scoreboards.** 150 emails a week at 2.8% reply is a busy week, not a good week [341].
-- **Calling without a reason.** Phone works as a follow-up on Tier 1 [14][341]. Random dials train gatekeepers.
-- **Ignoring complaints.** Crossing 0.3% is how Google and Yahoo end the program for you [17].
+- **Hiring SDRs to invent ICP.** The first sales hire's job is to accelerate a motion that already works, not to discover product-market fit in a sequence tool <sup><a href="#sources">[262]</a></sup>.
+- **Activity scoreboards.** 150 emails a week at 2.8% reply is a busy week, not a good week <sup><a href="#sources">[341]</a></sup>.
+- **Calling without a reason.** Phone works as a follow-up on Tier 1 <sup><a href="#sources">[14]</a></sup><sup><a href="#sources">[341]</a></sup>. Random dials train gatekeepers.
+- **Ignoring complaints.** Crossing 0.3% is how Google and Yahoo end the program for you <sup><a href="#sources">[17]</a></sup>.
 - **Letting inbound drown outbound.** A blended desk will always service the inbound SLA first. Protect outbound hours or split the role.
 
 
@@ -552,9 +552,9 @@ The channel is the same; the knobs differ by stage and deal size.
 
 - **Seed-stage (under $1M ARR, sub-$5k ACV).** Founder-led outbound works on a small manual list because the labor is free. Keep it under 100 rows and run one variant. Do not hire an SDR here. Compress the sequence to 10-14 days. The founder should be able to name every account.
 - **Early team (first SDR, ~$5k-$25k ACV).** One proven sequence. One sending domain family. Manager reviews every Tier 1 first line. Judge month 3 on held meetings and AE accepts, not on send volume.
-- **Mid-market (roughly $1M-$30M ARR, $5k-$50k ACV).** The full motion runs as written: dedicated sender domains, a 500-row base in motion, and the 3-10 meetings-per-1,000 score [17]. Split inbound and outbound when the queue fights the prospecting block. Add conversation intelligence so coaching has tape, not folklore [305].
+- **Mid-market (roughly $1M-$30M ARR, $5k-$50k ACV).** The full motion runs as written: dedicated sender domains, a 500-row base in motion, and the 3-10 meetings-per-1,000 score <sup><a href="#sources">[17]</a></sup>. Split inbound and outbound when the queue fights the prospecting block. Add conversation intelligence so coaching has tape, not folklore <sup><a href="#sources">[305]</a></sup>.
 - **Enterprise ($30M+ ARR, $50k+ ACV).** The list becomes tens of accounts with deep research each. The sequence branches by stakeholder, and the score is deal rate, not meetings booked. Cadence stretches to 45-60 days. Multi-thread early. Pair with [ABM](/docs/channels/abm) rather than running a separate spray motion against the same named accounts.
-- **International.** Do not copy a US sequence into DACH, UK public sector, or Japan. Buying norms change the first touch and the ask [338]. Localize the reason-to-reach and the compliance layer before you localize the signature.
+- **International.** Do not copy a US sequence into DACH, UK public sector, or Japan. Buying norms change the first touch and the ask <sup><a href="#sources">[338]</a></sup>. Localize the reason-to-reach and the compliance layer before you localize the signature.
 
 ### Founder-led outbound
 
@@ -565,7 +565,7 @@ The founder writes the first 50 emails because only the founder knows which obje
 
 **Day 30.** Domains authenticated. Warmup complete or nearly complete. 200-300 rows with reasons-to-reach. One sequence live. Reply rate is a noisy number. Do not scale.
 
-**Day 90.** 300+ sends on the winning variant. You know whether you live above or below 3 meetings per 1,000 [17]. Bounce and complaint rates are inside limits [17][329]. AE accept rate is tracked. Copy has been refreshed at least once if the first variant aged [329].
+**Day 90.** 300+ sends on the winning variant. You know whether you live above or below 3 meetings per 1,000 <sup><a href="#sources">[17]</a></sup>. Bounce and complaint rates are inside limits <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[329]</a></sup>. AE accept rate is tracked. Copy has been refreshed at least once if the first variant aged <sup><a href="#sources">[329]</a></sup>.
 
 **Day 180.** List-generation is a loop, not a heroic weekend. Two or more sending domains in rotation. A manager inspects tape weekly. Pipeline from outbound is visible in the forecast, not just in a sequence tool. If those are not true, you have a campaign, not a channel.
 
@@ -583,9 +583,9 @@ Given: a tiered list, a value hypothesis, authenticated domains.
 1. Agent drafts reasons-to-reach from named signals. Human rejects any row
    without a source they can defend.
 2. Agent fills Tier 2 sequence slots from the approved messaging claim. Human approves Tier 1 first lines.
-3. Agent enforces send caps (25-30/inbox/day) and warmup status [331][333].
-4. Agent pauses any domain with hard bounce above 2% or complaints above 0.1% [17][329].
-5. Agent routes positive replies to the human owner within 15 minutes [17].
+3. Agent enforces send caps (25-30/inbox/day) and warmup status <sup><a href="#sources">[331]</a></sup><sup><a href="#sources">[333]</a></sup>.
+4. Agent pauses any domain with hard bounce above 2% or complaints above 0.1% <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[329]</a></sup>.
+5. Agent routes positive replies to the human owner within 15 minutes <sup><a href="#sources">[17]</a></sup>.
 6. Human books, writes the AE handoff, and owns the live meeting.
 Never send an unverified email.
 Never invent a signal.

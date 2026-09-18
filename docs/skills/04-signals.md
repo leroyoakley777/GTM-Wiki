@@ -24,7 +24,7 @@ Run signals when you have a target account list and want to know who to reach ri
 - A buyer changed jobs into a role that owns your category.
 - An account starts researching a problem you solve, and the intent is time-bound.
 
-Do not run it when you have no ICP. A signal on an account outside your ICP is noise. Signal work compounds only on a defined target list, the same way [prospecting](./prospecting) requires the ICP before list-building [1].
+Do not run it when you have no ICP. A signal on an account outside your ICP is noise. Signal work compounds only on a defined target list, the same way [prospecting](./prospecting) requires the ICP before list-building <sup><a href="#sources">[1]</a></sup>.
 
 ## Definition
 
@@ -32,9 +32,9 @@ Signals turns market events into a ranked list of accounts to reach now. It comb
 
 ## Why it matters
 
-Timing is the biggest lever in outbound. A defined ICP drives 68% higher win rates than an undefined one [1], but the ICP alone does not say when to call. Intent data answers the when. Organizations that prioritize by intent see 21.3% of targeted accounts convert versus 8.4% for the rest, and 71% of B2B teams report using intent data [2]. Accounts that show intent are closer to a decision, so they reply more and close more.
+Timing is the biggest lever in outbound. A defined ICP drives 68% higher win rates than an undefined one <sup><a href="#sources">[1]</a></sup>, but the ICP alone does not say when to call. Intent data answers the when. Organizations that prioritize by intent see 21.3% of targeted accounts convert versus 8.4% for the rest, and 71% of B2B teams report using intent data <sup><a href="#sources">[2]</a></sup>. Accounts that show intent are closer to a decision, so they reply more and close more.
 
-The cost of ignoring signals is a cold list. A signal-based, personalized outreach message reaches 15-25% reply rates versus low single digits for a generic blast [3]. The same effort spent on accounts with no signal buys spam and burns sender reputation [4].
+The cost of ignoring signals is a cold list. A signal-based, personalized outreach message reaches 15-25% reply rates versus low single digits for a generic blast <sup><a href="#sources">[3]</a></sup>. The same effort spent on accounts with no signal buys spam and burns sender reputation <sup><a href="#sources">[4]</a></sup>.
 
 ## Mechanics
 
@@ -42,10 +42,10 @@ The cost of ignoring signals is a cold list. A signal-based, personalized outrea
 
 Write down the events that mean intent for your category. The reliable set varies by motion, but it clusters into four families:
 
-- **Firmographic triggers.** Funding, hiring in the buyer's function, a leadership change, an expansion, a new location. These say the company is growing or reorganizing in a way that creates budget [1].
-- **Contact-level signals.** A target-account buyer views your site, visits a pricing or comparison page, downloads a resource, or opens a sequence. These say the person is actively researching [5].
-- **Category intent.** The account searches for your problem, engages with competitor content, or appears in intent-data sources. These say the category is on their mind [2].
-- **Job-change signals.** A buyer who owned your category moves into the same role at a new company. The buying need travels with them [5].
+- **Firmographic triggers.** Funding, hiring in the buyer's function, a leadership change, an expansion, a new location. These say the company is growing or reorganizing in a way that creates budget <sup><a href="#sources">[1]</a></sup>.
+- **Contact-level signals.** A target-account buyer views your site, visits a pricing or comparison page, downloads a resource, or opens a sequence. These say the person is actively researching <sup><a href="#sources">[5]</a></sup>.
+- **Category intent.** The account searches for your problem, engages with competitor content, or appears in intent-data sources. These say the category is on their mind <sup><a href="#sources">[2]</a></sup>.
+- **Job-change signals.** A buyer who owned your category moves into the same role at a new company. The buying need travels with them <sup><a href="#sources">[5]</a></sup>.
 
 Keep the set to 10-15 named events per segment. A signal set you cannot name is a data feed, not a signal program.
 
@@ -53,7 +53,7 @@ Keep the set to 10-15 named events per segment. A signal set you cannot name is 
 
 Every signal fires against your ICP. Score each triggered account on the three inputs:
 
-- **Fit.** Does the account match firmographics and buyer titles from the ICP [1]?
+- **Fit.** Does the account match firmographics and buyer titles from the ICP <sup><a href="#sources">[1]</a></sup>?
 - **Intent strength.** Is the event a direct buying signal (pricing page, category research) or a weak one (company-wide hire)?
 - **Recency.** Is the event this week, this month, or stale? Decay intent fast; a signal from 90 days ago is not a reason to call today.
 
@@ -67,14 +67,14 @@ The signal is the personalization. Fill the outreach with the named event and it
 - **State the implication.** "Most companies that size hit [named problem] around that milestone, and it costs [quantified pain]."
 - **Offer one useful thing.** A benchmark, an observation, or an ungated resource tied to the event.
 
-A signal-led message reaches 15-25% reply rates [3]. Token-swapping a first name into a template is not personalization; naming a real event is.
+A signal-led message reaches 15-25% reply rates <sup><a href="#sources">[3]</a></sup>. Token-swapping a first name into a template is not personalization; naming a real event is.
 
 ### 4. Route to the right owner and act fast
 
 Decide in advance who works each signal tier:
 
-- **Tier 1: strong intent + high fit.** Reach within 24 hours, human-led for high-value accounts [5].
-- **Tier 2: real signal + fit.** Sequence the account with an agent-led first touch [3].
+- **Tier 1: strong intent + high fit.** Reach within 24 hours, human-led for high-value accounts <sup><a href="#sources">[5]</a></sup>.
+- **Tier 2: real signal + fit.** Sequence the account with an agent-led first touch <sup><a href="#sources">[3]</a></sup>.
 - **Tier 3: weak or stale signal.** Hold, do not burn a touch. Re-score when a new event fires.
 
 Speed matters because intent cools. Accounts that research in a window buy in that window. A signal routed a week late is a signal lost.
@@ -103,22 +103,22 @@ A Series B SaaS sells to mid-market heads of revenue operations. Its ICP is comp
 
 In a month, 38 accounts trigger. Scoring by fit, strength, and recency routes 9 to Tier 1 and 14 to Tier 2; 15 are held. The 9 Tier 1 accounts get a human-led touch within 24 hours naming the event. The 14 Tier 2 accounts enter a signal-led sequence.
 
-Against a 20% reply rate on signal-led outreach [3], the 23 routed accounts should produce roughly 4-5 replies, of which a share book meetings. The 15 held accounts cost nothing. Had the team skipped scoring and emailed all 38, the extra 15 touches would add noise and spam risk [4] for accounts that do not fit or are not close. The scorecard is the difference between intent and list noise.
+Against a 20% reply rate on signal-led outreach <sup><a href="#sources">[3]</a></sup>, the 23 routed accounts should produce roughly 4-5 replies, of which a share book meetings. The 15 held accounts cost nothing. Had the team skipped scoring and emailed all 38, the extra 15 touches would add noise and spam risk <sup><a href="#sources">[4]</a></sup> for accounts that do not fit or are not close. The scorecard is the difference between intent and list noise.
 
 ## Failure modes and how to fix them
 
-- **Signals without an ICP.** You chase events on accounts that never buy. Fix: score fit first and hard. A low-fit account with a loud signal is still low-fit [1].
+- **Signals without an ICP.** You chase events on accounts that never buy. Fix: score fit first and hard. A low-fit account with a loud signal is still low-fit <sup><a href="#sources">[1]</a></sup>.
 - **Every event is a signal.** Company-wide noise routed as buying intent. Fix: name the 10-15 events that mean intent for your category, prune the rest.
-- **No decay.** A 6-month-old signal treated as a reason to call today. Fix: set a recency window and re-score; stale intent is not intent [5].
-- **Token-swap personalization.** You swap the first name and call it personal. Fix: name the real event and its implication, or do not claim personalization [3].
+- **No decay.** A 6-month-old signal treated as a reason to call today. Fix: set a recency window and re-score; stale intent is not intent <sup><a href="#sources">[5]</a></sup>.
+- **Token-swap personalization.** You swap the first name and call it personal. Fix: name the real event and its implication, or do not claim personalization <sup><a href="#sources">[3]</a></sup>.
 - **Slow routing.** Intent cools in days. Fix: tier with a 24-hour rule for Tier 1 and let an agent run Tier 2.
 - **Never closing the loop.** You pay for a signal feed and never measure which events convert. Fix: track signal-to-meeting per event type and prune the losers.
 
 ## How the skill differs by segment and maturity
 
-- **By segment.** SMB signals are short and product-led: free signups, trial usage, support activity. Enterprise signals are account-led: funding, hiring, committee research, category intent across a buying group [6]. You need the right family for the segment.
+- **By segment.** SMB signals are short and product-led: free signups, trial usage, support activity. Enterprise signals are account-led: funding, hiring, committee research, category intent across a buying group <sup><a href="#sources">[6]</a></sup>. You need the right family for the segment.
 - **By maturity.** A new motion should watch a narrow signal set on a small list and prove the signal-to-meeting link before scaling. A mature motion can run a live intent feed and let an agent score and route at volume.
-- **By channel pairing.** Signals feed [prospecting](./prospecting) for the list, [outbound](./outbound) for the message, and [ABM](./abm) for the high-value accounts that earn a coordinated program [7].
+- **By channel pairing.** Signals feed [prospecting](./prospecting) for the list, [outbound](./outbound) for the message, and [ABM](./abm) for the high-value accounts that earn a coordinated program <sup><a href="#sources">[7]</a></sup>.
 
 ## Agentic layer
 

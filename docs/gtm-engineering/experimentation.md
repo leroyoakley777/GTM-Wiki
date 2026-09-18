@@ -14,12 +14,12 @@ Experimentation in GTM is controlled comparison, not a weekly redesign. Change o
 ## Rules of a fair test
 
 1. **One variable.** First line *or* ask *or* list slice. Not all three in one weekend.
-2. **Sample floor.** 300+ sends per variant before you pick a winner [329].
-3. **Same infrastructure.** Do not test copy on a cold domain against copy on a warmed domain [333].
-4. **Primary metric.** Meetings held per 1,000 sends, with positive reply as the diagnostic [17].
+2. **Sample floor.** 300+ sends per variant before you pick a winner <sup><a href="#sources">[329]</a></sup>.
+3. **Same infrastructure.** Do not test copy on a cold domain against copy on a warmed domain <sup><a href="#sources">[333]</a></sup>.
+4. **Primary metric.** Meetings held per 1,000 sends, with positive reply as the diagnostic <sup><a href="#sources">[17]</a></sup>.
 5. **Kill rule.** Written in advance. "Stop B if complaints rise" is a rule. "See how we feel" is not.
 
-Templates fatigue in 4-6 weeks [329]. A winning variant is a perishable. Schedule the next test before the current one dies of exposure.
+Templates fatigue in 4-6 weeks <sup><a href="#sources">[329]</a></sup>. A winning variant is a perishable. Schedule the next test before the current one dies of exposure.
 
 ## What is worth testing
 
@@ -27,10 +27,10 @@ Templates fatigue in 4-6 weeks [329]. A winning variant is a perishable. Schedul
 |-------|------|-----------------|
 | List | Signal A vs signal B on the same ICP | Random purchased lists |
 | Message | Two first lines, same ask | 12 subject lines on a dead offer |
-| Sequence | With breakup vs without [329] | 15-touch "cadence innovation" |
-| Channel | Email-only vs email plus phone on Tier 1 [14][341] | Five new tools at once |
+| Sequence | With breakup vs without <sup><a href="#sources">[329]</a></sup> | 15-touch "cadence innovation" |
+| Channel | Email-only vs email plus phone on Tier 1 <sup><a href="#sources">[14]</a></sup><sup><a href="#sources">[341]</a></sup> | Five new tools at once |
 
-Small targeted campaigns of 50 or fewer have posted 5.8% response against 2.1% on 500+ recipient lists [326]. That is a list-design finding. Treat it as a constraint on how you sample, not as permission to skip the 300-send floor on copy tests.
+Small targeted campaigns of 50 or fewer have posted 5.8% response against 2.1% on 500+ recipient lists <sup><a href="#sources">[326]</a></sup>. That is a list-design finding. Treat it as a constraint on how you sample, not as permission to skip the 300-send floor on copy tests.
 
 ## How this differs by stage
 
@@ -42,7 +42,7 @@ Small targeted campaigns of 50 or fewer have posted 5.8% response against 2.1% o
 
 - **Declaring victory at 40 sends.**
 - **Changing the list mid-test.**
-- **Optimizing opens.** MPP made that metric relative [330].
+- **Optimizing opens.** MPP made that metric relative <sup><a href="#sources">[330]</a></sup>.
 - **Running tests on the only production domain.**
 
 ## Agentic layer

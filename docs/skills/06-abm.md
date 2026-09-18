@@ -21,8 +21,8 @@ Run ABM when:
 
 - A small set of accounts would make a disproportionate difference to revenue this year.
 - Deal size is large enough that the per-account spend of ads, events, and sales time pays back on a single win.
-- A buying group of 7-8 or more people is involved, so a single-contact motion will not cover the account [1].
-- You have intent data that says which accounts are active now [2].
+- A buying group of 7-8 or more people is involved, so a single-contact motion will not cover the account <sup><a href="#sources">[1]</a></sup>.
+- You have intent data that says which accounts are active now <sup><a href="#sources">[2]</a></sup>.
 
 Do not run it as a label for all demand gen. ABM concentrates resources by design. A 5,000-account "ABM" list drops that concentration and merely segments accounts under a fancier name. The economics hold only when account value justifies the per-account spend.
 
@@ -32,9 +32,9 @@ ABM is a coordinated, account-typed program that treats each target account as a
 
 ## Why it matters
 
-Concentration works. Engaging buying groups drives 2-3x higher win rates and larger deals than one-contact coverage [3]. ABM programs report win rates around 45% versus 18% for non-ABM demand gen [4], and organizations that practice ABM attribute 86% of increased win rates to it [5]. The reason is not magic: a coordinated program reaches the whole buying group with a consistent claim, while a lead-based motion reaches whoever raises a hand.
+Concentration works. Engaging buying groups drives 2-3x higher win rates and larger deals than one-contact coverage <sup><a href="#sources">[3]</a></sup>. ABM programs report win rates around 45% versus 18% for non-ABM demand gen <sup><a href="#sources">[4]</a></sup>, and organizations that practice ABM attribute 86% of increased win rates to it <sup><a href="#sources">[5]</a></sup>. The reason is not magic: a coordinated program reaches the whole buying group with a consistent claim, while a lead-based motion reaches whoever raises a hand.
 
-The economics follow the win rate. If an account is worth $100K in ACV and a coordinated program lifts the win rate from 18% to 45%, the lift in expected value pays for a lot of ads and sales time on that one account [4]. That is why ABM is a concentration bet, not a breadth play.
+The economics follow the win rate. If an account is worth $100K in ACV and a coordinated program lifts the win rate from 18% to 45%, the lift in expected value pays for a lot of ads and sales time on that one account <sup><a href="#sources">[4]</a></sup>. That is why ABM is a concentration bet, not a breadth play.
 
 ## Mechanics
 
@@ -42,39 +42,39 @@ The economics follow the win rate. If an account is worth $100K in ACV and a coo
 
 Select the target list from your ICP and your pipeline economics. The bar is: an account worth pursuing as a single bet. Score candidates on:
 
-- **Fit.** Firmographics and buyer titles match the ICP [6].
+- **Fit.** Firmographics and buyer titles match the ICP <sup><a href="#sources">[6]</a></sup>.
 - **Value.** ACV, expansion potential, and strategic weight justify per-account spend.
-- **Intent.** The account is showing current buying signals, from the intent feed [2].
+- **Intent.** The account is showing current buying signals, from the intent feed <sup><a href="#sources">[2]</a></sup>.
 
-Keep the list tight. 57% of B2B teams target 1,000 or fewer ABM accounts [7], and 29% focus on 101-500 [8]. A smaller, well-selected list beats a larger, scattered one because the coordination budget is finite.
+Keep the list tight. 57% of B2B teams target 1,000 or fewer ABM accounts <sup><a href="#sources">[7]</a></sup>, and 29% focus on 101-500 <sup><a href="#sources">[8]</a></sup>. A smaller, well-selected list beats a larger, scattered one because the coordination budget is finite.
 
 ### 2. Tier the accounts
 
 Not every target account earns the same treatment. Tier before you spend:
 
-- **Tier 1, one-to-one.** A handful of accounts, 20-100, each run as a bespoke campaign: custom account plan, named buying group, tailored content, events, and executive involvement [9].
-- **Tier 2, one-to-few.** Clusters of 20-100 accounts that share traits, run as a group with a shared narrative and personalized touches [9].
-- **Tier 3, one-to-many.** Hundreds to thousands, reached with intent-based ads and tailored web personalization at scale [9].
+- **Tier 1, one-to-one.** A handful of accounts, 20-100, each run as a bespoke campaign: custom account plan, named buying group, tailored content, events, and executive involvement <sup><a href="#sources">[9]</a></sup>.
+- **Tier 2, one-to-few.** Clusters of 20-100 accounts that share traits, run as a group with a shared narrative and personalized touches <sup><a href="#sources">[9]</a></sup>.
+- **Tier 3, one-to-many.** Hundreds to thousands, reached with intent-based ads and tailored web personalization at scale <sup><a href="#sources">[9]</a></sup>.
 
 The tier decides the spend and the depth. Tier 1 earns a human-led program; Tier 3 earns an automated one.
 
 ### 3. Map the buying group
 
-Every account has a buying group, and the group is bigger than the champion you know. Buying groups average 7-8 people [1], and the group spans the economic buyer, the user, and the technical evaluator [6]. For each target account, name:
+Every account has a buying group, and the group is bigger than the champion you know. Buying groups average 7-8 people <sup><a href="#sources">[1]</a></sup>, and the group spans the economic buyer, the user, and the technical evaluator <sup><a href="#sources">[6]</a></sup>. For each target account, name:
 
 - **The economic buyer.** The person who owns the budget and the outcome.
 - **The champion.** The user or owner who wants the change and will argue for it internally.
 - **The technical evaluator.** The person who checks whether it works and whether it fits.
 - **The blocker.** The person who loses if the change happens and will resist it.
 
-Engaging the full group drives the 2-3x win-rate lift [3]. A champion alone stalls when the group does not agree.
+Engaging the full group drives the 2-3x win-rate lift <sup><a href="#sources">[3]</a></sup>. A champion alone stalls when the group does not agree.
 
 ### 4. Write the account plan and the coordinated touches
 
 For each Tier 1 account, write a one-page plan: the value hypothesis, the buying group, the competitive frame, the objection, and the proof. Then coordinate the touches so the account sees one consistent claim across every surface:
 
-- **Ads and web.** Intent-based ads reach the group; the site personalizes the claim to the account [2].
-- **Email and outbound.** Signal-led outreach names the account's situation, not a generic pitch [10].
+- **Ads and web.** Intent-based ads reach the group; the site personalizes the claim to the account <sup><a href="#sources">[2]</a></sup>.
+- **Email and outbound.** Signal-led outreach names the account's situation, not a generic pitch <sup><a href="#sources">[10]</a></sup>.
 - **Sales.** The rep works the buying group with the account plan, not a script.
 - **Events and content.** The specific asset the account needs to make its internal case.
 
@@ -88,7 +88,7 @@ The ABM metric is the account's movement toward a deal, not the number of leads 
 - **Pipeline and velocity.** Whether the account entered pipeline and how fast it is moving.
 - **Win rate and deal size.** Whether the coordinated program closed the account and for how much.
 
-Compare ABM accounts against non-ABM accounts on win rate and deal size to justify the concentration [4].
+Compare ABM accounts against non-ABM accounts on win rate and deal size to justify the concentration <sup><a href="#sources">[4]</a></sup>.
 
 ## Artifact: the account plan template
 
@@ -118,22 +118,22 @@ A B2B SaaS sells a revenue-operations platform to mid-market and enterprise acco
 
 For the 8 Tier 1 accounts it writes account plans and maps buying groups of 7-8 people each. It runs intent-based ads to the named accounts, personalizes the site claim per account, sequences signal-led email to the buying group, and puts the account plan in each rep's hands. The 24 Tier 2 accounts run as shared-narrative clusters. The 28 Tier 3 accounts get intent ads and web personalization only.
 
-Against a 45% win rate on ABM accounts versus 18% on non-ABM [4], the 8 Tier 1 accounts alone carry high expected value: at $120K ACV, each additional percentage point of win rate on those 8 accounts is worth nearly $10K in expected revenue. If even 3 of the 8 close against a baseline of 1, the coordinated program pays for the ads, the content, and the sales time many times over. The comparison to non-ABM accounts is the proof the concentration earned its cost.
+Against a 45% win rate on ABM accounts versus 18% on non-ABM <sup><a href="#sources">[4]</a></sup>, the 8 Tier 1 accounts alone carry high expected value: at $120K ACV, each additional percentage point of win rate on those 8 accounts is worth nearly $10K in expected revenue. If even 3 of the 8 close against a baseline of 1, the coordinated program pays for the ads, the content, and the sales time many times over. The comparison to non-ABM accounts is the proof the concentration earned its cost.
 
 ## Failure modes and how to fix them
 
-- **ABM as a label.** You rename demand gen and call it ABM, with no account plan and no buying-group map. Fix: tier the accounts, write the plan, and coordinate the touches, or it is not ABM [9].
-- **One-contact coverage.** You reach the champion and the group never agrees. Fix: map the 7-8 person group and engage each role with what it needs to agree [1].
-- **No intent discipline.** You spend on accounts that are not active. Fix: gate the list on current intent and re-score before each spend cycle [2].
-- **Volume list.** A 5,000-account "ABM" program that spreads the budget thin. Fix: cut to the accounts the economics justify and go deep [7].
-- **Measuring leads, not accounts.** You count touches instead of account progress. Fix: track engagement, pipeline, and win rate per account [4].
+- **ABM as a label.** You rename demand gen and call it ABM, with no account plan and no buying-group map. Fix: tier the accounts, write the plan, and coordinate the touches, or it is not ABM <sup><a href="#sources">[9]</a></sup>.
+- **One-contact coverage.** You reach the champion and the group never agrees. Fix: map the 7-8 person group and engage each role with what it needs to agree <sup><a href="#sources">[1]</a></sup>.
+- **No intent discipline.** You spend on accounts that are not active. Fix: gate the list on current intent and re-score before each spend cycle <sup><a href="#sources">[2]</a></sup>.
+- **Volume list.** A 5,000-account "ABM" program that spreads the budget thin. Fix: cut to the accounts the economics justify and go deep <sup><a href="#sources">[7]</a></sup>.
+- **Measuring leads, not accounts.** You count touches instead of account progress. Fix: track engagement, pipeline, and win rate per account <sup><a href="#sources">[4]</a></sup>.
 - **No consistency.** The ad, the email, and the call tell three different stories. Fix: one claim across every surface, from the account plan.
 
 ## How the skill differs by segment and maturity
 
-- **By segment.** Mid-market accounts run on intent, web personalization, and a leaner plan. Enterprise accounts run on buying-group mapping, committees of 11-17 people [1], and executive involvement. Match the depth to the account value.
+- **By segment.** Mid-market accounts run on intent, web personalization, and a leaner plan. Enterprise accounts run on buying-group mapping, committees of 11-17 people <sup><a href="#sources">[1]</a></sup>, and executive involvement. Match the depth to the account value.
 - **By maturity.** A new ABM motion should start with 8-10 Tier 1 accounts and prove the win-rate lift before scaling tiers. A mature motion can run all three tiers with the agent executing Tier 2 and Tier 3.
-- **By channel pairing.** ABM consumes the [target list](./prospecting) and [signals](./signals) for intent, and it feeds the [outbound](./outbound) and [sales process](../flows/sales-process-meddpicc) for the account close. Run the account plan with the same claim the messaging foundation sets [11].
+- **By channel pairing.** ABM consumes the [target list](./prospecting) and [signals](./signals) for intent, and it feeds the [outbound](./outbound) and [sales process](../flows/sales-process-meddpicc) for the account close. Run the account plan with the same claim the messaging foundation sets <sup><a href="#sources">[11]</a></sup>.
 
 ## Agentic layer
 

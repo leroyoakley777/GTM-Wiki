@@ -167,7 +167,7 @@ jumped from 45 to 170 (Warmer.ai, 2026 , vendor source).
 
 The second Warmer.ai case reinforces the same point at a different
 scale. A lead-generation agency saw reply move from 2.3% to 11.7%, a
-409% improvement, and booked 47 qualified meetings [183] (Warmer.ai,
+409% improvement, and booked 47 qualified meetings <sup><a href="#sources">[183]</a></sup> (Warmer.ai,
 2026, vendor source).
 
 Both cases are vendor-sourced and self-reported. Warmer.ai sells AI
@@ -323,7 +323,7 @@ produces a bad motion regardless of copy.
 
 **Generic copy.** Template email at template volume returns template
 numbers. The agency A/B above is the proof: generic replied at 4.7%,
-personalized at 13.2% (Warmer.ai, 2026, vendor source) [183]. Fix: personal
+personalized at 13.2% (Warmer.ai, 2026, vendor source) <sup><a href="#sources">[183]</a></sup>. Fix: personal
 research on the top 20% of the list, a signal-specific line on the rest.
 
 **No follow-up cadence.** Ambition emailed 578 prospects and got 6
@@ -462,11 +462,11 @@ email.
 
 **Step 5: run and measure.** Send to the 100 perfect-fit rows first.
 At 300+ sends per variant, the reply rate was 4.1%, above the 3.43%
-average (Woodpecker, 2026) [2]. Delivery held at 98%, above the 97%
-gate (Instantly, 2026) [17]. Meetings booked ran 3–4 per 1,000 sends,
-inside the healthy 3–10 band (Instantly, 2026) [325]. Positive-reply
+average (Woodpecker, 2026) <sup><a href="#sources">[2]</a></sup>. Delivery held at 98%, above the 97%
+gate (Instantly, 2026) <sup><a href="#sources">[17]</a></sup>. Meetings booked ran 3–4 per 1,000 sends,
+inside the healthy 3–10 band (Instantly, 2026) <sup><a href="#sources">[325]</a></sup>. Positive-reply
 rate ran about 35% of replies, above the 30% line (SalesHive, 2025)
-[192]. Keep the winning
+<sup><a href="#sources">[192]</a></sup>. Keep the winning
 variant and scale to the remaining 400 rows.
 
 **Step 6: handoff.** Write the meeting standard (a GC with the problem

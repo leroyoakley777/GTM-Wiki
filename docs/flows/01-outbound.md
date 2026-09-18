@@ -84,7 +84,7 @@ small enough to bound. If you cannot name the buyer, any list you build
 is spray.
 
 ACV roughly $5k and above. The motion has to pay for the human effort. A
-single SDR runs about $139,120/year fully loaded [39]. If the average
+single SDR runs about $139,120/year fully loaded <sup><a href="#sources">[39]</a></sup>. If the average
 deal clears well under $5k ACV, the math does not work and you should
 stop here.
 
@@ -217,7 +217,7 @@ Never start a fresh domain at full volume. Ramp it.
 
 Start a fresh domain with 2+ weeks of warmup before the first send, and
 hold a hard cap of 25-50 emails/day per domain during launch, scaling
-10-20% per week while delivery holds [17]. A burned domain is lost
+10-20% per week while delivery holds <sup><a href="#sources">[17]</a></sup>. A burned domain is lost
 forever. You do not get to un-burn it.
 
 **Gate:** SPF, DKIM, and DMARC all pass, warmup has run 2+ weeks, and
@@ -229,7 +229,7 @@ the sending cap is configured. Send nothing until all three are true.
 
 The sequence is a conversation opened in writing. Keep each email in
 the 50-125 word range. That length earns roughly 50% higher reply rates
-than longer formats [40]. One ask per email. Value first. Write like a
+than longer formats <sup><a href="#sources">[40]</a></sup>. One ask per email. Value first. Write like a
 human.
 
 This step's artifact is a sequence contract, not a set of sample
@@ -270,7 +270,7 @@ Value first. The email should be useful even if they never reply.
 
 A specific CTA beats a generic one. "Open to a 15-minute chat next
 week about the hiring-surge problem you mentioned" outperforms "let's
-talk" [40].
+talk" <sup><a href="#sources">[40]</a></sup>.
 
 **Gate:** the sequence is written, every email under 90 words, one ask
 each, and at least one variant ready to test. Do not automate or scale
@@ -288,16 +288,16 @@ scaling decision on a proven message.
 
 | Metric | Healthy range | Source (as of) | What it tells you |
 |---|---|---|---|
-| Delivery rate | above 97% | Instantly, 2025 [17] | Domain health plus list hygiene |
-| Open rate (cold) | 16.5% avg | OptifAI, 2026 [5] | Subject line plus sender trust |
-| Reply rate (cold email, avg) | 3.43% | Woodpecker, 2026 [2] | Message relevance |
-| Reply rate (cold email, good / excellent) | 5-10% / 10%+ | Woodpecker, 2026 [2] | Message relevance |
-| Reply rate (blended B2B) | 5.8%, down from 6.8% in 2023 | SalesHive, 2025 [1] | Single-channel saturation trend |
-| Reply rate (B2B SaaS) | 3-8% | SalesHive, 2025 [1] | SaaS-specific baseline |
-| Positive reply rate | above 30% of replies | SalesHive, 2025 [1] | ICP fit: replies worth pursuing |
-| Cold email to deal | ~0.2%, about 1 deal per 500 emails | Focus Digital (via Martal), 2026 [3] | Replies convert to deals at ~0.2% |
-| Meetings booked / 1,000 sends | 3-10 | Instantly, 2025 [17] | Overall motion health |
-| Cold call connect rate | 2-3%, top SDRs 5-8% | SalesGenie, 2026 [14] | Phone as amplifier, not main |
+| Delivery rate | above 97% | Instantly, 2025 <sup><a href="#sources">[17]</a></sup> | Domain health plus list hygiene |
+| Open rate (cold) | 16.5% avg | OptifAI, 2026 <sup><a href="#sources">[5]</a></sup> | Subject line plus sender trust |
+| Reply rate (cold email, avg) | 3.43% | Woodpecker, 2026 <sup><a href="#sources">[2]</a></sup> | Message relevance |
+| Reply rate (cold email, good / excellent) | 5-10% / 10%+ | Woodpecker, 2026 <sup><a href="#sources">[2]</a></sup> | Message relevance |
+| Reply rate (blended B2B) | 5.8%, down from 6.8% in 2023 | SalesHive, 2025 <sup><a href="#sources">[1]</a></sup> | Single-channel saturation trend |
+| Reply rate (B2B SaaS) | 3-8% | SalesHive, 2025 <sup><a href="#sources">[1]</a></sup> | SaaS-specific baseline |
+| Positive reply rate | above 30% of replies | SalesHive, 2025 <sup><a href="#sources">[1]</a></sup> | ICP fit: replies worth pursuing |
+| Cold email to deal | ~0.2%, about 1 deal per 500 emails | Focus Digital (via Martal), 2026 <sup><a href="#sources">[3]</a></sup> | Replies convert to deals at ~0.2% |
+| Meetings booked / 1,000 sends | 3-10 | Instantly, 2025 <sup><a href="#sources">[17]</a></sup> | Overall motion health |
+| Cold call connect rate | 2-3%, top SDRs 5-8% | SalesGenie, 2026 <sup><a href="#sources">[14]</a></sup> | Phone as amplifier, not main |
 
 Read the full benchmark page for the picture behind these numbers: the
 [Outbound Response Rates](/docs/data/outbound-response-rates) page. Note
@@ -312,20 +312,20 @@ with a named base of 1,000 sends and walk the funnel.
 
 | Stage | Rate (named base) | 1,000 sends |
 |---|---|---|
-| Delivery | 97%+ (Instantly, 2025 [17]) | ~970 delivered |
-| Open | 16.5% cold (OptifAI [5]) | ~160 opens |
-| Reply | 3.43% avg (Woodpecker, 2026 [2]) | ~33 replies |
-| Positive reply | 30% of replies (SalesHive, 2025 [1]) | ~10 positive |
-| Meetings booked | 3-10 per 1,000 sends (Instantly, 2025 [17]) | 3-10 meetings |
+| Delivery | 97%+ (Instantly, 2025 <sup><a href="#sources">[17]</a></sup>) | ~970 delivered |
+| Open | 16.5% cold (OptifAI <sup><a href="#sources">[5]</a></sup>) | ~160 opens |
+| Reply | 3.43% avg (Woodpecker, 2026 <sup><a href="#sources">[2]</a></sup>) | ~33 replies |
+| Positive reply | 30% of replies (SalesHive, 2025 <sup><a href="#sources">[1]</a></sup>) | ~10 positive |
+| Meetings booked | 3-10 per 1,000 sends (Instantly, 2025 <sup><a href="#sources">[17]</a></sup>) | 3-10 meetings |
 
 Scale to a 500-row, ICP-matched list, the playbook's base:
 
 | Stage | Rate (named base) | 500 rows |
 |---|---|---|
-| Delivery | 97%+ (Instantly, 2025 [17]) | ~485 delivered |
-| Reply | 3.43% avg (Woodpecker, 2026 [2]) | ~17 replies |
-| Positive reply | 30% of replies (SalesHive, 2025 [1]) | ~5 positive |
-| Meetings booked | 3-10 per 1,000 sends (Instantly, 2025 [17]) | ~2-5 meetings |
+| Delivery | 97%+ (Instantly, 2025 <sup><a href="#sources">[17]</a></sup>) | ~485 delivered |
+| Reply | 3.43% avg (Woodpecker, 2026 <sup><a href="#sources">[2]</a></sup>) | ~17 replies |
+| Positive reply | 30% of replies (SalesHive, 2025 <sup><a href="#sources">[1]</a></sup>) | ~5 positive |
+| Meetings booked | 3-10 per 1,000 sends (Instantly, 2025 <sup><a href="#sources">[17]</a></sup>) | ~2-5 meetings |
 
 A 500-row list produces roughly 2-5 booked meetings. That is the
 honest number. To land a target of 20 meetings/month, work the
@@ -339,7 +339,7 @@ The lever that changes these numbers is channel strategy. Touch variety
 and better personalization lift reply rates, not raw volume. Top teams
 running multi-channel sequences (email plus LinkedIn plus call) report
 15-25% reply rates, several times the 3.43% single-channel baseline
-[16]. The flow's answer to a low reply rate is touch variety and better
+<sup><a href="#sources">[16]</a></sup>. The flow's answer to a low reply rate is touch variety and better
 personalization, never more of the same email.
 
 **Gate:** you have 300+ sends per variant and a positive-reply signal
@@ -425,9 +425,9 @@ employees tracking projects in spreadsheets. **ACV:** roughly $12k.
    reason-to-reach. Every email under 90 words, one ask each. One
    variant ready to test. Human-approved. Pass.
 5. **Step 4.** Send to the 100 perfect-fit rows first. At 300+ sends the
-   reply rate reads 4.1%: above the 3.43% average [2]. Delivery holds at
+   reply rate reads 4.1%: above the 3.43% average <sup><a href="#sources">[2]</a></sup>. Delivery holds at
    98%. That lands 3-4 meetings per 1,000 sends, inside the healthy 3-10
-   range [17]. Keep the winning variant, scale to the remaining roughly
+   range <sup><a href="#sources">[17]</a></sup>. Keep the winning variant, scale to the remaining roughly
    398 rows. Pass.
 6. **Step 5.** Write the meeting standard: "a GC with the problem and
    budget, scheduling a demo." Tag every meeting to its campaign. Start
@@ -465,12 +465,12 @@ Outbound](/docs/agentic/agentic-outbound). Here is the flow's shape under
 an agent use.
 
 The win, with numbers: AI-augmented teams see 2.8x more pipeline than
-teams attempting full replacement of their SDRs [16]. Signal-driven
+teams attempting full replacement of their SDRs <sup><a href="#sources">[16]</a></sup>. Signal-driven
 personalization lifts reply rates to 15-25% versus the 3-5%
-single-channel baseline [116]. Economics move too: an AI-augmented SDR
+single-channel baseline <sup><a href="#sources">[116]</a></sup>. Economics move too: an AI-augmented SDR
 platform runs $12K-$60K/year and one AI-augmented rep handles 1,000+
 contacts/day versus 50-80 manual, cutting cost-per-lead from $262 to $39,
-an 85% reduction [46][47]. The point is not "buy AI instead of people."
+an 85% reduction <sup><a href="#sources">[46]</a></sup><sup><a href="#sources">[47]</a></sup>. The point is not "buy AI instead of people."
 It is that the economics scale with used execution, not raw volume.
 
 ### Who does what
@@ -515,7 +515,7 @@ Never burn the domain. Agents make it easy to send more, faster. The
 
 Track meetings and pipeline as your score, not emails sent. The
 trailing signal is quota attainment. Only 27-30% of reps hit quota in
-2024 [165], so most sellers are doing average work on a struggling
+2024 <sup><a href="#sources">[165]</a></sup>, so most sellers are doing average work on a struggling
 channel. Plan outbound as one part of a mixed motion.
 
 ---
@@ -544,12 +544,12 @@ few meetings get their time.
 ### Mid-market (roughly $1M-$30M ARR, $5k-$50k ACV)
 
 This is where the flow as written runs unchanged. The $139,120/year SDR
-cost [39] pays out, the list tiers cleanly, and the 500-row base produces
+cost <sup><a href="#sources">[39]</a></sup> pays out, the list tiers cleanly, and the 500-row base produces
 a measurable 2-5 meetings per month.
 
 Step 2 needs a dedicated sender domain. At this scale a shared inbox
 burns a domain. The 2+ week warmup and 25-50/day cap are
-non-negotiable [17].
+non-negotiable <sup><a href="#sources">[17]</a></sup>.
 
 ### Enterprise ($30M+ ARR, $50k+ ACV)
 
@@ -591,7 +591,7 @@ nothing closes.
 Skipping domain warmup. Deliverability dies, and the domain is burned
 forever.
 
-Treating a 3.43% reply rate as failure. It is the normal baseline [2].
+Treating a 3.43% reply rate as failure. It is the normal baseline <sup><a href="#sources">[2]</a></sup>.
 Chase reply rate through personalization and touch variety, not by
 sending more of the same.
 

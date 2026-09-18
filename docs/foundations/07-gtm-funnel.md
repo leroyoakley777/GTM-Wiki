@@ -28,7 +28,7 @@ product-qualified leads (PQLs) and usage-based signals for
 product-led motions. The funnel is not a linear pipeline: buyers
 loop back, skip stages, and enter from multiple channels. The model
 works when every stage has a clear definition, a single owner, and
-a service-level agreement (SLA) for handoffs [1].
+a service-level agreement (SLA) for handoffs <sup><a href="#sources">[1]</a></sup>.
 
 Stages map to specific metrics. Awareness tracks reach and
 impression share. Consideration measures engagement depth: content
@@ -39,7 +39,7 @@ usage, license utilization, and health scores. Expansion measures
 net revenue retention (NRR), upsell attach rate, and cross-sell
 penetration. Advocacy tracks referral rate, NPS, and case study
 participation. Each metric rolls up to a north-star revenue
-number [2].
+number <sup><a href="#sources">[2]</a></sup>.
 
 The funnel distinguishes between marketing-qualified leads (MQLs),
 sales-accepted leads (SALs), sales-qualified leads (SQLs), and
@@ -48,7 +48,7 @@ behavioral thresholds. SALs pass sales review for fit and timing.
 SQLs carry confirmed budget, authority, need, and timeline (BANT)
 or MEDDPICC criteria. PQLs hit usage thresholds that signal buying
 intent. Clear definitions prevent MQL inflation, where marketing
-celebrates volume while sales rejects quality [3].
+celebrates volume while sales rejects quality <sup><a href="#sources">[3]</a></sup>.
 
 ## Why It Matters
 
@@ -60,7 +60,7 @@ compounds: wasted spend on low-intent leads, elongated sales cycles
 from poor qualification, and expansion revenue left on the table
 because adoption signals go unread. Companies with aligned funnels
 grow 19 percent faster and run 15 percent more profitable than
-peers with misaligned funnels [4].
+peers with misaligned funnels <sup><a href="#sources">[4]</a></sup>.
 
 A shared funnel creates a common language for forecasting. Finance
 models revenue from stage-weighted pipeline rather than rep gut
@@ -68,7 +68,7 @@ feel. Product prioritizes features that move activation and
 adoption needles. Marketing allocates budget to channels that feed
 high-converting stages. Sales focuses effort on deals with verified
 MEDDPICC criteria. The funnel becomes the operating system for
-revenue decisions, not a reporting artifact [5].
+revenue decisions, not a reporting artifact <sup><a href="#sources">[5]</a></sup>.
 
 Ignoring funnel instrumentation means flying blind on unit
 economics. Customer acquisition cost (CAC) by channel, payback
@@ -76,7 +76,7 @@ period by segment, and LTV-to-CAC by cohort all require stage-level
 conversion data. When funnel data lives in spreadsheets instead of
 the CRM, it decays fast. The average B2B organization takes 60 to
 70 days to plan territories using limited data inputs; a live
-funnel cuts that cycle dramatically [6].
+funnel cuts that cycle dramatically <sup><a href="#sources">[6]</a></sup>.
 
 ## Framework
 
@@ -117,7 +117,7 @@ referral conversion rate.
 
 Benchmarks vary by motion (sales-led, product-led, hybrid) and ACV
 band. The table below shows median ranges from aggregated B2B SaaS
-data [7].
+data <sup><a href="#sources">[7]</a></sup>.
 
 ```
 Stage                    | Sales-Led (ACV >50k) | Product-Led (ACV &lt;10k) | Hybrid (10k-50k)
@@ -156,7 +156,7 @@ Each stage has a primary owner and a handoff SLA to the next owner.
 
 Funnel data must live in the CRM as the system of record. Website
 and third-party intent signals feed the CRM so sellers see the full
-picture [8]. Required fields per stage: stage entered date, stage
+picture <sup><a href="#sources">[8]</a></sup>. Required fields per stage: stage entered date, stage
 exited date, owner, conversion flag, disqualification reason (when
 lost), and leading indicators (meetings booked, content consumed,
 features used). Dashboards show cohort conversion trends, stage
@@ -194,7 +194,7 @@ bottom (founder-led sales). Mature companies convert higher at the
 top (brand) but face competitive pressure at decision. Set
 quarterly improvement targets: aim for 5 percent relative
 improvement per stage per quarter. Compounding 5 percent monthly
-gains yields roughly 80 percent annual improvement [9].
+gains yields roughly 80 percent annual improvement <sup><a href="#sources">[9]</a></sup>.
 
 ### Step 4: Build CRM Architecture
 
@@ -238,9 +238,9 @@ creative, landing page copy, and content formats. Middle: test
 qualification scripts, demo formats, and proposal templates.
 Bottom: test onboarding sequences, adoption nudges, and expansion
 plays. Use the growth hacking cycle: analyze data, gather insight,
-generate ideas, prioritize, run tests, review, decide [10]. Run
+generate ideas, prioritize, run tests, review, decide <sup><a href="#sources">[10]</a></sup>. Run
 20 to 30 experiments per week across the funnel; most fail, so
-volume finds wins [11].
+volume finds wins <sup><a href="#sources">[11]</a></sup>.
 
 ## Common Mistakes
 
@@ -281,7 +281,7 @@ expansion, and advocacy as funnel stages with equal rigor.
 The funnel framework stays the same as a company grows. What changes
 is who owns each stage, how many motions you instrument, and which
 benchmark you fight for first. The table below maps each stage to the
-funnel shape it should run [3][4][5].
+funnel shape it should run <sup><a href="#sources">[3]</a></sup><sup><a href="#sources">[4]</a></sup><sup><a href="#sources">[5]</a></sup>.
 
 | Company stage | Funnel shape | Primary owner | First benchmark to fix |
 |---|---|---|---|
@@ -294,26 +294,26 @@ A seed founder ships a single funnel with one line from awareness
 through expansion. The founder is the SDR, the AE, and the CSM, so
 handoff SLAs add process without value. Nail the entry and exit
 criteria first, then instrument the top of the funnel, where the leak
-is largest [3].
+is largest <sup><a href="#sources">[3]</a></sup>.
 
 An early team splits ownership between founder-led sales and a first
 marketer. Founder-led deals convert higher at the bottom of the
 funnel; the marketing motion feeds the top. At this stage the funnel
 begins to act as a shared language, but keep it to one motion until a
-second segment proves out [4].
+second segment proves out <sup><a href="#sources">[4]</a></sup>.
 
 A mid-market team runs two to three motions and rolls each up to the
 company north star. RevOps owns the SLAs, the CRM fields, and the
 dashboards, because the funnel is now the operating system, not a
-reporting artifact [2][5]. Enforce the SLAs in the Ownership and SLAs
+reporting artifact <sup><a href="#sources">[2]</a></sup><sup><a href="#sources">[5]</a></sup>. Enforce the SLAs in the Ownership and SLAs
 section above; a stage without an enforced handoff acquires a leak you
-cannot see [8].
+cannot see <sup><a href="#sources">[8]</a></sup>.
 
 An enterprise team builds a separate funnel per motion and region, then
 rolls each back to a single forecast. Reading one benchmark in
 isolation is dangerous here: the SQL-to-opportunity rate means nothing
 without its conversion table and cohort history. The gate becomes
-forecast accuracy, not any single stage number [10][11].
+forecast accuracy, not any single stage number <sup><a href="#sources">[10]</a></sup><sup><a href="#sources">[11]</a></sup>.
 
 The failure mode at every stage is adopting the funnel your neighbor
 runs instead of the one your motion needs. A seed team that copies an

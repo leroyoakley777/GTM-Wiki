@@ -43,30 +43,30 @@ together. That is the territory this wiki covers, and it covers it end to end.
 
 Most startups fail for lack of customers, not lack of product. "Almost every
 failed startup has a product. What failed startups don't have is enough
-customers." [1] The product is necessary. The motion that finds and closes the
+customers." <sup><a href="#sources">[1]</a></sup> The product is necessary. The motion that finds and closes the
 customer is what keeps a company alive.
 
 The market has changed, and the old motion is not keeping up:
 
 - 76% of organizations had to significantly or completely reinvent their GTM
-  approach in the past three years [2].
-- 70% of the B2B buyer journey is now self-serve [2]. Buyers research,
+  approach in the past three years <sup><a href="#sources">[2]</a></sup>.
+- 70% of the B2B buyer journey is now self-serve <sup><a href="#sources">[2]</a></sup>. Buyers research,
   shortlist, and often decide before a seller enters.
-- 61% of B2B buyers prefer a rep-free buying experience [3].
-- 86% of B2B purchases stall during the buying process [4].
+- 61% of B2B buyers prefer a rep-free buying experience <sup><a href="#sources">[3]</a></sup>.
+- 86% of B2B purchases stall during the buying process <sup><a href="#sources">[4]</a></sup>.
 
 Structure changes outcomes. Companies that sell into a clearly defined ICP see
 68% higher win rates and 30% more marketing-generated revenue than companies
-that do not [5]. The discipline is the advantage.
+that do not <sup><a href="#sources">[5]</a></sup>. The discipline is the advantage.
 
 The systematic methods work at scale. Aaron Ross built a repeatable outbound
 system at Salesforce that generated $100M in recurring revenue, where one SDR
-feeds two to five quota-carrying AEs [6]. Predictable revenue is a process,
+feeds two to five quota-carrying AEs <sup><a href="#sources">[6]</a></sup>. Predictable revenue is a process,
 not luck.
 
 GTM is now agentic. An AI-augmented rep handles over 1,000 contacts a day
-against 50 to 80 for a manual rep [7], and vendors are shifting the operating
-model toward intelligent automation with less manual oversight [8]. This wiki
+against 50 to 80 for a manual rep <sup><a href="#sources">[7]</a></sup>, and vendors are shifting the operating
+model toward intelligent automation with less manual oversight <sup><a href="#sources">[8]</a></sup>. This wiki
 treats agentic execution as a first-class section, not an add-on.
 
 ## How the wiki is organized
