@@ -149,6 +149,12 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
 - Do not copy scanner token lists into prose. The scanners will fail the
   page that lists the tokens.
 - Do not add the same rule to two scanner files.
+- `docs/map.md` and `src/pages/stats.json` are generator outputs — the
+  generators (`scripts/generate-map-data.js`, `scripts/generate-stats.js`)
+  rewrite them at the start of `npm run build`. Never hand-edit them: change
+  the generator, rebuild, and stage the regenerated files in the SAME commit
+  as the generator change — an unstaged regeneration leaves the repo (and the
+  Vercel build) serving the old content while local looks fixed.
 
 ## Verification
 
