@@ -2,7 +2,7 @@
 sidebar_position: 6
 title: Partner / Channel
 description: When partnerships are the right channel, the four partner types, the comp model that makes them worth a partner's time, and the failure modes that kill the motion.
-last_updated: 2026-09-08
+last_updated: 2026-09-18
 status: active
 tags: [partner, channel, integration, referral, reseller, co-sell, agentic]
 domain: channels
@@ -38,13 +38,13 @@ the motion is contributing and not just occupying time.
 Context for what "healthy" means in the wild:
 
 - The **category median** for partner-sourced revenue in B2B SaaS sits at
-  **24%**, and **top-quartile companies exceed 40%** ([SaaS Mag](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/), 2026).
+  **24%**, and **top-quartile companies exceed 40%** ([SaaS Mag](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/), 2026) <sup><a href="#sources">[1]</a></sup>.
 - **Mid-market and enterprise companies report 35% of new pipeline is
   partner-influenced or sourced** ([PartnerStack Research Lab,
-  2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships)).
+  2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships)) <sup><a href="#sources">[2]</a></sup>.
 - **69% of B2B SaaS leaders plan to increase investment in partnerships**
   ([PartnerStack, State of Partnerships in GTM
-  2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)).
+  2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup>.
 
 Do not track "number of partners signed" as a score. Signed but inactive
 partners are decoration. Partner-sourced pipeline is revenue.
@@ -106,11 +106,11 @@ the introduction, you keep the customer relationship.
 
 - **Wharton research found referral leads convert at roughly 30% higher
   rate and carry about 16% higher lifetime value than leads from other
-  channels** (cited via [Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)).
+  channels** (cited via [Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)) <sup><a href="#sources">[4]</a></sup>.
 - Referral and affiliate programs are the same economics. B2B SaaS affiliate
   programs contribute **10–20% of MRR, up to 50% for specialized tools**
   ([Rewardful, SaaS Affiliate Benchmarks,
-  2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks)).
+  2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks)) <sup><a href="#sources">[5]</a></sup>.
 
 ### 3. Resellers
 
@@ -120,7 +120,7 @@ relationships **and** the margin makes the effort worth their time, which
 means your product needs enough price headroom to share.
 
 - **SaaS channel partner margins run 20–30%** as a useful guideline
-  ([DealHub](https://dealhub.io/glossary/partner-margin/), 2026).
+  ([DealHub](https://dealhub.io/glossary/partner-margin/), 2026) <sup><a href="#sources">[6]</a></sup>.
 - Reseller commission ranges hold **10–40%**, with mid-size B2B SaaS most
   often at 20–30%.
 - Resellers carry the sales cost, so your gross margin must survive the
@@ -151,9 +151,9 @@ their attention. The comp model decides how much attention they give it.
 
 | Model | What it pays | Typical rate | Source (as of) |
 |---|---|---|---|
-| Referral / affiliate commission | One-time or first-year MRR share | 20% of first-year value | [HubSpot Upmarket Referral, 2026](https://www.hubspot.com/solutions-partners-tiers-and-benefits-2026) |
-| Revenue share on recurring | % of monthly recurring net revenue | 20% of MRR, paid up to 3 years | [HubSpot Solutions Partner policy, 2026](https://www.hubspot.com/partners/solutions-program-policies) |
-| Reseller margin | Discount off list price | 20–30% | [DealHub, 2026](https://dealhub.io/glossary/partner-margin/) |
+| Referral / affiliate commission | One-time or first-year MRR share | 20% of first-year value | [HubSpot Upmarket Referral, 2026](https://www.hubspot.com/solutions-partners-tiers-and-benefits-2026) <sup><a href="#sources">[7]</a></sup> |
+| Revenue share on recurring | % of monthly recurring net revenue | 20% of MRR, paid up to 3 years | [HubSpot Solutions Partner policy, 2026](https://www.hubspot.com/partners/solutions-program-policies) <sup><a href="#sources">[8]</a></sup> |
+| Reseller margin | Discount off list price | 20–30% | [DealHub, 2026](https://dealhub.io/glossary/partner-margin/) <sup><a href="#sources">[6]</a></sup> |
 | Marketplace / distributor fee | Cut of each transaction | 15–25% | AWS / Salesforce AppExchange norms |
 | Non-monetary | Co-marketing, listings, referrals | $0 cash | Standard for early integrations |
 
@@ -165,7 +165,7 @@ their attention. The comp model decides how much attention they give it.
 - **One source of truth on attribution.** Decide before the first deal how
   a partner gets credit. Only **42% of companies use multi-touch
   attribution** across the funnel: the rest guess, and guessing breaks
-  trust ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)). Attribution splits in the wild: **multi-touch 42%,
+  trust ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup> Attribution splits in the wild: **multi-touch 42%,
   first-touch 31%, last-touch 19%, no tracking 8%** (same report).
 - **Do not discount for a partner who brings no deals.** If you cut your
   price for a partner with zero pipeline, you have only cut your own margin.
@@ -184,19 +184,19 @@ partners are not even launched is measuring noise.
 
 | Stage | Healthy range | Source (as of) | What it tells you |
 |---|---|---|---|
-| Partner activation rate | **>50%** of signed partners launch | [Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook) | Whether onboarding worked |
-| Partner-sourced revenue share | **10–20%** healthy (24% median, 40% top-quartile) | [SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/) | Whether the channel matters |
-| Referral conversion lift | **~30% higher** than other channels | [Wharton via Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs) | Whether referral leads are worth pursuing |
-| Affiliate / referral MRR contribution | **10–20%** of MRR (up to 50% specialized) | [Rewardful, 2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks) | Whether referral economics hold |
-| Partner-influenced share of new pipeline | **~35%** (mid-market/enterprise) | [PartnerStack, 2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships) | What a strong program reaches |
-| Cost per acquired lead | **30–40% lower** via partnerships than paid ads | [Genesys Growth, 2026](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders) | The core economic argument |
+| Partner activation rate | **>50%** of signed partners launch | [Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook) <sup><a href="#sources">[9]</a></sup> | Whether onboarding worked |
+| Partner-sourced revenue share | **10–20%** healthy (24% median, 40% top-quartile) | [SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/) <sup><a href="#sources">[1]</a></sup> | Whether the channel matters |
+| Referral conversion lift | **~30% higher** than other channels | [Wharton via Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs) <sup><a href="#sources">[4]</a></sup> | Whether referral leads are worth pursuing |
+| Affiliate / referral MRR contribution | **10–20%** of MRR (up to 50% specialized) | [Rewardful, 2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks) <sup><a href="#sources">[5]</a></sup> | Whether referral economics hold |
+| Partner-influenced share of new pipeline | **~35%** (mid-market/enterprise) | [PartnerStack, 2026](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships) <sup><a href="#sources">[2]</a></sup> | What a strong program reaches |
+| Cost per acquired lead | **30–40% lower** via partnerships than paid ads | [Genesys Growth, 2026](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders) <sup><a href="#sources">[12]</a></sup> | The core economic argument |
 
 **Activation rate is the gate.** Most affiliate programs see only
 **~10% activation**, while top programs with strong onboarding reach **50%
 or higher** ([Hamster Garage,
-2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)). And a program sitting at **30% activation has a recruitment
+playbook)) <sup><a href="#sources">[9]</a></sup>. And
 problem or an onboarding-design problem: most of those partners should
-never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guides/partner-onboarding)).
+never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guides/partner-onboarding)) <sup><a href="#sources">[10]</a></sup>.
 
 ---
 
@@ -207,15 +207,15 @@ never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guid
   variable one paid only on closed deals.
 - **Trust transfers.** Referral leads convert at ~30% higher rates because
   the buyer already trusts the referrer ([Wharton via Expando,
-  2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)).
+  2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)) <sup><a href="#sources">[4]</a></sup>.
 - **Sales cycles shorten.** **48% of respondents say alignment with partners
   shortens sales cycles, and 23% say it helps land bigger deals**
-  ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)).
+  ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup>.
 - **Top reps already lean on it.** **Top-performing sales reps generate more
   revenue from partner referrals than from any other single source**
-  ([PartnerStack Research Lab, 2026](https://partnerstack.com/resources/research-lab/charts/partner-driven-represents-highest-revenue-source-for-top-performing-sales-reps)).
+  ([PartnerStack Research Lab, 2026](https://partnerstack.com/resources/research-lab/charts/partner-driven-represents-highest-revenue-source-for-top-performing-sales-reps)) <sup><a href="#sources">[13]</a></sup>.
 - **It lowers CAC.** Partnership-sourced leads cost **30–40% less** than
-  paid-acquisition leads ([Genesys Growth, 2026](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders)).
+  paid-acquisition leads ([Genesys Growth, 2026](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders)) <sup><a href="#sources">[12]</a></sup>.
 
 ---
 
@@ -223,7 +223,7 @@ never have been signed** ([PartnerStandard](https://pro.partnerstandard.com/guid
 
 Recruitment is the decision about whether to bring a partner in at all. Bad
 qualification here makes onboarding a fix too late
-([PartnerStandard](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method)).
+([PartnerStandard](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method)) <sup><a href="#sources">[11]</a></sup>.
 
 **The 4C qualification gate: every partner must clear all four.**
 
@@ -261,7 +261,7 @@ the comp model you are offering. No joint motion, no outreach.
 Onboarding is the bounded first 30–90 days after signing, when the partner
 goes from contract-signed to able to win without you in the room. It ends
 when the partner can sell solo, not when the calendar runs out
-([PartnerStandard](https://pro.partnerstandard.com/guides/partner-onboarding)).
+([PartnerStandard](https://pro.partnerstandard.com/guides/partner-onboarding)) <sup><a href="#sources">[10]</a></sup>.
 
 | Phase | Days | Goal | Exit condition |
 |---|---|---|---|
@@ -307,7 +307,7 @@ market. The order:
 Splitting partners across siloed teams is the top blocker: **37% of
 companies cite misalignment between teams as the biggest blocker to
 partner-driven revenue, followed by no clear program (20%) and lack of
-visibility (14%)** ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)).
+visibility (14%)** ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup>.
 
 ---
 
@@ -386,7 +386,7 @@ Partnerships are relationship-heavy but process-thin, which makes them a
 good fit for an agent that does the tracking, the sourcing, and the
 enablement while a human owns the relationships. **49% of B2B SaaS senior
 leaders say they want AI for better partner and account targeting**
-([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)).
+([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup>.
 
 The rule that never changes: **the gate stays, the execution layer
 changes.** Humans keep judgment and relationships. Agents remove the
@@ -434,32 +434,35 @@ types you activate, and the human load shift.
 | Company stage | One partner type to start | Comp model | Human owner | Success gate |
 |---|---|---|---|---|
 | Seed / founder-led | One referral partner (a customer fan) | Non-monetary + small referral cut | Founder tracks the single relationship | First closed deal traces to the partner |
-| Early team (Series A-B) | One integration partner + one referral | Revenue share on closed deals | One partner manager (0.5 FTE) | 50%+ activation of signed partners ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)) |
-| Mid-market (Series C+) | Integration + referral + reseller lane | Tiered comp by partner type | Dedicated partner manager (1 FTE) | Partner-sourced pipeline reaches 10–20% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)) |
-| Enterprise | Full portfolio: integration, referral, reseller, channel | Multi-tier comp with MDF | Partner ops + dedicated reps | 35%+ partner-influenced pipeline ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)); multi-touch attribution set |
+| Early team (Series A-B) | One integration partner + one referral | Revenue share on closed deals | One partner manager (0.5 FTE) | 50%+ activation of signed partners ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)) <sup><a href="#sources">[9]</a></sup> |
+| Mid-market (Series C+) | Integration + referral + reseller lane | Tiered comp by partner type | Dedicated partner manager (1 FTE) | Partner-sourced pipeline reaches 10–20% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)) <sup><a href="#sources">[1]</a></sup> |
+| Enterprise | Full portfolio: integration, referral, reseller, channel | Multi-tier comp with MDF | Partner ops + dedicated reps | 35%+ partner-influenced pipeline ([PartnerStack, 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026)) <sup><a href="#sources">[3]</a></sup>; multi-touch attribution set |
 
 A seed founder who signs five partners spreads attention across five
 relationships with no proven product to offer them. Mid-market and enterprise
 companies report 35% of new pipeline as partner-influenced or sourced, but
 the median partner-sourced revenue sits at 24% with top-quartile companies
-exceeding 40% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)). The gap between median and top-quartile narrows to
+exceeding 40% ([SaaS Mag, 2026](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/)) <sup><a href="#sources">[1]</a></sup> The gap between median and top-quartile narrows to
 those who activate partners: average programs see 10% activation while
-healthy ones hit 50% or higher ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)).
+healthy ones hit 50% or higher ([Hamster Garage, 2026](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook)) <sup><a href="#sources">[9]</a></sup>.
 
 ---
 
 ## Sources
 
-- [PartnerStack: State of Partnerships in GTM 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026): investment plans (69%), alignment (48%), attribution usage (42%) and splits, blockers (37%/20%/14%), AI interest (49%).
-- [PartnerStack Research Lab](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships): mid-market/enterprise partner-influenced pipeline (35%) and top reps' partner revenue.
-- [SaaS Mag: Ecosystem-Led Growth](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/): partner-sourced revenue median (24%) and top-quartile (40%).
-- [Rewardful: SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): affiliate MRR contribution (10–20%, up to 50%).
-- [Wharton via Expando (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs): referral conversion (+30%) and LTV (+16%).
-- [Hamster Garage: Affiliate Onboarding Playbook (2026)](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook): activation rates (~10% vs 50%+).
-- [PartnerStandard: Partner Onboarding](https://pro.partnerstandard.com/guides/partner-onboarding): 30/60/90 framework, 30% activation as problem signal, and 4C qualification.
-- [DealHub: Partner Margin](https://dealhub.io/glossary/partner-margin/): SaaS channel margins (20–30%).
-- [HubSpot Partner policies](https://www.hubspot.com/partners/solutions-program-policies): 20% revenue share on MRR, up to 3 years.
-- [Genesys Growth: CAC Benchmarks (2026)](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders): partnership CPL 30–40% lower than paid ads.
+- [1] [SaaS Mag: Ecosystem-Led Growth (2026)](https://www.saasmag.com/ecosystem-led-growth-saas-revenue-engine/): partner-sourced revenue median 24%, top quartile above 40% (as of 2026).
+- [2] [PartnerStack Research Lab: Partner-influenced revenue by company size (2026)](https://partnerstack.com/resources/research-lab/charts/partner-influenced-revenue-varies-across-companies-with-larger-companies-seeing-more-pipeline-from-partnerships): mid-market/enterprise partner-influenced pipeline 35% (as of 2026).
+- [3] [PartnerStack: State of Partnerships in GTM 2026](https://partnerstack.com/resources/research-lab/the-state-of-partnerships-in-gtm-2026): investment plans 69%, alignment 48%, attribution usage 42% with splits 42/31/19/8, blockers 37%/20%/14%, AI interest 49% (as of 2026).
+- [4] [Wharton via Expando: Guide to B2B referral partner programs (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs): referral leads convert ~30% higher and carry ~16% higher LTV (as of 2025).
+- [5] [Rewardful: SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): affiliate MRR contribution 10-20%, up to 50% for specialized tools (as of 2025).
+- [6] [DealHub: Partner Margin (2026)](https://dealhub.io/glossary/partner-margin/): SaaS channel margins 20-30% (as of 2026).
+- [7] [HubSpot Upmarket Referral: Solutions partner tiers and benefits (2026)](https://www.hubspot.com/solutions-partners-tiers-and-benefits-2026): referral/affiliate commission ~20% of first-year value (as of 2026).
+- [8] [HubSpot: Solutions Partner policy (2026)](https://www.hubspot.com/partners/solutions-program-policies): 20% revenue share on MRR, paid up to 3 years (as of 2026).
+- [9] [Hamster Garage: Affiliate Onboarding Playbook (2026)](https://www.hamstergarage.com/article/affiliate-agency-onboarding-playbook): activation ~10% average, 50%+ with strong onboarding (as of 2026).
+- [10] [PartnerStandard: Partner Onboarding](https://pro.partnerstandard.com/guides/partner-onboarding): 30/60/90 framework, 30% activation as a problem signal (as of 2026).
+- [11] [PartnerStandard: Qualifying Channel Partners with the 4C Method](https://pro.partnerstandard.com/guides/qualifying-channel-partners-with-the-4c-method): 4C qualification framework (as of 2026).
+- [12] [Genesys Growth: CAC Benchmarks (2026)](https://genesysgrowth.com/blog/customer-acquisition-cost-benchmarks-for-marketing-leaders): partnership CPL 30-40% lower than paid ads (as of 2026).
+- [13] [PartnerStack Research Lab: Partner-driven revenue for top reps (2026)](https://partnerstack.com/resources/research-lab/charts/partner-driven-represents-highest-revenue-source-for-top-performing-sales-reps): partner-driven is the top revenue source for top-performing reps (as of 2026).
 
 See also the team's benchmark source:
 `RESEARCH/gtm-wiki/GTM_METRICS_BENCHMARKS.md`.
