@@ -57,12 +57,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-19",
   "updates": [
     {
       "date": "2026-09-18",
-      "text": "Agentic gtm overview, agentic stack, agentic outbound, product led +47 more · IB-007.",
+      "text": "Partner, agentic gtm overview, agentic stack, agentic outbound +48 more · IB-007.",
       "items": [
+        {
+          "label": "partner",
+          "href": "/docs/channels/partner"
+        },
         {
           "label": "agentic gtm overview",
           "href": "/docs/agentic/agentic-gtm-overview"

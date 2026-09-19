@@ -4,7 +4,7 @@ title: Referral & Viral
 description: When referral and viral loops are the right channel, the viral-coefficient math, named and dated loop benchmarks, the channel stack, incentive economics, segment variants, failure modes, the agentic layer, and a documented case matrix.
 status: active
 tags: [referral, viral, channels]
-last_updated: 2026-09-08
+last_updated: 2026-09-19
 ---
 
 # Referral and Viral
@@ -23,7 +23,7 @@ Two different motions get lumped together, and only one of them compounds.
 
 **Viral growth is product-native sharing.** The product itself creates the share as a natural part of use. A shared folder, a collaborative document, a team invite, a booking link. The user shares because using the product well means bringing someone in. Calendly and Figma spread this way. There is no reward beyond the value of collaboration itself.
 
-The line between them is why a share happens. An incentivized program rewards the *act of referring*. A viral loop makes the *product's value* depend on another person. Andrew Chen, who ran referral programs at Uber, frames viral growth as a flavor of network effect: a product taps its own network of users to acquire the next users ([The Cold Start Problem, 2021](https://coldstart.com/), 2021). When the product's value does not grow with more users, you have no network to tap. You are running a rebate.
+The line between them is why a share happens. An incentivized program rewards the *act of referring*. A viral loop makes the *product's value* depend on another person. Andrew Chen, who ran referral programs at Uber, frames viral growth as a flavor of network effect: a product taps its own network of users to acquire the next users ([The Cold Start Problem, 2021](https://coldstart.com/), 2021) <sup><a href="#sources">[5]</a></sup>. When the product's value does not grow with more users, you have no network to tap. You are running a rebate.
 
 The sharp operational test: remove the incentive. If sharing stops, you had a referral program, and it will stop the moment budget runs out. If sharing continues because the product needs more people, you have a viral loop. Most failed motions are a category error: an incentive bolted onto a product with no in-product reason to share.
 
@@ -65,7 +65,7 @@ Skip it when any of these describe you.
 
 The naive formula: **k = I × C**, where I is the average number of invitations a user sends and C is the fraction of those invitations that convert to a new user. If each of your users invites two people and one in ten of those invites converts, k = 2 × 0.1 = 0.2.
 
-What k does to your base, over one cycle (Chen, [andrewchen.com](https://andrewchen.com/more-retention-more-viral-growth/), 2016):
+What k does to your base, over one cycle (Chen, [andrewchen.com](https://andrewchen.com/more-retention-more-viral-growth/), 2016) <sup><a href="#sources">[4]</a></sup>:
 
 - **k under 0.2.** The loop barely moves the base. Referrals are noise, not an engine.
 - **k = 0.5.** Each cycle multiplies the base by 1 / (1 - 0.5) = 2x. A 1,000-user base becomes 2,000, then grows toward a ceiling that needs other channels to sustain.
@@ -86,18 +86,18 @@ Every stage answers a different question. A weak stage breaks the loop, not just
 
 | Stage | Benchmark | Source (as of) |
 |---|---|---|
-| Global average referral rate | 2.35% of customers make at least one referral | [Extole, 50 Referral Stats 2026](https://www.extole.com/blog/referral-stats-to-know-in-2026/) (vendor source) |
-| Software referral rate | 4.75%, more than double the cross-industry average | [Exploding Topics, 2026](https://explodingtopics.com/blog/referral-marketing-stats) |
-| Top-quartile referral rate | over 5% | Extole, 2026 (vendor source) |
-| Consumers willing to refer after a good experience | 83% | [Kumar, Petersen, Leone, 2010](https://www.depts.ttu.edu/rawlsbusiness/about/faculty/marketing/documents/kumar-petersen-leone-2010.pdf) (Texas Tech) |
-| Consumers who actually share | 29% (the willingness-to-action gap is the program's job) | Kumar, Petersen, Leone, 2010 (Texas Tech) |
-| Referred vs non-referred conversion | roughly 30% higher | Wharton, 2011 (cited via [Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)) |
-| Referred customer lifetime value | roughly 16% higher than non-referred with similar demographics | [Schmitt, Skiera, Van den Bulte, 2011](https://journals.sagepub.com/doi/10.1509/jm.10.0program) (Journal of Marketing) |
-| Referred customer churn | roughly 18% lower | Schmitt, Skiera, Van den Bulte, 2011 |
-| Referred vs paid-channel retention | 37% higher | Extole, 2026 (vendor source) |
-| Referred vs paid-channel conversion | 4x | Extole, 2026 (vendor source) |
-| B2B SaaS referral CAC | about $150 per customer, versus about $802 for paid search | [EmberTribe, 2026](https://embertribe.com/blog/cost-per-user-acquisition-2) |
-| Ecommerce referral CAC | $25–65 per customer | [Scrap.io, 2026](https://scrap.io/customer-acquisition-cost) |
+| Global average referral rate | 2.35% of customers make at least one referral | [Extole, 50 Referral Stats 2026](https://www.extole.com/blog/referral-stats-to-know-in-2026/) (vendor source) <sup><a href="#sources">[6]</a></sup> |
+| Software referral rate | 4.75%, more than double the cross-industry average | [Exploding Topics, 2026](https://explodingtopics.com/blog/referral-marketing-stats) <sup><a href="#sources">[7]</a></sup> |
+| Top-quartile referral rate | over 5% | Extole, 2026 (vendor source) <sup><a href="#sources">[6]</a></sup> |
+| Consumers willing to refer after a good experience | 83% | [Kumar, Petersen, Leone, 2010](https://www.depts.ttu.edu/rawlsbusiness/about/faculty/marketing/documents/kumar-petersen-leone-2010.pdf) (Texas Tech) <sup><a href="#sources">[3]</a></sup> |
+| Consumers who actually share | 29% (the willingness-to-action gap is the program's job) | Kumar, Petersen, Leone, 2010 (Texas Tech) <sup><a href="#sources">[3]</a></sup> |
+| Referred vs non-referred conversion | roughly 30% higher | Wharton, 2011 (cited via [Expando, 2025](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs)) <sup><a href="#sources">[8]</a></sup> |
+| Referred customer lifetime value | roughly 16% higher than non-referred with similar demographics | [Schmitt, Skiera, Van den Bulte, 2011](https://journals.sagepub.com/doi/10.1509/jm.10.0program) (Journal of Marketing) <sup><a href="#sources">[1]</a></sup> |
+| Referred customer churn | roughly 18% lower | Schmitt, Skiera, Van den Bulte, 2011 <sup><a href="#sources">[1]</a></sup> |
+| Referred vs paid-channel retention | 37% higher | Extole, 2026 (vendor source) <sup><a href="#sources">[6]</a></sup> |
+| Referred vs paid-channel conversion | 4x | Extole, 2026 (vendor source) <sup><a href="#sources">[6]</a></sup> |
+| B2B SaaS referral CAC | about $150 per customer, versus about $802 for paid search | [EmberTribe, 2026](https://embertribe.com/blog/cost-per-user-acquisition-2) <sup><a href="#sources">[10]</a></sup> |
+| Ecommerce referral CAC | $25–65 per customer | [Scrap.io, 2026](https://scrap.io/customer-acquisition-cost) <sup><a href="#sources">[11]</a></sup> |
 
 The willingness-to-action gap is the most useful number on this table. Eight in ten customers *want* to refer, and fewer than three in ten *do*. The gap is a missing mechanism: no share moment in the product, no prompt at the peak moment, no reward worth the effort. Your job is to close that gap, and the gap is why the global average referral rate sits at 2.35% while top programs clear 5%.
 
@@ -109,7 +109,7 @@ Vendor numbers (Extole, Exploding Topics, EmberTribe, Scrap.io) carry a bias inc
 
 Instrument five numbers, in order, and read them as a chain rather than as independent stats. Each one points to the stage that is breaking.
 
-1. **Share rate.** Invitations sent divided by eligible customers in a cohort. Healthy software programs run at or above the 4.75% software baseline (Exploding Topics, 2026). Low here means the share moment or the reward is weak.
+1. **Share rate.** Invitations sent divided by eligible customers in a cohort. Healthy software programs run at or above the 4.75% software baseline (Exploding Topics, 2026) <sup><a href="#sources">[7]</a></sup>. Low here means the share moment or the reward is weak.
 2. **Referral conversion.** New users produced divided by invitations sent. This is the C in the coefficient. Low here means the invite, the landing page, or the reward is not compelling.
 3. **Viral coefficient, k.** Share rate multiplied by referral conversion. This is the I × C product. Watch it per cohort, not in aggregate, because aggregate counts hide whether the channel is growing or just noisy.
 4. **Cycle time.** Days between the first cohort's share and the new cohort's share. This decides how many compounding cycles you get per quarter.
@@ -135,11 +135,11 @@ The compounding motion combines both: a product-native share moment *plus* an in
 
 The mechanics are off-the-shelf. Pick tools by what you need to instrument, not by brand.
 
-**Referral platforms.** These handle invite links, tracking, reward fulfillment, and anti-fraud. Common choices include ReferralCandy, Referral Rock, Friendbuy, and Rewardful. Rewardful reports that B2B SaaS affiliate programs contribute 10–20% of MRR, up to 50% for specialized tools ([Rewardful, SaaS Affiliate Benchmarks, 2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks)), a useful floor if you go the commission route. Extole and Friendbuy sit at the enterprise end with dedicated fraud and payout tooling.
+**Referral platforms.** These handle invite links, tracking, reward fulfillment, and anti-fraud. Common choices include ReferralCandy, Referral Rock, Friendbuy, and Rewardful. Rewardful reports that B2B SaaS affiliate programs contribute 10–20% of MRR, up to 50% for specialized tools ([Rewardful, SaaS Affiliate Benchmarks, 2025](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks)) <sup><a href="#sources">[12]</a></sup>, a useful floor if you go the commission route. Extole and Friendbuy sit at the enterprise end with dedicated fraud and payout tooling.
 
 **Share loops and referral widgets.** These sit inside the product at the moment of peak value. Examples: a post-checkout "get $X off for both of you" prompt, an in-dashboard "invite your team" button, a completion screen that offers to share. The placement is the product decision. The widget appears when the user has just experienced the value, not at signup before they have earned the right to recommend.
 
-**Waitlist and invite tools.** For pre-launch or capacity-capped growth. Robinhood built a waitlist of nearly 1 million users in the year before launch by gating entry behind referral ([viral-loops.com, Robinhood case](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/)). Waitlist tools (Waitlistr, Viral Loops, Product Hunt launch pages) move people up the list for each referral. This works when demand exceeds supply, which is the only condition where artificial scarcity is honest.
+**Waitlist and invite tools.** For pre-launch or capacity-capped growth. Robinhood built a waitlist of nearly 1 million users in the year before launch by gating entry behind referral ([viral-loops.com, Robinhood case](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/)) <sup><a href="#sources">[16]</a></sup>. Waitlist tools (Waitlistr, Viral Loops, Product Hunt launch pages) move people up the list for each referral. This works when demand exceeds supply, which is the only condition where artificial scarcity is honest.
 
 **Incentive systems.** Reward structure, payout rules, and fraud controls. Rewards can be credits, storage, seats, cash, or status. The rule from the [case study](../case-studies/referral-viral): make the reward native to the product's value. Storage, seats, and credits compound the user's use of the product. Cash attracts arbitrage. Payout is deferred until the referral converts and, for higher ACVs, until the referee is a paying customer.
 
@@ -151,16 +151,16 @@ The mechanics are off-the-shelf. Pick tools by what you need to instrument, not 
 
 Incentive economics decide whether the channel makes money. The worked math:
 
-A B2B SaaS product charges $1,200 per year per seat. Referred customers are worth 16% more (Wharton, 2011). Your reward: six months of a $50/month add-on, worth $300, to both referrer and referee. Payable when the referee becomes a paying customer.
+A B2B SaaS product charges $1,200 per year per seat. Referred customers are worth 16% more (Wharton, 2011) <sup><a href="#sources">[9]</a></sup>. Your reward: six months of a $50/month add-on, worth $300, to both referrer and referee. Payable when the referee becomes a paying customer.
 
 - Referral CAC: $300 (the reward) plus $5 platform fee plus a share of ops, call it $320.
-- Non-referred CAC via paid search: $802 (EmberTribe, 2026). Referral is roughly 2.5x cheaper before the LTV advantage.
-- Referred LTV: baseline seat LTV at $1,200/year over a 3-year horizon, plus 16% = a $576 uplift per referred customer (Wharton, 2011).
+- Non-referred CAC via paid search: $802 (EmberTribe, 2026) <sup><a href="#sources">[10]</a></sup>. Referral is roughly 2.5x cheaper before the LTV advantage.
+- Referred LTV: baseline seat LTV at $1,200/year over a 3-year horizon, plus 16% = a $576 uplift per referred customer (Wharton, 2011) <sup><a href="#sources">[9]</a></sup>.
 - Net per referred customer: $576 uplift minus $320 CAC beats the paid-search deal by a wide margin.
 
 The math works only when two things hold. The reward is paid on *conversion*, not on a share. And the reward value is under the LTV uplift the referral produces. Reverse either and the incentive is a net loss dressed as a growth channel.
 
-**The cap is the discipline.** Reward size is a function of LTV, not of generosity. Start small, measure conversion, and raise the reward only when referred conversion and retention hold. Airbnb gave $25 in travel credits to both sides, plus $75 if the friend became a host ([Airbnb Engineering, 2014](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6)). PayPal gave $20 to each side in 2000 and spent $60–70 million on signups and referrals with no revenue ([viral-loops.com, May 2020](https://viral-loops.com/blog/paypal-referral-program-case-study/)). PayPal's numbers worked because the reward bought a payment network's worth of adoption. Yours will not. The incentive is a function of your LTV, not of their ambition.
+**The cap is the discipline.** Reward size is a function of LTV, not of generosity. Start small, measure conversion, and raise the reward only when referred conversion and retention hold. Airbnb gave $25 in travel credits to both sides, plus $75 if the friend became a host ([Airbnb Engineering, 2014](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6)) <sup><a href="#sources">[15]</a></sup>. PayPal gave $20 to each side in 2000 and spent $60–70 million on signups and referrals with no revenue ([viral-loops.com, May 2020](https://viral-loops.com/blog/paypal-referral-program-case-study/)) <sup><a href="#sources">[14]</a></sup>. PayPal's numbers worked because the reward bought a payment network's worth of adoption. Yours will not. The incentive is a function of your LTV, not of their ambition.
 
 ### Picking the reward
 
@@ -216,11 +216,11 @@ Tuning is continuous, not a launch event. A loop is a set of levers (share momen
 
 The mechanics are identical. The economics and the share moment differ sharply.
 
-**Consumer, low ACV.** High volume, low value per user, rapid cycle time. The loop is the engine, and the reward is a small credit or discount. Robinhood's variable stock rewards ran $2.50–$225 and hit a 7.8% referral conversion at peak ([Medium, Startup Insider Edge](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966)). Consumer programs live or die on the share moment and the reward's perceived value. Fraud is the constant threat, because a $5 reward and a fake identity are both cheap.
+**Consumer, low ACV.** High volume, low value per user, rapid cycle time. The loop is the engine, and the reward is a small credit or discount. Robinhood's variable stock rewards ran $2.50–$225 and hit a 7.8% referral conversion at peak ([Medium, Startup Insider Edge](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966)) <sup><a href="#sources">[16]</a></sup>. Consumer programs live or die on the share moment and the reward's perceived value. Fraud is the constant threat, because a $5 reward and a fake identity are both cheap.
 
 **B2B, low ACV / self-serve.** The loop works when the product is self-serve and multi-seat. Team onboarding is the natural share moment. Freemium tiers that expose the value to a second user convert that user. The referral feeds the same bottom-up motion that [Product-Led Growth](../channels/product-led) describes. Measure seats, not signups.
 
-**B2B, high ACV / sales-led.** Referral becomes a source of warm introductions, not the whole engine. A referred lead converts at roughly 30% higher and carries 16% higher LTV (Wharton, 2011), which makes it the best source in the book. But a nine-month sales cycle means the *cycle time* kills viral compounding. Here the program rewards an introduction, paid on close, sized as a fraction of the deal. Partner-style commissions (see [Partners](../channels/partner)) and referral overlap. The loop does not compound. It improves conversion on every deal it touches.
+**B2B, high ACV / sales-led.** Referral becomes a source of warm introductions, not the whole engine. A referred lead converts at roughly 30% higher and carries 16% higher LTV (Wharton, 2011) <sup><a href="#sources">[9]</a></sup>, which makes it the best source in the book. But a nine-month sales cycle means the *cycle time* kills viral compounding. Here the program rewards an introduction, paid on close, sized as a fraction of the deal. Partner-style commissions (see [Partners](../channels/partner)) and referral overlap. The loop does not compound. It improves conversion on every deal it touches.
 
 | Segment | Share moment | Reward | Metric that matters | Fraud risk |
 |---|---|---|---|---|
@@ -284,7 +284,7 @@ Diagnose the largest *absolute* loss, not the most striking percentage. A 2-poin
 
 Referred customers arrive with higher intent and better economics, so the handoff changes.
 
-**Self-serve and consumer:** the referral converts in-product. Route the referred user into the same activation flow as any new user, but flag them as referred. Their 16% higher LTV (Wharton, 2011) justifies a more aggressive onboarding investment. CS should know the referrer so a positive referral chain is acknowledged and continued.
+**Self-serve and consumer:** the referral converts in-product. Route the referred user into the same activation flow as any new user, but flag them as referred. Their 16% higher LTV (Wharton, 2011) <sup><a href="#sources">[9]</a></sup> justifies a more aggressive onboarding investment. CS should know the referrer so a positive referral chain is acknowledged and continued.
 
 **Sales-led B2B:** a referred lead is a warm introduction, not a cold one. Sales should treat it accordingly: shorter discovery, the referrer named as the source, and the referrer kept in the loop. The AE credits the referrer on the deal so the commission pays out and the referrer keeps referring. CS owns the referrer relationship post-close. A referred account that stays is the loop's next cycle. Hand the referrer a status they can share, and hand the referee a clear path to the reward.
 
@@ -343,7 +343,7 @@ A human reviews every block. The agent never pays and never blocks without a rec
 Run this checklist quarterly. A no on any line is a stop-the-line fix.
 
 1. Coefficient holds above 0.2 cohort after cohort, not as a one-off spike.
-2. Share rate sits at or above the 4.75% software baseline (Exploding Topics, 2026) on the strong segment.
+2. Share rate sits at or above the 4.75% software baseline (Exploding Topics, 2026) <sup><a href="#sources">[7]</a></sup> on the strong segment.
 3. Referral conversion is stable, not drifting down as the cohort ages.
 4. Cycle time is short enough to compound within the quarter.
 5. Referral CAC sits under the LTV uplift the referral produces.
@@ -361,10 +361,10 @@ Documented examples, named and dated. Every row is a real outcome with a named s
 
 | Company | Motion | Documented result | Source (as of) |
 |---|---|---|---|
-| Dropbox | Double-sided, product-native referral (free storage to both parties) | 100K → 4M signups in 15 months (3,900% growth); referrals drove 35% of daily signups at peak; 2.8x more signups than paid acquisition | [viral-loops.com](https://viral-loops.com); [referralrock.com](https://referralrock.com); [omegapoint.systems](https://omegapoint.systems) (secondary sources) |
-| PayPal | Cash reward, $20 signup + $20 referral (later $10, $5) | 1M users in March 2000 → 5M by September 2000; 7–10% daily growth; reached ~100M users; spent $60–70M on signups and referrals | [viral-loops.com, May 2020](https://viral-loops.com/blog/paypal-referral-program-case-study/); [TheFlyy](https://www.theflyy.com/blog/paypal-referral-program-case-study-of-internets-first-viral-growth-using-referrals) |
-| Airbnb | Double-sided travel credits, $25 to each side, +$75 if the friend became a host | Referrals increased bookings by over 25% in some markets; referred users more likely to complete a first booking and to become hosts | [Airbnb Engineering, 2014](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6); [CloudSponge](https://www.cloudsponge.com/blog/airbnb-referral-program/) |
-| Robinhood | Gamified waitlist referral, then variable free-stock rewards ($2.50–$225) | ~1M-user waitlist built in the year before launch; 7.8% referral conversion at peak | [viral-loops.com](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/); [Medium, Startup Insider Edge](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966) |
+| Dropbox | Double-sided, product-native referral (free storage to both parties) | 100K → 4M signups in 15 months (3,900% growth); referrals drove 35% of daily signups at peak; 2.8x more signups than paid acquisition | [viral-loops.com](https://viral-loops.com); [referralrock.com](https://referralrock.com); [omegapoint.systems](https://omegapoint.systems) (secondary sources) <sup><a href="#sources">[13]</a></sup> |
+| PayPal | Cash reward, $20 signup + $20 referral (later $10, $5) | 1M users in March 2000 → 5M by September 2000; 7–10% daily growth; reached ~100M users; spent $60–70M on signups and referrals | [viral-loops.com, May 2020](https://viral-loops.com/blog/paypal-referral-program-case-study/); [TheFlyy](https://www.theflyy.com/blog/paypal-referral-program-case-study-of-internets-first-viral-growth-using-referrals) <sup><a href="#sources">[14]</a></sup> |
+| Airbnb | Double-sided travel credits, $25 to each side, +$75 if the friend became a host | Referrals increased bookings by over 25% in some markets; referred users more likely to complete a first booking and to become hosts | [Airbnb Engineering, 2014](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6); [CloudSponge](https://www.cloudsponge.com/blog/airbnb-referral-program/) <sup><a href="#sources">[15]</a></sup> |
+| Robinhood | Gamified waitlist referral, then variable free-stock rewards ($2.50–$225) | ~1M-user waitlist built in the year before launch; 7.8% referral conversion at peak | [viral-loops.com](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/); [Medium, Startup Insider Edge](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966) <sup><a href="#sources">[16]</a></sup> |
 
 The pattern across all four: a reward native to the product's value (storage, a payment network, travel, a share of equity in your own future) and a share moment built into use. Cash worked for PayPal because it bought a network. It fails for a product that is useful alone.
 
@@ -374,7 +374,7 @@ The honest caveat: these are mostly secondary or vendor-sourced numbers, and eac
 
 ## Worked example: design a loop for a B2B self-serve product
 
-**Product:** a $50/month per-seat project-management tool, self-serve, multi-seat, 2026. Retention is solid. Activation is the issue. This is the segment where the loop can be the engine.
+**Product:** a $50/month per-seat project-management tool, self-serve, multi-seat. Retention is solid. Activation is the issue. This is the segment where the loop can be the engine.
 
 **The share moment:** a team invite inside the product, at the moment the user creates the first shared project. The product's value requires a second person, so the share is native.
 
@@ -382,7 +382,7 @@ The honest caveat: these are mostly secondary or vendor-sourced numbers, and eac
 
 **Instrumentation:** unique invite link per referrer, conversion event on workspace creation, payout ledger. Tag referred traffic separately so [Funnel Benchmarks](../data/funnel) can read it.
 
-**The bet, with the named bases:** the global referral rate is 2.35% (Extole, 2026) and software runs at 4.75% (Exploding Topics, 2026). A product-native share moment plus an honest reward should land above the software baseline. Each referred customer converts ~30% better (Wharton, 2011) and is worth 16% more (Wharton, 2011). The loop will not clear a coefficient of 1.0 on a monthly cycle, but it does not need to. It needs to beat the $802 paid-search CAC (EmberTribe, 2026) at a $50 reward.
+**The bet, with the named bases:** the global referral rate is 2.35% (Extole, 2026) <sup><a href="#sources">[6]</a></sup> and software runs at 4.75% (Exploding Topics, 2026) <sup><a href="#sources">[7]</a></sup>. A product-native share moment plus an honest reward should land above the software baseline. Each referred customer converts ~30% better (Wharton, 2011) <sup><a href="#sources">[9]</a></sup> and is worth 16% more (Wharton, 2011) <sup><a href="#sources">[9]</a></sup>. The loop will not clear a coefficient of 1.0 on a monthly cycle, but it does not need to. It needs to beat the $802 paid-search CAC (EmberTribe, 2026) <sup><a href="#sources">[10]</a></sup> at a $50 reward.
 
 **The kill criterion:** if referral CAC (reward + platform + ops) exceeds the LTV uplift on referred seats for two consecutive quarters, cut the reward and re-test. The cap math is the discipline.
 
@@ -403,20 +403,22 @@ Plan the loop as a multiplier, not an island. Run it after the base product work
 
 ## Sources
 
-- [Schmitt, Skiera, Van den Bulte: Referral Programs and Customer Value, Journal of Marketing (2011)](https://journals.sagepub.com/doi/10.1509/jm.10.0program): referred customers worth ~16% more with ~18% lower churn over a six-year horizon. Peer-reviewed. Primary source for the LTV and churn numbers.
-- [HBR: Why Customer Referrals Can Drive Stunning Profits (2011)](https://hbr.org/2011/06/why-customer-referrals-can-drive-stunning-profits): Schmitt and Skiera's summary of the same study.
-- [Kumar, Petersen, Leone: Measuring Profitability of Customer Relationships (2010), Texas Tech](https://www.depts.ttu.edu/rawlsbusiness/about/faculty/marketing/documents/kumar-petersen-leone-2010.pdf): 83% willing to refer, 29% actually do.
-- [Andrew Chen: Why the Best Way to Drive Viral Growth Is to Increase Retention (2016)](https://andrewchen.com/more-retention-more-viral-growth/): viral factor math, k = X × Y, the 1/(1-v) multiplier, and the k above 1.0 caveat.
-- [Extole: 50 Referral Marketing Statistics (2026)](https://www.extole.com/blog/referral-stats-to-know-in-2026/): global referral rate 2.35%, referred customers convert 4x and retain 37% better. Vendor source.
-- [Exploding Topics: Referral Marketing Stats (2026)](https://explodingtopics.com/blog/referral-marketing-stats): software referral rate 4.75%, top programs over 5%.
-- [Expando: Guide to B2B Referral Partner Programs (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs): Wharton finding that referral leads convert ~30% higher and carry ~16% higher LTV.
-- [EmberTribe: Cost Per User Acquisition (2026)](https://embertribe.com/blog/cost-per-user-acquisition-2): B2B SaaS referral CAC ~$150 vs ~$802 paid search.
-- [Scrap.io: Customer Acquisition Cost Benchmarks (2026)](https://scrap.io/customer-acquisition-cost): referral CAC $25–65.
-- [Rewardful: SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): affiliate programs contribute 10–20% of MRR, up to 50% for specialized tools.
-- [viral-loops.com: Dropbox referral case](https://viral-loops.com), [referralrock.com](https://referralrock.com), [omegapoint.systems](https://omegapoint.systems): the Dropbox 100K → 4M story. Secondary sources.
-- [viral-loops.com: PayPal case (May 2020)](https://viral-loops.com/blog/paypal-referral-program-case-study/): PayPal's $20/$20 reward, 1M → 5M users in 2000, $60–70M spent.
-- [Airbnb Engineering: Hacking Word-of-Mouth (2014)](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6): Airbnb's $25/$25 + $75 credits. Bookings up over 25% in some markets.
-- [viral-loops.com: Robinhood waitlist case](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/); [Medium: Robinhood referral analysis](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966): the waitlist and the 7.8% peak referral conversion.
+- [1] [Schmitt, Skiera, Van den Bulte: Referral Programs and Customer Value, Journal of Marketing (2011)](https://journals.sagepub.com/doi/10.1509/jm.10.0program): referred customers worth ~16% more with ~18% lower churn over a six-year horizon. Peer-reviewed. Primary source for the LTV and churn numbers.
+- [2] [HBR: Why Customer Referrals Can Drive Stunning Profits (2011)](https://hbr.org/2011/06/why-customer-referrals-can-drive-stunning-profits): Schmitt and Skiera's summary of the same study.
+- [3] [Kumar, Petersen, Leone: Measuring Profitability of Customer Relationships (2010), Texas Tech](https://www.depts.ttu.edu/rawlsbusiness/about/faculty/marketing/documents/kumar-petersen-leone-2010.pdf): 83% willing to refer, 29% actually do.
+- [4] [Andrew Chen: Why the Best Way to Drive Viral Growth Is to Increase Retention (2016)](https://andrewchen.com/more-retention-more-viral-growth/): viral factor math, k = X × Y, the 1/(1-v) multiplier, and the k above 1.0 caveat.
+- [5] [The Cold Start Problem (Andrew Chen, 2021)](https://coldstart.com/): viral growth as a flavor of network effect.
+- [6] [Extole: 50 Referral Marketing Statistics (2026)](https://www.extole.com/blog/referral-stats-to-know-in-2026/): global referral rate 2.35%, referred customers convert 4x and retain 37% better. Vendor source.
+- [7] [Exploding Topics: Referral Marketing Stats (2026)](https://explodingtopics.com/blog/referral-marketing-stats): software referral rate 4.75%, top programs over 5%.
+- [8] [Expando: Guide to B2B Referral Partner Programs (2025)](https://www.expando.ai/blogs/guide-to-b2b-referral-partner-programs): Wharton finding that referral leads convert ~30% higher and carry ~16% higher LTV.
+- [9] Wharton, 2011 (Schmitt et al study): referred leads convert ~30% higher and carry ~16% higher LTV. Peer-reviewed.
+- [10] [EmberTribe: Cost Per User Acquisition (2026)](https://embertribe.com/blog/cost-per-user-acquisition-2): B2B SaaS referral CAC ~$150 vs ~$802 paid search.
+- [11] [Scrap.io: Customer Acquisition Cost Benchmarks (2026)](https://scrap.io/customer-acquisition-cost): referral CAC $25–65.
+- [12] [Rewardful: SaaS Affiliate Program Benchmarks (2025)](https://www.rewardful.com/articles/saas-affiliate-program-benchmarks): affiliate programs contribute 10–20% of MRR, up to 50% for specialized tools.
+- [13] [viral-loops.com: Dropbox referral case](https://viral-loops.com), [referralrock.com](https://referralrock.com), [omegapoint.systems](https://omegapoint.systems): the Dropbox 100K → 4M story. Secondary sources.
+- [14] [viral-loops.com: PayPal case (May 2020)](https://viral-loops.com/blog/paypal-referral-program-case-study/); [TheFlyy (2020)](https://www.theflyy.com/blog/paypal-referral-program-case-study-of-internets-first-viral-growth-using-referrals): PayPal's $20/$20 reward, 1M → 5M users in 2000, $60–70M spent.
+- [15] [Airbnb Engineering: Hacking Word-of-Mouth (2014)](https://medium.com/airbnb-engineering/hacking-word-of-mouth-making-referrals-work-for-airbnb-46468e7790a6): Airbnb's $25/$25 + $75 credits. Bookings up over 25% in some markets.
+- [16] [viral-loops.com: Robinhood waitlist case](https://viral-loops.com/blog/how-robinhoods-referral-built-a-1m-user/); [Medium: Robinhood referral analysis](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966): the waitlist and the 7.8% peak referral conversion.
 
 ---
 
