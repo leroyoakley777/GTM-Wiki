@@ -4,12 +4,12 @@ title: "Referral & Viral: Case Studies"
 description: "Dropbox, PayPal, Airbnb, Uber, and Robinhood: the documented referral and viral cases, the K-factor math, double-sided incentive economics, failure modes, and the agentic layer that runs a loop."
 status: active
 tags: [referral, viral, case-studies, channels]
-last_updated: 2026-08-30
+last_updated: 2026-09-19
 ---
 
 # Referral and Viral: Case Studies
 
-Referral and viral growth turns existing customers into the acquisition channel. Dropbox is the canonical documented case: a double-sided, product-native reward took signups from roughly 100,000 (September 2008) to roughly 4,000,000 (December 2009, 15 months later). Referrals delivered 35% of daily signups at peak and 2.8x the signups of paid acquisition (vendor source). This page covers the documented cases, the difference between a viral loop and a referral program, the mechanics, the worked math, the failure modes and fixes, and the agentic layer that designs and measures a loop.
+Referral and viral growth turns existing customers into the acquisition channel. Dropbox is the canonical documented case: a double-sided, product-native reward took signups from roughly 100,000 (September 2008) to roughly 4,000,000 (December 2009, 15 months later). <sup><a href="#sources">[1]</a></sup> Referrals delivered 35% of daily signups at peak and 2.8x the signups of paid acquisition (vendor source) <sup><a href="#sources">[2]</a></sup>. This page covers the documented cases, the difference between a viral loop and a referral program, the mechanics, the worked math, the failure modes and fixes, and the agentic layer that designs and measures a loop.
 
 This page is the proof side of the channel. Read [Referral and Viral: the channel](../channels/referral-viral) for the *where* and *when*. Read this page for the *who made it work and with what number*.
 
@@ -33,11 +33,11 @@ Vendor-sourced outcomes are labeled `(vendor source)`. Treat them as proof of wh
 
 | Company | Motion | Incentive | Documented result | Source (as of) |
 |---------|--------|-----------|-------------------|----------------|
-| Dropbox | Double-sided referral, product-native | 500 MB free storage to each side on signup, caps of 16 GB (Basic) and 32 GB (Plus), 1 GB per referral for Plus | ~100K signups (Sept 2008) to ~4M (Dec 2009, 15 months), 3,900% growth, 35% of daily signups from referrals at peak, 2.8x paid acquisition, ~1/3 of signups were already word of mouth before the program | getlaunchlist (vendor source), referralrock (vendor source), dropbox.com/refer (first-party, current) |
-| PayPal | Cash referral program (2000–2001) | $10 to new signup, $10 to referrer (opened at $20/$20, cut to $10, then $5) | Sustained 7–10% daily growth at peak (vendor source) | referralcandy (vendor source), viral-loops (vendor source), stratrix (vendor source) |
-| Airbnb | Referrals 2.0, cross-platform relaunch (2014) | $25 travel credit to each side, credited after the invited user's first trip, extra $75 if the friend became a host | Relaunch lifted signups and bookings by over 300% per day, bookings up over 25% in some markets, referrals generated up to 30% of first-time bookings (vendor source) | Airbnb Tech Blog, "Hacking Word-of-Mouth" (first-party, Mar 27 2014), viral-loops (vendor source) |
-| Uber | Rider and driver referral programs (from 2014) | $20 ride credit each side (rider, 2014), $5 cash per new rider (driver) | Referral channel reported 12x ROI (vendor source) | Uber newsroom (first-party, Jan 2014), Uber partner blog (first-party), viral-loops (vendor source) |
-| Robinhood | Free-stock referral program | Free stock per side, about 99% of referees receive ~$5, up to $200, up to $1,500 via referrals | 7.8% referral conversion at peak (vendor source) | robinhood.com support (first-party, current), Startup-Insider Edge (vendor source) |
+| Dropbox | Double-sided referral, product-native | 500 MB free storage to each side on signup, caps of 16 GB (Basic) and 32 GB (Plus), 1 GB per referral for Plus | ~100K signups (Sept 2008) to ~4M (Dec 2009, 15 months), 3,900% growth, 35% of daily signups from referrals at peak, 2.8x paid acquisition, ~1/3 of signups were already word of mouth before the program | getlaunchlist (vendor source) <sup><a href="#sources">[1]</a></sup>, referralrock (vendor source) <sup><a href="#sources">[2]</a></sup>, dropbox.com/refer (first-party, current) <sup><a href="#sources">[3]</a></sup> |
+| PayPal | Cash referral program (2000–2001) | $10 to new signup, $10 to referrer (opened at $20/$20, cut to $10, then $5) | Sustained 7–10% daily growth at peak (vendor source) | referralcandy (vendor source) <sup><a href="#sources">[4]</a></sup>, viral-loops (vendor source) <sup><a href="#sources">[6]</a></sup>, stratrix (vendor source) <sup><a href="#sources">[5]</a></sup> |
+| Airbnb | Referrals 2.0, cross-platform relaunch (2014) | $25 travel credit to each side, credited after the invited user's first trip, extra $75 if the friend became a host <sup><a href="#sources">[9]</a></sup> | Relaunch lifted signups and bookings by over 300% per day, bookings up over 25% in some markets, referrals generated up to 30% of first-time bookings (vendor source) | Airbnb Tech Blog, "Hacking Word-of-Mouth" (first-party, Mar 27 2014) <sup><a href="#sources">[7]</a></sup>, viral-loops (vendor source) <sup><a href="#sources">[8]</a></sup> |
+| Uber | Rider and driver referral programs (from 2014) | $20 ride credit each side (rider, 2014), $5 cash per new rider (driver) | Referral channel reported 12x ROI (vendor source) | Uber newsroom (first-party, Jan 2014) <sup><a href="#sources">[10]</a></sup>, Uber partner blog (first-party) <sup><a href="#sources">[11]</a></sup>, viral-loops (vendor source) <sup><a href="#sources">[12]</a></sup> |
+| Robinhood | Free-stock referral program | Free stock per side, about 99% of referees receive ~$5, up to $200, up to $1,500 via referrals | 7.8% referral conversion at peak (vendor source) | robinhood.com support (first-party, current) <sup><a href="#sources">[13]</a></sup>, Startup-Insider Edge (vendor source) <sup><a href="#sources">[14]</a></sup> |
 | Notion | In-product workspace loop plus invite-driven waitlist | Shared workspace invite, free Plus via referral historically | 20M users, 1M+ community members (documented in the Community-Led case, vendor-sourced) | [Community-Led: Case Studies](./community-led) |
 | Calendly | Viral loop in the core use case | Shared booking link, no cash incentive | Early 700%+ year-over-year growth driven by the product, 10M+ users (documented in the Product-Led case, vendor-sourced) | [Product-Led Growth: Case Studies](./product-led) |
 
@@ -49,7 +49,7 @@ Read the two sibling cases for Notion and Calendly. Their documented numbers liv
 
 ### Dropbox: reward both sides, in the product's own currency
 
-Dropbox studied the PayPal model, which paid cash, then replaced cash with the product's own currency: storage. The offer was symmetric. The referrer got 500 MB for each friend who installed Dropbox. The referee got 500 MB for signing up through the link. Caps sat at 16 GB on the Basic plan and 32 GB on Plus (dropbox.com/refer, first-party, current). The reward fulfilled automatically, with no manual approval and no claim form. Referralrock's write-up makes the framing point: the referee's landing screen said "we gave you an extra 500 MB for accepting [peer's name's] invitation." Both sides feel the transaction, and the share does not feel like an affiliate commission.
+Dropbox studied the PayPal model, which paid cash, then replaced cash with the product's own currency: storage. The offer was symmetric. The referrer got 500 MB for each friend who installed Dropbox. The referee got 500 MB for signing up through the link. Caps sat at 16 GB on the Basic plan and 32 GB on Plus (dropbox.com/refer, first-party, current). <sup><a href="#sources">[3]</a></sup> The reward fulfilled automatically, with no manual approval and no claim form. Referralrock's write-up makes the framing point: the referee's landing screen said "we gave you an extra 500 MB for accepting [peer's name's] invitation." <sup><a href="#sources">[2]</a></sup> Both sides feel the transaction, and the share does not feel like an affiliate commission.
 
 Three design choices carried the program.
 
@@ -59,27 +59,27 @@ Second, the incentive was product-native. More storage is the thing Dropbox is f
 
 Third, the program was in the flow, not off to the side. The first email Dropbox sent to a new user mentioned referrals. The invite was reachable from account settings, and the reward credited on install. Lowering the friction of the share is what turns a good incentive into a running loop.
 
-The program did not manufacture word of mouth. About a third of signups already came from word of mouth before it launched (referralrock, vendor source). The program systematized an existing flow, made it trackable, and rewarded it. The signal that a product is ready for a referral program is exactly that: customers already refer you sometimes, but there is no system to make it easy, track it, or thank them.
+The program did not manufacture word of mouth. About a third of signups already came from word of mouth before it launched (referralrock, vendor source). <sup><a href="#sources">[2]</a></sup> The program systematized an existing flow, made it trackable, and rewarded it. The signal that a product is ready for a referral program is exactly that: customers already refer you sometimes, but there is no system to make it easy, track it, or thank them.
 
 ### PayPal: the cash origin point
 
-PayPal's early referral program is the origin of the "pay to acquire" school. New signups got $10. Referrers got $10 per referral, for a total cash cost of $20 per acquired customer (referralcandy, vendor source). The program opened at $20 each side and was cut to $10, then $5, as the network grew (stratrix, vendor source). It produced sustained daily growth reported at 7–10% at peak (viral-loops, vendor source). Dropbox studied this program and replaced the cash with storage. The lesson to take: cash works when the unit economics and the network can absorb it, and a product-native reward is usually cheaper and stickier.
+PayPal's early referral program is the origin of the "pay to acquire" school. New signups got $10. Referrers got $10 per referral, for a total cash cost of $20 per acquired customer (referralcandy, vendor source). <sup><a href="#sources">[4]</a></sup> The program opened at $20 each side and was cut to $10, then $5, as the network grew (stratrix, vendor source). <sup><a href="#sources">[5]</a></sup> It produced sustained daily growth reported at 7–10% at peak (viral-loops, vendor source). <sup><a href="#sources">[6]</a></sup> Dropbox studied this program and replaced the cash with storage. The lesson to take: cash works when the unit economics and the network can absorb it, and a product-native reward is usually cheaper and stickier.
 
 ### Airbnb: rebuild the broken program and measure a funnel
 
-Before 2014, Airbnb's referral system existed but was barely findable and did not run on mobile. The growth team rebuilt it from scratch and launched Referrals 2.0 across web, Android, and iOS (Airbnb Tech Blog, first-party, Mar 27 2014). The incentive was $25 in travel credit to each side, credited when the invited user completed a first trip, with an extra $75 if the friend became a host (Airbnb Tech Blog, first-party, and waitlister, vendor source).
+Before 2014, Airbnb's referral system existed but was barely findable and did not run on mobile. The growth team rebuilt it from scratch and launched Referrals 2.0 across web, Android, and iOS (Airbnb Tech Blog, first-party, Mar 27 2014). <sup><a href="#sources">[7]</a></sup> The incentive was $25 in travel credit to each side, credited when the invited user completed a first trip, with an extra $75 if the friend became a host (Airbnb Tech Blog, first-party, and waitlister, vendor source). <sup><a href="#sources">[7]</a></sup> <sup><a href="#sources">[9]</a></sup>
 
-The discipline worth copying is the measurement. The team defined a referral funnel before writing code: monthly active users sending invites, invitees per inviter, conversion to new user, conversion to new guest, conversion to new host. For each metric they set good, better, and best forecasts and built dashboards to track them from day one (Airbnb Tech Blog, first-party). Relaunch lifted signups and bookings by over 300% per day, and bookings rose over 25% in some markets (Airbnb Tech Blog, first-party).
+The discipline worth copying is the measurement. The team defined a referral funnel before writing code: monthly active users sending invites, invitees per inviter, conversion to new user, conversion to new guest, conversion to new host. For each metric they set good, better, and best forecasts and built dashboards to track them from day one (Airbnb Tech Blog, first-party). <sup><a href="#sources">[7]</a></sup> Relaunch lifted signups and bookings by over 300% per day, and bookings rose over 25% in some markets (Airbnb Tech Blog, first-party). <sup><a href="#sources">[7]</a></sup>
 
 Airbnb also ran the framing experiment that matters. One promotional email emphasized "earn $25 for inviting a friend" (self-interested). Another emphasized "share $25 with your friend" (altruistic). The team A/B tested the two value propositions. Framing the reward as a gift to the friend is a design lever, not a copy detail.
 
 ### Uber: double-sided credits on both sides of a marketplace
 
-Uber ran referral programs for both riders and drivers, which is the correct shape for a two-sided marketplace. Rider referrals offered $20 in ride credit each side (Uber newsroom, first-party, Jan 2014). Driver referrals paid $5 cash per new rider (Uber partner blog, first-party). The rider program is the standard double-sided credit. The driver program pays cash because the driver's action (bringing in a rider) is more transactional and farther from the product's daily use. Viral-loops reports a 12x ROI on the referral channel (vendor source). The transferable lesson is that a marketplace needs a referral loop on each side, and the reward type (credit versus cash) should match each side's relationship to the product.
+Uber ran referral programs for both riders and drivers, which is the correct shape for a two-sided marketplace. Rider referrals offered $20 in ride credit each side (Uber newsroom, first-party, Jan 2014). <sup><a href="#sources">[10]</a></sup> Driver referrals paid $5 cash per new rider (Uber partner blog, first-party). <sup><a href="#sources">[11]</a></sup> The rider program is the standard double-sided credit. The driver program pays cash because the driver's action (bringing in a rider) is more transactional and farther from the product's daily use. Viral-loops reports a 12x ROI on the referral channel (vendor source). <sup><a href="#sources">[12]</a></sup> The transferable lesson is that a marketplace needs a referral loop on each side, and the reward type (credit versus cash) should match each side's relationship to the product.
 
 ### Robinhood: variable reward as a hook
 
-Robinhood's referral program gives a free share of stock to each side. The reward is variable: about 99% of referees receive a share worth roughly $5, with the top end near $200, and referrers can earn up to $1,500 through referrals (robinhood.com support, first-party, current). A variable reward performs a different job than a fixed one. It is a lottery ticket: the small probability of a large payout keeps the incentive interesting at a predictable average cost. Startup-Insider Edge reports a peak referral conversion rate of 7.8% (vendor source). The design caution is that variable rewards on a financial product invite fraud, which is covered in the failure modes below.
+Robinhood's referral program gives a free share of stock to each side. The reward is variable: about 99% of referees receive a share worth roughly $5, with the top end near $200, and referrers can earn up to $1,500 through referrals (robinhood.com support, first-party, current). <sup><a href="#sources">[13]</a></sup> A variable reward performs a different job than a fixed one. It is a lottery ticket: the small probability of a large payout keeps the incentive interesting at a predictable average cost. Startup-Insider Edge reports a peak referral conversion rate of 7.8% (vendor source). <sup><a href="#sources">[14]</a></sup> The design caution is that variable rewards on a financial product invite fraud, which is covered in the failure modes below.
 
 ### Notion and Calendly: the in-product loops
 
@@ -95,7 +95,7 @@ The viral coefficient, K, is the average number of new users each existing user 
 
 K = i × c
 
-where i is the average number of invites sent per user and c is the conversion rate of those invites (signups divided by invites sent). The formula appears across the referral-tooling literature (getlaunchlist 2026 guide, metricaas, userjot).
+where i is the average number of invites sent per user and c is the conversion rate of those invites (signups divided by invites sent). The formula appears across the referral-tooling literature (getlaunchlist 2026 guide, metricaas, userjot). <sup><a href="#sources">[15]</a></sup>
 
 The threshold sits at K = 1.0. A coefficient above 1.0 means each user brings in more than one new user, and the loop compounds on its own. At K = 1.0 the loop is self-sustaining in steady state. Below 1.0 the loop still adds users, but it needs fuel from paid or outbound channels to grow. The channel page sets the healthy bar for a self-sustaining loop at a coefficient above 1.0 (../channels/referral-viral).
 
@@ -107,7 +107,7 @@ A share loop is the end-to-end cycle: share, invite, signup, share again. The lo
 
 ### Share triggers and entry points
 
-A share needs a trigger and a place to happen. The trigger is the moment a customer is most likely to refer: right after booking a reservation, after leaving a positive review, after the first file sync, after the first meeting scheduled. Airbnb promoted referrals at exactly these moments and segmented performance by entry point so it knew which trigger worked (Airbnb Tech Blog, first-party, Mar 2014).
+A share needs a trigger and a place to happen. The trigger is the moment a customer is most likely to refer: right after booking a reservation, after leaving a positive review, after the first file sync, after the first meeting scheduled. Airbnb promoted referrals at exactly these moments and segmented performance by entry point so it knew which trigger worked (Airbnb Tech Blog, first-party, Mar 2014). <sup><a href="#sources">[7]</a></sup>
 
 The entry point is the surface where the share happens: an email, an in-app modal, a link in account settings, a share button in the product. Dropbox's first email to a new user mentioned referrals, and the referral link sat in account settings. Lowering the friction between "wants to share" and "has shared" is the single biggest lever on the share rate.
 
@@ -116,7 +116,7 @@ The entry point is the surface where the share happens: an email, an in-app moda
 The payout trigger decides when the incentive lands. Three common gates, in increasing strictness:
 
 - **On signup.** Easiest to convert, easiest to abuse. Rewards people who never pay.
-- **On first purchase or first completed action.** Airbnb credited the $25 only after the invited user completed a first trip (Airbnb Tech Blog, first-party). This is the sweet spot: it gates the reward on a real transaction.
+- **On first purchase or first completed action.** Airbnb credited the $25 only after the invited user completed a first trip (Airbnb Tech Blog, first-party). <sup><a href="#sources">[7]</a></sup> This is the sweet spot: it gates the reward on a real transaction.
 - **On a retention milestone.** The strictest gate, used when LTV matters more than activation. Clawbacks and delayed payouts sit here.
 
 Gate the reward on a qualified action, not on a signup. Every incentive cost in the CPAR math below assumes a qualified referral.
@@ -138,7 +138,7 @@ A waitlist front-loads the loop before the product launches. The mechanic is sim
 
 ### First-referral problem
 
-The hardest share in any program is the first one. A customer who has never referred does not know the program exists or does not trust that it works. Two fixes recur in the documented cases. Make the program visible at the moment of peak satisfaction, and make the reward crediting automatic and immediate, so the first referral demonstrates the program to the referrer. Dropbox credited storage automatically on install with no claim form (referralrock, vendor source). Automatic crediting converts the first referral into proof, which is what earns the second.
+The hardest share in any program is the first one. A customer who has never referred does not know the program exists or does not trust that it works. Two fixes recur in the documented cases. Make the program visible at the moment of peak satisfaction, and make the reward crediting automatic and immediate, so the first referral demonstrates the program to the referrer. Dropbox credited storage automatically on install with no claim form (referralrock, vendor source). <sup><a href="#sources">[2]</a></sup> Automatic crediting converts the first referral into proof, which is what earns the second.
 
 ---
 
@@ -158,11 +158,11 @@ At K = 0.15 the loop returns about 0.15 customers per customer per month. It com
 
 The Dropbox-style reward economics, with the named numbers from the program:
 
-- Incentive to referrer: 500 MB storage, capped at 16 GB on Basic (dropbox.com/refer, first-party).
+- Incentive to referrer: 500 MB storage, capped at 16 GB on Basic (dropbox.com/refer, first-party). <sup><a href="#sources">[3]</a></sup>
 - Incentive to referee: 500 MB storage on signup.
 - Marginal cost per rewarded referral: the cost of 500 MB of server storage in 2008, a small fraction of a cash payout and a small fraction of a paid-acquisition cost.
 
-The accounting difference between Dropbox and PayPal is the whole point. PayPal paid $20 cash per acquired customer (referralcandy, vendor source). Dropbox paid a near-zero-cost unit of the product it sells. Both are double-sided. One is a cash outlay against CAC. The other is a product-native grant that costs a fraction of the equivalent cash reward and pulls the referee deeper into the product.
+The accounting difference between Dropbox and PayPal is the whole point. PayPal paid $20 cash per acquired customer (referralcandy, vendor source). <sup><a href="#sources">[4]</a></sup> Dropbox paid a near-zero-cost unit of the product it sells. Both are double-sided. One is a cash outlay against CAC. The other is a product-native grant that costs a fraction of the equivalent cash reward and pulls the referee deeper into the product.
 
 ### Cost per acquired referral (CPAR), worked
 
@@ -302,7 +302,7 @@ Track these five, per cohort, not as aggregate counts.
 - **Cost per acquired referral (CPAR).** Total incentive cost divided by qualified referred customers. Compare it to paid CAC.
 - **Referred-cohort retention and NRR.** Referred customers who stay and expand. The channel page notes referral-sourced NRR runs higher than non-referred. A referral that churns in month two is a CAC you spent twice.
 
-Airbnb's funnel is the model to copy: monthly active users sending invites, invitees per inviter, conversion to new user, conversion to new guest, conversion to new host, each with good/better/best forecasts and a live dashboard (Airbnb Tech Blog, first-party, Mar 2014). Funnel health logic from the [Funnel Benchmarks](../data/funnel) page applies directly: diagnose the largest absolute drop, not the most striking percentage.
+Airbnb's funnel is the model to copy: monthly active users sending invites, invitees per inviter, conversion to new user, conversion to new guest, conversion to new host, each with good/better/best forecasts and a live dashboard (Airbnb Tech Blog, first-party, Mar 2014). <sup><a href="#sources">[7]</a></sup> Funnel health logic from the [Funnel Benchmarks](../data/funnel) page applies directly: diagnose the largest absolute drop, not the most striking percentage.
 
 ---
 
@@ -402,25 +402,25 @@ Step 5, read it . K at 0.375 still needs paid or outbound fuel. The loop is a ch
 
 ## Honest caveat
 
-Most of these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. The first-party exceptions are Airbnb's own engineering post (Mar 2014), Uber's newsroom and partner blog (2014), and Dropbox's and Robinhood's current support pages, which document incentive mechanics, not growth multiples. The 3,900% Dropbox number is a function of a category-defining product at a category-defining moment in 2008, when free cloud storage was a novel shareable value. The mechanism transfers. The multiples do not.
+Most of these are vendor- and agency-sourced outcomes, self-reported and skewed to the impressive. The first-party exceptions are Airbnb's own engineering post (Mar 2014), Uber's newsroom and partner blog (2014), and Dropbox's and Robinhood's current support pages, which document incentive mechanics, not growth multiples. The 3,900% Dropbox number <sup><a href="#sources">[1]</a></sup> is a function of a category-defining product at a category-defining moment in 2008, when free cloud storage was a novel shareable value. The mechanism transfers. The multiples do not.
 
 ## Sources
 
-- [getlaunchlist: Dropbox referral case study](https://getlaunchlist.com/blog/dropbox-referral-program-case-study): 100K (Sept 2008) to 4M (Dec 2009), 3,900%, 2.8x paid, 500 MB each side capped at 16 GB. (vendor source)
-- [referralrock: How the Dropbox Referral Program Led to 3900% Growth](https://referralrock.com/blog/dropbox-referral-program/): 35% of daily signups, ~1/3 word of mouth before launch, the "gift on arrival" framing. (vendor source)
-- [Dropbox: referral program](https://www.dropbox.com/refer): 500 MB (Basic) / 1 GB (Plus) per referral, caps 16 GB / 32 GB. (first-party, current)
-- [referralcandy: PayPal referrals](https://www.referralcandy.com/blog/paypal-referrals/): $10 signup, $10 referral, $20 per acquisition. (vendor source)
-- [stratrix: PayPal Paid $20 a Signup](https://www.stratrix.com/distribution-rebellion/how-paypal-bypassed-the-channel): opened at $20/$20, cut to $10, then $5. (vendor source)
-- [viral-loops: PayPal referral case study](https://viral-loops.com/blog/paypal-referral-program-case-study/): 7–10% daily growth. (vendor source)
-- [Airbnb Tech Blog: Hacking Word-of-Mouth: Making Referrals Work for Airbnb](http://nerds.airbnb.com/making-referrals-work-for-airbnb/): $25 credit each side, relaunch 300% lift, +25% bookings in some markets, referral funnel metrics, the earn-vs-share framing A/B test. (first-party, Mar 27 2014)
-- [viral-loops: Airbnb referral case study](https://viral-loops.com/blog/airbnb-referral-billion-dollar-formula/): Referrals 2.0 (2014), up to 30% of first-time bookings. (vendor source)
-- [waitlister: Airbnb referral program](https://waitlister.me/growth-hub/blog/airbnb-referral-program): extra $75 if the friend became a host. (vendor source)
-- [Uber newsroom: doubling referral credits (2014)](https://www.uber.com/ca/en/newsroom/were-doubling-referral-credits-for-the-new-year-7/): $20 ride credit per referral. (first-party, Jan 2014)
-- [Uber partner blog: Earn Cash between Rides](https://www.uber.com/us/en/blog/earn-cash-between-rides-2/): $5 cash per new rider for drivers. (first-party)
-- [viral-loops: Uber referral case study](https://viral-loops.com/blog/uber-referral-program-case-study/): 12x ROI. (vendor source)
-- [Robinhood: Open account, pick your stock](https://robinhood.com/us/en/support/articles/open-account-pick-your-stock/): ~99% receive ~$5, up to $200, up to $1,500 via referrals. (first-party, current)
-- [Startup-Insider Edge: Robinhood free shares](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966): 7.8% peak referral conversion. (vendor source)
-- [getlaunchlist: viral coefficient / K-factor guide](https://getlaunchlist.com/blog/viral-coefficient-k-factor-guide): K = i × c, threshold at 1.0.
+- [1] [getlaunchlist: Dropbox referral case study](https://getlaunchlist.com/blog/dropbox-referral-program-case-study): 100K (Sept 2008) to 4M (Dec 2009), 3,900%, 2.8x paid, 500 MB each side capped at 16 GB. (vendor source)
+- [2] [referralrock: How the Dropbox Referral Program Led to 3900% Growth](https://referralrock.com/blog/dropbox-referral-program/): 35% of daily signups, ~1/3 word of mouth before launch, the "gift on arrival" framing. (vendor source)
+- [3] [Dropbox: referral program](https://www.dropbox.com/refer): 500 MB (Basic) / 1 GB (Plus) per referral, caps 16 GB / 32 GB. (first-party, current)
+- [4] [referralcandy: PayPal referrals](https://www.referralcandy.com/blog/paypal-referrals/): $10 signup, $10 referral, $20 per acquisition. (vendor source)
+- [5] [stratrix: PayPal Paid $20 a Signup](https://www.stratrix.com/distribution-rebellion/how-paypal-bypassed-the-channel): opened at $20/$20, cut to $10, then $5. (vendor source)
+- [6] [viral-loops: PayPal referral case study](https://viral-loops.com/blog/paypal-referral-program-case-study/): 7–10% daily growth. (vendor source)
+- [7] [Airbnb Tech Blog: Hacking Word-of-Mouth: Making Referrals Work for Airbnb](http://nerds.airbnb.com/making-referrals-work-for-airbnb/): $25 credit each side, relaunch 300% lift, +25% bookings in some markets, referral funnel metrics, the earn-vs-share framing A/B test. (first-party, Mar 27 2014)
+- [8] [viral-loops: Airbnb referral case study](https://viral-loops.com/blog/airbnb-referral-billion-dollar-formula/): Referrals 2.0 (2014), up to 30% of first-time bookings. (vendor source)
+- [9] [waitlister: Airbnb referral program](https://waitlister.me/growth-hub/blog/airbnb-referral-program): extra $75 if the friend became a host. (vendor source)
+- [10] [Uber newsroom: doubling referral credits (2014)](https://www.uber.com/ca/en/newsroom/were-doubling-referral-credits-for-the-new-year-7/): $20 ride credit per referral. (first-party, Jan 2014)
+- [11] [Uber partner blog: Earn Cash between Rides](https://www.uber.com/us/en/blog/earn-cash-between-rides-2/): $5 cash per new rider for drivers. (first-party)
+- [12] [viral-loops: Uber referral case study](https://viral-loops.com/blog/uber-referral-program-case-study/): 12x ROI. (vendor source)
+- [13] [Robinhood: Open account, pick your stock](https://robinhood.com/us/en/support/articles/open-account-pick-your-stock/): ~99% receive ~$5, up to $200, up to $1,500 via referrals. (first-party, current)
+- [14] [Startup-Insider Edge: Robinhood free shares](https://medium.com/startup-insider-edge/from-5-free-shares-to-25-million-users-did-robinhood-reinvent-growth-hacking-or-exploit-it-18a6aa541966): 7.8% peak referral conversion. (vendor source)
+- [15] [getlaunchlist: viral coefficient / K-factor guide](https://getlaunchlist.com/blog/viral-coefficient-k-factor-guide): K = i × c, threshold at 1.0.
 
 ## Further reading
 

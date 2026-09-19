@@ -60,6 +60,16 @@
   "generatedAt": "2026-09-19",
   "updates": [
     {
+      "date": "2026-09-19",
+      "text": "Referral viral · IB-007.",
+      "items": [
+        {
+          "label": "referral viral",
+          "href": "/docs/channels/referral-viral"
+        }
+      ]
+    },
+    {
       "date": "2026-09-18",
       "text": "Partner, agentic gtm overview, agentic stack, agentic outbound +48 more · IB-007.",
       "items": [
@@ -302,20 +312,6 @@
         {
           "label": "gtm metrics",
           "href": "/docs/data/gtm-metrics"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "text": "Outbound response rates, inbound · IB-007.",
-      "items": [
-        {
-          "label": "outbound response rates",
-          "href": "/docs/data/outbound-response-rates"
-        },
-        {
-          "label": "inbound",
-          "href": "/docs/channels/inbound"
         }
       ]
     }
