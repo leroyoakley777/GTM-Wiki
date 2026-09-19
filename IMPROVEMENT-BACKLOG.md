@@ -57,3 +57,4 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 - Impact: based on contribution to Gold Ship Standard gates (True, Tasteful, Insightful, Engaging)
 - The known depth items (variant/maturity + failure-modes) cover ~24 pages as reported by check-depth.
 - Scan-slop candidates (224) are warnings, not hard gate failures, but improving them raises taste and truth bar.
+> **TRACK (2026-09-19, second ship):** Ship lane footnoted `docs/case-studies/05-referral-viral.md` (`3eb66688`, live-verified on gtm-wiki-nu.vercel.app; receipt in plans/gtm-wiki/releases). Sources renumbered to the `[n]` convention ([1]–[15]); all 8 scan-slop uncited-stat candidates on the page cleared to 0. Row stays OPEN — next candidates from a fresh scan-slop pass: `docs/foundations/06-revenue-operations.md` (6), `docs/flows/04-buyers-journey.md` (6).
