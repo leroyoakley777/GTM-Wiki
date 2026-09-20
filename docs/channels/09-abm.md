@@ -2,7 +2,7 @@
 sidebar_position: 9
 title: Account-Based Marketing (ABM)
 description: When ABM is the right channel, the account-selection model, the one-to-one / one-to-few / one-to-many tiers, named-and-dated win-rate and ROI benchmarks, the account plan, sequencing, objections, failure modes, the case matrix, handoff, and the agentic SOP.
-last-updated: 2026-09-08
+last_updated: 2026-09-20
 status: active
 tags: [abm, channel, account-based-marketing, enterprise, intent, account-plan, agentic]
 domain: channels
@@ -304,8 +304,7 @@ with an equivalent. Keep the layers.
 The stack is only as good as the list feeding it. Tools multiply effort.
 They do not fix a fuzzy ICP or a broken message. Most ABM orgs already
 report that the top challenges are proving ROI (47%), aligning sales and
-marketing (43%), and scaling (40%) ([Demand Gen Report, 2025 ABM
-Benchmark Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)), none of which a tool alone solves.
+marketing (43%), and scaling (40%) <sup><a href="#sources">[6]</a></sup> ([Demand Gen Report, 2025 ABM Benchmark Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)), none of which a tool alone solves.
 
 ---
 
@@ -338,8 +337,7 @@ called a plan.
 
 ABM runs on multi-channel orchestration, not a single email stream. The
 channels that deliver most: email leads at 92% and in-person events at
-72% ([Demand Gen Report, 2025 ABM Benchmark
-Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)).
+72% <sup><a href="#sources">[6]</a></sup> ([Demand Gen Report, 2025 ABM Benchmark Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/)).
 
 A representative one-to-few sequence over roughly 4 weeks:
 
@@ -505,22 +503,22 @@ and milestones. Return only accounts that pass the fit gate.
 
 ## Sources
 
-- [SalesMotion: ABM Metrics That Prove
+- [1] [SalesMotion: ABM Metrics That Prove
   ROI](https://salesmotion.io/blog/account-based-marketing-metrics):
   account win-rate benchmarks, Snowflake and DocuSign cases.
-- [Labs by Demandbase, 2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/): 2–3x win-rate lift from buying-group engagement, 24B+ interactions.
-- [Demandbase: 2024 ABM Benchmark](https://www.demandbase.com/resources/report/2024-abm-benchmark/): 81% higher ROI for top performers.
-- [Momentum ITSMA + ABM Leadership Alliance, 2022](https://www.prnewswire.com/in/news-releases/momentum-itsmas-annual-abm-benchmarking-study-shows-no-signs-of-slow-down-for-account-based-marketing-301760212.html): pipeline, revenue, ROI, engagement.
-- [Forrester: State of ABM 2024](https://www.forrester.com/report/account-based-marketing-delivers-higher-roi-across-regions/RES181818): ABM ROI vs non-ABM.
-- [Demand Gen Report: 2025 ABM Benchmark
+- [2] [Labs by Demandbase, 2026](https://www.demandgenreport.com/industry-news/news-brief/labs-by-demandbase-publishes-new-gtm-centered-report/52049/): 2–3x win-rate lift from buying-group engagement, 24B+ interactions.
+- [3] [Demandbase: 2024 ABM Benchmark](https://www.demandbase.com/resources/report/2024-abm-benchmark/): 81% higher ROI for top performers.
+- [4] [Momentum ITSMA + ABM Leadership Alliance, 2022](https://www.prnewswire.com/in/news-releases/momentum-itsmas-annual-abm-benchmarking-study-shows-no-signs-of-slow-down-for-account-based-marketing-301760212.html): pipeline, revenue, ROI, engagement.
+- [5] [Forrester: State of ABM 2024](https://www.forrester.com/report/account-based-marketing-delivers-higher-roi-across-regions/RES181818): ABM ROI vs non-ABM.
+- [6] [Demand Gen Report: 2025 ABM Benchmark
   Survey](https://www.demandgenreport.com/resources/2025-account-based-marketing-benchmark-survey/50610/): adoption, channels, top challenges.
-- [The Starr Conspiracy: ABM Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/account-based-marketing-benchmarks-2025): adoption trend, intent data.
-- [The Starr Conspiracy: B2B Intent Data Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-intent-data-benchmarks-2025): intent conversion, sales-cycle compression.
-- [Huble: 111 ABM Statistics](https://huble.com/blog/account-based-marketing-statistics): deal size, revenue attribution, win-rate reporting.
-- [Foundry: ABM and intent data statistics](https://foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): ICP win rate, intent ad CTR.
-- [Gartner: 3 Pillars of Account-Based Strategy](https://www.gartner.com/smarterwithgartner/3-pillars-of-a-successful-account-based-strategy): alignment win-rate lift, LTV.
-- [Demandbase: ABM 101](https://www.demandbase.com/faq/account-based-marketing-101/): tier definitions.
-- [Amplitude: What is ABM](https://amplitude.com/explore/digital-marketing/what-account-based-marketing): committee size, tier scopes.
+- [7] [The Starr Conspiracy: ABM Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/account-based-marketing-benchmarks-2025): adoption trend, intent data.
+- [8] [The Starr Conspiracy: B2B Intent Data Benchmarks 2025](https://www.thestarrconspiracy.com/insights/benchmarks/b2b-intent-data-benchmarks-2025): intent conversion, sales-cycle compression.
+- [9] [Huble: 111 ABM Statistics](https://huble.com/blog/account-based-marketing-statistics): deal size, revenue attribution, win-rate reporting.
+- [10] [Foundry: ABM and intent data statistics](https://foundryco.com/blog/blog-top-30-account-based-marketing-and-intent-data-statistics-to-know/): ICP win rate, intent ad CTR.
+- [11] [Gartner: 3 Pillars of Account-Based Strategy](https://www.gartner.com/smarterwithgartner/3-pillars-of-a-successful-account-based-strategy): alignment win-rate lift, LTV.
+- [12] [Demandbase: ABM 101](https://www.demandbase.com/faq/account-based-marketing-101/): tier definitions.
+- [13] [Amplitude: What is ABM](https://amplitude.com/explore/digital-marketing/what-account-based-marketing): committee size, tier scopes.
 
 ---
 

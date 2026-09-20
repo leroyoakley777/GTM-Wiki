@@ -57,12 +57,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-19",
+  "generatedAt": "2026-09-20",
   "updates": [
     {
       "date": "2026-09-19",
-      "text": "Referral viral · IB-007.",
+      "text": "Referral viral, referral viral · IB-007.",
       "items": [
+        {
+          "label": "referral viral",
+          "href": "/docs/case-studies/referral-viral"
+        },
         {
           "label": "referral viral",
           "href": "/docs/channels/referral-viral"
