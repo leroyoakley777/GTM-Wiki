@@ -60,6 +60,16 @@
   "generatedAt": "2026-09-20",
   "updates": [
     {
+      "date": "2026-09-20",
+      "text": "Abm · IB-007.",
+      "items": [
+        {
+          "label": "abm",
+          "href": "/docs/channels/abm"
+        }
+      ]
+    },
+    {
       "date": "2026-09-19",
       "text": "Referral viral, referral viral · IB-007.",
       "items": [
@@ -302,20 +312,6 @@
         {
           "label": "funnel",
           "href": "/docs/data/funnel"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "text": "Conversion rate benchmarks, gtm metrics · IB-007.",
-      "items": [
-        {
-          "label": "conversion rate benchmarks",
-          "href": "/docs/data/conversion-rate-benchmarks"
-        },
-        {
-          "label": "gtm metrics",
-          "href": "/docs/data/gtm-metrics"
         }
       ]
     }

@@ -2,7 +2,7 @@
 sidebar_position: 4
 title: Product-Led Growth
 description: When product-led growth is the right channel, the signup-to-activation-to-pay funnel with named dated benchmarks, trial-model tradeoffs, growth loops, PQLs, tools, sequencing, sales handoff, the SMB vs enterprise case matrix, failure modes, and the agentic layer.
-last-updated: 2026-09-08
+last_updated: 2026-09-20
 status: active
 tags: [product-led, plg, channel, free-to-paid, activation, pql, growth-loops, self-serve, trial, agentic]
 domain: channels
@@ -472,21 +472,21 @@ benchmarks](https://productled.com/blog/product-led-growth-benchmarks)).
 
 ## Sources
 
-- [Lenny's Newsletter × OpenView × Pendo: "What is good free-to-paid
+- [1] [Lenny's Newsletter × OpenView × Pendo: "What is good free-to-paid
   conversion"](https://openviewpartners.com/2023-product-benchmarks/):
-  1,000+ product survey, Aug 2023. Freemium self-serve 3–8%, freemium +
+  1,000+ product survey. Freemium self-serve 3–8%, freemium +
   sales-assist 5–15%, free-trial 8–25%; signup 5% trial vs 9% freemium;
   developer median ~5%; 44% of trial companies route >half signups to
-  sales.
-- [Gainsight: Product-Led Growth Index](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)
-  : free trials using PQLs convert 2.8x higher, 2022.
-- [First Page Sage / Pulseahead: Trial-to-Paid Benchmarks](https://www.pulseahead.com/blog/trial-to-paid-conversion-benchmarks-in-saas)
+  sales (as of Aug 2023).
+- [2] [Gainsight: Product-Led Growth Index](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/)
+  : free trials using PQLs convert 2.8x higher (as of 2022).
+- [3] [First Page Sage / Pulseahead: Trial-to-Paid Benchmarks](https://www.pulseahead.com/blog/trial-to-paid-conversion-benchmarks-in-saas)
   : opt-in ~18%, opt-out ~49%, freemium ~3–9%, per-1k-visitors outcomes.
-- [ChartMogul / Userpilot: SaaS Conversion](https://userpilot.com/blog/saas-average-conversion-rate/)
+- [4] [ChartMogul / Userpilot: SaaS Conversion](https://userpilot.com/blog/saas-average-conversion-rate/)
   : a 1-point free-to-paid lift ≈ +15% new revenue per cohort.
-- [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks)
+- [5] [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks)
   : 600+ B2B SaaS survey: ~9% median free-to-paid, ~25–30% with PQLs.
-- [Sixteen Ventures, Lincoln Murphy: SaaS Free Trial Benchmarks](https://sixteenventures.com/saas-free-trial-benchmarks)
+- [6] [Sixteen Ventures, Lincoln Murphy: SaaS Free Trial Benchmarks](https://sixteenventures.com/saas-free-trial-benchmarks)
   : opt-in top performers above 25%, opt-out above 60%, and the warning
   on switching CC walls.
 
