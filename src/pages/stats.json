@@ -1,5 +1,5 @@
 {
-  "pages": "87",
+  "pages": "97",
   "sections": "14",
   "sectionCounts": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "id": "agentic",
-      "pages": 14
+      "pages": 24
     },
     {
       "id": "case-studies",
@@ -65,16 +65,8 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Revenue operations, saas buyer empathy, overview, agent os harness +7 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "Overview, agent os harness, cron fleets, decision gates +82 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
-        {
-          "label": "revenue operations",
-          "href": "/docs/foundations/revenue-operations"
-        },
-        {
-          "label": "saas buyer empathy",
-          "href": "/docs/agentic/saas-buyer-empathy"
-        },
         {
           "label": "overview",
           "href": "/docs/agent-ops/overview"
@@ -86,6 +78,10 @@
         {
           "label": "cron fleets",
           "href": "/docs/agent-ops/cron-fleets"
+        },
+        {
+          "label": "decision gates",
+          "href": "/docs/agent-ops/decision-gates"
         },
         {
           "label": "jevons economics",
@@ -104,12 +100,316 @@
           "href": "/docs/agent-ops/agent-built-wiki"
         },
         {
-          "label": "decision gates",
-          "href": "/docs/agent-ops/decision-gates"
+          "label": "agentic gtm overview",
+          "href": "/docs/agentic/agentic-gtm-overview"
+        },
+        {
+          "label": "gtm os architecture",
+          "href": "/docs/agentic/gtm-os-architecture"
+        },
+        {
+          "label": "agentic stack",
+          "href": "/docs/agentic/agentic-stack"
+        },
+        {
+          "label": "agentic outbound",
+          "href": "/docs/agentic/agentic-outbound"
+        },
+        {
+          "label": "guardrails and measurement",
+          "href": "/docs/agentic/guardrails-and-measurement"
+        },
+        {
+          "label": "agent vs human workflows",
+          "href": "/docs/agentic/agent-vs-human-workflows"
+        },
+        {
+          "label": "building a gtm copilot",
+          "href": "/docs/agentic/building-a-gtm-copilot"
+        },
+        {
+          "label": "saas buyer empathy",
+          "href": "/docs/agentic/saas-buyer-empathy"
+        },
+        {
+          "label": "autonomy ladder",
+          "href": "/docs/agentic/autonomy-ladder"
+        },
+        {
+          "label": "build order",
+          "href": "/docs/agentic/build-order"
+        },
+        {
+          "label": "controls",
+          "href": "/docs/agentic/controls"
+        },
+        {
+          "label": "examiner",
+          "href": "/docs/agentic/examiner"
+        },
+        {
+          "label": "gtm os repo structure",
+          "href": "/docs/agentic/gtm-os-repo-structure"
+        },
+        {
+          "label": "quality gate",
+          "href": "/docs/agentic/quality-gate"
+        },
+        {
+          "label": "product led",
+          "href": "/docs/case-studies/product-led"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/case-studies/abm"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/case-studies/outbound"
+        },
+        {
+          "label": "community led",
+          "href": "/docs/case-studies/community-led"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/case-studies/referral-viral"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "inbound",
+          "href": "/docs/channels/inbound"
+        },
+        {
+          "label": "product led",
+          "href": "/docs/channels/product-led"
+        },
+        {
+          "label": "partner",
+          "href": "/docs/channels/partner"
+        },
+        {
+          "label": "community led",
+          "href": "/docs/channels/community-led"
+        },
+        {
+          "label": "paid",
+          "href": "/docs/channels/paid"
+        },
+        {
+          "label": "events field",
+          "href": "/docs/channels/events-field"
+        },
+        {
+          "label": "referral viral",
+          "href": "/docs/channels/referral-viral"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/channels/abm"
+        },
+        {
+          "label": "contributing",
+          "href": "/docs/contributing"
+        },
+        {
+          "label": "positioning",
+          "href": "/docs/copywriting/positioning"
+        },
+        {
+          "label": "messaging",
+          "href": "/docs/copywriting/messaging"
+        },
+        {
+          "label": "frameworks",
+          "href": "/docs/copywriting/frameworks"
+        },
+        {
+          "label": "conversion rate benchmarks",
+          "href": "/docs/data/conversion-rate-benchmarks"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/data/gtm-metrics"
+        },
+        {
+          "label": "market segmentation",
+          "href": "/docs/data/market-segmentation"
+        },
+        {
+          "label": "funnel",
+          "href": "/docs/data/funnel"
+        },
+        {
+          "label": "pricing as gtm",
+          "href": "/docs/data/pricing-as-gtm"
+        },
+        {
+          "label": "outbound response rates",
+          "href": "/docs/data/outbound-response-rates"
+        },
+        {
+          "label": "sales cycle benchmarks",
+          "href": "/docs/data/sales-cycle-benchmarks"
         },
         {
           "label": "outbound",
           "href": "/docs/flows/outbound"
+        },
+        {
+          "label": "agentic outbound",
+          "href": "/docs/flows/agentic-outbound"
+        },
+        {
+          "label": "sales process meddpicc",
+          "href": "/docs/flows/sales-process-meddpicc"
+        },
+        {
+          "label": "buyers journey",
+          "href": "/docs/flows/buyers-journey"
+        },
+        {
+          "label": "engagement flow",
+          "href": "/docs/flows/engagement-flow"
+        },
+        {
+          "label": "gtm strategy framework",
+          "href": "/docs/foundations/gtm-strategy-framework"
+        },
+        {
+          "label": "what is gtm",
+          "href": "/docs/foundations/what-is-gtm"
+        },
+        {
+          "label": "gtm channels bullseye",
+          "href": "/docs/foundations/gtm-channels-bullseye"
+        },
+        {
+          "label": "icp definition",
+          "href": "/docs/foundations/icp-definition"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "gtm metrics",
+          "href": "/docs/foundations/gtm-metrics"
+        },
+        {
+          "label": "revenue operations",
+          "href": "/docs/foundations/revenue-operations"
+        },
+        {
+          "label": "gtm funnel",
+          "href": "/docs/foundations/gtm-funnel"
+        },
+        {
+          "label": "competitive analysis",
+          "href": "/docs/foundations/competitive-analysis"
+        },
+        {
+          "label": "brand as gtm",
+          "href": "/docs/foundations/brand-as-gtm"
+        },
+        {
+          "label": "revenue architecture",
+          "href": "/docs/foundations/revenue-architecture"
+        },
+        {
+          "label": "ci cd",
+          "href": "/docs/gtm-engineering/ci-cd"
+        },
+        {
+          "label": "data layer",
+          "href": "/docs/gtm-engineering/data-layer"
+        },
+        {
+          "label": "experimentation",
+          "href": "/docs/gtm-engineering/experimentation"
+        },
+        {
+          "label": "observability",
+          "href": "/docs/gtm-engineering/observability"
+        },
+        {
+          "label": "orchestration",
+          "href": "/docs/gtm-engineering/orchestration"
+        },
+        {
+          "label": "skills tools",
+          "href": "/docs/gtm-engineering/skills-tools"
+        },
+        {
+          "label": "intro",
+          "href": "/docs/intro"
+        },
+        {
+          "label": "best marketing books",
+          "href": "/docs/library/best-marketing-books"
+        },
+        {
+          "label": "best sales books",
+          "href": "/docs/library/best-sales-books"
+        },
+        {
+          "label": "inbound content engine",
+          "href": "/docs/playbooks/inbound-content-engine"
+        },
+        {
+          "label": "customer onboarding",
+          "href": "/docs/playbooks/customer-onboarding"
+        },
+        {
+          "label": "outbound from zero",
+          "href": "/docs/playbooks/outbound-from-zero"
+        },
+        {
+          "label": "intake capture",
+          "href": "/docs/process/intake-capture"
+        },
+        {
+          "label": "prospecting",
+          "href": "/docs/skills/prospecting"
+        },
+        {
+          "label": "outbound",
+          "href": "/docs/skills/outbound"
+        },
+        {
+          "label": "messaging",
+          "href": "/docs/skills/messaging"
+        },
+        {
+          "label": "signals",
+          "href": "/docs/skills/signals"
+        },
+        {
+          "label": "pricing",
+          "href": "/docs/skills/pricing"
+        },
+        {
+          "label": "abm",
+          "href": "/docs/skills/abm"
+        },
+        {
+          "label": "seo",
+          "href": "/docs/skills/seo"
+        },
+        {
+          "label": "ads",
+          "href": "/docs/skills/ads"
+        },
+        {
+          "label": "revops",
+          "href": "/docs/skills/revops"
+        },
+        {
+          "label": "gtm tools overview",
+          "href": "/docs/tools/gtm-tools-overview"
         }
       ]
     },

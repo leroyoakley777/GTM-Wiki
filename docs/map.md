@@ -17,7 +17,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 02 | [Copywriting](/docs/copywriting) | 3 | Product positioning, messaging, and copywriting frameworks. No pasteable email copy. The words come after the claim. |
 | 03 | [Channels](/docs/channels) | 9 | How to find, evaluate, and execute on your single highest-use acquisition channel: outbound, inbound, product-led, and ABM. |
 | 04 | [Playbooks](/docs/playbooks) | 3 | Playbooks: what to do against a specific situation, start to finish. |
-| 05 | [Agentic GTM](/docs/agentic) | 14 | Agentic GTM section: running the same playbooks with agents, harnesses, and automation. |
+| 05 | [Agentic GTM](/docs/agentic) | 24 | Agentic GTM section: running the same playbooks with agents, harnesses, and automation. |
 | 06 | [Roles](/docs/roles) | 9 | Roles: who does the work, from founder to VP to investor. |
 | 07 | [Skills](/docs/skills) | 9 | Executable GTM skills: the trigger-driven playbooks that turn strategy into the work an operator or an agent runs on Monday morning. |
 | 08 | [Tools](/docs/tools) | 1 | The GTM tools market and how tools map to motion. |
@@ -36,4 +36,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**22 sections · 100 pages · generated 2026-09-21**
+**22 sections · 110 pages · generated 2026-09-21**

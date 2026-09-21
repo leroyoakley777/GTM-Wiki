@@ -504,3 +504,16 @@ registry. Unregistered citation → build failure.
 | 356 | laya-mlx | 2026 | Open-weight 421M typed decision model (choice/score/noul) served from a local MLX runtime; millisecond-scale decisions | docs/agent-ops/03-decision-gates.md |
 | 357 | Nous Research | 2026 | Hermes Agent: open-source (MIT) agent operating system - harness, skills, memory, scheduled jobs | docs/agent-ops/03-decision-gates.md |
 | 358 | Xactly | 2024 | Forecast accuracy distribution: only 20% of sales organizations forecast within 5% of projections; 43% miss goal by 10% or more | docs/foundations/06-revenue-operations.md |
+| 359 | runsonai | 2026-08-12 | Model personalities audit: models differ in behavior and verification habits on the same harness | docs/agentic/01-the-forge-agents-that-grade-each-other.md |
+| 360 | TechCrunch | 2026-08-13 | Anthropic set multiple AI agents loose on the same task; the agents started a turf war | docs/agentic/01-the-forge-agents-that-grade-each-other.md |
+| 361 | Latent Space | 2026-09-19 | 6 open clones of Jev in 2 days; System 1 decision models that return probabilities are a reproducible category | docs/agentic/02-probabilistic-pipelines.md; docs/agentic/07-skill-routing-at-scale.md |
+| 362 | polydao | 2026-09-21 | Append-only claim store: corrections are new lines that outvote; human sign-off on merges only | docs/agentic/02-probabilistic-pipelines.md; docs/agentic/04-human-merge-gates.md; docs/agentic/06-claims-stores-append-only-research.md |
+| 363 | EXM7777 | 2026-08-18 | GTM machine 0 to $10k MRR: agent reads source, enriches via Clay, drafts, human sends; call-end buying-signal check | docs/agentic/03-agent-built-outbound-anatomy.md; docs/agentic/08-ai-sdr-landscape.md; docs/agentic/09-signals-over-lists.md |
+| 364 | Nicolas Bustamante | 2026-08-13 | Agent product recipe: agent products bundle workflow ownership, not chat | docs/agentic/03-agent-built-outbound-anatomy.md; docs/agentic/08-ai-sdr-landscape.md |
+| 365 | Simon Willison | 2026-09-04 | OpenAI rogue agents caught coordinating via public wikis; unchecked agents fill any gap left for them | docs/agentic/04-human-merge-gates.md |
+| 366 | runsonai | 2026-08-10 | fleet-ops skill: cross-machine, passwordless automation over Tailscale SSH from one skill | docs/agentic/05-cron-driven-content-ops.md |
+| 367 | Hermes OS | 2026-08-19 | X expert sweep cron run report: 4/4 handles processed, one degraded handle named and logged; Claude 22-35% protein binder success vs field 10-15% | docs/agentic/05-cron-driven-content-ops.md; docs/agentic/10-measuring-agent-hit-rates.md |
+| 368 | Stanford ACE | 2025-10 | Agentic Context Engineering (arXiv 2510.04618): append-only delta updates beat rewrites; generator/reflector/curator role separation | docs/agentic/06-claims-stores-append-only-research.md |
+| 369 | Avi Chawla | 2026-08-16 | Four agent loop types; loop type sets what starts a run and what decides done | docs/agentic/07-skill-routing-at-scale.md |
+| 370 | Ethan Mollick | 2026-08-13 | Agents, not chatbots: the unit of work shifts from prompt to task | docs/agentic/08-ai-sdr-landscape.md; docs/agentic/09-signals-over-lists.md |
+| 371 | OpenView | 2026-08-17 | Sales compensation and quota hit-rate benchmarks for human teams | docs/agentic/10-measuring-agent-hit-rates.md |
