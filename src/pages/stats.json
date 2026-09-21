@@ -1,7 +1,11 @@
 {
-  "pages": "80",
-  "sections": "13",
+  "pages": "81",
+  "sections": "14",
   "sectionCounts": [
+    {
+      "id": "agent-ops",
+      "pages": 1
+    },
     {
       "id": "agentic",
       "pages": 15

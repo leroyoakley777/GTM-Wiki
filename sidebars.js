@@ -80,6 +80,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Agent Ops',
+      collapsed: false,
+      items: [
+        'agent-ops/decision-gates',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Skills',
       collapsed: false,
       link: { type: 'doc', id: 'skills/index' },

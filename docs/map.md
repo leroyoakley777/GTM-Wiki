@@ -33,6 +33,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 18 | [Glossary](/docs/glossary) | 1 | Definitions of GTM terms used across the wiki. |
 | 19 | [Resources](/docs/resources) | 1 | Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page. |
 | 20 | [Support](/docs/support) | 1 | How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline. |
-| 21 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
+| 21 | [Agent-ops](/docs/agent-ops/decision-gates) | 1 | The agent-ops section of the wiki. |
+| 22 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**21 sections · 93 pages · generated 2026-09-21**
+**22 sections · 94 pages · generated 2026-09-21**

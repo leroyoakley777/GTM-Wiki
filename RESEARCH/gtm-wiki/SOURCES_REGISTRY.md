@@ -497,3 +497,9 @@ registry. Unregistered citation → build failure.
 | 349 | MarketingSherpa | 2025 | Marketo virtual summit: 12,000 registrants, 3,500 qualified leads, $2.3M pipeline (via TheMarketingAgency.ca) | docs/channels/07-events-field.md |
 | 350 | PureExhibits | 2026 | 77% of exhibitors report positive ROI when measured properly (citing CEIR) | docs/channels/07-events-field.md |
 | 351 | Event Marketing Research | 2025 | Pre-event planning determines 76% of attendee agendas before arrival | docs/channels/07-events-field.md |
+| 352 | Jevons | 1865 | The Coal Question: efficiency in coal use raised total coal consumption (Jevons paradox) | docs/agent-ops/03-decision-gates.md |
+| 353 | Satya Nadella | 2025 | Jan 27, 2025 X post: "Jevons paradox strikes again" - more efficient, accessible AI raises total use | docs/agent-ops/03-decision-gates.md |
+| 354 | Epoch AI | 2025 | LLM inference prices fell 9x to 900x per year depending on task milestone | docs/agent-ops/03-decision-gates.md |
+| 355 | a16z | 2024 | LLMflation (Appenzeller, Nov 12, 2024): ~10x/year constant-quality decline; 1,000x in three years for GPT-3-class | docs/agent-ops/03-decision-gates.md |
+| 356 | laya-mlx | 2026 | Open-weight 421M typed decision model (choice/score/noul) served from a local MLX runtime; millisecond-scale decisions | docs/agent-ops/03-decision-gates.md |
+| 357 | Nous Research | 2026 | Hermes Agent: open-source (MIT) agent operating system - harness, skills, memory, scheduled jobs | docs/agent-ops/03-decision-gates.md |
