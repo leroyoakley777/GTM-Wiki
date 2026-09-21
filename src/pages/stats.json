@@ -65,8 +65,12 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Outbound · IB-016, IB-017, IB-015.",
+      "text": "Decision gates, outbound · IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "decision gates",
+          "href": "/docs/agent-ops/decision-gates"
+        },
         {
           "label": "outbound",
           "href": "/docs/flows/outbound"
