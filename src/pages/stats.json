@@ -1,6 +1,6 @@
 {
-  "pages": "97",
-  "sections": "14",
+  "pages": "99",
+  "sections": "15",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -39,6 +39,10 @@
       "pages": 6
     },
     {
+      "id": "launch",
+      "pages": 2
+    },
+    {
       "id": "library",
       "pages": 2
     },
@@ -65,8 +69,48 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Overview, agent os harness, cron fleets, decision gates +82 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "The forge agents that grade each other, probabilistic pipelines, agent built outbound anatomy, human merge gates +92 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "the forge agents that grade each other",
+          "href": "/docs/agentic/the-forge-agents-that-grade-each-other"
+        },
+        {
+          "label": "probabilistic pipelines",
+          "href": "/docs/agentic/probabilistic-pipelines"
+        },
+        {
+          "label": "agent built outbound anatomy",
+          "href": "/docs/agentic/agent-built-outbound-anatomy"
+        },
+        {
+          "label": "human merge gates",
+          "href": "/docs/agentic/human-merge-gates"
+        },
+        {
+          "label": "cron driven content ops",
+          "href": "/docs/agentic/cron-driven-content-ops"
+        },
+        {
+          "label": "claims stores append only research",
+          "href": "/docs/agentic/claims-stores-append-only-research"
+        },
+        {
+          "label": "skill routing at scale",
+          "href": "/docs/agentic/skill-routing-at-scale"
+        },
+        {
+          "label": "ai sdr landscape",
+          "href": "/docs/agentic/ai-sdr-landscape"
+        },
+        {
+          "label": "signals over lists",
+          "href": "/docs/agentic/signals-over-lists"
+        },
+        {
+          "label": "measuring agent hit rates",
+          "href": "/docs/agentic/measuring-agent-hit-rates"
+        },
         {
           "label": "overview",
           "href": "/docs/agent-ops/overview"

@@ -34,6 +34,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 19 | [Resources](/docs/resources) | 1 | Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page. |
 | 20 | [Support](/docs/support) | 1 | How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline. |
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
-| 22 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
+| 22 | [Launch](/docs/launch/announcement-checklist) | 2 | The launch section of the wiki. |
+| 23 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**22 sections · 110 pages · generated 2026-09-21**
+**23 sections · 112 pages · generated 2026-09-21**
