@@ -157,6 +157,12 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
 - The ship lane races sibling cron commits. On push rejection:
   `git pull --rebase origin main`, re-run `npm run ship:gate`, push again.
   Commit only files you touched — sibling work may be in the working tree.
+- Deleting a docs page can break the build one hop away: `generate-stats.js`
+  builds homepage update links from `git log --name-only docs/`, so a deleted
+  file still feeds a dead `/docs/...` href and Vercel fails with a broken-link
+  error even though the local page preflight was green. The generator now
+  skips files not on disk. After any delete, reproduce with
+  `rm -rf .docusaurus build && npm run build` before pushing.
 - Do not copy scanner token lists into prose. The scanners will fail the
   page that lists the tokens.
 - Do not add the same rule to two scanner files.
