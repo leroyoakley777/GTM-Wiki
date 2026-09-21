@@ -60,6 +60,16 @@
   "generatedAt": "2026-09-21",
   "updates": [
     {
+      "date": "2026-09-21",
+      "text": "Outbound · IB-015.",
+      "items": [
+        {
+          "label": "outbound",
+          "href": "/docs/flows/outbound"
+        }
+      ]
+    },
+    {
       "date": "2026-09-20",
       "text": "Product led, abm · IB-023, IB-007.",
       "items": [
@@ -298,24 +308,6 @@
         {
           "label": "revops",
           "href": "/docs/skills/revops"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-17",
-      "text": "Community led, outbound, funnel · IB-007.",
-      "items": [
-        {
-          "label": "community led",
-          "href": "/docs/case-studies/community-led"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/case-studies/outbound"
-        },
-        {
-          "label": "funnel",
-          "href": "/docs/data/funnel"
         }
       ]
     }
