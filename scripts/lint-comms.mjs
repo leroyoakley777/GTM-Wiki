@@ -21,6 +21,8 @@ const BANNED = [
   "here's the thing", "let me be clear", "the truth is",
   "performative honesty", "this compounds", "that's the compounding play",
   "sharpening the axe", "the system is a system",
+  "tapestry", "myriad", "plethora", "game-chang", "cutting-edge",
+  "elevate", "realm", "in the world of", "boast", "paradigm",
 ];
 
 const RE_RULE3 = /\b(three things|three ways|three reasons|three parts|three steps|in three)\b/i;
@@ -58,7 +60,10 @@ let reported = 0;
 
 for (const f of files) {
   const text = readFileSync(f, "utf8");
-  const low = text.toLowerCase();
+  // Strip URL/link targets before token scanning: citations legitimately
+  // contain vendor wordplay (e.g. ".../elevates-every-metric/") and the
+  // gate judges prose, not hrefs.
+  const low = text.replace(/https?:\/\/[^\s)\]>]+/g, " ").toLowerCase();
 
   // banned tokens — O(n) per token via indexOf line scan (no regex loop)
   for (const tok of BANNED) {

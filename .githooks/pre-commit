@@ -76,4 +76,15 @@ if ! node scripts/scan-slop.mjs $staged; then
   echo "Commit blocked: scan-slop hard violations in staged files."
   exit 1
 fi
+
+# ---------------------------------------------------------------------------
+# Homepage freshness: any commit touching reader-facing content regenerates
+# the derived homepage data (stats.json + map.md) and stages it in the same
+# commit, so the homepage can never drift from the shipped tree (IB-023).
+if git diff --cached --name-only | grep -qE '^(docs|src)/'; then
+  echo "gtm-wiki pre-commit: regenerating homepage stats + map..."
+  node scripts/generate-map-data.js
+  node scripts/generate-stats.js
+  git add docs/map.md src/pages/stats.json 2>/dev/null || true
+fi
 exit 0

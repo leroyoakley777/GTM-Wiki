@@ -61,8 +61,12 @@
   "updates": [
     {
       "date": "2026-09-20",
-      "text": "Abm · IB-007.",
+      "text": "Product led, abm · IB-007.",
       "items": [
+        {
+          "label": "product led",
+          "href": "/docs/channels/product-led"
+        },
         {
           "label": "abm",
           "href": "/docs/channels/abm"
