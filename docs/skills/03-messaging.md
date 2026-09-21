@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Messaging
 description: "The skill of turning who you sell to into a claim a writer can fill: audience, positioning, messaging, then a framework. No recommended email copy."

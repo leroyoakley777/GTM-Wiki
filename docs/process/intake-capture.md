@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Intake Capture Process
 description: How every user dump is captured, classified, and turned into actionable tasks.

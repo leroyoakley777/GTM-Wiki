@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Prospecting
 description: "Build account, contact, or both lists from ICP fit, enrichment, and signals: the trigger, the build steps, the list template, a worked example, and the agentic SOP that runs it."

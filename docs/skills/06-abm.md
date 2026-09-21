@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 6
 title: ABM
 description: "Run few high-value accounts as a coordinated program: which accounts earn ABM, the tiering, the intent and account plan, the coordinated touches across channel and sales, and the agentic SOP that executes it."

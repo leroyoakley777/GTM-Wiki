@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 10
 title: Brand as GTM
 description: "Brand as a go-to-market lever: building memory with future buyers, lowering acquisition cost, and turning the 95% who are out of market into the 5% who choose you."

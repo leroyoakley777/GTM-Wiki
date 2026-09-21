@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Glossary
 description: "Definitions of GTM terms used across the wiki."

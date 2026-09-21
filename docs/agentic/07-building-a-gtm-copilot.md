@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 7
 title: Building a GTM Copilot
 description: "How to build a revenue copilot: data foundation, intelligence layer, orchestration, and the build sequence."

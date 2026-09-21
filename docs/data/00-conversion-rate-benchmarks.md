@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 0
 title: Conversion Rate Benchmarks
 description: Baseline conversion rates for every bowtie stage (visitor to lead, lead to MQL, MQL to SQL, SQL to opportunity, opportunity to closed-won, trial to paid) with named dated sources, the compounding math, how to read each rate, common mistakes, a worked example, and the agentic tracking SOP.

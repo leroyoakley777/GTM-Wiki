@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Recruiting
 description: "How to hire GTM: what to select for, when to make the first sales hire, how ramp actually works, and the failure modes that fill a desk with the wrong people."

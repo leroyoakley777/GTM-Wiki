@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Culture
 description: "How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind."

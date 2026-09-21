@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Messaging
 description: "How to turn a positioning card into one claim, one frame, and proof a buyer will believe."

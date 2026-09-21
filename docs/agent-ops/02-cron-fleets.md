@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 2
 title: Scheduled agent fleets
 description: Design a fleet of scheduled agent jobs with sane cadence, change gating, watchdogs, and session hygiene.

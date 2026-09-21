@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Enablement
 description: "Sales enablement as an operating system: the artifacts reps actually use, the inspection loop that keeps them current, and the failure modes that turn enablement into a content graveyard."

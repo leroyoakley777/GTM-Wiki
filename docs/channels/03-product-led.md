@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 4
 title: Product-Led Growth
 description: When product-led growth is the right channel, the signup-to-activation-to-pay funnel with named dated benchmarks, trial-model tradeoffs, growth loops, PQLs, tools, sequencing, sales handoff, the SMB vs enterprise case matrix, failure modes, and the agentic layer.

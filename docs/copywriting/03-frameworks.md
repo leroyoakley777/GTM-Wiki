@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 4
 title: Frameworks
 description: "Copywriting frameworks and principles: PAS, AIDA, BAB, FAB, 4Ps, PASTOR, and the 4 Us. Pick from the reader's decision problem. No recommended email copy."

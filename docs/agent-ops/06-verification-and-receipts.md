@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 6
 title: Verification and receipts
 description: An agent's claim of completion is data, not a fact. Prove shipped work with hash-bound receipts and live-destination checks.

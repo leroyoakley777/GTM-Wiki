@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 3
 title: "Agentic Outbound: The Harness"
 description: "The outbound flow under an agent use: the runnable sequence of prove, automate, guard, the layer stack, agentic list build, personalization at scale, triage with a time-to-first-response SLA, deliverability guardrails, the SOP and prompts, use-health metrics, a worked example, and failure modes."

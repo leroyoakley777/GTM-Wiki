@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: "GTM Strategy Framework"
 sidebar_position: 1
 status: active

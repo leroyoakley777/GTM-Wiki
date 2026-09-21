@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: "Roles: SDRs"
 description: "What SDRs do, the metrics that gate them, and how to run the meeting machine without burning people out."

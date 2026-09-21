@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: ICP Definition
 sidebar_position: 2
 status: active

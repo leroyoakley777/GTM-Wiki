@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 0
 title: Agent Ops
 description: Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs.

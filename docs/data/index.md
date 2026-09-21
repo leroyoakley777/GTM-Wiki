@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 tags: [data]
 title: Data

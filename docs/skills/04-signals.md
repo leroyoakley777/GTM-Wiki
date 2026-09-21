@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 4
 title: Signals
 description: "Read buying intent from profile views, job changes, funding, and product usage: which signals mean a buyer is close, how to score them, the signal-to-message rules, and the agentic SOP that routes them."

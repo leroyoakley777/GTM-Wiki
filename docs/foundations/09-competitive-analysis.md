@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 9
 title: Competitive Analysis
 description: "Competitive analysis: knowing who you beat, who beats you, and why, at the market level and the deal level."

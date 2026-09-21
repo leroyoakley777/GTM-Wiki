@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: GTM Metrics Benchmarks
 description: "Sourced, dated baselines for pipeline coverage, win rate, CAC payback, LTV:CAC, NRR, and quota attainment: plus the math that connects them, how to read each metric, a worked dashboard read, and an agentic SOP that surfaces breaches."

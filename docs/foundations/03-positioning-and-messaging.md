@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: "Positioning and Messaging"
 sidebar_position: 3
 description: "How to define positioning that puts your unique strengths at the center, then translate it into messaging that resonates across every buyer touchpoint."

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: "Roles: RevOps"
 description: "What revenue operations does as a seat: the operating rhythm, reporting structure, career ladder, compensation, and when a company should build it."

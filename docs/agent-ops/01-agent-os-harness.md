@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 1
 title: The agent OS harness
 description: Skills, memory, tools, and scheduling are the harness around the model. Build the harness deliberately and the model becomes replaceable.

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 6
 title: Sales Cycle Benchmarks
 description: How long B2B deals take by deal size and buying-committee size, the pipeline-velocity and forecast math that cycle length drives, and the agentic SOP to track it.

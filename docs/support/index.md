@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Support
 description: "How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline."

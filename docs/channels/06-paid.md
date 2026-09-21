@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 6
 title: Paid Acquisition
 description: When paid is the right channel, the unit economics that make it work, the channel stack and benchmarks, failure modes, handoffs, and the agentic layer for running spend to payback.

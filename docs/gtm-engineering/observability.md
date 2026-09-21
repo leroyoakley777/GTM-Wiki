@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 6
 title: Observability
 description: "What to measure in a GTM system: funnel health, domain health, agent error, and the alerts that should stop a send."

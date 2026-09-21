@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 5
 title: Outbound Response Rate Benchmarks
 description: What cold outbound returns (reply rates, email-to-deal conversion, multi-touch lift) and the funnel math from reply to booked meeting, with dated named sources.

@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 5
 title: Model tiering and cost discipline
 description: Match model cost to the cost of being wrong, run a two-tier baseline, escalate only on a demonstrated gap, and measure cost per task at equal quality.

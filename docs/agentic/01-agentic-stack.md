@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 1
 title: The Agentic Stack
 description: Five-layer agentic GTM stack data, research, compose, orchestrate, triage, and how to build it for outbound that beats manual.

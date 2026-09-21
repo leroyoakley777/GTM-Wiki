@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 5
 title: Build Order
 description: The recommended sequence for constructing a GTM OS-close the loop before automating outreach.

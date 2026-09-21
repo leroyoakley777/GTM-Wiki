@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 5
 title: GTM Metrics
 description: "The metrics that matter in go-to-market: CAC, LTV, payback, NRR, magic number, rule of 40, and how to steer the business with them."

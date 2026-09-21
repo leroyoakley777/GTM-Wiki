@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 7
 title: Events & Field
 description: When events and field marketing are the right channel, the named-and-dated ROI and conversion benchmarks, the channel stack, sequencing, failure modes with fixes, handoff to sales, the agentic SOP, and the case matrix.

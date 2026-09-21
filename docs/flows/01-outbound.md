@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Outbound - the Runnable Flow
 description: The executable outbound motion as a sequence, with the artifact at every step, throughput math on named bases, a worked run, objections, and the agentic SOP.

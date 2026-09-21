@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: Welcome to the GTM Wiki
 sidebar_position: 1
 description: "The open reference for go-to-market: definitions, frameworks, playbooks, data, and agentic execution. Every page cited, every artifact runnable."

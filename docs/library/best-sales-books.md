@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Best Sales Books
 description: "The sales canon distilled: Predictable Revenue, The Challenger Sale, Never Split the Difference, The Sales Acceleration Formula, From Impossible to Inevitable, The Mom Test, and Challenger Customer."

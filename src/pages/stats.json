@@ -65,8 +65,12 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Saas buyer empathy, overview, agent os harness, cron fleets +6 more · IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "Revenue operations, saas buyer empathy, overview, agent os harness +7 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "revenue operations",
+          "href": "/docs/foundations/revenue-operations"
+        },
         {
           "label": "saas buyer empathy",
           "href": "/docs/agentic/saas-buyer-empathy"

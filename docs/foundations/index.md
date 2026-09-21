@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Frameworks
 description: "Foundations: the ideas that stay true in 2015 and in 2035."

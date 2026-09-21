@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Tools
 description: "The GTM tools market and how tools map to motion."

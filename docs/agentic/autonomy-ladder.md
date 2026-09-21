@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 3
 title: Autonomy Ladder
 description: How agents earn and lose autonomy based on verified outcomes and evidence.

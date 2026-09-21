@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: GTM Channels Bullseye
 sidebar_position: 10
 status: active

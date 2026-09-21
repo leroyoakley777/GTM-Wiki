@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Resources
 description: "Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page."

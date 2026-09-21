@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 5
 title: Community-Led Growth
 description: When community is the right channel, the participation and referral funnel with named dated benchmarks, the platform stack, sequencing, objections, failure modes and fixes, handoff to sales and CS, how the motion shifts by segment and stage, documented cases, and the agentic SOP that seeds, moderates, and routes community signals.

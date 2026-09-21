@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 1
 title: Agentic GTM
 description: "Agentic GTM section: running the same playbooks with agents, harnesses, and automation."

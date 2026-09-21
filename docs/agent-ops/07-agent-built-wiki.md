@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 7
 title: An agent-built knowledge base
 description: A full worked example of a knowledge site produced by a governed agent pipeline, with machine gates, a work queue, and receipt-bound shipping.

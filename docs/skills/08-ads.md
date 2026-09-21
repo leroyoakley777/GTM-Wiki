@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 8
 title: Ads
 description: "Buy pipeline on paid platforms: which ad budget makes sense, the channel and platform choice, the creative and landing match, the payback discipline, and the agentic SOP that runs spend to payback."

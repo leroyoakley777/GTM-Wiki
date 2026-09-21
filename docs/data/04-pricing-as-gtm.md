@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 4
 title: Pricing as a GTM Lever
 description: "Why pricing is a go-to-market lever, not a finance decision: value metric, packaging, discounting, and expansion pricing numbers that shape win rate and LTV."

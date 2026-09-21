@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: GTM Tools Overview
 description: "The GTM software market mapped by job to be done: the categories, the build order, what belongs at what stage, and the mistakes that wreck stacks."

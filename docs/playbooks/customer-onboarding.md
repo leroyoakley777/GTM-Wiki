@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Customer Onboarding
 description: "The full-depth playbook for onboarding new customers to first value and beyond: picking a validated activation event, the 7% day-7 rule, the time-to-value ladder, the four-instrument measurement stack, an account-level vs user-level decision, common failure modes, a worked build, and the agentic SOP."

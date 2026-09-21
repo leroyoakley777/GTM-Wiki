@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 4
 title: Skills and Tools
 description: "GTM skills as versioned procedures: what to write down, how to test it, and when a tool should call it."

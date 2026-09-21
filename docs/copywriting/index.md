@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Copywriting
 description: "Product positioning, messaging, and copywriting frameworks. No pasteable email copy. The words come after the claim."

@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 5
 title: CI/CD for GTM
 description: "Treat sequences, skill files, and scoring rules as code: review, test, and ship them on a branch, not in the live sequencer on a Friday."

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Founders
 description: "What founders own first: founder-led sales, ICP, channel, positioning, pricing, and the first GTM hire."

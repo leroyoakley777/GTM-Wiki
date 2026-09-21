@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Sales Process - the MEDDPICC Flow
 description: "Six stage-gated sales stages from qualification to closed-won, run on MEDDPICC: the activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis."

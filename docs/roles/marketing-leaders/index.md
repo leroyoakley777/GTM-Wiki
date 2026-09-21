@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Marketing Leaders
 description: "What marketing leaders own: demand, memory with future buyers, channel choice, and the handoff into sales that either becomes pipeline or becomes an argument."

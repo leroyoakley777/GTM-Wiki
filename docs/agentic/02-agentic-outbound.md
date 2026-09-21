@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 2
 title: Agentic Outbound
 description: "How to run outbound with agents end to end, from list to booked meeting."

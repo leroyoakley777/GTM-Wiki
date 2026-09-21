@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: Market Segmentation
 sidebar_position: 2
 status: active

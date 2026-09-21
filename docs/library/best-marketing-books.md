@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Best Marketing Books
 description: "The marketing canon distilled: Positioning, Obviously Awesome, Made to Stick, Building a StoryBrand, Marketing Rebellion, Hooked, and Crossing the Chasm."

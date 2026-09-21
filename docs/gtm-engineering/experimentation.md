@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 7
 title: Experimentation
 description: "How to test outbound and GTM changes without lying to yourself: one variable, enough sample, and a kill rule."

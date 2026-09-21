@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 3
 title: Jev-style decision gates
 description: Put a millisecond, near-zero-cost typed classifier in front of every bounded GTM decision before any large model spends a token.

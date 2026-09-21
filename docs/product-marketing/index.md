@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Product Marketing
 description: "Product marketing as the bridge between product and pipeline: positioning, proof, launch, and the enablement artifacts outbound and sales actually use."

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Outbound
 description: "The cold email and call motion that turns a prospecting list into meetings: the trigger, the sequence contract, a worked payback example, and the agentic SOP that runs it."

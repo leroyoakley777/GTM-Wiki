@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 4
 title: Buyer's Journey - the buyer's view of the sales process
 description: "The buyer's journey mapped to the six MEDDPICC stages: what the buyer is doing on the other side of the table at each step, what the seller must supply to meet them there, the channel variant, the failure modes when the two arcs fall out of step, and the agentic SOP that flags the misalignment."

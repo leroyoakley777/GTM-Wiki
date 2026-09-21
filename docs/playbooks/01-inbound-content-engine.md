@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Inbound Content Engine
 description: "Step-by-step playbook for building a B2B SaaS inbound content engine: strategy, hub model, production workflow, distribution, and measurement. Scales from team of one to growth stage."

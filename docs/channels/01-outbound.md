@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Outbound
 description: "The operator's field manual for cold outbound: when to run it, how to diagnose every stage of the funnel, infrastructure that keeps you in the inbox, list construction, reply handling, team design, and the failure modes that kill the motion."

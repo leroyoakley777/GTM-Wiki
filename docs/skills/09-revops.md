@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 9
 title: RevOps
 description: "Run the data, tooling, and forecasting spine: the operating model, the metrics and coverage, the tooling stack, the forecast discipline, and the agentic SOP that keeps the numbers honest."

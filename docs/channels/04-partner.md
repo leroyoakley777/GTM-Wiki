@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 6
 title: Partner / Channel
 description: When partnerships are the right channel, the four partner types, the comp model that makes them worth a partner's time, and the failure modes that kill the motion.

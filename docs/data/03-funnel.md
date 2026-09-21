@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 3
 title: Funnel Benchmarks
 description: How the funnel leaks stage by stage, with named and dated rates, the multiplicative leakage math that turns visitors into customers, how to read every stage healthy vs leaking, common mistakes and fixes, a worked diagnosis, and an agentic SOP for surfacing funnel health.

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: "What Is Go-to-Market (GTM)?"
 sidebar_position: 1
 description: Definition, frameworks, and build sequence for a go-to-market strategy.

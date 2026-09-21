@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 99
 title: Contributing
 description: "How to contribute to the GTM Wiki: what counts as a good contribution, the page contract, the machine gates every page must clear, the review flow, and the pull request workflow."

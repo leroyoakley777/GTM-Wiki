@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Skills
 description: "Executable GTM skills: the trigger-driven playbooks that turn strategy into the work an operator or an agent runs on Monday morning."

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 6
 title: Head of Platforms
 description: "The head of platforms role and its scope."

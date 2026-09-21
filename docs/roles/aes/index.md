@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: "Roles: AEs"
 description: "What account executives do, the numbers that gate them, and how to run the close from qualification to forecast."

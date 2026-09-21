@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 7
 title: SEO
 description: "Earn compounding organic reach: which pages to build, how to win the search result, the content and technical foundation, the measurement loop, and the agentic SOP that runs it."

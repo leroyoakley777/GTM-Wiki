@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 1
 title: GTM Operating System Architecture
 description: The 4-layer architecture of the GTM OS, showing how models, harness, skills, and tools compose into a governed whole.

@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Positioning
 description: "How to put unique strengths at the center of a market frame so messaging and copy have something true to say."

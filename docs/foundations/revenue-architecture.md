@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: "Revenue Architecture"
 sidebar_position: 2
 description: "Revenue architecture as the operating system of a recurring-revenue business: the revenue factory, four principles, six interconnected models, GTM motions as production lines, and the growth formula."

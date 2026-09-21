@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 2
 title: Outbound from Zero
 description: "The full-depth playbook for standing up a cold-outbound motion from nothing: sequence contract, day-by-day cadence, deliverability setup, budget math, objections, a worked build, and the agentic SOP."

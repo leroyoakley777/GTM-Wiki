@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 2
 title: Examiner Deep Dive
 description: How the examiner uses the ledger to validate changes and enable recursive self-improvement.

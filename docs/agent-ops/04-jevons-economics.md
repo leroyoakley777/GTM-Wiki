@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 4
 title: Jevons economics of AI GTM
 description: Efficiency raises consumption. Inference prices are collapsing, so decision volume explodes and GTM spend moves to judgment, taste, and verification.

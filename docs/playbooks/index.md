@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Playbooks
 description: "Playbooks: what to do against a specific situation, start to finish."

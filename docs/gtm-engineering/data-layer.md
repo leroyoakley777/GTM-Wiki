@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 2
 title: Data Layer
 description: "The GTM data layer: one source of truth for accounts, signals, and outcomes, plus the failure modes that turn a CRM into folklore."

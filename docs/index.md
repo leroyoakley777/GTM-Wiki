@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 0
 title: GTM Wiki
 description: "Every section on one screen, plus a router that sends your situation to the right starting page."

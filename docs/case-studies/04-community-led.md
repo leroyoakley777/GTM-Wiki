@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 5
 title: "Community-Led Growth: Case Studies"
 description: "Notion, Atlassian, Stack Overflow, Webflow, Miro, Hashnode, Circle, and Product Hunt: how community compounds into an acquisition and retention engine, with the documented numbers, the mechanics, the math, and the failure modes."

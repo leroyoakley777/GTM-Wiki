@@ -1,4 +1,5 @@
 ---
+class: fundamental
 title: GTM Funnel
 sidebar_position: 7
 status: active

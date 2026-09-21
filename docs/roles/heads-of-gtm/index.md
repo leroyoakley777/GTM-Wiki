@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: "Roles: Heads of GTM"
 description: "What a head of GTM owns: the operating rhythm of a revenue org, how the seat differs from sales and marketing leadership, when a company should build it, and how to run it."

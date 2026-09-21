@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 9
 title: Account-Based Marketing (ABM)
 description: When ABM is the right channel, the account-selection model, the one-to-one / one-to-few / one-to-many tiers, named-and-dated win-rate and ROI benchmarks, the account plan, sequencing, objections, failure modes, the case matrix, handoff, and the agentic SOP.

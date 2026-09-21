@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 0
 title: Agent operations overview
 description: Run GTM as governed agent operations on an agent operating system, with scheduled jobs, typed decisions, and verified outputs.

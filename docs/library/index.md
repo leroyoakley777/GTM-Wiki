@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Book Library
 description: "The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter."

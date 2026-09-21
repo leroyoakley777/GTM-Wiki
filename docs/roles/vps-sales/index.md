@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: "Roles: VPs of Sales"
 description: "What a VP of Sales owns: the number, the forecast, the team design, and the inspection system that keeps outbound and closing honest."

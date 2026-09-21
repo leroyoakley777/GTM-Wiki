@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 5
 title: Pricing
 description: "Set and defend price as a GTM motion: value-based vs cost-plus, good-better-best packaging, discount authority, payback math, and negotiation guardrails."

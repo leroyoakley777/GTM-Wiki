@@ -1,4 +1,5 @@
 ---
+class: fundamental
 sidebar_position: 1
 title: Investors
 description: "How to read GTM in a portfolio company: the few numbers that tell the truth, the stage-appropriate motions, and the failure modes founders hide in a clean slide."

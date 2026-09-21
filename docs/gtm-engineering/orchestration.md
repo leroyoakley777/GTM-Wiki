@@ -1,4 +1,5 @@
 ---
+class: agentic
 sidebar_position: 3
 title: Model Orchestration
 description: "How to put models in a GTM motion without letting them send, invent signals, or skip the human gate."
