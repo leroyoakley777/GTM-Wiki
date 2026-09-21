@@ -503,3 +503,4 @@ registry. Unregistered citation → build failure.
 | 355 | a16z | 2024 | LLMflation (Appenzeller, Nov 12, 2024): ~10x/year constant-quality decline; 1,000x in three years for GPT-3-class | docs/agent-ops/03-decision-gates.md |
 | 356 | laya-mlx | 2026 | Open-weight 421M typed decision model (choice/score/noul) served from a local MLX runtime; millisecond-scale decisions | docs/agent-ops/03-decision-gates.md |
 | 357 | Nous Research | 2026 | Hermes Agent: open-source (MIT) agent operating system - harness, skills, memory, scheduled jobs | docs/agent-ops/03-decision-gates.md |
+| 358 | Xactly | 2024 | Forecast accuracy distribution: only 20% of sales organizations forecast within 5% of projections; 43% miss goal by 10% or more | docs/foundations/06-revenue-operations.md |
