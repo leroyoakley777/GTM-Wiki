@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Outbound - the Runnable Flow
 description: The executable outbound motion as a sequence, with the artifact at every step, throughput math on named bases, a worked run, objections, and the agentic SOP.
-last_updated: 2026-09-08
+last_updated: 2026-09-21
 status: active
 tags: [outbound, flow, cold-email, sdr, sequence, throughput, agentic]
 domain: flows
@@ -33,23 +33,6 @@ Every number carries a named base and an as-of date. Sources define
 quote differently and sample mix swings numbers more than any tactic.
 Treat the benchmarks as directional, with named bases, not as exact
 targets.
-
----
-
-## Motion at a glance
-
-Do not advance on a miss. Each gate is a hard stop until it passes.
-Skip a gate and the next step costs more.
-
-Every number carries a named base and an as-of date. Sources define
-quote differently and sample mix swings numbers more than any tactic.
-Treat the benchmarks as directional, with named bases, not as exact
-targets.
-
-Read the companion pages before you start. The [Outbound
-channel](/docs/channels/outbound) page tells you when this motion is the
-right call. [Agentic Outbound](/docs/agentic/agentic-outbound) runs the
-same flow with an agent use on the execution layer.
 
 ---
 
