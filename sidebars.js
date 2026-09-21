@@ -82,8 +82,16 @@ const sidebars = {
       type: 'category',
       label: 'Agent Ops',
       collapsed: false,
+      link: { type: 'doc', id: 'agent-ops/index' },
       items: [
+        'agent-ops/overview',
+        'agent-ops/agent-os-harness',
+        'agent-ops/cron-fleets',
         'agent-ops/decision-gates',
+        'agent-ops/jevons-economics',
+        'agent-ops/model-tiering',
+        'agent-ops/verification-and-receipts',
+        'agent-ops/agent-built-wiki',
       ],
     },
     {

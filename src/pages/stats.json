@@ -65,8 +65,36 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Decision gates, outbound · IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "Overview, agent os harness, cron fleets, jevons economics +5 more · IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "overview",
+          "href": "/docs/agent-ops/overview"
+        },
+        {
+          "label": "agent os harness",
+          "href": "/docs/agent-ops/agent-os-harness"
+        },
+        {
+          "label": "cron fleets",
+          "href": "/docs/agent-ops/cron-fleets"
+        },
+        {
+          "label": "jevons economics",
+          "href": "/docs/agent-ops/jevons-economics"
+        },
+        {
+          "label": "model tiering",
+          "href": "/docs/agent-ops/model-tiering"
+        },
+        {
+          "label": "verification and receipts",
+          "href": "/docs/agent-ops/verification-and-receipts"
+        },
+        {
+          "label": "agent built wiki",
+          "href": "/docs/agent-ops/agent-built-wiki"
+        },
         {
           "label": "decision gates",
           "href": "/docs/agent-ops/decision-gates"
