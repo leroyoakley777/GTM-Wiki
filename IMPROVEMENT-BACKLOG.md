@@ -68,6 +68,24 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 | IB-027 | Add docs/foundations/08-pricing.md: pricing appears only as a data benchmark (data/04-pricing-as-gtm) and inside revenue-architecture; foundations carries no pricing framework page, so cross-links from channels and flows have no anchor to hit | Medium | High | docs/foundations/08-pricing.md (new), docs/data/04-pricing-as-gtm.md, docs/foundations/revenue-architecture.md |
 | IB-028 | Add a win-loss and customer-research foundations page (interview loop, loss taxonomy, how findings reprice ICP and positioning): the topic graph jumps from ICP definition straight to channels with no research step between | Medium | High | docs/foundations/11-win-loss.md (new), docs/foundations/02-icp-definition.md, docs/foundations/03-positioning-and-messaging.md |
 
+
+## 🟢 Agentic Rebalance (IA-01 to IA-10)
+
+Grow each agentic stub (docs/agentic/01-10, seeded 2026-09-21) into a full page. Same page contract as every other page: 3-bullet thesis expanded, worked example, failure modes, registered sources.
+
+| ID | Issue | Effort | Impact | Touches |
+|----|-------|--------|--------|---------|
+| IA-01 | Grow the forge stub: grader checklist format, model-pairing setup, grade log, one worked draft-to-graded example | Medium | High | docs/agentic/01-the-forge-agents-that-grade-each-other.md |
+| IA-02 | Grow the probabilistic-pipelines stub: distribution thinking, sample-size rules, miss-rate reporting, worked outbound example | Medium | High | docs/agentic/02-probabilistic-pipelines.md |
+| IA-03 | Grow the agent-built-outbound stub: source-to-send diagram, per-stage tooling, claims-trace rule for drafts | Medium | High | docs/agentic/03-agent-built-outbound-anatomy.md |
+| IA-04 | Grow the human-merge-gates stub: queue-sizing math, gate-rot detection, merge decision log | Medium | High | docs/agentic/04-human-merge-gates.md |
+| IA-05 | Grow the cron-driven-content-ops stub: job inventory, run-report contract, digest merge rules, kill criteria | Medium | High | docs/agentic/05-cron-driven-content-ops.md |
+| IA-06 | Grow the claims-stores stub: full schema, outvote semantics, generator rebuild flow for wiki pages | Medium | High | docs/agentic/06-claims-stores-append-only-research.md |
+| IA-07 | Grow the skill-routing stub: routing table format, misroute sampling loop, two-tier model policy | Medium | High | docs/agentic/07-skill-routing-at-scale.md |
+| IA-08 | Grow the AI SDR market map stub: vendor anatomy scorecard (source discipline, draft quality, human gate, send log) | Medium | Medium | docs/agentic/08-ai-sdr-landscape.md |
+| IA-09 | Grow the signals-over-lists stub: trigger/action/expiry definitions, threshold tuning, ICP-as-base rule | Medium | High | docs/agentic/09-signals-over-lists.md |
+| IA-10 | Grow the measuring-agent-hit-rates stub: weekly sampling protocol, named-baseline rule, miss-rate reporting | Medium | High | docs/agentic/10-measuring-agent-hit-rates.md |
+
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |
