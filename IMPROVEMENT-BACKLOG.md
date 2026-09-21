@@ -24,6 +24,12 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 > **DONE (2026-08-31):** IB-005 verified complete on `main`. `03-product-led.md` has the "paying customers per 1,000 visitors" table (First Page Sage/Pulseahead, cited); `02-agentic-outbound.md` has a full worked-example campaign (Woodpecker/SalesHive/Instantly, cited); sources registered in SOURCES_REGISTRY.md. Committed in `e5750f15` (08-29). Removed from active queue to stop re-dispatch. (Loop finding. G2 worker had re-reported this as its own new work; it was already on main. Root cause logged. Do not re-run.)
 | ~~IB-006~~ | ~~Add named+dated source refs to foundations/03-positioning-and-messaging.md~~ | Low | High | Foundations/03-positioning-and-messaging.md |
+| IB-015 | Strip the duplicated intro block on docs/flows/01-outbound.md: the two-rules paragraph and the "Motion at a glance" H2 render twice on the live page (the second copy carries the #motion-at-a-glance-1 anchor); cut the duplicate paste so the flagship flow opens once | Low | High | docs/flows/01-outbound.md |
+| IB-016 | Rebuild docs/foundations/index.md: it lists 3 of 11 pages and its labels point at swapped hrefs ("01: ICP Definition" links 02-icp-definition.md, "02: GTM Channels Bullseye" links 01-gtm-channels-bullseye.md); ship a full annotated list of all 11 pages with unprefixed-slug links | Low | High | docs/foundations/index.md |
+| IB-017 | Rebuild docs/playbooks/index.md: it omits docs/playbooks/01-inbound-content-engine.md from its list; ship the full 3-page annotated list | Low | Medium | docs/playbooks/index.md |
+| IB-018 | Publish a docs landing at /docs: the route resolves to a Docusaurus "Page Not Found"; add docs/index.md as a section grid plus situation router so the navbar logo target and deep links land on a real page | Low | High | docs/index.md (new), docusaurus.config.js |
+| IB-019 | Remove the draft leak docs/agentic/09-saas-buyer-empathy-idea.md: an internal idea note (1.8KB, Aug 30) ships live next to docs/agentic/09-saas-buyer-empathy.md; merge any shippable lines into the real page and delete the idea file (meta-leak guard) | Low | High | docs/agentic/09-saas-buyer-empathy-idea.md, docs/agentic/09-saas-buyer-empathy.md |
+| IB-020 | Convert ASCII tables drawn inside code fences to real Markdown tables, starting with the conversion benchmark grid on docs/foundations/07-gtm-funnel.md and the router block on docs/intro.md: fenced grids overflow on phones and stay invisible to local search | Low | High | docs/foundations/07-gtm-funnel.md, docs/intro.md |
 
 ## 🟡 Medium Impact, Medium Effort
 
@@ -42,6 +48,14 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 | IB-008 | Resolve scan-slop candidates: two-fragment contrast \"X is not Y. It is Z.\" | Medium | Medium | Multiple docs (see scan-slop output) |
 | IB-009 | Ensure every paragraph earns its place (Gate 4: Engaging) – remove filler, throat-clearing intros | Medium | Medium | All pages |
 | IB-010 | Ensure headings never open with \"The\" and name the concrete thing (Gate 2: Tasteful) | Low | Medium | All pages |
+| IB-021 | Add inline SVG diagrams to the four flagship pages, drawn in the site tokens (serif labels, hairlines, single blue accent): the GTM OS four-layer stack, the outbound decision tree, the funnel with leak points, and the agentic four pillars; one page per ship | Medium | High | docs/agentic/00-gtm-os-architecture.md, docs/flows/01-outbound.md, docs/foundations/07-gtm-funnel.md, docs/agentic/00-agentic-gtm-overview.md |
+| IB-022 | Put all sections in the navbar as a dropdown and rebuild the footer link columns (footer links 3 wiki pages today); visitors reach most sections only through the homepage shelf | Low | Medium | docusaurus.config.js, src/css/custom.css |
+| IB-023 | Reconcile the published counts: homepage shows "80 pages · 13 sections" while Map shows "21 sections · 93 pages" (generated 2026-09-20); document the counting boundary and derive both readouts from one stats source (fix the scope; keep the no-inflation rule intact) | Medium | Medium | scripts/generate-stats.js, docs/map.md |
+| IB-024 | Consolidate the seven one-page sections (process, culture, enablement, product-marketing, recruiting, support, resources): each ships a lone index.md and reads as a stub shelf; grow each to 3+ depth-gated pages or fold the content into an existing section | Medium | High | docs/process/, docs/culture/, docs/enablement/, docs/product-marketing/, docs/recruiting/, docs/support/, docs/resources/ |
+| IB-025 | Ship reading micro-interactions in the site tokens: hover preview on [n] footnote superscripts, copy-to-clipboard on artifact code blocks, styled heading permalinks, and a per-page reading progress bar on flows pages | Medium | Medium | src/css/custom.css, src/theme/ |
+| IB-026 | Run and fix the mobile pass: measure the 760px article column, wide tables, and TOC behavior at 375/390/430px; kill horizontal scroll and reset serif body size and leading for phone widths | Low | Medium | src/css/custom.css |
+| IB-027 | Add docs/foundations/08-pricing.md: pricing appears only as a data benchmark (data/04-pricing-as-gtm) and inside revenue-architecture; foundations carries no pricing framework page, so cross-links from channels and flows have no anchor to hit | Medium | High | docs/foundations/08-pricing.md (new), docs/data/04-pricing-as-gtm.md, docs/foundations/revenue-architecture.md |
+| IB-028 | Add a win-loss and customer-research foundations page (interview loop, loss taxonomy, how findings reprice ICP and positioning): the topic graph jumps from ICP definition straight to channels with no research step between | Medium | High | docs/foundations/11-win-loss.md (new), docs/foundations/02-icp-definition.md, docs/foundations/03-positioning-and-messaging.md |
 
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
@@ -51,6 +65,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 | IB-012 | Improve agentic layer (SOP/prompt) visibility on more pages | Medium | Medium | Agentic, Flows, Playbooks |
 | IB-013 | Measure and optimize rendered output (images/SVG/boxes, no overflow/clipping) | Low | Low | All pages with visuals |
 | IB-014 | Ensure cross-links resolve (no orphan pages, no broken links) | Low | Low | All pages |
+| IB-029 | Deepen the nine roles/ seats: each role ships one index.md today; give every seat the same anatomy (what the seat owns, its inspection checklist, how the job changes by stage, top failure modes), one seat per ship | Medium | High | docs/roles/ (9 index pages) |
 
 ## Notes
 - Effort: Low (<1 hour), Medium (1-4 hours), High (>4 hours or coordination)
