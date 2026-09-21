@@ -28,6 +28,8 @@ grep -rl "class: fundamental" docs | wc -l
 
 ## Snapshot, as of 2026-09-21
 
+The counter greps file contents, so this page counts itself once on each side. Net the two fenced lines out.
+
 - 42 agentic pages (17 in docs/agentic, 9 in docs/agent-ops, 7 in docs/gtm-engineering, flows/02-agentic-outbound, plus the 10 new stubs at docs/agentic/01-10).
 - 87 fundamental pages.
 - 129 tagged pages total: 32.6 percent agentic.

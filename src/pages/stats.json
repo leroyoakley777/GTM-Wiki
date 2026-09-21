@@ -69,8 +69,12 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Announcement checklist, launch post, the forge agents that grade each other, probabilistic pipelines +94 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "Content mix, announcement checklist, launch post, the forge agents that grade each other +95 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "content mix",
+          "href": "/docs/content-mix"
+        },
         {
           "label": "announcement checklist",
           "href": "/docs/launch/announcement-checklist"
