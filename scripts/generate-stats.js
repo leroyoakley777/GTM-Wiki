@@ -76,6 +76,9 @@ function dayItems(files) {
     if (!/\.mdx?$/.test(f)) continue;
     if (/\/index\.mdx?$/.test(f)) continue;
     if (f === 'docs/map.md') continue;
+    // git log lists deleted files too; skip anything not on disk so the
+    // homepage never links a dead page.
+    if (!fs.existsSync(path.join(ROOT, f))) continue;
     const href = pageHref(f);
     if (!href || seen.has(href)) continue;
     seen.add(href);

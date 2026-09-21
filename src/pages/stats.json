@@ -65,8 +65,12 @@
   "updates": [
     {
       "date": "2026-09-21",
-      "text": "Overview, agent os harness, cron fleets, jevons economics +5 more · IB-025, IB-018, IB-016, IB-017, IB-015.",
+      "text": "Saas buyer empathy, overview, agent os harness, cron fleets +6 more · IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
+        {
+          "label": "saas buyer empathy",
+          "href": "/docs/agentic/saas-buyer-empathy"
+        },
         {
           "label": "overview",
           "href": "/docs/agent-ops/overview"
