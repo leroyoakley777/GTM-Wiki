@@ -146,6 +146,17 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
   `./01-outbound.md`.
 - Bare `<` before a digit is an MDX tag and fails the build. Rephrase.
 - Frontmatter key is `last_updated` with an underscore.
+- Registry sources need no code edit: `validate-sources.mjs` parses the
+  `| N | Name | as-of | claim | backing |` rows of SOURCES_REGISTRY.md into its
+  allowlist. Add a row, cite it, done.
+- lint-comms rule-of-three regex matches the literal phrase `in three` —
+  "1,000x in three years" fails. Use "within three years".
+- lint.mjs fails on cross-links to pages that do not exist yet. When launching
+  a section, link existing sections from the first page and swap in sibling
+  links as siblings ship.
+- The ship lane races sibling cron commits. On push rejection:
+  `git pull --rebase origin main`, re-run `npm run ship:gate`, push again.
+  Commit only files you touched — sibling work may be in the working tree.
 - Do not copy scanner token lists into prose. The scanners will fail the
   page that lists the tokens.
 - Do not add the same rule to two scanner files.
