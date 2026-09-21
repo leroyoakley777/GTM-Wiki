@@ -4,18 +4,18 @@ title: SaaS Buyer‑Enablement Idea
 description: A captured idea for helping sellers know what it’s like to be a buyer.
 tags: [idea, saas, buyer‑empathy, captured]
 status: active
-last_updated: 2026-08-30
+last_updated: 2026-09-21
 ---
 # SaaS Buyer‑Enablement Idea
-
-**Source**: [Captured idea dump](09-saas-buyer-empathy-idea.md)  
-**Status**: stub – ready for expansion into a playbook or experiment.
 
 ## One‑liner
 Help sellers know what it’s like to be a buyer.
 
 ## Why it matters
 Sellers often optimize for their own quota and outreach metrics without experiencing the buyer’s journey. This empathy gap leads to tone‑deaf sequences, irrelevant content, and low conversion. A tool that lets sellers *step into the buyer’s shoes* could improve message relevance, timing, and ultimately conversion rates.
+
+## What it could be
+A role-play simulator. The seller logs in as a buyer at a fictional company and runs a full procurement cycle: need, budget, evaluation, legal, signature. The simulator scores buyer-think: did the seller identify the economic buyer, solve for consensus, and reduce perceived risk? The same exercise fits new-hire onboarding, AE refreshers, and manager coaching.
 
 ## Experiment outline (2‑hour spike)
 1. **Write a buyer journey script** – pick a common buyer persona (e.g., mid‑market IT manager) and detail the steps they take from problem recognition to purchase, including emotional triggers and information sources.
