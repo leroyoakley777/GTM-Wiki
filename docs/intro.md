@@ -5,7 +5,7 @@ sidebar_position: 1
 description: "The open reference for go-to-market: definitions, frameworks, playbooks, data, and agentic execution. Every page cited, every artifact runnable."
 status: active
 tags: [intro, gtm, welcome]
-last_updated: 2026-09-08
+last_updated: 2026-09-22
 ---
 
 # Welcome to the GTM Wiki
@@ -126,22 +126,20 @@ Two ways to read a page:
 
 ## Where to start
 
-Run the router below to find your entry point.
+The router below points you at your entry point.
 
-```
-You are at the front door of the GTM Wiki. Pick your situation:
-
-You need to understand GTM itself          -> foundations/what-is-gtm
-You need a strategy built from scratch     -> foundations/gtm-strategy-framework
-You need to define who you sell to         -> foundations/icp-definition
-You need to pick an acquisition channel    -> foundations/gtm-channels-bullseye
-You need your first customers              -> playbooks/outbound-from-zero
-You need to design a sales process         -> flows/sales-process-meddpicc
-You want to automate the motion            -> agentic/agentic-gtm-overview
-You need a benchmark for a number          -> data
-You need a real-world example              -> case-studies
-You want the whole graph in one view       -> map
-```
+| Your situation | Start at |
+|---|---|
+| You need to understand GTM itself | [What is GTM](./foundations/what-is-gtm) |
+| You need a strategy built from scratch | [GTM Strategy Framework](./foundations/gtm-strategy-framework) |
+| You need to define who you sell to | [ICP Definition](./foundations/icp-definition) |
+| You need to pick an acquisition channel | [Channels Bullseye](./foundations/gtm-channels-bullseye) |
+| You need your first customers | [Outbound From Zero](./playbooks/outbound-from-zero) |
+| You need to design a sales process | [Sales Process (MEDDPICC)](./flows/sales-process-meddpicc) |
+| You want to automate the motion | [Agentic GTM Overview](./agentic/agentic-gtm-overview) |
+| You need a benchmark for a number | [Data](./data) |
+| You need a real-world example | [Case Studies](./case-studies) |
+| You want the whole graph in one view | [Map](./map) |
 
 ## GTM as an operating system
 
