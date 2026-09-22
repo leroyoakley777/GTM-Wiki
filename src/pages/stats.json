@@ -69,8 +69,12 @@
   "updates": [
     {
       "date": "2026-09-22",
-      "text": "Gtm funnel · IB-020.",
+      "text": "Events field, gtm funnel · IB-007, IB-020.",
       "items": [
+        {
+          "label": "events field",
+          "href": "/docs/channels/events-field"
+        },
         {
           "label": "gtm funnel",
           "href": "/docs/foundations/gtm-funnel"
