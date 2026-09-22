@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 6
 title: Revenue Operations
 description: "Revenue operations as a harness function: the model, the pipeline and forecast math, the workflows, failure modes with fixes, a worked RevOps build and cleanup, and the agentic SOP."
-last_updated: 2026-09-21
+last_updated: 2026-09-22
 status: active
 tags: [revops, revenue-operations, foundations, forecasting, pipeline, agentic]
 domain: foundations
@@ -23,9 +23,6 @@ benchmarks that matter are the ones that show the multiplier working:
 coverage, forecast accuracy, and quota attainment. This page pairs with
 [GTM Metrics](gtm-metrics), which defines the numbers. RevOps is who
 keeps them accurate and who acts on them.
-
-Every benchmark below carries a named source and an as-of date. Read
-the sources before you treat a number as a target.
 
 ---
 
@@ -63,7 +60,7 @@ The ratio is not a fixed norm but a stage decision:
   ahead of the curve.
 - Past roughly 1,000 employees the Sales:RevOps ratio climbs and each
   RevOps person supports a bigger seller base (PeerSignal, 2024) <sup><a href="#sources">[1]</a></sup>.
-- By roughly 200 employees, essentially every B2B company has a
+- By roughly 200 employees, nearly every B2B company has a
   dedicated RevOps team. Before that, the duties live with sales
   managers, demand-gen marketers, and generalists who do the job
   without the title (PeerSignal, 2024) <sup><a href="#sources">[1]</a></sup>.
@@ -81,11 +78,6 @@ RevOps adoption has become mainstream, and demand is rising fast:
 - The payoff shows up as up to **30% lower** go-to-market cost and
   **+10–20% sales productivity** from better lead quality and tooling
   ([Marketick](https://marketick.ai/), 2026, vendor source) <sup><a href="#sources">[4]</a></sup>.
-
-The pattern behind these numbers: a small used function that owns
-the production line for revenue. If metrics are accurate and sellers
-hit number, RevOps is working invisibly. If they are not, the
-highest-use fix is usually the ops layer, not more reps.
 
 **Read next:** [GTM Funnel](gtm-funnel) defines the funnel RevOps
 operationalizes, and [GTM Metrics](gtm-metrics) defines the numbers it
@@ -396,17 +388,11 @@ leadership can plan against.
 
 ## How to read these numbers
 
-1. **The 12:1 aggregate is a sample, not a target.** It reflects 2,500
-   B2B software companies, and early-stage teams intentionally run lower
-   ratios (PeerSignal, 2024) <sup><a href="#sources">[1]</a></sup>. Size to seller count and stage.
-2. **Adoption and ratio figures vary by definition.** PeerSignal
+1. **Adoption and ratio figures vary by definition.** PeerSignal
    excludes marketing ops. Some orgs fold it in. Know which definition
    a source uses before comparing.
-3. **Coverage only means something against win rate.** Read 4.8x for a
+2. **Coverage only means something against win rate.** Read 4.8x for a
    21% win rate, not a flat 3x (Lative, 2025) <sup><a href="#sources">[7]</a></sup>.
-4. **Measure RevOps by the number it protects.** Quota attainment and
-   forecast accuracy are the outcomes. If sellers miss number, look at
-   the ops layer before adding reps.
 
 ---
 
