@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 7
 title: Events & Field
 description: When events and field marketing are the right channel, the named-and-dated ROI and conversion benchmarks, the channel stack, sequencing, failure modes with fixes, handoff to sales, the agentic SOP, and the case matrix.
-last-updated: 2026-09-08
+last_updated: 2026-09-22
 status: active
 tags: [events, field, conference, webinar, field-marketing, trade-show, agentic]
 domain: channels
@@ -370,7 +370,7 @@ are paying for other people's networking.
   81% buying authority; $142 avg trade show lead; CEIR Index B2B market $15.78B
   in 2024. [ceir.iaee.com](https://ceir.iaee.com/)
 - [4] ON24, "2025 Webinar Benchmarks Report": ~57% reg-to-attendee rate; cost per
-  lead $72 (via Visitor Queue). [on24.com](https://www.on24.com/blog/key-takeaways-from-the-2025-webinar-benchmarks-report/)
+  lead $72 (via Visitor Queue) <sup><a href="#sources">[345]</a></sup>. [on24.com](https://www.on24.com/blog/key-takeaways-from-the-2025-webinar-benchmarks-report/)
 - [5] Visitor Queue via Zoom, 2026: $72 CPL for webinars; Zoom 2026 B2B video
   benchmarks. [visitorqueue.com](https://www.visitorqueue.com/)
 - [6] Tradeshow Labs, 2025: exhibit $10,000-$30,000 per booth, staffing

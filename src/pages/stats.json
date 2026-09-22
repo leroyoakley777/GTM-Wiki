@@ -68,6 +68,16 @@
   "generatedAt": "2026-09-22",
   "updates": [
     {
+      "date": "2026-09-22",
+      "text": "Gtm funnel · IB-020.",
+      "items": [
+        {
+          "label": "gtm funnel",
+          "href": "/docs/foundations/gtm-funnel"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "text": "Content mix, announcement checklist, launch post, the forge agents that grade each other +95 more · IB-007, IB-019, IB-025, IB-018, IB-016, IB-017, IB-015.",
       "items": [
@@ -494,220 +504,6 @@
         {
           "label": "referral viral",
           "href": "/docs/channels/referral-viral"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "text": "Partner, agentic gtm overview, agentic stack, agentic outbound +48 more · IB-007.",
-      "items": [
-        {
-          "label": "partner",
-          "href": "/docs/channels/partner"
-        },
-        {
-          "label": "agentic gtm overview",
-          "href": "/docs/agentic/agentic-gtm-overview"
-        },
-        {
-          "label": "agentic stack",
-          "href": "/docs/agentic/agentic-stack"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/agentic/agentic-outbound"
-        },
-        {
-          "label": "product led",
-          "href": "/docs/case-studies/product-led"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/case-studies/outbound"
-        },
-        {
-          "label": "community led",
-          "href": "/docs/case-studies/community-led"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/channels/outbound"
-        },
-        {
-          "label": "inbound",
-          "href": "/docs/channels/inbound"
-        },
-        {
-          "label": "paid",
-          "href": "/docs/channels/paid"
-        },
-        {
-          "label": "events field",
-          "href": "/docs/channels/events-field"
-        },
-        {
-          "label": "contributing",
-          "href": "/docs/contributing"
-        },
-        {
-          "label": "positioning",
-          "href": "/docs/copywriting/positioning"
-        },
-        {
-          "label": "messaging",
-          "href": "/docs/copywriting/messaging"
-        },
-        {
-          "label": "frameworks",
-          "href": "/docs/copywriting/frameworks"
-        },
-        {
-          "label": "conversion rate benchmarks",
-          "href": "/docs/data/conversion-rate-benchmarks"
-        },
-        {
-          "label": "gtm metrics",
-          "href": "/docs/data/gtm-metrics"
-        },
-        {
-          "label": "market segmentation",
-          "href": "/docs/data/market-segmentation"
-        },
-        {
-          "label": "funnel",
-          "href": "/docs/data/funnel"
-        },
-        {
-          "label": "pricing as gtm",
-          "href": "/docs/data/pricing-as-gtm"
-        },
-        {
-          "label": "outbound response rates",
-          "href": "/docs/data/outbound-response-rates"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/flows/outbound"
-        },
-        {
-          "label": "agentic outbound",
-          "href": "/docs/flows/agentic-outbound"
-        },
-        {
-          "label": "sales process meddpicc",
-          "href": "/docs/flows/sales-process-meddpicc"
-        },
-        {
-          "label": "what is gtm",
-          "href": "/docs/foundations/what-is-gtm"
-        },
-        {
-          "label": "gtm channels bullseye",
-          "href": "/docs/foundations/gtm-channels-bullseye"
-        },
-        {
-          "label": "icp definition",
-          "href": "/docs/foundations/icp-definition"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
-        },
-        {
-          "label": "gtm metrics",
-          "href": "/docs/foundations/gtm-metrics"
-        },
-        {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
-        },
-        {
-          "label": "competitive analysis",
-          "href": "/docs/foundations/competitive-analysis"
-        },
-        {
-          "label": "brand as gtm",
-          "href": "/docs/foundations/brand-as-gtm"
-        },
-        {
-          "label": "revenue architecture",
-          "href": "/docs/foundations/revenue-architecture"
-        },
-        {
-          "label": "ci cd",
-          "href": "/docs/gtm-engineering/ci-cd"
-        },
-        {
-          "label": "data layer",
-          "href": "/docs/gtm-engineering/data-layer"
-        },
-        {
-          "label": "experimentation",
-          "href": "/docs/gtm-engineering/experimentation"
-        },
-        {
-          "label": "observability",
-          "href": "/docs/gtm-engineering/observability"
-        },
-        {
-          "label": "orchestration",
-          "href": "/docs/gtm-engineering/orchestration"
-        },
-        {
-          "label": "skills tools",
-          "href": "/docs/gtm-engineering/skills-tools"
-        },
-        {
-          "label": "intro",
-          "href": "/docs/intro"
-        },
-        {
-          "label": "best marketing books",
-          "href": "/docs/library/best-marketing-books"
-        },
-        {
-          "label": "best sales books",
-          "href": "/docs/library/best-sales-books"
-        },
-        {
-          "label": "inbound content engine",
-          "href": "/docs/playbooks/inbound-content-engine"
-        },
-        {
-          "label": "prospecting",
-          "href": "/docs/skills/prospecting"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/skills/outbound"
-        },
-        {
-          "label": "messaging",
-          "href": "/docs/skills/messaging"
-        },
-        {
-          "label": "signals",
-          "href": "/docs/skills/signals"
-        },
-        {
-          "label": "pricing",
-          "href": "/docs/skills/pricing"
-        },
-        {
-          "label": "abm",
-          "href": "/docs/skills/abm"
-        },
-        {
-          "label": "seo",
-          "href": "/docs/skills/seo"
-        },
-        {
-          "label": "ads",
-          "href": "/docs/skills/ads"
-        },
-        {
-          "label": "revops",
-          "href": "/docs/skills/revops"
         }
       ]
     }
