@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-09-21
+last_updated: 2026-09-22
 ---
 
 # Map
@@ -37,4 +37,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 22 | [Launch](/docs/launch/announcement-checklist) | 2 | The launch section of the wiki. |
 | 23 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**23 sections · 112 pages · generated 2026-09-21**
+**23 sections · 112 pages · generated 2026-09-22**

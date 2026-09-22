@@ -3,7 +3,7 @@ class: fundamental
 title: GTM Funnel
 sidebar_position: 7
 status: active
-last_updated: 2026-09-12
+last_updated: 2026-09-22
 description: The GTM funnel maps the buyer journey from awareness to expansion with measurable stages and conversion benchmarks.
 tags: [funnel, metrics, buyer-journey, conversion]
 ---
@@ -120,19 +120,17 @@ Benchmarks vary by motion (sales-led, product-led, hybrid) and ACV
 band. The table below shows median ranges from aggregated B2B SaaS
 data <sup><a href="#sources">[7]</a></sup>.
 
-```
-Stage                    | Sales-Led (ACV >50k) | Product-Led (ACV &lt;10k) | Hybrid (10k-50k)
--------------------------|----------------------|------------------------|------------------
-Visitor to MQL           | 2-4%                 | 5-8%                   | 3-5%
-MQL to SAL               | 30-40%               | 40-50%                 | 35-45%
-SAL to SQL               | 40-50%               | 50-60%                 | 45-55%
-SQL to Opportunity       | 50-60%               | 60-70%                 | 55-65%
-Opportunity to Close-Won | 20-25%               | 25-30%                 | 22-28%
-Close-Won to Activated   | 70-80%               | 60-70%                 | 65-75%
-Activated to Adopted     | 60-70%               | 50-60%                 | 55-65%
-Adopted to Expanded      | 20-30%               | 15-25%                 | 18-28%
-Expanded to Advocate     | 10-15%               | 20-30%                 | 15-20%
-```
+| Stage | Sales-Led (ACV >50k) | Product-Led (ACV &lt;10k) | Hybrid (10k-50k) |
+|---|---|---|---|
+| Visitor to MQL | 2-4% | 5-8% | 3-5% |
+| MQL to SAL | 30-40% | 40-50% | 35-45% |
+| SAL to SQL | 40-50% | 50-60% | 45-55% |
+| SQL to Opportunity | 50-60% | 60-70% | 55-65% |
+| Opportunity to Close-Won | 20-25% | 25-30% | 22-28% |
+| Close-Won to Activated | 70-80% | 60-70% | 65-75% |
+| Activated to Adopted | 60-70% | 50-60% | 55-65% |
+| Adopted to Expanded | 20-30% | 15-25% | 18-28% |
+| Expanded to Advocate | 10-15% | 20-30% | 15-20% |
 
 ### Ownership and SLAs
 
