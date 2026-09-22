@@ -69,8 +69,12 @@
   "updates": [
     {
       "date": "2026-09-22",
-      "text": "Events field, gtm funnel · IB-007, IB-020.",
+      "text": "Intro, events field, gtm funnel · IB-020, IB-007.",
       "items": [
+        {
+          "label": "intro",
+          "href": "/docs/intro"
+        },
         {
           "label": "events field",
           "href": "/docs/channels/events-field"

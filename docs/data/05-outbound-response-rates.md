@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 5
 title: Outbound Response Rate Benchmarks
 description: What cold outbound returns (reply rates, email-to-deal conversion, multi-touch lift) and the funnel math from reply to booked meeting, with dated named sources.
-last_updated: 2026-09-15
+last_updated: 2026-09-22
 status: active
 tags: [data, outbound, response-rate, cold-email, benchmarks]
 domain: data
@@ -89,9 +89,9 @@ reply → meeting → opportunity → deal.
 
 ### Single-channel cold email is sinking
 
-Blended B2B cold email reply rate sits at 5.8%, down from 6.8% in 2023
-(SalesHive, 2025) <sup><a href="#sources">[3]</a></sup>. Inbox saturation keeps pushing it lower. A 3–5% reply
-rate on cold email is the normal baseline, not a red flag on your copy.
+Blended B2B cold email reply rate sits at 5.8%, down from 6.8% in 2023 (SalesHive, 2025) <sup><a href="#sources">[3]</a></sup>. Inbox saturation keeps pushing
+it lower. A 3–5% reply rate on cold email is the normal baseline, not a
+red flag on your copy.
 
 This is why optimizing a cold-email subject line inside a saturated inbox
 moves little. The channel itself returns less every year.
@@ -110,10 +110,9 @@ built-in advantage that copy alone cannot buy.
 
 ### Read the trailing signal
 
-Only 27–30% of B2B reps hit quota in 2024, down from historical norms
-(Belkins via Autobound) <sup><a href="#sources">[8]</a></sup>. Most sellers run average work on a struggling
-single channel. Treat outbound as one part of a mixed motion, not the whole
-engine.
+Only 27–30% of B2B reps hit quota in 2024, down from historical norms (Belkins via Autobound) <sup><a href="#sources">[8]</a></sup>. Most sellers run average
+work on a struggling single channel. Treat outbound as one part of a mixed
+motion, not the whole engine.
 
 Three rules for reading this table:
 
