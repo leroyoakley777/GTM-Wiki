@@ -69,8 +69,16 @@
   "updates": [
     {
       "date": "2026-09-23",
-      "text": "Buyers journey · IB-007.",
+      "text": "Outbound, product led, buyers journey · IB-009, IB-007.",
       "items": [
+        {
+          "label": "outbound",
+          "href": "/docs/channels/outbound"
+        },
+        {
+          "label": "product led",
+          "href": "/docs/case-studies/product-led"
+        },
         {
           "label": "buyers journey",
           "href": "/docs/flows/buyers-journey"
