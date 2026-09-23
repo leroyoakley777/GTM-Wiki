@@ -5,7 +5,7 @@ title: "Product-Led Growth: Case Studies"
 description: "Slack, Calendly, Figma, Dropbox, Zoom, Notion, and Atlassian: the documented cases where the product's output is the distribution channel. Every number named and dated, the pattern underneath, the math worked, failure modes, and the agentic layer."
 status: active
 tags: [product-led, case-studies, channels]
-last_updated: 2026-09-08
+last_updated: 2026-09-23
 ---
 
 # Product-Led Growth: Case Studies
@@ -230,7 +230,7 @@ The documented numbers:
 - **More than half of the Fortune 500 used Notion by 2025**, a
   `(vendor source)` claim repeated in press ([CNBC, June 2025](https://www.cnbc.com/2025/06/10/notion-cnbc-disruptor-50.html)).
 - **Notion raised a $275 million Series C in October 2021 at a $10
-  billion valuation** ([Contrary Research, Notion report](https://research.contrary.com/report/notion)).
+  billion valuation** ([Contrary Research, Notion report](https://research.contrary.com/report/notion) <sup><a href="#sources">[56]</a></sup>).
 
 Notion's growth is B2C2B: the individual is the wedge, the team is the
 expansion. It is the cleanest case of a product-led motion that does not
