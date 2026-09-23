@@ -5,16 +5,14 @@ title: Outbound
 description: "The operator's field manual for cold outbound: when to run it, how to diagnose every stage of the funnel, infrastructure that keeps you in the inbox, list construction, reply handling, team design, and the failure modes that kill the motion."
 status: active
 tags: [outbound, channels, cold-email, cold-call, sdr, funnel, deliverability, sequencing]
-last_updated: 2026-09-08
+last_updated: 2026-09-23
 ---
 
 # Outbound
 
 Outbound is a targeted channel you pick on purpose. It works when you know exactly who the buyer is, the deal size covers the effort, and inbound or partnerships will not fill the pipe fast enough. Run well, it is the fastest repeatable pipeline you will build. Run badly, it burns budget and a sending domain <sup><a href="#sources">[17]</a></sup>.
 
-This page covers when outbound is the right call, how to judge whether the motion is healthy, how to build the list, how to run phone and LinkedIn as amplifiers, how to staff and coach the desk, where it breaks, and how the numbers change by company stage. Words live in [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. This page will not recommend email copy.
-
-For step-by-step execution from nothing, see the [Outbound from Zero playbook](/docs/playbooks/outbound-from-zero). For the runnable motion, see [Outbound flow](/docs/flows/outbound). For the agentic layer, see [Agentic Outbound](/docs/agentic/agentic-outbound). For the raw benchmark tables, see [Outbound response rates](/docs/data/outbound-response-rates).
+Words live in [Copywriting](/docs/copywriting): positioning, messaging, and frameworks. This page will not recommend email copy.
 
 Meetings booked per 1,000 sends is the score. Everything else is a diagnostic.
 
@@ -68,13 +66,9 @@ The craft lives in four layers, in this order: **infrastructure, list, message, 
 
 ## Outbound funnel: benchmarks that diagnose
 
-Each stage answers a different question. A healthy total is the product of all of them, so a weakness at any single stage caps the whole motion.
-
 ```
 DELIVERY → REPLY → POSITIVE REPLY → MEETING BOOKED → MEETING HELD → OPPORTUNITY
 ```
-
-Delivery rates below 97% indicate a domain or list problem. Reply rates below 2% point to message or audience, not deliverability. Positive reply rates cluster at 25-50% of total replies. Meetings booked per 1,000 sends range from 3-10 at healthy programs. Each stage multiplies the next, so a bottleneck anywhere caps the entire motion.
 
 The 2026 numbers first, then what each one diagnoses:
 
@@ -110,8 +104,6 @@ Most teams start with copy. In 2026 the first failure is usually infrastructure.
 3. **Mailbox warmup.** Warm every new inbox for at least 3 weeks before live campaigns. Start at 5 warmup emails per day, ramp by 5 per day, cap at 50 <sup><a href="#sources">[333]</a></sup>. Keep roughly 15% of daily volume on warmup traffic forever to maintain the engagement signal <sup><a href="#sources">[329]</a></sup>.
 4. **Volume math.** Each mailbox caps at 25-30 cold sends per day. Divide your daily target by 50 for inboxes needed, by 100 for domains <sup><a href="#sources">[333]</a></sup>. A 500-per-day program needs roughly 7-8 domains with 2-3 mailboxes each <sup><a href="#sources">[331]</a></sup>.
 5. **Ongoing health.** Weekly bounce checks (under 2% hard bounces per domain), bi-weekly blacklist scans, monthly mailbox rotation, quarterly full infrastructure audit <sup><a href="#sources">[331]</a></sup>.
-
-Scale this layer before you write a word of copy. Great copy sent through broken infrastructure produces nothing.
 
 ### Warmup cadence
 
@@ -503,18 +495,6 @@ OUTBOUND INFRASTRUCTURE CHECKLIST
 [ ] Same-day handling SLA on positive replies
 [ ] Handoff note required before the meeting hits an AE calendar
 ```
-
-
-## Why outbound compounds when it works
-
-- **The list is the asset, not the copy.** A 500-row list that matches the ICP beats a 50,000-row spray every time. Every row needs a first name, a verified email, and a one-line reason-to-reach: a trigger, a change, a gap. No reason, no row.
-- **Signal beats sequence.** Job changes, funding rounds, hiring surges, and tech-stack changes build better lists than static firmographics <sup><a href="#sources">[116]</a></sup>.
-- **Personalization is the differentiator, and it is rare.** Only about 5% of senders personalize every email <sup><a href="#sources">[52]</a></sup>. Signal-driven references lift reply rates from roughly 9% to 18% versus generic templates <sup><a href="#sources">[327]</a></sup>.
-- **The reply is where outbound is won or lost.** A hot reply handled in under 15 minutes is the single biggest lever most teams leave on the table <sup><a href="#sources">[17]</a></sup>.
-- **Volume without signal is noise.** Adding sends to a generic template does not increase meetings linearly. It increases spam complaints and burns domains. The compound lever is signal density per 1,000 sends, not raw send volume.
-- **Domains outlast campaigns.** A burned sending domain takes 60-90 days to recover. Build 3+ domains from day one so you can rotate without stopping the motion.
-- **Phone still works.** Across 570 million interactions, the phone beat email as a way for SDRs to get in touch <sup><a href="#sources">[341]</a></sup>. Use it where the account is worth the human minute.
-- **Handoff is part of outbound.** A meeting that an AE declines is a wasted yes, not pipeline.
 
 
 ## How to read these numbers
