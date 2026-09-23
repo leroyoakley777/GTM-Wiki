@@ -3,7 +3,7 @@ class: agentic
 sidebar_position: 3
 title: "Agentic Outbound: The Harness"
 description: "The outbound flow under an agent use: the runnable sequence of prove, automate, guard, the layer stack, agentic list build, personalization at scale, triage with a time-to-first-response SLA, deliverability guardrails, the SOP and prompts, use-health metrics, a worked example, and failure modes."
-last-updated: 2026-09-05
+last-updated: 2026-09-23
 status: active
 tags: [outbound, flow, agentic, cold-email, sdr, use, triage, deliverability]
 domain: flows
@@ -251,7 +251,7 @@ A representative build, step by step, so you can see the whole thing hold togeth
 5. **Measure.** Meetings booked landed at **3–4 per 1,000 sends**, inside the healthy 3–10 range <sup><a href="#sources">[18]</a></sup>. The funnel held: delivery above 97%, reply rate above the single-channel average, positive-reply rate above 30%.
 6. **Handoff.** The meeting standard was written ("a GC with the problem and budget, scheduling a demo"). Every meeting traced to a campaign. The 2-week debrief fed wins back into a new look-alike list.
 
-**Result within ~8 weeks.** Roughly 15–20 qualified meetings from ~2,000 rows in motion, at a fraction of the manual headcount. The manual SDR cost $139,120 in 2026, and the agent use covered that salary with meetings still to spare. Nothing burned, nothing scaled before it was proven, and the domain stayed healthy.
+**Result within ~8 weeks.** Roughly 15–20 qualified meetings from ~2,000 rows in motion, at a fraction of the manual headcount. The manual SDR cost $139,120 in 2026 <sup><a href="#sources">[39]</a></sup>, and the agent use covered that salary with meetings still to spare. Nothing burned, nothing scaled before it was proven, and the domain stayed healthy.
 
 ---
 
@@ -358,6 +358,8 @@ From [Agent vs Human Workflows](/docs/agentic/agent-vs-human-workflows), based o
 -[18] [Instantly, 2025 Guide to AI Outbound Sales](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/): Meetings 3-10 per 1,000 sends.
 
 -[19] [Apollo, How Do RevOps Leaders Decide Which GTM Workflows Are Safe to Automate](https://www.apollo.io/insights/how-do-revops-leaders-decide-which-gtm-workflows-are-safe-to-automate-with-ai-agents): Four-stage autonomy ladder: Draft, Recommend, Execute with approval, Autonomous.
+
+-[39] AiSDR: SDR fully-loaded cost (vendor source). Source registry #39.
 
 ---
 
