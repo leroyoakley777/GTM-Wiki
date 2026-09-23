@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 4
 title: Buyer's Journey - the buyer's view of the sales process
 description: "The buyer's journey mapped to the six MEDDPICC stages: what the buyer is doing on the other side of the table at each step, what the seller must supply to meet them there, the channel variant, the failure modes when the two arcs fall out of step, and the agentic SOP that flags the misalignment."
-last-updated: 2026-08-18
+last-updated: 2026-09-22
 status: active
 tags: [buyers-journey, sales-process, meddpicc, buying-committee, flow, ae]
 domain: flows
@@ -29,8 +29,8 @@ latent problem. A deal stalls or dies when the two arcs fall out of step.
 - **Research on B2B buying consistently finds the buyer completes most of the
   journey before a vendor is ever contacted.** 6sense's 2025 Buyer Experience
   Report (about 4,000 buyers) puts first contact at 61% of the journey, down
-  from 69% in 2024, and Gartner's Future of Sales research (2020) finds buyers
-  spend only about 17% of their buying time with suppliers. Every figure on
+  from 69% in 2024 <sup><a href="#every-figure-named-and-dated">[1]</a></sup>, and Gartner's Future of Sales research (2020) finds buyers
+  spend only about 17% of their buying time with suppliers <sup><a href="#every-figure-named-and-dated">[2]</a></sup>. Every figure on
   this page is named and dated in [the sources section](#every-figure-named-and-dated).
   The operational consequence is not a number: it is that a seller who
   qualifies only from their own pitch is qualifying against a ghost.
@@ -405,8 +405,8 @@ next report the team wants fixed, which is the next metric the buyer owns.
 
 **The arithmetic you should trust.** At a 21% Opp to Closed-Won rate, one win
 needs about five qualified opportunities. Five qualified opps times a 21% close
-rate is just over one win. The 21% figure is Ebsta/Pavilion (2021-2024).
-SalesMotion (2026) puts qualified win rates near 29%, which still means three to
+rate is just over one win. The 21% figure is Ebsta/Pavilion (2021-2024) <sup><a href="#every-figure-named-and-dated">[3]</a></sup>.
+SalesMotion (2026) puts qualified win rates near 29% <sup><a href="#every-figure-named-and-dated">[4]</a></sup>, which still means three to
 four qualified opps per win. The same base governs the seller's page: hold four
 qualified opps and expect to lose one. None of this arithmetic changes because
 the view is the buyer's; the buyer's journey tells you which of those opps are
@@ -430,14 +430,20 @@ source registry (`RESEARCH/gtm-wiki/SOURCES_REGISTRY.md`). No invented stat.
 | Buyer-side roles the seller must read | Mobilizers, Talkers, Blockers; sellers targeting Mobilizers are 31% more likely to be high performers | CEB, The Challenger Customer (2015) |
 | Buyers contact sellers on their own terms | Buyer-initiated contact more than 80% of the time | 6sense, B2B Buyer Experience Report (2025) |
 
+<sup>[1]</sup> 6sense, B2B Buyer Experience Report (2025), ~4,000 buyers.
+<sup>[2]</sup> Gartner, Future of Sales research (2020).
+<sup>[3]</sup> Ebsta / Pavilion (2021-2024), Opp-to-Closed-Won benchmark.
+<sup>[4]</sup> SalesMotion (2026), qualified win-rate benchmark.
+<sup>[5]</sup> CEB and Google (2012): superseded pre-contact figure, not shipped here.
+
 Two of the numbers come from conversion-rate benchmarks rather than buyer
-research. The 21% Opp to Closed-Won rate is Ebsta/Pavilion (2021-2024), and the
-~29% qualified win rate is SalesMotion (2026). Both are the same bases the
+research. The 21% Opp to Closed-Won rate is Ebsta/Pavilion (2021-2024) <sup><a href="#every-figure-named-and-dated">[3]</a></sup>, and the
+~29% qualified win rate is SalesMotion (2026) <sup><a href="#every-figure-named-and-dated">[4]</a></sup>. Both are the same bases the
 sales-process page uses, so the buyer's view does not invent a second set of
 numbers.
 
 The two most commonly repeated B2B buying stats do not ship here because they
-do not survive vetting. The old 57% figure from CEB and Google (2012) has been
+do not survive vetting. The old 57% figure from CEB and Google (2012) <sup><a href="#every-figure-named-and-dated">[5]</a></sup> has been
 superseded by Gartner and 6sense's newer numbers, and the claim that buyers
 complete 70-80% of the journey before sales contact, often attributed to
 Forrester (2024), is a secondary read, not in Forrester's own State of Business
@@ -556,11 +562,3 @@ the agent reads the buyer's position , and a deal only advances when
 the buyer's journey and the seller's stage are actually in step. A deal that
 is being worked at the wrong position becomes visible in the notes, not a
 surprise at proposal.
-
-> **Source:** GTM OS Handbook, 2026-08-27
-
- $125K revenue from 500 leads at a 25% conversion rate.
-
-In April 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
