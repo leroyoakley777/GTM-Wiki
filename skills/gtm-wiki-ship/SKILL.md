@@ -129,7 +129,9 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
      the receipt's `candidate_hash`; e.g. `case-studies/product-led.md`).
    - `<slug-path>.json` — `{"page": "<slug-path>", "candidate_hash": "<sha256>",
      "live_fragments": ["<2+ exact strings, 20+ chars, from the LIVE page>"],
-     "verified_at": "<ISO 8601>", "origin": "https://gtmwiki.com"}`.
+     "verified_at": "<ISO 8601>", "origin": "https://gtmwiki.dev"}`.
+     gtmwiki.com is a third-party domain (registered 2009, DreamHost). Never
+     use it as an origin, never attach it to the project, never cite it.
    - Strip the `NN-` prefix from the path. Take fragments from the live URL
      after deploy, never from the draft.
 
