@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 2
 title: Prospecting
 description: "Build account, contact, or both lists from ICP fit, enrichment, and signals: the trigger, the build steps, the list template, a worked example, and the agentic SOP that runs it."
-last_updated: 2026-08-19
+last_updated: 2026-09-23
 status: active
 tags: [prospecting, icp, enrichment, list-building, targeting, sdr, agentic]
 domain: skills
@@ -31,7 +31,7 @@ Do not run it when you have not defined the ICP. Prospecting without an ICP prod
 
 Prospecting turns market fit into a working list. It combines three inputs: firmographic fit against the ICP, contact data for the buyers inside those accounts, and signals that indicate timing. Each input is necessary; the list is the intersection, not the union.
 
-## Why it matters
+## Why ICP fit drives win rates
 
 A defined ICP drives 68% higher win rates and 30% more marketing-sourced revenue than an undefined one <sup><a href="#sources">[2]</a></sup>. Prospecting is the step that makes that advantage operational: it is where the ICP stops being a slide and becomes accounts your team can call. Done badly, it floods the CRM with names that never convert and erodes sender reputation before the first reply.
 
@@ -86,7 +86,7 @@ ICP filter: <one line: firmographics + buyer title>
 
 Tier 1 rows get a human-written first touch. Tier 2 rows go to the agent sequence. A row with no signal and no verification stays in Tier 3 until something moves it.
 
-## A worked example
+## Worked example: 1,200 accounts narrowed to 90 ready targets
 
 A mid-market SaaS sells workflow software to operations leaders at companies with 200-2000 employees. The ICP names the VP of Operations and the Head of RevOps as buyers.
 
