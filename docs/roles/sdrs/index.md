@@ -5,6 +5,7 @@ title: "Roles: SDRs"
 description: "What SDRs do, the metrics that gate them, and how to run the meeting machine without burning people out."
 status: active
 tags: ['roles', 'index']
+last_updated: 2026-09-24
 ---
 
 # SDRs
@@ -173,22 +174,22 @@ gates the AE runs after the handoff.
 ### Compensation
 
 Pay a base that dominates. Standard SDR comp is 60 to 70 percent base and 30
-to 40 percent commission (Martal, 2026). The 2026 baseline is roughly a
-$60,000 median base and $85,000 median OTE (SalesHive, 2026). Base salary by
+to 40 percent commission (Martal, 2026)<sup>[244]</sup>. The 2026 baseline is roughly a
+$60,000 median base and $85,000 median OTE (SalesHive, 2026)<sup>[242]</sup>. Base salary by
 level runs about $50 to $60K entry, $60 to $75K mid, and $70 to $90K senior
-(SV Academy, 2026).
+(SV Academy, 2026)<sup>[245]</sup>.
 
 Commission-heavy plans drive burnout, poor lead quality, and turnover
-(Martal, 2026). Average SDR turnover runs about 40 percent a year (Martal,
-2026). Pay on what the rep controls: meetings held and SQLs accepted by AEs,
+(Martal, 2026)<sup>[244]</sup>. Average SDR turnover runs about 40 percent a year (Martal,
+2026)<sup>[244]</sup>. Pay on what the rep controls: meetings held and SQLs accepted by AEs,
 not closed-won deals they cannot influence.
 
 ### Cost
 
 An in-house SDR carries a fully loaded annual cost of roughly $98K to $173K
 plus a three-month ramp, and institutional knowledge walks out the door every
-14 to 18 months with turnover (SalesHive, 2026). Vendor sources put a fully
-loaded SDR near $139,120 per year (AiSDR, 2026). Know the number before you
+14 to 18 months with turnover (SalesHive, 2026)<sup>[242]</sup>. Vendor sources put a fully
+loaded SDR near $139,120 per year (AiSDR, 2026)<sup>[39]</sup>. Know the number before you
 hire. Outsourced teams trade control for speed and avoid the ramp.
 
 ---
