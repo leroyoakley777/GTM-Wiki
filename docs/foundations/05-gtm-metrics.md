@@ -5,7 +5,7 @@ title: GTM Metrics
 description: "The metrics that matter in go-to-market: CAC, LTV, payback, NRR, magic number, rule of 40, and how to steer the business with them."
 status: active
 tags: [metrics, cac, ltv, payback, nrr, foundations]
-last_updated: 2026-09-04
+last_updated: 2026-09-24
 ---
 
 # GTM Metrics
@@ -15,14 +15,6 @@ are. Without them you cannot see problems, and you cannot know
 what to fix. The metrics on this page answer three operating
 questions: is the engine working, where does it leak, and should
 you spend or cut.
-
-This page is the foundation for [conversion-rate
-benchmarks](/docs/data/conversion-rate-benchmarks), [sales-cycle
-benchmarks](/docs/data/sales-cycle-benchmarks), and
-[outbound-response
-rates](/docs/data/outbound-response-rates). Read them together. This
-page gives you the definitions. The others give you the ranges to
-compare against.
 
 ---
 
@@ -92,10 +84,6 @@ Ignoring the two-sale reality produces three failure modes:
   product-market fit, leaders cut spend at the worst possible
   moment, and growth stalls. The cash-flow trough is expected, but
   most teams treat it as a crisis <sup><a href="#sources">[1]</a></sup>.
-
-Metrics fix these failures only when you actually use them. They
-make the leaks visible early. They make the trough predictable.
-They tell you when to spend and when to cut.
 
 ---
 
@@ -285,17 +273,9 @@ cohort, not just the aggregate.
 ### LTV:CAC ratio
 
 LTV divided by CAC. A ratio of 3:1 or higher is the minimum viable
-benchmark <sup><a href="#sources">[1]</a></sup>. Below 3:1, you are likely unprofitable per customer
-and should not scale acquisition. The 3:1 threshold comes from
+benchmark <sup><a href="#sources">[1]</a></sup>. The 3:1 threshold comes from
 Skok's analysis of hundreds of SaaS businesses and has held across
 public and private companies.
-
-5:1 or higher is excellent: you hold room to spend more on
-acquisition to accelerate growth.
-
-Below 1:1 is a business emergency. You spend more to acquire
-customers than they ever return. Stop scaling. Fix pricing, churn,
-or acquisition efficiency.
 
 ### CAC payback period
 
@@ -317,13 +297,7 @@ Starting revenue from existing customers plus expansions, minus
 churn and contractions, divided by starting revenue.
 
 NRR above 100 percent means existing customers grow faster than
-they leave. NRR above 110 percent is the minimum target for
-healthy growth-stage SaaS. Strong public SaaS companies sustain NDR
-above 110 percent <sup><a href="#sources">[3]</a></sup>.
-
-NRR below 100 percent is a crisis. You lose revenue from the
-existing base and must add new customers just to stay flat. No
-amount of new acquisition compensates long term.
+they leave. The benchmark targets sit in Pillar 2 above.
 
 ### Magic number
 
@@ -332,9 +306,8 @@ sales and marketing spend.
 
 It annualizes the ARR growth and divides by the spend that produced
 it. Above 0.75 means each dollar of S&M spend produces at least
-$0.75 of annualized ARR. Above 1.0 is exceptional. Below 0.5 means
-spend does not generate enough incremental ARR to justify
-investment <sup><a href="#sources">[3]</a></sup>.
+$0.75 of annualized ARR. The 0.75, 1.0, and 0.5 thresholds sit in
+Pillar 5 above <sup><a href="#sources">[3]</a></sup>.
 
 Common confusion: Magic Number is not LTV:CAC. Magic Number
 measures near-term spend efficiency this quarter. LTV:CAC measures
@@ -345,22 +318,13 @@ long-term unit economics over a customer's lifetime. Both matter.
 Revenue growth rate (year-over-year) plus profit margin (EBITDA or
 free cash flow margin).
 
-A score above 40 is the healthy benchmark. Growth plus margin
-balances the two: fast growers can tolerate losses; slow growers
-must be profitable.
-
-Examples: 30 percent growth + 10 percent margin = 40. 50 percent
-growth + (negative 10 percent) margin = 40. 15 percent growth + 25
-percent margin = 40.
-
-It becomes relevant above $5M to $10M ARR. Before that, survival
+The healthy target and worked examples sit in Pillar 4 above. It
+becomes relevant above $5M to $10M ARR. Before that, survival
 and product-market fit matter more.
 
 ---
 
 ## How to use metrics to steer the business
-
-Metrics are not decoration. They are decision tools.
 
 ### Set the metric stack by stage
 
