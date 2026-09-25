@@ -5,7 +5,7 @@ title: "Product-Led Growth: Case Studies"
 description: "Slack, Calendly, Figma, Dropbox, Zoom, Notion, and Atlassian: the documented cases where the product's output is the distribution channel. Every number named and dated, the pattern underneath, the math worked, failure modes, and the agentic layer."
 status: active
 tags: [product-led, case-studies, channels]
-last_updated: 2026-09-23
+last_updated: 2026-09-25
 ---
 
 # Product-Led Growth: Case Studies
@@ -229,8 +229,7 @@ The documented numbers:
   [growth analyses, 2025](https://letters.ehoneahobed.com/how-notion-grew-to-20-million-users-with-95-organic-growth-and-why-their-boldest-move-almost-7b0031de15d1)).
 - **More than half of the Fortune 500 used Notion by 2025**, a
   `(vendor source)` claim repeated in press ([CNBC, June 2025](https://www.cnbc.com/2025/06/10/notion-cnbc-disruptor-50.html)).
-- **Notion raised a $275 million Series C in October 2021 at a $10
-  billion valuation** ([Contrary Research, Notion report](https://research.contrary.com/report/notion) <sup><a href="#sources">[56]</a></sup>).
+- **Notion raised a $275 million Series C in October 2021 at a $10 billion valuation** <sup><a href="#sources">[56]</a></sup> ([Contrary Research, Notion report](https://research.contrary.com/report/notion)).
 
 Notion's growth is B2C2B: the individual is the wedge, the team is the
 expansion. It is the cleanest case of a product-led motion that does not
@@ -603,24 +602,24 @@ of what the mechanism can do with a working product and luck.
 
 ## Sources
 
-- [Lenny's Newsletter × OpenView × Pendo: What is good free-to-paid conversion](https://openviewpartners.com/2023-product-benchmarks/): 1,000+ product survey, Aug 2023. Freemium self-serve 3–8%, freemium + sales-assist 5–15%, free-trial 8–25%, signup 5% trial vs 9% freemium, 44% of trial companies route over half their signups to sales.
-- [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks): 600+ B2B SaaS survey, about 9% median free-to-paid, about 25–30% with PQLs.
-- [Gainsight: Product-Led Growth Index, 2022](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/): free trials using PQLs convert 2.8x higher.
-- [ChartMogul / Userpilot: SaaS conversion rates](https://userpilot.com/blog/saas-average-conversion-rate/): a 1-point free-to-paid lift equals roughly +15% new revenue per cohort.
-- [Slack newsroom, Sept 2019](https://slack.com/blog/news/work-is-fueled-by-true-engagement): 12M+ daily active users, 6M+ paid seats.
-- [Business of Apps: Slack statistics, 2026](https://www.businessofapps.com/data/slack-statistics/): 640,000 organizations in 2019.
-- [TechCrunch via Contrary Research: Calendly report](https://research.contrary.com/report/calendly): $350M Series B at $3B valuation, Jan 2021.
-- [Calendly newsroom, 2024](https://calendly.com/newsroom/press-release/calendly-achieves-61-yoy-increase-in-enterprise-growth): 86% of the Fortune 500, 61% YoY enterprise growth.
-- [Reuters: Adobe agrees to acquire Figma for $20B, Sept 2022](https://www.reuters.com/technology/adobe-agrees-acquire-figma-20-billion-2022-09-15/), and [Reuters: deal abandoned, Dec 2023](https://www.reuters.com/legal/adobe-figma-deal-likely-be-blocked-eu-2023-12-18/).
-- [Sean Ellis, SaaStr Annual deck, 2016](https://www.slideshare.net/seanellis/building-a-companywide-growth-culture-saastr-annual-2016), cited by [saasquatch, 2024](https://www.saasquatch.com/blog/dropbox-customer-referral-program-by-the-numbers/) and [getlaunchlist](https://getlaunchlist.com/blog/dropbox-referral-program-case-study): Dropbox 100K → 4M in 15 months, 35% of daily signups from referrals, 2.8x paid channels.
-- [viral-loops: Dropbox growth history](https://viral-loops.com/blog/dropbox-grew-3900-simple-referral-program/): 500M+ registered users, 33.9M paying, $10B valuation by Sept 2017.
-- [Zoom blog, April 2020](https://www.zoom.com/en/blog/reflecting-looking-ahead/): 10M → 200M → 300M daily meeting participants, Dec 2019–Apr 2020.
-- [Reuters, April 2020](https://www.reuters.com/article/business/zoom-says-it-has-300-million-daily-meeting-participants-not-users-idUSKBN22C1IE/): corrects Zoom's figure to daily meeting participants, not daily active users.
-- [Business of Apps: Zoom statistics, 2026](https://www.businessofapps.com/data/zoom-statistics/): 192,600 enterprise customers in 2024.
-- [CNBC Disruptor 50, May 2023](https://www.cnbc.com/2023/05/09/notion-disruptor-50.html) and [Notion, "100 Million of You," 2025](https://www.notion.com/blog/100-million-of-you), cited by [Contrary Research](https://research.contrary.com/report/notion): Notion 20M (2022) → 100M+ users (2025), 4M+ paying, $275M Series C at $10B (Oct 2021).
-- [Atlassian Cloud Licensing docs](https://www.atlassian.com/licensing/cloud): Free plans up to 10 users (Jira, Confluence), 3 agents (JSM), 2 GB storage.
-- [Trello pricing](https://www.trello.com/pricing): Free plan up to 10 boards, 10 collaborators.
-- [MomentumNexus: SaaS pricing guide, 2026](https://www.momentumnexus.com/blog/saas-pricing-strategy-guide-2026/): 25–40% of new revenue from expansion healthy, top performers above 60%.
+- [1] [Lenny's Newsletter × OpenView × Pendo: What is good free-to-paid conversion](https://openviewpartners.com/2023-product-benchmarks/): 1,000+ product survey, Aug 2023. Freemium self-serve 3–8%, freemium + sales-assist 5–15%, free-trial 8–25%, signup 5% trial vs 9% freemium, 44% of trial companies route over half their signups to sales.
+- [2] [ProductLed: Product-Led Growth Benchmarks](https://productled.com/blog/product-led-growth-benchmarks): 600+ B2B SaaS survey, about 9% median free-to-paid, about 25–30% with PQLs.
+- [3] [Gainsight: Product-Led Growth Index, 2022](https://www.gainsight.com/resource/benchmark-product-qualified-lead-pql-conversion-rates/): free trials using PQLs convert 2.8x higher.
+- [4] [ChartMogul / Userpilot: SaaS conversion rates](https://userpilot.com/blog/saas-average-conversion-rate/): a 1-point free-to-paid lift equals roughly +15% new revenue per cohort.
+- [5] [Slack newsroom, Sept 2019](https://slack.com/blog/news/work-is-fueled-by-true-engagement): 12M+ daily active users, 6M+ paid seats.
+- [6] [Business of Apps: Slack statistics, 2026](https://www.businessofapps.com/data/slack-statistics/): 640,000 organizations in 2019.
+- [7] [TechCrunch via Contrary Research: Calendly report](https://research.contrary.com/report/calendly): $350M Series B at $3B valuation, Jan 2021.
+- [8] [Calendly newsroom, 2024](https://calendly.com/newsroom/press-release/calendly-achieves-61-yoy-increase-in-enterprise-growth): 86% of the Fortune 500, 61% YoY enterprise growth.
+- [9] [Reuters: Adobe agrees to acquire Figma for $20B, Sept 2022](https://www.reuters.com/technology/adobe-agrees-acquire-figma-20-billion-2022-09-15/), and [Reuters: deal abandoned, Dec 2023](https://www.reuters.com/legal/adobe-figma-deal-likely-be-blocked-eu-2023-12-18/).
+- [10] [Sean Ellis, SaaStr Annual deck, 2016](https://www.slideshare.net/seanellis/building-a-companywide-growth-culture-saastr-annual-2016), cited by [saasquatch, 2024](https://www.saasquatch.com/blog/dropbox-customer-referral-program-by-the-numbers/) and [getlaunchlist](https://getlaunchlist.com/blog/dropbox-referral-program-case-study): Dropbox 100K → 4M in 15 months, 35% of daily signups from referrals, 2.8x paid channels.
+- [11] [viral-loops: Dropbox growth history](https://viral-loops.com/blog/dropbox-grew-3900-simple-referral-program/): 500M+ registered users, 33.9M paying, $10B valuation by Sept 2017.
+- [12] [Zoom blog, April 2020](https://www.zoom.com/en/blog/reflecting-looking-ahead/): 10M → 200M → 300M daily meeting participants, Dec 2019–Apr 2020.
+- [13] [Reuters, April 2020](https://www.reuters.com/article/business/zoom-says-it-has-300-million-daily-meeting-participants-not-users-idUSKBN22C1IE/): corrects Zoom's figure to daily meeting participants, not daily active users.
+- [14] [Business of Apps: Zoom statistics, 2026](https://www.businessofapps.com/data/zoom-statistics/): 192,600 enterprise customers in 2024.
+- [15] [CNBC Disruptor 50, May 2023](https://www.cnbc.com/2023/05/09/notion-disruptor-50.html) and [Notion, "100 Million of You," 2025](https://www.notion.com/blog/100-million-of-you), cited by [Contrary Research](https://research.contrary.com/report/notion): Notion 20M (2022) → 100M+ users (2025), 4M+ paying, $275M Series C at $10B (Oct 2021).
+- [16] [Atlassian Cloud Licensing docs](https://www.atlassian.com/licensing/cloud): Free plans up to 10 users (Jira, Confluence), 3 agents (JSM), 2 GB storage.
+- [17] [Trello pricing](https://www.trello.com/pricing): Free plan up to 10 boards, 10 collaborators.
+- [18] [MomentumNexus: SaaS pricing guide, 2026](https://www.momentumnexus.com/blog/saas-pricing-strategy-guide-2026/): 25–40% of new revenue from expansion healthy, top performers above 60%.
 
 **Research note:** the primary research for this page is compiled from
 the source pages above and the channel's benchmark figures. Vendor- and
