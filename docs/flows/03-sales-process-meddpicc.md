@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 3
 title: Sales Process - the MEDDPICC Flow
 description: "Six stage-gated sales stages from qualification to closed-won, run on MEDDPICC: the activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis."
-last_updated: 2026-08-19
+last_updated: 2026-09-26
 status: active
 tags: [sales, meddpicc, flow, qualification, discovery, negotiation, closing, ae]
 domain: flows
@@ -524,7 +524,7 @@ Economic buyer agrees. Security review completes on its named timeline.
 $30k/year and accuracy metrics. Expansion path: the next report the team
 wants fixed.
 
-**The arithmetic you should trust.** At $50k ACV (2026 base) and a 21% close
+**The arithmetic you should trust.** At $50k ACV and a 21% close
 rate, one win needs about five qualified opportunities. Five qualified opps
 times a 21% close rate is just over one win. The ~21% Opp to Closed-Won
 figure is Ebsta/Pavilion (2021-2024) <sup><a href="#sources">[2]</a></sup>. SalesMotion (2026) puts qualified
