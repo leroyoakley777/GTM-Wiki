@@ -5,7 +5,7 @@ title: Engagement Flow
 description: How dispositions flow through the GTM OS layers-from task state to skill invocation, execution, verification, and update.
 tags: [engagement, disposition, flow, task-state, skill, execution, verification]
 status: active
-last_updated: 2026-08-30
+last_updated: 2026-09-27
 ---
 
 # Engagement Flow
@@ -183,19 +183,3 @@ sequenceDiagram
 - [Repo Structure](../agentic/gtm-os-repo-structure.md): Shows the file tree (`icp/`, `personas/`, `plays/`, `skills/`, `scoring.md`, `policies/`, `evals/`).
 
 > _“Memory should not merely remind an agent what it once learned. It should control what the agent does next, based on what has actually been completed.”_ - Recuris paper
-
-> **Source:** GTM OS Handbook, 2026-08-27
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-## Agentic Layer
-
-An agent runs this flow with the SOP: `run_outbound_sequence`.
-
-> **Source:** GTM OS Handbook, 2026-08-27 
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-In April 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
-
-In Q2 2026, the outbound sequence generated $125K revenue from 500 leads at a 25% conversion rate.
