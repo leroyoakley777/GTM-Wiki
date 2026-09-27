@@ -5,7 +5,7 @@ title: Competitive Analysis
 description: "Competitive analysis: knowing who you beat, who beats you, and why, at the market level and the deal level."
 status: active
 tags: [competitive-analysis, competitive-intelligence, battlecards, win-loss, positioning, foundations]
-last_updated: 2026-09-02
+last_updated: 2026-09-27
 ---
 
 # Competitive Analysis
@@ -248,6 +248,6 @@ The market-structure question still sat above the deal work. Rivalry was fierce 
 2. Harvard Business School Institute for Strategy and Competitiveness, *The Five Forces*, 1979/2008. Definition of the five forces and the structural conditions that drive industry profitability. Registered source #291.
 3. April Dunford, *Obviously Awesome*, 2019. Competitive alternatives set the minimum benchmark; differentiated features are only valuable against the alternatives customers actually care about. Registered source #257.
 4. Liminal, *Win-Loss Analysis Guide*, 2026. Win-loss as a continuous program; capture every deal; triangulate loss reasons across rep, buyer, and call data; feed findings into rep-facing artifacts. Registered source #293.
-5. Basis Global, via Liminal, 2026. 7.2 million recorded B2B buyer conversations: 58% of late-stage deals fail on implementation risk rather than price. Registered source #294.
+5. Basis Global, via Liminal, 2026. 7.2 million recorded B2B buyer conversations: 58% of late-stage deals fail on implementation risk rather than price. Registered source #294. <sup><a href="#sources">[5]</a></sup>
 
 *Synthesized from the Harvard Business School Institute for Strategy and Competitiveness, April Dunford, GTM Playbook, and Liminal. Porter's five forces provide the market-structure lens; the GTM Playbook system and win-loss practice provide the deal-level operation.*
