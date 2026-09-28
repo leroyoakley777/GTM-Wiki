@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 3
 title: Customer Onboarding
 description: "The full-depth playbook for onboarding new customers to first value and beyond: picking a validated activation event, the 7% day-7 rule, the time-to-value ladder, the four-instrument measurement stack, an account-level vs user-level decision, common failure modes, a worked build, and the agentic SOP."
-last-updated: 2026-08-26
+last_updated: 2026-09-28
 status: active
 tags: [onboarding, customer-success, activation, time-to-value, retention, agentic]
 domain: playbooks
@@ -411,9 +411,9 @@ stream. It reports what the data shows and flags the gap.
 
 ## Further reading
 
-- [Amplitude: Time to Value: The Key to Driving User Retention (2025)](https://amplitude.com/blog/time-to-value-drives-user-retention). The 7% rule, the 98% two-week churn number, and the top-vs-median retention gap.
-- [DigitalApplied: Time to Value: The 2026 SaaS Onboarding Metrics Framework](https://www.digitalapplied.com/blog/customer-onboarding-time-to-value-2026-saas-metrics-framework). The TTV ladder, the measurement stack, the mid-scale cliff, and the account-level argument.
-- [RevenueCat](https://www.revenuecat.com/). The three activation-event validity tests and the completion-rate trap.
+- [Amplitude: Time to Value: The Key to Driving User Retention (2025)](https://amplitude.com/blog/time-to-value-drives-user-retention)<sup>[235]</sup>. The 7% rule, the 98% two-week churn number, and the top-vs-median retention gap.
+- [DigitalApplied: Time to Value: The 2026 SaaS Onboarding Metrics Framework](https://www.digitalapplied.com/blog/customer-onboarding-time-to-value-2026-saas-metrics-framework)<sup>[236]</sup>. The TTV ladder, the measurement stack, the mid-scale cliff, and the account-level argument.
+- [RevenueCat](https://www.revenuecat.com/)<sup>[237]</sup>. The three activation-event validity tests and the completion-rate trap.
 - [GTM Metrics](../foundations/gtm-metrics): the Growth Formula that spans acquisition through onboarding to retention and expansion.
 - [GTM Funnel](../foundations/gtm-funnel): where onboarding sits in the bowtie and the exit criterion into active use.
 - [Product-Led Growth](../channels/product-led): the same activation motion when the product does the selling.
