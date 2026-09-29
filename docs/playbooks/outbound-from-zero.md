@@ -3,8 +3,8 @@ class: fundamental
 sidebar_position: 2
 title: Outbound from Zero
 description: "The full-depth playbook for standing up a cold-outbound motion from nothing: sequence contract, day-by-day cadence, deliverability setup, budget math, objections, a worked build, and the agentic SOP."
-last-updated: 2026-09-11
-last_updated: 2026-09-11
+last-updated: 2026-09-29
+last_updated: 2026-09-29
 status: active
 tags: [outbound, playbook, cold-email, sdr, deliverability, agentic]
 domain: playbooks
@@ -385,9 +385,9 @@ Outbound](../agentic/agentic-outbound), but here is the reusable shape.
 The win, with numbers: AI-augmented teams see **2.8x more pipeline** than
 teams attempting full replacement of their SDRs
 ([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026,
-vendor source).
+vendor source) <sup><a href="#sources">[6]</a></sup>.
 Signal-driven personalization lifts reply rates to **15–25%** vs the
-3–5% single-channel baseline ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)).
+3–5% single-channel baseline ([Instantly, 2025](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/)) <sup><a href="#sources">[2]</a></sup>.
 
 ### Agentic SOP (reusable)
 
@@ -428,7 +428,7 @@ Measurement](../agentic/guardrails-and-measurement)):
 **Track meetings and pipeline, not emails sent.** Sends are vanity.
 meetings are revenue
 ([Autobound](https://www.autobound.ai/blog/ai-sdr-tools-guide), 2026,
-vendor source).
+vendor source) <sup><a href="#sources">[6]</a></sup>.
 
 ---
 
@@ -439,7 +439,7 @@ vendor source).
 - **Buying a list without reasons-to-reach**: cold spray, no personalization, no replies.
 - **No handoff discipline**: meetings booked but nobody qualified, nothing closed.
 - **Skipping domain warmup**: deliverability dies, and the domain is burned forever.
-- **Treating a 3% reply rate as failure**: it's the normal baseline ([Woodpecker, 2026](https://woodpecker.co/blog/cold-email-statistics/)). Chase reply *rate via personalization*, not by sending more of the same.
+- **Treating a 3% reply rate as failure**: it's the normal baseline ([Woodpecker, 2026](https://woodpecker.co/blog/cold-email-statistics/)) <sup><a href="#sources">[1]</a></sup>. Chase reply *rate via personalization*, not by sending more of the same.
 - **Measuring sends instead of meetings**: the score is pipeline, not volume.
 
 ---
@@ -454,7 +454,7 @@ metric that proves the motion works.
 |---|---|---|---|
 | Seed / founder-led | Single channel, founder-drafted copy, 25–50 sends/day per domain | Founder time | Reply rate above 3.43% (Woodpecker, 2026) and you handle every reply within 5 minutes |
 | Early team (Series A–B) | Email plus one more touch, one SDR owning the loop | Channel mix | Multi-channel reply moves toward 15–25% (Autobound, 100+ SaaS teams) |
-| Mid-market (Series C+) | Full sequence at volume, paid tooling, deliverability discipline | Domain reputation | Delivery holds at 97%+ (Instantly, 2026); meetings land at 3–10 per 1,000 sends |
+| Mid-market (Series C+) | Full sequence at volume, paid tooling, deliverability discipline | Domain reputation | Delivery holds at 97%+ (Instantly, 2025); meetings land at 3–10 per 1,000 sends |
 | Enterprise / mature | Signal-triggered rows with reasons-to-reach, agent-assisted reply triage | Attribution discipline | The motion closes enough pipeline per rep to beat quota, not just produce replies |
 
 A seed founder sends 25–50 cold emails per day from a personal domain
@@ -472,10 +472,10 @@ SDR owns the whole loop, so the gate is throughput per person, not
 absolute volume.
 
 A mid-market team sends thousands of emails per day across several
-domains. Now the 97%+ delivery gate (Instantly, 2026) becomes urgent: a
+domains. Now the 97%+ delivery gate (Instantly, 2025) <sup><a href="#sources">[2]</a></sup> becomes urgent: a
 burned domain wipes out the entire funnel. Warmup, sender reputation,
 and the 25–50 sends/day per-domain cap matter more than any copy change.
-The meetings-per-1,000-sends metric (3–10 healthy range, Instantly 2025)
+The meetings-per-1,000-sends metric (3–10 healthy range, Instantly 2025) <sup><a href="#sources">[2]</a></sup>
 replaces reply rate as the operational dial.
 
 An enterprise team triggers on signals (job changes, funding, website
@@ -496,16 +496,16 @@ your stage, then obey the success gate in its row.
 
 ## Sources
 
-- [Woodpecker: Cold Email Statistics (2026)](https://woodpecker.co/blog/cold-email-statistics/), cold reply-rate averages and ranges (3.43% avg. 5–10% good).
-- [Instantly: 2025 Guide to AI Outbound Sales](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/), signal-based reply rates, domain warmup, sending caps, time-to-first-response.
-- [SalesHive: B2B Cold Email Benchmarks (2025)](https://saleshive.com/), blended (5.8%) and SaaS (3–8%) reply rates, positive-reply share.
-- [Martal: B2B Cold Email Statistics (2026)](https://martal.ca/b2b-cold-email-statistics-lb/), cold-email → deal conversion (~0.2%), personalization lift, message-length sweet spot.
-- [AiSDR: SDR vs AI Cost Analysis](https://aisdr.com/blog/sdr-vs-ai-cost/), fully-loaded SDR cost ($139K) vs AI platform cost. *(vendor source)*
-- [Autobound: AI SDR Tools Buyer's Guide (2026)](https://www.autobound.ai/blog/ai-sdr-tools-guide), hybrid vs autonomous pipeline (2.8x), tool churn. *(vendor source)*
-- [SuperAGI: AI vs Traditional SDRs](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/), contacts/day and cost-per-lead. *(vendor source)*
-- [MarketsandMarkets: AI SDRs vs Traditional SDRs](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins), cost-per-lead drop ($262 → $39). *(vendor source)*
-- [SalesGenie: Cold Call Connect Rates (2026)](https://www.salesgenie.com/), phone connect rates (2–3%. Top SDRs 5–8%).
-- [OptifAI](https://optifai.com/), cold/warm/existing open-rate baselines (16.5% / 27.5% / 37.5%).
+- [1] [Woodpecker: Cold Email Statistics (2026)](https://woodpecker.co/blog/cold-email-statistics/), cold reply-rate averages and ranges (3.43% avg. 5–10% good).
+- [2] [Instantly: 2025 Guide to AI Outbound Sales](https://instantly.ai/blog/2025-guide-to-ai-outbound-sales/), signal-based reply rates, domain warmup, sending caps, time-to-first-response.
+- [3] [SalesHive: B2B Cold Email Benchmarks (2025)](https://saleshive.com/), blended (5.8%) and SaaS (3–8%) reply rates, positive-reply share.
+- [4] [Martal: B2B Cold Email Statistics (2026)](https://martal.ca/b2b-cold-email-statistics-lb/), cold-email → deal conversion (~0.2%), personalization lift, message-length sweet spot.
+- [5] [AiSDR: SDR vs AI Cost Analysis](https://aisdr.com/blog/sdr-vs-ai-cost/), fully-loaded SDR cost ($139K) vs AI platform cost. *(vendor source)*
+- [6] [Autobound: AI SDR Tools Buyer's Guide (2026)](https://www.autobound.ai/blog/ai-sdr-tools-guide), hybrid vs autonomous pipeline (2.8x), tool churn. *(vendor source)*
+- [7] [SuperAGI: AI vs Traditional SDRs](https://superagi.com/ai-vs-traditional-sdrs-a-comparative-analysis-of-pipeline-performance-and-cost-efficiency/), contacts/day and cost-per-lead. *(vendor source)*
+- [8] [MarketsandMarkets: AI SDRs vs Traditional SDRs](https://www.marketsandmarkets.com/AI-sales/ai-sdrs-vs-traditional-sdrs-who-wins), cost-per-lead drop ($262 → $39). *(vendor source)*
+- [9] [SalesGenie: Cold Call Connect Rates (2026)](https://www.salesgenie.com/), phone connect rates (2–3%. Top SDRs 5–8%).
+- [10] [OptifAI](https://optifai.com/), cold/warm/existing open-rate baselines (16.5% / 27.5% / 37.5%).
 
 See also the team's benchmark source: `RESEARCH/gtm-wiki/OUTBOUND_RESPONSE_RATES_BENCHMARKS.md` (last-updated 2026-08-17).
 

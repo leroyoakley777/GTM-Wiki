@@ -65,8 +65,18 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-09-29",
   "updates": [
+    {
+      "date": "2026-09-28",
+      "text": "Customer onboarding · IB-007.",
+      "items": [
+        {
+          "label": "customer onboarding",
+          "href": "/docs/playbooks/customer-onboarding"
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "text": "Engagement flow, competitive analysis · IB-007.",
@@ -98,16 +108,6 @@
         {
           "label": "product led",
           "href": "/docs/case-studies/product-led"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-24",
-      "text": "Gtm metrics · IB-009, IB-007.",
-      "items": [
-        {
-          "label": "gtm metrics",
-          "href": "/docs/foundations/gtm-metrics"
         }
       ]
     }
