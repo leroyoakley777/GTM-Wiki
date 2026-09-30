@@ -5,7 +5,7 @@ title: GTM Tools Overview
 description: "The GTM software market mapped by job to be done: the categories, the build order, what belongs at what stage, and the mistakes that wreck stacks."
 status: active
 tags: ['tools', 'stack', 'revops', 'gtm']
-last_updated: 2026-09-02
+last_updated: 2026-09-30
 ---
 
 # GTM Tools Overview
@@ -317,10 +317,10 @@ automation of a broken process. Fix the process, then buy. [^2]
 
 ## Sources
 
-1. ZoomInfo, *GTM Tech Stack: Components, Tools and Best Practices, 2026*. The six core categories, 23-vendor average, 15-25% bad-data cost, AI assistant/agent split, stack examples by stage, six-step build sequence, and the common mistakes. Registered source #301.
+1. ZoomInfo, *GTM Tech Stack: Components, Tools and Best Practices, 2026*. The six core categories, 23-vendor average, 15-25% bad-data cost, AI assistant/agent split, stack examples by stage, six-step build sequence, and the common mistakes. Registered source <sup>[301]</sup>.
 2. ZoomInfo, *RevOps Tech Stack: The Complete Guide for 2026*. Process-before-tools, tiered Tier 1/Tier 2 stack, fragmentation costs, CPQ/billing/CLM as revenue grades, CS included early. Registered source #302.
 3. Apollo, *What Is a Sales Tech Stack?* Consolidation, the data-engagement-intelligence layers. Registered source #303.
 4. Zylo, *GTM Tech Stack Explained*. Components spanning marketing, sales, and customer success operations. Registered source #304.
-5. Gangly, *Sales Tech Stack: Essential Tools for B2B Teams in 2026*. The four layers, seed-stage Apollo plus HubSpot, Series A at roughly $500-700 per seat per month. Registered source #305.
+5. Gangly, *Sales Tech Stack: Essential Tools for B2B Teams in 2026*. The four layers, seed-stage Apollo plus HubSpot, Series A at roughly $500-700 per seat per month. Registered source <sup>[305]</sup>.
 
 *Synthesized from ZoomInfo's GTM and RevOps tech stack guides, Apollo, Zylo, and Gangly. The category system, the build order, and the stage guidance come from ZoomInfo; the consolidation thesis and layered view are shared across all four sources.*

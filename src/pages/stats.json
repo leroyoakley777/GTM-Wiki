@@ -68,6 +68,11 @@
   "generatedAt": "2026-09-30",
   "updates": [
     {
+      "date": "2026-09-30",
+      "text": "Docs update.",
+      "items": []
+    },
+    {
       "date": "2026-09-29",
       "text": "Outbound from zero · IB-007.",
       "items": [
@@ -98,16 +103,6 @@
         {
           "label": "competitive analysis",
           "href": "/docs/foundations/competitive-analysis"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-26",
-      "text": "Sales process meddpicc · IB-007.",
-      "items": [
-        {
-          "label": "sales process meddpicc",
-          "href": "/docs/flows/sales-process-meddpicc"
         }
       ]
     }
