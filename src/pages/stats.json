@@ -65,8 +65,18 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-09-30",
   "updates": [
+    {
+      "date": "2026-09-29",
+      "text": "Outbound from zero · IB-007.",
+      "items": [
+        {
+          "label": "outbound from zero",
+          "href": "/docs/playbooks/outbound-from-zero"
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "text": "Customer onboarding · IB-007.",
@@ -98,16 +108,6 @@
         {
           "label": "sales process meddpicc",
           "href": "/docs/flows/sales-process-meddpicc"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-25",
-      "text": "Product led · IB-007.",
-      "items": [
-        {
-          "label": "product led",
-          "href": "/docs/case-studies/product-led"
         }
       ]
     }

@@ -99,14 +99,16 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
 | IA-11 | Wiki auditor 2026-09-25: post-commit audit REJECT on case-studies/01-product-led — voice: The prose is scrambled and ungrammatical in places (e.g. "It placed by the person who just got value", "it stop", list bodies split from their headers), so it fails dead-prose STE. | — | — | docs/case-studies/01-product-led.md |
-| IA-12 | Wiki auditor 2026-09-25: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-12 | RESOLVED-WONTFIX 2026-09-30: map is a generated navigation index with zero external claims — sources/footnote/fence instrument not applicable; auditor now exempts generated index pages (lint still runs) | — | — | docs/map.md |
 | IA-13 | Wiki auditor 2026-09-26: post-commit audit REJECT on flows/03-sales-process-meddpicc — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-flows__03-sales-process-meddpicc.md  (5 err, 0 warn) | — | — | docs/flows/03-sales-process-meddpicc.md |
-| IA-14 | Wiki auditor 2026-09-26: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-14 | RESOLVED-WONTFIX 2026-09-30: duplicate of IA-12 — generated index exemption applies | — | — | docs/map.md |
 | IA-15 | Wiki auditor 2026-09-27: post-commit audit REJECT on flows/engagement-flow — instrument: missing sources,footnote | — | — | docs/flows/engagement-flow.md |
 | IA-16 | Wiki auditor 2026-09-27: post-commit audit REJECT on foundations/09-competitive-analysis — instrument: missing fence | — | — | docs/foundations/09-competitive-analysis.md |
 | IA-17 | Wiki auditor 2026-09-27: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
 | IA-18 | Wiki auditor 2026-09-28: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
 | IA-19 | Wiki auditor 2026-09-28: post-commit audit REJECT on playbooks/customer-onboarding — instrument: missing sources | — | — | docs/playbooks/customer-onboarding.md |
+| IA-20 | Wiki auditor 2026-09-29: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-21 | Wiki auditor 2026-09-29: post-commit audit REJECT on playbooks/outbound-from-zero — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-playbooks__outbound-from-zero.md  (14 err, 0 warn) | — | — | docs/playbooks/outbound-from-zero.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |
