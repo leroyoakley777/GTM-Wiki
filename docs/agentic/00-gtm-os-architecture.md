@@ -5,14 +5,36 @@ title: GTM Operating System Architecture
 description: The 4-layer architecture of the GTM OS, showing how models, harness, skills, and tools compose into a governed whole.
 tags: [architecture, gtm-os, layers, harness, skills, tools, system-design]
 status: active
-last_updated: 2026-09-14
+last_updated: 2026-10-01
 ---
 
 # GTM Operating System Architecture
 
 The GTM OS is built as a **4-layer architecture**, where each layer has a distinct responsibility and clear interfaces. This separation enables independent evolution, testing, and replacement of components while maintaining system integrity.
 
-<img src="/assets/gtm-os-architecture.png" alt="GTM OS 4-Layer Architecture" />
+<svg role="img" aria-label="GTM OS four-layer stack: models, harness, skills, tools" viewBox="0 0 720 362" style={{maxWidth: '720px', width: '100%', height: 'auto', display: 'block', margin: '1.25rem 0'}}>
+  <line x1="22" y1="16" x2="22" y2="346" stroke="#0053fd" strokeWidth="2" />
+  <line x1="22" y1="46" x2="44" y2="46" stroke="#0053fd" strokeWidth="2" />
+  <line x1="22" y1="136" x2="44" y2="136" stroke="#0053fd" strokeWidth="2" />
+  <line x1="22" y1="226" x2="44" y2="226" stroke="#0053fd" strokeWidth="2" />
+  <line x1="22" y1="316" x2="44" y2="316" stroke="#0053fd" strokeWidth="2" />
+  <rect x="44" y="8" width="664" height="76" fill="none" stroke="currentColor" strokeOpacity="0.14" />
+  <text x="66" y="55" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="13">01</text>
+  <text x="112" y="41" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="19">Models</text>
+  <text x="112" y="66" fill="currentColor" fillOpacity="0.62" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">Reasoning, drafting, judgment for each task. Rented intelligence.</text>
+  <rect x="44" y="98" width="664" height="76" fill="none" stroke="currentColor" strokeOpacity="0.14" />
+  <text x="66" y="145" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="13">02</text>
+  <text x="112" y="131" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="19">Harness</text>
+  <text x="112" y="156" fill="currentColor" fillOpacity="0.62" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">Assembles requests, runs tools, applies limits. You build this.</text>
+  <rect x="44" y="188" width="664" height="76" fill="none" stroke="currentColor" strokeOpacity="0.14" />
+  <text x="66" y="235" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="13">03</text>
+  <text x="112" y="221" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="19">Skills · Enhancements · Subagents</text>
+  <text x="112" y="246" fill="currentColor" fillOpacity="0.62" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">Codified GTM expertise and delegated specialists. Your IP.</text>
+  <rect x="44" y="278" width="664" height="76" fill="none" stroke="currentColor" strokeOpacity="0.14" />
+  <text x="66" y="325" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="13">04</text>
+  <text x="112" y="311" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="19">Tools · Prompts · Context · Files</text>
+  <text x="112" y="336" fill="currentColor" fillOpacity="0.62" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">The data and interfaces the agent touches at execution time.</text>
+</svg>
 
 *Source: GTM OS Blueprint (DOC GTM-OS-001 · REV K · 2026-07-29)*
 
