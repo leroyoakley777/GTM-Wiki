@@ -41,7 +41,7 @@ Prioritized list of gaps vs. best-in-world bar (Gold Ship Standard). Each item i
 
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
-| IB-007 | Resolve scan-slop candidates: uncited dated-stat statements (source + 20xx + %/$, no [n]) | Medium | Medium | `docs/case-studies/01-product-led.md` done; 09-18: channels/06-paid + channels/04-partner footnoted [n], live-verified; remaining docs listed in scan-slop output pending |
+| IB-007 | DONE 2026-10-02: fresh scan-slop pass across 142 files reports 0 uncited dated-stat candidates in docs/ (all 10 residual WARNs live in STANDARDS//RESEARCH meta files — the rule describing itself, never shippable). docs/ class fully cleared page by page per the TRACK log below; final clearance on tools-overview (115d47cb/4981ae2f). | Medium | Medium | see TRACK log below |
 
 > **TRACK (2026-09-15):** Owner lane footnoting the uncited-stat class today — `899424e2` (footnote uncited stats on `docs/channels/02-inbound.md`), `098c871f` (add footnote refs to `docs/data/05-outbound-response-rates.md`). Row stays OPEN (row touches multiple docs per SIP #12); one doc at a time is shipped live per the owner's continuous-deploy lane. Remaining docs from scan-slop output still pending.
 > **TRACK (2026-09-16):** Owner lane shipped `docs/data/01-gtm-metrics.md` (`c45c0373`) then `docs/data/00-conversion-rate-benchmarks.md` (`7a6c47bd`), both footnoting the uncited-stat class with `[n]` markers. Row stays OPEN while `docs/data/03-funnel.md` and other scan-slop candidates remain.
@@ -112,6 +112,8 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-21 | Wiki auditor 2026-09-29: post-commit audit REJECT on playbooks/outbound-from-zero — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-playbooks__outbound-from-zero.md  (14 err, 0 warn) | — | — | docs/playbooks/outbound-from-zero.md |
 | IA-22 | Wiki auditor 2026-09-30: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
 | IA-23 | Wiki auditor 2026-09-30: post-commit audit REJECT on tools/00-gtm-tools-overview — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-tools__00-gtm-tools-overview.md  (7 err, 0 warn) | — | — | docs/tools/00-gtm-tools-overview.md |
+| IA-24 | Wiki auditor 2026-10-01: post-commit audit REJECT on agentic/00-gtm-os-architecture — instrument: missing h1,sources,footnote | — | — | docs/agentic/00-gtm-os-architecture.md |
+| IA-25 | Wiki auditor 2026-10-01: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |
