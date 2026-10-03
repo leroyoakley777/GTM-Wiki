@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 3
 title: Sales Process - the MEDDPICC Flow
 description: "Six stage-gated sales stages from qualification to closed-won, run on MEDDPICC: the activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis."
-last_updated: 2026-09-26
+last_updated: 2026-10-03
 status: active
 tags: [sales, meddpicc, flow, qualification, discovery, negotiation, closing, ae]
 domain: flows
@@ -69,9 +69,6 @@ Six stages, each with a job, a MEDDPICC focus, and an exit gate.
 | 4 | Evaluating | C-champion, D-process, C-comp, P | A named champion; every criterion answered |
 | 5 | Proposal & Negotiation | E, D-process, P, C-comp | Economic buyer aligned; paper process done; a signature date |
 | 6 | Closed-Won | E, P, C-champion | Contract executed; handoff documented; expansion path written |
-
-The rest of this page walks each stage, then ships the templates, a worked
-deal, the failure modes, the segment variants, and the agentic layer.
 
 ---
 
@@ -464,9 +461,6 @@ discovery conversation with the right people in the room.
 
 ### Value hypothesis template (the artifact)
 
-This is an artifact: a deliverable produced for a specific deal, updated at
-each stage, and the internal contract the deal is measured against.
-
 ```
 Value Hypothesis
 Account:              <name>
@@ -483,10 +477,6 @@ Competition:          <status quo + alternatives>
 Deal value:           <$ ACV>                              as-of: <date>
 Next step + owner + date: <...>
 ```
-
-The difference from a resource: the value hypothesis is written for one deal,
-in the buyer's numbers, with an as-of date. A blank template is a resource.
-A filled one is an artifact, and it is what gates the stage.
 
 ---
 
@@ -609,11 +599,6 @@ blocked notice listing the missing evidence and the owner + date to close it.
 If all criteria are MET, advance the stage and emit the updated value
 hypothesis for the next stage. Never advance a deal on a miss.
 ```
-
-This is the same discipline as the rest of the wiki: the flow gates the deal,
-the agent enforces the gate, and a deal only moves when the evidence is on
-record. A stalled deal becomes visible in the notes, not a surprise at
-proposal.
 
 ---
 

@@ -65,8 +65,13 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "updates": [
+    {
+      "date": "2026-10-02",
+      "text": "IB-021.",
+      "items": []
+    },
     {
       "date": "2026-10-01",
       "text": "Gtm os architecture · IB-021.",
@@ -94,16 +99,6 @@
         {
           "label": "outbound from zero",
           "href": "/docs/playbooks/outbound-from-zero"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-28",
-      "text": "Customer onboarding · IB-007.",
-      "items": [
-        {
-          "label": "customer onboarding",
-          "href": "/docs/playbooks/customer-onboarding"
         }
       ]
     }
