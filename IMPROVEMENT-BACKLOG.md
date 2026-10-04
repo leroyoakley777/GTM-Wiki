@@ -123,6 +123,8 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-32 | Wiki auditor 2026-10-03: post-commit audit REJECT on library/index — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-library__index.md  (2 err, 0 warn) | — | — | docs/library/index.md |
 | IA-33 | Wiki auditor 2026-10-03: post-commit audit REJECT on gtm-engineering/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/gtm-engineering/index.md |
 | IA-34 | Wiki auditor 2026-10-03: post-commit audit REJECT on library/index — design: The page opens with the banned negation-contrast slop device ("The goal is not a reading list. The goal is the usable core..." and "Pick the discipline, not the shelf") plus an "Example Artifact" head | — | — | docs/library/index.md |
+| IA-35 | Wiki auditor 2026-10-03: post-commit audit REJECT on gtm-engineering/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/gtm-engineering/index.md |
+| IA-36 | Wiki auditor 2026-10-03: post-commit audit REJECT on map — voice: multiple voice failures: vague superlatives ("single highest-use", "ideas that stay true in 2015 and 2035", "the handful of ideas that still matter"), an em-dash chain in the GTM Engineering row ("bac | — | — | docs/map.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |

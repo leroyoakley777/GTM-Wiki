@@ -2,7 +2,7 @@
 class: fundamental
 sidebar_position: 1
 title: Channels
-description: "How to find, evaluate, and execute on your single highest-use acquisition channel: outbound, inbound, product-led, and ABM."
+description: "How to pick and run an acquisition channel: outbound, inbound, product-led, ABM, paid, events, partner, and community-led."
 status: active
 tags: ['channels', 'index']
 ---

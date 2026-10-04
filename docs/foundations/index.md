@@ -2,7 +2,7 @@
 class: fundamental
 sidebar_position: 1
 title: Frameworks
-description: "Foundations: the ideas that stay true in 2015 and in 2035."
+description: "The frameworks behind a go-to-market motion: how revenue architecture, ICP, positioning, pricing, and metrics fit together."
 status: active
 tags: ['foundations', 'index']
 ---

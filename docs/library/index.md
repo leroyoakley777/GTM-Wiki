@@ -2,7 +2,7 @@
 class: fundamental
 sidebar_position: 1
 title: Book Library
-description: "Sales and marketing books distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter."
+description: "Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas."
 status: active
 last_updated: 2026-08-28
 tags: [library, books, sales, marketing]

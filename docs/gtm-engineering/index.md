@@ -2,8 +2,9 @@
 class: agentic
 sidebar_position: 1
 title: GTM Engineering
-description: "The engineering backbone of a modern GTM OS - data layer, model orchestration, skill and tool development, CI/CD, observability, and experimentation."
+description: "The engineering layer of a GTM system: the data layer, model orchestration, skills and tools, CI/CD, observability, and experimentation."
 status: active
+last_updated: 2026-10-04
 tags: [gtm-engineering]
 ---
 
@@ -24,6 +25,16 @@ GTM Engineering is the disciplined practice of building, testing, and operating 
 
 Pick a sub‑discipline below to dive deeper. Each page includes a worked example, real artifacts, and an objection/layer.
 
+The build order this section assumes:
+
+```
+1. Data layer     -> one source of truth for accounts, signals, outcomes
+2. Orchestration  -> models that propose, humans that send
+3. Skills & tools -> versioned procedures, tested before use
+4. CI/CD          -> lint, source gate, and depth check on every change
+5. Observability  -> funnel health, domain health, agent error
+```
+
 ## Related Pages
 
 - [GTM OS Architecture](../agentic/00-gtm-os-architecture.md) – the 4‑layer model that GTM Engineering implements.
@@ -33,3 +44,7 @@ Pick a sub‑discipline below to dive deeper. Each page includes a worked exampl
 - [Quality Gate](../agentic/quality-gate.md) – the four questions and build‑order check that keep engineering honest.
 - [Build Order](../agentic/build-order.md) – the five‑phase sequence for constructing a GTM OS.
 - [Controls](../agentic/controls.md) – top failure modes and how engineering prevents them.
+
+## Sources
+
+- [1] The sub-disciplines above: internal operating note, reviewed 2026-10-04.

@@ -69,8 +69,12 @@
   "updates": [
     {
       "date": "2026-10-03",
-      "text": "Sales process meddpicc · IB-009.",
+      "text": "Pricing, sales process meddpicc · IB-027, IB-009.",
       "items": [
+        {
+          "label": "pricing",
+          "href": "/docs/foundations/pricing"
+        },
         {
           "label": "sales process meddpicc",
           "href": "/docs/flows/sales-process-meddpicc"
