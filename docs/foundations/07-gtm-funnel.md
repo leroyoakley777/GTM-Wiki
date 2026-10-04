@@ -3,7 +3,7 @@ class: fundamental
 title: GTM Funnel
 sidebar_position: 7
 status: active
-last_updated: 2026-09-22
+last_updated: 2026-10-04
 description: The GTM funnel maps the buyer journey from awareness to expansion with measurable stages and conversion benchmarks.
 tags: [funnel, metrics, buyer-journey, conversion]
 ---
@@ -50,6 +50,63 @@ SQLs carry confirmed budget, authority, need, and timeline (BANT)
 or MEDDPICC criteria. PQLs hit usage thresholds that signal buying
 intent. Clear definitions prevent MQL inflation, where marketing
 celebrates volume while sales rejects quality <sup><a href="#sources">[3]</a></sup>.
+
+## Funnel shape and leak points
+
+The funnel narrows at every stage. Each narrowing point is a leak. A leak
+is the share of prospects who enter a stage and never reach the next one.
+
+The diagram below shows the seven stages as stacked bars. Bar width tracks
+the share of prospects still in the funnel. Each arrow marks one leak and
+names the failure that drains it.
+
+<svg role="img" aria-label="GTM funnel with seven stages drawn as narrowing bars; each stage shows its conversion range and the leak that drains it." viewBox="0 0 780 500" style={{maxWidth: '760px', width: '100%', height: 'auto', display: 'block', margin: '1.25rem 0'}}>
+  <text x="648" y="20" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">where it leaks</text>
+  <rect x="40" y="30" width="560" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="54" y="52" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Awareness</text>
+  <text x="586" y="52" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">2-4% to MQL</text>
+  <line x1="604" y1="47" x2="628" y2="47" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,43 638,47 628,51" fill="#0053fd" />
+  <text x="648" y="51" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">untargeted traffic</text>
+  <rect x="80" y="96" width="480" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="94" y="118" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Consideration</text>
+  <text x="546" y="118" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">30-40% to SAL</text>
+  <line x1="564" y1="113" x2="628" y2="113" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,109 638,113 628,117" fill="#0053fd" />
+  <text x="648" y="117" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">slow routing</text>
+  <rect x="120" y="162" width="400" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="134" y="184" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Decision</text>
+  <text x="506" y="184" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">20-25% to close</text>
+  <line x1="524" y1="179" x2="628" y2="179" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,175 638,179 628,183" fill="#0053fd" />
+  <text x="648" y="183" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">no loss reasons</text>
+  <rect x="160" y="228" width="320" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="174" y="250" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Onboarding</text>
+  <text x="466" y="250" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">70-80% activated</text>
+  <line x1="484" y1="245" x2="628" y2="245" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,241 638,245 628,249" fill="#0053fd" />
+  <text x="648" y="249" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">slow time-to-value</text>
+  <rect x="195" y="294" width="250" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="209" y="316" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Adoption</text>
+  <text x="431" y="316" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">20-30% expanded</text>
+  <line x1="449" y1="311" x2="628" y2="311" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,307 638,311 628,315" fill="#0053fd" />
+  <text x="648" y="315" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">unread usage</text>
+  <rect x="230" y="360" width="180" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="244" y="382" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Expansion</text>
+  <text x="396" y="382" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">10-15% advocate</text>
+  <line x1="414" y1="377" x2="628" y2="377" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="628,373 638,377 628,381" fill="#0053fd" />
+  <text x="648" y="381" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">no referral ask</text>
+  <rect x="260" y="426" width="120" height="34" rx="3" fill="#0053fd" fillOpacity="0.07" stroke="currentColor" strokeOpacity="0.25" />
+  <text x="274" y="448" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Advocacy</text>
+  <text x="366" y="448" textAnchor="end" fill="currentColor" fillOpacity="0.55" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11">referral loop</text>
+  <circle cx="270" cy="483" r="4" fill="#0053fd" />
+  <text x="290" y="488" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="14">Loop: referrals feed the next list</text>
+</svg>
+
+Fix the largest leak first. At most companies the biggest drop sits at the
+top, where untargeted traffic never converts to a qualified lead.
 
 ## Why It Matters
 

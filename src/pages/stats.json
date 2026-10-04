@@ -65,8 +65,12 @@
   "updates": [
     {
       "date": "2026-10-04",
-      "text": "Icp definition, positioning and messaging, win loss · IB-028.",
+      "text": "Outbound, icp definition, positioning and messaging, win loss · IB-021, IB-028.",
       "items": [
+        {
+          "label": "outbound",
+          "href": "/docs/flows/outbound"
+        },
         {
           "label": "icp definition",
           "href": "/docs/foundations/icp-definition"
