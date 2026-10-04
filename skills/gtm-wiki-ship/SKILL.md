@@ -145,7 +145,11 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
 - Missing `$HOME/.hermes/plans/gtm-wiki/OPERATING_CONTEXT.md` blocks the
   pre-commit hook. Create the file. Do not `--no-verify`.
 - Docusaurus strips `NN-` from filenames. Link `./outbound`, not
-  `./01-outbound.md`.
+  `./01-outbound.md`. This bites relative sibling links too: `./02-icp-definition`
+  passes `lint.mjs` (the file exists on disk) but fails `npm run build` with
+  `Broken link ... resolved as /docs/foundations/02-icp-definition`. Drop the
+  prefix from EVERY link: `./icp-definition`, `/docs/foundations/icp-definition`.
+  Page-level lint does not catch it; only the build does.
 - Bare `<` before a digit is an MDX tag and fails the build. Rephrase.
 - Frontmatter key is `last_updated` with an underscore.
 - Registry sources need no code edit: `validate-sources.mjs` parses the
