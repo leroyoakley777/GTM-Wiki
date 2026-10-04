@@ -3,7 +3,7 @@ class: fundamental
 sidebar_position: 1
 title: Outbound - the Runnable Flow
 description: The executable outbound motion as a sequence, with the artifact at every step, throughput math on named bases, a worked run, objections, and the agentic SOP.
-last_updated: 2026-09-21
+last_updated: 2026-10-04
 status: active
 tags: [outbound, flow, cold-email, sdr, sequence, throughput, agentic]
 domain: flows
@@ -361,21 +361,53 @@ scale meetings nobody qualifies.
 
 Here is the flow as the branches an operator hits, in one diagram.
 
-```
-Is outbound the right motion? -- no --> Bullseye (pick another channel)
-  | yes
-Build the list -- row missing reason-to-reach? -- yes --> drop the row
-  | no
-Pick channel + tooling -- domain warmed, capped, SPF/DKIM/DMARC passing? -- no --> fix before any send
-  | yes
-Write the sequence -- variant human-approved, under 90 words? -- no --> approve before send
-  | yes
-Run on perfect-fit tier -- 300+ sends per variant, delivery above 97%? -- no --> keep manual, do not scale
-  | yes
-Scale + handoff -- meeting traced to campaign? -- no --> fix source tracking
-  | yes
-Loop: feed wins back into the list
-```
+<svg role="img" aria-label="Outbound decision tree: six gates run in sequence down the spine. A failed gate sends you sideways to a fix before you continue." viewBox="0 0 780 452" style={{maxWidth: '760px', width: '100%', height: 'auto', display: 'block', margin: '1.25rem 0'}}>
+  <line x1="22" y1="16" x2="22" y2="416" stroke="#0053fd" strokeWidth="2" />
+  <line x1="22" y1="48" x2="44" y2="48" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="52" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">01</text>
+  <text x="96" y="53" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">Is outbound the right motion?</text>
+  <text x="446" y="52" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="48" x2="522" y2="48" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,44 532,48 522,52" fill="#0053fd" />
+  <text x="542" y="52" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">Bullseye: another channel</text>
+  <line x1="22" y1="108" x2="44" y2="108" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="112" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">02</text>
+  <text x="96" y="113" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">Every row has a reason-to-reach?</text>
+  <text x="446" y="112" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="108" x2="522" y2="108" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,104 532,108 522,112" fill="#0053fd" />
+  <text x="542" y="112" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">drop the row</text>
+  <line x1="22" y1="168" x2="44" y2="168" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="172" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">03</text>
+  <text x="96" y="173" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">SPF, DKIM, DMARC pass on a warmed domain?</text>
+  <text x="446" y="172" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="168" x2="522" y2="168" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,164 532,168 522,172" fill="#0053fd" />
+  <text x="542" y="172" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">fix before any send</text>
+  <line x1="22" y1="228" x2="44" y2="228" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="232" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">04</text>
+  <text x="96" y="233" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">Sequence under 90 words, one ask?</text>
+  <text x="446" y="232" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="228" x2="522" y2="228" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,224 532,228 522,232" fill="#0053fd" />
+  <text x="542" y="232" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">approve before send</text>
+  <line x1="22" y1="288" x2="44" y2="288" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="292" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">05</text>
+  <text x="96" y="293" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">300+ sends per variant, delivery 97%+?</text>
+  <text x="446" y="292" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="288" x2="522" y2="288" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,284 532,288 522,292" fill="#0053fd" />
+  <text x="542" y="292" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">keep manual, do not scale</text>
+  <line x1="22" y1="348" x2="44" y2="348" stroke="#0053fd" strokeWidth="2" />
+  <text x="54" y="352" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12.5">06</text>
+  <text x="96" y="353" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">Every meeting traced to a campaign?</text>
+  <text x="446" y="352" fill="currentColor" fillOpacity="0.45" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10">no</text>
+  <line x1="466" y1="348" x2="522" y2="348" stroke="currentColor" strokeOpacity="0.3" strokeDasharray="2 3" />
+  <polygon points="522,344 532,348 522,352" fill="#0053fd" />
+  <text x="542" y="352" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="11.5">fix source tracking</text>
+  <circle cx="33" cy="408" r="4" fill="#0053fd" />
+  <text x="96" y="413" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="15">Loop: feed the wins back into the list</text>
+</svg>
 
 Every branch that routes sideways is a gate failing. The flow does not
 continue until the gate passes. The list gate removes spray, the approval

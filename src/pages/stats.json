@@ -64,6 +64,24 @@
   "generatedAt": "2026-10-04",
   "updates": [
     {
+      "date": "2026-10-04",
+      "text": "Icp definition, positioning and messaging, win loss · IB-028.",
+      "items": [
+        {
+          "label": "icp definition",
+          "href": "/docs/foundations/icp-definition"
+        },
+        {
+          "label": "positioning and messaging",
+          "href": "/docs/foundations/positioning-and-messaging"
+        },
+        {
+          "label": "win loss",
+          "href": "/docs/foundations/win-loss"
+        }
+      ]
+    },
+    {
       "date": "2026-10-03",
       "text": "Saas buyer empathy, pricing, sales process meddpicc · IB-027, IB-009.",
       "items": [
@@ -93,16 +111,6 @@
         {
           "label": "gtm os architecture",
           "href": "/docs/agentic/gtm-os-architecture"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-30",
-      "text": "Gtm tools overview · IB-007.",
-      "items": [
-        {
-          "label": "gtm tools overview",
-          "href": "/docs/tools/gtm-tools-overview"
         }
       ]
     }
