@@ -13,7 +13,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 
 | # | Section | Pages | What it covers |
 |---|---------|-------|----------------|
-| 01 | [Frameworks](/docs/foundations) | 11 | Foundations: the ideas that stay true in 2015 and in 2035. |
+| 01 | [Frameworks](/docs/foundations) | 12 | Foundations: the ideas that stay true in 2015 and in 2035. |
 | 02 | [Copywriting](/docs/copywriting) | 3 | Product positioning, messaging, and copywriting frameworks. No pasteable email copy. The words come after the claim. |
 | 03 | [Channels](/docs/channels) | 9 | How to find, evaluate, and execute on your single highest-use acquisition channel: outbound, inbound, product-led, and ABM. |
 | 04 | [Playbooks](/docs/playbooks) | 3 | Playbooks: what to do against a specific situation, start to finish. |
@@ -37,4 +37,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 22 | [Launch](/docs/launch/announcement-checklist) | 2 | The launch section of the wiki. |
 | 23 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**23 sections · 112 pages · generated 2026-10-04**
+**23 sections · 113 pages · generated 2026-10-04**
