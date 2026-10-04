@@ -366,3 +366,7 @@ instead of rewriting email alone [10]. Skipping basic structure to
 chase any meeting creates floundering, while over-engineering
 scoring before saturation creates false precision. Keep one owner
 and hold a weekly disqualification review [13][6].
+
+Test the ICP against the buyers who decided. [Win-Loss and Customer
+Research](./win-loss) turns closed deals into the evidence that
+confirms or corrects the buyer on this page.

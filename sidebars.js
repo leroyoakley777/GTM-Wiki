@@ -22,6 +22,7 @@ const sidebars = {
         'foundations/gtm-strategy-framework',
         'foundations/icp-definition',
         'foundations/positioning-and-messaging',
+        'foundations/win-loss',
         'foundations/gtm-channels-bullseye',
         'foundations/pricing',
         'foundations/brand-as-gtm',

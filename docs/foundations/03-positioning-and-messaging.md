@@ -337,6 +337,8 @@ touches customer-facing copy.
   Positioning determines which channels reach your best-fit buyers.
 - [Outbound Playbook](/docs/playbooks/outbound-from-zero). Messaging
   feeds every outbound touch.
+- [Win-Loss and Customer Research](/docs/foundations/win-loss). Research
+  tests the positioning against the buyers who actually decided.
 - [Agentic GTM Overview](/docs/agentic/agentic-gtm-overview). AI
   agents need positioning context to generate on-brand output.
 

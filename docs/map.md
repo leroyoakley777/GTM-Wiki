@@ -13,7 +13,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 
 | # | Section | Pages | What it covers |
 |---|---------|-------|----------------|
-| 01 | [Frameworks](/docs/foundations) | 12 | The frameworks behind a go-to-market motion: how revenue architecture, ICP, positioning, pricing, and metrics fit together. |
+| 01 | [Frameworks](/docs/foundations) | 13 | The frameworks behind a go-to-market motion: how revenue architecture, ICP, positioning, pricing, and metrics fit together. |
 | 02 | [Copywriting](/docs/copywriting) | 3 | Product positioning, messaging, and copywriting frameworks. No pasteable email copy. The words come after the claim. |
 | 03 | [Channels](/docs/channels) | 9 | How to pick and run an acquisition channel: outbound, inbound, product-led, ABM, paid, events, partner, and community-led. |
 | 04 | [Playbooks](/docs/playbooks) | 3 | Playbooks: what to do against a specific situation, start to finish. |
@@ -36,4 +36,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
 
-**22 sections · 111 pages · generated 2026-10-04**
+**22 sections · 112 pages · generated 2026-10-04**

@@ -1,5 +1,5 @@
 {
-  "pages": "99",
+  "pages": "100",
   "sections": "14",
   "sectionCounts": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "foundations",
-      "pages": 12
+      "pages": 13
     },
     {
       "id": "gtm-engineering",
@@ -61,12 +61,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-03",
+  "generatedAt": "2026-10-04",
   "updates": [
     {
       "date": "2026-10-03",
-      "text": "Pricing, sales process meddpicc · IB-027, IB-009.",
+      "text": "Saas buyer empathy, pricing, sales process meddpicc · IB-027, IB-009.",
       "items": [
+        {
+          "label": "saas buyer empathy",
+          "href": "/docs/agentic/saas-buyer-empathy"
+        },
         {
           "label": "pricing",
           "href": "/docs/foundations/pricing"

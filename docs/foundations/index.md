@@ -27,6 +27,9 @@ place by being something an operator can run on Monday morning.
 - [Positioning and Messaging](./positioning-and-messaging): positioning
   that puts your strengths at the center, then messaging that carries it to
   every buyer touchpoint.
+- [Win-Loss and Customer Research](./win-loss): how to interview the buyers
+  who decided, classify every loss, and reprice the ICP and the positioning
+  from what you hear.
 - [Revenue Architecture](./revenue-architecture): the operating system of
   a recurring-revenue business, from the revenue factory to the growth
   formula.
