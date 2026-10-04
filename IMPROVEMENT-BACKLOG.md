@@ -114,6 +114,11 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-23 | Wiki auditor 2026-09-30: post-commit audit REJECT on tools/00-gtm-tools-overview — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-tools__00-gtm-tools-overview.md  (7 err, 0 warn) | — | — | docs/tools/00-gtm-tools-overview.md |
 | IA-24 | Wiki auditor 2026-10-01: post-commit audit REJECT on agentic/00-gtm-os-architecture — instrument: missing h1,sources,footnote | — | — | docs/agentic/00-gtm-os-architecture.md |
 | IA-25 | Wiki auditor 2026-10-01: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-26 | Wiki auditor 2026-10-02: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-27 | Wiki auditor 2026-10-03: post-commit audit REJECT on flows/03-sales-process-meddpicc — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-flows__03-sales-process-meddpicc.md  (5 err, 0 warn) | — | — | docs/flows/03-sales-process-meddpicc.md |
+| IA-28 | Wiki auditor 2026-10-03: post-commit audit REJECT on map — instrument: missing sources,footnote,fence | — | — | docs/map.md |
+| IA-29 | Wiki auditor 2026-10-03: post-commit audit REJECT on flows/03-sales-process-meddpicc — gate: /tmp/audit-page-gate.log:FAIL  /Users/leroyoakley/gtm-wiki/docs/_probe-flows__03-sales-process-meddpicc.md  (5 err, 0 warn) | — | — | docs/flows/03-sales-process-meddpicc.md |
+| IA-30 | Wiki auditor 2026-10-03: post-commit audit REJECT on map — voice: Row 23's "the best sales and marketing books" is an unbacked superlative the no-vague-superlatives rule bans, and row 10's "GTM OS-data layer" is a mangled compound, not dead-prose STE. | — | — | docs/map.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |

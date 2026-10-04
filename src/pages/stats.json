@@ -68,6 +68,16 @@
   "generatedAt": "2026-10-03",
   "updates": [
     {
+      "date": "2026-10-03",
+      "text": "Sales process meddpicc · IB-009.",
+      "items": [
+        {
+          "label": "sales process meddpicc",
+          "href": "/docs/flows/sales-process-meddpicc"
+        }
+      ]
+    },
+    {
       "date": "2026-10-02",
       "text": "IB-021.",
       "items": []
@@ -89,16 +99,6 @@
         {
           "label": "gtm tools overview",
           "href": "/docs/tools/gtm-tools-overview"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-29",
-      "text": "Outbound from zero · IB-007.",
-      "items": [
-        {
-          "label": "outbound from zero",
-          "href": "/docs/playbooks/outbound-from-zero"
         }
       ]
     }

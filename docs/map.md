@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-10-03
+last_updated: 2026-10-04
 ---
 
 # Map
@@ -22,7 +22,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 07 | [Skills](/docs/skills) | 9 | Executable GTM skills: the trigger-driven playbooks that turn strategy into the work an operator or an agent runs on Monday morning. |
 | 08 | [Tools](/docs/tools) | 1 | The GTM tools market and how tools map to motion. |
 | 09 | [Data](/docs/data) | 7 | Benchmark data and GTM metrics behind decisions, each number named and dated. |
-| 10 | [GTM Engineering](/docs/gtm-engineering) | 6 | The engineering backbone of a modern GTM OS-data layer, model orchestration, skill/tool dev, CI/CD, observability, and experimentation. |
+| 10 | [GTM Engineering](/docs/gtm-engineering) | 6 | The engineering backbone of a modern GTM OS - data layer, model orchestration, skill and tool development, CI/CD, observability, and experimentation. |
 | 11 | [Flows](/docs/flows) | 5 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
 | 12 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
 | 13 | [Process](/docs/process/intake-capture) | 1 | The process section of the wiki. |
@@ -35,6 +35,6 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 20 | [Support](/docs/support) | 1 | How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline. |
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Launch](/docs/launch/announcement-checklist) | 2 | The launch section of the wiki. |
-| 23 | [Book Library](/docs/library) | 2 | The best sales and marketing books, distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
+| 23 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled into the ideas this wiki is built on: one page per discipline, each book with the handful of ideas that still matter. |
 
-**23 sections · 112 pages · generated 2026-10-03**
+**23 sections · 112 pages · generated 2026-10-04**
