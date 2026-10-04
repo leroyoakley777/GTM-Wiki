@@ -168,6 +168,14 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
 - Do not copy scanner token lists into prose. The scanners will fail the
   page that lists the tokens.
 - Do not add the same rule to two scanner files.
+- The throughput watchdog (`~/.hermes/scripts/wiki-throughput-watch.py`) globs
+  only TOP-LEVEL `*.json` in `releases/`, so a receipt written at the nested
+  `<slug-path>.json` path never counts. Write the receipt at both the nested
+  path (this skill's convention) and a top-level alias with `/` replaced by
+  `-` (for example `foundations-08-pricing.json`). Confirm the count rises with
+  `python3 ~/.hermes/scripts/wiki-throughput-watch.py`.
+- The live origin is `https://gtm-wiki-nu.vercel.app` (matches the watchdog
+  `ORIGIN`). `gtmwiki.dev` does not resolve and a receipt that cites it fails.
 - `docs/map.md` and `src/pages/stats.json` are generator outputs — the
   generators (`scripts/generate-map-data.js`, `scripts/generate-stats.js`)
   rewrite them at the start of `npm run build`. Never hand-edit them: change
