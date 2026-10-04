@@ -1,6 +1,6 @@
 {
-  "pages": "101",
-  "sections": "15",
+  "pages": "99",
+  "sections": "14",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -40,7 +40,7 @@
     },
     {
       "id": "launch",
-      "pages": 2
+      "pages": 1
     },
     {
       "id": "library",
@@ -49,10 +49,6 @@
     {
       "id": "playbooks",
       "pages": 3
-    },
-    {
-      "id": "process",
-      "pages": 1
     },
     {
       "id": "skills",

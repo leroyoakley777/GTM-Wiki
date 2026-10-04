@@ -18,7 +18,7 @@ const OUT = path.resolve(__dirname, '..', 'docs', 'map.md');
 // Intended reading order (matches the sidebar / homepage grid).
 const ORDER = [
   'foundations', 'copywriting', 'channels', 'playbooks', 'agentic', 'roles', 'skills',
-  'tools', 'data', 'gtm-engineering', 'flows', 'case-studies', 'process',
+  'tools', 'data', 'gtm-engineering', 'flows', 'case-studies', 'launch',
   'culture', 'enablement', 'product-marketing', 'recruiting', 'glossary',
   'resources', 'support',
 ];

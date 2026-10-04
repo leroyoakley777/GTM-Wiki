@@ -125,6 +125,13 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-34 | Wiki auditor 2026-10-03: post-commit audit REJECT on library/index — design: The page opens with the banned negation-contrast slop device ("The goal is not a reading list. The goal is the usable core..." and "Pick the discipline, not the shelf") plus an "Example Artifact" head | — | — | docs/library/index.md |
 | IA-35 | Wiki auditor 2026-10-03: post-commit audit REJECT on gtm-engineering/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/gtm-engineering/index.md |
 | IA-36 | Wiki auditor 2026-10-03: post-commit audit REJECT on map — voice: multiple voice failures: vague superlatives ("single highest-use", "ideas that stay true in 2015 and 2035", "the handful of ideas that still matter"), an em-dash chain in the GTM Engineering row ("bac | — | — | docs/map.md |
+| IA-37 | Wiki auditor 2026-10-03: post-commit audit REJECT on channels/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/channels/index.md |
+| IA-38 | Wiki auditor 2026-10-03: post-commit audit REJECT on foundations/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/foundations/index.md |
+| IA-39 | Wiki auditor 2026-10-03: post-commit audit REJECT on gtm-engineering/index — voice: voice has slop: vague superlative claims ("disciplined practice", "unified source of truth", "continuously improved"), colloquialisms ("dive deeper"), and informal phrasing ("tell you whether the moti | — | — | docs/gtm-engineering/index.md |
+| IA-40 | Wiki auditor 2026-10-03: post-commit audit REJECT on launch/index — design: **DESIGN_APPROVE** | — | — | docs/launch/index.md |
+| IA-41 | Wiki auditor 2026-10-03: post-commit audit REJECT on library/index — design: The design is a content structure for a wiki reference page. Checked against DESIGN.md: | — | — | docs/library/index.md |
+| IA-42 | Wiki auditor 2026-10-03: post-commit audit REJECT on map — design: Missing Nous signature entirely — no OUTPUT/SEED metadata, no dashed dividers, no corner brackets, no uppercase-underlined serif heading; page reads as bare Docusaurus markdown, not a deliberate acade | — | — | docs/map.md |
+| IA-43 | Wiki auditor 2026-10-03: post-commit audit REJECT on process/index — voice: — passive voice repeats three times in the description frontmatter and again in the link text ("every dump is captured, classified, and turned into"), and "home" is undefined jargon with no explanatio | — | — | docs/process/index.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |

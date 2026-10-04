@@ -2,7 +2,7 @@
 class: fundamental
 sidebar_position: 1
 title: Launch
-description: "The wiki launch record: the announcement checklist and the post that carries it."
+description: "The launch post: what this wiki is, how agents build it, and why it stays public."
 status: active
 last_updated: 2026-10-04
 tags: [launch]
@@ -10,21 +10,19 @@ tags: [launch]
 
 # Launch
 
-Launch holds the announcement record for this wiki. It carries the checklist that gates the announcement and the post that ships it. The section stays public so the launch process is inspectable.
+This section holds the announcement for the wiki. It records what shipped, how the build works, and why the result stays open.
 
 ## Pages
 
-- [Announcement checklist: wiki launch](/docs/launch/announcement-checklist): the two-column plan for announcing the wiki and the job.
-- [Launch: the GTM Wiki is live](/docs/launch/launch-post): the announcement post: what this is, how agents build it, and why it is public.
+- [Launch: the GTM Wiki is live](/docs/launch/launch-post): the announcement, the two content layers, and the build pipeline behind them.
 
-The gate the launch clears:
+The gate a page clears before it appears here:
 
 ```
 1. Ship gate green   -> npm run ship:gate exits 0
-2. Live URL verified -> page serves 200 from Vercel
-3. Announcement sent -> the post carries both the wiki and the job
+2. Live URL verified -> the page serves 200 from Vercel
+3. Sources resolve   -> every citation matches the source registry
 ```
-
 
 ## Sources
 

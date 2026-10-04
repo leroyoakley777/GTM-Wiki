@@ -33,7 +33,7 @@ A role-play simulator. The seller logs in as a buyer at a fictional company and 
 ## Related pages
 - [Agentic GTM](../agentic/index.md) – the broader motion‑as‑code operating system.
 - [Examiner Deep Dive](./examiner.md) – how changes are validated against recorded outcomes.
-- [Idea Capture](../process/intake-capture.md) – how every dump is filed and made discoverable.
+- [Signals Over Lists](./09-signals-over-lists.md) – how buying intent becomes a routed signal.
 
 ---
 

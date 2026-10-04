@@ -25,7 +25,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 10 | [GTM Engineering](/docs/gtm-engineering) | 6 | The engineering layer of a GTM system: the data layer, model orchestration, skills and tools, CI/CD, observability, and experimentation. |
 | 11 | [Flows](/docs/flows) | 5 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
 | 12 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
-| 13 | [Process](/docs/process) | 1 | How intake works: every dump is captured, classified, and turned into a task with a home. |
+| 13 | [Launch](/docs/launch) | 1 | The launch post: what this wiki is, how agents build it, and why it stays public. |
 | 14 | [Culture](/docs/culture) | 1 | How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind. |
 | 15 | [Enablement](/docs/enablement) | 1 | Sales enablement as an operating system: the artifacts reps actually use, the inspection loop that keeps them current, and the failure modes that turn enablement into a content graveyard. |
 | 16 | [Product Marketing](/docs/product-marketing) | 1 | Product marketing as the bridge between product and pipeline: positioning, proof, launch, and the enablement artifacts outbound and sales actually use. |
@@ -34,7 +34,6 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 19 | [Resources](/docs/resources) | 1 | Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page. |
 | 20 | [Support](/docs/support) | 1 | How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline. |
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
-| 22 | [Launch](/docs/launch) | 2 | The wiki launch record: the announcement checklist and the post that carries it. |
-| 23 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
+| 22 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
 
-**23 sections · 113 pages · generated 2026-10-04**
+**22 sections · 111 pages · generated 2026-10-04**

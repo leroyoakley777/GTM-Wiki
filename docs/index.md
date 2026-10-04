@@ -48,7 +48,6 @@ of any page.
 | [GTM Engineering](/docs/gtm-engineering) | The data, orchestration, and CI backbone of a modern GTM OS. |
 | [Flows](/docs/flows) | Runnable sequences and decision trees. |
 | [Case Studies](/docs/case-studies) | Documented outcomes grouped by channel, next to typical benchmarks. |
-| [Process](/docs/process/intake-capture) | Intake and capture habits that keep the system fed. |
 | [Culture](/docs/culture) | How inspection habits and number honesty shape pipeline quality. |
 | [Enablement](/docs/enablement) | The artifacts reps use and the loop that keeps them current. |
 | [Product Marketing](/docs/product-marketing) | Positioning, proof, and launch artifacts that sales uses. |
