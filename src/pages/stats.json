@@ -64,6 +64,16 @@
   "generatedAt": "2026-10-05",
   "updates": [
     {
+      "date": "2026-10-05",
+      "text": "Agentic gtm overview · IB-021.",
+      "items": [
+        {
+          "label": "agentic gtm overview",
+          "href": "/docs/agentic/agentic-gtm-overview"
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "text": "Gtm funnel, outbound, icp definition, positioning and messaging +1 more · IB-021, IB-028.",
       "items": [
@@ -111,16 +121,6 @@
       "date": "2026-10-02",
       "text": "IB-021.",
       "items": []
-    },
-    {
-      "date": "2026-10-01",
-      "text": "Gtm os architecture · IB-021.",
-      "items": [
-        {
-          "label": "gtm os architecture",
-          "href": "/docs/agentic/gtm-os-architecture"
-        }
-      ]
     }
   ]
 }
