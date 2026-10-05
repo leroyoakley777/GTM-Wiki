@@ -83,7 +83,7 @@ Grow each agentic stub (docs/agentic/01-10, seeded 2026-09-21) into a full page.
 | ID | Issue | Effort | Impact | Touches |
 |----|-------|--------|--------|---------|
 | IA-01 | Grow the forge stub: grader checklist format, model-pairing setup, grade log, one worked draft-to-graded example | Medium | High | docs/agentic/01-the-forge-agents-that-grade-each-other.md |
-| IA-02 | Grow the probabilistic-pipelines stub: distribution thinking, sample-size rules, miss-rate reporting, worked outbound example | Medium | High | docs/agentic/02-probabilistic-pipelines.md |
+| IA-02 | DONE 2026-10-05 (0505f38a): docs/agentic/02-probabilistic-pipelines.md grown to a full page (distribution thinking, sample-size table, miss-rate reporting, claims-trace rule, worked outbound run, failure modes, maturity variants, SOP); live-verified, receipt agentic-02-probabilistic-pipelines. Original: Grow the probabilistic-pipelines stub: distribution thinking, sample-size rules, miss-rate reporting, worked outbound example | Medium | High | docs/agentic/02-probabilistic-pipelines.md |
 | IA-03 | Grow the agent-built-outbound stub: source-to-send diagram, per-stage tooling, claims-trace rule for drafts | Medium | High | docs/agentic/03-agent-built-outbound-anatomy.md |
 | IA-04 | Grow the human-merge-gates stub: queue-sizing math, gate-rot detection, merge decision log | Medium | High | docs/agentic/04-human-merge-gates.md |
 | IA-05 | Grow the cron-driven-content-ops stub: job inventory, run-report contract, digest merge rules, kill criteria | Medium | High | docs/agentic/05-cron-driven-content-ops.md |
