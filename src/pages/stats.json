@@ -65,8 +65,12 @@
   "updates": [
     {
       "date": "2026-10-05",
-      "text": "Agentic gtm overview · IB-021.",
+      "text": "The forge agents that grade each other, agentic gtm overview · IB-021.",
       "items": [
+        {
+          "label": "the forge agents that grade each other",
+          "href": "/docs/agentic/the-forge-agents-that-grade-each-other"
+        },
         {
           "label": "agentic gtm overview",
           "href": "/docs/agentic/agentic-gtm-overview"
