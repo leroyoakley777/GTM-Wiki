@@ -3,7 +3,7 @@ class: agentic
 sidebar_position: 0
 title: What Is Agentic GTM?
 description: "What agentic GTM is, when it applies, and where it replaces manual motion."
-last_updated: 2026-09-04
+last_updated: 2026-10-05
 status: active
 tags: [agentic, foundations, operating-model]
 ---
@@ -113,6 +113,39 @@ a pillar and the numbers collapse.
 
 An agentic GTM operating model rests on four interdependent
 pillars. Miss any one and the model breaks down <sup><a href="#sources">[4]</a></sup>.
+
+<svg role="img" aria-label="Agentic GTM four pillars drawn as four equal bars on one base line: structured data foundation, documented process logic, orchestrated connectivity, and human governance framework. Remove one bar and the base no longer holds." viewBox="0 0 780 300" style={{maxWidth: '760px', width: '100%', height: 'auto', display: 'block', margin: '1.25rem 0'}}>
+  <rect x="59" y="70" width="158" height="180" fill="#0053fd" fillOpacity="0.05" stroke="currentColor" strokeOpacity="0.18" />
+  <line x1="59" y1="70" x2="217" y2="70" stroke="#0053fd" strokeWidth="2" />
+  <text x="73" y="96" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">01</text>
+  <text x="73" y="128" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">Structured data</text>
+  <text x="73" y="148" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">foundation</text>
+  <text x="73" y="198" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">populated core</text>
+  <text x="73" y="214" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">fields, one meaning</text>
+  <rect x="227" y="70" width="158" height="180" fill="#0053fd" fillOpacity="0.05" stroke="currentColor" strokeOpacity="0.18" />
+  <line x1="227" y1="70" x2="385" y2="70" stroke="#0053fd" strokeWidth="2" />
+  <text x="241" y="96" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">02</text>
+  <text x="241" y="128" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">Documented</text>
+  <text x="241" y="148" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">process logic</text>
+  <text x="241" y="198" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">written so a new</text>
+  <text x="241" y="214" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">hire can run it</text>
+  <rect x="395" y="70" width="158" height="180" fill="#0053fd" fillOpacity="0.05" stroke="currentColor" strokeOpacity="0.18" />
+  <line x1="395" y1="70" x2="553" y2="70" stroke="#0053fd" strokeWidth="2" />
+  <text x="409" y="96" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">03</text>
+  <text x="409" y="128" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">Orchestrated</text>
+  <text x="409" y="148" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">connectivity</text>
+  <text x="409" y="198" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">agents read and</text>
+  <text x="409" y="214" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">write the systems</text>
+  <rect x="563" y="70" width="158" height="180" fill="#0053fd" fillOpacity="0.05" stroke="currentColor" strokeOpacity="0.18" />
+  <line x1="563" y1="70" x2="721" y2="70" stroke="#0053fd" strokeWidth="2" />
+  <text x="577" y="96" fill="#0053fd" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="12">04</text>
+  <text x="577" y="128" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">Human governance</text>
+  <text x="577" y="148" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="16">framework</text>
+  <text x="577" y="198" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">escalation, audit,</text>
+  <text x="577" y="214" fill="currentColor" fillOpacity="0.6" fontFamily="JetBrains Mono, ui-monospace, Menlo, monospace" fontSize="10.5">feedback loops</text>
+  <line x1="40" y1="250" x2="740" y2="250" stroke="currentColor" strokeOpacity="0.3" />
+  <text x="59" y="276" fill="currentColor" fontFamily="Georgia, Times New Roman, serif" fontSize="13">All four stand together. Remove one and the base no longer holds.</text>
+</svg>
 
 ### Pillar 1: Structured data foundation
 
