@@ -136,6 +136,7 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-50 | Wiki auditor 2026-10-04: post-commit audit REJECT on flows/01-outbound — design: Now I have both documents. Let me judge the text against DESIGN.md's bars and the rejects registry. | — | — | docs/flows/01-outbound.md |
 | IA-51 | Wiki auditor 2026-10-04: post-commit audit REJECT on foundations/02-icp-definition — design: No logged rejection in design-rejects.md matches this content. The sources describe ICP research methodology (past-behavior questions, commitment signals, beachhead logic, 80/20 conversation rule) — n | — | — | docs/foundations/02-icp-definition.md |
 | IA-52 | Wiki auditor 2026-10-04: post-commit audit REJECT on foundations/index — instrument: missing last_updated,sources,footnote,fence | — | — | docs/foundations/index.md |
+| IA-53 | Wiki auditor 2026-10-05: post-commit audit REJECT on agentic/02-probabilistic-pipelines — design: Now I have everything. Let me judge docs/flows/01-outbound.md against DESIGN.md's bars and the rejects registry. | — | — | docs/agentic/02-probabilistic-pipelines.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |

@@ -5,7 +5,7 @@ title: "Roles: VPs of Sales"
 description: "What a VP of Sales owns: the number, the forecast, the team design, and the inspection system that keeps outbound and closing honest."
 status: active
 tags: [roles, vp-sales, quota, forecast, outbound]
-last_updated: 2026-09-08
+last_updated: 2026-10-06
 ---
 
 # VPs of Sales
@@ -37,6 +37,23 @@ Quota attainment across B2B sat at 27-30% in 2024 <sup><a href="#sources">[15]</
 | Quarterly | Territory and quota | Who owns which accounts and why |
 
 Comp is the operating system for GTM, not an HR derivative <sup><a href="#sources">[337]</a></sup>. If the plan pays on meetings booked with no quality gate, you will get meetings nobody should have taken.
+
+## Inspection checklist
+
+Run this checklist weekly. It is the VP's early-warning system.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Pipeline coverage | Open pipeline against quota, by segment | Below 3x mid-market or 4x enterprise |
+| Win rate | Deals closed against opportunities worked | Below 20% all-in or 29% qualified |
+| Quota attainment | Reps hitting their number | Under 40% of team at quota |
+| Forecast accuracy | Committed vs. closed-won | Below 50% average |
+| Stage hygiene | Deals stuck in one stage too long | Any deal in one stage for 30+ days |
+| Activity quality | Discovery calls run, not just held | Demos booked with no discovery first |
+| Committee mapping | Economic buyer identified on every deal | Deals with no economic buyer named |
+| Paper process | Procurement started before business case final | Legal review started after the yes |
+
+The checklist drives conversations, not dashboards. Every red flag gets a root-cause discussion in the weekly pipeline review.
 
 ## How the seat differs by stage
 
