@@ -167,6 +167,7 @@ const sidebars = {
         'flows/buyers-journey',
         'contributing',
         'culture/index',
+        'culture/inspection-and-deal-review',
         'enablement/index',
         'product-marketing/index',
         'recruiting/index',

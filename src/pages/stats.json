@@ -1,6 +1,6 @@
 {
-  "pages": "100",
-  "sections": "14",
+  "pages": "101",
+  "sections": "15",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -21,6 +21,10 @@
     {
       "id": "copywriting",
       "pages": 3
+    },
+    {
+      "id": "culture",
+      "pages": 1
     },
     {
       "id": "data",
@@ -61,8 +65,13 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-06",
+  "generatedAt": "2026-10-07",
   "updates": [
+    {
+      "date": "2026-10-06",
+      "text": "Docs update · IB-029.",
+      "items": []
+    },
     {
       "date": "2026-10-05",
       "text": "Probabilistic pipelines, the forge agents that grade each other, agentic gtm overview · IB-021.",
@@ -124,11 +133,6 @@
           "href": "/docs/flows/sales-process-meddpicc"
         }
       ]
-    },
-    {
-      "date": "2026-10-02",
-      "text": "IB-021.",
-      "items": []
     }
   ]
 }
