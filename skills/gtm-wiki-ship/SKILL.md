@@ -129,11 +129,17 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
      the receipt's `candidate_hash`; e.g. `case-studies/product-led.md`).
    - `<slug-path>.json` — `{"page": "<slug-path>", "candidate_hash": "<sha256>",
      "live_fragments": ["<2+ exact strings, 20+ chars, from the LIVE page>"],
-     "verified_at": "<ISO 8601>", "origin": "https://gtmwiki.dev"}`.
-     gtmwiki.com is a third-party domain (registered 2009, DreamHost). Never
-     use it as an origin, never attach it to the project, never cite it.
-   - Strip the `NN-` prefix from the path. Take fragments from the live URL
-     after deploy, never from the draft.
+     "verified_at": "<ISO 8601>", "origin": "https://gtm-wiki-nu.vercel.app"}`.
+     The origin must match the watchdog `ORIGIN` exactly. `gtmwiki.dev` does
+     not resolve; gtmwiki.com is a third-party domain (registered 2009,
+     DreamHost). Never use either as an origin, never attach them to the
+     project, never cite them.
+   - Strip the `NN-` prefix from BOTH the `.md` copy and the `.json` page
+     field. The candidate file name must equal `<page>.md` (the watchdog
+     reads `releases/<page>.md` to hash it), so a copy left at
+     `01-inspection-and-deal-review.md` fails `candidate-file-missing` even
+     when the JSON looks right. Take fragments from the live URL after
+     deploy, never from the draft.
 
 8. **Loop.** Mark the backlog item done only after the push lands. Start
    the next open item. One page per cycle.
@@ -180,6 +186,11 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
   `python3 ~/.hermes/scripts/wiki-throughput-watch.py`.
 - The live origin is `https://gtm-wiki-nu.vercel.app` (matches the watchdog
   `ORIGIN`). `gtmwiki.dev` does not resolve and a receipt that cites it fails.
+- The watchdog binds the receipt to `releases/<page>.md`, so the candidate
+  copy must carry the stripped slug name, not the repo's `NN-` filename. A
+  receipt with the right JSON but a copy at `NN-<slug>.md` reports
+  `candidate-file-missing` and never counts. Verify one receipt with the
+  watchdog's own `verify_receipt()` before trusting the count.
 - `docs/map.md` and `src/pages/stats.json` are generator outputs — the
   generators (`scripts/generate-map-data.js`, `scripts/generate-stats.js`)
   rewrite them at the start of `npm run build`. Never hand-edit them: change
