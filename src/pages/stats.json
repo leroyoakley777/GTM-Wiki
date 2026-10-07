@@ -1,5 +1,5 @@
 {
-  "pages": "101",
+  "pages": "102",
   "sections": "15",
   "sectionCounts": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "id": "culture",
-      "pages": 1
+      "pages": 2
     },
     {
       "id": "data",
@@ -67,6 +67,16 @@
   "vendorDecks": "0",
   "generatedAt": "2026-10-07",
   "updates": [
+    {
+      "date": "2026-10-07",
+      "text": "Inspection and deal review · IB-024.",
+      "items": [
+        {
+          "label": "inspection and deal review",
+          "href": "/docs/culture/inspection-and-deal-review"
+        }
+      ]
+    },
     {
       "date": "2026-10-06",
       "text": "Docs update · IB-029.",
@@ -113,24 +123,6 @@
         {
           "label": "win loss",
           "href": "/docs/foundations/win-loss"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-03",
-      "text": "Saas buyer empathy, pricing, sales process meddpicc · IB-027, IB-009.",
-      "items": [
-        {
-          "label": "saas buyer empathy",
-          "href": "/docs/agentic/saas-buyer-empathy"
-        },
-        {
-          "label": "pricing",
-          "href": "/docs/foundations/pricing"
-        },
-        {
-          "label": "sales process meddpicc",
-          "href": "/docs/flows/sales-process-meddpicc"
         }
       ]
     }

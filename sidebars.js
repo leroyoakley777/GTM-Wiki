@@ -168,6 +168,7 @@ const sidebars = {
         'contributing',
         'culture/index',
         'culture/inspection-and-deal-review',
+        'culture/coaching-and-one-on-ones',
         'enablement/index',
         'product-marketing/index',
         'recruiting/index',
