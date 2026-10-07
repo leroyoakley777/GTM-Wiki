@@ -26,7 +26,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 11 | [Flows](/docs/flows) | 5 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
 | 12 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
 | 13 | [Launch](/docs/launch) | 1 | The launch post: what this wiki is, how agents build it, and why it stays public. |
-| 14 | [Culture](/docs/culture) | 2 | How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind. |
+| 14 | [Culture](/docs/culture) | 3 | How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind. |
 | 15 | [Enablement](/docs/enablement) | 1 | Sales enablement as an operating system: the artifacts reps actually use, the inspection loop that keeps them current, and the failure modes that turn enablement into a content graveyard. |
 | 16 | [Product Marketing](/docs/product-marketing) | 1 | Product marketing as the bridge between product and pipeline: positioning, proof, launch, and the enablement artifacts outbound and sales actually use. |
 | 17 | [Recruiting](/docs/recruiting) | 1 | How to hire GTM: what to select for, when to make the first sales hire, how ramp actually works, and the failure modes that fill a desk with the wrong people. |
@@ -36,4 +36,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
 
-**22 sections · 113 pages · generated 2026-10-07**
+**22 sections · 114 pages · generated 2026-10-07**

@@ -12,7 +12,7 @@ last_updated: 2026-09-08
 
 GTM culture is the set of habits a revenue team repeats when nobody is watching the dashboard. A values poster does none of this work. Culture shows up as whether a miss gets diagnosed or hidden, whether a bad-fit meeting gets declined, and whether coaching happens on tape or on slogans.
 
-This page is the operator view. For the seat that owns the system, see [Heads of GTM](/docs/roles/heads-of-gtm). For the outbound desk that feels culture first, see [Outbound](/docs/channels/outbound) and [SDRs](/docs/roles/sdrs). For the weekly habit that keeps the forecast honest, see [Inspection and deal review](./inspection-and-deal-review). For the habit that changes one rep behavior at a time, see [Coaching and one-on-ones](./coaching-and-one-on-ones).
+This page is the operator view. For the seat that owns the system, see [Heads of GTM](/docs/roles/heads-of-gtm). For the outbound desk that feels culture first, see [Outbound](/docs/channels/outbound) and [SDRs](/docs/roles/sdrs). For the weekly habit that keeps the forecast honest, see [Inspection and deal review](./inspection-and-deal-review). For the habit that changes one rep behavior at a time, see [Coaching and one-on-ones](./coaching-and-one-on-ones). For the plan that decides which behavior repeats, see [Recognition and incentives](./recognition-and-incentives).
 
 ## What GTM culture actually governs
 

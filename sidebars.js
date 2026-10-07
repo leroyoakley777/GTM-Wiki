@@ -169,6 +169,7 @@ const sidebars = {
         'culture/index',
         'culture/inspection-and-deal-review',
         'culture/coaching-and-one-on-ones',
+        'culture/recognition-and-incentives',
         'enablement/index',
         'product-marketing/index',
         'recruiting/index',

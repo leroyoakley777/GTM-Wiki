@@ -1,5 +1,5 @@
 {
-  "pages": "102",
+  "pages": "103",
   "sections": "15",
   "sectionCounts": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "id": "culture",
-      "pages": 2
+      "pages": 3
     },
     {
       "id": "data",
@@ -69,8 +69,12 @@
   "updates": [
     {
       "date": "2026-10-07",
-      "text": "Inspection and deal review · IB-024.",
+      "text": "Coaching and one on ones, inspection and deal review · IB-024.",
       "items": [
+        {
+          "label": "coaching and one on ones",
+          "href": "/docs/culture/coaching-and-one-on-ones"
+        },
         {
           "label": "inspection and deal review",
           "href": "/docs/culture/inspection-and-deal-review"
