@@ -1,6 +1,6 @@
 {
-  "pages": "103",
-  "sections": "15",
+  "pages": "104",
+  "sections": "16",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -29,6 +29,10 @@
     {
       "id": "data",
       "pages": 7
+    },
+    {
+      "id": "enablement",
+      "pages": 1
     },
     {
       "id": "flows",
@@ -68,6 +72,16 @@
   "generatedAt": "2026-10-08",
   "updates": [
     {
+      "date": "2026-10-08",
+      "text": "Agent built outbound anatomy.",
+      "items": [
+        {
+          "label": "agent built outbound anatomy",
+          "href": "/docs/agentic/agent-built-outbound-anatomy"
+        }
+      ]
+    },
+    {
       "date": "2026-10-07",
       "text": "Recognition and incentives, coaching and one on ones, inspection and deal review · IB-024.",
       "items": [
@@ -105,32 +119,6 @@
         {
           "label": "agentic gtm overview",
           "href": "/docs/agentic/agentic-gtm-overview"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-04",
-      "text": "Gtm funnel, outbound, icp definition, positioning and messaging +1 more · IB-021, IB-028.",
-      "items": [
-        {
-          "label": "gtm funnel",
-          "href": "/docs/foundations/gtm-funnel"
-        },
-        {
-          "label": "outbound",
-          "href": "/docs/flows/outbound"
-        },
-        {
-          "label": "icp definition",
-          "href": "/docs/foundations/icp-definition"
-        },
-        {
-          "label": "positioning and messaging",
-          "href": "/docs/foundations/positioning-and-messaging"
-        },
-        {
-          "label": "win loss",
-          "href": "/docs/foundations/win-loss"
         }
       ]
     }

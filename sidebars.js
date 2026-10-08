@@ -171,6 +171,7 @@ const sidebars = {
         'culture/coaching-and-one-on-ones',
         'culture/recognition-and-incentives',
         'enablement/index',
+        'enablement/ramp-and-certification',
         'product-marketing/index',
         'recruiting/index',
         'resources/index',
