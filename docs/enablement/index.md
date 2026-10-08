@@ -12,7 +12,7 @@ last_updated: 2026-09-08
 
 Enablement is the system that puts the right artifact in a rep's hands at the moment of the conversation. It is not a slide library. Reps do not lose deals because the wiki was incomplete. They lose deals because the talk track, the one-pager, or the competitive note was missing in the workflow <sup><a href="#sources">[304]</a></sup>.
 
-This page covers what to ship, how to keep it alive, and how the job changes by stage. Pair it with [Outbound](/docs/channels/outbound) for the motion and [RevOps](/docs/roles/revops) for the system of record. For the loop that brings a new rep to quota, see [Ramp and certification](./ramp-and-certification).
+This page covers what to ship, how to keep it alive, and how the job changes by stage. Pair it with [Outbound](/docs/channels/outbound) for the motion and [RevOps](/docs/roles/revops) for the system of record. For the loop that brings a new rep to quota, see [Ramp and certification](./ramp-and-certification). For the customer stories a rep says aloud, see [Proof pack and references](./proof-and-references).
 
 ## What enablement owns
 

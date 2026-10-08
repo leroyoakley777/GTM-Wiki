@@ -172,6 +172,7 @@ const sidebars = {
         'culture/recognition-and-incentives',
         'enablement/index',
         'enablement/ramp-and-certification',
+        'enablement/proof-and-references',
         'product-marketing/index',
         'recruiting/index',
         'resources/index',

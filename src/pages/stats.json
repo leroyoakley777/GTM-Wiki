@@ -1,5 +1,5 @@
 {
-  "pages": "104",
+  "pages": "105",
   "sections": "16",
   "sectionCounts": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "enablement",
-      "pages": 1
+      "pages": 2
     },
     {
       "id": "flows",
@@ -73,8 +73,12 @@
   "updates": [
     {
       "date": "2026-10-08",
-      "text": "Agent built outbound anatomy.",
+      "text": "Ramp and certification, agent built outbound anatomy · IB-024.",
       "items": [
+        {
+          "label": "ramp and certification",
+          "href": "/docs/enablement/ramp-and-certification"
+        },
         {
           "label": "agent built outbound anatomy",
           "href": "/docs/agentic/agent-built-outbound-anatomy"
