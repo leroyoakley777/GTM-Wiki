@@ -176,6 +176,7 @@ const sidebars = {
         'enablement/objection-handling',
         'product-marketing/index',
         'product-marketing/launch-and-messaging',
+        'product-marketing/adoption-and-expansion',
         'recruiting/index',
         'resources/index',
         'support/index',

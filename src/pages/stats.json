@@ -1,5 +1,5 @@
 {
-  "pages": "107",
+  "pages": "108",
   "sections": "17",
   "sectionCounts": [
     {
@@ -60,7 +60,7 @@
     },
     {
       "id": "product-marketing",
-      "pages": 1
+      "pages": 2
     },
     {
       "id": "skills",
@@ -77,8 +77,12 @@
   "updates": [
     {
       "date": "2026-10-09",
-      "text": "Launch and messaging · IB-024.",
+      "text": "Objection handling, launch and messaging · IB-024.",
       "items": [
+        {
+          "label": "objection handling",
+          "href": "/docs/enablement/objection-handling"
+        },
         {
           "label": "launch and messaging",
           "href": "/docs/product-marketing/launch-and-messaging"
