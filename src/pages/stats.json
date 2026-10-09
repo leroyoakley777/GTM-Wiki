@@ -1,5 +1,5 @@
 {
-  "pages": "106",
+  "pages": "107",
   "sections": "17",
   "sectionCounts": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "enablement",
-      "pages": 2
+      "pages": 3
     },
     {
       "id": "flows",
@@ -76,6 +76,16 @@
   "generatedAt": "2026-10-09",
   "updates": [
     {
+      "date": "2026-10-09",
+      "text": "Launch and messaging · IB-024.",
+      "items": [
+        {
+          "label": "launch and messaging",
+          "href": "/docs/product-marketing/launch-and-messaging"
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "text": "Proof and references, ramp and certification, agent built outbound anatomy · IB-024.",
       "items": [
@@ -115,24 +125,6 @@
       "date": "2026-10-06",
       "text": "Docs update · IB-029.",
       "items": []
-    },
-    {
-      "date": "2026-10-05",
-      "text": "Probabilistic pipelines, the forge agents that grade each other, agentic gtm overview · IB-021.",
-      "items": [
-        {
-          "label": "probabilistic pipelines",
-          "href": "/docs/agentic/probabilistic-pipelines"
-        },
-        {
-          "label": "the forge agents that grade each other",
-          "href": "/docs/agentic/the-forge-agents-that-grade-each-other"
-        },
-        {
-          "label": "agentic gtm overview",
-          "href": "/docs/agentic/agentic-gtm-overview"
-        }
-      ]
     }
   ]
 }

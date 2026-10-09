@@ -173,6 +173,7 @@ const sidebars = {
         'enablement/index',
         'enablement/ramp-and-certification',
         'enablement/proof-and-references',
+        'enablement/objection-handling',
         'product-marketing/index',
         'product-marketing/launch-and-messaging',
         'recruiting/index',
