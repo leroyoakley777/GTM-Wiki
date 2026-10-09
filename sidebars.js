@@ -174,6 +174,7 @@ const sidebars = {
         'enablement/ramp-and-certification',
         'enablement/proof-and-references',
         'product-marketing/index',
+        'product-marketing/launch-and-messaging',
         'recruiting/index',
         'resources/index',
         'support/index',

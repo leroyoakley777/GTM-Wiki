@@ -12,7 +12,7 @@ last_updated: 2026-09-08
 
 Product marketing turns a product into something a stranger can buy. It owns positioning, the proof behind the pitch, launch narrative, and the artifacts sales uses when the buyer is on the line. It does not own the blog calendar and it does not own quota. When those lines blur, both sides miss.
 
-This page covers what the function ships and how it fails. Read [Positioning and messaging](/docs/foundations/positioning-and-messaging) for the craft, [Enablement](/docs/enablement) for how artifacts reach reps, and [Outbound](/docs/channels/outbound) for the first cold use of that work.
+This page covers what the function ships and how it fails. Read [Positioning and messaging](/docs/foundations/positioning-and-messaging) for the craft, [Enablement](/docs/enablement) for how artifacts reach reps, and [Outbound](/docs/channels/outbound) for the first cold use of that work. For the launch motion and the message test behind it, see [Launch and message testing](./launch-and-messaging).
 
 ## What product marketing ships
 

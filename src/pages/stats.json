@@ -1,6 +1,6 @@
 {
-  "pages": "105",
-  "sections": "16",
+  "pages": "106",
+  "sections": "17",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -59,6 +59,10 @@
       "pages": 3
     },
     {
+      "id": "product-marketing",
+      "pages": 1
+    },
+    {
       "id": "skills",
       "pages": 9
     },
@@ -69,12 +73,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "updates": [
     {
       "date": "2026-10-08",
-      "text": "Ramp and certification, agent built outbound anatomy · IB-024.",
+      "text": "Proof and references, ramp and certification, agent built outbound anatomy · IB-024.",
       "items": [
+        {
+          "label": "proof and references",
+          "href": "/docs/enablement/proof-and-references"
+        },
         {
           "label": "ramp and certification",
           "href": "/docs/enablement/ramp-and-certification"
