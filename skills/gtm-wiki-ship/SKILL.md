@@ -186,6 +186,12 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
   `python3 ~/.hermes/scripts/wiki-throughput-watch.py`.
 - The live origin is `https://gtm-wiki-nu.vercel.app` (matches the watchdog
   `ORIGIN`). `gtmwiki.dev` does not resolve and a receipt that cites it fails.
+- The watchdog's `extract_plain_text()` strips tags but does NOT HTML-unescape,
+  so a live fragment carrying an apostrophe or quote fails even when the text is
+  on the page: the served HTML holds `buyer&#x27;s` while the receipt holds
+  `buyer's`, and `verify_receipt()` reports `fragment-missing`. Pick fragments
+  with no `'` / `"` / `&` (a heading or a plain-sentence substring), then confirm
+  with the watchdog's own `verify_receipt()` before trusting the count.
 - The watchdog binds the receipt to `releases/<page>.md`, so the candidate
   copy must carry the stripped slug name, not the repo's `NN-` filename. A
   receipt with the right JSON but a copy at `NN-<slug>.md` reports
