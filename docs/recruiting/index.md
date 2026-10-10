@@ -5,14 +5,14 @@ title: Recruiting
 description: "How to hire GTM: what to select for, when to make the first sales hire, how ramp actually works, and the failure modes that fill a desk with the wrong people."
 status: active
 tags: [recruiting, hiring, sdr, sales, gtm]
-last_updated: 2026-09-08
+last_updated: 2026-10-10
 ---
 
 # Recruiting
 
 GTM recruiting is selection for a motion you can already describe. If you cannot write the first 30 days of the job on one page, you are not hiring. You are buying hope.
 
-This page covers when to hire, what to select for, how to ramp, and where hiring breaks. Pair it with [SDRs](/docs/roles/sdrs), [AEs](/docs/roles/aes), and [Outbound](/docs/channels/outbound).
+This page covers when to hire, what to select for, how to ramp, and where hiring breaks. Pair it with [SDRs](/docs/roles/sdrs), [AEs](/docs/roles/aes), and [Outbound](/docs/channels/outbound). For the interview itself, see [Interview loop and scorecard](./interview-and-scorecard).
 
 ## When to make the hire
 
@@ -31,7 +31,7 @@ Miss any one of those and the hire becomes an expensive experiment.
 
 Roberge's five traits that correlated with B2B sales success: coachability, curiosity, prior success, intelligence, and work ethic <sup><a href="#sources">[262]</a></sup>. Hire for what is hard to teach. Integrity, grit, and net-new pipeline generation belong on that list. Deal size and domain can be taught <sup><a href="#sources">[279]</a></sup>.
 
-Score the interview on work sample, not charm.
+Score the interview on work sample, not charm. A structured loop asks every candidate the same questions and scores the answers on one rubric, so the panel compares evidence instead of impressions <sup><a href="#sources">[373]</a></sup>. See [Interview loop and scorecard](./interview-and-scorecard) for the loop and the card.
 
 | Screen | What you collect | Pass looks like |
 |--------|------------------|-----------------|
@@ -74,3 +74,4 @@ Agents help screen written work (email rewrites, ICP tests) against a rubric. Hu
 - [39] AiSDR, 2026: fully-loaded SDR about $139,120/year (vendor source). Source registry #39.
 - [262] Sales Acceleration Formula: traits, internal promotion, hiring formula. Source registry #262.
 - [279] 20VC, 2024: attrition bands, teach versus hire, verticalize late. Source registry #279.
+- [373] Google re:Work, 2026: a structured loop asks the same questions and scores on one rubric. Source registry #373.

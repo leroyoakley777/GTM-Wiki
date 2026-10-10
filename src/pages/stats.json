@@ -1,6 +1,6 @@
 {
-  "pages": "108",
-  "sections": "17",
+  "pages": "109",
+  "sections": "18",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -63,6 +63,10 @@
       "pages": 2
     },
     {
+      "id": "recruiting",
+      "pages": 1
+    },
+    {
       "id": "skills",
       "pages": 9
     },
@@ -73,12 +77,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-10",
   "updates": [
     {
       "date": "2026-10-09",
-      "text": "Objection handling, launch and messaging · IB-024.",
+      "text": "Adoption and expansion, objection handling, launch and messaging · IB-024.",
       "items": [
+        {
+          "label": "adoption and expansion",
+          "href": "/docs/product-marketing/adoption-and-expansion"
+        },
         {
           "label": "objection handling",
           "href": "/docs/enablement/objection-handling"

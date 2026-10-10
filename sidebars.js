@@ -178,6 +178,7 @@ const sidebars = {
         'product-marketing/launch-and-messaging',
         'product-marketing/adoption-and-expansion',
         'recruiting/index',
+        'recruiting/interview-and-scorecard',
         'resources/index',
         'support/index',
       ],

@@ -517,3 +517,10 @@ registry. Unregistered citation → build failure.
 | 369 | Avi Chawla | 2026-08-16 | Four agent loop types; loop type sets what starts a run and what decides done | docs/agentic/07-skill-routing-at-scale.md |
 | 370 | Ethan Mollick | 2026-08-13 | Agents, not chatbots: the unit of work shifts from prompt to task | docs/agentic/08-ai-sdr-landscape.md; docs/agentic/09-signals-over-lists.md |
 | 371 | OpenView | 2026-08-17 | Sales compensation and quota hit-rate benchmarks for human teams | docs/agentic/10-measuring-agent-hit-rates.md |
+
+### Recruiting interview batch (vetted 2026-10-10)
+
+| # | Source | As-of | Key claims it supports | Backing |
+|---|--------|-------|------------------------|---------|
+| 372 | Schmidt & Hunter, The validity and utility of selection methods in personnel psychology (Psychological Bulletin) | 1998 | Structured interview validity about .51 versus .38 for an unstructured interview; an equally weighted combination of a structured interview and a general mental ability measure reaches .63; work sample test validity about .54; 85 years of meta-analytic findings on 19 selection procedures | docs/recruiting/01-interview-and-scorecard.md |
+| 373 | Google re:Work, a guide to structured interviewing for better hiring practices | 2026 | A structured interview uses the same questions and the same scale for every candidate; four parts are vetted questions, recorded feedback, standardized rubrics, and interviewer training; anchored rubrics define poor, borderline, solid, and outstanding answers; interviewers score independently before the debrief; a hiring committee reads the packet | docs/recruiting/01-interview-and-scorecard.md |

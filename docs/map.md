@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-10-09
+last_updated: 2026-10-10
 ---
 
 # Map
@@ -36,4 +36,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
 
-**22 sections · 117 pages · generated 2026-10-09**
+**22 sections · 117 pages · generated 2026-10-10**
