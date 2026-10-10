@@ -1,6 +1,6 @@
 {
-  "pages": "110",
-  "sections": "19",
+  "pages": "111",
+  "sections": "20",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -67,6 +67,10 @@
       "pages": 1
     },
     {
+      "id": "resources",
+      "pages": 1
+    },
+    {
       "id": "skills",
       "pages": 9
     },
@@ -85,8 +89,12 @@
   "updates": [
     {
       "date": "2026-10-10",
-      "text": "Interview and scorecard · IB-024.",
+      "text": "Escalation and severity, interview and scorecard · IB-024.",
       "items": [
+        {
+          "label": "escalation and severity",
+          "href": "/docs/support/escalation-and-severity"
+        },
         {
           "label": "interview and scorecard",
           "href": "/docs/recruiting/interview-and-scorecard"

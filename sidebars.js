@@ -180,6 +180,7 @@ const sidebars = {
         'recruiting/index',
         'recruiting/interview-and-scorecard',
         'resources/index',
+        'resources/vet-a-benchmark',
         'support/index',
         'support/escalation-and-severity',
       ],

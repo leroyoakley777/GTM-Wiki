@@ -5,12 +5,14 @@ title: Resources
 description: "Where to go next in the wiki: the pages, data tables, and playbooks that carry the rest of GTM once you leave a channel page."
 status: active
 tags: [resources, index, wiki]
-last_updated: 2026-09-08
+last_updated: 2026-10-10
 ---
 
 # Resources
 
 This page is a map of working material, not a bookmark dump. Start with the job you have this week. Then open the one page that ships the artifact.
+
+Two pages here do the sorting work. [Vet a benchmark before you cite it](./vet-a-benchmark) gives you the check to run on any number you meet outside this wiki: the sample, the source, the date, and the definition. The rest of this page points to the pages that carry the motion.
 
 ## If you need to run a motion
 
