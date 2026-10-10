@@ -5,14 +5,14 @@ title: Support
 description: "How customer support feeds GTM: the signals in tickets, the expansion conversations support can start, and the failure modes that keep support isolated from pipeline."
 status: active
 tags: [support, customer-success, gtm, expansion]
-last_updated: 2026-09-08
+last_updated: 2026-10-10
 ---
 
 # Support
 
 Support is a GTM surface whether the org charts say so or not. Tickets carry product truth, expansion clues, and churn warnings. A company that treats support as a cost center only will still leak those signals. It will just leak them later, in the renewal.
 
-This page covers how support connects to pipeline and product. Pair it with [Revenue operations](/docs/foundations/revenue-operations), [Culture](/docs/culture), and [Product marketing](/docs/product-marketing).
+This page covers how support connects to pipeline and product. Pair it with [Revenue operations](/docs/foundations/revenue-operations), [Culture](/docs/culture), and [Product marketing](/docs/product-marketing). For the path a ticket takes when it puts customer value at risk, see [Escalation and severity](./escalation-and-severity).
 
 ## Why support belongs in GTM
 

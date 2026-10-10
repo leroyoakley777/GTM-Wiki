@@ -181,6 +181,7 @@ const sidebars = {
         'recruiting/interview-and-scorecard',
         'resources/index',
         'support/index',
+        'support/escalation-and-severity',
       ],
     },
   ],

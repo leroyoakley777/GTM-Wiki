@@ -1,6 +1,6 @@
 {
-  "pages": "109",
-  "sections": "18",
+  "pages": "110",
+  "sections": "19",
   "sectionCounts": [
     {
       "id": "agent-ops",
@@ -71,6 +71,10 @@
       "pages": 9
     },
     {
+      "id": "support",
+      "pages": 1
+    },
+    {
       "id": "tools",
       "pages": 1
     }
@@ -79,6 +83,16 @@
   "vendorDecks": "0",
   "generatedAt": "2026-10-10",
   "updates": [
+    {
+      "date": "2026-10-10",
+      "text": "Interview and scorecard · IB-024.",
+      "items": [
+        {
+          "label": "interview and scorecard",
+          "href": "/docs/recruiting/interview-and-scorecard"
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "text": "Adoption and expansion, objection handling, launch and messaging · IB-024.",
@@ -132,11 +146,6 @@
           "href": "/docs/culture/inspection-and-deal-review"
         }
       ]
-    },
-    {
-      "date": "2026-10-06",
-      "text": "Docs update · IB-029.",
-      "items": []
     }
   ]
 }
