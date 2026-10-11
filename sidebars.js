@@ -181,6 +181,7 @@ const sidebars = {
         'recruiting/interview-and-scorecard',
         'resources/index',
         'resources/vet-a-benchmark',
+        'resources/writing-a-research-brief',
         'support/index',
         'support/escalation-and-severity',
       ],

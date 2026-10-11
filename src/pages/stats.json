@@ -1,5 +1,5 @@
 {
-  "pages": "111",
+  "pages": "112",
   "sections": "20",
   "sectionCounts": [
     {
@@ -68,7 +68,7 @@
     },
     {
       "id": "resources",
-      "pages": 1
+      "pages": 2
     },
     {
       "id": "skills",
@@ -85,12 +85,16 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "updates": [
     {
       "date": "2026-10-10",
-      "text": "Escalation and severity, interview and scorecard · IB-024.",
+      "text": "Vet a benchmark, escalation and severity, interview and scorecard · IB-024.",
       "items": [
+        {
+          "label": "vet a benchmark",
+          "href": "/docs/resources/vet-a-benchmark"
+        },
         {
           "label": "escalation and severity",
           "href": "/docs/support/escalation-and-severity"

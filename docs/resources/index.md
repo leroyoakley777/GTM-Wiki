@@ -12,7 +12,7 @@ last_updated: 2026-10-10
 
 This page is a map of working material, not a bookmark dump. Start with the job you have this week. Then open the one page that ships the artifact.
 
-Two pages here do the sorting work. [Vet a benchmark before you cite it](./vet-a-benchmark) gives you the check to run on any number you meet outside this wiki: the sample, the source, the date, and the definition. The rest of this page points to the pages that carry the motion.
+Two pages here do the sorting work. [Vet a benchmark before you cite it](./vet-a-benchmark) gives you the check to run on any number you meet outside this wiki: the sample, the source, the date, and the definition. [Write a research brief before you buy the study](./writing-a-research-brief) covers the study you commission or collect yourself: the decision sentence, the population, and the decision rule, written before the data lands. The rest of this page points to the pages that carry the motion.
 
 ## If you need to run a motion
 
