@@ -1,5 +1,5 @@
 {
-  "pages": "112",
+  "pages": "113",
   "sections": "20",
   "sectionCounts": [
     {
@@ -76,7 +76,7 @@
     },
     {
       "id": "support",
-      "pages": 1
+      "pages": 2
     },
     {
       "id": "tools",
@@ -87,6 +87,16 @@
   "vendorDecks": "0",
   "generatedAt": "2026-10-11",
   "updates": [
+    {
+      "date": "2026-10-11",
+      "text": "Writing a research brief · IB-024.",
+      "items": [
+        {
+          "label": "writing a research brief",
+          "href": "/docs/resources/writing-a-research-brief"
+        }
+      ]
+    },
     {
       "date": "2026-10-10",
       "text": "Vet a benchmark, escalation and severity, interview and scorecard · IB-024.",
@@ -138,24 +148,6 @@
         {
           "label": "agent built outbound anatomy",
           "href": "/docs/agentic/agent-built-outbound-anatomy"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "text": "Recognition and incentives, coaching and one on ones, inspection and deal review · IB-024.",
-      "items": [
-        {
-          "label": "recognition and incentives",
-          "href": "/docs/culture/recognition-and-incentives"
-        },
-        {
-          "label": "coaching and one on ones",
-          "href": "/docs/culture/coaching-and-one-on-ones"
-        },
-        {
-          "label": "inspection and deal review",
-          "href": "/docs/culture/inspection-and-deal-review"
         }
       ]
     }

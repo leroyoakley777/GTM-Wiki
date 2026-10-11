@@ -184,6 +184,7 @@ const sidebars = {
         'resources/writing-a-research-brief',
         'support/index',
         'support/escalation-and-severity',
+        'support/account-health-and-churn-signals',
       ],
     },
   ],
