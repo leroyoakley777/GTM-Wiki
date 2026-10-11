@@ -197,6 +197,19 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
   receipt with the right JSON but a copy at `NN-<slug>.md` reports
   `candidate-file-missing` and never counts. Verify one receipt with the
   watchdog's own `verify_receipt()` before trusting the count.
+- Push-to-deploy can fail silently. A push that lands on `origin/main` does not
+  prove a deploy started: the Vercel Git integration can drop the webhook, and
+  the repo's GitHub hooks list can be empty while older commits still deployed.
+  After the push, confirm the deploy exists for the exact SHA. Run `gh api
+  repos/<owner>/<repo>/deployments?per_page=1 --jq '.[0].sha[0:8]'`, or query
+  `https://api.vercel.com/v6/deployments?projectId=<id>&teamId=<team>&limit=3`
+  with the CLI token from `~/Library/Application Support/com.vercel.cli/auth.json`.
+  No deployment for your SHA means the page is not live, whatever the push said.
+  Recover by creating the production deployment for that exact SHA through the
+  Vercel API. POST `https://api.vercel.com/v13/deployments` with
+  `gitSource: {type: github, repoId, ref: main, sha}`, poll `readyState` to
+  `READY`, then curl the page for a 200 before writing the receipt. Report the
+  integration fault. Do not treat the API deploy as the normal path.
 - `docs/map.md` and `src/pages/stats.json` are generator outputs — the
   generators (`scripts/generate-map-data.js`, `scripts/generate-stats.js`)
   rewrite them at the start of `npm run build`. Never hand-edit them: change
