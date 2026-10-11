@@ -5,14 +5,14 @@ title: Recruiting
 description: "How to hire GTM: what to select for, when to make the first sales hire, how ramp actually works, and the failure modes that fill a desk with the wrong people."
 status: active
 tags: [recruiting, hiring, sdr, sales, gtm]
-last_updated: 2026-10-10
+last_updated: 2026-10-11
 ---
 
 # Recruiting
 
 GTM recruiting is selection for a motion you can already describe. If you cannot write the first 30 days of the job on one page, you are not hiring. You are buying hope.
 
-This page covers when to hire, what to select for, how to ramp, and where hiring breaks. Pair it with [SDRs](/docs/roles/sdrs), [AEs](/docs/roles/aes), and [Outbound](/docs/channels/outbound). For the interview itself, see [Interview loop and scorecard](./interview-and-scorecard).
+This page covers when to hire, what to select for, how to ramp, and where hiring breaks. Pair it with [SDRs](/docs/roles/sdrs), [AEs](/docs/roles/aes), and [Outbound](/docs/channels/outbound). For the interview itself, see [Interview loop and scorecard](./interview-and-scorecard). To fill the pipeline before the loop, see [Sourcing and pipeline](./sourcing-and-pipeline).
 
 ## When to make the hire
 

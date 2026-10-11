@@ -179,6 +179,7 @@ const sidebars = {
         'product-marketing/adoption-and-expansion',
         'recruiting/index',
         'recruiting/interview-and-scorecard',
+        'recruiting/sourcing-and-pipeline',
         'resources/index',
         'resources/vet-a-benchmark',
         'resources/writing-a-research-brief',
