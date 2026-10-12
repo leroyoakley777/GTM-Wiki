@@ -5,6 +5,7 @@ title: Head of Platforms
 description: "The head of platforms role and its scope."
 status: active
 tags: ['roles', 'index']
+last_updated: 2026-10-12
 ---
 
 # Head of Platforms
@@ -165,10 +166,90 @@ themselves only on signed logos, and candidates who can't reason about
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly. Each row pulls a number from the partner pipeline
+and the integration log, not from the signed-contract folder.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Partners signed | Platform partners under contract this quarter | Logos with no technical fit |
+| Activation rate | Signed partners that shipped a live integration | Fewer than half of signed partners launch <sup><a href="#sources">[128]</a></sup> |
+| Time to first dollar | Days from signature to the partner's first live transaction | Every partner parked in integration for a quarter |
+| Integration depth | Partners whose embed carries real downstream volume | Shallow logo integrations that never move a number |
+| Partner-sourced revenue | The share of revenue the platform channel carries | Below the 10-20% healthy band <sup><a href="#sources">[220]</a></sup> |
+| Partner-sourced pipeline | New pipeline the channel influences | Below the 35% mid-market and enterprise mark <sup><a href="#sources">[95]</a></sup> |
+| Acquisition cost | Partner cost per acquired lead against paid acquisition | Paid acquisition stays cheaper <sup><a href="#sources">[134]</a></sup> |
+| Roadmap pull | Internal asks a blocked partner waits on | A partner waiting on engineering with no named owner |
+
+Read the checklist before the quarterly business review, not after. A red row
+changes the partner score, the onboarding design, or the economics. More
+outbound to the same partner list does not fix a red row.
+
+## How the seat differs by stage
+
+The seat changes as the company moves. Run the row that matches your stage.
+
+| Stage | What the seat runs | Hire shape |
+|-------|--------------------|------------|
+| Seed | Founder signs the first two or three design partners | No dedicated seat |
+| Series A-B | One operator proves the motion and writes the playbook | First head of platforms, player-coach |
+| Series C+ | Partner scoring, activation cadence, rev-share design | Partner managers plus a solutions engineer |
+| Enterprise | Multi-region ecosystem, co-sell terms, market development funds | Partner ops plus a dedicated technical team |
+
+Activation is the constraint at every stage. A program that activates 30% of
+its partners has an onboarding design problem, not a recruitment problem
+<sup><a href="#sources">[96]</a></sup>. Fix the design before you add headcount.
+
+## Failure modes
+
+- **Signing partners who never ship.** Activation is the leading indicator.
+  Healthy programs launch more than half of signed partners
+  <sup><a href="#sources">[128]</a></sup>.
+- **Buying logos with no technical fit.** A brand-name partner that cannot
+  embed the product is a press release, not revenue.
+- **Measuring signed contracts.** Contract value hides downstream volume. The
+  board reads partner-driven revenue.
+- **Running a channel program with no economics.** Reseller margin and
+  rev-share decide whether partners prioritize you
+  <sup><a href="#sources">[152]</a></sup><sup><a href="#sources">[204]</a></sup>.
+- **Treating the seat as partnerships admin.** The role owns revenue, not the
+  partner directory.
+- **Hiring a classic closer.** The buyer is a product or engineering leader,
+  and the motion runs on technical empathy.
+- **Skipping the referral lane.** Referral leads convert about 30% higher than
+  other channels <sup><a href="#sources">[55]</a></sup>, and the commission is
+  usually a fraction of first-year value <sup><a href="#sources">[204]</a></sup>.
+
+## Agentic layer
+
+Agents map the platform category, score partner fit, watch activation signals,
+and draft the internal roadmap asks. The seat still owns the partner
+relationship and the ecosystem bet. See
+[Agentic GTM overview](/docs/agentic/agentic-gtm-overview).
+
+## Sources
+
+- [49] Rewardful, 2025: affiliate and referral MRR contribution 10-20%. Source registry #49.
+- [55] Expando, 2025: referral leads convert about 30% higher than other channels. Source registry #55.
+- [61] Wharton, 2011: referral leads carry about 16% higher lifetime value. Source registry #61.
+- [70] Stripe: the Connect platform-ecosystem model behind the role. Source registry #70.
+- [95] PartnerStack, 2026: partner-influenced pipeline about 35% mid-market and enterprise. Source registry #95.
+- [96] PartnerStandard, 2026: 30% activation signals an onboarding design problem. Source registry #96.
+- [128] Hamster Garage, 2026: healthy partner activation above 50% of signed partners. Source registry #128.
+- [134] Genesys Growth, 2026: partner cost per acquired lead 30-40% lower than paid ads. Source registry #134.
+- [152] DealHub, 2026: SaaS reseller margin 20-30% off list price. Source registry #152.
+- [204] HubSpot Upmarket Referral, 2026: referral commission about 20% of first-year value. Source registry #204.
+- [220] SaaS Mag, 2026: partner-sourced revenue median 24%, top quartile 40%. Source registry #220.
+
+---
+
 ## Further reading
 
 - [00: GTM Strategy Framework](../../foundations/00-gtm-strategy-framework.md): the operating system this role plugs into
 - [01: GTM Channels Bullseye](../../foundations/01-gtm-channels-bullseye.md): where Platform/Ecosystem sits among channels
+- [Partner channel](/docs/channels/partner): the channel program this seat runs
+- [VPs of Sales](/docs/roles/vps-sales): the adjacent seat that carries quota
 
 ---
 
