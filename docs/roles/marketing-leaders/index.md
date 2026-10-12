@@ -5,7 +5,7 @@ title: Marketing Leaders
 description: "What marketing leaders own: demand, memory with future buyers, channel choice, and the handoff into sales that either becomes pipeline or becomes an argument."
 status: active
 tags: [roles, marketing, demand-gen, brand, outbound]
-last_updated: 2026-09-08
+last_updated: 2026-10-12
 ---
 
 # Marketing Leaders
@@ -32,6 +32,24 @@ Outbound sits beside marketing. It is the channel you run while inbound compound
 If cold reply rates sit under 2% with clean delivery, the problem is message or audience <sup><a href="#sources">[329]</a></sup>. Marketing leadership belongs in that diagnosis. "Sales needs to follow up harder" is not a strategy.
 
 Paid can scale a working message and erase a budget when it does not. See [Paid](/docs/channels/paid). CAC payback still belongs on the marketing leader's wall <sup><a href="#sources">[6]</a></sup>.
+
+## Inspection checklist
+
+Run this checklist monthly. It reads the same way the sales seat reads its
+pipeline review: a small set of numbers, each with a named owner and a
+root-cause conversation behind it.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Pipeline share by source | Pipeline created against the channel plan | One channel carries the plan with no measured share |
+| MQL to SQL | Accepted rate by source and by rep | Volume up, accepted rate down <sup><a href="#sources">[26]</a></sup> |
+| Speed to first touch | Median minutes from form fill to first contact | A queue with no named owner |
+| Reply and hold rate | Positive reply share and held-meeting share | Sends up, replies flat <sup><a href="#sources">[329]</a></sup> |
+| CAC and payback | Blended CAC against the payback target | Payback drifting past the window the company can fund <sup><a href="#sources">[6]</a></sup> |
+| Brand reach | Reach against the buyers who are out of market | Brand spend cut with no replacement <sup><a href="#sources">[312]</a></sup> |
+| Content output | Published posts against the monthly plan | A plan with no owner and no cadence <sup><a href="#sources">[285]</a></sup> |
+
+Read the checklist before the forecast lock, not after the quarter closes.
 
 ## How the seat differs by stage
 
@@ -64,3 +82,14 @@ Agents can cluster intent, draft first versions of pages, and route high-fit inb
 - [311] BCG: B2B brand underinvestment. Source registry #311.
 - [312] LinkedIn B2B Institute: 95-5. Source registry #312.
 - [329] Zeliq: sub-2% reply diagnosis. Source registry #329.
+
+## Further reading
+
+- [LinkedIn B2B Institute: The 95-5 rule](https://www.linkedin.com/business/marketing/blog/linkedin-ads/the-95-5-rule) (2021). The out-of-market share the brand budget defends.
+- [ZoomInfo: GTM leader guide](https://pipeline.zoominfo.com/sales/gtm-leader-guide) (2026). The mandate that spans demand, sales, and success.
+- [Go-to-Market Alliance: Building a GTM strategy](https://www.gotomarketalliance.com/ultimate-guide-to-building-a-gtm-strategy/) (2024). Shared KPI dashboards between marketing and sales.
+- [Jam 7: B2B SaaS content strategy playbook](https://jam7.com/blog/b2b-saas-content-strategy-growth-stage-playbook) (2026). Output benchmarks for a growth-stage content engine.
+- [Traction](https://www.tractionbook.com/) (2014). The Bullseye method behind the single-channel rule.
+- [Zeliq: Cold email guide](https://www.zeliq.com/blog/cold-email-guide) (2026). The reply and meeting benchmarks behind the outbound diagnosis.
+- [DemandSage: Content marketing statistics](https://www.demandsage.com/content-marketing-statistics/) (2026). Content against outbound on lead volume and cost.
+- [DigitalApplied: CAC benchmarks](https://www.digitalapplied.com/blog/customer-acquisition-cost-benchmarks-2026-industry) (2026). CAC and payback bands by motion.

@@ -158,6 +158,12 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-72 | Wiki auditor 2026-10-10: post-commit audit REJECT on resources/01-vet-a-benchmark — design: model call failed or timed out | — | — | docs/resources/01-vet-a-benchmark.md |
 | IA-73 | Wiki auditor 2026-10-10: post-commit audit REJECT on resources/index — instrument: missing fence | — | — | docs/resources/index.md |
 | IA-74 | Wiki auditor 2026-10-10: post-commit audit REJECT on support/index — instrument: missing fence | — | — | docs/support/index.md |
+| IA-75 | Wiki auditor 2026-10-11: post-commit audit REJECT on map — design: model call failed or timed out | — | — | docs/map.md |
+| IA-76 | Wiki auditor 2026-10-11: post-commit audit REJECT on recruiting/index — instrument: missing fence | — | — | docs/recruiting/index.md |
+| IA-77 | Wiki auditor 2026-10-11: post-commit audit REJECT on resources/02-writing-a-research-brief — design: I have everything I need. The page content ( How the brief changes by stage through  Sources) is a technical reference page about research-student methodology. | — | — | docs/resources/02-writing-a-research-brief.md |
+| IA-78 | Wiki auditor 2026-10-11: post-commit audit REJECT on resources/index — instrument: missing fence | — | — | docs/resources/index.md |
+| IA-79 | Wiki auditor 2026-10-11: post-commit audit REJECT on support/02-account-health-and-churn-signals — design: model call failed or timed out | — | — | docs/support/02-account-health-and-churn-signals.md |
+| IA-80 | Wiki auditor 2026-10-11: post-commit audit REJECT on support/index — instrument: missing fence | — | — | docs/support/index.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |
@@ -166,7 +172,7 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IB-012 | Improve agentic layer (SOP/prompt) visibility on more pages | Medium | Medium | Agentic, Flows, Playbooks |
 | IB-013 | Measure and optimize rendered output (images/SVG/boxes, no overflow/clipping) | Low | Low | All pages with visuals |
 | IB-014 | Ensure cross-links resolve (no orphan pages, no broken links) | Low | Low | All pages |
-| IB-029 | Deepen the nine roles/ seats: each role ships one index.md today; give every seat the same anatomy (what the seat owns, its inspection checklist, how the job changes by stage, top failure modes), one seat per ship | Medium | High | docs/roles/ (9 index pages) |
+| IB-029 | 2026-10-12: seat 2 of 9 deepened — docs/roles/marketing-leaders/index.md gained the inspection checklist (7 monthly checks, each footnoted) plus a Further reading block; depth 7/9 to 9/9. 2026-10-06 (a185d90a): seat 1 of 9 — docs/roles/vps-sales/index.md gained its inspection checklist. Seven seats remain: founders, head-of-platforms, heads-of-gtm, sdrs, aes, revops, investors. Original: Deepen the nine roles/ seats: each role ships one index.md today; give every seat the same anatomy (what the seat owns, its inspection checklist, how the job changes by stage, top failure modes), one seat per ship | Medium | High | docs/roles/ (9 index pages) |
 
 ## Notes
 - Effort: Low (<1 hour), Medium (1-4 hours), High (>4 hours or coordination)
