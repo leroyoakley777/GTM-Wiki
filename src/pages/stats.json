@@ -88,6 +88,11 @@
   "generatedAt": "2026-10-12",
   "updates": [
     {
+      "date": "2026-10-12",
+      "text": "Docs update · IB-029.",
+      "items": []
+    },
+    {
       "date": "2026-10-11",
       "text": "Sourcing and pipeline, account health and churn signals, writing a research brief · IB-024.",
       "items": [
@@ -138,24 +143,6 @@
         {
           "label": "launch and messaging",
           "href": "/docs/product-marketing/launch-and-messaging"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-08",
-      "text": "Proof and references, ramp and certification, agent built outbound anatomy · IB-024.",
-      "items": [
-        {
-          "label": "proof and references",
-          "href": "/docs/enablement/proof-and-references"
-        },
-        {
-          "label": "ramp and certification",
-          "href": "/docs/enablement/ramp-and-certification"
-        },
-        {
-          "label": "agent built outbound anatomy",
-          "href": "/docs/agentic/agent-built-outbound-anatomy"
         }
       ]
     }

@@ -5,6 +5,7 @@ title: Founders
 description: "What founders own first: founder-led sales, ICP, channel, positioning, pricing, and the first GTM hire."
 status: active
 tags: ['roles', 'index']
+last_updated: 2026-10-12
 ---
 
 # Founders
@@ -195,6 +196,48 @@ specialize (Estner & Blank, 2024).
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly while you still run sales yourself. Every row
+pulls a number from your own pipeline, not a dashboard you have to buy.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Deals you closed | Closed-won count this month | Zero new closes in a month |
+| Discovery coverage | Conversations where you ran discovery before proposing | Demos booked with no discovery first |
+| Reply rate on outbound | Positive replies against sends | Sends up, replies flat <sup><a href="#sources">[329]</a></sup> |
+| Pipeline coverage | Open pipeline against the near-term target | Below 3x the target <sup><a href="#sources">[9]</a></sup> |
+| Win rate | Closed-won against opportunities worked | Below 20% all-in <sup><a href="#sources">[29]</a></sup> |
+| ICP drift | Accounts that closed against the ICP you wrote down | Deals outside the ICP with no ICP update |
+| Unit economics | CAC payback months against the cash you can fund | Payback past the runway you have <sup><a href="#sources">[313]</a></sup> |
+
+The checklist is your early-warning system. When a row goes red, change the
+ICP, the message, or the offer. More effort on the same list does not fix a
+red row.
+
+## How the seat differs by stage
+
+The founder's job changes as the company moves. Run the row that matches
+where you are.
+
+| Stage | What the founder runs | First GTM hire |
+|-------|-----------------------|----------------|
+| Pre-revenue | Every conversation: discovery, pitch, close, onboard | None. You are the entire function |
+| Early revenue | The close, plus one channel test | None yet. Prove the motion first |
+| Repeatable motion | The playbook, plus the first hire's ramp | First seller or first marketer <sup><a href="#sources">[240]</a></sup> |
+| Scaling | Allocation across the hired team | Sales leader once reps outnumber your hours |
+
+The sequence does not change. Only the founder's share of the work does.
+
+## Agentic layer
+
+Agents research accounts, draft first-line copy, and keep the CRM current
+while you stay in the conversation. They do not run discovery. You still own
+the learning, because the learning is the asset you are building. See
+[Agentic GTM overview](/docs/agentic/agentic-gtm-overview).
+
+---
+
 ## Common mistakes
 
 1. **Hiring a salesperson too early.** The founder is the best salesperson
@@ -224,6 +267,11 @@ specialize (Estner & Blank, 2024).
 
 ## Sources
 
+- [9] getSpike, 2026: pipeline coverage 3-4x mid-market, 4-5x enterprise. Source registry #9.
+- [29] Ebsta / Pavilion, 2021-2024: opportunity-to-closed-won about 21%. Source registry #29.
+- [240] Stage 2 Capital (Liz Christo), 2024: first GTM hire is not always sales. Source registry #240.
+- [313] David Skok, SaaS Metrics 2.0: CAC payback under 12 months is excellent. Source registry #313.
+- [329] Zeliq, Jul 2026: reply and meeting benchmarks. Source registry #329.
 - [Techstars, 2026](https://www.techstars.com/blog/founder-advice/founders-your-first-sales-hire-is-probably-a-mistake):
   founder-led sales critical in the first two years; first sales hire often a
   mistake; hire when you have pattern recognition to teach the motion.
