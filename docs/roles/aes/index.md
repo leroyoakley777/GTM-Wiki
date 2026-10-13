@@ -5,6 +5,7 @@ title: "Roles: AEs"
 description: "What account executives do, the numbers that gate them, and how to run the close from qualification to forecast."
 status: active
 tags: ['roles', 'index']
+last_updated: 2026-10-13
 ---
 
 # AEs
@@ -289,6 +290,42 @@ always in demand.
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly. Pull each number from the CRM, the forecast, and
+the deal records, not from the AE's own summary.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Win rate on qualified | Closed-won against qualified opportunities, measured against the ~29% qualified benchmark <sup><a href="#sources">[8]</a></sup> | Qualified win rate falls while the raw win rate holds |
+| Quota attainment | Reps at or above quota against the ~43-47% industry average <sup><a href="#sources">[7]</a></sup> | Attainment falls two quarters in a row |
+| Pipeline coverage | Open pipeline against quota, measured against 3-4x mid-market and 4-5x enterprise <sup><a href="#sources">[9]</a></sup> | Coverage under 3x with a win rate near 21% |
+| Sales cycle | Days from open to close against the segment norm <sup><a href="#sources">[29]</a></sup> | Cycle stretches while stage conversion holds |
+| Forecast accuracy | Committed deals that close against the 50-70% average and the 80-95% top-decile band <sup><a href="#sources">[137]</a></sup> | Committed deals slip without a paper process started |
+| Paper process | Deals with legal and security review open before the economic yes | Review starts after the buyer says yes |
+| Committee depth | Named contacts per deal against the 11-17 decision makers in an enterprise committee <sup><a href="#sources">[29]</a></sup> | One champion and no economic buyer on a large deal |
+| Disqualification rate | Deals killed at the qualification gate | No deal dies at the gate |
+
+Read the checklist before the forecast call, not after. A red row names the
+broken step in the close. More activity on a broken close does not fix it.
+
+## How the desk differs by stage
+
+The desk changes as the company moves. Run the row that matches your stage.
+
+| Stage | What the desk runs | Hire shape |
+|-------|--------------------|------------|
+| Seed | The founder closes the first deals and learns the objections | No dedicated desk |
+| Series A-B | Generalist AEs run full cycle from qualification to close | First AE hires, player-coach manager |
+| Series C+ | New business and expansion split into separate desks <sup><a href="#sources">[251]</a></sup> | Segment specialization by ACV |
+| Enterprise | Multi-threaded committee selling with a named account plan | Enterprise AEs with a supporting SE |
+
+The constraint changes by stage. A seed team needs one motion that works. A
+scale team needs new business and expansion to hold at once. The AE split
+decides the comp plan and the quota model.
+
+---
+
 ## Common mistakes
 
 ### 1. Presenting instead of discovering
@@ -365,3 +402,14 @@ future.
 - SalesFit, "Sales Quota Attainment Benchmarks 2025". The ~47 percent industry
   average and what separates high-performing teams.
   https://salesfit.ai/blog/sales-quota-attainment-benchmarks-2025
+
+---
+
+## Sources
+
+- [7] RepVue / Forrester, Q4 2024: quota attainment averages 43-47%. Source registry #7.
+- [8] SalesMotion, 2026: win rates run about 21% across all deals and about 29% on qualified opportunities; SMB wins at about 31% and enterprise at about 15%. Source registry #8.
+- [9] getSpike, 2026: pipeline coverage runs 3-4x for mid-market and 4-5x for enterprise. Source registry #9.
+- [29] Ebsta / Pavilion, 2021-2024: opportunity-to-closed-won runs about 21% on average; an enterprise buying committee holds 11-17 decision makers. Source registry #29.
+- [137] Forecastio, 2025: forecast accuracy lands at 50-70% for average teams and 80-95% for top-decile teams. Source registry #137.
+- [251] Predictable Revenue, Ross and Tyler, 2011: one SDR feeds two to five quota-carrying AEs; specialization separates prospecting from closing. Source registry #251.

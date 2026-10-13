@@ -38,9 +38,9 @@ structurally uncommittable, not caught by an auditor later.
 | 4 | Infraforge (via Martal) | 2026 | 2024 cold reply 5.1%, down from ~7% | OUTBOUND_RESPONSE_RATES_BENCHMARKS.md |
 | 5 | OptifAI | 2026 | Sales velocity $8,219/day; LTV:CAC 3.2:1; open rates cold/warm/cust 16.5/27.5/37.5%; NRR by ACV; SDR cost | GTM_METRICS + OUTBOUND + ROLES |
 | 6 | DigitalApplied | 2026 | CAC self-serve $702 / sales-led $11,400; payback 12mo (was 18–24); LTV:CAC floor 3:1 | GTM_METRICS_BENCHMARKS.md |
-| 7 | RepVue (Q4 2024) / Forrester | Q4 2024 | Quota attainment avg ~43–47% | GTM_METRICS + ROLES |
-| 8 | SalesMotion | 2026 | Win rates ~21% all / ~29% qualified / ~22% SaaS; 31% SMB vs 15% enterprise; ABM 45% vs 18% non-ABM | GTM_METRICS + live ABM page |
-| 9 | getSpike SaaS Marketing Benchmarks | 2026 | Pipeline coverage 3–4x mid / 4–5x ent; pipe-to-spend 5–8x healthy, 10x+ exceptional | GTM_METRICS_BENCHMARKS.md |
+| 7 | RepVue (Q4 2024) / Forrester | Q4 2024 | Quota attainment avg ~43–47% | GTM_METRICS + ROLES; docs/roles/aes/index.md |
+| 8 | SalesMotion | 2026 | Win rates ~21% all / ~29% qualified / ~22% SaaS; 31% SMB vs 15% enterprise; ABM 45% vs 18% non-ABM | GTM_METRICS + live ABM page; docs/roles/aes/index.md |
+| 9 | getSpike SaaS Marketing Benchmarks | 2026 | Pipeline coverage 3–4x mid / 4–5x ent; pipe-to-spend 5–8x healthy, 10x+ exceptional | GTM_METRICS_BENCHMARKS.md; docs/roles/aes/index.md |
 | 10 | ChurnZero | 2026 | NRR median ~102% | GTM_METRICS + PRICING |
 | 11 | ChartMogul (H1 2024) | H1 2024 | ≥100% NRR companies grew ~48% YoY | GTM_METRICS_BENCHMARKS.md |
 | 12 | Janis Zech | n/a | Coverage directional not law (hit quota at 1.8x, miss at 4x) | GTM_METRICS_BENCHMARKS.md |
@@ -65,7 +65,7 @@ structurally uncommittable, not caught by an auditor later.
 | 26 | Salesforce State of Sales | 2024 | MQL→SQL 13% (5,500 sales pros, 27 countries) | CONVERSION_RATE_BENCHMARKS.md |
 | 27 | thedigitalbloom | 2025 | MQL→SQL 15–21%; MQL→SQL bottleneck | CONVERSION_RATE + GTM_METRICS |
 | 28 | Zeliq | n/a | SQL→Opp 30–50%; Opp→Closed-Won 20–35% | CONVERSION_RATE_BENCHMARKS.md |
-| 29 | Ebsta / Pavilion | 2021–2024 | SQL→Opp 47%; Opp→Closed-Won 21% avg (down 4–6 pts from 2021) | CONVERSION_RATE + SALES_CYCLE + ROLES |
+| 29 | Ebsta / Pavilion | 2021–2024 | SQL→Opp 47%; Opp→Closed-Won 21% avg (down 4–6 pts from 2021) | CONVERSION_RATE + SALES_CYCLE + ROLES; docs/roles/aes/index.md |
 
 ### ABM / segmentation / strategy
 
@@ -193,7 +193,7 @@ structurally uncommittable, not caught by an auditor later.
 | 134 | Genesys Growth | 2026 | Cost per acquired lead 30-40% lower via partnerships than paid ads | docs/channels/04-partner.md |
 | 135 | GTM Syndicate | 2026 | Revenue architecture overview: six models and growth stages (framework ref); Revenue architecture overview: the six models and growth stages in visual form | docs/foundations/revenue-architecture.md |
 | 136 | Forrester State of ABM | 2024 | 68% higher win rates with defined ICP & 30% more marketing revenue (SiriusDecisions/Forrester); State of GTM 2024: 76% reinvented GTM approach, 70% of B2B buyer journey self-serve | docs/channels/09-abm.md; docs/data/01-gtm-metrics.md; docs/foundations/00-gtm-strategy-framework.md |
-| 137 | Forecastio | 2025 | Forecast accuracy bands: 50-70% average, 80-95% top-decile; most teams not close to own plan | foundations/06-revenue-operations.md |
+| 137 | Forecastio | 2025 | Forecast accuracy bands: 50-70% average, 80-95% top-decile; most teams not close to own plan | foundations/06-revenue-operations.md; docs/roles/aes/index.md |
 | 138 | First Round Review | n/a | Notion community, influencer, and growth playbooks (How Notion Does Marketing) | case-studies/04-community-led.md |
 | 139 | First Page Sage | 2024 | Visitor-to-lead 1.4% SMB; MQL-to-lead 36-47%; SQL-to-opp 36-48%; opp-to-closed-won 31-43%; trial-to-paid opt-in ~18%, opt-out ~49%, freemium ~3-9% | data/00-conversion-rate-benchmarks.md |
 | 140 | FeverBee | 2026 | Discourse scores 9/10 for discussions in 2026 platform comparison series | channels/05-community-led.md |
