@@ -5,7 +5,7 @@ title: "Roles: SDRs"
 description: "What SDRs do, the metrics that gate them, and how to run the meeting machine without burning people out."
 status: active
 tags: ['roles', 'index']
-last_updated: 2026-09-24
+last_updated: 2026-10-13
 ---
 
 # SDRs
@@ -275,6 +275,43 @@ not inevitable (SalesHive, 2026; Martal, 2026).
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly. Pull each number from the CRM, the dialer, and
+the calendar, not from the rep's own activity report.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Meetings held | Meetings held against the 12-per-month floor <sup><a href="#sources">[242]</a></sup> | Booked volume holds while held meetings fall |
+| Show rate | Attended meetings divided by booked meetings against the 80% bar <sup><a href="#sources">[242]</a></sup> | Show rate under 70% for two straight months |
+| Dial-to-meeting | Dials that convert to a booked meeting against the 2.3% average <sup><a href="#sources">[242]</a></sup> | Connect rate falls while dial volume rises |
+| Selling time | Hours a rep spends on live conversations against the two-hour daily budget <sup><a href="#sources">[242]</a></sup> | Activity logs stay high and selling time shrinks |
+| SAL acceptance | Meetings an AE accepts divided by meetings the desk books | AEs rework or refuse the handoff |
+| Ramp progress | A new hire against the graduated quota curve at weeks 7 and 12 | Full quota on day one, or no ramp at all |
+| Cost per meeting | Fully loaded cost against meetings held each month <sup><a href="#sources">[39]</a></sup> | Cost per meeting climbs while held meetings stay flat |
+| Turnover | Rolling annual attrition against the 40% average <sup><a href="#sources">[244]</a></sup> | Tenure falls under 18 months <sup><a href="#sources">[242]</a></sup> |
+
+Read the checklist before the forecast call, not after. A red row names the
+broken step in the loop. More dials into a broken loop does not fix it.
+
+## How the desk differs by stage
+
+The desk changes as the company moves. Run the row that matches your stage.
+
+| Stage | What the desk runs | Hire shape |
+|-------|--------------------|------------|
+| Seed | The founder prospects and books the first meetings | No dedicated desk |
+| Series A-B | One outbound pod and one inbound lane on shared tools | First SDR hire, player-coach |
+| Series C+ | Separate inbound and outbound teams with a dedicated manager | Pods of 1 SDR to 2-5 AEs <sup><a href="#sources">[251]</a></sup> |
+| Enterprise | Named-account research and multi-threaded outreach | Specialized enterprise SDRs |
+
+The constraint changes by stage. A seed team needs one motion that works. A
+scale team needs the inbound and outbound service levels to hold at once. One
+SDR feeds two to five quota-carrying AEs once the motion works, and that ratio
+decides when to split the lanes <sup><a href="#sources">[251]</a></sup>.
+
+---
+
 ## Related pages
 
 - [AEs](../aes/index.md): what happens after the handoff
@@ -306,3 +343,15 @@ not inevitable (SalesHive, 2026; Martal, 2026).
 - SV Academy, "Sales Development Representative Salary Guide: 2026 Data by
   City and Level". Base salary ranges by experience level.
   https://sv.academy/blog/sales-development-representative-salary
+
+---
+
+## Sources
+
+- [7] RepVue / Forrester, Q4 2024: quota attainment averages 43-47%. Source registry #7.
+- [39] AiSDR, 2026: a fully loaded SDR costs about $139,120 a year. Source registry #39.
+- [242] SalesHive, Jul 2026: 15 meetings booked a month at an 80% show rate (12 held); about 83% of SDRs miss quota monthly; cold-call connect 3-10% and about 2.3% dial-to-meeting; 46-73% of pipeline conversion; 94.4 activities a day with about two hours selling; ramp 3.1 months and tenure 1.8 years; structured onboarding cuts ramp to 6-8 weeks. Source registry #242.
+- [243] Crunchbase / The Bridge Group, Dec 2025: SDRs generate 30-45% of new revenue; one SDR produces about $3M in pipeline a year; outbound delivers 15 SALs a month with about 20% drop-off. Source registry #243.
+- [244] Martal, 2026: standard SDR comp is 60-70% base and 30-40% commission; average turnover about 40%. Source registry #244.
+- [245] SV Academy, 2026: SDR base pay by level, $50-60K entry, $60-75K mid, $70-90K senior. Source registry #245.
+- [251] Predictable Revenue, Ross and Tyler, 2011: one SDR feeds two to five quota-carrying AEs. Source registry #251.

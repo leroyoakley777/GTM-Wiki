@@ -88,6 +88,11 @@
   "generatedAt": "2026-10-13",
   "updates": [
     {
+      "date": "2026-10-13",
+      "text": "Docs update · IB-029.",
+      "items": []
+    },
+    {
       "date": "2026-10-12",
       "text": "Docs update · IB-029.",
       "items": []
@@ -125,24 +130,6 @@
         {
           "label": "interview and scorecard",
           "href": "/docs/recruiting/interview-and-scorecard"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "text": "Adoption and expansion, objection handling, launch and messaging · IB-024.",
-      "items": [
-        {
-          "label": "adoption and expansion",
-          "href": "/docs/product-marketing/adoption-and-expansion"
-        },
-        {
-          "label": "objection handling",
-          "href": "/docs/enablement/objection-handling"
-        },
-        {
-          "label": "launch and messaging",
-          "href": "/docs/product-marketing/launch-and-messaging"
         }
       ]
     }
