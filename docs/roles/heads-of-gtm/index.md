@@ -5,7 +5,7 @@ title: "Roles: Heads of GTM"
 description: "What a head of GTM owns: the operating rhythm of a revenue org, how the seat differs from sales and marketing leadership, when a company should build it, and how to run it."
 status: active
 tags: ['roles', 'index', 'heads-of-gtm', 'gtm-leadership', 'cro']
-last_updated: 2026-09-02
+last_updated: 2026-10-13
 ---
 
 # Heads of GTM
@@ -265,6 +265,49 @@ the one they need
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly. Each row pulls a number from the CRM and the
+forecast, not from the team's own summary.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Forecast accuracy | The number the team committed against the number that closed | A miss wider than 5% of the committed plan <sup><a href="#sources">[358]</a></sup> |
+| Quota attainment | Attainment by rep against the 43-47% average <sup><a href="#sources">[7]</a></sup> | Half the team under the floor for two quarters <sup><a href="#sources">[371]</a></sup> |
+| Stage conversion | SQL-to-opportunity and opportunity-to-closed-won by stage <sup><a href="#sources">[29]</a></sup> | Conversion falls while activity rises |
+| Handoff health | Leads and accounts that sit past the SLA between teams | Marketing and sales report different pipeline totals |
+| One set of numbers | Fields the functions agree on and one forecast | Each function keeps its own spreadsheet |
+| Net revenue retention | Expansion against the 102% median <sup><a href="#sources">[212]</a></sup> | NRR under 100% with no expansion path |
+| Acquisition cost by motion | Cost to acquire on each motion the team funds <sup><a href="#sources">[233]</a></sup> | Two motions funded, one produces |
+| Data hygiene | Share of contact records still valid <sup><a href="#sources">[300]</a></sup> | Automation runs on stale records |
+
+Read the checklist before the forecast call, not after. A red row changes the
+mandate, the allocation, or the definition of a qualified lead. More pipeline
+into the same funnel does not fix a red row.
+
+## How the seat differs by stage
+
+The seat changes as the company moves. Run the row that matches your stage.
+
+| Stage | What the seat runs | Hire shape |
+|-------|--------------------|------------|
+| Seed | The founder runs the motion and owns the number | No dedicated seat |
+| Series A-B | One operator sets the ICP, the pricing, and the first playbook | First head of GTM, player-coach |
+| Series C+ | Stage conversion, the forecast cadence, and comp design | Head of GTM plus a RevOps lead |
+| Enterprise | Multi-segment motions, territory design, and board reporting | CRO with function leaders under the seat |
+
+The constraint changes by stage. A seed team needs one motion that works. A
+scale team needs the seams between motions to hold.
+
+## Agentic layer
+
+Agents keep the shared numbers current. They reconcile CRM fields across
+functions, flag forecast drift before the call, and draft the weekly pipeline
+read. The seat still owns the mandate and the allocation. See
+[Agentic GTM overview](/docs/agentic/agentic-gtm-overview).
+
+---
+
 ## Further reading
 
 - [What is GTM](../../foundations/00-what-is-gtm.md). The system the seat
@@ -283,8 +326,15 @@ the one they need
 
 ---
 
-## Citations
+## Citations {#sources}
 
+- [7] RepVue / Forrester, Q4 2024: quota attainment averages 43-47%. Source registry #7.
+- [29] Ebsta / Pavilion, 2021-2024: SQL-to-opportunity 47%, opportunity-to-closed-won 21%. Source registry #29.
+- [212] ChurnZero, 2026: net revenue retention median 102%. Source registry #212.
+- [233] SaaS Hero, 2026: siloed teams carry 2x CAC; a unified system cuts CAC 20-40%. Source registry #233.
+- [300] ZoomInfo, GTM Leader Guide, 2026: role definition, archetypes, signal velocity, and roughly 70% annual contact-data staleness. Source registry #300.
+- [358] Xactly, 2024: only 20% of sales organizations forecast within 5% of projections. Source registry #358.
+- [371] OpenView, 2026: quota hit-rate benchmarks for human teams. Source registry #371.
 - ZoomInfo, GTM Leader Guide, 2026. https://pipeline.zoominfo.com/sales/gtm-leader-guide
 - Stage 2 Capital, Guide to Hiring Your First GTM Leader, 2024. https://www.stage2.capital/blog/guide-to-hiring-your-first-gtm-leader-what-startups-need-to-know
 - GTM Partners, GTM Operating System, 2025. https://gtmpartners.com/
