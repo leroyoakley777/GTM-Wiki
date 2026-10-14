@@ -5,7 +5,7 @@ title: "Roles: RevOps"
 description: "What revenue operations does as a seat: the operating rhythm, reporting structure, career ladder, compensation, and when a company should build it."
 status: active
 tags: ['roles', 'index', 'revops', 'revenue-operations']
-last_updated: 2026-09-02
+last_updated: 2026-10-14
 ---
 
 # RevOps
@@ -322,6 +322,44 @@ for. If they cannot, the company knows the real bottleneck
 
 ---
 
+## Inspection checklist
+
+Run this checklist monthly. Pull each number from the CRM, the forecast, and
+the pipeline reports, not from the team's own summary.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| Forecast accuracy | Committed deals that close against the 50-70% average and the 80-95% top-decile band <sup><a href="#sources">[137]</a></sup> | Committed deals slip while the stage data stays clean |
+| Forecast trust | Leaders who rate the forecast predictable against the under-20% baseline <sup><a href="#sources">[157]</a></sup> | Leaders keep a shadow forecast in a spreadsheet |
+| Quota attainment | Reps at or above quota against the 43-47% industry average <sup><a href="#sources">[7]</a></sup> | Attainment falls two quarters in a row |
+| Pipeline coverage | Open pipeline against quota, measured against 3-4x mid-market and 4-5x enterprise <sup><a href="#sources">[9]</a></sup> | Coverage sits under 3x while the win rate holds near 21% <sup><a href="#sources">[112]</a></sup> |
+| Win rate on qualified | Closed-won against qualified opportunities, measured against the ~29% qualified benchmark <sup><a href="#sources">[8]</a></sup> | Qualified win rate falls while the raw win rate holds |
+| Stage definitions | Deals that sit past a stage exit criterion without moving | Stage aging with no disqualification |
+| Contact data freshness | Records with a verified contact inside 90 days, against the ~70% annual decay rate <sup><a href="#sources">[300]</a></sup> | Bounce rate climbs while the list size holds |
+| Handoff service levels | Leads that reach sales inside the agreed window | Breaches repeat with no routing change |
+
+Read the checklist before the forecast call, not after. A red row names the
+broken seam. More reporting on a broken seam does not fix it.
+
+---
+
+## How the desk differs by stage
+
+The desk changes as the company moves. Run the row that matches your stage.
+
+| Stage | What the desk runs | Hire shape |
+|-------|--------------------|------------|
+| Seed | The founder or a generalist keeps the CRM and basic tracking | No dedicated seat |
+| Series A-B | One director-level lead owns process, data, and the forecast | First revenue operations hire, placed beside the first sales leader |
+| Series C+ | The team splits into operations, enablement, and insights | Specialists by function |
+| Enterprise | A named owner per system: CRM, territory and quota model, forecast | Operations leaders by domain, reporting to the CRO or the COO |
+
+The constraint changes by stage. A seed team needs one owner who keeps the
+records straight. A scale team needs process, data, and forecast ownership to
+hold at once, which is why the seat splits before the headcount grows.
+
+---
+
 ## Common mistakes
 
 **1. Hiring a dashboard analyst when you need a system owner.** The first
@@ -400,3 +438,15 @@ for the next hire
 - Revenue Operations Alliance (Andréa Faria), "What does a revenue operations
   leader actually do?" A working day in the seat, including the pushback and
   documentation duties. https://www.revenueoperationsalliance.com/a-day-in-the-life-of-a-revops-lead/
+
+---
+
+## Sources
+
+- [7] RepVue / Forrester, Q4 2024: quota attainment averages 43-47%. Source registry #7.
+- [8] SalesMotion, 2026: win rates run about 21% across all deals and about 29% on qualified opportunities. Source registry #8.
+- [9] getSpike, 2026: pipeline coverage runs 3-4x for mid-market and 4-5x for enterprise. Source registry #9.
+- [112] Lative, 2025: a 21% average B2B win rate needs about 4.8x pipeline coverage. Source registry #112.
+- [137] Forecastio, 2025: forecast accuracy lands at 50-70% for average teams and 80-95% for top-decile teams. Source registry #137.
+- [157] Challenger, 2024: fewer than 20% of sales leaders rated their forecast accuracy predictable. Source registry #157.
+- [300] ZoomInfo, 2026: about 70% of B2B contact data goes stale each year. Source registry #300.
