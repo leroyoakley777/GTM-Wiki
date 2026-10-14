@@ -5,7 +5,7 @@ title: Investors
 description: "How to read GTM in a portfolio company: the few numbers that tell the truth, the stage-appropriate motions, and the failure modes founders hide in a clean slide."
 status: active
 tags: [roles, investors, board, metrics, gtm]
-last_updated: 2026-09-08
+last_updated: 2026-10-14
 ---
 
 # Investors
@@ -45,6 +45,23 @@ Ask for the motion in artifacts, not adjectives:
 - The handoff note an AE actually receives.
 
 If outbound is "about to scale" and delivery is under 97% or reply is under 2%, they are about to scale a leak <sup><a href="#sources">[17]</a></sup><sup><a href="#sources">[329]</a></sup>.
+
+## Inspection checklist
+
+Run this checklist monthly. Pull each number from the company's own CRM and channel reports, not from the founder's summary.
+
+| Check | What you look for | Red flag |
+|-------|-------------------|----------|
+| ICP discipline | Written disqualifiers, named accounts | "Mid-market SaaS" as the whole answer |
+| Channel focus | One primary channel with math <sup><a href="#sources">[252]</a></sup> | Eight channels, each "strategic" |
+| Outbound delivery | Reply rates against the 3-5% average, meetings at 0.5-2% <sup><a href="#sources">[329]</a></sup> | Send volume climbs while replies flatline |
+| Close rate | Opp-to-close near ~21%, known by segment <sup><a href="#sources">[29]</a></sup><sup><a href="#sources">[8]</a></sup> | Meetings high, revenue flat |
+| Unit economics | LTV:CAC above 3:1, payback the company can fund <sup><a href="#sources">[313]</a></sup> | Growth with no payback story |
+| Net revenue retention | NDR near the ~110% public-SaaS level <sup><a href="#sources">[315]</a></sup><sup><a href="#sources">[340]</a></sup> | Logo growth hiding net-revenue holes |
+| Quota attainment | Reps at quota in the 27-30% band <sup><a href="#sources">[15]</a></sup> | Attainment falls two quarters in a row |
+| Top-seller concentration | The top 14% of sellers produce 80% of revenue <sup><a href="#sources">[339]</a></sup> | The next hire plan is the company |
+
+Read the checklist before the board meeting, not after. A red row names the broken assumption. More deck polish on a broken assumption does not fix it.
 
 ## Failure modes investors miss
 

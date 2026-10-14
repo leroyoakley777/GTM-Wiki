@@ -88,6 +88,11 @@
   "generatedAt": "2026-10-14",
   "updates": [
     {
+      "date": "2026-10-14",
+      "text": "Docs update · IB-029.",
+      "items": []
+    },
+    {
       "date": "2026-10-13",
       "text": "Docs update · IB-029.",
       "items": []
@@ -112,24 +117,6 @@
         {
           "label": "writing a research brief",
           "href": "/docs/resources/writing-a-research-brief"
-        }
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "text": "Vet a benchmark, escalation and severity, interview and scorecard · IB-024.",
-      "items": [
-        {
-          "label": "vet a benchmark",
-          "href": "/docs/resources/vet-a-benchmark"
-        },
-        {
-          "label": "escalation and severity",
-          "href": "/docs/support/escalation-and-severity"
-        },
-        {
-          "label": "interview and scorecard",
-          "href": "/docs/recruiting/interview-and-scorecard"
         }
       ]
     }
