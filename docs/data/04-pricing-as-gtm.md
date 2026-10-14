@@ -5,7 +5,7 @@ title: Pricing as a GTM Lever
 description: "Why pricing is a go-to-market lever, not a finance decision: value metric, packaging, discounting, and expansion pricing numbers that shape win rate and LTV."
 status: active
 tags: ['data', 'pricing', 'gtm']
-last_updated: 2026-09-13
+last_updated: 2026-10-14
 ---
 
 # Pricing as a GTM Lever
@@ -182,6 +182,7 @@ Three. Rewrite one tier as a customer group, not a segment. Take the single feat
 - [Market Segmentation](/docs/data/market-segmentation): packaging is built on customer groups, not segments.
 - [Revenue Architecture](/docs/foundations/revenue-architecture): the Growth Formula that pricing feeds.
 - [Competitive Analysis](/docs/foundations/competitive-analysis): why competitive price benchmarking is the wrong input.
+- [Pricing Framework](/docs/foundations/pricing): the foundations treatment of the pricing system.
 
 ## Related pages
 

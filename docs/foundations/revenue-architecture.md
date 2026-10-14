@@ -4,7 +4,7 @@ title: "Revenue Architecture"
 sidebar_position: 2
 description: "Revenue architecture as the operating system of a recurring-revenue business: the revenue factory, four principles, six interconnected models, GTM motions as production lines, and the growth formula."
 status: active
-last_updated: 2026-09-05
+last_updated: 2026-10-14
 tags: [revenue-architecture, foundations, wbd, framework, revenue-factory, gtm-motions]
 domain: foundations
 parent: foundations/index
@@ -315,3 +315,5 @@ These are the ways the factory dies in practice, and the fix.
   channel selection frameworks.
 - [Agentic GTM Overview](/docs/agentic/agentic-gtm-overview) covers how AI
   operates the factory.
+- [Pricing Framework](/docs/foundations/pricing) covers the pricing system
+  as a GTM decision.
