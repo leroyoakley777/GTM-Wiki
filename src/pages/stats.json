@@ -1,5 +1,5 @@
 {
-  "pages": "115",
+  "pages": "116",
   "sections": "20",
   "sectionCounts": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "flows",
-      "pages": 6
+      "pages": 7
     },
     {
       "id": "foundations",
@@ -88,6 +88,16 @@
   "generatedAt": "2026-10-15",
   "updates": [
     {
+      "date": "2026-10-15",
+      "text": "Expansion and renewal · IB-011.",
+      "items": [
+        {
+          "label": "expansion and renewal",
+          "href": "/docs/flows/expansion-and-renewal"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "text": "Pricing as gtm, revenue architecture · IB-027, IB-029.",
       "items": [
@@ -110,24 +120,6 @@
       "date": "2026-10-12",
       "text": "Docs update · IB-029.",
       "items": []
-    },
-    {
-      "date": "2026-10-11",
-      "text": "Sourcing and pipeline, account health and churn signals, writing a research brief · IB-024.",
-      "items": [
-        {
-          "label": "sourcing and pipeline",
-          "href": "/docs/recruiting/sourcing-and-pipeline"
-        },
-        {
-          "label": "account health and churn signals",
-          "href": "/docs/support/account-health-and-churn-signals"
-        },
-        {
-          "label": "writing a research brief",
-          "href": "/docs/resources/writing-a-research-brief"
-        }
-      ]
     }
   ]
 }

@@ -166,6 +166,7 @@ const sidebars = {
         'flows/sales-process-meddpicc',
         'flows/buyers-journey',
         'flows/expansion-and-renewal',
+        'flows/inbound-pipeline',
         'contributing',
         'culture/index',
         'culture/inspection-and-deal-review',
