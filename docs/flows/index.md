@@ -33,6 +33,7 @@ Humans keep judgment on the send.
 - [Outbound: from list to pipeline](./outbound): the executable version of [outbound-from-zero](../playbooks/outbound-from-zero). Decision gate → list → channel/tooling → sequence → run/measure → handoff, with an ASCII decision tree for the branches an operator hits.
 - [Agentic Outbound: the use](./agentic-outbound): the same motion under an agent use. The layer stack (data/compose/orchestration/triage), the augment-don't-replace rule, the triage decision tree, and the autonomy-placement table.
 - [Sales Process: the MEDDPICC flow](./sales-process-meddpicc): six stage-gated stages from qualification to closed-won. The activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis.
+- [Expansion and Renewal: the post-sale flow](./expansion-and-renewal): the months between the signature and the renewal. The value milestones, the expansion trigger, the renewal clock, the churn save, and the agentic SOP that watches the signals.
 
 More flows land here as the playbooks and agentic pages mature.
 

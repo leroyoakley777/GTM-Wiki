@@ -1,5 +1,5 @@
 {
-  "pages": "114",
+  "pages": "115",
   "sections": "20",
   "sectionCounts": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "flows",
-      "pages": 5
+      "pages": 6
     },
     {
       "id": "foundations",
@@ -85,12 +85,21 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "updates": [
     {
       "date": "2026-10-14",
-      "text": "Docs update · IB-029.",
-      "items": []
+      "text": "Pricing as gtm, revenue architecture · IB-027, IB-029.",
+      "items": [
+        {
+          "label": "pricing as gtm",
+          "href": "/docs/data/pricing-as-gtm"
+        },
+        {
+          "label": "revenue architecture",
+          "href": "/docs/foundations/revenue-architecture"
+        }
+      ]
     },
     {
       "date": "2026-10-13",

@@ -172,6 +172,10 @@ Rejection rows filed by ~/.hermes/scripts/gtm-wiki-auditor.sh (never edits conte
 | IA-86 | Wiki auditor 2026-10-13: post-commit audit REJECT on roles/aes/index — instrument: missing fence | — | — | docs/roles/aes/index.md |
 | IA-87 | Wiki auditor 2026-10-13: post-commit audit REJECT on roles/heads-of-gtm/index — instrument: missing sources,fence | — | — | docs/roles/heads-of-gtm/index.md |
 | IA-88 | Wiki auditor 2026-10-13: post-commit audit REJECT on roles/sdrs/index — instrument: missing fence | — | — | docs/roles/sdrs/index.md |
+| IA-89 | Wiki auditor 2026-10-14: post-commit audit REJECT on data/04-pricing-as-gtm — design: model call failed or timed out | — | — | docs/data/04-pricing-as-gtm.md |
+| IA-90 | Wiki auditor 2026-10-14: post-commit audit REJECT on foundations/revenue-architecture — design: The page is missing a frontmatter description, has no section intro prose for How revenue architecture varies by company stage, and the failure-modes section reads like a SaaS pitch deck — marketing f | — | — | docs/foundations/revenue-architecture.md |
+| IA-91 | Wiki auditor 2026-10-14: post-commit audit REJECT on roles/investors/index — instrument: missing fence | — | — | docs/roles/investors/index.md |
+| IA-92 | Wiki auditor 2026-10-14: post-commit audit REJECT on roles/revops/index — instrument: missing fence | — | — | docs/roles/revops/index.md |
 ## 🔵 Lower Impact, Higher Effort (Strategic)
 
 | ID | Issue | Effort | Impact | Touches |

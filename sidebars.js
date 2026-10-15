@@ -165,6 +165,7 @@ const sidebars = {
         'flows/agentic-outbound',
         'flows/sales-process-meddpicc',
         'flows/buyers-journey',
+        'flows/expansion-and-renewal',
         'contributing',
         'culture/index',
         'culture/inspection-and-deal-review',
