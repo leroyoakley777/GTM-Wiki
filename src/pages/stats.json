@@ -89,8 +89,12 @@
   "updates": [
     {
       "date": "2026-10-15",
-      "text": "Inbound pipeline, expansion and renewal · IB-011.",
+      "text": "Product qualified flow, inbound pipeline, expansion and renewal · IB-011.",
       "items": [
+        {
+          "label": "product qualified flow",
+          "href": "/docs/flows/product-qualified-flow"
+        },
         {
           "label": "inbound pipeline",
           "href": "/docs/flows/inbound-pipeline"
