@@ -35,6 +35,7 @@ Humans keep judgment on the send.
 - [Sales Process: the MEDDPICC flow](./sales-process-meddpicc): six stage-gated stages from qualification to closed-won. The activities, the partner-channel angle, the resources and artifacts each stage needs, the exit criteria that gate it, and the agentic SOP that writes the value hypothesis.
 - [Expansion and Renewal: the post-sale flow](./expansion-and-renewal): the months between the signature and the renewal. The value milestones, the expansion trigger, the renewal clock, the churn save, and the agentic SOP that watches the signals.
 - [Inbound Pipeline: the inbound flow](./inbound-pipeline): the executable inbound sequence from capture to closed-won. The qualification standard, the routing rules, the nurture track, the SDR-to-AE handoff, and the agentic SOP that watches the funnel.
+- [Product-Qualified Flow: the product-led pipeline](./product-qualified-flow): the executable product-led sequence from visitor to closed-won. The trial model, the activation event, the product-qualified trigger, the self-serve upgrade path, the sales handoff, and the agentic SOP that watches the free tier.
 
 More flows land here as the playbooks and agentic pages mature.
 
