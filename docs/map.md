@@ -4,7 +4,7 @@ title: Map
 description: "The whole wiki in one view: every section, its pages, and what it covers."
 status: active
 tags: ['map', 'gtm']
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Map
@@ -23,7 +23,7 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 08 | [Tools](/docs/tools) | 1 | The GTM tools market and how tools map to motion. |
 | 09 | [Data](/docs/data) | 7 | Benchmark data and GTM metrics behind decisions, each number named and dated. |
 | 10 | [GTM Engineering](/docs/gtm-engineering) | 6 | The engineering layer of a GTM system: the data layer, model orchestration, skills and tools, CI/CD, observability, and experimentation. |
-| 11 | [Flows](/docs/flows) | 8 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
+| 11 | [Flows](/docs/flows) | 9 | The runnable sequences and decision trees an operator executes: the how, not the what. Agentic flows add the architecture that runs them. |
 | 12 | [Case Studies](/docs/case-studies) | 5 | Documented GTM outcomes grouped by channel: proof of what's possible with intent, next to the benchmarks that show what's typical. |
 | 13 | [Launch](/docs/launch) | 1 | The launch post: what this wiki is, how agents build it, and why it stays public. |
 | 14 | [Culture](/docs/culture) | 3 | How GTM culture shows up in pipeline quality: inspection habits, honesty about numbers, and the failure modes that turn a desk into a grind. |
@@ -36,4 +36,4 @@ The whole wiki in one view. This page is generated from the docs tree, so it alw
 | 21 | [Agent Ops](/docs/agent-ops) | 8 | Run GTM as governed agent operations, with scheduled fleets, cheap typed decisions, model cost discipline, and verified outputs. |
 | 22 | [Book Library](/docs/library) | 2 | Sales and marketing books distilled to the ideas this wiki is built on: one page per discipline, each book compressed to its operating ideas. |
 
-**22 sections · 123 pages · generated 2026-10-15**
+**22 sections · 124 pages · generated 2026-10-16**

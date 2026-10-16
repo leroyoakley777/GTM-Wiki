@@ -168,6 +168,7 @@ const sidebars = {
         'flows/expansion-and-renewal',
         'flows/inbound-pipeline',
         'flows/product-qualified-flow',
+        'flows/referral-and-viral',
         'contributing',
         'culture/index',
         'culture/inspection-and-deal-review',

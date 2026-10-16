@@ -1,5 +1,5 @@
 {
-  "pages": "117",
+  "pages": "118",
   "sections": "20",
   "sectionCounts": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "flows",
-      "pages": 8
+      "pages": 9
     },
     {
       "id": "foundations",
@@ -85,7 +85,7 @@
   ],
   "openSource": "100%",
   "vendorDecks": "0",
-  "generatedAt": "2026-10-15",
+  "generatedAt": "2026-10-16",
   "updates": [
     {
       "date": "2026-10-15",
