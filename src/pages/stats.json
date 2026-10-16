@@ -1,5 +1,5 @@
 {
-  "pages": "119",
+  "pages": "120",
   "sections": "20",
   "sectionCounts": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "flows",
-      "pages": 9
+      "pages": 10
     },
     {
       "id": "foundations",
@@ -89,8 +89,12 @@
   "updates": [
     {
       "date": "2026-10-16",
-      "text": "Referral and viral · IB-011.",
+      "text": "Sales process design, referral and viral · IB-011.",
       "items": [
+        {
+          "label": "sales process design",
+          "href": "/docs/playbooks/sales-process-design"
+        },
         {
           "label": "referral and viral",
           "href": "/docs/flows/referral-and-viral"

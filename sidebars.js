@@ -169,6 +169,7 @@ const sidebars = {
         'flows/inbound-pipeline',
         'flows/product-qualified-flow',
         'flows/referral-and-viral',
+        'flows/partner-led',
         'contributing',
         'culture/index',
         'culture/inspection-and-deal-review',
