@@ -1,5 +1,5 @@
 {
-  "pages": "118",
+  "pages": "119",
   "sections": "20",
   "sectionCounts": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "id": "playbooks",
-      "pages": 3
+      "pages": 4
     },
     {
       "id": "product-marketing",
@@ -87,6 +87,16 @@
   "vendorDecks": "0",
   "generatedAt": "2026-10-16",
   "updates": [
+    {
+      "date": "2026-10-16",
+      "text": "Referral and viral · IB-011.",
+      "items": [
+        {
+          "label": "referral and viral",
+          "href": "/docs/flows/referral-and-viral"
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "text": "Product qualified flow, inbound pipeline, expansion and renewal · IB-011.",
@@ -121,11 +131,6 @@
     },
     {
       "date": "2026-10-13",
-      "text": "Docs update · IB-029.",
-      "items": []
-    },
-    {
-      "date": "2026-10-12",
       "text": "Docs update · IB-029.",
       "items": []
     }
