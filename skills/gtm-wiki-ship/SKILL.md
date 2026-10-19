@@ -216,6 +216,25 @@ git add -A && git commit -m "docs: <what changed>" && git push origin main
   the generator, rebuild, and stage the regenerated files in the SAME commit
   as the generator change — an unstaged regeneration leaves the repo (and the
   Vercel build) serving the old content while local looks fixed.
+- A backlog row can be stale: a prior ship does the work and never stamps the
+  row. Before you treat a row as open, run `git log --oneline -3 -- <the row's
+  page>`. If the work already shipped, stamp the row with that SHA in the same
+  cycle and take the next open row. Re-shipping a done row burns a whole cycle.
+- The lane picks rows that ADD a page or section. Skip any row whose Touches
+  column is `All pages`, `Multiple docs`, or a bare directory sweep with no
+  completion condition (IB-009, IB-010, IB-011, IB-012 never close). Take the
+  first open row that names one page or one new file.
+- `IMPROVEMENT-BACKLOG.md` is usually dirty with uncommitted auditor rows from
+  a sibling job. Stamp only your own row: `git diff -- IMPROVEMENT-BACKLOG.md`,
+  keep the hunk that holds your row, `git apply --cached` that single hunk,
+  then commit. A plain `git add -A` sweeps the sibling's rows into your commit.
+- `npm run ship:gate 2>&1 | tail -25` hides the gate result behind the pipe.
+  Run `npm run ship:gate > /tmp/gate.log 2>&1; echo EXIT=$?` and read the
+  number. The build tail alone does not prove exit 0.
+- A fresh page needs a registry row before it can cite a source. Reusing a
+  source on a second page means appending that page to the row's Backing
+  column. `validate-sources.mjs --strict` matches the name only, so an
+  unlisted backing cell passes the gate and still leaves the registry wrong.
 
 ## Verification
 
