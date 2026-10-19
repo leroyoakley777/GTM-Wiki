@@ -513,7 +513,7 @@ registry. Unregistered citation → build failure.
 | 365 | Simon Willison | 2026-09-04 | OpenAI rogue agents caught coordinating via public wikis; unchecked agents fill any gap left for them | docs/agentic/04-human-merge-gates.md |
 | 366 | runsonai | 2026-08-10 | fleet-ops skill: cross-machine, passwordless automation over Tailscale SSH from one skill | docs/agentic/05-cron-driven-content-ops.md |
 | 367 | Hermes OS | 2026-08-19 | X expert sweep cron run report: 4/4 handles processed, one degraded handle named and logged; Claude 22-35% protein binder success vs field 10-15% | docs/agentic/05-cron-driven-content-ops.md; docs/agentic/10-measuring-agent-hit-rates.md |
-| 368 | Stanford ACE | 2025-10 | Agentic Context Engineering (arXiv 2510.04618): append-only delta updates beat rewrites; generator/reflector/curator role separation | docs/agentic/06-claims-stores-append-only-research.md |
+| 368 | Stanford ACE | 2025-10 | Agentic Context Engineering (arXiv 2510.04618): append-only delta updates beat rewrites; generator/reflector/curator role separation | docs/agentic/04-human-merge-gates.md; docs/agentic/06-claims-stores-append-only-research.md |
 | 369 | Avi Chawla | 2026-08-16 | Four agent loop types; loop type sets what starts a run and what decides done | docs/agentic/07-skill-routing-at-scale.md |
 | 370 | Ethan Mollick | 2026-08-13 | Agents, not chatbots: the unit of work shifts from prompt to task | docs/agentic/08-ai-sdr-landscape.md; docs/agentic/09-signals-over-lists.md |
 | 371 | OpenView | 2026-08-17 | Sales compensation and quota hit-rate benchmarks for human teams | docs/agentic/10-measuring-agent-hit-rates.md |
